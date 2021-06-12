@@ -1,4 +1,4 @@
-![Header](https://github.com/roblack/WWDC21Lounges/blob/main/imgs/GithubCover.jpg)
+![Header](https://github.com/roblack/WWDC21Lounges/blob/main/GithubCover.jpg)
 
 # WWDC21Lounges
 
