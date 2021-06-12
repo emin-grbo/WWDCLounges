@@ -142,7 +142,7 @@ Please check out this awesome session by the Game Technologies team if you haven
 
 ---
 
-## 🗓Wednesday
+## 🗓 Wednesday
 
 ---
 
