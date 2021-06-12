@@ -1,19 +1,10 @@
-[Accessibility Lounge QAs](https://roblack.github.io/WWDC21Lounges/a11y/) | Digit | [DevTools Lounge QAs](https://roblack.github.io/WWDC21Lounges/devTools/)
+[SwiftUI Lounge QAs](https://roblack.github.io/WWDC21Lounges/) | [Accessibility Lounge QAs](https://roblack.github.io/WWDC21Lounges/a11y/) | [DevTools Lounge QAs](https://roblack.github.io/WWDC21Lounges/devTools/)
 ------ | ------|----------
-by [paul](https://twitter.com/squarefrog)      | 4     | by [paul](https://twitter.com/squarefrog)
-
-[Accessibility Lounge QAs](https://roblack.github.io/WWDC21Lounges/a11y/)
-> consolidated by [paul](https://twitter.com/squarefrog)
-
----
-
-[DevTools Lounge QAs](https://roblack.github.io/WWDC21Lounges/devTools/)
-> consolidated by [paul](https://twitter.com/squarefrog)
+by [emin](https://twitter.com/emin_roblack)      | by [paul](https://twitter.com/squarefrog)     | by [paul](https://twitter.com/squarefrog)
 
 ---
 
 # SwiftUI Lounge QAs
-> consolidated by [emin](https://twitter.com/emin_roblack)
 
 ## 🗓 Tuesday
 
