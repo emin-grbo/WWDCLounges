@@ -1,4 +1,6 @@
-## SwiftUI Lounge QAs - consolidated by [emin](https://twitter.com/emin_roblack)
+# SwiftUI Lounge QAs - consolidated by [emin](https://twitter.com/emin_roblack)
+
+## 🗓 Tuesday
 
 ### Q:
 What's your recommended approach to displaying a new macOS window? Not a new document or a confirmation dialog, just "here is some information that makes sense to show right now", such as unlocking an IAP. I've seen hacks with `handlesExternalEvents()` but it's not very pleasant.
@@ -527,6 +529,9 @@ Will give you a menu item titled “New Viewer Window”.
 This title will also be used for the default window title, which can be changed with navigationTitle(_:).
 
 ---
+	
+## 🗓 Friday
+---
 
 ### Q:
 Hello,
@@ -971,6 +976,9 @@ What I like to do is (1) copy that type, then (2) add a top-level type alias: ty
 
 Then you can write class MyHostingController: UIHostingController<MyModifiedView>
 
+---
+	
+## 🗓 Thursday
 ---
 
 ### Q:
@@ -1834,6 +1842,9 @@ is the refreshable property the only SwiftUI property that supports async code?
 ### A:
 The task modifier also provides support for async code out of the box! Generally, we only make user provided closures async if we can provide some additional utility to you by doing so, such as canceling a task when the attached view’s lifetime ends, or finishing the refresh animation. If you want to dispatch to async code in other places, you can use an async block!  
 
+---
+	
+## 🗓 Wednesday
 ---
 
 ### Q:
