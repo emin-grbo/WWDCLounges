@@ -1,7 +1,5 @@
 ## SwiftUI Lounge QAs - consolidated by [emin](https://twitter.com/emin_roblack)
 
-## SwiftUI Lounge QAs
-
 ### Q:
 What's your recommended approach to displaying a new macOS window? Not a new document or a confirmation dialog, just "here is some information that makes sense to show right now", such as unlocking an IAP. I've seen hacks with `handlesExternalEvents()` but it's not very pleasant.
 
