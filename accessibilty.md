@@ -1,4 +1,4 @@
-## Tuesday
+## 🗓 Tuesday
 
 ### Q:
 As a relatively new iOS developer, what should I keep in mind for developing more accessible apps?
@@ -131,7 +131,9 @@ Please check out this awesome session by the Game Technologies team if you haven
 
 ---
 
-## Wednesday
+## 🗓Wednesday
+
+---
 
 ### Q:
 When coming to Haptics does iOS provide a way to check if users want haptics enabled? Thanks!
@@ -444,7 +446,11 @@ How do you handle potential “over verbosity” when using VoiceOver. Sometimes
 ### A:
 Hey Christian! We have a session coming up this Friday called “Tailor the VoiceOver experience in your data-rich apps”, and it will cover precisely this, so stay tuned! I’d ask the presenter any questions you have afterward during that watch party.
 
-## Thursday
+---
+
+## 🗓 Thursday
+
+---
 
 ### Q:
 When designing Accessibility Label/Value/Hint content, what considerations do we need to think about for refreshable braille displays?
@@ -594,8 +600,11 @@ Is Full Keyboard Access a good way for developers to test our apps' experience w
 ### A:
 You can test SC w/o specialized hardware by adding a Screen switch in the Switch Control menu - this allows you to tap anywhere on the screen to activate the switch. You can also use (new in iOS 15) Sound Actions to test w/o specialized hardware - just my making sounds like “shh” or “pop”
 
+---
 
-## Friday
+## 🗓 Friday
+
+---
 
 ### Q:
 One of my favorite features on Apple TV is the High-Contrast Focus Style. This feature adds an additional white border around focused cells. I've never been able to find an API to implement this for a custom collection view cell. A similar question was asked in the forums a few years ago and has more details: https://developer.apple.com/forums/thread/99313
