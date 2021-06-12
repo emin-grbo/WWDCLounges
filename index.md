@@ -35,7 +35,7 @@ Howdy! There was a similar question yesterday about Spacer ‘versus’ frame, c
 
 > To add a little more onto this, even in cases where you will get almost entirely the same behavior between the two, the performance difference will be so minimal that I would strongly suggest prioritizing code readability over performance / memory use to make this decision. If Spacer makes it more clear what layout you’re trying to specify, use that, and vice versa.
 
-But the gist is: they both have their purposes and are extremely efficient from a performance perspective. So, you should focus on what your intention is and which reads better or offers the functionality you’re trying to utilize as you construct your hierarchies :slightly_smiling_face:
+But the gist is: they both have their purposes and are extremely efficient from a performance perspective. So, you should focus on what your intention is and which reads better or offers the functionality you’re trying to utilize as you construct your hierarchies
 
 ---
 
@@ -62,10 +62,10 @@ Currently you need to use a representable to access that property.
 Are you able to give some indication of why the semantic background colors from UIKit are missing? We only have `Color.background` as opposed to the main varying alternatives, and it's annoying to have to wrap them repeatedly. 
 
 ### A:
-A goal for us is that the Color and other API we provide works great on all platforms. So there are often other APIs to help get those effects: for instance GroupBox on iOS will produce the stacking (secondary and so on) system background colors, and on macOS gives you a similar effect but using the more platform appropriate group box (9-part) artwork instead of colors at all. The new .primary, .secondary, .tertiary, .quaternary shape styles are similar in that they also work across platforms and now can correctly give the correct vibrant rendering effect on top of materials :smile:
+A goal for us is that the Color and other API we provide works great on all platforms. So there are often other APIs to help get those effects: for instance GroupBox on iOS will produce the stacking (secondary and so on) system background colors, and on macOS gives you a similar effect but using the more platform appropriate group box (9-part) artwork instead of colors at all. The new .primary, .secondary, .tertiary, .quaternary shape styles are similar in that they also work across platforms and now can correctly give the correct vibrant rendering effect on top of materials
 So while we might not add a Color for everything that UIKit has, we do want to make sure we have coverage for those design concepts. (so specific feedbacks on things that are missing are always appreciated!)
 
-Things like label , secondaryLabel, etc are all achievable using those shape styles above and are even smarter in those material contexts :slightly_smiling_face: , i.e. .foregroundStyle(.secondary)
+Things like label , secondaryLabel, etc are all achievable using those shape styles above and are even smarter in those material contexts, i.e. .foregroundStyle(.secondary)
 
 ---
 
@@ -78,7 +78,7 @@ Only views that read properties of the object should update, but do note that if
 ---
 
 ### Q:
-I'm trying to update a Text view based on some state (eg. from a text field). The text is inside a scroll view, and I am using `ScrollViewReader` to scroll to the end whenever the text changes. For some reason, `scrollTo` doesn't work until I manually start scrolling — after that it works fine :thinking_face:
+I'm trying to update a Text view based on some state (eg. from a text field). The text is inside a scroll view, and I am using `ScrollViewReader` to scroll to the end whenever the text changes. For some reason, `scrollTo` doesn't work until I manually start scrolling — after that it works fine
 ```
 struct Foo: View {
 	@State private var text = ""
@@ -105,7 +105,7 @@ struct Foo: View {
 ```
 
 ### A:
-Howdy! Please file feedback with this sample code, this looks like an issue the team should take a look at. Additionally, you should take a look at the new TimelineView and replace your use of Timer here. It’s not recommended to declare new objects in your view’s initializer without a @StateObject or @ObservedObject property wrapper, if you must use a Timer, store it inside an ObservableObject that you can refer to as a StateObject, or another similar technique. (edited)
+Howdy! Please file feedback with this sample code, this looks like an issue the team should take a look at. Additionally, you should take a look at the new TimelineView and replace your use of Timer here. It’s not recommended to declare new objects in your view’s initializer without a @StateObject or @ObservedObject property wrapper, if you must use a Timer, store it inside an ObservableObject that you can refer to as a StateObject, or another similar technique. 
 
 ---
 
@@ -237,7 +237,7 @@ I am using `@ObservedObject` now for my model, since I still need to support iOS
 ### A:
 For supporting iOS 13, you’ll need to use @ObservedObject and keep your object alive through some other means, like using a static property or keeping a reference in your application delegate.
 
-I don’t think trying to switch between observed object and state object buys you much here, since changing the owner of the object with availability checks would be awkward. (edited) 
+I don’t think trying to switch between observed object and state object buys you much here, since changing the owner of the object with availability checks would be awkward.  
 
 ---
 
@@ -281,7 +281,7 @@ If you aren’t doing so already, it also may be good to debounce the queries.
 when creating a `UIViewRepresentable`, it is dangerous for the `Coordinator` to hold an instance of the `UIView` passed in `updateUIView()` or should it be strictly treated as ephemeral?
 
 ### A:
-That is OK! Your coordinator will have been created before any views are — so in makeUIView you can give the coordinator a reference to that view (edited) 
+That is OK! Your coordinator will have been created before any views are — so in makeUIView you can give the coordinator a reference to that view  
 
 ---
 
@@ -361,7 +361,7 @@ Additional info pending
 [SE-309](https://github.com/apple/swift-evolution/blob/main/proposals/0309-unlock-existential-types-for-all-protocols.md) allows using protocols with associated types as existentials, assumedly including `View`. At that point, will there be a difference between a `View` existential and `AnyView` in terms of view identity?
 
 ### A:
-I :heart:  that proposal! I can’t comment on implementation details, but generally AnyView erases more information than an existential, so the existential would still have the edge.
+I ♥️ that proposal! I can’t comment on implementation details, but generally AnyView erases more information than an existential, so the existential would still have the edge.
 
 ---
 
@@ -420,7 +420,7 @@ Howdy! Great question, I don’t believe there’s a way to get the resolved fon
 Are there any methods that allow restriction of view orientation to just landscape or just portrait on a per view basis without defaulting  to UIHostingviewcontroller
 
 ### A:
-I’m afraid not currently. :pensive:  That would be a great enhancement request Feedback!
+I’m afraid not currently. That would be a great enhancement request Feedback!
 
 ---
 
@@ -501,7 +501,7 @@ struct ContentView: View {
   }
 }
 Then you can use your height State property like usual.
-:warning: Beware: You must ensure you will not cause a continuous layout loop here, if your layout responds to height changing in a way that causes the GeometryReader to lay out again and cause height to get updated, you can get into a loop!
+⚠️ Beware: You must ensure you will not cause a continuous layout loop here, if your layout responds to height changing in a way that causes the GeometryReader to lay out again and cause height to get updated, you can get into a loop!
 
 ---
 
@@ -560,7 +560,7 @@ https://developer.apple.com/wwdc21/10021
 If we break our Views into separate some View properties to help readability, is there much cost to marking those other properties as ViewBuilders to get the nicer syntax? Is that something we need to worry about?
 
 ### A:
-Nope, in fact, we encourage you to do so! Using the @ViewBuilder syntax helps nudge you towards structuring your code in a way that SwiftUI can make use of intelligently, so using it in more places is never a problem. Check out the talk, Demystify SwiftUI for more on this! (edited) 
+Nope, in fact, we encourage you to do so! Using the @ViewBuilder syntax helps nudge you towards structuring your code in a way that SwiftUI can make use of intelligently, so using it in more places is never a problem. Check out the talk, Demystify SwiftUI for more on this! 
 https://developer.apple.com/videos/play/wwdc2021/10022/
 
 ---
@@ -580,9 +580,9 @@ Dumb question here... but I was just playing around with the code in the Advance
 
 ### A:
 Sorry about that! That’s a known issue in beta 1.
-As a quick workaround to see the same smooth effect today, you can manually cache the resolved images. (edited)
+As a quick workaround to see the same smooth effect today, you can manually cache the resolved images. 
 
-One thing you could try is moving that resolution to be outside of the inner for loop, so it only happens once. (cheating since for the code snippet it only uses the swift bird rather than every symbol like my demo had :sweat_smile:). 
+One thing you could try is moving that resolution to be outside of the inner for loop, so it only happens once. (cheating since for the code snippet it only uses the swift bird rather than every symbol like my demo had). 
 
 ---
 
@@ -750,7 +750,7 @@ Could you elaborate some on what you’re trying to achieve? There is the contro
 Is there a way to disable the scrolling on a List so I can use it within a ScrollView? I have a ScrollView, inside which I'm placing an Image, some Text, and then I would like to be able to place a List. However, currently, the List doesn't appear unless I give it a fixed frame size, and the List is also separately scrollable. Is there a way around this?
 
 ### A:
-I’m sorry, but that’s not currently supported. :pensive:
+I’m sorry, but that’s not currently supported.
 If you would be able to file an enhancement request Feedback with your use case, I’d really appreciate it! I know Feedback can seem like a black box (sorry about that), but they really do help us, even if we can’t respond directly to every request.
 
 ---
@@ -821,7 +821,6 @@ Thanks for the question! I’m afraid I don’t have a great answer here, but th
 
 One option is to use a representable to embed a UITabBarController, so you can hook the delegate methods.
 
-Curt (Apple):couch_and_lamp:  1 day ago
 Another option, if you can detect when the user taps the same SwiftUI tab again, is to decorate your NavigationView with .id(counter), where counter is @State private var counter = 0.
 
 Then when the user taps the same SwiftUI tab again, you can increment counter, which changes the identity of the navigation view, causing SwiftUI to replace it.
@@ -898,7 +897,7 @@ Hi! Thanks for answering questions here! I have an app that needs to hide the ho
 
 ### A:
 Thanks for the question. I’m afraid we don’t have SwiftUI API for this currently. Using UIKit is the best option for now.
-If you could submit an enhancement request Feedback, I’d really appreciate it. :pray::skin-tone-3:
+If you could submit an enhancement request Feedback, I’d really appreciate it.
 
 ---
 
@@ -958,7 +957,7 @@ class TestViewController: UIViewController {
 ```
 
 ### A:
-Great question! Here’s a technique, though it runs the risk of angle-bracket-blindness :sunglasses: …
+Great question! Here’s a technique, though it runs the risk of angle-bracket-blindness …
 
 In class MyHostingController: UIHostingController<MyView> MyView isn’t really the right type.
 
@@ -966,7 +965,7 @@ You want the type of MyView().environment(\.managedObjectContext, persistentCont
 
 On the let hostingController = …  line, you’re probably getting an error message about the types not matching. That error message will include the full type of the right-hand side of the assignment.
 
-Something like ModifiedContent<MyView, …> with lots of stuff inside the … there. :slightly_smiling_face:
+Something like ModifiedContent<MyView, …> with lots of stuff inside the … there.
 
 What I like to do is (1) copy that type, then (2) add a top-level type alias: typealias MyModifiedView = ModifiedContent<MyView, …> where the right-hand side is the value I copied from the error message.
 
@@ -1155,7 +1154,7 @@ Should `@State` and `@StateObject` be usually defined as `private`?
 ### A:
 Yes! It's often helpful to make them private to indicate that the state is for this view and its descendants.
 
-Thank you! It was a great talk! :slightly_smiling_face:
+Thank you! It was a great talk!
 
 ---
 
@@ -1282,7 +1281,7 @@ I’m sorry, but we don’t provide API to control scene storage. The intent is 
 As a college student, working as an intern at Apple is really important to me. What is your best recommendation for individuals considering applying for an internship at Apple, whether it be related to a resume, project types, or otherwise?
 
 ### A:
-It’s great to hear you’re interested in working at Apple! I joined as an intern so I can definitely relate to the craziness of applying, but it is absolutely worth doing. Interning at Apple is a really wonderful experience, and you really do some incredible work over the course of an internship! Getting hired at Apple means being very intentional about what you’re looking for, and the best way to do that is to explore the jobs site for roles you think you can do, and applying specifically for that role. We have thousands of hiring managers and I don’t know most of them, so my recommendation won’t carry much weight, so I can’t be of much help there. My best advice is to create a compelling cover letter and résumé that expresses why you are right for this specific role, rather than applying for dozens of jobs at once. (edited) 
+It’s great to hear you’re interested in working at Apple! I joined as an intern so I can definitely relate to the craziness of applying, but it is absolutely worth doing. Interning at Apple is a really wonderful experience, and you really do some incredible work over the course of an internship! Getting hired at Apple means being very intentional about what you’re looking for, and the best way to do that is to explore the jobs site for roles you think you can do, and applying specifically for that role. We have thousands of hiring managers and I don’t know most of them, so my recommendation won’t carry much weight, so I can’t be of much help there. My best advice is to create a compelling cover letter and résumé that expresses why you are right for this specific role, rather than applying for dozens of jobs at once.  
 
 There’s lots more information for you here as well: https://www.apple.com/careers/us/students.htm
 
@@ -1315,7 +1314,7 @@ Fundamentally these should provide the same behavior, in almost all use cases th
 Will TextEditor have any level of support for AttributedStrings?
 
 ### A:
-While we can’t comment on any future plans, please do file a request through feedback assistant for any improvements to TextEditor that you would like to see! (edited) 
+While we can’t comment on any future plans, please do file a request through feedback assistant for any improvements to TextEditor that you would like to see!  
 
 ---
 
@@ -1410,7 +1409,7 @@ Yep!
 This isn't a technical question, but what is your favorite part about working on the SwiftUI Team?
 
 ### A:
-The people, both inside and outside of Apple, by a million miles! Everyone I’ve worked with here at Apple is kind, empathetic, thoughtful, and incredibly passionate about the work we do. It requires lots of collaboration to pull all the work we do into one cohesive framework, so working with a great team is super important. Re. people outside of Apple, you all are the best community I could imagine. It’s really wonderful getting your feedback, hearing from you at WWDC, seeing you at community events, etc. As Josh said, empowering you all to make amazing apps is really special. (edited) 
+The people, both inside and outside of Apple, by a million miles! Everyone I’ve worked with here at Apple is kind, empathetic, thoughtful, and incredibly passionate about the work we do. It requires lots of collaboration to pull all the work we do into one cohesive framework, so working with a great team is super important. Re. people outside of Apple, you all are the best community I could imagine. It’s really wonderful getting your feedback, hearing from you at WWDC, seeing you at community events, etc. As Josh said, empowering you all to make amazing apps is really special.  
 
 ---
 
@@ -1543,7 +1542,7 @@ Is there a suggested way or best practice to show a UIDocumentPickerViewControll
 ### A:
 You should check out the .fileImporter modifier if you haven’t already:
 https://developer.apple.com/documentation/swiftui/form/fileimporter(ispresented:allowedcontenttypes:allowsmultipleselection:oncompletion:)
-If you are encountering a specific issue that you think may be a bug, please file a Feedback report! (edited) 
+If you are encountering a specific issue that you think may be a bug, please file a Feedback report!  
 
 ---
 
@@ -1586,7 +1585,7 @@ Are NavigationLinks "lazy" in iOS 15?
 ### A:
 NavigationLinks do not fully resolve their destinations until they are triggered, though the value of the destination view is created when the NavigationLink is created.
 In general, we recommend avoiding as much work as possible when a view is initialized, which would avoid potential issues here. This is important for performance. Instead, have that work be triggered within the view’s body, such as using onAppear or the new task() modifier.
-SwiftUI may reinitialize views for any number of reasons, and this is a normal part of the update process. (edited) 
+SwiftUI may reinitialize views for any number of reasons, and this is a normal part of the update process.  
 
 ---
 
@@ -1606,7 +1605,7 @@ Those should function appropriately on cold launch. Please file a feedback with 
 
 - What’s the easiest way to setup the site association file for the example?
 
-:thinking_face: That is an excellent question. Just the general shape of the application and where it's wired in will go a long way, even if the entire association isn't hooked up.
+That is an excellent question. Just the general shape of the application and where it's wired in will go a long way, even if the entire association isn't hooked up.
 
 ---
 
@@ -1662,7 +1661,7 @@ If you have a more custom UI element where you want that scaling, you could buil
 
 - Ooo - I’ll have to read up about that. Is there a talk with more in depth discussion of material?
 
-Today’s rich graphics session is the one you’re looking for :slightly_smiling_face: https://developer.apple.com/videos/play/wwdc2021/10021/
+Today’s rich graphics session is the one you’re looking for https://developer.apple.com/videos/play/wwdc2021/10021/
 
 ---
 
@@ -1791,7 +1790,7 @@ Does AsyncImage support caching, and will there be an API to customize that cach
 ### A:
 AsyncImage uses the shared URLSession , and so uses the shared URLCache. There’s currently no support for customizing the cache.
 
-If that’s something you’d like support for though, feel free to file feedback with that request :slightly_smiling_face:
+If that’s something you’d like support for though, feel free to file feedback with that request
 
 ---
 
@@ -1833,7 +1832,7 @@ There is also a new environment property introduced this year that can accomplis
 is the refreshable property the only SwiftUI property that supports async code?
 
 ### A:
-The task modifier also provides support for async code out of the box! Generally, we only make user provided closures async if we can provide some additional utility to you by doing so, such as canceling a task when the attached view’s lifetime ends, or finishing the refresh animation. If you want to dispatch to async code in other places, you can use an async block! (edited) 
+The task modifier also provides support for async code out of the box! Generally, we only make user provided closures async if we can provide some additional utility to you by doing so, such as canceling a task when the attached view’s lifetime ends, or finishing the refresh animation. If you want to dispatch to async code in other places, you can use an async block!  
 
 ---
 
@@ -1883,7 +1882,7 @@ This really depends on your particular app and use case. It would be a great que
 Does using more SF Symbols have an impact on total app size? Or they all are stored in the OS?
 
 ### A:
-These are part of the OS, so you can feel free to go wild with all the symbols you want with no impact to app size :smile:
+These are part of the OS, so you can feel free to go wild with all the symbols you want with no impact to app size
 
 ---
 
@@ -1925,9 +1924,9 @@ Take a look at the EnvironmentValues.refresh property. The refreshable modifier 
 Can we use the new buttons with non-SF single-color graphics?
 
 ### A:
-Yep, in fact the new buttons can have a label of any view, including shapes and more! :smile:
+Yep, in fact the new buttons can have a label of any view, including shapes and more!
 
-The one thing to be careful of with custom images is that they use template rendering if you want the standard foreground styling within the button. (otherwise they’ll be the exact color of the image’s pixels) (edited) 
+The one thing to be careful of with custom images is that they use template rendering if you want the standard foreground styling within the button. (otherwise they’ll be the exact color of the image’s pixels)  
 
 ---
 
