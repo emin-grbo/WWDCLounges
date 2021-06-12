@@ -1,5 +1,5 @@
 ---
-[SwiftUI Lounge QAs](index.md)
+# [SwiftUI Lounge QAs](index.md)
 > consolidated by [emin](https://twitter.com/emin_roblack)
 ---
 <!-- [Accessibility Lounge QAs](accessibilty.md)
