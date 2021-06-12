@@ -1,7 +1,3 @@
-# SwiftUI Lounge QAs
-> consolidated by [emin](https://twitter.com/emin_roblack)
----
-
 [Accessibility Lounge QAs](accessibilty.md)
 > consolidated by [paul](https://twitter.com/squarefrog)
 ---
@@ -11,6 +7,7 @@
 ---
 
 # SwiftUI Lounge QAs
+> consolidated by [emin](https://twitter.com/emin_roblack)
 
 ## 🗓 Tuesday
 
