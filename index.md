@@ -1,9 +1,9 @@
-[Accessibility Lounge QAs](accessibilty.md)
+[Accessibility Lounge QAs](https://roblack.github.io/WWDC21Lounges/a11y/)
 > consolidated by [paul](https://twitter.com/squarefrog)
 
 ---
 
-[DevTools Lounge QAs]()
+[DevTools Lounge QAs](https://roblack.github.io/WWDC21Lounges/devTools/)
 > consolidated by [paul](https://twitter.com/squarefrog)
 
 ---
