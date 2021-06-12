@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+## SwiftUI Lounge QAs
 
-You can use the [editor on GitHub](https://github.com/roblack/WWDC21Lounges/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Q:
+What's your recommended approach to displaying a new macOS window? Not a new document or a confirmation dialog, just "here is some information that makes sense to show right now", such as unlocking an IAP. I've seen hacks with `handlesExternalEvents()` but it's not very pleasant.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### A:
+We don’t have much API in this area. A NavigationLink when used within a commands context will open a new window, and as you noted, handlesExternalEvents can be used to, though this is primarily due to the default behavior of that modifier, which is to create a new window for the given scene, if no windows prefer to handle the event. We’d love a feedback for this functionality, and if you can share any specifics of your use case in it, that is even better. Thanks!
 
-### Markdown
+---
+### Q:
+For SwiftUI macOS document apps, is there a recommended way to save and restore window size and position?
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### A:
+Hi, when state restoration is not enabled on macOS, this is expected behavior at the moment. We’d welcome a feedback for this, though. If you could include any information about your use case as well, that’d be very helpful. Thanks!
+---
+### Q:
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/roblack/WWDC21Lounges/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### A:
