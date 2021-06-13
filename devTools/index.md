@@ -1657,8 +1657,9 @@ What kind of apps can be created and submitted to the App Store? iPad and iPhone
 ### A:
 Apps built using Swift Playgrounds are built universal against the iOS SDK, so when they’re distributed using TestFlight or the App Store, they’ll run on iPhone, iPad, and Apple Silicon Macs.
 
-
 ---
+
+## 🗓 Thursday
 
 ### Q:
 What are best practices for including and managing a lot of Swift Package dependencies in a project?  Adding them to the project file doesn't scale well after more than a handful.
