@@ -1660,6 +1660,8 @@ Apps built using Swift Playgrounds are built universal against the iOS SDK, so w
 
 ---
 
+## 🗓 Thursday
+
 ### Q:
 What are best practices for including and managing a lot of Swift Package dependencies in a project?  Adding them to the project file doesn't scale well after more than a handful.
 
@@ -2115,5 +2117,68 @@ Is there a way to check to see if there are updates available without installing
 
 ### A:
 There's not a convenient command to do this yet. As a workaround, you could perform an update, then revert your `Package.resolved` file to its prior state with your source control system to go back to your old dependency versions.
+
+---
+
+## 🗓 Friday
+
+### Q:
+What is the recommended practice to run a test case only on the specific OS version?
+Adding `@available(iOS 14, *)` directive on the top of class declarations seems not working somehow.
+
+### A:
+The recommended way for this is to use one of the XCTest APIs to skip the test if the required APIs are not available.  There is more information at https://developer.apple.com/documentation/xctest/methods_for_skipping_tests
+
+---
+
+### Q:
+Maybe this has been asked, but with the new TestFlight crash logging in Xcode Organizer, will there be a way to integrate this with issue trackers like Jira?
+
+### A:
+Sorry, we don't have the answer to your question in this lab, but, if you haven't already seen it, I would recommend checking out the Triage TestFlight crashes in Xcode Organizer video at https://developer.apple.com/wwdc21/10203
+
+---
+
+### Q:
+Are there any recommended workflows for using run scripts inside of a Package.swift file? There have definitely been a few times where I've wanted to have my Package.swift file generate things like compiled protobuf models. Thanks!
+
+### A:
+[SE-0303](https://github.com/apple/swift-evolution/blob/main/proposals/0303-swiftpm-extensible-build-tools.md) defines new functionality in SwiftPM enabling the creation of structured plugins for code generation.
+
+---
+
+### Q:
+Can Static Analyzer in Xcode 13 find dead code like unused variables and methods?
+
+### A:
+Xcode provides compiler warnings for unused local variables and unused static functions and unused C++ private methods. There are no warnings for unused Objective-C methods because in Objective-C it's a fairly hard technical problem as it's a very dynamic language. The static analyzer provides additional warnings for problems that require deeper analysis such as unused initializations or assignments that get immediately overwritten ("dead stores") and redundant if-clauses and operands in expressions (new in this release! - off by default, see the "Unused Code" section in build settings).
+
+> Do Static Analyzer works with Swift?
+
+The static analyzer can detect bugs in C/C++ and ObjC code. It doesn’t detect bugs in Swift code. However, you can use the analyzer on mixed Swift-ObjC projects. We recommend running the analyzer on your project if it has C/C++ or ObjC code as some issues the analyzer can detect on ObjC code can manifest as hard-to-find bugs when used from Swift.
+
+---
+
+### Q:
+How big would be the time impact on building with Xcode if I turn ON the “Analyze During build flag?”
+
+### A:
+Usually we expect 2-5x slowdown. You can set mode for analysis to "Shallow", which is generally faster (2-3x slowdown), but finds fewer bugs.
+
+---
+
+### Q:
+Does the Static Analyzer, analyzes the full source code of my project including third party libraries and frameworks? If so, can I configure which frameworks to exclude?
+
+### A:
+This is a great question! The static analyzer will analyze all third party code as long as it's getting compiled when you're building your app (i.e., binary frameworks aren't analyzed) and it's written in a language supported by the static analyzer (i.e. C/C++/Objective-C but not Swift). There is no way to exclude individual frameworks but given that the source code is available, you may have a chance to edit it to suppress unwanted warnings.
+
+---
+
+### Q:
+Is there any point in running on the static analyzer on pure Swift code?
+
+### A:
+If your app has only Swift code, the analyzer wouldn’t find any issues. However, if your project has ObjC code as well, we recommend running the analyzer.
 
 ---
