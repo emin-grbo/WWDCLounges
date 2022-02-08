@@ -55,17 +55,6 @@ Will Xcode Cloud be available to teams enrolled in the Apple Developer Enterpris
 No. Xcode Cloud is initially supported for Apple Developer Program teams. You can read more about requirements on this page:
 https://developer.apple.com/documentation/xcode/requirements-for-using-xcode-cloud
 
-
----
-
-### Q:
-Will Xcode Cloud be available to teams enrolled in the Apple Developer Enterprise Program?
-
-### A:
-No. Xcode Cloud is initially supported for Apple Developer Program teams. You can read more about requirements on this page:
-https://developer.apple.com/documentation/xcode/requirements-for-using-xcode-cloud
-
-
 ---
 
 ### Q:
