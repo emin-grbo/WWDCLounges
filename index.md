@@ -256,15 +256,15 @@ Do you know of reasons this might happen? All I can think of is that the views t
 ### A:
 NavigationLink by design doesn’t flow EnvironmentObjects through to its destination as it’s unclear where the environmentObject should be inherited from. I suspect this might what’s causing your issue. In order to get the behavior you expect, you’ll have to explicitly pass the environmentObject through at that point.
 
+You can also apply the environmentObject to the NavigationView itself, which will make it available to all pushed content.
+
 ---
 
 ### Q:
 Will the project in its entirety from **Build apps that share data through CloudKit and Core Data (wwdc21-10015)** be available for download?
 
 ### A:
-NavigationLink by design doesn’t flow EnvironmentObjects through to its destination as it’s unclear where the environmentObject should be inherited from. I suspect this might what’s causing your issue. In order to get the behavior you expect, you’ll have to explicitly pass the environmentObject through at that point.
 
-You can also apply the environmentObject to the NavigationView itself, which will make it available to all pushed content.
 
 ---
 
