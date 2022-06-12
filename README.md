@@ -1,4 +1,4 @@
-![Header](https://github.com/roblack/WWDC21Lounges/blob/gh-pages/GithubCover.jpg)
+![Header](https://user-images.githubusercontent.com/21968377/173248484-1c2a9d58-f725-4379-9a50-744428b52222.png)
 
 # WWDCLounges
 
