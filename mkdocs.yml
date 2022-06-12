@@ -1,0 +1,41 @@
+site_name: WWDC Lounges
+#site_url: https://example.com/
+use_directory_urls: false
+
+nav:
+   - Welcome: index.md
+   - WWDC 21:
+        - SwiftUI: wwdc21/SwiftUI.md
+        - A11y: wwdc21/a11y.md
+        - DevTools: wwdc21/DevTools.md
+   - WWDC 22:
+        - in progress: wwdc22/template.md
+   
+plugins:
+  - search
+
+theme:
+  name: material
+  favicon: img/favicon.ico
+  logo: img/logo.png
+  features:
+    - search.share
+    - search.highlight
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      accent: cyan
+      primary: black
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      accent: cyan
+      primary: black
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+extra_css:
+- css/app.css
