@@ -16,3 +16,4 @@ This year we came prepared and saved all the lounges. It will take a bit to form
 In case you want to be notified on the progress, find me on [Twitter](https://twitter.com/emin_ui), or start the repo ⭐️
 
 # Contribute
+see [contributing](https://github.com/roblack/WWDCLounges/blob/main/CONTRIBUTING.md)
