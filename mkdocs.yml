@@ -9,6 +9,7 @@ nav:
         - A11y: wwdc21/a11y.md
         - DevTools: wwdc21/DevTools.md
    - WWDC 22:
+        #- L10n & i18n: wwdc22/localization-and-internationalization.md
         - in progress: wwdc22/template.md
    
 plugins:
