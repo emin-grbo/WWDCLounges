@@ -350,13 +350,14 @@ I meant to type "devide that image by its alpha channel"
 Oh of course! Thanks! 
 WIth a custom CIKernel like this: 
 
-```    float4 alpha_denorm (sample_t i)
+```    
+float4 alpha_denorm (sample_t i)
     {
         if (i.a &gt; 0.001)
             return float4(i.rgb / i.a, 1.0);
         return i;
-    }``
-` 
+    }
+``` 
 
 --- 
 > ####  Since CIFilters aren't thread safe, what would be the recommended way to structure a render pipeline if I want to use Swift concurrency? Especially when one wants to initialize the filter once and reuse it for multiple renders.
@@ -591,10 +592,12 @@ But should it be possible to use Live Text then, without directly getting access
 
 P.S. for now, I constantly receive the following error:
 
-```Assertion failure in -[UIKeyboardCameraSession _keyboardCameraPreparationDidComplete]
+```
+Assertion failure in -[UIKeyboardCameraSession _keyboardCameraPreparationDidComplete]
 
-Terminating app due to uncaught exception 'NSInternalInconsistencyException', reason: 'Keyboard Camera is being used without remote keyboards enabled``
-` 
+Terminating app due to uncaught exception 'NSInternalInconsistencyException', reason: 'Keyboard Camera is being used without remote keyboards enabled
+``` 
+
 What API do you call to get Live Text in the keyboard?
 
 I am not sure how the Keyboard Camera is implemented but if it tries to use the camera within your process, that makes sense why you are seeing that error 
@@ -608,7 +611,8 @@ And I was trying to make my UIInputViewController as both of them while returnin
 And the code I’ve been trying to run is close to the similar:
 
 
-```class KeyboardViewController: UIInputViewController {
+```swift
+class KeyboardViewController: UIInputViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -633,8 +637,8 @@ extension KeyboardViewController: UIKeyInput {
     func deleteBackward() {
         textDocumentProxy.deleteBackward()
     }
-}``
-` 
+}
+``` 
 <@U03HHA1D44F> hey again,
 
 Couldn’t get to the lab today regarding this question. Would be grateful for some attention to the feedback ticket regarding that issue. It has a test project attached, which helps reproduce the issue:

@@ -84,12 +84,14 @@ How are you storing the days/hours prior to localization?
 For example, is it a `Date`, or are you receiving the data in some other form? 
 it would be a JSON from an API response in english,
 
-```{
+```json
+{
 day: 0,
 start: "0700",
 end: "2300"
-}``
-`
+}
+```
+
 and 0 means sunday as specified in the API 
 Got it. You should be able to sort directly on those strings. For the first day of the week issue, you can check `Calendar.firstWeekday`. 
 (on the current user default calendar) 
