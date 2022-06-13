@@ -1,7 +1,7 @@
-# Localization and internationalization Lounge QAs
-#### by [emin](https://twitter.com/emin_ui)
----
+# localization-and-internationalization-lounge QAs
+#### by [emin_ui](https://twitter.com/emin_ui)
 
+ --- 
 > ####  Sometimes there is a difference in font size(width/height) between LTR and RTL , how can we make this better?
 
 There are a couple of things you could be seeing and I’d like to understand which it might be.
@@ -74,7 +74,7 @@ On the plus side, you _can_ in fact localize for English variants, like English 
 Yeah, it would be wonderful to have a feedback! 
 Thanks! Created FB10115590 :blush: 
 
---- 
+ --- 
 > ####  How do we format and sort time values in a localized way? for example, if i'm showing a list of hours of operation for the week, the time strings will be different (24 hr vs 12 hr), and the order of the week days will be different (starting on monday vs sunday).
 
 Hi! For sorting, it would be best to sort based on the original binary data, then use .formatted() to produce a localized time and/or date. 
@@ -87,8 +87,8 @@ it would be a JSON from an API response in english,
 day: 0,
 start: "0700",
 end: "2300"
-}```
-
+}``
+`
 and 0 means sunday as specified in the API 
 Got it. You should be able to sort directly on those strings. For the first day of the week issue, you can check `Calendar.firstWeekday`. 
 (on the current user default calendar) 
@@ -98,7 +98,7 @@ You should be able to put a weekday/hour/minute in `DateComponents` and then use
 You can then make a `DateInterval` from two Dates for the range (e.g. "9 AM - 5 PM") and then use `.formatted()` on that. 
 One more note: when using `Calendar` to convert `DateComponents` to `Date`, set the time zone to GMT to avoid Daylight Time issues. Same with `.formatted()` 
 
---- 
+ --- 
 > ####  We have an app that has English only features. Let's imagine that's as an advanced assistant for editing English texts and our assistant doesn't support other languages.  If we localize our app, would it improve user experience for people who use English as a second language, or would it only confuse them on why their main language is not supported, since we only expect English texts for now?
 
 Hi Roman, I think it’ll depend on exactly what your app does.

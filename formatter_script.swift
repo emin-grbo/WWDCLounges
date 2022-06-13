@@ -46,7 +46,7 @@ class ParsableChannel {
     let channel: Channel
     lazy var root = """
     # \(channel.name) QAs
-    #### by [\(twitterUserHandle)](https://twitter.com/\(twitterUserHandle)
+    #### by [\(twitterUserHandle)](https://twitter.com/\(twitterUserHandle))
     ---
 
     """
@@ -133,9 +133,7 @@ struct ChannelWriter {
             .replacingOccurrences(of: "&gt;", with: "")
             .replacingOccurrences(of: "\n", with: "")
             .replacingOccurrences(of: #"<.*> asked"#, with: "", options: .regularExpression)
-
-        let messageMarkdown = "> #### \(formattedMessage) \n"
-
+        let messageMarkdown = "\n--- \n> #### \(formattedMessage)\n\n"
         let repliesMarkdown: [String] = message.slackdumpThreadReplies?.compactMap { $0.text }.map { text in
             // Need to add a new line when closing a code block
             var stringToReturn = "\(text) \n"
