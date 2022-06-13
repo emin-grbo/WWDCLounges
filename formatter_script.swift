@@ -49,7 +49,7 @@ let outputMarkdown = channel
             .replacingOccurrences(of: "&gt;", with: "")
             .replacingOccurrences(of: "\n", with: "")
             .replacingOccurrences(of: #"<.*> asked"#, with: "", options: .regularExpression)
-        let messageMarkdown = "\n --- \n> #### \(formattedMessage)\n\n"
+        let messageMarkdown = "\n--- \n> #### \(formattedMessage)\n\n"
         let repliesMarkdown: [String] = message.slackdumpThreadReplies?.compactMap { $0.text }.map { text in
             // Need to add a new line when closing a code block
             var stringToReturn = "\(text) \n"
