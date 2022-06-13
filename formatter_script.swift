@@ -37,7 +37,7 @@ let channel = try! decoder.decode(Channel.self, from: data)
 
 var markdownTemplate = """
 # \(channel.name) QAs
-#### by [\(twitterUserHandle)](https://twitter.com/\(twitterUserHandle)
+#### by [\(twitterUserHandle)](https://twitter.com/\(twitterUserHandle))
 ---
 
 """
@@ -50,7 +50,7 @@ let outputMarkdown = channel
             .replacingOccurrences(of: "&gt;", with: "")
             .replacingOccurrences(of: "\n", with: "")
             .replacingOccurrences(of: #"<.*> asked"#, with: "", options: .regularExpression)
-        let messageMarkdown = "> #### \(formattedMessage) \n"
+        let messageMarkdown = "\n> #### \(formattedMessage)\n"
         let repliesMarkdown: [String] = message.slackdumpThreadReplies?.compactMap { $0.text }.map { text in
             // Need to add a new line when closing a code block
             var stringToReturn = "\(text) \n"
