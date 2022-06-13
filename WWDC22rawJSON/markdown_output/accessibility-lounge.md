@@ -399,13 +399,15 @@ You can use `setAccessibilityElementsHidden` in UIKit or `.accessibilityHidden()
 <https://developer.apple.com/documentation/objectivec/nsobject/1615080-accessibilityelementshidden?language=objc> 
 Just looked at how my UIKit code works. I have a hierarchy inside my main view (xib)
 
-```UISegmentedControl
+```Swift
+UISegmentedControl
 UIScrollView
    UIView
        UIView backgroundImage
        UIView backgroundColor
-       UIView backgroundShader``
-` 
+       UIView backgroundShader
+``` 
+
 I'm just toggling `backgroundImage.isHidden` (etc) and relying on that to hide all the innermost controls 
 what view contains the controls? 
 you'd want to set accessibilityElementsHidden on the view that contains all the controls you don't want VoiceOver to see 
@@ -419,7 +421,8 @@ If you tap the segmented control to change to the other elements being visible, 
 It seems that the explicit toggling of `isHidden` on the parent views is enough to fix things for VoiceOver *but* relying on the initial `isHidden` from the xib, at view load, is not. 
 I'm loading these detail editor VCs with
 
-```    func hostVC(_ vc:UIViewController) {
+```Swift
+func hostVC(_ vc:UIViewController) {
 
         for child in children {
             child.willMove(toParent: nil)
@@ -439,8 +442,8 @@ I'm loading these detail editor VCs with
         vc.view.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
 
         vc.didMove(toParent: self)
-    }``
-` 
+    }
+``` 
 
 --- 
 > ####  Is there a list of the upcoming languages supported by VoiceOver? Also, can we have a way to programmatically ask the accessibility framework what languages are currently supported? We're running into an issue where in visual text we support Vietnamese, but VoiceOver doesn't. We'd prefer VoiceOver to use a fallback like English in that case.
