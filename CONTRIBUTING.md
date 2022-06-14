@@ -4,12 +4,11 @@ First of all, thank you! Any help is more then welcomed, and even if you can onl
 - choose one of the lounges JSON files not yet formatted from **WWDC22rawJSON** folder.
   - [X] localization-and-internationalization ([emin](https://twitter.com/emin_ui))
   - [ ] watchOS-lounge
-  - [ ] accessibility
+  - [X] accessibility ([shir](https://github.com/shirblc))
   - [ ] arkit-realitykit
   - [ ] audio-and-video
-  - [ ] design
+  - [X] design ([shir](https://github.com/shirblc))
   - [ ] graphics-and-games
-  - [ ] localization-and-internationalization
   - [ ] object-capture-and-room-plan
   - [ ] photos-camera
   - [ ] swiftUI

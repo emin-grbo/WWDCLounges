@@ -94,7 +94,8 @@ let’s back up a bit, in that case. Is your app storyboard-based or SwiftUI (Ap
 SwiftUI 
 if you’re using `App`, you need to annotate your App type with `@main`, e.g.:
 
-```@main 
+```swift
+@main 
 struct MyApp: App {
     var body: some Scene {
         WindowGroup {
@@ -103,8 +104,9 @@ struct MyApp: App {
             }
         }
     }
-}``
-` 
+}
+``` 
+
 In my `WatchApp.swift`  file found in my WatchKit Extension I do have my  App type annotated with `@main` , is that what you are referring to? 
 yep. we might need to look at your project together, then. can you sign up for one of the watchOS labs and note in your question that you were referred from the digital lounge? 
 sure do you have a link to the labs sign up so i make sure i go to the right place? 
