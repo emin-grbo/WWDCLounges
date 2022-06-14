@@ -121,7 +121,8 @@ Got it, thanks!
 
 macOS 12 added these new APIs to NSScreen.
 
-```// Variable Rate Refresh
+```objective-c
+// Variable Rate Refresh
 @interface NSScreen ()
 
 /** The maximum frames per second this screen supports.
@@ -151,8 +152,9 @@ macOS 12 added these new APIs to NSScreen.
 */
 @property (readonly) NSTimeInterval lastDisplayUpdateTimestamp API_AVAILABLE(macos(12.0));
 
-@end``
-` 
+@end
+``` 
+
 If you are managing your own refresh timer, these can be helpful. 
 But if you’re just doing normal AppKit stuff, you don’t need to take any action. NSAnimation functionality, for example, will “do the right thing.” 
 
@@ -340,7 +342,8 @@ Yes, we have labs on Thursday and Friday. Make sure to sign up!
 Provide a `LPLinkMetadata` object to the activity view controller. The easiest way to do this is using a `UIActivityItemsConfiguration` object.
 
 
-```let sharedItem = NSItemProvider(contentsOf: url)
+```swift
+let sharedItem = NSItemProvider(contentsOf: url)
 
 let aic = UIActivityItemsConfiguration(itemProviders: [sharedItem])
 
@@ -355,8 +358,8 @@ aic.linkMetadata = lm
 
 let avc = UIActivityViewController(activityItemsConfiguration: aic)
 
-// present avc``
-` 
+// present avc
+``` 
 
 --- 
 > ####  Hi, how can I change some properties of NSWindow (such as the titlebar color) when using Catalyst?
@@ -652,7 +655,8 @@ WRT configuring XPC connections:
 We recommend that the app that defines the extension point provided a framework to extension developers. This framework should specialize the ExtensionKit protocols. This is a quick example of something such a framework might implement 
 
 
-```struct ExampleConfiguration&lt;E:ExampleExtension&gt;: AppExtensionConfiguration {
+```swift
+struct ExampleConfiguration&lt;E:ExampleExtension&gt;: AppExtensionConfiguration {
     
     let exportedObject: ExportedObject
     
@@ -696,19 +700,20 @@ extension ExampleExtension {
         return ExampleConfiguration(self)
     }
 }
-``
-` 
+```
+ 
 An extension implementation would look like this:
 
 
-```@main
+```swift
+@main
 final class ExampleAppExtension: ExampleExtension {
 
     func transform(text: String) -&gt; String {
         return text.uppercased()
     }
-}``
-`
+}
+```
  
 ok this makes total sense, and is really helpful. Thank you very much! 
 Is there any way that I could accept-list locally-bundled extensions within the host app? Or, would those always need explicit user approval as well? 
@@ -1011,7 +1016,10 @@ Got it, thanks!
 There is not a way to do this at the moment. Thanks for filing (and referencing) the feedback, we will route it to the appropriate component! 
 
 --- 
-> ####  We've experiencing a watchdog termination in the background due to a function inside UIKit sleeping. Please see the following backtrace:  ``` Thread 0 Crashed: 0   libsystem_kernel.dylib        	0x00000002065bba2c __semwait_signal + 8 1   libsystem_c.dylib             	0x00000001d9c700e4 nanosleep + 220 (nanosleep.c:104) 2   libsystem_c.dylib             	0x00000001d9c70e14 usleep + 68 (usleep.c:52) 3   QuartzCore                    	0x00000001d292bc84 CABackingStoreCollectBlocking + 264 (x-misc.cpp:186) 4   UIKitCore                     	0x00000001d1184778 __35-[UIWindowScene _prepareForSuspend]_block_invoke + 60 (UIWindowScene.m:1273) 5   UIKitCore                     	0x00000001d1243b90 -[_UIContextBinder purgeContextsWithPurgeAction:afterPurgeAction:] + 472 (_UIContextBinder.m:221) 6   UIKitCore                     	0x00000001d12874ec -[UIWindowScene _prepareForSuspend] + 88 (UIWindowScene.m:1271) 7   UIKitCore                     	0x00000001d1ec935c __130-[UIApplication _updateStateRestorationArchiveForBackgroundEvent:saveState:exitIfCouldNotRestoreState:updateSnapshot:windowScene:]_block_invoke_2 + 228 (UIApplication.m:11237) 8   UIKitCore                     	0x00000001d128e4dc -[_UIAfterCACommitBlock run] + 72 (_UIAfterCACommitQueue.m:137) 9   UIKitCore                     	0x00000001d11a1864 -[_UIAfterCACommitQueue flush] + 192 (_UIAfterCACommitQueue.m:228) 10  libdispatch.dylib             	0x00000001ce7eae6c _dispatch_call_block_and_release + 32 (init.c:1517) 11  libdispatch.dylib             	0x00000001ce7eca30 _dispatch_client_callout + 20 (object.m:560) 12  libdispatch.dylib             	0x00000001ce7faf48 _dispatch_main_queue_drain + 928 (inline_internal.h:2622) 13  libdispatch.dylib             	0x00000001ce7fab98 _dispatch_main_queue_callback_4CF + 44 (queue.c:7770) 14  CoreFoundation                	0x00000001ceb3d800 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__ + 16 (CFRunLoop.c:1795) 15  CoreFoundation                	0x00000001ceaf7704 __CFRunLoopRun + 2532 (CFRunLoop.c:3144) 16  CoreFoundation                	0x00000001ceb0abc8 CFRunLoopRunSpecific + 600 (CFRunLoop.c:3268) 17  GraphicsServices              	0x00000001eac3e374 GSEventRunModal + 164 (GSEvent.c:2200) 18  UIKitCore                     	0x00000001d147a648 -[UIApplication _run] + 1100 (UIApplication.m:3511) 19  UIKitCore                     	0x00000001d11fbd90 UIApplicationMain + 364 (UIApplication.m:5064) 20  [REDACTED]                   	0x0000000104e87460 main + 112 (main.m:27) 21  dyld                          	0x00000001055e5ce4 start + 520 (dyldMain.cpp:879) ```
+> ####  We've experiencing a watchdog termination in the background due to a function inside UIKit sleeping. Please see the following backtrace:  
+``` 
+Thread 0 Crashed: 0   libsystem_kernel.dylib        	0x00000002065bba2c __semwait_signal + 8 1   libsystem_c.dylib             	0x00000001d9c700e4 nanosleep + 220 (nanosleep.c:104) 2   libsystem_c.dylib             	0x00000001d9c70e14 usleep + 68 (usleep.c:52) 3   QuartzCore                    	0x00000001d292bc84 CABackingStoreCollectBlocking + 264 (x-misc.cpp:186) 4   UIKitCore                     	0x00000001d1184778 __35-[UIWindowScene _prepareForSuspend]_block_invoke + 60 (UIWindowScene.m:1273) 5   UIKitCore                     	0x00000001d1243b90 -[_UIContextBinder purgeContextsWithPurgeAction:afterPurgeAction:] + 472 (_UIContextBinder.m:221) 6   UIKitCore                     	0x00000001d12874ec -[UIWindowScene _prepareForSuspend] + 88 (UIWindowScene.m:1271) 7   UIKitCore                     	0x00000001d1ec935c __130-[UIApplication _updateStateRestorationArchiveForBackgroundEvent:saveState:exitIfCouldNotRestoreState:updateSnapshot:windowScene:]_block_invoke_2 + 228 (UIApplication.m:11237) 8   UIKitCore                     	0x00000001d128e4dc -[_UIAfterCACommitBlock run] + 72 (_UIAfterCACommitQueue.m:137) 9   UIKitCore                     	0x00000001d11a1864 -[_UIAfterCACommitQueue flush] + 192 (_UIAfterCACommitQueue.m:228) 10  libdispatch.dylib             	0x00000001ce7eae6c _dispatch_call_block_and_release + 32 (init.c:1517) 11  libdispatch.dylib             	0x00000001ce7eca30 _dispatch_client_callout + 20 (object.m:560) 12  libdispatch.dylib             	0x00000001ce7faf48 _dispatch_main_queue_drain + 928 (inline_internal.h:2622) 13  libdispatch.dylib             	0x00000001ce7fab98 _dispatch_main_queue_callback_4CF + 44 (queue.c:7770) 14  CoreFoundation                	0x00000001ceb3d800 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__ + 16 (CFRunLoop.c:1795) 15  CoreFoundation                	0x00000001ceaf7704 __CFRunLoopRun + 2532 (CFRunLoop.c:3144) 16  CoreFoundation                	0x00000001ceb0abc8 CFRunLoopRunSpecific + 600 (CFRunLoop.c:3268) 17  GraphicsServices              	0x00000001eac3e374 GSEventRunModal + 164 (GSEvent.c:2200) 18  UIKitCore                     	0x00000001d147a648 -[UIApplication _run] + 1100 (UIApplication.m:3511) 19  UIKitCore                     	0x00000001d11fbd90 UIApplicationMain + 364 (UIApplication.m:5064) 20  [REDACTED]                   	0x0000000104e87460 main + 112 (main.m:27) 21  dyld                          	0x00000001055e5ce4 start + 520 (dyldMain.cpp:879) 
+```
 
 Hi there! This looks like a potentially issue in CoreAnimation. If you haven't already, can you file a feedback with the entire crash log? 
 Sure thing. Thanks! :slightly_smiling_face: 
@@ -1106,8 +1114,9 @@ let cell = UICollectionView.cellForItem(at:...)
 cell.image.height = xxx
 
 // Call performBatchUpdates
-collectionView.performBatchUpdates { &lt;empty&gt; }``
-` 
+collectionView.performBatchUpdates { &lt;empty&gt; }
+```
+ 
 yep! That should work! Definitely encourage you to try it out. 
 Ok thanks a lot for the great tips let me give a try :slightly_smiling_face: 
 Just curious to know, does this issue can be solved if we adapt SwiftUI from iOS 14.0? 
@@ -1216,7 +1225,7 @@ Here’s a link about Swift Actors that i just found: <https://developer.apple.c
 As always we recommend using the tool that is best for the job. UICollectionView does support animating layout changes via `setLayout:animated:` so there is no need to rewrite this in SwiftUI. If there are specific things you want to achieve that can only be achieved in SwiftUI, then of course converting it to that is a very valid option. 
 <@U03JRNE4KJL> 15 and 16 
 This also might be a good question for a 1on1 lab if you are facing specific issues with collection view animating between layouts. 
-If there is time available I'll try to grab one :sweat_smile: I forget if I was using `setLayout` before and what the crash was. I'm using compositional layout and returning a different `NSCollectionLayoutSection` based on if the layout should be a grid or list, and calling ``self.collectionView.collectionViewLayout.invalidateLayout()` , but I can try that and see if it works, or maybe there is a better way to construct multiple layouts? 
+If there is time available I'll try to grab one :sweat_smile: I forget if I was using `setLayout` before and what the crash was. I'm using compositional layout and returning a different `NSCollectionLayoutSection` based on if the layout should be a grid or list, and calling `self.collectionView.collectionViewLayout.invalidateLayout()` , but I can try that and see if it works, or maybe there is a better way to construct multiple layouts? 
 Right, UICollectionView can’t currently animate changes to the layout stemming from an invalidation. If you require an animation, I would call `setCollectionViewLayout(_:animated:completion:)` 
 
 --- 
@@ -1235,20 +1244,23 @@ Thanks Sam :+1:
 
 Use the generic UTType.fileURL. And also override draggingEntered to inspect the exact file types on the pasteboard. Return true/false as appropriate. 
 Also when inspecting the pasteboard, use the options to auto filter the list for you.
+```swift
 func readObjects(
     forClasses classArray: [`AnyClass`],
     options: [`NSPasteboard`.`ReadingOptionKey` : Any]? = nil
-) -&gt; [Any]? 
+) -&gt; [Any]?
+```
+ 
 If I use SwiftUI
 
-```DropDelegate.dropEntered(info:)``
-`
+```DropDelegate.dropEntered(info:)```
+
 how I can get access to the pasteboard from DropInfo object? Or there is another approach in this case? 
 Let me chime in. `DropInfo` has a member called `hasItemsConforming(to:)` member, <https://developer.apple.com/documentation/swiftui/dropinfo/hasitemsconforming(to:)-47irh>, which allows to check for the content types you are interested in. Does this help? 
 I try to use it, but unfortunately, it does not help in my case. Or maybe I just do something wrong. This method only checks the dropped content type. In my case it’s
 
-```UTType.fileURL``
-`
+```UTType.fileURL```
+
 but it does not check is this an image or an mp4 file. 
 Is it iOS or Mac? 
 macOS 
@@ -1256,8 +1268,8 @@ Then the first idea on top of my head is to try to initialize `NSImage` with the
 If the app isn’t restricted to images from Finder only, you could register for receiving `NSImage.imageTypes` 
 Oh, great idea. I’ll try to initialize
 
-```NSImage from NSImageProvider``
-`
+```NSImage from NSImageProvider```
+
 Thank you Julia! 
 
 --- 
@@ -1268,6 +1280,7 @@ How are you trying to do the animation currently, if I may ask?
 I’ve tried something like 
 with previous code (NavigationView is apparently deprecated)
 
+```swift
 _NavigationView {_
 
       _SideBarView(survey: $document.survey)_
@@ -1280,6 +1293,7 @@ _NavigationView {_
           _.animation(.linear, value: uiState.showInspectorPane) // looks terrible_
       _}_
     _}_
+```
 
 I’ve tried moving the _.animation_ inside the InspectorPane() struct, but the effect is still bad. 
 Ok, sorry you're hitting that. It would be helpful if you could include those details in the feedback. 
@@ -1376,7 +1390,8 @@ However, with programatic navigation in `NavigationStack` that’d probably be t
 You can actually use `switch` statements directly in SwiftUI! e.g.
 
 
-```enum Screen {
+```swift
+enum Screen {
     case home
     case signIn
     case signUp
@@ -1397,8 +1412,8 @@ var body: some View {
     case .signUp:
         SignUpView()
     }
-}``
-` 
+}
+``` 
 Yeah that’s how I’ve done it 
 But I mostly did that because I couldn’t use a `NavigationStack` on macOS before 
 `NavigationView`  is what I used before the new navigations were introduced. 
@@ -1436,8 +1451,8 @@ If your view wants to own an ObservableObject view model, and the lifetime of th
 
 You can initialize a StateObject with an external value using this code in your initializer:
 
-```_viewModel = StateObject(wrappedValue: existingModel)``
-`
+```_viewModel = StateObject(wrappedValue: existingModel)```
+
 Note that the value passed to that initializer is accessed once and can't change over time. 
 Thank you. It makes sense. With your solution, `@StateObject` allows me to mock the data passed to the view (example: if the view displays a list of books, I can pass the mocked book list to the view initializer and then instantiate the `StateObject`). But it does not allow me to mock the state of the view (example : if the view model controls wether or not the view is in editing mode)
 
@@ -1457,12 +1472,14 @@ Thanks for confirming <@U03HELWUJN9> :pray::skin-tone-2:
 
 You can conditionalize your code based on whether iOS 16 APIs are available like this:
 
-```if #available(iOS 16, *) {
+```swift
+if #available(iOS 16, *) {
     // iOS 16 code
 } else {
     // iOS 15 and earlier code
-}``
-` 
+}
+``` 
+
 Thanks! 
 This is exactly what I was searching for. 
 Is there any difference between `if #available`  and `@available` ? 
@@ -1477,7 +1494,8 @@ Interesting! Thank you very much, I really appreciate it!
 Usually one way suffice, but sometimes, you can use both together:
 
 
-```struct ContentView: View {
+```swift
+struct ContentView: View {
     var body: some View {
         VStack {
             if #available(macOS 13.0, *) {
@@ -1512,8 +1530,8 @@ struct MyOldView: View {
             Image(systemName: "hand.wave")
         }
     }
-}``
-`
+}
+```
  
 
 --- 
@@ -1529,7 +1547,8 @@ Hi Ron,
 
 You could try using something like this:
 
-```import AppKit
+```swift
+import AppKit
 import SwiftUI
 
 class KeyboardModifierMonitor: ObservableObject {
@@ -1570,11 +1589,12 @@ extension EventModifiers {
         if flags.contains(.numericPad) { insert(.numericPad) }
         if flags.contains(.function) { insert(.function) }
     }
-}``
-`
-which you would then use in your controls like so
-:
-```public struct MyAmazingButton: View {
+}
+```
+
+which you would then use in your controls like so:
+```swift
+public struct MyAmazingButton: View {
     @StateObject fileprivate var eventMonitor = KeyboardModifierMonitor()
 
     public var body: some View {
@@ -1583,6 +1603,7 @@ which you would then use in your controls like so
         let isShiftHeld = modifiers.contains(.shift)
 &lt;...&gt;
 ``` 
+
 Nice! Will do. 
 Oh darn! I did try exactly that a year ago. 
 The problem is that while the macOS menu is down, the message is not delivered. 
@@ -1710,7 +1731,8 @@ But in my example, I pass the post as an EnvironmentObject when a Post is select
 Or this flow. I thought that if a Cart object created in the UserLogin View (probably in a NavigationStack) and passed in the Environment from this UserLogin View, it was accessible in the PaymentDetails in the same Stack. But this is only true if the Cart is passed before the NavigationStack? 
 A view can’t have two parent environments. Consider the two ways we could propagate the environment:
 
-```┌────────────────────────┐                             ┌────────────────────────┐              
+```
+┌────────────────────────┐                             ┌────────────────────────┐              
 │    NavigationStack     │                             │    NavigationStack     │              
 └────────────────────────┘                             └────────────────────────┘              
              │                                                      │                          
@@ -1726,8 +1748,9 @@ A view can’t have two parent environments. Consider the two ways we could prop
              │                                                                     ▼           
              │  ┌──────────────────────┐                               ┌──────────────────────┐
              └─▶│     Pushed View      │                               │     Pushed View      │
-                └──────────────────────┘                               └──────────────────────┘``
-` 
+                └──────────────────────┘                               └──────────────────────┘
+```
+ 
 We chose the one on the left and leave it to developers to propagate any additional information as needed. This reduces the number of dependencies. 
 
 --- 
@@ -1750,7 +1773,8 @@ From what I understand, this will put Mac controls into the iOS style Form - it 
 FB9994506: Ability to use macOS SwiftUI in iOS app using Catalyst optimized for Mac idiom 
 This year, there is the new `FormStyle` support, with `FormStyle.columns` available on all platforms, including Catalyst. That creates a Form layout like the default on native macOS with trailing aligned labels next to the leading aligned controls 
 
-```Form {
+```swift
+Form {
     Picker("Notify Me About:", selection: $notifyMeAbout) {
         Text("Direct Messages").tag(NotifyMeAboutType.directMessages)
         Text("Mentions").tag(NotifyMeAboutType.mentions)
@@ -1766,8 +1790,9 @@ This year, there is the new `FormStyle` support, with `FormStyle.columns` availa
     }
     .pickerStyle(.inline)
 }
-.formStyle(.columns)``
-` 
+.formStyle(.columns)
+```
+ 
 <https://developer.apple.com/documentation/swiftui/formstyle/columns> 
 Woooo I love that for us thanks!! 
 <@U03HW7NMP6D> Is there any possibility of creating my own form style? For example if I wanted to backport the new `.columns` style back to macOS Monterey. 
@@ -1796,14 +1821,16 @@ I have a big problem with putting more effort into looking like I'm doing work r
 
 Something like this:
 
-```ItemView()
+```
+ItemView()
     .onTapGesture(count: 2) {
         ...
     }
     .onTapGesture {
         ...
-    }``
-` 
+    }
+```
+ 
 Thanks. I'll give it a try.  
 
 --- 
@@ -1811,13 +1838,14 @@ Thanks. I'll give it a try.
 
 We recommend factoring out the common parts and then using `if #available` checks to use the relevant modifier. Something like this:
 
-```let common = commonViewParts
+```swift
+let common = commonViewParts
 if #available(iOS 16.0, macOS 13.0, *) {
     return common.newModifier()
 } else {
     return common.oldModifier()
-}``
-` 
+}
+``` 
 Thanks. It would be great to have a cleaner way to do this in the future, especially as new modifiers get added in future versions of the operating systems (imagine an app targeting iOS 18, that had conditional branches for 18, 17, 16, and 15) 
 Please do file some feedback with this request! 
 Just filed FB10135113 
@@ -1868,9 +1896,10 @@ Ya that is very subtle. Thanks for pointing that out
 Take a look at the new toolbar visibility accepting modifier. This is new in SwiftUI and allows configuring the hiding or showing of different bars like the navigation bar, or the tab bar.
 
 
-```ContentView()
- .toolbar(.hidden, in: .tabBar)``
-`
+```swift
+ContentView()
+ .toolbar(.hidden, in: .tabBar)
+```
 See <https://developer.apple.com/documentation/swiftui/presentedwindowcontent/toolbar(_:in:)> 
 
 --- 
@@ -1879,14 +1908,15 @@ See <https://developer.apple.com/documentation/swiftui/presentedwindowcontent/to
 You can use the `.chartXAxis(content:)` modifier passing an `AxisContentBuilder` that either completely customizes the x-axis, or you could first try out this initializer of `AxisMarks`  passing `true` for those `roundLowerBound` and `roundUpperBound`
 
 
-```/// Automatically determines the values for the markers,
+```swift
+/// Automatically determines the values for the markers,
 /// approximating the target number of values.
 public static func automatic(
     desiredCount: Int? = nil,
     roundLowerBound: Bool? = nil,
     roundUpperBound: Bool? = nil
-) -&gt; Values``
-` 
+) -&gt; Values
+``` 
 Thank you. I'll have a look at using that.  
 
 --- 
@@ -1912,12 +1942,14 @@ The moment you add `.swipeActions` it up to you to define the delete action (Swi
 You want to create a button with a destructive role to achieve the same result:
 
 
-```Button(role: .destructive) {
+```swift
+Button(role: .destructive) {
     delete()
 } label: {
     Label("Delete", systemImage: "trash")
-}``
-` 
+}
+``` 
+
 <@U03J7BQQNPJ> On the iPad, In a list when a swipe action is used which shows a confirmation dialogue, the popup is not shown on the correct cell. For Example cell 5 is swiped, confirmation dialogue points to a different cell cell. Feedback `FB10026540` 
 <@U03JCHKCDB4> thank you for taking the time to file a feedback. 
 <@U03J7BQQNPJ>, thanks for the reply. I do have destructive button like you mentioned. However, it doesn't have the animation like the one onDelete has. Any idea how to set it up? 
@@ -1955,7 +1987,8 @@ Ah ha. Thanks for that info! :slightly_smiling_face:
 <@U03HEM646TX> Filed as `FB10144807` I can reproduce this on macOS 12.4. You should be able to reproduce it via the following code snippet:
 
 
-```import Cocoa
+```swift
+import Cocoa
 
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -1968,8 +2001,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         statusItem.button?.attributedTitle = NSAttributedString(string: "Hello World", attributes: [NSAttributedString.Key.foregroundColor : NSColor.labelColor])
         statusItem.button?.image = NSImage(named: useTemplateImage ? NSImage.quickLookTemplateName : NSImage.statusAvailableName)
     }
-} ``
-` 
+}
+``` 
 
 --- 
 > ####  Is there a way to recreate the appearance of the widgets on the Lock Screen using UIVisualEffectView in an app using either SwiftUI or UIKit? I'm specifically interested in recreating the appearance of the circular widget.
@@ -2095,11 +2128,13 @@ yea, I think we don’t translate search from anything other than the detail col
 I cover this in the “Use SwiftUI with UIKit” talk! Its right at the beginning.
 You just need to add it as a child viewcontroller
 
-```// Add the hosting controller as a child view controller
+```swift
+// Add the hosting controller as a child view controller
 viewController.addChild(hostingController)
 viewController.view.addSubview(hostingController.view)
-hostingController.didMove(toParent: viewController)``
-`
+hostingController.didMove(toParent: viewController)
+```
+
 <https://developer.apple.com/wwdc22/10072> 
 At the end I cover some of the limitations of UIHostingController and speak to why its necessary to embed in as a childViewController 
 oh I missed that video! I would check it. Thanks!
@@ -2121,10 +2156,12 @@ Left is current, right is design
 MAKING PROGRESS, thank you for your help!!! how can I add the little circle dots for the data points? This is my code currently, Unbelievably short and easy (edited) 
 You can either add a `PointMark` on top of the `LineMark` or by adding a symbol to the linemark
 
-```LineMark(x: .value("xvalue", point.x),
+```swift
+LineMark(x: .value("xvalue", point.x),
          y: .value("yvalue", point.y))
-    .symbol(Circle())``
-` 
+    .symbol(Circle())
+``` 
+
 My “Use SwiftUI in UIKit” sample project actually has an example of this <https://developer.apple.com/documentation/uikit/views_and_controls/using_swiftui_with_uikit>
 as does I believe some of the Swift Charts talks sample code too! 
 <@U03HL05BUJG> what if i want to add the numerical values (eg: 15) above that PointMark? 
@@ -2134,8 +2171,7 @@ Yes
 Let me find the docs for that… 
 It should be an annotation modifer on the mark!
 
-``` .annotation(position: .top, alignment: .leading) ``
-` 
+``` .annotation(position: .top, alignment: .leading) ``` 
 <https://developer.apple.com/documentation/charts/visualizing_your_app_s_data>
 the swift charts example project has an example of this! 
 You are the best! Got it! Anywhere I can follow you on social media? 
