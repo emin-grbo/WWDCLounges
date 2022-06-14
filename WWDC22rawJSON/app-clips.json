@@ -1,0 +1,3929 @@
+{
+  "name": "app-clips-lounge",
+  "messages": [
+    {
+      "type": "message",
+      "user": "U03EBH4MA8Y",
+      "text": "This content can't be displayed.",
+      "ts": "1654549615.869069",
+      "team": "T031SG5MZ7U",
+      "reactions": [
+        {
+          "name": "heart",
+          "count": 30,
+          "users": [
+            "U03J0JRJPEZ",
+            "U03JDHJMJS1",
+            "U03J1U80TPV",
+            "U03J0URGSBX",
+            "U03HX9ZTNQ7",
+            "U03J1UK2LLB",
+            "U03JB85MK35",
+            "U03JSCDT2HE",
+            "U03J22AU6DQ",
+            "U03J5L75VT7",
+            "U03JRP87THN",
+            "U03J6N8LDE0",
+            "U03JBN7A15G",
+            "U03JGPU1R0A",
+            "U03JBLJLAM8",
+            "U03JKNC8XK6",
+            "U03JELDBMT3",
+            "U03JD2AJUDQ",
+            "U03HVE4TV8E",
+            "U03DJTAUPHT",
+            "U03J2029K7U",
+            "U03K8F9C4AU",
+            "U03HELJ7A5T",
+            "U03JGLN2RAP",
+            "U03J6ACNXFZ",
+            "U03JQ0YU449",
+            "U03J5SM2VUJ",
+            "U03JP0407D3",
+            "U03JC19DR7H",
+            "U03JY008MHU"
+          ]
+        },
+        {
+          "name": "raised_hands",
+          "count": 9,
+          "users": [
+            "U03JRP87THN",
+            "U03J30J1S3D",
+            "U03J5L75VT7",
+            "U03JKNC8XK6",
+            "U03HVE4TV8E",
+            "U03HVDHUQ5C",
+            "U03HVBSNM6J",
+            "U03JHQDJ31C",
+            "U03JC19DR7H"
+          ]
+        },
+        {
+          "name": "partying_face",
+          "count": 8,
+          "users": [
+            "U03JRP87THN",
+            "U03JT5ANGJD",
+            "U03JKNC8XK6",
+            "U03HVE4TV8E",
+            "U03HVDHUQ5C",
+            "U03HVCERCES",
+            "U03JW579F4Z",
+            "U03JC19DR7H"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "header",
+          "text": {
+            "type": "plain_text",
+            "text": "Welcome to the App Clips Digital Lounge!",
+            "emoji": true
+          },
+          "block_id": "kX4"
+        },
+        {
+          "type": "image",
+          "image_url": "https://devimages-cdn.apple.com/wwdc-services/images/wwdc22/slack/App%20Services%20-%20regular%20hero%403x.png",
+          "alt_text": "A multi-colored gear on a black background",
+          "block_id": "qk7"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "Welcome to the WWDC22 App Clips Digital Lounge! We’ve got an exciting week planned for you. You can find the full schedule of events on the \u003chttps://developer.apple.com/news/?id=agrl496m| Apple Developer app and on developer.apple.com\u003e; all activities for all lounges kick off on June 7."
+          },
+          "block_id": "+v4l"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "If you haven't already, please take a moment to familiarize yourself with \u003chttps://developer.apple.com/news/?id=735utu4s|how the Digital Lounges will work\u003e."
+          },
+          "block_id": "IDSsr"
+        },
+        {
+          "type": "header",
+          "text": {
+            "type": "plain_text",
+            "text": "WWDC22 Interactive Events Policy",
+            "emoji": true
+          },
+          "block_id": "W5+o"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "We want to make sure these spaces are helpful and welcoming for everyone — developers and Apple employees alike. Please review and follow the \u003chttps://developer.apple.com/wwdc22/policies/interactive-events/1/Apple-Developer-WWDC22-Interactive-Events-Attendance-Policy.pdf| WWDC22 Interactive Events Policy\u003e."
+          },
+          "block_id": "oCvi"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "Have a great WWDC!"
+          },
+          "block_id": "5ZkMT"
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03HELJ7A5T\u003e added a workflow to this channel: *App Clips - Ask a Question*.",
+      "ts": "1654718480.971029",
+      "subtype": "bot_message",
+      "bot_id": "B03HSLTQSAV",
+      "username": "App Clips - Ask a Question",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": null
+    },
+    {
+      "client_msg_id": "a5bf6e09-7157-49bb-b9f4-db062818d95f",
+      "type": "message",
+      "user": "U03HELJ7A5T",
+      "text": "\u003c!here\u003e Hi everyone! Welcome to *Q\u0026amp;A: App Clips*! We’re so excited to have you all here and we’re excited to answer your questions about App Clips and integrating with related technologies across Apple’s system experience including Maps, Messages, Safari, QR, NFC, App Clip code scanning, App Store Connect, and Apple Pay!\n\nHere’s how to ask questions: Find the lightning bolt :zap: icon at the lower left and select “Ask a Question workflow”. Type in your question, and\nit will be sent directly to the teams. We’ll repost and answer as many of them as we can.\n\nWe’re excited to hear from you, so let’s kick it off! :partying_face:",
+      "ts": "1654718529.499299",
+      "team": "T031SG5MZ7U",
+      "reactions": [
+        {
+          "name": "rocket",
+          "count": 2,
+          "users": [
+            "U03DJTAUPHT",
+            "U03JRP87THN"
+          ]
+        },
+        {
+          "name": "raised_hands",
+          "count": 4,
+          "users": [
+            "U03DJTAUPHT",
+            "U03JRP87THN",
+            "U03HAVD1TSS",
+            "U03K6K2J79P"
+          ]
+        },
+        {
+          "name": "partying_face",
+          "count": 4,
+          "users": [
+            "U03DJTAUPHT",
+            "U03JRP87THN",
+            "U03JSUWRSNP",
+            "U03HKV5GJLC"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "l=C",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "broadcast",
+                  "range": "here"
+                },
+                {
+                  "type": "text",
+                  "text": " Hi everyone! Welcome to "
+                },
+                {
+                  "type": "text",
+                  "text": "Q\u0026A: App Clips",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "! We’re so excited to have you all here and we’re excited to answer your questions about App Clips and integrating with related technologies across Apple’s system experience including Maps, Messages, Safari, QR, NFC, App Clip code scanning, App Store Connect, and Apple Pay!\n\nHere’s how to ask questions: Find the lightning bolt "
+                },
+                {
+                  "type": "emoji",
+                  "name": "zap",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " icon at the lower left and select “Ask a Question workflow”. Type in your question, and\nit will be sent directly to the teams. We’ll repost and answer as many of them as we can.\n\nWe’re excited to hear from you, so let’s kick it off! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "partying_face",
+                  "skin_tone": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03J1TN6WBD\u003e asked\n\u0026gt; Due to its size I believe an App Clip should have a limited/basic functionality.\n\u0026gt; How many screens/use-cases/actions should an App Clip provide?",
+      "ts": "1654718858.151209",
+      "thread_ts": "1654718858.151209",
+      "subtype": "bot_message",
+      "bot_id": "B03HSLTQSAV",
+      "username": "App Clips - Ask a Question",
+      "reply_count": 1,
+      "latest_reply": "1654719008.175749",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "P5Zq",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03J1TN6WBD"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Due to its size I believe an App Clip should have a limited\\/basic functionality.\\nHow many screens\\/use-cases\\/actions should an App Clip provide?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "98898b3b-a3bf-42fa-8a51-b1d9b20f3fe4",
+          "type": "message",
+          "user": "U03HELJ7A5T",
+          "text": "Generally App Clips should be focused towards a single purpose, but can have as many screens as needed to accomplish that purpose. An App Clip binary can also provide many App Clip experiences each focused on the specific task it was launched for.",
+          "ts": "1654719008.175749",
+          "thread_ts": "1654718858.151209",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "SMYt",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Generally App Clips should be focused towards a single purpose, but can have as many screens as needed to accomplish that purpose. An App Clip binary can also provide many App Clip experiences each focused on the specific task it was launched for."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03JUB3CN03\u003e asked\n\u0026gt; Will a link in an IAB (In App Browser) open an App Clip?",
+      "ts": "1654719077.446969",
+      "thread_ts": "1654719077.446969",
+      "subtype": "bot_message",
+      "bot_id": "B03HSLTQSAV",
+      "username": "App Clips - Ask a Question",
+      "reply_count": 18,
+      "latest_reply": "1654721049.310669",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "7Ad8",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03JUB3CN03"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Will a link in an IAB (In App Browser) open an App Clip?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "3f2783f6-0177-4b32-b45b-3da6cdd9c5f7",
+          "type": "message",
+          "user": "U03HKV56AMS",
+          "text": "No, you’ll need to open the page in Safari to get the App Clip banner/card UI.",
+          "ts": "1654719119.368829",
+          "thread_ts": "1654719077.446969",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Ltp",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "No, you’ll need to open the page in Safari to get the App Clip banner/card UI."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "dcf88974-b118-4a39-98fb-26045f2fef38",
+          "type": "message",
+          "user": "U03HKV56AMS",
+          "text": "If you’re using `SFSafariViewController` that will also work, but a custom in-app browser won’t be able to launch them.",
+          "ts": "1654719176.970339",
+          "thread_ts": "1654719077.446969",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "59Diw",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "If you’re using "
+                    },
+                    {
+                      "type": "text",
+                      "text": "SFSafariViewController",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " that will also work, but a custom in-app browser won’t be able to launch them."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "edc90bf6-9adc-4323-bc27-6888ccda1fe4",
+          "type": "message",
+          "user": "U03JUB3CN03",
+          "text": "Apps such as Facebook don’t use SFSafariViewController — what is the recommended way for me to get a user to open my app if they are learning about my app from within FB?",
+          "ts": "1654719201.796909",
+          "thread_ts": "1654719077.446969",
+          "edited": {
+            "user": "U03JUB3CN03",
+            "ts": "1654719253.000000"
+          },
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "vFAu",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Apps such as Facebook don’t use SFSafariViewController — what is the recommended way for me to get a user to open my app if they are learning about my app from within FB?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "cf8b18d4-d638-4378-a2a0-c62805d23bae",
+          "type": "message",
+          "user": "U03HKV56AMS",
+          "text": "The user would need to first open the webpage in Safari via the app’s share menu or similar.",
+          "ts": "1654719282.655859",
+          "thread_ts": "1654719077.446969",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "eKA3",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "The user would need to first open the webpage in Safari via the app’s share menu or similar."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "cf03995f-d5ee-47cb-b0b8-87e9103ed954",
+          "type": "message",
+          "user": "U03HKV5GJLC",
+          "text": "`SFSafariViewController` also shows the App Clip banner/card UI in an app.",
+          "ts": "1654719856.643329",
+          "thread_ts": "1654719077.446969",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Fwtj+",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "SFSafariViewController",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " also shows the App Clip banner/card UI in an app."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "ee300be7-24dc-4ff2-bbba-52015638e080",
+          "type": "message",
+          "user": "U03JUB3CN03",
+          "text": "Not an App Clip question, but related to IAB =\u0026gt; will opening a deep link open my app (if it is installed) if opened in an IAB?",
+          "ts": "1654720003.732239",
+          "thread_ts": "1654719077.446969",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "+ru",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Not an App Clip question, but related to IAB =\u003e will opening a deep link open my app (if it is installed) if opened in an IAB?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "627a8b53-7bfb-490e-b777-e4c9213e3d1b",
+          "type": "message",
+          "user": "U03JUB3CN03",
+          "text": "If so, then if my App Clip has been previously used on the user’s phone, will the deep link then open the App Clip in an IAB?",
+          "ts": "1654720190.433939",
+          "thread_ts": "1654719077.446969",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "=iT",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "If so, then if my App Clip has been previously used on the user’s phone, will the deep link then open the App Clip in an IAB?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "98fc0d13-2d66-42d5-8775-49d8352a1c9a",
+          "type": "message",
+          "user": "U03JUB3CN03",
+          "text": "\u003c@U03HKV56AMS\u003e or \u003c@U03HKV5GJLC\u003e",
+          "ts": "1654720269.789509",
+          "thread_ts": "1654719077.446969",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "o9BcQ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U03HKV56AMS"
+                    },
+                    {
+                      "type": "text",
+                      "text": " or "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03HKV5GJLC"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "8165ac49-2161-4463-8e12-067b2bb3aca2",
+          "type": "message",
+          "user": "U03HKV56AMS",
+          "text": "When an app implements its own browser, they get to decide these behaviors. So it’s not possible to say for certain.",
+          "ts": "1654720343.607109",
+          "thread_ts": "1654719077.446969",
+          "edited": {
+            "user": "U03HKV56AMS",
+            "ts": "1654720416.000000"
+          },
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "gZIE",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "When an app implements its own browser, they get to decide these behaviors. So it’s not possible to say for certain."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "ac4e9356-e6e5-4ef0-b8ef-fa3434b5966d",
+          "type": "message",
+          "user": "U03HKV56AMS",
+          "text": "It is possible for apps to try to open URLs first as a Universal Link (which would launch your full app, if installed), and only load the URL as web content if that fails, but it’s at their discretion whether to do so.",
+          "ts": "1654720387.604319",
+          "thread_ts": "1654719077.446969",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "jtqP",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "It is possible for apps to try to open URLs first as a Universal Link (which would launch your full app, if installed), and only load the URL as web content if that fails, but it’s at their discretion whether to do so."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "2f0264b3-e678-4a38-bd34-5375421923ed",
+          "type": "message",
+          "user": "U03HKV56AMS",
+          "text": "There is no way for an app to invoke an app clip URL directly though. That can only be triggered by predefined user flows.",
+          "ts": "1654720462.170349",
+          "thread_ts": "1654719077.446969",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "QQll",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "There is no way for an app to invoke an app clip URL directly though. That can only be triggered by predefined user flows."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "869332ba-3c6a-4d4e-907e-dd51769960d1",
+          "type": "message",
+          "user": "U03JUB3CN03",
+          "text": "So if my web page is loaded, then I should always ask the user to open the page in Safari if I only want them to interact with my app (App Clip or full app)",
+          "ts": "1654720513.589499",
+          "thread_ts": "1654719077.446969",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "xkT",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "So if my web page is loaded, then I should always ask the user to open the page in Safari if I only want them to interact with my app (App Clip or full app)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "6cd1ebb1-1ac2-46ec-9c9b-119ac14a3bf5",
+          "type": "message",
+          "user": "U03HKV56AMS",
+          "text": "These include: Safari and `SFSafariViewController` via the banner/inline app clip card, Messages via rich link previews, NFC/QR Code scanner, Maps, and Siri Suggestions Widget (for location based app clips).",
+          "ts": "1654720515.425989",
+          "thread_ts": "1654719077.446969",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "XyllI",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "These include: Safari and "
+                    },
+                    {
+                      "type": "text",
+                      "text": "SFSafariViewController",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " via the banner/inline app clip card, Messages via rich link previews, NFC/QR Code scanner, Maps, and Siri Suggestions Widget (for location based app clips)."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "261029bf-d1b3-454b-9cce-18b50c7790c2",
+          "type": "message",
+          "user": "U03HKV56AMS",
+          "text": "Yeah, unfortunately you’d need the user to load the webpage in Safari or `SFVC` to get the App Clip invocation UI.",
+          "ts": "1654720552.663059",
+          "thread_ts": "1654719077.446969",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "UC0",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yeah, unfortunately you’d need the user to load the webpage in Safari or "
+                    },
+                    {
+                      "type": "text",
+                      "text": "SFVC",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " to get the App Clip invocation UI."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "a62a9fbb-f7ae-4ebb-8a7a-7a4aa4b816e4",
+          "type": "message",
+          "user": "U03JUB3CN03",
+          "text": "Is there a standard way to determine if my web page has been loaded in an IAB?",
+          "ts": "1654720586.021889",
+          "thread_ts": "1654719077.446969",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "r8y",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Is there a standard way to determine if my web page has been loaded in an IAB?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "f16a960e-8314-451b-aa49-b0b8da5e74d9",
+          "type": "message",
+          "user": "U03HKV56AMS",
+          "text": "I’m not actually sure. This might be a good question for WebKit engineer.",
+          "ts": "1654720618.405509",
+          "thread_ts": "1654719077.446969",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "24aR=",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I’m not actually sure. This might be a good question for WebKit engineer."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "10479ff4-229e-40d9-867a-a0060ac20f85",
+          "type": "message",
+          "user": "U03JUB3CN03",
+          "text": "Thanks James — one last clarifying question. If my app is installed, and I have the same deep link for the app as for the app clip, the app will be loaded without a user interaction? IE — I’m assuming they do not get prompted to open an App Clip if the app is installed.",
+          "ts": "1654720778.525969",
+          "thread_ts": "1654719077.446969",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "1xs6b",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks James — one last clarifying question. If my app is installed, and I have the same deep link for the app as for the app clip, the app will be loaded without a user interaction? IE — I’m assuming they do not get prompted to open an App Clip if the app is installed."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "d9a0a427-bb08-4dbd-9dee-924d15a88d75",
+          "type": "message",
+          "user": "U03HELJ7A5T",
+          "text": "Followed links will not prompt in many cases for installed apps, but there are some cases where iOS will still show the App Clip card, such as if your device is locked and you scan a physical code that has an App Clip experience.",
+          "ts": "1654721049.310669",
+          "thread_ts": "1654719077.446969",
+          "team": "T031SG5MZ7U",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U03JUB3CN03"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "5uFA",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Followed links will not prompt in many cases for installed apps, but there are some cases where iOS will still show the App Clip card, such as if your device is locked and you scan a physical code that has an App Clip experience."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03J1TN6WBD\u003e asked\n\u0026gt; Can an app have multiple App Clips? (max 15MB each)",
+      "ts": "1654719378.164789",
+      "thread_ts": "1654719378.164789",
+      "subtype": "bot_message",
+      "bot_id": "B03HSLTQSAV",
+      "username": "App Clips - Ask a Question",
+      "reply_count": 2,
+      "latest_reply": "1654719461.533629",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "1DT3",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03J1TN6WBD"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Can an app have multiple App Clips? (max 15MB each)\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "6012f7da-3eff-4d64-b13a-caa457e5aecb",
+          "type": "message",
+          "user": "U03HELJ7A5T",
+          "text": "No, but you can have multiple App Clip experiences in your single App Clip binary that corresponds to your app.",
+          "ts": "1654719406.937959",
+          "thread_ts": "1654719378.164789",
+          "team": "T031SG5MZ7U",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 2,
+              "users": [
+                "U03J1TN6WBD",
+                "U03JRPKMJ3S"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "LryKG",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "No, but you can have multiple App Clip experiences in your single App Clip binary that corresponds to your app."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "59b0abd1-9a89-4586-a7f8-989711a1a585",
+          "type": "message",
+          "user": "U03H310CVQX",
+          "text": "Each App Clip experience should be focused on a single user purpose, but the experiences in your App Clip don't need to overlap or all focus on the same purpose.",
+          "ts": "1654719461.533629",
+          "thread_ts": "1654719378.164789",
+          "team": "T031SG5MZ7U",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 2,
+              "users": [
+                "U03J1TN6WBD",
+                "U03JRPKMJ3S"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Ktj2",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Each App Clip experience should be focused on a single user purpose, but the experiences in your App Clip don't need to overlap or all focus on the same purpose."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03JXD1AQRE\u003e asked\n\u0026gt; Is there a recommended way to create an App Clip that can request data from private/protected api (i.e. with an auth token) or should app clips only access public apis and display public information?",
+      "ts": "1654719409.776979",
+      "thread_ts": "1654719409.776979",
+      "subtype": "bot_message",
+      "bot_id": "B03HSLTQSAV",
+      "username": "App Clips - Ask a Question",
+      "reply_count": 4,
+      "latest_reply": "1654719614.931809",
+      "reactions": [
+        {
+          "name": "eyes",
+          "count": 1,
+          "users": [
+            "U03HVD5Q8DC"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "4nr",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03JXD1AQRE"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Is there a recommended way to create an App Clip that can request data from private\\/protected api (i.e. with an auth token) or should app clips only access public apis and display public information?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "afa0ffab-3ff0-4eb6-b5d1-4936139e2b22",
+          "type": "message",
+          "user": "U03HKV56AMS",
+          "text": "This comes down to your use case. We recommend that App Clips not require a user to sign in or sign up because it gets in the way of providing a fast and possibly transient user experience. You can totally provide sign in as an option, but it’s better to offer as an optional feature.",
+          "ts": "1654719474.342439",
+          "thread_ts": "1654719409.776979",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "FLQs",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "This comes down to your use case. We recommend that App Clips not require a user to sign in or sign up because it gets in the way of providing a fast and possibly transient user experience. You can totally provide sign in as an option, but it’s better to offer as an optional feature."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "a435a7b4-9c0d-43dd-8115-3a4baf942110",
+          "type": "message",
+          "user": "U03HKV56AMS",
+          "text": "For example, if this was a shopping app clip, you should try to provide a “guest” checkout flow that doesn’t require the user to sign up first. But you can still offer a sign in option for the user if you also have a rewards program.",
+          "ts": "1654719521.514429",
+          "thread_ts": "1654719409.776979",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "o0Lc",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "For example, if this was a shopping app clip, you should try to provide a “guest” checkout flow that doesn’t require the user to sign up first. But you can still offer a sign in option for the user if you also have a rewards program."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "bebbec0a-ab83-4f07-80a3-f0aa3cd45b43",
+          "type": "message",
+          "user": "U03HKV56AMS",
+          "text": "You’ll also want to ensure that you’re using something like `ASWebAuthenticationSession` for any OAuth style sign in flows, because an app clip cannot register for URL schemes itself.",
+          "ts": "1654719579.856349",
+          "thread_ts": "1654719409.776979",
+          "team": "T031SG5MZ7U",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 2,
+              "users": [
+                "U03JXD1AQRE",
+                "U03JUB3CN03"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "h1fGd",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "You’ll also want to ensure that you’re using something like "
+                    },
+                    {
+                      "type": "text",
+                      "text": "ASWebAuthenticationSession",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " for any OAuth style sign in flows, because an app clip cannot register for URL schemes itself."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "554521ca-c907-4abb-b705-9271101a4776",
+          "type": "message",
+          "user": "U03JXD1AQRE",
+          "text": "That makes sense, Thank you for your response.",
+          "ts": "1654719614.931809",
+          "thread_ts": "1654719409.776979",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "q67B",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "That makes sense, Thank you for your response."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03JXD1AQRE\u003e asked\n\u0026gt; Here is a different scenario.  Say I want an app clip that a user can only use once, once they've used it they can't use it again for 24 hours or so. Is it possible to get some kind of identifier from the user's device to check against inside of an App Clip?",
+      "ts": "1654719827.851099",
+      "thread_ts": "1654719827.851099",
+      "subtype": "bot_message",
+      "bot_id": "B03HSLTQSAV",
+      "username": "App Clips - Ask a Question",
+      "reply_count": 4,
+      "latest_reply": "1654720248.141499",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Jvl",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03JXD1AQRE"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Here is a different scenario.  Say I want an app clip that a user can only use once, once they've used it they can't use it again for 24 hours or so. Is it possible to get some kind of identifier from the user's device to check against inside of an App Clip?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "04b68c0a-8d43-4254-b49c-a7ff2f2aa4ac",
+          "type": "message",
+          "user": "U03HKV56AMS",
+          "text": "There isn’t a way to guarantee this in all cases. Because of our promise to users that app clips are ephemeral, they can’t leave lasting data on the device.\n\nYou could certainly have code in your app to save a “last used data” to a file/user defaults, and assuming the user does not go out of their way to delete the app clip from the device that data will stick around for at least 30 days. However, users could certainly game this by deleting and re-invoking the app clip.",
+          "ts": "1654719941.390979",
+          "thread_ts": "1654719827.851099",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "WBX3w",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "There isn’t a way to guarantee this in all cases. Because of our promise to users that app clips are ephemeral, they can’t leave lasting data on the device.\n\nYou could certainly have code in your app to save a “last used data” to a file/user defaults, and assuming the user does not go out of their way to delete the app clip from the device that data will stick around for at least 30 days. However, users could certainly game this by deleting and re-invoking the app clip."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "912f84b8-790e-492d-8ffa-6befe3917a04",
+          "type": "message",
+          "user": "U03HKV56AMS",
+          "text": "If you wanted to enforce this you’d need to require the user to sign in so that you could tie this timeout to an account and store it on a server instead. There’s no way to tie it to a device though.",
+          "ts": "1654719986.000959",
+          "thread_ts": "1654719827.851099",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "GBXD4",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "If you wanted to enforce this you’d need to require the user to sign in so that you could tie this timeout to an account and store it on a server instead. There’s no way to tie it to a device though."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "32d7525c-c3bd-4649-839e-486b0f7f85eb",
+          "type": "message",
+          "user": "U03JXD1AQRE",
+          "text": "I see.  So persisting it to defaults would work but isn't fool proof.",
+          "ts": "1654720102.354499",
+          "thread_ts": "1654719827.851099",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Z2Q",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I see.  So persisting it to defaults would work but isn't fool proof."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "69babbaf-36d6-4b3c-88a3-3dbee3c9495c",
+          "type": "message",
+          "user": "U03HKV56AMS",
+          "text": "Yeah. The crux of the issue is simply that when an app clip gets deleted we promise to erase all traces of it from the device. I doubt most people proactively delete them, but depending on your requirements it’s just not a guarantee.",
+          "ts": "1654720248.141499",
+          "thread_ts": "1654719827.851099",
+          "team": "T031SG5MZ7U",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 2,
+              "users": [
+                "U03JXD1AQRE",
+                "U03JLTMSAV7"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "9MH",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yeah. The crux of the issue is simply that when an app clip gets deleted we promise to erase all traces of it from the device. I doubt most people proactively delete them, but depending on your requirements it’s just not a guarantee."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03JRP81J0Y\u003e asked\n\u0026gt; Is the new size limit limited only to iOS 16 or also available for AppClips supporting older OS versions?",
+      "ts": "1654720465.196929",
+      "thread_ts": "1654720465.196929",
+      "subtype": "bot_message",
+      "bot_id": "B03HSLTQSAV",
+      "username": "App Clips - Ask a Question",
+      "reply_count": 1,
+      "latest_reply": "1654720478.045769",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "9pWE",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03JRP81J0Y"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Is the new size limit limited only to iOS 16 or also available for AppClips supporting older OS versions?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "9e4ba657-dce1-46bd-9672-3b2a1835fbb0",
+          "type": "message",
+          "user": "U03HELJ7A5T",
+          "text": "The new size limit is only available for devices running iOS 16 and later. For more details, we have a brief discussion about this in \u003chttps://developer.apple.com/videos/play/wwdc2022/10097/|our session\u003e.",
+          "ts": "1654720478.045769",
+          "thread_ts": "1654720465.196929",
+          "attachments": [
+            {
+              "fallback": "Apple Developer: What's new in App Clips - WWDC22 - Videos - Apple Developer",
+              "id": 1,
+              "title": "What's new in App Clips - WWDC22 - Videos - Apple Developer",
+              "title_link": "https://developer.apple.com/videos/play/wwdc2022/10097/",
+              "text": "Explore the latest updates to App Clips! Discover how we've made your App Clip even easier to build with improvements to the size limit...",
+              "image_url": "https://devimages-cdn.apple.com/wwdc-services/images/124/6591/6591_wide_250x141_2x.jpg",
+              "service_name": "Apple Developer",
+              "service_icon": "https://developer.apple.com/favicon.ico",
+              "from_url": "https://developer.apple.com/videos/play/wwdc2022/10097/",
+              "original_url": "https://developer.apple.com/videos/play/wwdc2022/10097/",
+              "blocks": null
+            }
+          ],
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "nEW=",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "The new size limit is only available for devices running iOS 16 and later. For more details, we have a brief discussion about this in "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/videos/play/wwdc2022/10097/",
+                      "text": "our session"
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03J1US1SR1\u003e asked\n\u0026gt; Do App Clips support URL invocations? For example, following a link in Safari or clicking a button on a website to bring up the App Clip card.",
+      "ts": "1654720814.277129",
+      "thread_ts": "1654720814.277129",
+      "subtype": "bot_message",
+      "bot_id": "B03HSLTQSAV",
+      "username": "App Clips - Ask a Question",
+      "reply_count": 4,
+      "latest_reply": "1654721443.970389",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "h3G",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03J1US1SR1"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Do App Clips support URL invocations? For example, following a link in Safari or clicking a button on a website to bring up the App Clip card.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "fbf6f906-0e69-491e-9558-c3c362c83e2a",
+          "type": "message",
+          "user": "U03HKV5GJLC",
+          "text": "Clicking link or button on a website doesn’t directly bring up the the app clip card. When the new page loads after the link is clicked, the App Clip card will show up if the page has `apple-itunes-app` meta-tag configure.",
+          "ts": "1654720851.621839",
+          "thread_ts": "1654720814.277129",
+          "edited": {
+            "user": "U03HKV5GJLC",
+            "ts": "1654721129.000000"
+          },
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Viiys",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Clicking link or button on a website doesn’t directly bring up the the app clip card. When the new page loads after the link is clicked, the App Clip card will show up if the page has "
+                    },
+                    {
+                      "type": "text",
+                      "text": "apple-itunes-app",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " meta-tag configure."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "89b6aaf4-6509-49b3-a3b9-f4191aafeda2",
+          "type": "message",
+          "user": "U03J1US1SR1",
+          "text": "Thank you! Is this the correct page that describes this behavior? \u003chttps://developer.apple.com/documentation/app_clips/supporting_invocations_from_your_website_and_the_messages_app\u003e",
+          "ts": "1654721121.463369",
+          "thread_ts": "1654720814.277129",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Nkzn",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thank you! Is this the correct page that describes this behavior? "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/app_clips/supporting_invocations_from_your_website_and_the_messages_app",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "37406be6-742e-405b-a427-e2bad3602d0b",
+          "type": "message",
+          "user": "U03HKV5GJLC",
+          "text": "yes, that is the correct page!",
+          "ts": "1654721170.388319",
+          "thread_ts": "1654720814.277129",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "BoN",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "yes, that is the correct page!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "6aa7af4f-cfce-41e4-884e-94bee885b57c",
+          "type": "message",
+          "user": "U03J1US1SR1",
+          "text": "Thanks!",
+          "ts": "1654721443.970389",
+          "thread_ts": "1654720814.277129",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Yyq63",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03JER2C7MX\u003e asked\n\u0026gt; We want to showcase features in the App clip that are available after the subscription. \n\u0026gt; But these features are generated on our backend service, which is why we don't want to hardcode that access in the app to avoid reverse engineering of that capability.\n\u0026gt; \n\u0026gt; Does Apple have experience of having App Clips, that contain content that is available only after subscription? And did you ever consider letting users activate a Free Trial right in the App Clip?",
+      "ts": "1654723360.425769",
+      "thread_ts": "1654723360.425769",
+      "subtype": "bot_message",
+      "bot_id": "B03HSLTQSAV",
+      "username": "App Clips - Ask a Question",
+      "reply_count": 4,
+      "latest_reply": "1654724593.030469",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Ayq",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03JER2C7MX"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"We want to showcase features in the App clip that are available after the subscription. \\nBut these features are generated on our backend service, which is why we don't want to hardcode that access in the app to avoid reverse engineering of that capability.\\n\\nDoes Apple have experience of having App Clips, that contain content that is available only after subscription? And did you ever consider letting users activate a Free Trial right in the App Clip?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "b4cf0a98-7956-446d-998a-005248fc4fd0",
+          "type": "message",
+          "user": "U03HKV5GJLC",
+          "text": "You can offer free content in your App Clip and use `SKOverlay` to offer users to get the full app for in-app purchase or subscription.",
+          "ts": "1654723397.321479",
+          "thread_ts": "1654723360.425769",
+          "edited": {
+            "user": "U03HKV5GJLC",
+            "ts": "1654723585.000000"
+          },
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "mLcYr",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "You can offer free content in your App Clip and use "
+                    },
+                    {
+                      "type": "text",
+                      "text": "SKOverlay",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " to offer users to get the full app for in-app purchase or subscription."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "3a031f01-5738-41f9-9934-1e8d3213b7b9",
+          "type": "message",
+          "user": "U03HKV5GJLC",
+          "text": "App Clips don’t support IAP or Free Trial period. User need to install the full app to use these features.",
+          "ts": "1654723707.504759",
+          "thread_ts": "1654723360.425769",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Nk+TL",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "App Clips don’t support IAP or Free Trial period. User need to install the full app to use these features."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "b56dc31d-f75d-4af7-9cd6-21bc2436be83",
+          "type": "message",
+          "user": "U03JER2C7MX",
+          "text": "\u003c@U03HKV5GJLC\u003e thanks for the response.\n\nHas the App Clips team ever considered combining the Free Trial period in the App Clip? So like if there’s a 7-day trial period, users of the App Clip can get 1 day in the app without being charged and 6 days more if they download the full version of the app?",
+          "ts": "1654724396.567669",
+          "thread_ts": "1654723360.425769",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "u81dn",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U03HKV5GJLC"
+                    },
+                    {
+                      "type": "text",
+                      "text": " thanks for the response.\n\nHas the App Clips team ever considered combining the Free Trial period in the App Clip? So like if there’s a 7-day trial period, users of the App Clip can get 1 day in the app without being charged and 6 days more if they download the full version of the app?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "dc62247e-6912-4634-af70-be9c06892538",
+          "type": "message",
+          "user": "U03HKV5GJLC",
+          "text": "\u003c@U03JER2C7MX\u003e, please file a feedback. We would love to know the details of your use case.",
+          "ts": "1654724593.030469",
+          "thread_ts": "1654723360.425769",
+          "team": "T031SG5MZ7U",
+          "reactions": [
+            {
+              "name": "gratitude-thank-you",
+              "count": 1,
+              "users": [
+                "U03JER2C7MX"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "yND",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U03JER2C7MX"
+                    },
+                    {
+                      "type": "text",
+                      "text": ", please file a feedback. We would love to know the details of your use case."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "cc4df8d7-1596-48d1-a7a4-9f651e8eaefe",
+      "type": "message",
+      "user": "U03HELJ7A5T",
+      "text": "Thank you everyone for all your questions!",
+      "ts": "1654725601.611399",
+      "team": "T031SG5MZ7U",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "nle/",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Thank you everyone for all your questions!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "b133fc6b-590b-481b-a7a0-cce119445fe9",
+      "type": "message",
+      "user": "U03HELJ7A5T",
+      "text": ":couch_and_lamp: We’ll be back on Friday for another App Clips Q\u0026amp;A digital lounge, at 10am-12pm PT!\n:lab_coat: You can also sign up today for our Thursday App Clips Lab from 9am-11am PT\n:notebook: You can also always questions on the Apple Developer Forums!",
+      "ts": "1654725630.811909",
+      "team": "T031SG5MZ7U",
+      "reactions": [
+        {
+          "name": "raised_hands",
+          "count": 2,
+          "users": [
+            "U03JUB3CN03",
+            "U03HVD7HFGW"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "RGYgl",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "emoji",
+                  "name": "couch_and_lamp",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " We’ll be back on Friday for another App Clips Q\u0026A digital lounge, at 10am-12pm PT!\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "lab_coat",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " You can also sign up today for our Thursday App Clips Lab from 9am-11am PT\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "notebook",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " You can also always questions on the Apple Developer Forums!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03HELJ7A5T\u003e removed a workflow from this channel: *App Clips - Ask a Question*.",
+      "ts": "1654725659.189459",
+      "subtype": "bot_message",
+      "bot_id": "B03HSLTQSAV",
+      "username": "App Clips - Ask a Question",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": null
+    },
+    {
+      "client_msg_id": "7c1cb209-02ff-466c-a97d-82a13ee78ea0",
+      "type": "message",
+      "user": "U03HELJ7A5T",
+      "text": "Hello everyone! We’re going to get started with today’s App Clips Digital Lounge in 9 minutes!",
+      "ts": "1654879880.562819",
+      "team": "T031SG5MZ7U",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "D=P3E",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hello everyone! We’re going to get started with today’s App Clips Digital Lounge in 9 minutes!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03HELJ7A5T\u003e added a workflow to this channel: *App Clips - Ask a Question*.",
+      "ts": "1654880416.951039",
+      "subtype": "bot_message",
+      "bot_id": "B03HSLTQSAV",
+      "username": "App Clips - Ask a Question",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": null
+    },
+    {
+      "client_msg_id": "dd3a87c5-3e4a-4bf3-8c03-9be6349d2188",
+      "type": "message",
+      "user": "U03HELJ7A5T",
+      "text": "*\u003c!here\u003e* Hi everyone! Welcome to *Q\u0026amp;A: App Clips*! We’re so excited to have you all here and we’re excited to answer your questions about App Clips and integrating with related technologies across Apple’s system experience including Maps, Messages, Safari, QR, NFC, App Clip code scanning, App Store Connect, and Apple Pay!\n\nHere’s how to ask questions: Find the lightning bolt :zap: icon at the lower left and select “Ask a Question workflow”. Type in your question, and\nit will be sent directly to the teams. We’ll repost and answer as many of them as we can.\n\nWe’re excited to hear from you, so let’s kick it off! :partying_face:",
+      "ts": "1654880458.063299",
+      "team": "T031SG5MZ7U",
+      "reactions": [
+        {
+          "name": "sparkles",
+          "count": 1,
+          "users": [
+            "U03K6K2J79P"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "/m9Ch",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "broadcast",
+                  "range": "here"
+                },
+                {
+                  "type": "text",
+                  "text": " Hi everyone! Welcome to "
+                },
+                {
+                  "type": "text",
+                  "text": "Q\u0026A: App Clips",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "! We’re so excited to have you all here and we’re excited to answer your questions about App Clips and integrating with related technologies across Apple’s system experience including Maps, Messages, Safari, QR, NFC, App Clip code scanning, App Store Connect, and Apple Pay!\n\nHere’s how to ask questions: Find the lightning bolt "
+                },
+                {
+                  "type": "emoji",
+                  "name": "zap",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " icon at the lower left and select “Ask a Question workflow”. Type in your question, and\nit will be sent directly to the teams. We’ll repost and answer as many of them as we can.\n\nWe’re excited to hear from you, so let’s kick it off! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "partying_face",
+                  "skin_tone": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03JEM7CE2D\u003e asked\n\u0026gt; Are App Clips supported when using the new \"Unlisted App Distribution\" method in App Sore Connect?",
+      "ts": "1654880529.314719",
+      "thread_ts": "1654880529.314719",
+      "subtype": "bot_message",
+      "bot_id": "B03HSLTQSAV",
+      "username": "App Clips - Ask a Question",
+      "reply_count": 3,
+      "latest_reply": "1654880807.176049",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "cFT",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03JEM7CE2D"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Are App Clips supported when using the new \\\"Unlisted App Distribution\\\" method in App Sore Connect?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "ad4cfe28-5527-4086-9be1-ca80d1de246e",
+          "type": "message",
+          "user": "U03HELJ7A5T",
+          "text": "Yes!",
+          "ts": "1654880537.694479",
+          "thread_ts": "1654880529.314719",
+          "team": "T031SG5MZ7U",
+          "reactions": [
+            {
+              "name": "raised_hands",
+              "count": 1,
+              "users": [
+                "U03K6K2J79P"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "vs9qM",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yes!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "4ccada30-dc92-4d5c-8e12-38e66f40fb8d",
+          "type": "message",
+          "user": "U03JEM7CE2D",
+          "text": "That's great to hear. Now I just need my request approved :grin:",
+          "ts": "1654880607.448889",
+          "thread_ts": "1654880529.314719",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "v1MTw",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "That's great to hear. Now I just need my request approved "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "grin",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "bbf4f1bd-4e64-476f-b7c9-027c54d2741f",
+          "type": "message",
+          "user": "U03K6K2J79P",
+          "text": "Great question \u003c@U03JEM7CE2D\u003e! Love this answer \u003c@U03HELJ7A5T\u003e! :slightly_smiling_face:",
+          "ts": "1654880807.176049",
+          "thread_ts": "1654880529.314719",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "xnV",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Great question "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03JEM7CE2D"
+                    },
+                    {
+                      "type": "text",
+                      "text": "! Love this answer "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03HELJ7A5T"
+                    },
+                    {
+                      "type": "text",
+                      "text": "! "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03J1UX2CQK\u003e asked\n\u0026gt; What are your thoughts on using App Clips as a way to demo functionality for prospective users on the web? Is this a good use case for App Clips?\n\u0026gt; \n\u0026gt; If so, has there been any thought re. supporting demos on the App Store via App Clips? (FB9875858)",
+      "ts": "1654880757.154239",
+      "thread_ts": "1654880757.154239",
+      "subtype": "bot_message",
+      "bot_id": "B03HSLTQSAV",
+      "username": "App Clips - Ask a Question",
+      "reply_count": 3,
+      "latest_reply": "1654880893.153969",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "8aP4",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03J1UX2CQK"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"What are your thoughts on using App Clips as a way to demo functionality for prospective users on the web? Is this a good use case for App Clips?\\n\\nIf so, has there been any thought re. supporting demos on the App Store via App Clips? (FB9875858)\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "27b46459-6f2b-4661-8b71-6f9d89994f89",
+          "type": "message",
+          "user": "U03HELJ7A5T",
+          "text": "App Clips are a great way to demo functionality for prospective users on the web! As for the demos on the App Store, thank you for your feedback report! We hear you, and I’m sorry we can’t comment further on future plans.",
+          "ts": "1654880806.833959",
+          "thread_ts": "1654880757.154239",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "8eX",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "App Clips are a great way to demo functionality for prospective users on the web! As for the demos on the App Store, thank you for your feedback report! We hear you, and I’m sorry we can’t comment further on future plans."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "0ab5e373-fa42-4509-a879-95450995ed03",
+          "type": "message",
+          "user": "U03J1UX2CQK",
+          "text": "No worries — I wouldn't expect comments on future plans! Glad to hear that demos seem like a good use-case.",
+          "ts": "1654880890.275929",
+          "thread_ts": "1654880757.154239",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "tbg4z",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "No worries — I wouldn't expect comments on future plans! Glad to hear that demos seem like a good use-case."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "bdaf7cec-697f-490a-beed-f1a701e6a3cf",
+          "type": "message",
+          "user": "U03J1UX2CQK",
+          "text": "Thanks!",
+          "ts": "1654880893.153969",
+          "thread_ts": "1654880757.154239",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "pi9",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03J4BDRBE0\u003e asked\n\u0026gt; Not really a question, more a conclusion from yesterday's 1on1 lab I had. My App Clip opened with the wrong URL in messages. \n\u0026gt; E.g. \u003chttps://www.stock-analyzer.app/stock/?symbol=NET|https://www.stock-analyzer.app/stock/?symbol=NET\u003e opened as  \u003chttps://www.stock-analyzer.app|https://www.stock-analyzer.app\u003e\n\u0026gt; \n\u0026gt; I just want to let you know that Messages opens the og:url from the domain which in my case was set to fixed: \u003chttps://www.stock-analyzer.app|https://www.stock-analyzer.app\u003e\n\u0026gt; \n\u0026gt; Removing the og:url solved the issue! :tada:",
+      "ts": "1654881236.270099",
+      "thread_ts": "1654881236.270099",
+      "attachments": [
+        {
+          "fallback": "Stock Analyzer: Stock Analyzer - Analyze Stock Fundamentals",
+          "id": 1,
+          "title": "Stock Analyzer - Analyze Stock Fundamentals",
+          "title_link": "https://www.stock-analyzer.app/stock/?symbol=NET",
+          "text": "Analyze your favorite stock fundamentals and prevent yourself from overpaying. Indicate undervalued stocks and quickly indicate great stocks.",
+          "service_name": "Stock Analyzer",
+          "service_icon": "https://www.stock-analyzer.app/Assets/favicon.png",
+          "from_url": "https://www.stock-analyzer.app/stock/?symbol=NET",
+          "original_url": "https://www.stock-analyzer.app/stock/?symbol=NET",
+          "blocks": null
+        },
+        {
+          "fallback": "Stock Analyzer: Stock Analyzer - Analyze Stock Fundamentals",
+          "id": 2,
+          "title": "Stock Analyzer - Analyze Stock Fundamentals",
+          "title_link": "https://www.stock-analyzer.app/",
+          "text": "Analyze your favorite stock fundamentals and prevent yourself from overpaying. Indicate undervalued stocks and quickly indicate great stocks.",
+          "service_name": "Stock Analyzer",
+          "service_icon": "https://www.stock-analyzer.app/Assets/favicon.png",
+          "from_url": "https://www.stock-analyzer.app/",
+          "original_url": "https://www.stock-analyzer.app",
+          "blocks": null
+        }
+      ],
+      "edited": {
+        "user": "B03HSLTQSAV",
+        "ts": "1654881237.000000"
+      },
+      "subtype": "bot_message",
+      "bot_id": "B03HSLTQSAV",
+      "username": "App Clips - Ask a Question",
+      "reply_count": 1,
+      "latest_reply": "1654881265.841189",
+      "reactions": [
+        {
+          "name": "heart",
+          "count": 1,
+          "users": [
+            "U03HKV56AMS"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "lAr",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03J4BDRBE0"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Not really a question, more a conclusion from yesterday's 1on1 lab I had. My App Clip opened with the wrong URL in messages. \\nE.g. \"},{\"type\":\"link\",\"url\":\"https:\\/\\/www.stock-analyzer.app\\/stock\\/?symbol=NET\",\"text\":\"https:\\/\\/www.stock-analyzer.app\\/stock\\/?symbol=NET\"},{\"type\":\"text\",\"text\":\" opened as  \"},{\"type\":\"link\",\"url\":\"https:\\/\\/www.stock-analyzer.app\",\"text\":\"https:\\/\\/www.stock-analyzer.app\"},{\"type\":\"text\",\"text\":\"\\n\\nI just want to let you know that Messages opens the og:url from the domain which in my case was set to fixed: \"},{\"type\":\"link\",\"url\":\"https:\\/\\/www.stock-analyzer.app\",\"text\":\"https:\\/\\/www.stock-analyzer.app\"},{\"type\":\"text\",\"text\":\"\\n\\nRemoving the og:url solved the issue! \"},{\"type\":\"emoji\",\"name\":\"tada\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "7672b885-4377-46b8-b55d-fb06cda767c1",
+          "type": "message",
+          "user": "U03HELJ7A5T",
+          "text": "That’s great to hear! We saw that after your lab concluded but happy that you were able to fix it!",
+          "ts": "1654881265.841189",
+          "thread_ts": "1654881236.270099",
+          "team": "T031SG5MZ7U",
+          "reactions": [
+            {
+              "name": "raised_hands",
+              "count": 1,
+              "users": [
+                "U03J4BDRBE0"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "v9+Ki",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "That’s great to hear! We saw that after your lab concluded but happy that you were able to fix it!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03JER2C7MX\u003e asked\n\u0026gt; I’d love to hear about marketing strategies for using App Clips\n\u0026gt;  - have any teams have success driving paid campaigns to app clips?\n\u0026gt;  - any recommendations to best utilize App Clips in marketing?\n\u0026gt;  - any concerns with tracking performance or A/B testing?",
+      "ts": "1654881654.336859",
+      "thread_ts": "1654881654.336859",
+      "subtype": "bot_message",
+      "bot_id": "B03HSLTQSAV",
+      "username": "App Clips - Ask a Question",
+      "reply_count": 4,
+      "latest_reply": "1654882160.069769",
+      "reactions": [
+        {
+          "name": "heart",
+          "count": 2,
+          "users": [
+            "U03J4D45DEY",
+            "U03JER2C7MX"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "S7l",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03JER2C7MX"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"I\\u2019d love to hear about marketing strategies for using App Clips\\n - have any teams have success driving paid campaigns to app clips?\\n - any recommendations to best utilize App Clips in marketing?\\n - any concerns with tracking performance or A\\/B testing?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "026b9d94-fe99-456d-9ba8-e1112729403c",
+          "type": "message",
+          "user": "U03HELJ7A5T",
+          "text": "This topic may be best discussed with your WWDR representative.",
+          "ts": "1654881706.235889",
+          "thread_ts": "1654881654.336859",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "mbn9",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "This topic may be best discussed with your WWDR representative."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "8ee144d3-8a28-4a5e-92eb-d923f4fcdaa1",
+          "type": "message",
+          "user": "U03J4D45DEY",
+          "text": "Would love any insights on this as well. App Clips fundamentally changes the customer journey path and is transformative to the various funnel conversions amidst it.\n\nWould be great to have more resources in this overall regarding App Clips.",
+          "ts": "1654881877.994039",
+          "thread_ts": "1654881654.336859",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "HeYZL",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Would love any insights on this as well. App Clips fundamentally changes the customer journey path and is transformative to the various funnel conversions amidst it.\n\nWould be great to have more resources in this overall regarding App Clips."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "42252f77-8b59-46d3-a3d2-edbd299c586b",
+          "type": "message",
+          "user": "U03HELJ7A5T",
+          "text": "There are Developer analytics tools to understand how users interact with your App Clip. If you have a specific request where something is missing, a Feedback Report would be great!",
+          "ts": "1654882064.067589",
+          "thread_ts": "1654881654.336859",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "47F",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "There are Developer analytics tools to understand how users interact with your App Clip. If you have a specific request where something is missing, a Feedback Report would be great!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "44b38621-4523-4d8f-a19f-653cb15d9047",
+          "type": "message",
+          "user": "U03JER2C7MX",
+          "text": "Hah, all right :smile:\n\nThanks anyway )",
+          "ts": "1654882160.069769",
+          "thread_ts": "1654881654.336859",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Oemn",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hah, all right "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "smile",
+                      "skin_tone": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nThanks anyway )"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03J4DP51UL\u003e asked\n\u0026gt; How do updates work for app clips specifically do all new versions immediately replace any cached versions? \n\u0026gt; \n\u0026gt; Also what happens if we dropped iOS 14, would they receive an older version of the app clip or would it revert to web ?",
+      "ts": "1654882217.571819",
+      "thread_ts": "1654882217.571819",
+      "subtype": "bot_message",
+      "bot_id": "B03HSLTQSAV",
+      "username": "App Clips - Ask a Question",
+      "reply_count": 2,
+      "latest_reply": "1654882307.786109",
+      "reactions": [
+        {
+          "name": "eyes",
+          "count": 1,
+          "users": [
+            "U03JEMJNH1P"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "kP5M",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03J4DP51UL"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"How do updates work for app clips specifically do all new versions immediately replace any cached versions? \\n\\nAlso what happens if we dropped iOS 14, would they receive an older version of the app clip or would it revert to web ?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "838ed98e-8d2d-4afd-881c-ad89ed9ba55e",
+          "type": "message",
+          "user": "U03HKV5GJLC",
+          "text": "If there is new version in App Store, next time when user invokes the App Clip from Code Scan, App Library, Maps, Spotlight, or Safari, it will replace the existing version.",
+          "ts": "1654882247.129279",
+          "thread_ts": "1654882217.571819",
+          "team": "T031SG5MZ7U",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U03J4DP51UL"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "pRPgK",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "If there is new version in App Store, next time when user invokes the App Clip from Code Scan, App Library, Maps, Spotlight, or Safari, it will replace the existing version."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "c4d67593-2c61-4298-8121-1dad4bac6490",
+          "type": "message",
+          "user": "U03HKV5GJLC",
+          "text": "If you drop iOS 14, it will not revert to an older version of the App Clip in iOS 14 devices.",
+          "ts": "1654882307.786109",
+          "thread_ts": "1654882217.571819",
+          "team": "T031SG5MZ7U",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 2,
+              "users": [
+                "U03J4DP51UL",
+                "U03KLF0URNC"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "PF3WY",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "If you drop iOS 14, it will not revert to an older version of the App Clip in iOS 14 devices."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03J4D45DEY\u003e asked\n\u0026gt; Hi there, is there a JS SDK to trigger the App Clip launch card on the web programmatically?\n\u0026gt; \n\u0026gt; This is crucial for supporting lead pages that educate people on a use case / service, and using a CTA button on the page to prompt the launch of the App Clip.\n\u0026gt; \n\u0026gt; Otherwise the showing of an App Clip interstitial implicitly on page launch can feel like an ad interstitial that users immediately want to discard, rather than facilitating an action they explicitly want to perform.",
+      "ts": "1654882430.069399",
+      "thread_ts": "1654882430.069399",
+      "subtype": "bot_message",
+      "bot_id": "B03HSLTQSAV",
+      "username": "App Clips - Ask a Question",
+      "reply_count": 7,
+      "latest_reply": "1654883782.580439",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "qe+rJ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03J4D45DEY"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Hi there, is there a JS SDK to trigger the App Clip launch card on the web programmatically?\\n\\nThis is crucial for supporting lead pages that educate people on a use case \\/ service, and using a CTA button on the page to prompt the launch of the App Clip.\\n\\nOtherwise the showing of an App Clip interstitial implicitly on page launch can feel like an ad interstitial that users immediately want to discard, rather than facilitating an action they explicitly want to perform.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "d72d107d-451d-4b17-8417-92a2d9506b0d",
+          "type": "message",
+          "user": "U03HELJ7A5T",
+          "text": "There is no JS SDK today to trigger the App Clip card programmatically.",
+          "ts": "1654882458.100369",
+          "thread_ts": "1654882430.069399",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "N6BE",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "There is no JS SDK today to trigger the App Clip card programmatically."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "2c28ea45-1db6-46d3-baaa-5f6bb5d100f1",
+          "type": "message",
+          "user": "U03H310CVQX",
+          "text": "If you want to add some info before showing the app clip card, you can put the app clip card on a dedicated page just for that. Then have your main page link to that page with the app clip card after you show the explanation.",
+          "ts": "1654882476.654659",
+          "thread_ts": "1654882430.069399",
+          "edited": {
+            "user": "U03H310CVQX",
+            "ts": "1654882497.000000"
+          },
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "931HZ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "If you want to add some info before showing the app clip card, you can put the app clip card on a dedicated page just for that. Then have your main page link to that page with the app clip card after you show the explanation."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "1a70b785-c795-4b00-b4b7-e7baf2ea1d02",
+          "type": "message",
+          "user": "U03J4D45DEY",
+          "text": "Thank you \u003c@U03H310CVQX\u003e, this is the workaround we’ve been using so far, but it’s a definitely an unnecessary break in experience and an ‘extra step’ for no other reason outside of technical limitation.\n\nIt would be really useful to have this functionality to de-jar the user experience, perhaps something similar to the \u003chttps://developers.facebook.com/docs/messenger-platform/webview/extensions#started|Messenger Extensions SDK\u003e, which after initializing on page load could have a single function to `launchAppClip(…)` into a particular App Clip experience supported by your App Clip binary, along with the various params/invocations that your App Clips support.",
+          "ts": "1654882993.626749",
+          "thread_ts": "1654882430.069399",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "W2/p",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thank you "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03H310CVQX"
+                    },
+                    {
+                      "type": "text",
+                      "text": ", this is the workaround we’ve been using so far, but it’s a definitely an unnecessary break in experience and an ‘extra step’ for no other reason outside of technical limitation.\n\nIt would be really useful to have this functionality to de-jar the user experience, perhaps something similar to the "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developers.facebook.com/docs/messenger-platform/webview/extensions#started",
+                      "text": "Messenger Extensions SDK"
+                    },
+                    {
+                      "type": "text",
+                      "text": ", which after initializing on page load could have a single function to "
+                    },
+                    {
+                      "type": "text",
+                      "text": "launchAppClip(…)",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " into a particular App Clip experience supported by your App Clip binary, along with the various params/invocations that your App Clips support."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "f1bf68f0-513f-465d-9ce8-3fead4651e57",
+          "type": "message",
+          "user": "U03HELJ7A5T",
+          "text": "\u003c@U03J4D45DEY\u003e i think we understand your use case. it would be great to capture that in a FB if you haven’t already for us to consider",
+          "ts": "1654883135.659179",
+          "thread_ts": "1654882430.069399",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "OUo1",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U03J4D45DEY"
+                    },
+                    {
+                      "type": "text",
+                      "text": " i think we understand your use case. it would be great to capture that in a FB if you haven’t already for us to consider"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "fab7fd48-1391-4824-ae35-dadd05e22776",
+          "type": "message",
+          "user": "U03J4D45DEY",
+          "text": "Thanks \u003c@U03HELJ7A5T\u003e, I haven’t yet but will do so!\n\nWe love App Clips and want them to proliferate and become a natural part of web flows, akin to sharing a link via launching the system share sheet today.",
+          "ts": "1654883353.480819",
+          "thread_ts": "1654882430.069399",
+          "team": "T031SG5MZ7U",
+          "reactions": [
+            {
+              "name": "raised_hands",
+              "count": 1,
+              "users": [
+                "U03HELJ7A5T"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "f5p",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03HELJ7A5T"
+                    },
+                    {
+                      "type": "text",
+                      "text": ", I haven’t yet but will do so!\n\nWe love App Clips and want them to proliferate and become a natural part of web flows, akin to sharing a link via launching the system share sheet today."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "d22d0ef4-4868-4423-a94a-070c485922f0",
+          "type": "message",
+          "user": "U03J4D45DEY",
+          "text": "Where exactly do I submit the “FB” from? Is this within the Developer app, and is there a specific section to submit for App Clips?",
+          "ts": "1654883615.700509",
+          "thread_ts": "1654882430.069399",
+          "edited": {
+            "user": "U03J4D45DEY",
+            "ts": "1654883774.000000"
+          },
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "4GA",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Where exactly do I submit the “FB” from? Is this within the Developer app, and is there a specific section to submit for App Clips?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "5c5df426-cebd-4d9a-ba2a-535ded199d91",
+          "type": "message",
+          "user": "U03HELJ0CAH",
+          "text": "There is a Feedback Assistant app where you can submit feedback to us with logs and specific details about your issue(s).",
+          "ts": "1654883782.580439",
+          "thread_ts": "1654882430.069399",
+          "team": "T031SG5MZ7U",
+          "reactions": [
+            {
+              "name": "pray",
+              "count": 1,
+              "users": [
+                "U03J4D45DEY"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Vc4kH",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "There is a Feedback Assistant app where you can submit feedback to us with logs and specific details about your issue(s)."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03J4D45DEY\u003e asked\n\u0026gt; How can we launch App Clips from non-Safari browsers or from embedded browsers within other apps (ie: social media apps, messaging apps etc.)?\n\u0026gt; \n\u0026gt; The industry best practice / status quo for viewing any web pages from an existing app (ie: social media apps) is to show an embedded browser, not switch apps into Safari",
+      "ts": "1654882791.125639",
+      "thread_ts": "1654882791.125639",
+      "subtype": "bot_message",
+      "bot_id": "B03HSLTQSAV",
+      "username": "App Clips - Ask a Question",
+      "reply_count": 4,
+      "latest_reply": "1654884241.976939",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "x3iiQ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03J4D45DEY"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"How can we launch App Clips from non-Safari browsers or from embedded browsers within other apps (ie: social media apps, messaging apps etc.)?\\n\\nThe industry best practice \\/ status quo for viewing any web pages from an existing app (ie: social media apps) is to show an embedded browser, not switch apps into Safari\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "85bedde1-047f-46c0-a723-d6c6889a8d82",
+          "type": "message",
+          "user": "U03H310CVQX",
+          "text": "App Clips can open from within the \u003chttps://developer.apple.com/documentation/safariservices/sfsafariviewcontroller|Safari View Controller\u003e, which is what we recommend apps use for an in-app browser.\n\nFor example Twitter uses Safari View Controller and can show the App Clip card right from the app.",
+          "ts": "1654882805.736519",
+          "thread_ts": "1654882791.125639",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "B7PHS",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "App Clips can open from within the "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/safariservices/sfsafariviewcontroller",
+                      "text": "Safari View Controller"
+                    },
+                    {
+                      "type": "text",
+                      "text": ", which is what we recommend apps use for an in-app browser.\n\nFor example Twitter uses Safari View Controller and can show the App Clip card right from the app."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "2ae2b19c-93c4-4e77-be66-b988d3d0d3bb",
+          "type": "message",
+          "user": "U03HKV5GJLC",
+          "text": "For this topic, please also check out our 2021 WWDC session \u003chttps://developer.apple.com/videos/play/wwdc2021/10012/|What’s new in App Clips\u003e.",
+          "ts": "1654882914.241859",
+          "thread_ts": "1654882791.125639",
+          "attachments": [
+            {
+              "fallback": "Apple Developer: What's new in App Clips - WWDC21 - Videos - Apple Developer",
+              "id": 1,
+              "title": "What's new in App Clips - WWDC21 - Videos - Apple Developer",
+              "title_link": "https://developer.apple.com/videos/play/wwdc2021/10012/",
+              "text": "Discover how App Clips can elevate quick and focused experiences for specific tasks, the moment your customer needs them. We'll take you...",
+              "image_url": "https://devimages-cdn.apple.com/wwdc-services/images/119/4878/4878_wide_250x141_2x.jpg",
+              "service_name": "Apple Developer",
+              "service_icon": "https://developer.apple.com/favicon.ico",
+              "from_url": "https://developer.apple.com/videos/play/wwdc2021/10012/",
+              "original_url": "https://developer.apple.com/videos/play/wwdc2021/10012/",
+              "blocks": null
+            }
+          ],
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Ur7",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "For this topic, please also check out our 2021 WWDC session "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/videos/play/wwdc2021/10012/",
+                      "text": "What’s new in App Clips"
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "3510d0d2-a117-492d-a52e-8e4197c9ec26",
+          "type": "message",
+          "user": "U03J4D45DEY",
+          "text": "OK thank you. That handles the second part of question, happy that that’s a supported scenarios.\n\nWhat about for the first part, non-Safari web browsers? This could possibly be related to my other question about having a web SDK that can manually invoke the launch of an App Clip, akin to how the \u003chttps://developer.mozilla.org/en-US/docs/Web/API/Web_Share_API|Web Share API\u003e launches the System Share sheet.\n\nWe want to have App Clips adopted everywhere users are browsing/reading the web – so these two aspects may go hand in hand together to proliferate the awareness and adoption of App Clips (which currently seems to be quite low – pretty none of the non-technical users I talk to has seen or knows what an App Clip is)",
+          "ts": "1654883221.576589",
+          "thread_ts": "1654882791.125639",
+          "attachments": [
+            {
+              "fallback": "Web Share API - Web APIs | MDN",
+              "id": 1,
+              "title": "Web Share API - Web APIs | MDN",
+              "title_link": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Share_API",
+              "text": "The Web Share API provides a mechanism for sharing text, links, files, and other content to an arbitrary share target selected by the user.",
+              "image_url": "https://developer.mozilla.org/mdn-social-share.cd6c4a5a.png",
+              "service_name": "developer.mozilla.org",
+              "service_icon": "https://developer.mozilla.org/apple-touch-icon.6803c6f0.png",
+              "from_url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Share_API",
+              "original_url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Share_API",
+              "blocks": null
+            }
+          ],
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "nIut",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "OK thank you. That handles the second part of question, happy that that’s a supported scenarios.\n\nWhat about for the first part, non-Safari web browsers? This could possibly be related to my other question about having a web SDK that can manually invoke the launch of an App Clip, akin to how the "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Share_API",
+                      "text": "Web Share API"
+                    },
+                    {
+                      "type": "text",
+                      "text": " launches the System Share sheet.\n\nWe want to have App Clips adopted everywhere users are browsing/reading the web – so these two aspects may go hand in hand together to proliferate the awareness and adoption of App Clips (which currently seems to be quite low – pretty none of the non-technical users I talk to has seen or knows what an App Clip is)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "dd52e275-f19a-4181-9969-062afbae9ee6",
+          "type": "message",
+          "user": "U03HELJ7A5T",
+          "text": "We’re thrilled and share your excitement for App Clips! This enhancement would be good to file as a FB as well \u003c@U03J4D45DEY\u003e!",
+          "ts": "1654884241.976939",
+          "thread_ts": "1654882791.125639",
+          "team": "T031SG5MZ7U",
+          "reactions": [
+            {
+              "name": "raised_hands",
+              "count": 1,
+              "users": [
+                "U03J4D45DEY"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "xCT",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "We’re thrilled and share your excitement for App Clips! This enhancement would be good to file as a FB as well "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U03J4D45DEY"
+                    },
+                    {
+                      "type": "text",
+                      "text": "!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03KH907MME\u003e asked\n\u0026gt; Since App Clips can be installed by a URL and the clip receives the URL on launch, we're thinking about using them for sharing invite/referral codes between users. We're thinking the app clip would them show detail about the invite or referral and either a simplified sign up flow or a prompt to install the app. Would this be an acceptable use case for an App Clip? Or is there another way data could be passed through an app install?",
+      "ts": "1654883960.958619",
+      "thread_ts": "1654883960.958619",
+      "subtype": "bot_message",
+      "bot_id": "B03HSLTQSAV",
+      "username": "App Clips - Ask a Question",
+      "reply_count": 3,
+      "latest_reply": "1654884598.082569",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "46zyn",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03KH907MME"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Since App Clips can be installed by a URL and the clip receives the URL on launch, we're thinking about using them for sharing invite\\/referral codes between users. We're thinking the app clip would them show detail about the invite or referral and either a simplified sign up flow or a prompt to install the app. Would this be an acceptable use case for an App Clip? Or is there another way data could be passed through an app install?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "b2e76a04-ec81-4193-9c2b-401dc03ddf6f",
+          "type": "message",
+          "user": "U03H310CVQX",
+          "text": "Sharing a unique link can work great, but every App Clip needs to have a purpose in itself. An App Clip shouldn't just point to an app or be just for sign up.\n\nDo you have an experience that you could put in the App Clip, so people can use the App Clip to try out some features and see if they _want_ to sign up? Trying out your app could be a great use for an App Clip.",
+          "ts": "1654883968.653619",
+          "thread_ts": "1654883960.958619",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "05MYF",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Sharing a unique link can work great, but every App Clip needs to have a purpose in itself. An App Clip shouldn't just point to an app or be just for sign up.\n\nDo you have an experience that you could put in the App Clip, so people can use the App Clip to try out some features and see if they "
+                    },
+                    {
+                      "type": "text",
+                      "text": "want",
+                      "style": {
+                        "italic": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " to sign up? Trying out your app could be a great use for an App Clip."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "2863955b-ed0e-48fe-a82f-e2f69282d3e2",
+          "type": "message",
+          "user": "U03KH907MME",
+          "text": "That’s something we’ll have to think about. We’ve got a financial services app that requires the user to sign up before they can do most things in the app, but we’re thinking about ways to a create a preview experience for an app clip.",
+          "ts": "1654884450.538259",
+          "thread_ts": "1654883960.958619",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Ga7U9",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "That’s something we’ll have to think about. We’ve got a financial services app that requires the user to sign up before they can do most things in the app, but we’re thinking about ways to a create a preview experience for an app clip."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "a1a8864e-3ea5-4ba9-8454-bdafb8efbd44",
+          "type": "message",
+          "user": "U03HELJ0CAH",
+          "text": "I would recommend checking out this article about \u003chttps://developer.apple.com/documentation/app_clips/sharing_data_between_your_app_clip_and_your_full_app|sharing data between your app clip and app\u003e. You could give them a rich experience that would transition into the full app.",
+          "ts": "1654884598.082569",
+          "thread_ts": "1654883960.958619",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "zXS",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I would recommend checking out this article about "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/app_clips/sharing_data_between_your_app_clip_and_your_full_app",
+                      "text": "sharing data between your app clip and app"
+                    },
+                    {
+                      "type": "text",
+                      "text": ". You could give them a rich experience that would transition into the full app."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03J1UX2CQK\u003e asked\n\u0026gt; Following up on my question about using App Clips for demos from earlier: is it possible to open App Clips directly from a link, or do we always need to link to a page that shows the interstitial? Use-case would  be a \"click here to try out this cool content in our app\" advertisement.",
+      "ts": "1654884280.224979",
+      "thread_ts": "1654884280.224979",
+      "subtype": "bot_message",
+      "bot_id": "B03HSLTQSAV",
+      "username": "App Clips - Ask a Question",
+      "reply_count": 2,
+      "latest_reply": "1654884571.072829",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "WWni",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03J1UX2CQK"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Following up on my question about using App Clips for demos from earlier: is it possible to open App Clips directly from a link, or do we always need to link to a page that shows the interstitial? Use-case would  be a \\\"click here to try out this cool content in our app\\\" advertisement.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "cf4a3eb2-d383-41e3-8715-cabd6d73df7b",
+          "type": "message",
+          "user": "U03HKV5GJLC",
+          "text": "Yes, you will need to link to a page that shows the App Clips card. Here is the \u003chttps://developer.apple.com/documentation/app_clips/supporting_invocations_from_your_website_and_the_messages_app|documentation\u003e showing how to enable that in your web page.",
+          "ts": "1654884292.458189",
+          "thread_ts": "1654884280.224979",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "xpi",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yes, you will need to link to a page that shows the App Clips card. Here is the "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/app_clips/supporting_invocations_from_your_website_and_the_messages_app",
+                      "text": "documentation"
+                    },
+                    {
+                      "type": "text",
+                      "text": " showing how to enable that in your web page."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "955be4a4-9686-4d06-b1a5-7fd9cb0ae544",
+          "type": "message",
+          "user": "U03J1UX2CQK",
+          "text": "Thanks! I was kind of hoping I had missed an announcement. I can definitely make some sort of something with the app clip cards though, which I don't think I knew about when I filed my feedback about this (FB9875847).",
+          "ts": "1654884571.072829",
+          "thread_ts": "1654884280.224979",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Dw+K+",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks! I was kind of hoping I had missed an announcement. I can definitely make some sort of something with the app clip cards though, which I don't think I knew about when I filed my feedback about this (FB9875847)."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03J4DP51UL\u003e asked\n\u0026gt; We are a mobile ordering app that has support for both credit cards and Apple Pay, our payment provider recently increased their framework size which pushed us beyond the 10mb limit but provided a separate Apple Pay framework.\n\u0026gt; \n\u0026gt; Would you suggest in this case to direct card users to our app or website ? \n\u0026gt; \n\u0026gt; Is there any reasoning behind the 15mb limit not coming to iOS 14 and iOS 15? We still have a large portion of users on iOS 14 alone who haven't upgraded.",
+      "ts": "1654884505.069619",
+      "thread_ts": "1654884505.069619",
+      "subtype": "bot_message",
+      "bot_id": "B03HSLTQSAV",
+      "username": "App Clips - Ask a Question",
+      "reply_count": 1,
+      "latest_reply": "1654884524.537949",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "8Op",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03J4DP51UL"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"We are a mobile ordering app that has support for both credit cards and Apple Pay, our payment provider recently increased their framework size which pushed us beyond the 10mb limit but provided a separate Apple Pay framework.\\n\\nWould you suggest in this case to direct card users to our app or website ? \\n\\nIs there any reasoning behind the 15mb limit not coming to iOS 14 and iOS 15? We still have a large portion of users on iOS 14 alone who haven't upgraded.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "179cb173-0f84-4a21-ade9-41b778868a78",
+          "type": "message",
+          "user": "U03HELJ7A5T",
+          "text": "You could direct card users to your app or website, however this could be a non-ideal user experience.\n\nWe understand that some users have not upgraded, however there are changes in iOS 16 needed to support 15 MB App Clips.",
+          "ts": "1654884524.537949",
+          "thread_ts": "1654884505.069619",
+          "team": "T031SG5MZ7U",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U03J4DP51UL"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "SOlM",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "You could direct card users to your app or website, however this could be a non-ideal user experience.\n\nWe understand that some users have not upgraded, however there are changes in iOS 16 needed to support 15 MB App Clips."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03HVCK66P8\u003e asked\n\u0026gt; Hello. Can App Clip connect bluetooth device such as POS printer?",
+      "ts": "1654884637.525879",
+      "thread_ts": "1654884637.525879",
+      "subtype": "bot_message",
+      "bot_id": "B03HSLTQSAV",
+      "username": "App Clips - Ask a Question",
+      "reply_count": 3,
+      "latest_reply": "1654884838.007069",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "/eG3",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03HVCK66P8"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Hello. Can App Clip connect bluetooth device such as POS printer?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "6b2b289e-22bc-4e9e-a019-982883558fc8",
+          "type": "message",
+          "user": "U03HKV5GJLC",
+          "text": "App Clips can connect to bluetooth devices. However, they are not able to maintain connection to bluetooth devices when they are not running in foreground.",
+          "ts": "1654884728.053809",
+          "thread_ts": "1654884637.525879",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "AgPwV",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "App Clips can connect to bluetooth devices. However, they are not able to maintain connection to bluetooth devices when they are not running in foreground."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "2717a4fd-865d-453f-ba7b-348b5bc276f1",
+          "type": "message",
+          "user": "U03HKV5GJLC",
+          "text": "For App Clip capabilities, please refer to this \u003chttps://developer.apple.com/documentation/app_clips/choosing_the_right_functionality_for_your_app_clip|documentation\u003e.",
+          "ts": "1654884766.291009",
+          "thread_ts": "1654884637.525879",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "+4vUb",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "For App Clip capabilities, please refer to this "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/app_clips/choosing_the_right_functionality_for_your_app_clip",
+                      "text": "documentation"
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "8ffcbce4-35b4-4bf0-9f0b-4d237e94cb3a",
+          "type": "message",
+          "user": "U03HVCK66P8",
+          "text": "Wow! Thanks :slightly_smiling_face:",
+          "ts": "1654884838.007069",
+          "thread_ts": "1654884637.525879",
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Y78",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Wow! Thanks "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03J4DP51UL\u003e asked\n\u0026gt; To reduce file size is there any way within Xcode to see a compiled file size of other frameworks in the App Clip ?  The thinning report doesn’t directly break down what is taking up the size.\n\u0026gt; \n\u0026gt; Is there anything else that could be done to reduce size for example: Does turning off bitcode help, do you need the app icon to be included or is it inferred from the parent app? We have no assets, purely using all SF Symbols outside of the App Icon.",
+      "ts": "1654885236.703159",
+      "thread_ts": "1654885236.703159",
+      "subtype": "bot_message",
+      "bot_id": "B03HSLTQSAV",
+      "username": "App Clips - Ask a Question",
+      "reply_count": 1,
+      "latest_reply": "1654885244.254619",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "x+g1R",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03J4DP51UL"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"To reduce file size is there any way within Xcode to see a compiled file size of other frameworks in the App Clip ?  The thinning report doesn\\u2019t directly break down what is taking up the size.\\n\\nIs there anything else that could be done to reduce size for example: Does turning off bitcode help, do you need the app icon to be included or is it inferred from the parent app? We have no assets, purely using all SF Symbols outside of the App Icon.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "42417d8e-7400-424a-a072-245654e9bcd5",
+          "type": "message",
+          "user": "U03HKV5GJLC",
+          "text": "Turning off bitcode will not affect the thinned size. The app icon is included in the size report. For techniques to reduce binary size, please check out WWDC 2021 session \u003chttps://developer.apple.com/videos/play/wwdc2021/10013/|Build Light and Fast App Clips\u003e.",
+          "ts": "1654885244.254619",
+          "thread_ts": "1654885236.703159",
+          "attachments": [
+            {
+              "fallback": "Apple Developer: Build light and fast App Clips - WWDC21 - Videos - Apple Developer",
+              "id": 1,
+              "title": "Build light and fast App Clips - WWDC21 - Videos - Apple Developer",
+              "title_link": "https://developer.apple.com/videos/play/wwdc2021/10013/",
+              "text": "App Clips give people the power to discover and download a small part of your app at a moment's notice to complete tasks and...",
+              "image_url": "https://devimages-cdn.apple.com/wwdc-services/images/119/4879/4879_wide_250x141_2x.jpg",
+              "service_name": "Apple Developer",
+              "service_icon": "https://developer.apple.com/favicon.ico",
+              "from_url": "https://developer.apple.com/videos/play/wwdc2021/10013/",
+              "original_url": "https://developer.apple.com/videos/play/wwdc2021/10013/",
+              "blocks": null
+            }
+          ],
+          "team": "T031SG5MZ7U",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "omiF",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Turning off bitcode will not affect the thinned size. The app icon is included in the size report. For techniques to reduce binary size, please check out WWDC 2021 session "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/videos/play/wwdc2021/10013/",
+                      "text": "Build Light and Fast App Clips"
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "c7ce00ba-0c11-44e8-adfd-49342bf1927e",
+      "type": "message",
+      "user": "U03HELJ7A5T",
+      "text": "Thank you everyone for all your questions! You can also always ask more questions and discuss on the Apple Developer Forums! And as always you can file a report in Feedback Assistant for bugs and specific needs for your situation!",
+      "ts": "1654887743.374759",
+      "team": "T031SG5MZ7U",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Lz6",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Thank you everyone for all your questions! You can also always ask more questions and discuss on the Apple Developer Forums! And as always you can file a report in Feedback Assistant for bugs and specific needs for your situation!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03HELJ7A5T\u003e removed a workflow from this channel: *App Clips - Ask a Question*.",
+      "ts": "1654887781.337679",
+      "subtype": "bot_message",
+      "bot_id": "B03HSLTQSAV",
+      "username": "App Clips - Ask a Question",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": null
+    },
+    {
+      "client_msg_id": "9fcc5bb4-ed0d-416c-bd43-bbc52e1bb20b",
+      "type": "message",
+      "user": "U03HELJ7A5T",
+      "text": "Thank you so much for joining in the App Clips Digital Lounge! We hope you enjoyed the space as much as we did! :star-struck: Before you head out: *\u003chttps://essentials.applesurveys.com/jfe/form/SV_2cw6N3JbrxFcoiq|Our WWDC22 Developer Survey is now live\u003e*! It would mean SO much to us if you could take a few moments — 5 minutes, max — and let us know what you loved about WWDC22 and what we could make better for you. Your feedback has major impact on the programs and events we host for developers, and we’re excited to hear from you.\n\nFor just a bit of fun, I’m going to open up threads :thread: for a while. Let us know here what you thought or with emojis!",
+      "ts": "1654907255.064389",
+      "team": "T031SG5MZ7U",
+      "reactions": [
+        {
+          "name": "raised_hands",
+          "count": 1,
+          "users": [
+            "U03JRP87THN"
+          ]
+        },
+        {
+          "name": "gratitude-thank-you",
+          "count": 3,
+          "users": [
+            "U03JRP87THN",
+            "U03J1UB5G8K",
+            "U03JXD1AQRE"
+          ]
+        },
+        {
+          "name": "wwdc22",
+          "count": 2,
+          "users": [
+            "U03JRP87THN",
+            "U03J1UB5G8K"
+          ]
+        },
+        {
+          "name": "white_check_mark",
+          "count": 1,
+          "users": [
+            "U03J200TFL3"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ll3",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Thank you so much for joining in the App Clips Digital Lounge! We hope you enjoyed the space as much as we did! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "star-struck",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " Before you head out: "
+                },
+                {
+                  "type": "link",
+                  "url": "https://essentials.applesurveys.com/jfe/form/SV_2cw6N3JbrxFcoiq",
+                  "text": "Our WWDC22 Developer Survey is now live",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "! It would mean SO much to us if you could take a few moments — 5 minutes, max — and let us know what you loved about WWDC22 and what we could make better for you. Your feedback has major impact on the programs and events we host for developers, and we’re excited to hear from you.\n\nFor just a bit of fun, I’m going to open up threads "
+                },
+                {
+                  "type": "emoji",
+                  "name": "thread",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " for a while. Let us know here what you thought or with emojis!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "channel_id": "C03H5QD7BM4"
+}
