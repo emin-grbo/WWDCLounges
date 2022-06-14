@@ -3410,13 +3410,13 @@ You’ll never get an answer if you don’t ask. :slightly_smiling_face: </p>
 </blockquote>
 <p>Yes! 
 To animate between layouts you'll need to switch between the layouts using <code>AnyLayout</code>  for example:</p>
-<p><code>`let layout = isVertical ? AnyLayout(VStack()) : AnyLayout(HStack())
+<pre><code class="language-swift">let layout = isVertical ? AnyLayout(VStack()) : AnyLayout(HStack())
 layout {
-    Text("Hi")
-    Text("World")
-}</code>
-` 
-Check out the Compose custom layouts with SwiftUI talk tomorrow for more details! 
+    Text(&quot;Hi&quot;)
+    Text(&quot;World&quot;)
+}
+</code></pre>
+<p>Check out the Compose custom layouts with SwiftUI talk tomorrow for more details! 
 Looking forward to it. Thank you! 
 This sounds great!  Looking forward to getting rid of some UIStackViews 
 These kinds of examples will be in the code snippets soon too! Both that table layout code, and the grid morphing to a scattered layout will be included </p>
@@ -3632,20 +3632,21 @@ It’s in the Copy Code for the talk accessible in the Developer app though
 I think you can use <code>for await _ in store.objectWillChange.values</code> in a similar way? 
 That’s close, Christian! 
 You have to buffer the values too. </p>
-<p><code>`    var objectWillChangeSequence:
+<pre><code class="language-swift">var objectWillChangeSequence:
         AsyncPublisher&amp;lt;Publishers.Buffer&amp;lt;ObservableObjectPublisher&amp;gt;&amp;gt;
     {
         objectWillChange
             .buffer(size: 1, prefetch: .byRequest, whenFull: .dropOldest)
             .values
-    }</code>
-<code>Great thanks, for some reason the copy codes aren't appearing for me 
+    }
+</code></pre>
+<p>Great thanks, for some reason the copy codes aren't appearing for me 
 Bummer. 
-There’s also a sample app with similar code: &lt;https://developer.apple.com/documentation/swiftui/bringing_robust_navigation_structure_to_your_swiftui_app&gt; 
+There’s also a sample app with similar code: <a href="https://developer.apple.com/documentation/swiftui/bringing_robust_navigation_structure_to_your_swiftui_app">https://developer.apple.com/documentation/swiftui/bringing_robust_navigation_structure_to_your_swiftui_app</a> 
 The sample app is a little more complex than what I shared in the talk. 
-&lt;@U03HW7P0HQR&gt; Instead of</code>objectWillChangeSequence<code>would it be possible to use</code>onChange(of: perform)<code>to track any selection changes and update</code>@SceneStorage<code>data variable? 
+&lt;@U03HW7P0HQR&gt; Instead of <code>objectWillChangeSequence</code> would it be possible to use <code>onChange(of: perform)</code> to track any selection changes and update <code>@SceneStorage</code> data variable? 
 Yep. That approach will work too. 
-I used</code>task<code>in the talk so the restore and save code was in one block, but splitting them into separate</code>onAppear<code>and</code>onChange` should also work. </p>
+I used <code>task</code> in the talk so the restore and save code was in one block, but splitting them into separate <code>onAppear</code> and <code>onChange</code> should also work. </p>
 <hr />
 <blockquote>
 <h4 id="how-does-viewthatfits-decide-if-a-view-fits-i-find-it-a-bit-strange-that-text-with-a-line-limit-of-1-still-fits-even-if-its-truncated-for-example">How does ViewThatFits decide if a view fits? I find it a bit strange that Text with a line limit of 1 still "fits" even if it's truncated for example.</h4>
@@ -3665,27 +3666,27 @@ Its possible to modify the <code>.foregroundStyle</code> to have a different col
 The Build a Productivity App for Apple Watch talk, coming tomorrow, has an example of exactly that! 
 <a href="https://developer.apple.com/wwdc22/10133">https://developer.apple.com/wwdc22/10133</a> 
 You can use <code>PointMark</code> (possibly with annotations) to highlight values on a line, such as:</p>
-<p><code>`Chart {
+<pre><code class="language-swift">Chart {
     // Create the line.
     ForEach(data) {
         LineMark(
-            x: .value("X", $0.x),
-            y: .value("Y", $0.y)
+            x: .value(&quot;X&quot;, $0.x),
+            y: .value(&quot;Y&quot;, $0.y)
         )
     }
     // Highlight a point.
     PointMark(
-        x: .value("Highlight X", 10),
-        y: .value("Highlight Y", 50)
+        x: .value(&quot;Highlight X&quot;, 10),
+        y: .value(&quot;Highlight Y&quot;, 50)
     )
     .foregroundStyle(highlightColor)
     // You can also add textual annotations to the point:
     .annotation(position: .top) {
-        Text("Highlight")
+        Text(&quot;Highlight&quot;)
     }
-}</code>
-` 
-I am sorry for not being clear. What I want is having a vertical line when I tap on a specific X position so that all datapoints on that X position are highlighted. 
+}
+</code></pre>
+<p>I am sorry for not being clear. What I want is having a vertical line when I tap on a specific X position so that all datapoints on that X position are highlighted. 
 You would decompose the problem into 1) using a chart proxy to get the x position for a tap and 2) highlighting the data points at that x. The lollipop tooltip we have in the Swift Charts sample app may be a starting point to look at. </p>
 <hr />
 <blockquote>
@@ -3703,22 +3704,23 @@ Yes, I think both of these use cases should be captured as feedback. Providing c
 </blockquote>
 <p>You can pass any kind of information you like to an adopter of <code>Layout</code>.  So that "certain width" could be passed to the instance of the <code>Layout</code> itself. And the layout priority can be provided via the subviews proxy of <code>Layout</code>. 
 In the swiftinterface file there is discussion of this:</p>
-<p><code>`/// Views have layout values that you set with view modifiers.
+<pre><code class="language-swift">/// Views have layout values that you set with view modifiers.
 /// Layout containers can choose to condition their behavior accordingly.
-/// For example, a built-in</code>HStack<code>allocates space to its subviews based
-/// in part on the priorities that you set with the</code>View/layoutPriority(_:)<code>/// view modifier. Your layout container accesses this value for a subview by
-/// reading the proxy's</code>LayoutSubview/priority<code>property.</code>
-`</p>
+/// For example, a built-in ``HStack`` allocates space to its subviews based
+/// in part on the priorities that you set with the ``View/layoutPriority(_:)``
+/// view modifier. Your layout container accesses this value for a subview by
+/// reading the proxy's ``LayoutSubview/priority`` property.
+</code></pre>
 <p>You can see the rendered version of that text in the docs under the heading “Access Layout Values”: <a href="https://developer.apple.com/documentation/swiftui/layout">https://developer.apple.com/documentation/swiftui/layout</a> 
 Thinking about this more....</p>
 <p>Reasoning about this in terms of autolayout might make things tricker than they need to be, especially for 2 views.  For instance you could instead use a custom <code>LayoutValueKey</code> to say that View A should take 70% of the proposed size, and View B should take 30%. 
 Rough sample code:</p>
-<p><code>`MyCustomLayout(widthThreshold: 300.0) {
+<pre><code class="language-swift">MyCustomLayout(widthThreshold: 300.0) {
     viewA.oversizedWidthPercentage(0.7)
     viewB.oversizedWidthPercentage(0.3)
-}</code>
-` 
-i was thinking something more like breaking "constraints" due to certain conditions based (if possible) 
+}
+</code></pre>
+<p>i was thinking something more like breaking "constraints" due to certain conditions based (if possible) 
 Is there something similar for simple Views? E.g. a view which calculates its required height based on the available width. What's the best practice to solve something like this? </p>
 <hr />
 <blockquote>
@@ -3739,14 +3741,14 @@ Of course! Thanks for the question! </p>
 <h4 id="is-there-a-way-to-show-a-preview-of-a-view-when-the-user-taps-and-holds-on-a-navigationlink-similar-to-how-a-website-is-previewed-when-holding-on-a-link-in-safari-i-tried-using-the-contextmenu-modifier-but-it-only-seems-to-render-button-views-navigationlink-contextmenu-viewiwanttopreview-is-not-previewed-button-other-options-show-correctly">Is there a way to show a preview of a view when the user taps and holds on a NavigationLink (similar to how a website is previewed when holding on a link in Safari)? I tried using the contextMenu modifier, but it only seems to render Button views.  NavigationLink( ... )     .contextMenu {         ViewIWantToPreview() // is not previewed         Button { ... } // other options show correctly     }</h4>
 </blockquote>
 <p>Yes, use the new <code>contextMenu</code> overload that accepts a preview view.</p>
-<p><code>`NavigationLink( ... )
+<pre><code class="language-swift">NavigationLink( ... )
     .contextMenu {
         Button { ... }
     } preview: {
         ViewIWantToPreview()
-    }</code>
-` 
-Wow, handy. Nice work! 
+    }
+</code></pre>
+<p>Wow, handy. Nice work! 
 Thank you, this seems to work quite well! This was one of the things I was stuck trying to figure out for a while while making my Swift Student Challenge submission (and ultimately never figured out :sweat_smile:) 
 Here’s some more detail on that new modifier: <a href="https://developer.apple.com/documentation/swiftui/view/contextmenu(menuitems:preview:)">https://developer.apple.com/documentation/swiftui/view/contextmenu(menuitems:preview:)</a> 
 Can I have the user tap the preview to open another view (the “full” view) as well? I'm playing around with it in Xcode previews and it seems like tapping the preview just closes the context menu. 
@@ -3778,16 +3780,19 @@ Fingers crossed it gets accepted, i have a lot of feedback IDs and doubts :sligh
 <h4 id="what-is-the-best-way-to-resign-text-field-focus-from-some-distant-view-in-the-view-hierarchy-scrolldismisseskeyboard-is-a-great-step-in-the-direction-i-need-but-id-like-to-programmatically-trigger-that-same-behavior-for-example-on-some-button-tap">What is the best way to resign (text field) focus from some distant view in the view hierarchy. <code>scrollDismissesKeyboard</code> is a great step in the direction I need, but I'd like to programmatically trigger that same behavior, for example, on some button tap.</h4>
 </blockquote>
 <p>For example, looking at ways to replace this code:</p>
-<p>```UIApplication.shared
+<pre><code class="language-swift">UIApplication.shared
        .sendAction(#selector(UIResponder.resignFirstResponder),
-                        to: nil, from: nil, for: nil)</p>
-<p>// as an action to perform on a view:</p>
-<p>extension View {
+                        to: nil, from: nil, for: nil)
+
+// as an action to perform on a view:
+
+extension View {
     func resignFocus() {
         UIApplication.shared.sendAction(...)
     }
-}<code>`</code> 
-You can do this with the Focus State API: <a href="https://developer.apple.com/documentation/swiftui/focusstate">https://developer.apple.com/documentation/swiftui/focusstate</a></p>
+}
+</code></pre>
+<p>You can do this with the Focus State API: <a href="https://developer.apple.com/documentation/swiftui/focusstate">https://developer.apple.com/documentation/swiftui/focusstate</a></p>
 <p>You want to bind a focus state property to your text field using <code>View.focused(_:equals:)</code>, and then set the binding's value to <code>nil</code>/<code>false</code> from your button action as a way to programmatically resign focus and dismiss the keyboard when the bound text field has focus.</p>
 <p>Making the action available to distant views is a matter of arranging your app's data flow appropriately. There's no single answer, but for example, you could declare your focus state property on your scene's root view and pass a reset action down to any descendant views that need it. Or if the action is created by a leaf view, you can use the preferences system to make the action available to ancestors. 
 Preferences is an interesting idea. Trying to make the focusstate “globally accessible” was challenging. I’ll give these suggestions a shot! Thanks. </p>
@@ -3801,19 +3806,26 @@ Storing the view will have better performance than storing a closure (potentiall
 <p>Of course, if you need to dynamically resolve a view from a closure (such as if it takes parameters), then storing the closure is also fine! 
 Is this the same for Layout? The example code for AnyLayout shows creating a layout in the body instead of in the View. 
 You can now (last year?) also declare the viewbuilder as just a property. In SwiftUI 1, you had to manually implement the init, but no longer needed. Best (IMHO) to use synthesized init when you can.</p>
-<p>```struct MyView&lt;Content: View&gt;: View {</p>
-<pre><code>@ViewBuilder var content: Content
+<pre><code class="language-swift">struct MyView&amp;lt;Content: View&amp;gt;: View {
+
+    @ViewBuilder var content: Content
+
+}
 </code></pre>
-<p>}<code>`</code>
-(I believe is the correct code, coding from memory) 
-Yes you can attach <code>@ViewBuilder</code> to properties!</p>
+<p>(I believe is the correct code, coding from memory) </p>
+<p>Yes you can attach <code>@ViewBuilder</code> to properties!</p>
 <p>You can actually support it on both view and closure properties, depending on whichever you need:</p>
-<p>```struct MyView&lt;Content: View&gt;: View {</p>
-<p>@ViewBuilder var content: Content</p>
-<p>// or</p>
-<p>@ViewBuilder var content: (Int) -&gt; Content</p>
-<p>}<code>`</code> 
-&gt; Is this the same for Layout? The example code for AnyLayout shows creating a layout in the body instead of in the View.
+<pre><code class="language-swift">struct MyView&amp;lt;Content: View&amp;gt;: View {
+
+  @ViewBuilder var content: Content
+
+  // or
+
+  @ViewBuilder var content: (Int) -&amp;gt; Content
+
+}
+</code></pre>
+<p>&gt; Is this the same for Layout? The example code for AnyLayout shows creating a layout in the body instead of in the View.
 Apologies, not sure I fully understand the question. Just in case: creating views in <code>body</code> is fine, we’re specifically talking about <em>stored properties</em>, and storing views versus closures for creating views. 
 Sorry not sure if this is not the right place to ask this.
 When a view uses <code>ScrollViewReader</code> and the parent view’s state changes, the the child view gets reloaded and the scroll position in the child view changes. This happens only when <code>scroll(to:)</code> has been executed. I have filed a feedback <code>FB10037533</code> 
@@ -4141,9 +4153,9 @@ Does it apply to both large style and inline style? </p>
 <h4 id="how-do-i-actually-apply-variable-color-to-an-sf-symbol-along-with-the-percentage-i-want-highlighted-vs-dimmed-is-there-a-swiftui-modifier-for-this">How do I actually apply Variable Color to an SF Symbol along with the percentage I want highlighted vs dimmed? Is there a SwiftUI modifier for this?</h4>
 </blockquote>
 <p>You can make a variable color symbol with:</p>
-<p><code>`Image(systemName: "wifi", variableValue: signalStrength)</code>
-`
-It’s part of initializing the image, not a separate modifier you apply. 
+<pre><code class="language-swift">Image(systemName: &quot;wifi&quot;, variableValue: signalStrength)
+</code></pre>
+<p>It’s part of initializing the image, not a separate modifier you apply. 
 Thanks Jacob!! </p>
 <hr />
 <blockquote>
@@ -4194,29 +4206,32 @@ Yep, there should be an app called Feedback Assistant that you can use. Any info
 <p>In general we discourage to do any expensive work in the init of a view. SwiftUI expects the creation of views to be cheap.
 We recommend doing any side effect or data loading with either <code>.task</code> or <code>.onAppear</code>. 
 Even <code>.onAppear</code>  ran last time I tried. Currently I am using this workaround from StackOverflow:</p>
-<p><code>`public struct NavigationLazyView&amp;lt;Content: View&amp;gt;: View {
+<pre><code class="language-swift">public struct NavigationLazyView&amp;lt;Content: View&amp;gt;: View {
     public let build: () -&amp;gt; Content
     public init(_ build: @autoclosure @escaping () -&amp;gt; Content) {
         self.build = build
     }
     public var body: Content { build() }
-}</code>
-<code>Starting loading of data in</code>onAppear<code>causes some time the user has to wait for the heart rate graph. Also not super desireable. 
-Check out the new</code>NavigationStack<code>. Inside that</code>NavigationLink<code>s can present values instead of views. The resulting view can then do work in</code>onAppear<code>or using</code>task`. </p>
+}
+</code></pre>
+<p>Starting loading of data in <code>onAppear</code>  causes some time the user has to wait for the heart rate graph. Also not super desireable. 
+Check out the new <code>NavigationStack</code>. Inside that <code>NavigationLink</code>s can present values instead of views. The resulting view can then do work in <code>onAppear</code> or using <code>task</code>. </p>
 <hr />
 <blockquote>
 <h4 id="when-using-uihostingcontroller-is-it-better-to-add-it-to-the-view-controller-hierarchy-with-addchildviewcontroller-or-could-we-use-its-rootview-and-simply-add-it-as-a-subview">When using UIHostingController, is it better to add it to the view controller hierarchy (with addChildViewController), or could we use its rootView and simply add it as a subView ?</h4>
 </blockquote>
 <p>You want to always add a <code>UIHostingController</code> as a <code>childViewController</code>.</p>
-<p><code>`// Add the hosting controller as a child view controller
+<pre><code class="language-swift">// Add the hosting controller as a child view controller
 self.addChild(hostingController)
 self.view.addSubview(hostingController.view)
-hostingController.didMove(toParent: self)</code>
-<code>without the view controller relationship things that depend on the</code>UIViewController<code>hierarchy won’t work. Such as</code>UIViewControllerRepresentable<code>There are a few other types as well that depend on this relationship in their underlying representations so its best practice to add the parent/child relationship. 
-I am building a design system implementation where I’m providing reusable components that other teams can simply build their features. I usually start with SwiftUI but this view controller relationship makes things very hard at times, especially if the view in question is complex. I believe there is</code>NSHostingView<code>on the Mac, I wish we had the same on iOS. For the time being, given the requirement, is there any recommendation to fulfill this requirement? For example, can we even use window’s</code>rootViewController<code>as a parent or is there a better way? 
-yes the AppKit underlying infrastructure makes</code>NSHostingView<code>work while UIKit is not able to do so due to the hierarchy requirements.
-It depends on exactly what you are trying to build, but potentially you could make a reusable view controller that your teams can use instead depending on where the complexity is at. Parenting at the</code>rootViewController<code>would have issues with any navigation calls you might try to make in SwiftUI. 
-Ah got it, thanks for clarifying. It is a little bit overhead to ask the teams to add a child view controller just for a button from the design system. :sweat_smile: And it’s extra challenging if they are adding it to a</code>UIView` subclass down in the view hierarchy where they don’t have access to any view controller for example. </p>
+hostingController.didMove(toParent: self)
+</code></pre>
+<p>without the view controller relationship things that depend on the <code>UIViewController</code> hierarchy won’t work. Such as <code>UIViewControllerRepresentable</code> 
+There are a few other types as well that depend on this relationship in their underlying representations so its best practice to add the parent/child relationship. 
+I am building a design system implementation where I’m providing reusable components that other teams can simply build their features. I usually start with SwiftUI but this view controller relationship makes things very hard at times, especially if the view in question is complex. I believe there is <code>NSHostingView</code> on the Mac, I wish we had the same on iOS. For the time being, given the requirement, is there any recommendation to fulfill this requirement? For example, can we even use window’s <code>rootViewController</code> as a parent or is there a better way? 
+yes the AppKit underlying infrastructure makes <code>NSHostingView</code> work while UIKit is not able to do so due to the hierarchy requirements.
+It depends on exactly what you are trying to build, but potentially you could make a reusable view controller that your teams can use instead depending on where the complexity is at. Parenting at the <code>rootViewController</code>  would have issues with any navigation calls you might try to make in SwiftUI. 
+Ah got it, thanks for clarifying. It is a little bit overhead to ask the teams to add a child view controller just for a button from the design system. :sweat_smile: And it’s extra challenging if they are adding it to a <code>UIView</code> subclass down in the view hierarchy where they don’t have access to any view controller for example. </p>
 <hr />
 <blockquote>
 <h4 id="should-layout-work-fine-with-uikit-representable-views">Should Layout work fine with UIKit-representable views?</h4>
@@ -4232,22 +4247,21 @@ Ah got it, thanks for clarifying. It is a little bit overhead to ask the teams t
 <h4 id="while-i-was-working-with-canvas-and-rendering-images-shapes-and-text-i-was-trying-to-sort-out-if-there-was-a-way-to-get-the-offset-for-the-baseline-value-from-a-resolvedtext-i-wanted-to-align-the-text-baseline-to-a-visual-element-that-i-was-drawing-in-canvas-and-the-only-path-i-found-to-getting-sizes-of-discrete-elements-was-to-resolve-them-and-measure-them-something-akin-to-let-captionedtextsamplesize-cgsize-contextresolvetextlabelfontcaptionmeasurein-size-this-hands-back-cgsize-which-mostly-worked-for-what-i-needed-but-id-really-like-to-align-to-that-baseline-and-for-that-i-need-to-determine-an-offset-is-there-any-public-api-to-help-me-do-that-or-a-technique-i-could-use-to-get-said-offset-that-uses-other-frameworks-or-libraries">While I was working with Canvas and rendering images, shapes, and text, I was trying to sort out if there was a way to get the offset for the baseline value from a ResolvedText. I wanted to align the text baseline to a visual element that I was drawing in canvas, and the only path I found to getting sizes of discrete elements was to resolve them and measure them - something akin to: <code>let captionedTextSampleSize: CGSize = context.resolve(Text(label).font(.caption)).measure(in: size)</code>  This hands back CGSize, which mostly worked for what I needed, but I'd really like to align to that baseline - and for that I need to determine an offset. Is there any public API to help me do that, or a technique I could use to get said offset that uses other frameworks or libraries?</h4>
 </blockquote>
 <p>The GraphicsContext.ResolvedText type also has <code>firstBaseline</code> (and <code>lastBaseline</code>) methods. So you can do something like:</p>
-<p><code>`let baseline = context.resolve(myText).firstBaseline(in: size)</code>
-` 
-:face_palm: I totally missed that. Thank you Jacob!!!! </p>
+<p><code>let baseline = context.resolve(myText).firstBaseline(in: size)</code></p>
+<p>:face_palm: I totally missed that. Thank you Jacob!!!! </p>
 <hr />
 <blockquote>
 <h4 id="swiftui-mac-specific-question-when-using-contextmenu-on-a-list-how-can-i-find-out-what-was-actually-selected-when-looking-at-finder-the-selected-item-on-which-the-action-should-be-performed-on-is-either-the-selection-1-or-more-or-it-is-the-item-that-has-been-right-clicked-on-directly-how-can-i-replicate-this-behavior-using-swiftui">SwiftUI Mac specific question: When using .contextMenu on a List , how can I find out what was actually selected? When looking at Finder, the selected (=item on which the action should be performed on) is either the selection (1 or more) OR it is the item that has been right clicked on directly. How can I replicate this behavior using SwiftUI?</h4>
 </blockquote>
 <p>Check out the new context menu API that accepts a <code>forSelectionType</code> parameter. This passes the value of the selection into the modifier for you to act on.</p>
-<p><code>`List(selection: $selection) {
+<pre><code class="language-swift">List(selection: $selection) {
  ...
 }
 .contextMenu(forSelectionType: MySelection.self) { selection in
  // check selection
-}</code>
-`
-Be sure to match the type of your lists selection to the type you provide to the context menu modifier. 
+}
+</code></pre>
+<p>Be sure to match the type of your lists selection to the type you provide to the context menu modifier. 
 <a href="https://developer.apple.com/documentation/swiftui/view/contextaction(forselectiontype:action:)">https://developer.apple.com/documentation/swiftui/view/contextaction(forselectiontype:action:)</a> 
 That is awesome, thank you!
 Are there any plans to back port "smaller" API changes like this into macOS Monterey and earlier? </p>
@@ -4479,10 +4493,11 @@ Thank you :man-bowing::skin-tone-3:
 <p>The controversy I think you’re referring to is using that initializer explicitly in the initializer for one of your views. Typically, we see people doing this to allow observed objects to be instantiated with specific information. That is also something which we think is fine to do. We recognize that the ergonomics of that case is not ideal (since you have to access the de-sugared property wrapped (in the example I gave, <code>_myObservedObject</code>), but it’s not at all harmful. 
 What about the State initializer? 
 I think the confusion comes from this comment:</p>
-<p><code>`/// Don't call this initializer directly. Instead, declare a property
-/// with the</code>State<code>attribute, and provide an initial value:</code>
-<code>I think</code>ObservedObject<code>also has a the initialiser</code>init(initialValue:)<code>is that preferred? The documentation doesn't mention any warning on this initialiser 
-The state initializer worries me a bit more. Not because it’s dangerous — it’s totally fine to use it yourself (as I mentioned, the normal syntax is just sugar for the fully spelled out case) — but because I can’t think of as many cases where you need that syntax for</code>@State` that aren’t dangerous.</p>
+<pre><code>/// Don't call this initializer directly. Instead, declare a property
+/// with the ``State`` attribute, and provide an initial value:
+</code></pre>
+<p>I think <code>ObservedObject</code> also has a the initialiser <code>init(initialValue:)</code> is that preferred? The documentation doesn't mention any warning on this initialiser 
+The state initializer worries me a bit more. Not because it’s dangerous — it’s totally fine to use it yourself (as I mentioned, the normal syntax is just sugar for the fully spelled out case) — but because I can’t think of as many cases where you need that syntax for <code>@State</code> that aren’t dangerous.</p>
 <p>Remember that <code>@State</code> is initialized once per lifetime of the whole view, <em>not</em> once per time a view’s initializer is called The views representation will be recreated on demand. That means that if you’re re-initializing the state every time the views init is called, you’re going to be clobbering your own state. 
 So that’s fine to do, but make sure that you’re only using it to set the initial value of a state, and that you’re not resetting your state depending on some initializer value. 
 &lt;@U03HKVDCL7N&gt; I believe same applies for <code>@Binding</code> and co. too? 
@@ -4525,11 +4540,11 @@ For simple use cases, yes, I agree. I do exactly this in my own app, but it does
 <h4 id="i-have-a-uikit-app-on-ios-i-am-at-the-point-of-needing-to-decidedo-i-ship-it-for-macos-with-catalyst-or-given-im-doing-a-major-redesign-anyway-do-i-migrate-it-to-be-a-swiftui-app-i-am-wonderingare-any-of-the-featurescapabilities-that-i-would-have-in-a-catalyst-app-to-make-the-app-more-mac-like-that-are-not-available-on-macos-using-a-native-swiftui-app-eg-the-bring-your-ios-app-to-the-mac-session-showed-the-ability-in-catalyst-to-enabledisable-the-traffic-light-buttons-when-they-were-not-appropriate-for-that-window-is-this-kind-of-control-also-available-in-swiftui-on-macos">I have a UIKit app on iOS. I am at the point of needing to decide—do I ship it for macOS with Catalyst, or given I’m doing a major redesign anyway, do I migrate it to be a SwiftUI app.  I am wondering—are any of the features/capabilities that I would have in a Catalyst app to make the app more "Mac like" that are not available on macOS using a native SwiftUI app? e.g., the "Bring your iOS app to the Mac" session showed the ability in Catalyst to enable/disable the traffic light buttons when they were not appropriate for that window. Is this kind of control also available in SwiftUI on macOS?</h4>
 </blockquote>
 <p>Hi - thanks for the question! With regards to your last part around the window controls (traffic lights) - SwiftUI will enable/disable these depending on the content of the scene. So, for example, a content view with a fixed size, will have the zoom and fullscreen button disabled. I'd also like to point out that on macOS Ventura, SwiftUI App lifecycle windows will be fully flexible by default (they can be resized to the maximum allowed by the screen). This can be opted out with a new <code>Scene</code> modifier - <code>windowResizability</code>. ie:</p>
-<p><code>`WindowGroup {
+<pre><code class="language-swift">WindowGroup {
 }
-.windowResizability(.contentSize)</code>
-` 
-Enabling/disabling of full screen behavior is also related to the maximum size of the window's contents and how that relates to the screen size of the device 
+.windowResizability(.contentSize)
+</code></pre>
+<p>Enabling/disabling of full screen behavior is also related to the maximum size of the window's contents and how that relates to the screen size of the device 
 If there are other aspects that you would like to customize here, a feedback would be appreciated as well. </p>
 <hr />
 <blockquote>
@@ -4669,18 +4684,18 @@ is it possible to use view builders as function params or property types without
 Thank you :relaxed: 
 If you have finite number of views you are displaying described by an enum could you switch over that enum in <code>body</code> of a view? <code>ViewBuilder</code> does support <code>switch</code> statements 
 I have similar use case. Sometimes I would like to not couple the view which other views it present, but instead use other <em>Flow/Factory</em> logic that shows whats needed depending on the business logic. It forces me to use <code>AnyView</code> . E.g.</p>
-<p>```struct MainView: View {
+<pre><code class="language-swift">struct MainView: View {
     @ObservedObject var viewModel: MainViewModel
-    var channelsViewFactory: (Int?) -&gt; AnyView</p>
-<pre><code>var body: some View {
-    Text("ABC")
-    channelsViewFactory(viewModel.selectedId)
+    var channelsViewFactory: (Int?) -&amp;gt; AnyView
+
+    var body: some View {
+        Text(&quot;ABC&quot;)
+        channelsViewFactory(viewModel.selectedId)
+    }
 }
-</code></pre>
-<p>}
 ...
 extension AppDependencies: MainViewFactory {
-    func makeMainView() -&gt; MainView {
+    func makeMainView() -&amp;gt; MainView {
         return MainView(
             channelsViewFactory: { id in
               if loggedIn {
@@ -4690,8 +4705,9 @@ extension AppDependencies: MainViewFactory {
               }
          }
      }
-}<code>`</code> 
-It really depends on your use case. But most of the time, if you're in the situation where you think you need <code>[AnyView]</code> or <code>[any View]</code>, what you should likely do is invert the view dependency flow and have <code>[AnyDataModel</code> or <code>[any DataModel]</code>  instead, then create your views based on the type of data provided at runtime. 
+}
+</code></pre>
+<p>It really depends on your use case. But most of the time, if you're in the situation where you think you need <code>[AnyView]</code> or <code>[any View]</code>, what you should likely do is invert the view dependency flow and have <code>[AnyDataModel</code> or <code>[any DataModel]</code>  instead, then create your views based on the type of data provided at runtime. 
 In Łukasz case, you could introduce generics into  <code>MainView</code> (e.g., <code>MainView&amp;lt;ChannelsView: View&amp;gt;: View</code>) and then create a container view above <code>MainView</code> to encapsulate the generic constraint(s). </p>
 <hr />
 <blockquote>
@@ -4742,10 +4758,11 @@ Haha, was hoping to avoid that so we didn’t need to handle other permutations 
 <p>Thanks! 
 &lt;@U03JELC631P&gt; the approach I normally take here Is to create a reusable view specifically for the button label rather than an entire button view. This results in code that composes nicely. I still use button styles for styling buttons more generally.<br />
 Thanks &lt;@U03HT7Z5NAK&gt;, that’s sort of the direction I was headed with the “custom Text view” idea—think like:</p>
-<p><code>`Button(action: {}) {
-  MyAppText("Hello World")
-}</code>
-<code>and then the ButtonStyle would set kerning in the environment for</code>MyAppText` to look at.</p>
+<pre><code class="language-swift">Button(action: {}) {
+  MyAppText(&quot;Hello World&quot;)
+}
+</code></pre>
+<p>and then the ButtonStyle would set kerning in the environment for <code>MyAppText</code> to look at.</p>
 <p>Still means our team needs to remember to use <code>MyAppText</code> instead of <code>Text</code>, but maybe that’ll be easier to remember than peppering <code>.kerning</code> everywhere :smile: </p>
 <hr />
 <blockquote>
@@ -4754,38 +4771,39 @@ Thanks &lt;@U03HT7Z5NAK&gt;, that’s sort of the direction I was headed with th
 <p>You can use the <code>symbolSize(by:)</code> modifier (<a href="https://developer.apple.com/documentation/charts/chartcontent/symbolsize(by:)">https://developer.apple.com/documentation/charts/chartcontent/symbolsize(by:)</a>) to size the points by data.</p>
 <p>To make the points look like bubbles, you can use <code>.symbol(Circle().strokeBorder(lineWidth: 1))</code> so the symbols are drawn as stroked circles.</p>
 <p>Here is an example:</p>
-<p><code>`Chart(data) {
+<pre><code class="language-swift">Chart(data) {
     PointMark(
-        x: .value("Wing Length", $0.wingLength),
-        y: .value("Wing Width", $0.wingWidth)
+        x: .value(&quot;Wing Length&quot;, $0.wingLength),
+        y: .value(&quot;Wing Width&quot;, $0.wingWidth)
     )
-    .symbolSize(by: .value("Weight", $0.weight))
+    .symbolSize(by: .value(&quot;Weight&quot;, $0.weight))
     .symbol(Circle().strokeBorder(lineWidth: 1))
-}</code>
-` 
-great, thanks </p>
+}
+</code></pre>
+<p>great, thanks </p>
 <hr />
 <blockquote>
 <h4 id="swiftui-macos-how-can-i-control-how-the-focus-moves-around-the-controls-of-my-view-when-i-press-tab-currently-it-jumps-from-top-left-to-right-then-down-but-i-have-two-columns-in-my-window-and-would-prefer-it-go-down-first-on-the-left-side-and-then-again-up-to-the-right-is-there-some-functionality-to-pre-define-the-order-of-the-controls">SwiftUI macOS: How can I control how the focus moves around the controls of my view when I press "tab"? Currently it jumps from top left to right, then down. But I have two columns in my window and would prefer it go down first on the left side and then again up to the right.  Is there some functionality to pre-define the order of the controls?</h4>
 </blockquote>
 <p>You can use <code>View.focusSection()</code> for this, which is newly available on macOS 13.0. Marking a view as a focus section causes the Tab loop to cycle through all of the section's focusable content as a group before moving on to the next thing in layout order. So, something like this should get you the sort of column-wise navigation you're after:</p>
-<p>```struct ContentView: View {
+<pre><code class="language-swift">struct ContentView: View {
     var body: some View {
         HStack {
             VStack {
                 FocusableView()
                 FocusableView()
             }
-            .focusSection()</p>
-<pre><code>        VStack {
-            FocusableView()
-            FocusableView()
+            .focusSection()
+
+            VStack {
+                FocusableView()
+                FocusableView()
+            }
+            .focusSection()
         }
-        .focusSection()
     }
 }
 </code></pre>
-<p>}<code>`</code></p>
 <p>Thanks, that's nice! 
 Also, a plug for my colleague Tanu's WWDC21 talk: Direct and reflect focus in SwiftUI</p>
 <p><a href="https://developer.apple.com/videos/play/wwdc2021/10023/">https://developer.apple.com/videos/play/wwdc2021/10023/</a></p>
@@ -4813,16 +4831,17 @@ Got it, that combined with the new login item APIs this year should make this so
 Without knowing the details of your app, my inclination would be to try the RedactionReasons API. 
 You can use the <code>.redacted</code> modifier to set a redaction reason. SwiftUI controls will automatically react to that, hiding sensitive data. You can also read the reason from the environment to redact in custom controls. 
 Not the most elegant, but I’ve done something like this</p>
-<p><code>`if let _ = auth.sessionToken {
+<pre><code class="language-swift">if let _ = auth.sessionToken {
   ContentView()
 } else {
   AuthView()
-}</code>
-<code>You could also use an overlay modifier at the root of your hierarchy to present a view over the whole app, then adjust that view’s opacity based on the log in state. 
+}
+</code></pre>
+<p>You could also use an overlay modifier at the root of your hierarchy to present a view over the whole app, then adjust that view’s opacity based on the log in state. 
 Yeah, it's not a cookie cutter kind of problem but curious about other ideas 
-Personally, I’d prefer swapping</code>rootViewController` of the app’s window in a UIKit environment. I think the closest approach in SwiftUI would be as Andrew shared above. Not sure if this would cover the need in question though. 
+Personally, I’d prefer swapping <code>rootViewController</code> of the app’s window in a UIKit environment. I think the closest approach in SwiftUI would be as Andrew shared above. Not sure if this would cover the need in question though. 
 This is my approach currently, but it’s got some drawbacks...  I’m interested to know how others are doing.</p>
-<p><code>`WindowGroup {
+<pre><code class="language-swift">WindowGroup {
     switch userSessionManager.isLoggedIn {
     case true:
         TabViewScreen()
@@ -4831,8 +4850,9 @@ This is my approach currently, but it’s got some drawbacks...  I’m intereste
     case false:
         LoginScreen()
     }
-}</code>
-<code>Yeah, the main drawback of conditionally showing different content is you kind of destroy the user's current context as you show the</code>LoginScreen()` which is why I like the window approach 
+}
+</code></pre>
+<p>Yeah, the main drawback of conditionally showing different content is you kind of destroy the user's current context as you show the <code>LoginScreen()</code> which is why I like the window approach 
 I tried using .fullScreenCover instead to fix that. But that does not guarantee that your sensitive data will always be covered up when the user is logged out mid-session.
 e.g. when another sheet or fullScreenCover from a subview is already shown, and even when it is dismissed later.
 .objectWillChange isn’t called again and the login screen does not pop back up. 
@@ -4883,31 +4903,31 @@ Wonderful, thank you! </p>
 <h4 id="how-can-i-change-the-text-color-of-the-scales-at-the-sides-in-a-swift-charts">How can I change the (text) color of the scales at the sides in a Swift Charts?</h4>
 </blockquote>
 <p>You can change the color of the axis labels with the <code>.chart{X/Y}Axis</code> modifier, where you can configure the <code>foregroundStyle</code> of <code>AxisValueLabel</code> . Here is an example changing the label color for the Y axis:</p>
-<p><code>`.chartYAxis {
+<pre><code class="language-swift">.chartYAxis {
     AxisMarks { _ in 
         AxisGridLine()
         AxisTick()
         AxisValueLabel().foregroundStyle(Color.red)
     }
-}</code>
-`
-You can change the color of the grid line and tick in a similar way too. 
+}
+</code></pre>
+<p>You can change the color of the grid line and tick in a similar way too. 
 Could it be that this currently doesn't work in the developer beta?
 Because I just tried the following code and it applied the colors on the grid line and tick, but not on the label next to the tick.</p>
-<p>```.chartYAxis {
+<pre><code class="language-swift">.chartYAxis {
                 AxisMarks { _ in
                     AxisGridLine()
-                    .foregroundStyle(.yellow)</p>
-<pre><code>                AxisTick()
-                .foregroundStyle(.blue)
+                    .foregroundStyle(.yellow)
 
-                AxisValueLabel()
-                .foregroundStyle(.red)
+                    AxisTick()
+                    .foregroundStyle(.blue)
+
+                    AxisValueLabel()
+                    .foregroundStyle(.red)
+                }
             }
-        }``
 </code></pre>
-<p>` 
-Yes, looks like this is a bug in the beta. Feel free to file a bug via Feedback Assistant. </p>
+<p>Yes, looks like this is a bug in the beta. Feel free to file a bug via Feedback Assistant. </p>
 <hr />
 <blockquote>
 <h4 id="as-we-are-incrementally-adopting-swiftui-in-a-uikit-app-are-there-guidelines-for-replacing-the-patterns-that-we-are-used-to-in-a-uikit-app-like-delegate-pattern-notifications-target-actions-etc-some-of-these-are-obvious-but-i-kind-of-feel-im-doing-something-wrong-whenever-i-pass-a-closure-into-a-view-to-get-a-feedback-to-replicate-delegate-pattern-for-example-sweat_smile">As we are incrementally adopting SwiftUI in a UIKit app, are there guidelines for replacing the patterns that we are used to in a UIKit app, like delegate pattern, notifications, target-actions etc? Some of these are obvious but I kind of feel I'm doing something wrong whenever I pass a closure into a view to get a feedback to replicate delegate pattern for example. :sweat_smile:</h4>
@@ -4954,29 +4974,32 @@ Another useful resource are the number and date bins we released this year: <a h
 <h4 id="is-there-a-way-to-get-areamark-to-work-with-chartyscaledomain-automaticincludeszero-false-as-soon-as-i-add-an-areamark-it-seems-to-always-include-0-in-the-scale">Is there a way to get <code>AreaMark</code> to work with <code>.chartYScale(domain: .automatic(includesZero: false))</code>? As soon as I add an AreaMark it seems to always include 0 in the scale.</h4>
 </blockquote>
 <p>You could try setting <code>yStart</code> and <code>yEnd</code> for the area, here is an example:</p>
-<p><code>`Chart(data) {
+<pre><code class="language-swift">Chart(data) {
     AreaMark(
-        x: .value("Date", $0.date),
-        yStart: .value("Start Price", 100),
-        yEnd: .value("Price", $0.price)
+        x: .value(&quot;Date&quot;, $0.date),
+        yStart: .value(&quot;Start Price&quot;, 100),
+        yEnd: .value(&quot;Price&quot;, $0.price)
     )
 }
-.chartYScale(domain: .automatic(includesZero: false))</code>
-<code>The automatic option will use nicely rounded numbers. If that's not working for you, you can also set the domain directly like</code>domain: 100 ... 1000<code>:thinking_face: the first suggestion doesn’t quit work because there is some padding added to the y range. I’ll give a specific range a try next. 
+.chartYScale(domain: .automatic(includesZero: false))
+</code></pre>
+<p>The automatic option will use nicely rounded numbers. If that's not working for you, you can also set the domain directly like <code>domain: 100 ... 1000</code> 
+:thinking_face: the first suggestion doesn’t quit work because there is some padding added to the y range. I’ll give a specific range a try next. 
 Just setting a range doesn’t quit work either… I guess I would need to do both? 
-Umm, could you try turning off</code>roundLowerBound` in axis marks? Full code would be like this:</p>
-<p><code>`Chart(data) {
+Umm, could you try turning off <code>roundLowerBound</code> in axis marks? Full code would be like this:</p>
+<pre><code class="language-swift">Chart(data) {
     AreaMark(
-        x: .value("Date", $0.date),
-        yStart: .value("Start Price", 100),
-        yEnd: .value("Price", $0.price)
+        x: .value(&quot;Date&quot;, $0.date),
+        yStart: .value(&quot;Start Price&quot;, 100),
+        yEnd: .value(&quot;Price&quot;, $0.price)
     )
 }
 .chartYScale(domain: .automatic(includesZero: false))
 .chartXAxis {
     AxisMarks(values: .automatic(roundLowerBound: false))
-}</code>
-<code></code>roundLowerBound` tries to add a round number below the data range, that might be why we are seeing a 40,000 value below the area like in your first screenshot. 
+}
+</code></pre>
+<p><code>roundLowerBound</code> tries to add a round number below the data range, that might be why we are seeing a 40,000 value below the area like in your first screenshot. 
 That works </p>
 <hr />
 <blockquote>
@@ -4995,37 +5018,39 @@ There is not but you could sample a few points and then render the line. </p>
 Yep 
 This screenshot is from the Hello Swift Charts talk. Let me find the code for it. 
 You can use a custom symbol (<code>Arrow</code> ).</p>
-<p>```        Chart(data, id: .x) {
-            PointMark(x: .value("x", $0.x), y: .value("y", $0.y))
+<pre><code class="language-swift">Chart(data, id: \.x) {
+            PointMark(x: .value(&quot;x&quot;, $0.x), y: .value(&quot;y&quot;, $0.y))
                 .symbol(Arrow(angle: CGFloat(angle))
-                .foregroundStyle(by: .value("angle", angle))
+                .foregroundStyle(by: .value(&quot;angle&quot;, angle))
                 .opacity(0.7)
-        }</p>
-<p>...</p>
-<pre><code>struct Arrow: ChartSymbolShape {
-    let angle: CGFloat
-    let size: CGFloat
+        }
 
-    func path(in rect: CGRect) -&amp;gt; Path {
-        let w = rect.width * size * 0.05 + 0.6
-        var path = Path()
-        path.move(to: CGPoint(x: 0, y: 1))
-        path.addLine(to: CGPoint(x: -0.2, y: -0.5))
-        path.addLine(to: CGPoint(x: 0.2, y: -0.5))
-        path.closeSubpath()
-        return path.applying(.init(rotationAngle: angle))
-            .applying(.init(scaleX: w, y: w))
-            .applying(.init(translationX: rect.midX, y: rect.midY))
-    }
+...
 
-    var perceptualUnitRect: CGRect {
-        return CGRect(x: 0, y: 0, width: 1, height: 1)
+    struct Arrow: ChartSymbolShape {
+        let angle: CGFloat
+        let size: CGFloat
+
+        func path(in rect: CGRect) -&amp;gt; Path {
+            let w = rect.width * size * 0.05 + 0.6
+            var path = Path()
+            path.move(to: CGPoint(x: 0, y: 1))
+            path.addLine(to: CGPoint(x: -0.2, y: -0.5))
+            path.addLine(to: CGPoint(x: 0.2, y: -0.5))
+            path.closeSubpath()
+            return path.applying(.init(rotationAngle: angle))
+                .applying(.init(scaleX: w, y: w))
+                .applying(.init(translationX: rect.midX, y: rect.midY))
+        }
+
+        var perceptualUnitRect: CGRect {
+            return CGRect(x: 0, y: 0, width: 1, height: 1)
+        }
     }
-}``
 </code></pre>
-<p><code>This is not the complete code but should give you enough to make the example. 
+<p>This is not the complete code but should give you enough to make the example. 
 Nice! That’s the thing I was looking for, thank you! 
-Alright, I’m getting closer :smile: What’s left is to figure out what the format was used for</code>data` in the sample and where angle came from :thinking_face: 
+Alright, I’m getting closer :smile: What’s left is to figure out what the format was used for <code>data</code> in the sample and where angle came from :thinking_face: 
 Very cool. 
 And here we go 
 It is quite delightful to use this framework and the performance is great. Many thanks to the team :pray:</p>
@@ -5067,11 +5092,11 @@ Feel free to file a feedback to SwiftUI for providing location information to ge
 <h4 id="can-we-highlight-specific-data-points-and-dim-the-rest-similar-to-what-httphealthapphealthapp-does-when-selecting-minmax-latest-etc-in-heart-rate-and-other-charts">Can we highlight specific data points and dim the rest; similar to what <a href="http://Health.app|Health.app">http://Health.app|Health.app</a> does when selecting “min/max”, “latest”, etc in Heart Rate and other charts?</h4>
 </blockquote>
 <p>absolutely! An easy way to do this is to store the desired highlighted data's ids in a <code>@State</code> and check against that in your <code>ForEach</code> of <code>Marks</code>. Something along the lines of</p>
-<p><code>`ForEach(data) { value in
+<pre><code>ForEach(data) { value in
   BarMark(x: ..., y: ...)
     .foregroundStyle(value.id == state.highlighted ? Color.red : Color.gray)
-}</code>
-` </p>
+}
+</code></pre>
 <hr />
 <blockquote>
 <h4 id="is-it-possible-to-use-a-chart-to-display-a-large-amount-of-data-for-example-display-a-waveform">Is it possible to use a Chart to display a large amount of data? For example, display a waveform.</h4>
@@ -5137,50 +5162,54 @@ Got it! Right now it's 10. Grouping into ForEach's etc would help! If you have a
 <p><code>BarMark</code> has a <code>width</code> parameter that takes a <code>MarkDimension</code>! It can be a fixed value or a ratio (of the space the bar is allocated). 
 Thanks. When trying, even with ratio = 1 or inset = 0 it seems to always have some space between the bars. 
 &lt;@U03JSSE35GQ&gt; mind sharing the code? and a screenshot (if you're comfortable) 
-No problem. 
-<code>*import* SwiftUI</code>
-<code>*import* Charts</code></p>
-<p><code>*struct* Point {</code>
- <code>*let* month: Date</code>
- <code>*let* sales: Int</code>
- <code>*let* color: Color</code>
- <code>*let* eat: Bool</code></p>
-<p><code>*init*(month: Date, sales: Int, color: Color, eat: Bool = *false*) {</code>
-  <code>*self*.month = month</code>
-  <code>*self*.sales = sales</code>
-  <code>*self*.color = color</code>
-  <code>*self*.eat = eat</code>
+No problem. </p>
+<pre><code>`*import* SwiftUI`
+`*import* Charts`
+
+`*struct* Point {`
+ `*let* month: Date`
+ `*let* sales: Int`
+ `*let* color: Color`
+ `*let* eat: Bool`
+
+ `*init*(month: Date, sales: Int, color: Color, eat: Bool = *false*) {`
+  `*self*.month = month`
+  `*self*.sales = sales`
+  `*self*.color = color`
+  `*self*.eat = eat`
  }
-}</p>
-<p><code>*func* date(year: Int, month: Int, day: Int = 1) -&amp;gt; Date {</code>
+}
+
+`*func* date(year: Int, month: Int, day: Int = 1) -&amp;gt; Date {`
  Calendar.current.date(from: DateComponents(year: year, month: month, day: day)) ?? Date()
-}</p>
-<p><code>*struct* ContentView: View {</code>
- <code>*var* body: *some* View {</code>
-  Chart(data, id: .month) { p <em><code>in</code></em>
-   <code>BarMark(</code>
-    <code>x: .value("Month", p.month, unit: .month),</code>
-    <code>y: .value("Sales", p.sales),</code>
-    <code>width: MarkDimension.ratio(1)</code>
-   <code>)</code>
-   <code>.foregroundStyle(p.color)</code>
-   <code>.annotation(position: .top) {</code>
-    <code>*if* p.eat {</code>
-     Image(systemName: "seal")
+}
+
+`*struct* ContentView: View {`
+ `*var* body: *some* View {`
+  Chart(data, id: \.month) { p *`in`*
+   `BarMark(`
+    `x: .value(&quot;Month&quot;, p.month, unit: .month),`
+    `y: .value(&quot;Sales&quot;, p.sales),`
+    `width: MarkDimension.ratio(1)`
+   `)`
+   `.foregroundStyle(p.color)`
+   `.annotation(position: .top) {`
+    `*if* p.eat {`
+     Image(systemName: &quot;seal&quot;)
     }
    }
    .annotation(position: .bottom) {
-    <code>*if* p.eat {</code>
+    `*if* p.eat {`
      VStack {
-      Text("")
-      Text("23")
+      Text(&quot;&quot;)
+      Text(&quot;23&quot;)
      }
     }
    }
   }
 //  .chartXAxis {
 //   AxisMarks(values: .stride(by: .month)) { value in
-//    if <a href="http://value.as|value.as">http://value.as|value.as</a>(Date.self)!.isFirstMonthOfQuarter {
+//    if &lt;http://value.as|value.as&gt;(Date.self)!.isFirstMonthOfQuarter {
 //     AxisGridLine().foregroundStyle(.black)
 //     AxisTick().foregroundStyle(.black)
 //     AxisValueLabel(
@@ -5191,8 +5220,9 @@ No problem.
 //    }
 //   }
 //  }
- }</p>
-<p><code>*let* data: [Point] = [</code>
+ }
+
+ `*let* data: [Point] = [`
   Point(month: date(year: 2021, month: 6), sales: 300, color: Color.yellow),
   Point(month: date(year: 2021, month: 7), sales: 350, color: Color.yellow),
   Point(month: date(year: 2021, month: 8), sales: 400, color: Color.orange),
@@ -5218,7 +5248,7 @@ No problem.
   Point(month: date(year: 2023, month: 4), sales: 2000, color: Color.green),
   Point(month: date(year: 2023, month: 5), sales: 2200, color: Color.green),
   Point(month: date(year: 2023, month: 6), sales: 2400, color: Color.green),
-  Point(month: date(year: 2023, month: 7), sales: 2500, color: Color.yellow, eat: <code>*true*),</code>
+  Point(month: date(year: 2023, month: 7), sales: 2500, color: Color.yellow, eat: `*true*),`
   Point(month: date(year: 2023, month: 8), sales: 2450, color: Color.orange),
   Point(month: date(year: 2023, month: 9), sales: 2430, color: Color.red),
   Point(month: date(year: 2023, month: 10), sales: 2100, color: Color.green),
@@ -5289,20 +5319,29 @@ No problem.
   Point(month: date(year: 2029, month: 3), sales: 750, color: Color.green),
   Point(month: date(year: 2029, month: 4), sales: 500, color: Color.green),
   Point(month: date(year: 2029, month: 5), sales: 2, color: Color.green),
- ]</p>
-<p><code>*let* averageValue = 137</code>
-}</p>
-<p><code>*extension* Date {</code>
- <code>*var* isFirstMonthOfQuarter: Bool {</code>
-  Calendar.current.component(.month, from: <code>*self*) % 3 == 1</code>
+ ]
+
+ `*let* averageValue = 137`
+}
+
+`*extension* Date {`
+ `*var* isFirstMonthOfQuarter: Bool {`
+  Calendar.current.component(.month, from: `*self*) % 3 == 1`
  }
-}</p>
-<p><code>*struct* ContentView_Previews: PreviewProvider {</code>
-  <em><code>static</code></em> <code>*var* previews: *some* View {</code></p>
-<p>ContentView().frame(width: 400, height: 100.0)</p>
-<p>}
+}
+
+
+
+`*struct* ContentView_Previews: PreviewProvider {`
+  *`static`* `*var* previews: *some* View {`
+
+   ContentView().frame(width: 400, height: 100.0)
+
+
+  }
 } 
-The screenshot is from the SwiftUI preview. 
+</code></pre>
+<p>The screenshot is from the SwiftUI preview. 
 cc &lt;@U03HHJH7RJN&gt;! 
 this is a pixel boundary rendering artifact. One solution is to make the width just a tadddd over 1 so they overlap just a bit 
 It's a rendering artifact that happens when the bars doesn't align with pixel boundaries. There are a couple of ways to address it:
@@ -5393,11 +5432,12 @@ Will do. This is a great start! </p>
 <h4 id="hi-sorry-if-this-was-already-asked-but-how-can-i-add-a-text-or-sf-symbol-at-the-top-of-a-vertical-barmark-i-did-not-found-the-information-at-httpsdeveloperapplecomdocumentationchartshttpsdeveloperapplecomdocumentationcharts-thanks">Hi, Sorry if this was already asked, but how can I add a text or SF Symbol at the top of a vertical BarMark ?  (I did not found the information at <a href="https://developer.apple.com/documentation/charts/|https://developer.apple.com/documentation/charts/">https://developer.apple.com/documentation/charts/|https://developer.apple.com/documentation/charts/</a> ) ? Thanks.</h4>
 </blockquote>
 <p>You can use the <code>annotation</code> modifier to add an annotation on top of the bar, where the content of the annotation is a SF Symbol image. Here's an example:</p>
-<p><code>`BarMark(...)
+<pre><code class="language-swift">BarMark(...)
 .annotation(position: .top) {
-    Image(systemName: "sfsymbol_name")
-}</code>
-<code>Note that you can also use</code>Text` or other views as the content of the annotation. 
+    Image(systemName: &quot;sfsymbol_name&quot;)
+}
+</code></pre>
+<p>Note that you can also use <code>Text</code> or other views as the content of the annotation. 
 Parfect ! This is amazing how configurable the Charts are. It will save me a lot of time in my application! Thanks. </p>
 <hr />
 <blockquote>

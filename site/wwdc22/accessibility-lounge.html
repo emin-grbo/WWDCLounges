@@ -1633,44 +1633,45 @@ Thanks Eric! </p>
 <p>You can use <code>setAccessibilityElementsHidden</code> in UIKit or <code>.accessibilityHidden()</code> in SwiftUI
 <a href="https://developer.apple.com/documentation/objectivec/nsobject/1615080-accessibilityelementshidden?language=objc">https://developer.apple.com/documentation/objectivec/nsobject/1615080-accessibilityelementshidden?language=objc</a> 
 Just looked at how my UIKit code works. I have a hierarchy inside my main view (xib)</p>
-<p><code>`UISegmentedControl
+<pre><code class="language-Swift">UISegmentedControl
 UIScrollView
    UIView
        UIView backgroundImage
        UIView backgroundColor
-       UIView backgroundShader</code>
-<code>I'm just toggling</code>backgroundImage.isHidden<code>(etc) and relying on that to hide all the innermost controls 
+       UIView backgroundShader
+</code></pre>
+<p>I'm just toggling <code>backgroundImage.isHidden</code> (etc) and relying on that to hide all the innermost controls 
 what view contains the controls? 
 you'd want to set accessibilityElementsHidden on the view that contains all the controls you don't want VoiceOver to see 
 yeah I'm just trying that. Sorry for not being more explicit - the three named views in my little diagram contain all the controls (it's a complex screen, as are too many of the detail editors) 
 Flicking between this and the alert thread ... I've actually replicated the lab problem as well and confirm you were right - it's speaking the "previous screen items" which is just weird.
-*but*
-have an added nuance from testing further (after adding the</code>accessibilityElementsHidden` code and then removing it)</p>
+<em>but</em>
+have an added nuance from testing further (after adding the <code>accessibilityElementsHidden</code> code and then removing it)</p>
 <p>If you tap the segmented control to change to the other elements being visible, VoiceOver is now correctly going through the elements of the page. Tapping it again to change back, it is still correct.</p>
 <p>It seems that the explicit toggling of <code>isHidden</code> on the parent views is enough to fix things for VoiceOver <em>but</em> relying on the initial <code>isHidden</code> from the xib, at view load, is not. 
 I'm loading these detail editor VCs with</p>
-<p>```    func hostVC(_ vc:UIViewController) {</p>
-<pre><code>    for child in children {
-        child.willMove(toParent: nil)
-        child.view.removeFromSuperview()
-        child.removeFromParent()
+<pre><code class="language-Swift">func hostVC(_ vc:UIViewController) {
+
+        for child in children {
+            child.willMove(toParent: nil)
+            child.view.removeFromSuperview()
+            child.removeFromParent()
+        }
+
+        addChild(vc)
+
+        vc.view.frame = view.bounds
+        vc.view.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(vc.view)
+
+        vc.view.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
+        vc.view.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
+        vc.view.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
+        vc.view.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+
+        vc.didMove(toParent: self)
     }
-
-    addChild(vc)
-
-    vc.view.frame = view.bounds
-    vc.view.translatesAutoresizingMaskIntoConstraints = false
-    view.addSubview(vc.view)
-
-    vc.view.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
-    vc.view.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
-    vc.view.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
-    vc.view.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
-
-    vc.didMove(toParent: self)
-}``
 </code></pre>
-<p>` </p>
 <hr />
 <blockquote>
 <h4 id="is-there-a-list-of-the-upcoming-languages-supported-by-voiceover-also-can-we-have-a-way-to-programmatically-ask-the-accessibility-framework-what-languages-are-currently-supported-were-running-into-an-issue-where-in-visual-text-we-support-vietnamese-but-voiceover-doesnt-wed-prefer-voiceover-to-use-a-fallback-like-english-in-that-case">Is there a list of the upcoming languages supported by VoiceOver? Also, can we have a way to programmatically ask the accessibility framework what languages are currently supported? We're running into an issue where in visual text we support Vietnamese, but VoiceOver doesn't. We'd prefer VoiceOver to use a fallback like English in that case.</h4>

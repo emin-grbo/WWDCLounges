@@ -2085,13 +2085,13 @@ I’ll have a look at combining that with the random noise maybe, though I'm hop
 I meant to type "devide that image by its alpha channel" 
 Oh of course! Thanks! 
 WIth a custom CIKernel like this: </p>
-<p><code>`    float4 alpha_denorm (sample_t i)
+<pre><code>float4 alpha_denorm (sample_t i)
     {
         if (i.a &amp;gt; 0.001)
             return float4(i.rgb / i.a, 1.0);
         return i;
-    }</code>
-` </p>
+    }
+</code></pre>
 <hr />
 <blockquote>
 <h4 id="since-cifilters-arent-thread-safe-what-would-be-the-recommended-way-to-structure-a-render-pipeline-if-i-want-to-use-swift-concurrency-especially-when-one-wants-to-initialize-the-filter-once-and-reuse-it-for-multiple-renders">Since CIFilters aren't thread safe, what would be the recommended way to structure a render pipeline if I want to use Swift concurrency? Especially when one wants to initialize the filter once and reuse it for multiple renders.</h4>
@@ -2322,9 +2322,11 @@ Which bug is that? Involving the <code>NSCameraUsageDescription</code> entry in 
 &lt;@U03HHA1D44F&gt;
 But should it be possible to use Live Text then, without directly getting access to the Camera?</p>
 <p>P.S. for now, I constantly receive the following error:</p>
-<p>```Assertion failure in -[UIKeyboardCameraSession _keyboardCameraPreparationDidComplete]</p>
-<p>Terminating app due to uncaught exception 'NSInternalInconsistencyException', reason: 'Keyboard Camera is being used without remote keyboards enabled<code>`</code> 
-What API do you call to get Live Text in the keyboard?</p>
+<pre><code>Assertion failure in -[UIKeyboardCameraSession _keyboardCameraPreparationDidComplete]
+
+Terminating app due to uncaught exception 'NSInternalInconsistencyException', reason: 'Keyboard Camera is being used without remote keyboards enabled
+</code></pre>
+<p>What API do you call to get Live Text in the keyboard?</p>
 <p>I am not sure how the Keyboard Camera is implemented but if it tries to use the camera within your process, that makes sense why you are seeing that error 
 &lt;@U03HHA1D44F&gt;</p>
 <p>Live Text API has only two requirements to be called:
@@ -2332,32 +2334,34 @@ What API do you call to get Live Text in the keyboard?</p>
 2. Have a UIKeyInput object
 And I was trying to make my UIInputViewController as both of them while returning UITextDocumentProxy properties to satisfy the UIKeyInput protocol. It looked pretty valid from the design view.</p>
 <p>And the code I’ve been trying to run is close to the similar:</p>
-<p>```class KeyboardViewController: UIInputViewController {
+<pre><code class="language-swift">class KeyboardViewController: UIInputViewController {
     override func viewDidLoad() {
-        super.viewDidLoad()</p>
-<pre><code>    liveTextStraightButton.addAction(
-        UIAction.captureTextFromCamera(
-            responder: self,
-            identifier: .paste
-        ), for: .primaryActionTriggered
-    )
-}
-</code></pre>
-<p>}</p>
-<p>extension KeyboardViewController: UIKeyInput {
-    var hasText: Bool {
-        textDocumentProxy.hasText
-    }</p>
-<pre><code>func insertText(_ text: String) {
-    textDocumentProxy.insertText(text)
+        super.viewDidLoad()
+
+        liveTextStraightButton.addAction(
+            UIAction.captureTextFromCamera(
+                responder: self,
+                identifier: .paste
+            ), for: .primaryActionTriggered
+        )
+    }
 }
 
-func deleteBackward() {
-    textDocumentProxy.deleteBackward()
+extension KeyboardViewController: UIKeyInput {
+    var hasText: Bool {
+        textDocumentProxy.hasText
+    }
+
+    func insertText(_ text: String) {
+        textDocumentProxy.insertText(text)
+    }
+
+    func deleteBackward() {
+        textDocumentProxy.deleteBackward()
+    }
 }
 </code></pre>
-<p>}<code>`</code> 
-&lt;@U03HHA1D44F&gt; hey again,</p>
+<p>&lt;@U03HHA1D44F&gt; hey again,</p>
 <p>Couldn’t get to the lab today regarding this question. Would be grateful for some attention to the feedback ticket regarding that issue. It has a test project attached, which helps reproduce the issue:
 &gt; FB10022377 Live Text: UIAction.captureTextFromCamera not working in keyboard extension 
 Hi &lt;@U03JER2C7MX&gt;, I've brought FB10022377 to the attention of a colleague who is more familiar with this API to take a look. Thank you for including the test project in the radar! 

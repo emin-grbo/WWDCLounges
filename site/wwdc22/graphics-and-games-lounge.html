@@ -2078,17 +2078,17 @@ Ok, I will try it! Thanks a lot.<br />
 check <code>synchronize</code> <a href="https://developer.apple.com/documentation/metal/mtlblitcommandencoder/1400775-synchronize|link">https://developer.apple.com/documentation/metal/mtlblitcommandencoder/1400775-synchronize|link</a> and the various ways of signalling and reading data between buffers on GPU and CPU <a href="https://developer.apple.com/documentation/metal/mtlbuffer|link">https://developer.apple.com/documentation/metal/mtlbuffer|link</a> 
 Also, if you wanted a example of this pattern check out the game template in XCode by creating a new project in Xcode, selecting the <code>Game</code> template and picking <code>Game Technology: Metal</code> . In that template check how <code>_inFlightSemaphore</code> is used to multi buffer the uniforms buffer. 
 From the Dynamic Terrain Sample code:</p>
-<p>```    // We allow up to three command buffers to be in flight on GPU before we wait
-    static const NSUInteger kMaxBuffersInFlight = 3;</p>
-<pre><code>_device             = device;
-_commandQueue       = [_device newCommandQueue];
-_startTime          = [NSDate date];
-_inFlightSemaphore  = dispatch_semaphore_create (kMaxBuffersInFlight);
-_frameAllocator     = new AAPLAllocator (device, 1024 * 1024 * 16, kMaxBuffersInFlight);
-_uniforms_gpu       = _frameAllocator-&amp;gt;allocBuffer &amp;lt;AAPLUniforms&amp;gt; (1);``
+<pre><code class="language-objective-c">// We allow up to three command buffers to be in flight on GPU before we wait
+    static const NSUInteger kMaxBuffersInFlight = 3;
+
+    _device             = device;
+    _commandQueue       = [_device newCommandQueue];
+    _startTime          = [NSDate date];
+    _inFlightSemaphore  = dispatch_semaphore_create (kMaxBuffersInFlight);
+    _frameAllocator     = new AAPLAllocator (device, 1024 * 1024 * 16, kMaxBuffersInFlight);
+    _uniforms_gpu       = _frameAllocator-&amp;gt;allocBuffer &amp;lt;AAPLUniforms&amp;gt; (1);
 </code></pre>
-<p>` 
-You can see we explicitly limit our in-flight sets to 3 in this example. (<a href="https://developer.apple.com/documentation/metal/buffers/rendering_terrain_dynamically_with_argument_buffers|link to sample code">https://developer.apple.com/documentation/metal/buffers/rendering_terrain_dynamically_with_argument_buffers|link to sample code</a> ) 
+<p>You can see we explicitly limit our in-flight sets to 3 in this example. (<a href="https://developer.apple.com/documentation/metal/buffers/rendering_terrain_dynamically_with_argument_buffers|link to sample code">https://developer.apple.com/documentation/metal/buffers/rendering_terrain_dynamically_with_argument_buffers|link to sample code</a> ) 
 The main idea is that you shouldn’t modify data with the CPU if the GPU might be reading it, so using that semaphore with a completion handler (per the examples above) allows you to know when at least one of your 3 copies of any data are able to be modified.</p>
 <p>If you are not using the CPU to modify textures/buffers on the fly then there isn’t a need for this semaphore. -[CAMetalLayer nextDrawable] will automatically provide up to 3 drawables and will limit an app from getting too far ahead (if you render faster than the screen refresh). 
 Thanks! I will watch linked examples asap.  </p>
@@ -2903,16 +2903,19 @@ I'm porting a game that happens to work when in a Windows virtual machine, so on
 Here is a link to the talk for others who may be interested in more: <a href="https://developer.apple.com/videos/play/wwdc2022/10102/">https://developer.apple.com/videos/play/wwdc2022/10102/</a> 
 I tried to extract the Metal Pipeline JSON from a harvested archive, but got <code>metal-source: error: unsupported binary format</code> 
 I harvested the archive using (swift)...</p>
-<p>```let lib = device.makeDefaultLibrary()!
+<pre><code class="language-swift">let lib = device.makeDefaultLibrary()!
 let desc = MTLRenderPipelineDescriptor()
-desc.vertexFunction = lib.makeFunction(name: "vert_main")
-desc.fragmentFunction = lib.makeFunction(name: "frag_main")
-desc.colorAttachments[0]?.pixelFormat = .bgra8Unorm</p>
-<p>let archdesc = MTLBinaryArchiveDescriptor()</p>
-<p>let archive = try device.makeBinaryArchive(descriptor: archdesc)
+desc.vertexFunction = lib.makeFunction(name: &quot;vert_main&quot;)
+desc.fragmentFunction = lib.makeFunction(name: &quot;frag_main&quot;)
+desc.colorAttachments[0]?.pixelFormat = .bgra8Unorm
+
+let archdesc = MTLBinaryArchiveDescriptor()
+
+let archive = try device.makeBinaryArchive(descriptor: archdesc)
 try archive.addRenderPipelineFunctions(descriptor: desc)
-try archive.serialize(to: NSURL.fileURL(withPath: "/Users/pwong/Downloads/x-game.metallib"))<code>`</code> 
-Not sure if this is suppose to work yet on MacOS 13 beta/XCode 14 beta... 
+try archive.serialize(to: NSURL.fileURL(withPath: &quot;/Users/pwong/Downloads/x-game.metallib&quot;))
+</code></pre>
+<p>Not sure if this is suppose to work yet on MacOS 13 beta/XCode 14 beta... 
 also, I see that the workflow doesn't work at all without having a Metal pipeline JSON (applegpu-nt: note: [AGX] Plugin interface not implemented: AIRNTEmitExecutableImage error) </p>
 <hr />
 <blockquote>
@@ -2932,16 +2935,16 @@ Thanks &lt;@U03J7T89SQG&gt; , I didn't know about that option! </p>
 <h4 id="is-there-a-way-to-reference-templated-compute-functions-from-a-compute-pipeline-descriptor-such-that-the-templated-type-inherits-the-bound-textures-pixel-format">Is there a way to reference templated compute functions from a compute pipeline descriptor such that the templated type inherits the bound texture's pixel format?</h4>
 </blockquote>
 <p>Hi, this sounds like an interesting question. For example sake (using non-real code), I think you are trying to ask if you can do something like</p>
-<p><code>template &amp;lt;typename T&amp;gt;
-void computeShader(...) { ... }``
-`
-in your shader code and then reference this function using something lik
-e</code>id &lt;MTLFunction&gt; function = [defaultLibrary newFunctionWithName:@"computeShader&lt;MyType&gt;"];</p>
-<pre><code>Is that what you are asking? 
-You can use the `host_name` attribute and then define your template specializations. In the &lt;https://developer.apple.com/metal/Metal-Shading-Language-Specification.pdf|Metal Shading Language Specification&gt;, section 5.1.10 and 5.1.11 show how you can change the name that Metal will use to reference the function name. 
-For example, you could try something like:
-
-```template &amp;lt;typename MyType&amp;gt;
+<pre><code>template &amp;lt;typename T&amp;gt;
+void computeShader(...) { ... }
+</code></pre>
+<p>in your shader code and then reference this function using something like</p>
+<pre><code>id &amp;lt;MTLFunction&amp;gt; function = [defaultLibrary newFunctionWithName:@&quot;computeShader&amp;lt;MyType&amp;gt;&quot;];
+</code></pre>
+<p>Is that what you are asking? </p>
+<p>You can use the <code>host_name</code> attribute and then define your template specializations. In the <a href="https://developer.apple.com/metal/Metal-Shading-Language-Specification.pdf|Metal Shading Language Specification">https://developer.apple.com/metal/Metal-Shading-Language-Specification.pdf|Metal Shading Language Specification</a>, section 5.1.10 and 5.1.11 show how you can change the name that Metal will use to reference the function name. 
+For example, you could try something like:</p>
+<pre><code>template &amp;lt;typename MyType&amp;gt;
 kernel void computeShader(device MyType* output, constant MyType &amp;amp;argument)
 {
   *output = argument;
@@ -2951,20 +2954,20 @@ template [[host_name(&quot;computeShader_int&quot;)]]
 kernel void computeShader&amp;lt;int&amp;gt;(device int* output, constant int &amp;amp;argument);
 
 template [[host_name(&quot;computeShader_float&quot;)]]
-kernel void computeShader&amp;lt;float&amp;gt;(device float* output, constant float &amp;amp;argument);``
-`
-And then reference the functions in your app with
-:
-```id &amp;lt;MTLFunction&amp;gt; function1 = [defaultLibrary newFunctionWithName:@&quot;computeShader_int&quot;];
+kernel void computeShader&amp;lt;float&amp;gt;(device float* output, constant float &amp;amp;argument);
+</code></pre>
+<p>And then reference the functions in your app with:</p>
+<pre><code>id &amp;lt;MTLFunction&amp;gt; function1 = [defaultLibrary newFunctionWithName:@&quot;computeShader_int&quot;];
 id &amp;lt;MTLFunction&amp;gt; function2 = [defaultLibrary newFunctionWithName:@&quot;computeShader_float&quot;];
 </code></pre>
 <p>&lt;@U03J7T89SQG&gt; Yes, your example illustrates what I was looking for. So sounds like I'd still need to create a compute pipeline state per pixel format? 
 For context, I was hoping to build my compute pipeline state once up front and allow a consumer of an MPS-like framework provide textures with various pixel formats. 
 Yes, you would need to create a pipeline state for each one. 
 Something like:</p>
-<p><code>`template &amp;lt;typename T&amp;gt;
-void computeShader(texture2d&amp;lt;T&amp;gt; myTexture [[texture(0)]]) { ... }</code>
-<code>where T is inferred from</code>texture(0)` 
+<pre><code>template &amp;lt;typename T&amp;gt;
+void computeShader(texture2d&amp;lt;T&amp;gt; myTexture [[texture(0)]]) { ... }
+</code></pre>
+<p>where T is inferred from <code>texture(0)</code> 
 And the reason for that is so the compiler can create an optimized version for each permutation you have. 
 Yeah, makes sense. Would be cool if a compute pipeline state could be build with a set of template parameter permutations and then it selects the correct one based on bindings 
 In fact, the term "shader permutations" refers to this specialization whether you're using templates, or function constants. 
@@ -3130,23 +3133,23 @@ Wooooooooo! No square brackets for ME this weekend! :confetti_ball: :man_dancing
 </blockquote>
 <p>Hello David, could you please provide some further details about the crash? Is it a CPU crash pointing at the Metal library or is it a GPU crash? Thanks 
 Posted in the study hall, but the common part of the stack trace is:</p>
-<p><code>`Thread 0 Crashed:
+<pre><code>Thread 0 Crashed:
 0   libobjc.A.dylib                      0x000000019c8b7470 objc_release + 16
 1   IOGPU                                0x00000001cf8059d8 -[IOGPUMetalResource dealloc] + 204
 2   IOGPU                                0x00000001cf80672c -[IOGPUMetalBuffer dealloc] + 288
-3   AGXMetalA10                          0x00000001df28ab28 0x1df26b000 + 129832</code>
-` 
-It's rare, so I don't think it's an over-release on our part. 
-Thanks! Do you have the whole stack trace by chance? 
-Also, did you try to turn on zombie object detection in Xcode or Instruments so far? 
-These reports are coming from the production app and we haven't been able to reproduce it. 
-Sanitizing stack traces, standby 
-It might still be useful to follow the instructions in this page: <a href="https://developer.apple.com/documentation/xcode/investigating-crashes-for-zombie-objects">https://developer.apple.com/documentation/xcode/investigating-crashes-for-zombie-objects</a>, specifically the linked page <a href="https://help.apple.com/instruments/mac/current/#/dev612e6956">https://help.apple.com/instruments/mac/current/#/dev612e6956</a> 
-and I mean, on your development environment 
-Right, like I said we can't repro it, but running with zombies enabled is a good idea. 
-Based on the signature of your stack track this is quite likely a zombie object. A full stack trace would be useful to understand where in the driver we issue that release 
-Here ya go, had to anonymize it:</p>
-<p><code>Thread 0 Crashed:
+3   AGXMetalA10                          0x00000001df28ab28 0x1df26b000 + 129832
+</code></pre>
+<p>It's rare, so I don't think it's an over-release on our part. </p>
+<p>Thanks! Do you have the whole stack trace by chance? </p>
+<p>Also, did you try to turn on zombie object detection in Xcode or Instruments so far? </p>
+<p>These reports are coming from the production app and we haven't been able to reproduce it. </p>
+<p>Sanitizing stack traces, standby </p>
+<p>It might still be useful to follow the instructions in this page: <a href="https://developer.apple.com/documentation/xcode/investigating-crashes-for-zombie-objects">https://developer.apple.com/documentation/xcode/investigating-crashes-for-zombie-objects</a>, specifically the linked page <a href="https://help.apple.com/instruments/mac/current/#/dev612e6956">https://help.apple.com/instruments/mac/current/#/dev612e6956</a> 
+and I mean, on your development environment </p>
+<p>Right, like I said we can't repro it, but running with zombies enabled is a good idea. </p>
+<p>Based on the signature of your stack track this is quite likely a zombie object. A full stack trace would be useful to understand where in the driver we issue that release </p>
+<p>Here ya go, had to anonymize it:</p>
+<pre><code>Thread 0 Crashed:
 0   libobjc.A.dylib                      0x000000019c8b7470 objc_release + 16
 1   IOGPU                                0x00000001cf8059d8 -[IOGPUMetalResource dealloc] + 204
 2   IOGPU                                0x00000001cf80672c -[IOGPUMetalBuffer dealloc] + 288
@@ -3171,28 +3174,28 @@ Here ya go, had to anonymize it:</p>
 21  UIKitCore                            0x0000000187d0fb90 -[UIApplication _run] + 1076
 22  UIKitCore                            0x0000000187aa516c UIApplicationMain + 328
 23  MyApp                                0x0000000106f36e1c main (main.m:127)
-24  ???                                  0x0000000109580250 0x0 + 0``
-`
-And another one (different system altogether
-)</code>Thread 0 Crashed:
+24  ???                                  0x0000000109580250 0x0 + 0
+</code></pre>
+<p>And another one (different system altogether)</p>
+<pre><code>Thread 0 Crashed:
 0   libobjc.A.dylib                      0x00000001dc079ef8 objc_msgSend + 56
 1   IOGPU                                0x00000002242b87a0 -[IOGPUMetalResource dealloc] + 208
 2   IOGPU                                0x00000002242b9558 -[IOGPUMetalBuffer dealloc] + 316
 3   AGXMetalA14                          0x0000000236149964 0x235f5c000 + 2021732
-4   MyApp                                0x00000001055b21ac std::<strong>1::__any_imp::_SmallHandler&lt;myapp::render::Buffer::Metal&gt;::__handle(std::__1::__any_imp::_Action, std::__1::any const<em>, std::__1::any</em>, std::type_info const<em>, void const</em>) (any:0)
+4   MyApp                                0x00000001055b21ac std::__1::__any_imp::_SmallHandler&amp;lt;myapp::render::Buffer::Metal&amp;gt;::__handle(std::__1::__any_imp::_Action, std::__1::any const*, std::__1::any*, std::type_info const*, void const*) (any:0)
 5   MyApp                                0x000000010559f808 std::__1::any::reset() (any:321)
 6   MyApp                                0x000000010559f66c myapp::render::Buffer::~Buffer() (Buffer.cpp:14)
-7   MyApp                                0x00000001055a2768 std::__1::unique_ptr&lt;std::__1::__hash_node&lt;std::__1::__hash_value_type&lt;myapp::Name, myapp::render::VertexBuffer&gt;, void<em>&gt;, std::__1::__hash_node_destructor&lt;std::__1::allocator&lt;std::__1::__hash_node&lt;std::__1::__hash_value_type&lt;myapp::Name, myapp::render::VertexBuffer&gt;, void</em>&gt; &gt; &gt; &gt;::~unique_ptr() (Buffer.h:188)
-8   MyApp                                0x00000001055a1924 myapp::render::Cache&lt;myapp::render::VertexBuffer&gt;::RemoveBuffer(myapp::Name const&amp;) (__hash_table:2498)
+7   MyApp                                0x00000001055a2768 std::__1::unique_ptr&amp;lt;std::__1::__hash_node&amp;lt;std::__1::__hash_value_type&amp;lt;myapp::Name, myapp::render::VertexBuffer&amp;gt;, void*&amp;gt;, std::__1::__hash_node_destructor&amp;lt;std::__1::allocator&amp;lt;std::__1::__hash_node&amp;lt;std::__1::__hash_value_type&amp;lt;myapp::Name, myapp::render::VertexBuffer&amp;gt;, void*&amp;gt; &amp;gt; &amp;gt; &amp;gt;::~unique_ptr() (Buffer.h:188)
+8   MyApp                                0x00000001055a1924 myapp::render::Cache&amp;lt;myapp::render::VertexBuffer&amp;gt;::RemoveBuffer(myapp::Name const&amp;amp;) (__hash_table:2498)
 9   MyApp                                0x0000000105668870 TTMKTileMetadata::deleteGLBuffers() (TTMKTileMetadata.cpp:178)
-10  MyApp                                0x00000001056d8248 -[TTMKMetalView doInContext:] (<a href="http://TTMKMetalView.mm:46|TTMKMetalView.mm:46">http://TTMKMetalView.mm:46|TTMKMetalView.mm:46</a>)
-11  MyApp                                0x000000010569c694 -[TTMKMapView doInBackgroundContextThread:doImmediately:] (<a href="http://TTMKMapView.mm:2958|TTMKMapView.mm:2958">http://TTMKMapView.mm:2958|TTMKMapView.mm:2958</a>)
-12  MyApp                                0x000000010568ba8c -[TTMKMapContainerDelegate doInBackgroundContextThread:doImmediately:] (<a href="http://TTMKMapContainerDelegate.mm:20|TTMKMapContainerDelegate.mm:20">http://TTMKMapContainerDelegate.mm:20|TTMKMapContainerDelegate.mm:20</a>)
+10  MyApp                                0x00000001056d8248 -[TTMKMetalView doInContext:] (&lt;http://TTMKMetalView.mm:46|TTMKMetalView.mm:46&gt;)
+11  MyApp                                0x000000010569c694 -[TTMKMapView doInBackgroundContextThread:doImmediately:] (&lt;http://TTMKMapView.mm:2958|TTMKMapView.mm:2958&gt;)
+12  MyApp                                0x000000010568ba8c -[TTMKMapContainerDelegate doInBackgroundContextThread:doImmediately:] (&lt;http://TTMKMapContainerDelegate.mm:20|TTMKMapContainerDelegate.mm:20&gt;)
 13  MyApp                                0x00000001056176c0 TTMKMapContainer::drainTileCache(bool) (TTMKMapContainer.cpp:3393)
 14  MyApp                                0x0000000105613ca4 TTMKMapContainer::update(double, double) (TTMKMapContainer.cpp:1442)
-15  MyApp                                0x000000010569b6a4 -[TTMKMapView glDrawOversample] (<a href="http://TTMKMapView.mm:2696|TTMKMapView.mm:2696">http://TTMKMapView.mm:2696|TTMKMapView.mm:2696</a>)
-16  MyApp                                0x000000010569b964 -[TTMKMapView drawWithDevice:toDrawable:pass:] (<a href="http://TTMKMapView.mm:2747|TTMKMapView.mm:2747">http://TTMKMapView.mm:2747|TTMKMapView.mm:2747</a>)
-17  MyApp                                0x00000001056d85a0 -[TTMKMetalView drawRect:] (<a href="http://TTMKMetalView.mm:144|TTMKMetalView.mm:144">http://TTMKMetalView.mm:144|TTMKMetalView.mm:144</a>)
+15  MyApp                                0x000000010569b6a4 -[TTMKMapView glDrawOversample] (&lt;http://TTMKMapView.mm:2696|TTMKMapView.mm:2696&gt;)
+16  MyApp                                0x000000010569b964 -[TTMKMapView drawWithDevice:toDrawable:pass:] (&lt;http://TTMKMapView.mm:2747|TTMKMapView.mm:2747&gt;)
+17  MyApp                                0x00000001056d85a0 -[TTMKMetalView drawRect:] (&lt;http://TTMKMetalView.mm:144|TTMKMetalView.mm:144&gt;)
 18  MetalKit                             0x00000002009a36d4 -[MTKView draw] + 140
 19  MetalKit                             0x00000002009b1fb8 -[MTKViewDisplayLinkTarget draw] + 36
 20  QuartzCore                           0x00000001c70d2324 CA::Display::DisplayLink::dispatch_items(unsigned long long, unsigned long long, unsigned long long) + 744
@@ -3201,7 +3204,7 @@ And another one (different system altogether
 23  UIKitCore                            0x00000001c5fd9084 _UIUpdateSequenceRun + 80
 24  UIKitCore                            0x00000001c665ecb0 schedulerStepScheduledMainSection + 140
 25  UIKitCore                            0x00000001c665e478 runloopSourceCallback + 88
-26  CoreFoundation                       0x00000001c344bf04 __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION</strong> + 24
+26  CoreFoundation                       0x00000001c344bf04 __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__ + 24
 27  CoreFoundation                       0x00000001c345cc90 __CFRunLoopDoSource0 + 204
 28  CoreFoundation                       0x00000001c3396184 __CFRunLoopDoSources0 + 264
 29  CoreFoundation                       0x00000001c339bb4c __CFRunLoopRun + 824
@@ -3210,28 +3213,27 @@ And another one (different system altogether
 32  UIKitCore                            0x00000001c5d14e88 -[UIApplication _run] + 1096
 33  UIKitCore                            0x00000001c5a965ec UIApplicationMain + 360
 34  MyApp                                0x0000000106d495fc main (main.m:127)
-35  ???                                  0x0000000109679ce4 0x0 + 0</p>
-<pre><code>Note: `deleteGLBuffers()` is part of the legacy code hierarchy. Rendering path is all Metal. 
+35  ???                                  0x0000000109679ce4 0x0 + 0
+</code></pre>
+<p>Note: <code>deleteGLBuffers()</code> is part of the legacy code hierarchy. Rendering path is all Metal. 
 Thanks, this definitely looks like a zombie object 
 It seems like your app is holding a reference to a MTLBuffer object that has been already released 
 Yeah, that's what I thought too, but the code paths here manage Metal buffers independently and it seems unlikely totally different implementations would make the same subtle mistake. Static analysis turned up nothing suspicious. 
 Do you use command buffers with unretained references or command buffers with retained references? 
 Let me look up the creation code 
 Also, do you have a common pool of Metal resources that lives across sub-systems? 
-Not vertex or index buffers, at least. Creation happens in Obj-C++ code and looks like:
-
-```            auto em = std::any_cast &amp;lt;Environment::Metal&amp;gt; ( &amp;amp;_environment-&amp;gt;_metal );
+Not vertex or index buffers, at least. Creation happens in Obj-C++ code and looks like:</p>
+<pre><code>            auto em = std::any_cast &amp;lt;Environment::Metal&amp;gt; ( &amp;amp;_environment-&amp;gt;_metal );
             id &amp;lt;MTLDevice&amp;gt; device = em-&amp;gt;_device;
 
             auto mtl = std::any_cast &amp;lt;Metal&amp;gt; ( &amp;amp;_metal );
-            mtl-&amp;gt;_buffer = [device newBufferWithLength: sizeInBytes options: MTLResourceCPUCacheModeDefaultCache];``
-` 
-That should be retained, if I'm not mistatken. 
-Sorry, what I meant is: how do you create `MTLCommandBuffer` objects? 
-Do you by chance use `MTLCommandQueue:commandBufferWithUnretainedReferences` or `MTLCommandQueue:commandBufferWithDescriptor` setting `commandBufferWithUnretainedReferences=YES`? 
-No, I don't think so. Device and queue are created here:
-
-```            _metal.emplace &amp;lt;Metal&amp;gt; ();
+            mtl-&amp;gt;_buffer = [device newBufferWithLength: sizeInBytes options: MTLResourceCPUCacheModeDefaultCache];
+</code></pre>
+<p>That should be retained, if I'm not mistatken. 
+Sorry, what I meant is: how do you create <code>MTLCommandBuffer</code> objects? 
+Do you by chance use <code>MTLCommandQueue:commandBufferWithUnretainedReferences</code> or <code>MTLCommandQueue:commandBufferWithDescriptor</code> setting <code>commandBufferWithUnretainedReferences=YES</code>? 
+No, I don't think so. Device and queue are created here:</p>
+<pre><code>            _metal.emplace &amp;lt;Metal&amp;gt; ();
             auto mtl = std::any_cast &amp;lt;Metal&amp;gt; ( &amp;amp;_metal );
 
             bool first = ( mtl-&amp;gt;_device == nullptr );
@@ -3244,11 +3246,10 @@ No, I don't think so. Device and queue are created here:
             {
                 initialize();
                 initializeMetalRendering();
-            }``
-`
-Then the command buffer is created here
-:
-```        void Environment::start()
+            }
+</code></pre>
+<p>Then the command buffer is created here:</p>
+<pre><code>    void Environment::start()
         {
             auto mtl = std::any_cast &amp;lt;Metal&amp;gt; ( &amp;amp;_metal );
 
