@@ -3,16 +3,30 @@ First of all, thank you! Any help is more then welcomed, and even if you can onl
 #### To contribute by formatting raw data you should:
 - choose one of the lounges JSON files not yet formatted from **WWDC22rawJSON** folder.
   - [X] localization-and-internationalization ([emin](https://twitter.com/emin_ui))
-  - [ ] watchOS-lounge
   - [X] accessibility ([shir](https://github.com/shirblc))
+  - [ ] app-clips
+  - [ ] app-store
   - [ ] arkit-realitykit
   - [ ] audio-and-video
+  - [ ] cloudkit
+  - [ ] coredata
   - [X] design ([shir](https://github.com/shirblc))
+  - [ ] device-management
+  - [ ] devtools-and-swift
+  - [ ] education
   - [ ] graphics-and-games
+  - [ ] health-and-fitness
+  - [ ] machine-learning
+  - [ ] maps
   - [ ] object-capture-and-room-plan
   - [ ] photos-camera
+  - [ ] privacy-and-security
+  - [ ] safari
+  - [ ] sirikit-and-shortcuts
   - [ ] swiftUI
-  - [ ] uiframeworks
+  - [ ] uiframeworks  
+  - [ ] watchOS-lounge
+  - [ ] widgetkit
 - create an issue on the main branch
 - mark it as *IN PROGRESS*
 - for the content make sure to add your link to your twitter or other means of communication in case some1 wants to reach out.
