@@ -1532,7 +1532,7 @@ Cool. I went to my Watch App targets Info.plist and added <code>WKApplication</c
 let’s back up a bit, in that case. Is your app storyboard-based or SwiftUI (App) Lifecycle? 
 SwiftUI 
 if you’re using <code>App</code>, you need to annotate your App type with <code>@main</code>, e.g.:</p>
-<p><code>`@main 
+<pre><code class="language-swift">@main 
 struct MyApp: App {
     var body: some Scene {
         WindowGroup {
@@ -1541,8 +1541,9 @@ struct MyApp: App {
             }
         }
     }
-}</code>
-<code>In my</code>WatchApp.swift<code>file found in my WatchKit Extension I do have my  App type annotated with</code>@main` , is that what you are referring to? 
+}
+</code></pre>
+<p>In my <code>WatchApp.swift</code>  file found in my WatchKit Extension I do have my  App type annotated with <code>@main</code> , is that what you are referring to? 
 yep. we might need to look at your project together, then. can you sign up for one of the watchOS labs and note in your question that you were referred from the digital lounge? 
 sure do you have a link to the labs sign up so i make sure i go to the right place? 
 <a href="https://developer.apple.com/wwdc22/labs/">https://developer.apple.com/wwdc22/labs/</a> to submit your request; pick the watchOS lab on Wednesday or Friday. 

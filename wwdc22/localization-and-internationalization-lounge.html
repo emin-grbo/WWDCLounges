@@ -766,19 +766,20 @@ could you clarify what “original binary data” means?
 How are you storing the days/hours prior to localization? 
 For example, is it a <code>Date</code>, or are you receiving the data in some other form? 
 it would be a JSON from an API response in english,</p>
-<p><code>`{
+<pre><code class="language-json">{
 day: 0,
-start: "0700",
-end: "2300"
-}</code>
-<code>and 0 means sunday as specified in the API 
-Got it. You should be able to sort directly on those strings. For the first day of the week issue, you can check</code>Calendar.firstWeekday<code>. 
+start: &quot;0700&quot;,
+end: &quot;2300&quot;
+}
+</code></pre>
+<p>and 0 means sunday as specified in the API 
+Got it. You should be able to sort directly on those strings. For the first day of the week issue, you can check <code>Calendar.firstWeekday</code>. 
 (on the current user default calendar) 
-To produce formatted times, you'll need to convert the strings to a</code>Date<code>object, then use</code>.formatted()<code>with the appropriate options to produce the string you want. 
+To produce formatted times, you'll need to convert the strings to a <code>Date</code> object, then use <code>.formatted()</code> with the appropriate options to produce the string you want. 
 thank you!! 
-You should be able to put a weekday/hour/minute in</code>DateComponents<code>and then use</code>Calendar<code>to make a</code>Date<code>from that. 
-You can then make a</code>DateInterval<code>from two Dates for the range (e.g. "9 AM - 5 PM") and then use</code>.formatted()<code>on that. 
-One more note: when using</code>Calendar<code>to convert</code>DateComponents<code>to</code>Date<code>, set the time zone to GMT to avoid Daylight Time issues. Same with</code>.formatted()` </p>
+You should be able to put a weekday/hour/minute in <code>DateComponents</code> and then use <code>Calendar</code>  to make a <code>Date</code> from that. 
+You can then make a <code>DateInterval</code> from two Dates for the range (e.g. "9 AM - 5 PM") and then use <code>.formatted()</code> on that. 
+One more note: when using <code>Calendar</code> to convert <code>DateComponents</code> to <code>Date</code>, set the time zone to GMT to avoid Daylight Time issues. Same with <code>.formatted()</code> </p>
 <hr />
 <blockquote>
 <h4 id="we-have-an-app-that-has-english-only-features-lets-imagine-thats-as-an-advanced-assistant-for-editing-english-texts-and-our-assistant-doesnt-support-other-languages-if-we-localize-our-app-would-it-improve-user-experience-for-people-who-use-english-as-a-second-language-or-would-it-only-confuse-them-on-why-their-main-language-is-not-supported-since-we-only-expect-english-texts-for-now">We have an app that has English only features. Let's imagine that's as an advanced assistant for editing English texts and our assistant doesn't support other languages.  If we localize our app, would it improve user experience for people who use English as a second language, or would it only confuse them on why their main language is not supported, since we only expect English texts for now?</h4>

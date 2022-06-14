@@ -956,8 +956,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#weve-experiencing-a-watchdog-termination-in-the-background-due-to-a-function-inside-uikit-sleeping-please-see-the-following-backtrace-thread-0-crashed-0-libsystem_kerneldylib-0x00000002065bba2c-__semwait_signal-8-1-libsystem_cdylib-0x00000001d9c700e4-nanosleep-220-nanosleepc104-2-libsystem_cdylib-0x00000001d9c70e14-usleep-68-usleepc52-3-quartzcore-0x00000001d292bc84-cabackingstorecollectblocking-264-x-misccpp186-4-uikitcore-0x00000001d1184778-__35-uiwindowscene-_prepareforsuspend_block_invoke-60-uiwindowscenem1273-5-uikitcore-0x00000001d1243b90-_uicontextbinder-purgecontextswithpurgeactionafterpurgeaction-472-_uicontextbinderm221-6-uikitcore-0x00000001d12874ec-uiwindowscene-_prepareforsuspend-88-uiwindowscenem1271-7-uikitcore-0x00000001d1ec935c-__130-uiapplication-_updatestaterestorationarchiveforbackgroundeventsavestateexitifcouldnotrestorestateupdatesnapshotwindowscene_block_invoke_2-228-uiapplicationm11237-8-uikitcore-0x00000001d128e4dc-_uiaftercacommitblock-run-72-_uiaftercacommitqueuem137-9-uikitcore-0x00000001d11a1864-_uiaftercacommitqueue-flush-192-_uiaftercacommitqueuem228-10-libdispatchdylib-0x00000001ce7eae6c-_dispatch_call_block_and_release-32-initc1517-11-libdispatchdylib-0x00000001ce7eca30-_dispatch_client_callout-20-objectm560-12-libdispatchdylib-0x00000001ce7faf48-_dispatch_main_queue_drain-928-inline_internalh2622-13-libdispatchdylib-0x00000001ce7fab98-_dispatch_main_queue_callback_4cf-44-queuec7770-14-corefoundation-0x00000001ceb3d800-__cfrunloop_is_servicing_the_main_dispatch_queue__-16-cfrunloopc1795-15-corefoundation-0x00000001ceaf7704-__cfrunlooprun-2532-cfrunloopc3144-16-corefoundation-0x00000001ceb0abc8-cfrunlooprunspecific-600-cfrunloopc3268-17-graphicsservices-0x00000001eac3e374-gseventrunmodal-164-gseventc2200-18-uikitcore-0x00000001d147a648-uiapplication-_run-1100-uiapplicationm3511-19-uikitcore-0x00000001d11fbd90-uiapplicationmain-364-uiapplicationm5064-20-redacted-0x0000000104e87460-main-112-mainm27-21-dyld-0x00000001055e5ce4-start-520-dyldmaincpp879" class="md-nav__link">
-    We've experiencing a watchdog termination in the background due to a function inside UIKit sleeping. Please see the following backtrace:  Thread 0 Crashed: 0   libsystem_kernel.dylib          0x00000002065bba2c __semwait_signal + 8 1   libsystem_c.dylib               0x00000001d9c700e4 nanosleep + 220 (nanosleep.c:104) 2   libsystem_c.dylib              0x00000001d9c70e14 usleep + 68 (usleep.c:52) 3   QuartzCore                     0x00000001d292bc84 CABackingStoreCollectBlocking + 264 (x-misc.cpp:186) 4   UIKitCore                       0x00000001d1184778 __35-[UIWindowScene _prepareForSuspend]_block_invoke + 60 (UIWindowScene.m:1273) 5   UIKitCore                       0x00000001d1243b90 -[_UIContextBinder purgeContextsWithPurgeAction:afterPurgeAction:] + 472 (_UIContextBinder.m:221) 6   UIKitCore                      0x00000001d12874ec -[UIWindowScene _prepareForSuspend] + 88 (UIWindowScene.m:1271) 7   UIKitCore                        0x00000001d1ec935c __130-[UIApplication _updateStateRestorationArchiveForBackgroundEvent:saveState:exitIfCouldNotRestoreState:updateSnapshot:windowScene:]_block_invoke_2 + 228 (UIApplication.m:11237) 8   UIKitCore                       0x00000001d128e4dc -[_UIAfterCACommitBlock run] + 72 (_UIAfterCACommitQueue.m:137) 9   UIKitCore                        0x00000001d11a1864 -[_UIAfterCACommitQueue flush] + 192 (_UIAfterCACommitQueue.m:228) 10  libdispatch.dylib                 0x00000001ce7eae6c _dispatch_call_block_and_release + 32 (init.c:1517) 11  libdispatch.dylib                0x00000001ce7eca30 _dispatch_client_callout + 20 (object.m:560) 12  libdispatch.dylib               0x00000001ce7faf48 _dispatch_main_queue_drain + 928 (inline_internal.h:2622) 13  libdispatch.dylib              0x00000001ce7fab98 _dispatch_main_queue_callback_4CF + 44 (queue.c:7770) 14  CoreFoundation                 0x00000001ceb3d800 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__ + 16 (CFRunLoop.c:1795) 15  CoreFoundation                    0x00000001ceaf7704 __CFRunLoopRun + 2532 (CFRunLoop.c:3144) 16  CoreFoundation                  0x00000001ceb0abc8 CFRunLoopRunSpecific + 600 (CFRunLoop.c:3268) 17  GraphicsServices               0x00000001eac3e374 GSEventRunModal + 164 (GSEvent.c:2200) 18  UIKitCore                         0x00000001d147a648 -[UIApplication _run] + 1100 (UIApplication.m:3511) 19  UIKitCore                        0x00000001d11fbd90 UIApplicationMain + 364 (UIApplication.m:5064) 20  [REDACTED]                    0x0000000104e87460 main + 112 (main.m:27) 21  dyld                              0x00000001055e5ce4 start + 520 (dyldMain.cpp:879)
+  <a href="#weve-experiencing-a-watchdog-termination-in-the-background-due-to-a-function-inside-uikit-sleeping-please-see-the-following-backtrace" class="md-nav__link">
+    We've experiencing a watchdog termination in the background due to a function inside UIKit sleeping. Please see the following backtrace:
   </a>
   
 </li>
@@ -986,76 +986,6 @@
         <li class="md-nav__item">
   <a href="#we-have-compositional-layout-with-collectionview-and-content-is-coming-from-remote-including-image-so-based-on-the-image-height-we-adjust-the-height-of-the-cells-so-until-we-determine-the-height-of-the-image-we-have-ideal-height-but-the-problem-is-user-can-keep-scrolling-down-while-images-are-getting-downloaded-cells-are-drawn-with-ideal-height-but-when-image-get-downloaded-we-fix-the-height-for-the-cell-during-which-we-see-collection-view-jittersjump-up-down-due-to-content-size-changes-any-ways-to-improve-this" class="md-nav__link">
     We have compositional layout with CollectionView and content is coming from remote including image so based on the image height we adjust the height of the cells, so until we determine the height of the image we have ideal height, but the problem is user can keep scrolling down while images are getting downloaded cells are drawn with ideal height but when image get downloaded we fix the height for the cell during which we see collection view jitters/jump up down due to content size changes Any ways to improve this?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#hello-how-can-i-get-started-with-uikit-i-currently-know-swiftui-only-which-in-my-opinion-is-amazing-btw-but-id-like-to-learn-a-little-bit-of-uikit-too-because-i-might-use-it-in-some-cases-too-in-the-future" class="md-nav__link">
-    Hello! How can I get started with UIKit? I currently know SwiftUI only (which, in my opinion, is amazing btw!), but I'd like to learn a little bit of UIKit too, because I might use it in some cases too in the future.
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#using-sharelink-in-swiftui-and-transferable-we-will-now-be-able-to-share-custom-types-between-users-how-does-this-compare-to-sharing-core-data-entities-using-a-shared-cloudkit-database-as-i-understand-the-main-difference-is-that-sharing-using-transferable-copies-the-item-from-user-a-and-pastes-it-for-user-b-so-in-the-end-there-will-be-2-instances-of-this-item-with-no-synchronization-any-subsequent-changes-to-any-of-the-items-will-remain-local-for-that-user-in-contrast-sharing-using-shared-cloudkit-database-means-a-single-entity-will-be-synchronized-for-both-users-am-i-on-the-right-track-are-there-some-other-key-differences-to-be-aware-of" class="md-nav__link">
-    Using ShareLink in SwiftUI and Transferable, we will now be able to share custom types between users. How does this compare to sharing Core Data entities using a .shared CloudKit database? As I understand, the main difference is that sharing using Transferable copies the item from User A and pastes it for User B, so in the end there will be 2 instances of this item, with no synchronization. Any subsequent changes to any of the items will remain local for that user. In contrast, sharing using .shared CloudKit database means a single entity will be synchronized for both users. Am I on the right track? Are there some other key differences to be aware of?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#good-morning-thank-you-for-a-wonderful-wwdc-i-was-trying-to-play-around-with-the-new-photopicker-im-able-to-initiate-the-picker-but-im-not-quite-sure-how-to-assign-the-selected-photo-to-an-image-in-my-swiftui-view-would-you-please-provide-a-code-sample-i-was-trying-to-look-into-the-documentation-but-i-couldnt-find-anything-that-would-resolve-my-problem" class="md-nav__link">
-    Good morning! Thank you for a wonderful WWDC! I was trying to play around with the new PhotoPicker. I’m able to initiate the picker but I’m not quite sure how to assign the selected photo to an image in my SwiftUI view. Would you please provide a code sample? I was trying to look into the documentation but I couldn’t find anything that would resolve my problem.
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#having-implemented-several-swiftui-apps-i-still-consider-its-constraints-concerning-custom-designs-a-challenge-to-communicate-to-designers-apart-from-hig-or-trying-out-do-you-know-any-resourcestooling-which-helps-to-implement-good-design-like-are-their-sketch-export-tools-to-generate-code-for-componentssymbols" class="md-nav__link">
-    Having implemented several SwiftUI apps, I still consider its constraints concerning custom designs a challenge to communicate to designers. Apart from HIG or trying out, do you know any resources/tooling which helps to implement good design? Like are their Sketch export tools to generate code for components/symbols?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#is-there-a-way-to-coordinate-between-swiftui-draggesture-with-their-uikit-counterparts-in-the-uigesturerecognizerdelegate-like-shouldbegin-or-shouldrequirefailure" class="md-nav__link">
-    Is there a way to coordinate between SwiftUI DragGesture with their UIKit counterparts in the UIGestureRecognizerDelegate like shouldBegin or shouldRequireFailure?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#about-swiftuis-layout-when-creating-a-custom-layout-is-it-ok-to-use-another-layout-within-the-func-like-sizethatfits-or-placesubviews-including-the-built-in-layout-like-hstack-more-specifically-is-it-possible-to-compose-some-hstack-and-vstack-within-my-custom-layout-in-that-case-i-have-to-create-a-layoutsubview-by-myself-is-it-possible" class="md-nav__link">
-    About SwiftUI’s Layout: When creating a custom Layout, is it OK to use another Layout within the func like sizeThatFits or placeSubviews, including the built-in Layout (like HStack)?  More specifically, is it possible to compose some HStack and VStack within my custom Layout? In that case I have to create a LayoutSubview by myself, is it possible?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#hi-there-whats-the-recommended-way-to-repeatedly-fetch-data-in-a-swiftui-app-so-that-we-dont-push-updates-from-a-different-thread" class="md-nav__link">
-    Hi there! What's the recommended way to repeatedly fetch data in a SwiftUI app, (so that we don't push updates from a different thread)?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#would-you-use-swiftui-or-uikit-to-implement-a-list-that-can-change-layout-between-a-table-and-grid-layouts-i-currently-have-a-uicollectionview-with-different-layouts-but-i-cant-animate-between-the-layout-change" class="md-nav__link">
-    Would you use SwiftUI or UIKit to implement a list that can change layout between a table and grid layouts? I currently have a UICollectionView with different layouts but I can't animate between the layout change.
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#assume-that-i-keep-the-whole-app-state-in-the-state-object-in-my-app-struct-this-way-i-can-make-sure-that-all-the-views-are-in-a-consistent-state-and-have-a-single-source-of-truth-how-can-i-tune-performance-because-in-this-case-swiftui-starts-diffing-the-whole-app-view-hierarchy-on-every-single-change-of-the-app-state" class="md-nav__link">
-    Assume that I keep the whole app state in the state object in my app struct? This way I can make sure that all the views are in a consistent state and have a single source of truth. How can I tune performance because in this case, SwiftUI starts diffing the whole app view hierarchy on every single change of the app state?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-is-correct-way-to-specify-file-type-that-allowed-for-dragdrop-from-finder-i-mean-if-i-use-uttypefileurl-it-allows-to-drop-any-type-of-files-but-if-i-specify-uttypeimage-that-not-allow-drop-at-all-what-is-correct-approach-if-i-want-allow-drop-only-images-from-finder" class="md-nav__link">
-    What is correct way to specify file type that allowed for Drag&amp;Drop from Finder. I mean if I use UTType.fileURL it allows to Drop any type of files, but if I specify UTType.image that not allow Drop at all. What is correct approach if I want allow Drop only images from Finder?
   </a>
   
 </li>
@@ -2306,8 +2236,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#weve-experiencing-a-watchdog-termination-in-the-background-due-to-a-function-inside-uikit-sleeping-please-see-the-following-backtrace-thread-0-crashed-0-libsystem_kerneldylib-0x00000002065bba2c-__semwait_signal-8-1-libsystem_cdylib-0x00000001d9c700e4-nanosleep-220-nanosleepc104-2-libsystem_cdylib-0x00000001d9c70e14-usleep-68-usleepc52-3-quartzcore-0x00000001d292bc84-cabackingstorecollectblocking-264-x-misccpp186-4-uikitcore-0x00000001d1184778-__35-uiwindowscene-_prepareforsuspend_block_invoke-60-uiwindowscenem1273-5-uikitcore-0x00000001d1243b90-_uicontextbinder-purgecontextswithpurgeactionafterpurgeaction-472-_uicontextbinderm221-6-uikitcore-0x00000001d12874ec-uiwindowscene-_prepareforsuspend-88-uiwindowscenem1271-7-uikitcore-0x00000001d1ec935c-__130-uiapplication-_updatestaterestorationarchiveforbackgroundeventsavestateexitifcouldnotrestorestateupdatesnapshotwindowscene_block_invoke_2-228-uiapplicationm11237-8-uikitcore-0x00000001d128e4dc-_uiaftercacommitblock-run-72-_uiaftercacommitqueuem137-9-uikitcore-0x00000001d11a1864-_uiaftercacommitqueue-flush-192-_uiaftercacommitqueuem228-10-libdispatchdylib-0x00000001ce7eae6c-_dispatch_call_block_and_release-32-initc1517-11-libdispatchdylib-0x00000001ce7eca30-_dispatch_client_callout-20-objectm560-12-libdispatchdylib-0x00000001ce7faf48-_dispatch_main_queue_drain-928-inline_internalh2622-13-libdispatchdylib-0x00000001ce7fab98-_dispatch_main_queue_callback_4cf-44-queuec7770-14-corefoundation-0x00000001ceb3d800-__cfrunloop_is_servicing_the_main_dispatch_queue__-16-cfrunloopc1795-15-corefoundation-0x00000001ceaf7704-__cfrunlooprun-2532-cfrunloopc3144-16-corefoundation-0x00000001ceb0abc8-cfrunlooprunspecific-600-cfrunloopc3268-17-graphicsservices-0x00000001eac3e374-gseventrunmodal-164-gseventc2200-18-uikitcore-0x00000001d147a648-uiapplication-_run-1100-uiapplicationm3511-19-uikitcore-0x00000001d11fbd90-uiapplicationmain-364-uiapplicationm5064-20-redacted-0x0000000104e87460-main-112-mainm27-21-dyld-0x00000001055e5ce4-start-520-dyldmaincpp879" class="md-nav__link">
-    We've experiencing a watchdog termination in the background due to a function inside UIKit sleeping. Please see the following backtrace:  Thread 0 Crashed: 0   libsystem_kernel.dylib          0x00000002065bba2c __semwait_signal + 8 1   libsystem_c.dylib               0x00000001d9c700e4 nanosleep + 220 (nanosleep.c:104) 2   libsystem_c.dylib              0x00000001d9c70e14 usleep + 68 (usleep.c:52) 3   QuartzCore                     0x00000001d292bc84 CABackingStoreCollectBlocking + 264 (x-misc.cpp:186) 4   UIKitCore                       0x00000001d1184778 __35-[UIWindowScene _prepareForSuspend]_block_invoke + 60 (UIWindowScene.m:1273) 5   UIKitCore                       0x00000001d1243b90 -[_UIContextBinder purgeContextsWithPurgeAction:afterPurgeAction:] + 472 (_UIContextBinder.m:221) 6   UIKitCore                      0x00000001d12874ec -[UIWindowScene _prepareForSuspend] + 88 (UIWindowScene.m:1271) 7   UIKitCore                        0x00000001d1ec935c __130-[UIApplication _updateStateRestorationArchiveForBackgroundEvent:saveState:exitIfCouldNotRestoreState:updateSnapshot:windowScene:]_block_invoke_2 + 228 (UIApplication.m:11237) 8   UIKitCore                       0x00000001d128e4dc -[_UIAfterCACommitBlock run] + 72 (_UIAfterCACommitQueue.m:137) 9   UIKitCore                        0x00000001d11a1864 -[_UIAfterCACommitQueue flush] + 192 (_UIAfterCACommitQueue.m:228) 10  libdispatch.dylib                 0x00000001ce7eae6c _dispatch_call_block_and_release + 32 (init.c:1517) 11  libdispatch.dylib                0x00000001ce7eca30 _dispatch_client_callout + 20 (object.m:560) 12  libdispatch.dylib               0x00000001ce7faf48 _dispatch_main_queue_drain + 928 (inline_internal.h:2622) 13  libdispatch.dylib              0x00000001ce7fab98 _dispatch_main_queue_callback_4CF + 44 (queue.c:7770) 14  CoreFoundation                 0x00000001ceb3d800 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__ + 16 (CFRunLoop.c:1795) 15  CoreFoundation                    0x00000001ceaf7704 __CFRunLoopRun + 2532 (CFRunLoop.c:3144) 16  CoreFoundation                  0x00000001ceb0abc8 CFRunLoopRunSpecific + 600 (CFRunLoop.c:3268) 17  GraphicsServices               0x00000001eac3e374 GSEventRunModal + 164 (GSEvent.c:2200) 18  UIKitCore                         0x00000001d147a648 -[UIApplication _run] + 1100 (UIApplication.m:3511) 19  UIKitCore                        0x00000001d11fbd90 UIApplicationMain + 364 (UIApplication.m:5064) 20  [REDACTED]                    0x0000000104e87460 main + 112 (main.m:27) 21  dyld                              0x00000001055e5ce4 start + 520 (dyldMain.cpp:879)
+  <a href="#weve-experiencing-a-watchdog-termination-in-the-background-due-to-a-function-inside-uikit-sleeping-please-see-the-following-backtrace" class="md-nav__link">
+    We've experiencing a watchdog termination in the background due to a function inside UIKit sleeping. Please see the following backtrace:
   </a>
   
 </li>
@@ -2336,76 +2266,6 @@
         <li class="md-nav__item">
   <a href="#we-have-compositional-layout-with-collectionview-and-content-is-coming-from-remote-including-image-so-based-on-the-image-height-we-adjust-the-height-of-the-cells-so-until-we-determine-the-height-of-the-image-we-have-ideal-height-but-the-problem-is-user-can-keep-scrolling-down-while-images-are-getting-downloaded-cells-are-drawn-with-ideal-height-but-when-image-get-downloaded-we-fix-the-height-for-the-cell-during-which-we-see-collection-view-jittersjump-up-down-due-to-content-size-changes-any-ways-to-improve-this" class="md-nav__link">
     We have compositional layout with CollectionView and content is coming from remote including image so based on the image height we adjust the height of the cells, so until we determine the height of the image we have ideal height, but the problem is user can keep scrolling down while images are getting downloaded cells are drawn with ideal height but when image get downloaded we fix the height for the cell during which we see collection view jitters/jump up down due to content size changes Any ways to improve this?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#hello-how-can-i-get-started-with-uikit-i-currently-know-swiftui-only-which-in-my-opinion-is-amazing-btw-but-id-like-to-learn-a-little-bit-of-uikit-too-because-i-might-use-it-in-some-cases-too-in-the-future" class="md-nav__link">
-    Hello! How can I get started with UIKit? I currently know SwiftUI only (which, in my opinion, is amazing btw!), but I'd like to learn a little bit of UIKit too, because I might use it in some cases too in the future.
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#using-sharelink-in-swiftui-and-transferable-we-will-now-be-able-to-share-custom-types-between-users-how-does-this-compare-to-sharing-core-data-entities-using-a-shared-cloudkit-database-as-i-understand-the-main-difference-is-that-sharing-using-transferable-copies-the-item-from-user-a-and-pastes-it-for-user-b-so-in-the-end-there-will-be-2-instances-of-this-item-with-no-synchronization-any-subsequent-changes-to-any-of-the-items-will-remain-local-for-that-user-in-contrast-sharing-using-shared-cloudkit-database-means-a-single-entity-will-be-synchronized-for-both-users-am-i-on-the-right-track-are-there-some-other-key-differences-to-be-aware-of" class="md-nav__link">
-    Using ShareLink in SwiftUI and Transferable, we will now be able to share custom types between users. How does this compare to sharing Core Data entities using a .shared CloudKit database? As I understand, the main difference is that sharing using Transferable copies the item from User A and pastes it for User B, so in the end there will be 2 instances of this item, with no synchronization. Any subsequent changes to any of the items will remain local for that user. In contrast, sharing using .shared CloudKit database means a single entity will be synchronized for both users. Am I on the right track? Are there some other key differences to be aware of?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#good-morning-thank-you-for-a-wonderful-wwdc-i-was-trying-to-play-around-with-the-new-photopicker-im-able-to-initiate-the-picker-but-im-not-quite-sure-how-to-assign-the-selected-photo-to-an-image-in-my-swiftui-view-would-you-please-provide-a-code-sample-i-was-trying-to-look-into-the-documentation-but-i-couldnt-find-anything-that-would-resolve-my-problem" class="md-nav__link">
-    Good morning! Thank you for a wonderful WWDC! I was trying to play around with the new PhotoPicker. I’m able to initiate the picker but I’m not quite sure how to assign the selected photo to an image in my SwiftUI view. Would you please provide a code sample? I was trying to look into the documentation but I couldn’t find anything that would resolve my problem.
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#having-implemented-several-swiftui-apps-i-still-consider-its-constraints-concerning-custom-designs-a-challenge-to-communicate-to-designers-apart-from-hig-or-trying-out-do-you-know-any-resourcestooling-which-helps-to-implement-good-design-like-are-their-sketch-export-tools-to-generate-code-for-componentssymbols" class="md-nav__link">
-    Having implemented several SwiftUI apps, I still consider its constraints concerning custom designs a challenge to communicate to designers. Apart from HIG or trying out, do you know any resources/tooling which helps to implement good design? Like are their Sketch export tools to generate code for components/symbols?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#is-there-a-way-to-coordinate-between-swiftui-draggesture-with-their-uikit-counterparts-in-the-uigesturerecognizerdelegate-like-shouldbegin-or-shouldrequirefailure" class="md-nav__link">
-    Is there a way to coordinate between SwiftUI DragGesture with their UIKit counterparts in the UIGestureRecognizerDelegate like shouldBegin or shouldRequireFailure?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#about-swiftuis-layout-when-creating-a-custom-layout-is-it-ok-to-use-another-layout-within-the-func-like-sizethatfits-or-placesubviews-including-the-built-in-layout-like-hstack-more-specifically-is-it-possible-to-compose-some-hstack-and-vstack-within-my-custom-layout-in-that-case-i-have-to-create-a-layoutsubview-by-myself-is-it-possible" class="md-nav__link">
-    About SwiftUI’s Layout: When creating a custom Layout, is it OK to use another Layout within the func like sizeThatFits or placeSubviews, including the built-in Layout (like HStack)?  More specifically, is it possible to compose some HStack and VStack within my custom Layout? In that case I have to create a LayoutSubview by myself, is it possible?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#hi-there-whats-the-recommended-way-to-repeatedly-fetch-data-in-a-swiftui-app-so-that-we-dont-push-updates-from-a-different-thread" class="md-nav__link">
-    Hi there! What's the recommended way to repeatedly fetch data in a SwiftUI app, (so that we don't push updates from a different thread)?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#would-you-use-swiftui-or-uikit-to-implement-a-list-that-can-change-layout-between-a-table-and-grid-layouts-i-currently-have-a-uicollectionview-with-different-layouts-but-i-cant-animate-between-the-layout-change" class="md-nav__link">
-    Would you use SwiftUI or UIKit to implement a list that can change layout between a table and grid layouts? I currently have a UICollectionView with different layouts but I can't animate between the layout change.
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#assume-that-i-keep-the-whole-app-state-in-the-state-object-in-my-app-struct-this-way-i-can-make-sure-that-all-the-views-are-in-a-consistent-state-and-have-a-single-source-of-truth-how-can-i-tune-performance-because-in-this-case-swiftui-starts-diffing-the-whole-app-view-hierarchy-on-every-single-change-of-the-app-state" class="md-nav__link">
-    Assume that I keep the whole app state in the state object in my app struct? This way I can make sure that all the views are in a consistent state and have a single source of truth. How can I tune performance because in this case, SwiftUI starts diffing the whole app view hierarchy on every single change of the app state?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-is-correct-way-to-specify-file-type-that-allowed-for-dragdrop-from-finder-i-mean-if-i-use-uttypefileurl-it-allows-to-drop-any-type-of-files-but-if-i-specify-uttypeimage-that-not-allow-drop-at-all-what-is-correct-approach-if-i-want-allow-drop-only-images-from-finder" class="md-nav__link">
-    What is correct way to specify file type that allowed for Drag&amp;Drop from Finder. I mean if I use UTType.fileURL it allows to Drop any type of files, but if I specify UTType.image that not allow Drop at all. What is correct approach if I want allow Drop only images from Finder?
   </a>
   
 </li>
@@ -3096,32 +2956,39 @@ Got it, thanks! </p>
 <h4 id="assuming-i-am-not-doing-anything-custom-or-low-level-involving-metal-are-there-any-appkit-specific-apis-to-be-aware-of-to-fully-support-promotion-displays">Assuming I am not doing anything custom or low-level involving Metal, are there any AppKit-specific APIs to be aware of to fully support ProMotion displays?</h4>
 </blockquote>
 <p>macOS 12 added these new APIs to NSScreen.</p>
-<p>```// Variable Rate Refresh
-@interface NSScreen ()</p>
-<p>/*<em> The maximum frames per second this screen supports.
-</em>/
-@property (readonly) NSInteger maximumFramesPerSecond API_AVAILABLE(macos(12.0));</p>
-<p>/** The minimum refresh interval this screen supports, in seconds.</p>
-<pre><code>This is the shortest amount of time a frame will be present on screen.
-minimumRefreshInterval and maximumRefreshInterval will be the same for displays that do not support variable refresh rates.
+<pre><code class="language-objective-c">// Variable Rate Refresh
+@interface NSScreen ()
+
+/** The maximum frames per second this screen supports.
+*/
+@property (readonly) NSInteger maximumFramesPerSecond API_AVAILABLE(macos(12.0));
+
+/** The minimum refresh interval this screen supports, in seconds.
+
+    This is the shortest amount of time a frame will be present on screen.
+    minimumRefreshInterval and maximumRefreshInterval will be the same for displays that do not support variable refresh rates.
+*/
+@property (readonly) NSTimeInterval minimumRefreshInterval API_AVAILABLE(macos(12.0));
+
+/** The maximum refresh interval this screen supports, in seconds.
+
+    minimumRefreshInterval and maximumRefreshInterval will be the same for displays that do not support variable refresh rates.
+*/
+@property (readonly) NSTimeInterval maximumRefreshInterval API_AVAILABLE(macos(12.0));
+
+/** The update granularity of the screen's current mode, in seconds.
+
+    The display will update at the next boundary defined by the granularity, after the minimum refresh interval has been reached. When 0, the display can update at any time between the minimum and maximum refresh rate intervals of the screen. Fixed refresh rate screen modes will return the refresh interval as the update granularity (e.g. 16.66ms for 60Hz refresh rates), meaning updates only occur at refresh rate boundaries.
+*/
+@property (readonly) NSTimeInterval displayUpdateGranularity API_AVAILABLE(macos(12.0));
+
+/** The time at which the last framebuffer update occurred on the display, in seconds since startup that the system has been awake.
+*/
+@property (readonly) NSTimeInterval lastDisplayUpdateTimestamp API_AVAILABLE(macos(12.0));
+
+@end
 </code></pre>
-<p>*/
-@property (readonly) NSTimeInterval minimumRefreshInterval API_AVAILABLE(macos(12.0));</p>
-<p>/** The maximum refresh interval this screen supports, in seconds.</p>
-<pre><code>minimumRefreshInterval and maximumRefreshInterval will be the same for displays that do not support variable refresh rates.
-</code></pre>
-<p>*/
-@property (readonly) NSTimeInterval maximumRefreshInterval API_AVAILABLE(macos(12.0));</p>
-<p>/** The update granularity of the screen's current mode, in seconds.</p>
-<pre><code>The display will update at the next boundary defined by the granularity, after the minimum refresh interval has been reached. When 0, the display can update at any time between the minimum and maximum refresh rate intervals of the screen. Fixed refresh rate screen modes will return the refresh interval as the update granularity (e.g. 16.66ms for 60Hz refresh rates), meaning updates only occur at refresh rate boundaries.
-</code></pre>
-<p>*/
-@property (readonly) NSTimeInterval displayUpdateGranularity API_AVAILABLE(macos(12.0));</p>
-<p>/*<em> The time at which the last framebuffer update occurred on the display, in seconds since startup that the system has been awake.
-</em>/
-@property (readonly) NSTimeInterval lastDisplayUpdateTimestamp API_AVAILABLE(macos(12.0));</p>
-<p>@end<code>`</code> 
-If you are managing your own refresh timer, these can be helpful. 
+<p>If you are managing your own refresh timer, these can be helpful. 
 But if you’re just doing normal AppKit stuff, you don’t need to take any action. NSAnimation functionality, for example, will “do the right thing.” </p>
 <hr />
 <blockquote>
@@ -3298,16 +3165,23 @@ Yes, we have labs on Thursday and Friday. Make sure to sign up! </p>
 <h4 id="whats-the-simplest-way-to-edit-the-airdropped-files-thumbnail-and-filename-for-the-ios-sharesheet-is-there-an-updated-or-modern-best-practice-version-of-the-sample-code-httpsdeveloperapplecomlibraryarchivesamplecodesc2273introductionintrohtmlapple_refdocuiddts40013842httpsdeveloperapplecomlibraryarchivesamplecodesc2273introductionintrohtmlapple_refdocuiddts40013842">What's the simplest way to edit the AirDropped file's thumbnail and filename for the iOS sharesheet?  Is there an updated or modern best practice version of the sample code: <a href="https://developer.apple.com/library/archive/samplecode/sc2273/Introduction/Intro.html#//apple_ref/doc/uid/DTS40013842|https://developer.apple.com/library/archive/samplecode/sc2273/Introduction/Intro.html#//apple_ref/doc/uid/DTS40013842">https://developer.apple.com/library/archive/samplecode/sc2273/Introduction/Intro.html#//apple_ref/doc/uid/DTS40013842|https://developer.apple.com/library/archive/samplecode/sc2273/Introduction/Intro.html#//apple_ref/doc/uid/DTS40013842</a></h4>
 </blockquote>
 <p>Provide a <code>LPLinkMetadata</code> object to the activity view controller. The easiest way to do this is using a <code>UIActivityItemsConfiguration</code> object.</p>
-<p>```let sharedItem = NSItemProvider(contentsOf: url)</p>
-<p>let aic = UIActivityItemsConfiguration(itemProviders: [sharedItem])</p>
-<p>let previewImage = UIImage(...)
-let previewImageProvider = NSItemProvider(object: previewImage)</p>
-<p>let lm = LPLinkMetadata()
+<pre><code class="language-swift">let sharedItem = NSItemProvider(contentsOf: url)
+
+let aic = UIActivityItemsConfiguration(itemProviders: [sharedItem])
+
+let previewImage = UIImage(...)
+let previewImageProvider = NSItemProvider(object: previewImage)
+
+let lm = LPLinkMetadata()
 lm.URL = url
-lm.imageProvider = previewImageProvider</p>
-<p>aic.linkMetadata = lm</p>
-<p>let avc = UIActivityViewController(activityItemsConfiguration: aic)</p>
-<p>// present avc<code>`</code> </p>
+lm.imageProvider = previewImageProvider
+
+aic.linkMetadata = lm
+
+let avc = UIActivityViewController(activityItemsConfiguration: aic)
+
+// present avc
+</code></pre>
 <hr />
 <blockquote>
 <h4 id="hi-how-can-i-change-some-properties-of-nswindow-such-as-the-titlebar-color-when-using-catalyst">Hi, how can I change some properties of NSWindow (such as the titlebar color) when using Catalyst?</h4>
@@ -3588,57 +3462,60 @@ I realize that I’m perhaps monopolizing your time/attention. Please feel free 
 <p>Do you have any thoughts on the best way to communicate the <code>NSXPCConnection</code> from the configuration back up to the extension class? I’m envisioning needing to use the <code>remoteObject</code> and <code>exportedObject</code> from extensions for bidirectional communication with the host app. 
 WRT configuring XPC connections:</p>
 <p>We recommend that the app that defines the extension point provided a framework to extension developers. This framework should specialize the ExtensionKit protocols. This is a quick example of something such a framework might implement </p>
-<p>```struct ExampleConfiguration&lt;E:ExampleExtension&gt;: AppExtensionConfiguration {</p>
-<pre><code>let exportedObject: ExportedObject
+<pre><code class="language-swift">struct ExampleConfiguration&amp;lt;E:ExampleExtension&amp;gt;: AppExtensionConfiguration {
 
-init(_ appExtension: E) {
-    self.exportedObject = ExportedObject(appExtension)
-}
-
-/// Determine whether to accept the XPC connection from the host.
-func accept(connection: NSXPCConnection) -&amp;gt; Bool {
-
-    connection.exportedInterface = NSXPCInterface(with: TextTransformerXPCProtocol.self)
-    connection.exportedObject = exportedObject
-    connection.resume()
-
-    return true
-}
-
-class ExportedObject: NSObject, TextTransformerXPCProtocol {
-    let appExtension: E
+    let exportedObject: ExportedObject
 
     init(_ appExtension: E) {
-        self.appExtension = appExtension
+        self.exportedObject = ExportedObject(appExtension)
     }
 
-    func transform(text: String, reply: (String) -&amp;gt; Void) {
-        let transformedText = appExtension.transform(text: text)
-        reply(transformedText)
+    /// Determine whether to accept the XPC connection from the host.
+    func accept(connection: NSXPCConnection) -&amp;gt; Bool {
+
+        connection.exportedInterface = NSXPCInterface(with: TextTransformerXPCProtocol.self)
+        connection.exportedObject = exportedObject
+        connection.resume()
+
+        return true
+    }
+
+    class ExportedObject: NSObject, TextTransformerXPCProtocol {
+        let appExtension: E
+
+        init(_ appExtension: E) {
+            self.appExtension = appExtension
+        }
+
+        func transform(text: String, reply: (String) -&amp;gt; Void) {
+            let transformedText = appExtension.transform(text: text)
+            reply(transformedText)
+        }
     }
 }
-</code></pre>
-<p>}</p>
-<p>/// The AppExtension protocol to which this extension will conform.
+
+/// The AppExtension protocol to which this extension will conform.
 /// This is typically defined by the extension host in a framework.
 protocol ExampleExtension : AppExtension {
-    func transform(text: String) -&gt; String
-}</p>
-<p>extension ExampleExtension {
-    var configuration: ExampleConfiguration&lt;some ExampleExtension&gt; {
+    func transform(text: String) -&amp;gt; String
+}
+
+extension ExampleExtension {
+    var configuration: ExampleConfiguration&amp;lt;some ExampleExtension&amp;gt; {
         // Return your extension's configuration upon request.
         return ExampleConfiguration(self)
     }
 }
-<code>`</code> 
-An extension implementation would look like this:</p>
-<p>```@main
-final class ExampleAppExtension: ExampleExtension {</p>
-<pre><code>func transform(text: String) -&amp;gt; String {
-    return text.uppercased()
+</code></pre>
+<p>An extension implementation would look like this:</p>
+<pre><code class="language-swift">@main
+final class ExampleAppExtension: ExampleExtension {
+
+    func transform(text: String) -&amp;gt; String {
+        return text.uppercased()
+    }
 }
 </code></pre>
-<p>}<code>`</code></p>
 <p>ok this makes total sense, and is really helpful. Thank you very much! 
 Is there any way that I could accept-list locally-bundled extensions within the host app? Or, would those always need explicit user approval as well? 
 Oh, and I assume <code>EXAppExtensionBrowserViewController</code> is the only way to approve extensions? 
@@ -3921,8 +3798,10 @@ Thanks for clarifying--the message next to that plus button says "only certain p
 <p>There is not a way to do this at the moment. Thanks for filing (and referencing) the feedback, we will route it to the appropriate component! </p>
 <hr />
 <blockquote>
-<h4 id="weve-experiencing-a-watchdog-termination-in-the-background-due-to-a-function-inside-uikit-sleeping-please-see-the-following-backtrace-thread-0-crashed-0-libsystem_kerneldylib-0x00000002065bba2c-__semwait_signal-8-1-libsystem_cdylib-0x00000001d9c700e4-nanosleep-220-nanosleepc104-2-libsystem_cdylib-0x00000001d9c70e14-usleep-68-usleepc52-3-quartzcore-0x00000001d292bc84-cabackingstorecollectblocking-264-x-misccpp186-4-uikitcore-0x00000001d1184778-__35-uiwindowscene-_prepareforsuspend_block_invoke-60-uiwindowscenem1273-5-uikitcore-0x00000001d1243b90-_uicontextbinder-purgecontextswithpurgeactionafterpurgeaction-472-_uicontextbinderm221-6-uikitcore-0x00000001d12874ec-uiwindowscene-_prepareforsuspend-88-uiwindowscenem1271-7-uikitcore-0x00000001d1ec935c-__130-uiapplication-_updatestaterestorationarchiveforbackgroundeventsavestateexitifcouldnotrestorestateupdatesnapshotwindowscene_block_invoke_2-228-uiapplicationm11237-8-uikitcore-0x00000001d128e4dc-_uiaftercacommitblock-run-72-_uiaftercacommitqueuem137-9-uikitcore-0x00000001d11a1864-_uiaftercacommitqueue-flush-192-_uiaftercacommitqueuem228-10-libdispatchdylib-0x00000001ce7eae6c-_dispatch_call_block_and_release-32-initc1517-11-libdispatchdylib-0x00000001ce7eca30-_dispatch_client_callout-20-objectm560-12-libdispatchdylib-0x00000001ce7faf48-_dispatch_main_queue_drain-928-inline_internalh2622-13-libdispatchdylib-0x00000001ce7fab98-_dispatch_main_queue_callback_4cf-44-queuec7770-14-corefoundation-0x00000001ceb3d800-__cfrunloop_is_servicing_the_main_dispatch_queue__-16-cfrunloopc1795-15-corefoundation-0x00000001ceaf7704-__cfrunlooprun-2532-cfrunloopc3144-16-corefoundation-0x00000001ceb0abc8-cfrunlooprunspecific-600-cfrunloopc3268-17-graphicsservices-0x00000001eac3e374-gseventrunmodal-164-gseventc2200-18-uikitcore-0x00000001d147a648-uiapplication-_run-1100-uiapplicationm3511-19-uikitcore-0x00000001d11fbd90-uiapplicationmain-364-uiapplicationm5064-20-redacted-0x0000000104e87460-main-112-mainm27-21-dyld-0x00000001055e5ce4-start-520-dyldmaincpp879">We've experiencing a watchdog termination in the background due to a function inside UIKit sleeping. Please see the following backtrace:  <code>Thread 0 Crashed: 0   libsystem_kernel.dylib          0x00000002065bba2c __semwait_signal + 8 1   libsystem_c.dylib               0x00000001d9c700e4 nanosleep + 220 (nanosleep.c:104) 2   libsystem_c.dylib              0x00000001d9c70e14 usleep + 68 (usleep.c:52) 3   QuartzCore                     0x00000001d292bc84 CABackingStoreCollectBlocking + 264 (x-misc.cpp:186) 4   UIKitCore                       0x00000001d1184778 __35-[UIWindowScene _prepareForSuspend]_block_invoke + 60 (UIWindowScene.m:1273) 5   UIKitCore                       0x00000001d1243b90 -[_UIContextBinder purgeContextsWithPurgeAction:afterPurgeAction:] + 472 (_UIContextBinder.m:221) 6   UIKitCore                      0x00000001d12874ec -[UIWindowScene _prepareForSuspend] + 88 (UIWindowScene.m:1271) 7   UIKitCore                        0x00000001d1ec935c __130-[UIApplication _updateStateRestorationArchiveForBackgroundEvent:saveState:exitIfCouldNotRestoreState:updateSnapshot:windowScene:]_block_invoke_2 + 228 (UIApplication.m:11237) 8   UIKitCore                       0x00000001d128e4dc -[_UIAfterCACommitBlock run] + 72 (_UIAfterCACommitQueue.m:137) 9   UIKitCore                        0x00000001d11a1864 -[_UIAfterCACommitQueue flush] + 192 (_UIAfterCACommitQueue.m:228) 10  libdispatch.dylib                 0x00000001ce7eae6c _dispatch_call_block_and_release + 32 (init.c:1517) 11  libdispatch.dylib                0x00000001ce7eca30 _dispatch_client_callout + 20 (object.m:560) 12  libdispatch.dylib               0x00000001ce7faf48 _dispatch_main_queue_drain + 928 (inline_internal.h:2622) 13  libdispatch.dylib              0x00000001ce7fab98 _dispatch_main_queue_callback_4CF + 44 (queue.c:7770) 14  CoreFoundation                 0x00000001ceb3d800 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__ + 16 (CFRunLoop.c:1795) 15  CoreFoundation                    0x00000001ceaf7704 __CFRunLoopRun + 2532 (CFRunLoop.c:3144) 16  CoreFoundation                  0x00000001ceb0abc8 CFRunLoopRunSpecific + 600 (CFRunLoop.c:3268) 17  GraphicsServices               0x00000001eac3e374 GSEventRunModal + 164 (GSEvent.c:2200) 18  UIKitCore                         0x00000001d147a648 -[UIApplication _run] + 1100 (UIApplication.m:3511) 19  UIKitCore                        0x00000001d11fbd90 UIApplicationMain + 364 (UIApplication.m:5064) 20  [REDACTED]                    0x0000000104e87460 main + 112 (main.m:27) 21  dyld                              0x00000001055e5ce4 start + 520 (dyldMain.cpp:879)</code></h4>
+<h4 id="weve-experiencing-a-watchdog-termination-in-the-background-due-to-a-function-inside-uikit-sleeping-please-see-the-following-backtrace">We've experiencing a watchdog termination in the background due to a function inside UIKit sleeping. Please see the following backtrace:</h4>
 </blockquote>
+<pre><code>Thread 0 Crashed: 0   libsystem_kernel.dylib            0x00000002065bba2c __semwait_signal + 8 1   libsystem_c.dylib               0x00000001d9c700e4 nanosleep + 220 (nanosleep.c:104) 2   libsystem_c.dylib              0x00000001d9c70e14 usleep + 68 (usleep.c:52) 3   QuartzCore                     0x00000001d292bc84 CABackingStoreCollectBlocking + 264 (x-misc.cpp:186) 4   UIKitCore                       0x00000001d1184778 __35-[UIWindowScene _prepareForSuspend]_block_invoke + 60 (UIWindowScene.m:1273) 5   UIKitCore                       0x00000001d1243b90 -[_UIContextBinder purgeContextsWithPurgeAction:afterPurgeAction:] + 472 (_UIContextBinder.m:221) 6   UIKitCore                      0x00000001d12874ec -[UIWindowScene _prepareForSuspend] + 88 (UIWindowScene.m:1271) 7   UIKitCore                        0x00000001d1ec935c __130-[UIApplication _updateStateRestorationArchiveForBackgroundEvent:saveState:exitIfCouldNotRestoreState:updateSnapshot:windowScene:]_block_invoke_2 + 228 (UIApplication.m:11237) 8   UIKitCore                       0x00000001d128e4dc -[_UIAfterCACommitBlock run] + 72 (_UIAfterCACommitQueue.m:137) 9   UIKitCore                        0x00000001d11a1864 -[_UIAfterCACommitQueue flush] + 192 (_UIAfterCACommitQueue.m:228) 10  libdispatch.dylib                 0x00000001ce7eae6c _dispatch_call_block_and_release + 32 (init.c:1517) 11  libdispatch.dylib                0x00000001ce7eca30 _dispatch_client_callout + 20 (object.m:560) 12  libdispatch.dylib               0x00000001ce7faf48 _dispatch_main_queue_drain + 928 (inline_internal.h:2622) 13  libdispatch.dylib              0x00000001ce7fab98 _dispatch_main_queue_callback_4CF + 44 (queue.c:7770) 14  CoreFoundation                 0x00000001ceb3d800 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__ + 16 (CFRunLoop.c:1795) 15  CoreFoundation                    0x00000001ceaf7704 __CFRunLoopRun + 2532 (CFRunLoop.c:3144) 16  CoreFoundation                  0x00000001ceb0abc8 CFRunLoopRunSpecific + 600 (CFRunLoop.c:3268) 17  GraphicsServices               0x00000001eac3e374 GSEventRunModal + 164 (GSEvent.c:2200) 18  UIKitCore                         0x00000001d147a648 -[UIApplication _run] + 1100 (UIApplication.m:3511) 19  UIKitCore                        0x00000001d11fbd90 UIApplicationMain + 364 (UIApplication.m:5064) 20  [REDACTED]                    0x0000000104e87460 main + 112 (main.m:27) 21  dyld                              0x00000001055e5ce4 start + 520 (dyldMain.cpp:879) 
+</code></pre>
 <p>Hi there! This looks like a potentially issue in CoreAnimation. If you haven't already, can you file a feedback with the entire crash log? 
 Sure thing. Thanks! :slightly_smiling_face: 
 Thank you! 
@@ -4006,143 +3885,155 @@ aha  it’s just like below?</p>
 let cell = UICollectionView.cellForItem(at:...)
 cell.image.height = xxx</p>
 <p>// Call performBatchUpdates
-collectionView.performBatchUpdates { &lt;empty&gt; }<code>`</code> 
+collectionView.performBatchUpdates { &lt;empty&gt; }</p>
+<pre><code>
 yep! That should work! Definitely encourage you to try it out. 
 Ok thanks a lot for the great tips let me give a try :slightly_smiling_face: 
 Just curious to know, does this issue can be solved if we adapt SwiftUI from iOS 14.0? 
 Also, an alternative approach to all of this would be–if you had control over the server–for the server to tell you what the size of the image is before-hand. If that’s not possible, you could also try reading the first few bytes of the image data to get the size. 
 unfortunately that would be hard to get the sizes from the server since we don’t control the data instead merchants does in our platform, but anyways we could give a try with suggested approach first and see 
 Fair. Feel free to file a feedback if you run into issues, perhaps even try to get a lab appointment. 
-Yes i got one for tomorrow but will give a shot on this, thanks </p>
-<hr />
-<blockquote>
-<h4 id="hello-how-can-i-get-started-with-uikit-i-currently-know-swiftui-only-which-in-my-opinion-is-amazing-btw-but-id-like-to-learn-a-little-bit-of-uikit-too-because-i-might-use-it-in-some-cases-too-in-the-future">Hello! How can I get started with UIKit? I currently know SwiftUI only (which, in my opinion, is amazing btw!), but I'd like to learn a little bit of UIKit too, because I might use it in some cases too in the future.</h4>
-</blockquote>
-<p>Thanks for asking this question. It’s always good to know both frameworks so you can leverage the power of both and choose whatever is best for the problem you are solving. There are great, brand new documentations this year for both SwiftUI and UIKit. You can find a guide to get started here: <a href="https://developer.apple.com/tutorials/app-dev-training#uikit-essentials">https://developer.apple.com/tutorials/app-dev-training#uikit-essentials</a> 
+Yes i got one for tomorrow but will give a shot on this, thanks 
+
+--- 
+&gt; ####  Hello! How can I get started with UIKit? I currently know SwiftUI only (which, in my opinion, is amazing btw!), but I'd like to learn a little bit of UIKit too, because I might use it in some cases too in the future.
+
+Thanks for asking this question. It’s always good to know both frameworks so you can leverage the power of both and choose whatever is best for the problem you are solving. There are great, brand new documentations this year for both SwiftUI and UIKit. You can find a guide to get started here: &lt;https://developer.apple.com/tutorials/app-dev-training#uikit-essentials&gt; 
 Thank you very much! 
 Really appreciate it. 
-We also have a new sample app this year that we are using for the Desktop Class App talks, which is a very feature rich app that I would recommend checking out here: <a href="https://developer.apple.com/documentation/uikit/app_and_environment/building_a_desktop-class_ipad_app">https://developer.apple.com/documentation/uikit/app_and_environment/building_a_desktop-class_ipad_app</a> 
+We also have a new sample app this year that we are using for the Desktop Class App talks, which is a very feature rich app that I would recommend checking out here: &lt;https://developer.apple.com/documentation/uikit/app_and_environment/building_a_desktop-class_ipad_app&gt; 
 Thank you! 
 Aside from that there are also tons of other resources on the internet that have a very high quality, so I’d also suggest looking around a bit there and see what people recommend. 
-I must say that the tutorials are amazing. I followed some of them to learn Swift and SwiftUI. Thank you for this great tutorials and documentation! </p>
-<hr />
-<blockquote>
-<h4 id="using-sharelink-in-swiftui-and-transferable-we-will-now-be-able-to-share-custom-types-between-users-how-does-this-compare-to-sharing-core-data-entities-using-a-shared-cloudkit-database-as-i-understand-the-main-difference-is-that-sharing-using-transferable-copies-the-item-from-user-a-and-pastes-it-for-user-b-so-in-the-end-there-will-be-2-instances-of-this-item-with-no-synchronization-any-subsequent-changes-to-any-of-the-items-will-remain-local-for-that-user-in-contrast-sharing-using-shared-cloudkit-database-means-a-single-entity-will-be-synchronized-for-both-users-am-i-on-the-right-track-are-there-some-other-key-differences-to-be-aware-of">Using ShareLink in SwiftUI and Transferable, we will now be able to share custom types between users. How does this compare to sharing Core Data entities using a .shared CloudKit database? As I understand, the main difference is that sharing using Transferable copies the item from User A and pastes it for User B, so in the end there will be 2 instances of this item, with no synchronization. Any subsequent changes to any of the items will remain local for that user. In contrast, sharing using .shared CloudKit database means a single entity will be synchronized for both users. Am I on the right track? Are there some other key differences to be aware of?</h4>
-</blockquote>
-<p>Hi Jan! 
-&gt; How does this compare to sharing Core Data entities using a .shared CloudKit database?
-There is a difference: <code>ShareLink</code> is used for sharing here and now, not for persistent storage. Core Data is a database–and its intended use is for storing items on the disk.</p>
-<p>&gt; As I understand, the main difference is that sharing using Transferable copies the item from User A and pastes it for User B
-It depends on which transport APIs we are using. For example, Drag and Drop allows sharing items within a single process or between different processes. Copy/paste works similarly.</p>
-<p>If we are using <code>FileRepresentation</code>, we can specify the <code>allowAccessingOriginalFile</code> parameter for <code>SentTransferredFiles</code> and tell the system if should make the copy, or not.</p>
-<p><code>Transferable</code> doesn’t provide any synchronization, just passes around data. 
+I must say that the tutorials are amazing. I followed some of them to learn Swift and SwiftUI. Thank you for this great tutorials and documentation! 
+
+--- 
+&gt; ####  Using ShareLink in SwiftUI and Transferable, we will now be able to share custom types between users. How does this compare to sharing Core Data entities using a .shared CloudKit database? As I understand, the main difference is that sharing using Transferable copies the item from User A and pastes it for User B, so in the end there will be 2 instances of this item, with no synchronization. Any subsequent changes to any of the items will remain local for that user. In contrast, sharing using .shared CloudKit database means a single entity will be synchronized for both users. Am I on the right track? Are there some other key differences to be aware of?
+
+Hi Jan! 
+&amp;gt; How does this compare to sharing Core Data entities using a .shared CloudKit database?
+There is a difference: `ShareLink` is used for sharing here and now, not for persistent storage. Core Data is a database–and its intended use is for storing items on the disk.
+
+&amp;gt; As I understand, the main difference is that sharing using Transferable copies the item from User A and pastes it for User B
+It depends on which transport APIs we are using. For example, Drag and Drop allows sharing items within a single process or between different processes. Copy/paste works similarly.
+
+If we are using `FileRepresentation`, we can specify the `allowAccessingOriginalFile` parameter for `SentTransferredFiles` and tell the system if should make the copy, or not.
+
+`Transferable` doesn’t provide any synchronization, just passes around data. 
 Thank you &lt;@U03HW7P2WTB&gt;! So in a use case where we are sharing persistent data between users of the same app (for example, a recipe created by the user in a recipe app), is using ShareLink discouraged in favour of sharing using Core Data + CloudKit? 
-I wouldn’t say <em>discouraged</em>, it just has different purpose. <code>ShareLink</code> allows to present the share sheet or another system sharing interface, so users could send over the recipes to their friends in Messages, or pasted into Notes, etc. Does this make sense? 
-Yes I think so - in this case, the recipe would have to be converted to something Messages/Notes can understand, like String or Image. Right? </p>
-<hr />
-<blockquote>
-<h4 id="good-morning-thank-you-for-a-wonderful-wwdc-i-was-trying-to-play-around-with-the-new-photopicker-im-able-to-initiate-the-picker-but-im-not-quite-sure-how-to-assign-the-selected-photo-to-an-image-in-my-swiftui-view-would-you-please-provide-a-code-sample-i-was-trying-to-look-into-the-documentation-but-i-couldnt-find-anything-that-would-resolve-my-problem">Good morning! Thank you for a wonderful WWDC! I was trying to play around with the new PhotoPicker. I’m able to initiate the picker but I’m not quite sure how to assign the selected photo to an image in my SwiftUI view. Would you please provide a code sample? I was trying to look into the documentation but I couldn’t find anything that would resolve my problem.</h4>
-</blockquote>
-<p>Good morning Euguene.</p>
-<p>We're glad you enjoyed WWDC!</p>
-<p>Did you try out the code snippets from the What's new talk? That has an example covering that. 
-Yup. Also didn't work on my machine<br />
-The PhotoPicker won't dismiss itself. And also I'm not sure where/how to grab that image<br />
-It's a bug. Check my thread here for a fix. <a href="https://twitter.com/xmcgraw/status/1534557535495147520?s=21&amp;t=wihRQOSc4PXqFcu1fWt-dQ|https://twitter.com/xmcgraw/status/1534557535495147520?s=21&amp;t=wihRQOSc4PXqFcu1fWt-dQ">https://twitter.com/xmcgraw/status/1534557535495147520?s=21&amp;t=wihRQOSc4PXqFcu1fWt-dQ|https://twitter.com/xmcgraw/status/1534557535495147520?s=21&amp;t=wihRQOSc4PXqFcu1fWt-dQ</a> 
-You can access the Data of the image (Transferable). </p>
-<hr />
-<blockquote>
-<h4 id="having-implemented-several-swiftui-apps-i-still-consider-its-constraints-concerning-custom-designs-a-challenge-to-communicate-to-designers-apart-from-hig-or-trying-out-do-you-know-any-resourcestooling-which-helps-to-implement-good-design-like-are-their-sketch-export-tools-to-generate-code-for-componentssymbols">Having implemented several SwiftUI apps, I still consider its constraints concerning custom designs a challenge to communicate to designers. Apart from HIG or trying out, do you know any resources/tooling which helps to implement good design? Like are their Sketch export tools to generate code for components/symbols?</h4>
-</blockquote>
-<p>I know there are Figma (and potentially Sketch) plugins for generating SwiftUI code from designs, however I haven't personally used them so I can't vouch for how well they work 
-Apple also provides design tool plugins, which make it easier for designers to create mock ups that use stock system components and styles:</p>
-<p><a href="https://developer.apple.com/design/resources/">https://developer.apple.com/design/resources/</a> 
-Of course, nothing is going to be as high fidelity as the designer jumping into SwiftUI directly.</p>
-<p>Many designers have found SwiftUI to be surprisingly approachable and there are a number of SwiftUI resources available on the internet targeted at teaching designers to code SwiftUI views. 
+I wouldn’t say *discouraged*, it just has different purpose. `ShareLink` allows to present the share sheet or another system sharing interface, so users could send over the recipes to their friends in Messages, or pasted into Notes, etc. Does this make sense? 
+Yes I think so - in this case, the recipe would have to be converted to something Messages/Notes can understand, like String or Image. Right? 
+
+--- 
+&gt; ####  Good morning! Thank you for a wonderful WWDC! I was trying to play around with the new PhotoPicker. I’m able to initiate the picker but I’m not quite sure how to assign the selected photo to an image in my SwiftUI view. Would you please provide a code sample? I was trying to look into the documentation but I couldn’t find anything that would resolve my problem. 
+
+Good morning Euguene.
+
+We're glad you enjoyed WWDC!
+
+Did you try out the code snippets from the What's new talk? That has an example covering that. 
+Yup. Also didn't work on my machine  
+The PhotoPicker won't dismiss itself. And also I'm not sure where/how to grab that image  
+It's a bug. Check my thread here for a fix. &lt;https://twitter.com/xmcgraw/status/1534557535495147520?s=21&amp;amp;t=wihRQOSc4PXqFcu1fWt-dQ|https://twitter.com/xmcgraw/status/1534557535495147520?s=21&amp;amp;t=wihRQOSc4PXqFcu1fWt-dQ&gt; 
+You can access the Data of the image (Transferable). 
+
+--- 
+&gt; ####  Having implemented several SwiftUI apps, I still consider its constraints concerning custom designs a challenge to communicate to designers. Apart from HIG or trying out, do you know any resources/tooling which helps to implement good design? Like are their Sketch export tools to generate code for components/symbols?
+
+I know there are Figma (and potentially Sketch) plugins for generating SwiftUI code from designs, however I haven't personally used them so I can't vouch for how well they work 
+Apple also provides design tool plugins, which make it easier for designers to create mock ups that use stock system components and styles:
+
+&lt;https://developer.apple.com/design/resources/&gt; 
+Of course, nothing is going to be as high fidelity as the designer jumping into SwiftUI directly.
+
+Many designers have found SwiftUI to be surprisingly approachable and there are a number of SwiftUI resources available on the internet targeted at teaching designers to code SwiftUI views. 
 Yeah, stock components are well supported and I know it’s in Apples interest to push in that direction (which I like), but reality bites more often with custom tweaks and they are sometimes really hard to solve… 
-I wish PaintCode would be updated to export to SwiftUI… </p>
-<hr />
-<blockquote>
-<h4 id="is-there-a-way-to-coordinate-between-swiftui-draggesture-with-their-uikit-counterparts-in-the-uigesturerecognizerdelegate-like-shouldbegin-or-shouldrequirefailure">Is there a way to coordinate between SwiftUI DragGesture with their UIKit counterparts in the UIGestureRecognizerDelegate like <code>shouldBegin</code> or <code>shouldRequireFailure</code>?</h4>
-</blockquote>
-<p>Sorry, no, there's no interop between SwiftUI gestures and UIKit gestures. 
-How about multiple SwiftUI DragGestures? &lt;@U03HHJNTFM0&gt;<br />
+I wish PaintCode would be updated to export to SwiftUI… 
+
+--- 
+&gt; ####  Is there a way to coordinate between SwiftUI DragGesture with their UIKit counterparts in the UIGestureRecognizerDelegate like `shouldBegin` or `shouldRequireFailure`?
+
+Sorry, no, there's no interop between SwiftUI gestures and UIKit gestures. 
+How about multiple SwiftUI DragGestures? &lt;@U03HHJNTFM0&gt;  
 You can ensure exclusivity with this:
-<a href="https://developer.apple.com/documentation/swiftui/gesture/exclusively(before:)">https://developer.apple.com/documentation/swiftui/gesture/exclusively(before:)</a> 
+&lt;https://developer.apple.com/documentation/swiftui/gesture/exclusively(before:)&gt; 
 Does it work if there are two DragGestures applying to different views? 
 No, the exclusivity is only for a single gesture application. 
 Then my question would be how to coordinate them
 They seem to conflict each other, and optionally I want to disable one over another 
 It's not supported. Please file a feedback request for this. 
-Will do, thanks &lt;@U03HHJNTFM0&gt;  &lt;@U03HELT4EG5&gt;  </p>
-<hr />
-<blockquote>
-<h4 id="about-swiftuis-layout-when-creating-a-custom-layout-is-it-ok-to-use-another-layout-within-the-func-like-sizethatfits-or-placesubviews-including-the-built-in-layout-like-hstack-more-specifically-is-it-possible-to-compose-some-hstack-and-vstack-within-my-custom-layout-in-that-case-i-have-to-create-a-layoutsubview-by-myself-is-it-possible">About SwiftUI’s Layout: When creating a custom Layout, is it OK to use another Layout within the func like sizeThatFits or placeSubviews, including the built-in Layout (like HStack)?  More specifically, is it possible to compose some HStack and VStack within my custom Layout? In that case I have to create a LayoutSubview by myself, is it possible?</h4>
-</blockquote>
-<p>Yes this is an explicit use case the Layout protocol was designed to support 
+Will do, thanks &lt;@U03HHJNTFM0&gt;  &lt;@U03HELT4EG5&gt;  
+
+--- 
+&gt; ####  About SwiftUI’s Layout: When creating a custom Layout, is it OK to use another Layout within the func like sizeThatFits or placeSubviews, including the built-in Layout (like HStack)?  More specifically, is it possible to compose some HStack and VStack within my custom Layout? In that case I have to create a LayoutSubview by myself, is it possible?
+
+Yes this is an explicit use case the Layout protocol was designed to support 
 Yes, that should be fine, although you'll need to manage the cache(s) of any intermediate layouts you use. (E.g. store them in your own layout's cache storage, and invalidate them as needed.) 
 You can also create subsets of the subviews collection, to pass to the inner layouts. 
 … use the LayoutSubviews subscript(bounds:) operator for that. 
 Any examples of layouts inside layouts we could look at? 
 I don't think there are any available examples of that yet. 
-I’ve made one that works but doesn’t yet deal with cache completely. <a href="https://gist.github.com/ryanlintott/d03140dd155d0493a758dcd284e68eaa">https://gist.github.com/ryanlintott/d03140dd155d0493a758dcd284e68eaa</a> 
-For example, I’m implementing the (Vertical) Flow Layout. After doing some calculation and chunked the <code>subviews</code>, firstly I use those chunked subviews to make some <code>HStack</code>s, then I should embed these <code>HStack</code> into a <code>VStack</code> but I cannot convert these <code>HStack</code>s to <code>LayoutSubviews</code> that I can pass to <code>VStack</code>’s <code>subviews</code>parameter, right? </p>
-<hr />
-<blockquote>
-<h4 id="hi-there-whats-the-recommended-way-to-repeatedly-fetch-data-in-a-swiftui-app-so-that-we-dont-push-updates-from-a-different-thread">Hi there! What's the recommended way to repeatedly fetch data in a SwiftUI app, (so that we don't push updates from a different thread)?</h4>
-</blockquote>
-<p>In general, I would suggest to factor out the logic that fetches the data into its own type. You always want to execute this kind of side effect not on the main thread and the hop back onto the main thread to set the data on the model.</p>
-<p>Swift’s actors are a great tool to encapsulate this kind of logic. So for example you could the model that is offered to the view be an <code>ObservableObject</code> that is bound to the main actor, and have a separate actor (hence running on a separate thread) that takes care of the fetching and report back new data to your observable object. 
+I’ve made one that works but doesn’t yet deal with cache completely. &lt;https://gist.github.com/ryanlintott/d03140dd155d0493a758dcd284e68eaa&gt; 
+For example, I’m implementing the (Vertical) Flow Layout. After doing some calculation and chunked the `subviews`, firstly I use those chunked subviews to make some `HStack`s, then I should embed these `HStack` into a `VStack` but I cannot convert these `HStack`s to `LayoutSubviews` that I can pass to `VStack`’s `subviews`parameter, right? 
+
+--- 
+&gt; ####  Hi there! What's the recommended way to repeatedly fetch data in a SwiftUI app, (so that we don't push updates from a different thread)?
+
+In general, I would suggest to factor out the logic that fetches the data into its own type. You always want to execute this kind of side effect not on the main thread and the hop back onto the main thread to set the data on the model.
+
+Swift’s actors are a great tool to encapsulate this kind of logic. So for example you could the model that is offered to the view be an `ObservableObject` that is bound to the main actor, and have a separate actor (hence running on a separate thread) that takes care of the fetching and report back new data to your observable object. 
 do you have an example of that? 
 Thanks! In my case, I had a model that conformed to ObservableObject, but somehow I still got the warning. Will look into it though! 
 I would like to see sample code for this. Words do not describe the nuts and bolts of coding..... 
 I think conformance to ObservableObject is not the issue here. What you want is for your function to be wrapped in the Main actor, so updates to UI are pushed on the main thread: @MainActor func getData() {} 
 Yeah, I understood that the conformance to ObservableObject is not the problem, but rather the way I used to asynchronously fetch data to the model. Thanks! 
-Here’s a link about Swift Actors that i just found: <a href="https://developer.apple.com/videos/play/wwdc2021/10133/">https://developer.apple.com/videos/play/wwdc2021/10133/</a> </p>
-<hr />
-<blockquote>
-<h4 id="would-you-use-swiftui-or-uikit-to-implement-a-list-that-can-change-layout-between-a-table-and-grid-layouts-i-currently-have-a-uicollectionview-with-different-layouts-but-i-cant-animate-between-the-layout-change">Would you use SwiftUI or UIKit to implement a list that can change layout between a table and grid layouts? I currently have a UICollectionView with different layouts but I can't animate between the layout change.</h4>
-</blockquote>
-<p>~…what’s your iOS target version~ :smiling_imp: 
-As always we recommend using the tool that is best for the job. UICollectionView does support animating layout changes via <code>setLayout:animated:</code> so there is no need to rewrite this in SwiftUI. If there are specific things you want to achieve that can only be achieved in SwiftUI, then of course converting it to that is a very valid option. 
+Here’s a link about Swift Actors that i just found: &lt;https://developer.apple.com/videos/play/wwdc2021/10133/&gt; 
+
+--- 
+&gt; ####  Would you use SwiftUI or UIKit to implement a list that can change layout between a table and grid layouts? I currently have a UICollectionView with different layouts but I can't animate between the layout change.
+
+~…what’s your iOS target version~ :smiling_imp: 
+As always we recommend using the tool that is best for the job. UICollectionView does support animating layout changes via `setLayout:animated:` so there is no need to rewrite this in SwiftUI. If there are specific things you want to achieve that can only be achieved in SwiftUI, then of course converting it to that is a very valid option. 
 &lt;@U03JRNE4KJL&gt; 15 and 16 
 This also might be a good question for a 1on1 lab if you are facing specific issues with collection view animating between layouts. 
-If there is time available I'll try to grab one :sweat_smile: I forget if I was using <code>setLayout</code> before and what the crash was. I'm using compositional layout and returning a different <code>NSCollectionLayoutSection</code> based on if the layout should be a grid or list, and calling <code>`self.collectionView.collectionViewLayout.invalidateLayout()</code> , but I can try that and see if it works, or maybe there is a better way to construct multiple layouts? 
-Right, UICollectionView can’t currently animate changes to the layout stemming from an invalidation. If you require an animation, I would call <code>setCollectionViewLayout(_:animated:completion:)</code> </p>
-<hr />
-<blockquote>
-<h4 id="assume-that-i-keep-the-whole-app-state-in-the-state-object-in-my-app-struct-this-way-i-can-make-sure-that-all-the-views-are-in-a-consistent-state-and-have-a-single-source-of-truth-how-can-i-tune-performance-because-in-this-case-swiftui-starts-diffing-the-whole-app-view-hierarchy-on-every-single-change-of-the-app-state">Assume that I keep the whole app state in the state object in my app struct? This way I can make sure that all the views are in a consistent state and have a single source of truth. How can I tune performance because in this case, SwiftUI starts diffing the whole app view hierarchy on every single change of the app state?</h4>
-</blockquote>
-<p>You’re completely right that with a single observable object, you’ll end up invalidating large parts of your view hierarchy whenever a change occurs. Invalidating even large amounts of the SwiftUI view hierarchy should be an inexpensive operation, as view descriptions are rather lightweight, but if you are running into performance issues here, there are a few things you can do to help. The first recommendation I have is to split out some of the values which are only relevant to a certain subset of views into their own observable object. This is likely going to get you the most performance win of any of these suggestions, but if you don’t want to make that architectural change, there are still some things you can do:</p>
-<p>• Avoid marking non-published values of your <code>ObservableObject</code> published
-• (Assuming you’re using <code>EnvironmentObject</code> to make sure your single <code>StateObject</code> can be accessed throughout your view hierarchy) ensuring you only declare dependencies on the <code>EnvironmentObject</code> in places it’s needed
-• And if you still need to optimize further, writing a custom <code>objectWillChange</code> implementation for your <code>StateObject</code>s which only does invalidation when changes that should actually affect the UI occur (in cases, for example, where published values have multiple different representations that should display in the same manner).</p>
-<p>Thanks Sam :+1: </p>
-<hr />
-<blockquote>
-<h4 id="what-is-correct-way-to-specify-file-type-that-allowed-for-dragdrop-from-finder-i-mean-if-i-use-uttypefileurl-it-allows-to-drop-any-type-of-files-but-if-i-specify-uttypeimage-that-not-allow-drop-at-all-what-is-correct-approach-if-i-want-allow-drop-only-images-from-finder">What is correct way to specify file type that allowed for Drag&amp;Drop from Finder. I mean if I use <code>UTType.fileURL</code> it allows to Drop any type of files, but if I specify <code>UTType.image</code> that not allow Drop at all. What is correct approach if I want allow Drop only images from Finder?</h4>
-</blockquote>
-<p>Use the generic UTType.fileURL. And also override draggingEntered to inspect the exact file types on the pasteboard. Return true/false as appropriate. 
+If there is time available I'll try to grab one :sweat_smile: I forget if I was using `setLayout` before and what the crash was. I'm using compositional layout and returning a different `NSCollectionLayoutSection` based on if the layout should be a grid or list, and calling `self.collectionView.collectionViewLayout.invalidateLayout()` , but I can try that and see if it works, or maybe there is a better way to construct multiple layouts? 
+Right, UICollectionView can’t currently animate changes to the layout stemming from an invalidation. If you require an animation, I would call `setCollectionViewLayout(_:animated:completion:)` 
+
+--- 
+&gt; ####  Assume that I keep the whole app state in the state object in my app struct? This way I can make sure that all the views are in a consistent state and have a single source of truth. How can I tune performance because in this case, SwiftUI starts diffing the whole app view hierarchy on every single change of the app state?
+
+You’re completely right that with a single observable object, you’ll end up invalidating large parts of your view hierarchy whenever a change occurs. Invalidating even large amounts of the SwiftUI view hierarchy should be an inexpensive operation, as view descriptions are rather lightweight, but if you are running into performance issues here, there are a few things you can do to help. The first recommendation I have is to split out some of the values which are only relevant to a certain subset of views into their own observable object. This is likely going to get you the most performance win of any of these suggestions, but if you don’t want to make that architectural change, there are still some things you can do:
+
+• Avoid marking non-published values of your `ObservableObject` published
+• (Assuming you’re using `EnvironmentObject` to make sure your single `StateObject` can be accessed throughout your view hierarchy) ensuring you only declare dependencies on the `EnvironmentObject` in places it’s needed
+• And if you still need to optimize further, writing a custom `objectWillChange` implementation for your `StateObject`s which only does invalidation when changes that should actually affect the UI occur (in cases, for example, where published values have multiple different representations that should display in the same manner).
+
+Thanks Sam :+1: 
+
+--- 
+&gt; ####  What is correct way to specify file type that allowed for Drag&amp;amp;Drop from Finder. I mean if I use ```UTType.fileURL``` it allows to Drop any type of files, but if I specify ```UTType.image``` that not allow Drop at all. What is correct approach if I want allow Drop only images from Finder?
+
+Use the generic UTType.fileURL. And also override draggingEntered to inspect the exact file types on the pasteboard. Return true/false as appropriate. 
 Also when inspecting the pasteboard, use the options to auto filter the list for you.
+```swift
 func readObjects(
-    forClasses classArray: [<code>AnyClass</code>],
-    options: [<code>NSPasteboard</code>.<code>ReadingOptionKey</code> : Any]? = nil
-) -&gt; [Any]? 
-If I use SwiftUI</p>
-<p><code>`DropDelegate.dropEntered(info:)</code>
-<code>how I can get access to the pasteboard from DropInfo object? Or there is another approach in this case? 
-Let me chime in.</code>DropInfo<code>has a member called</code>hasItemsConforming(to:)` member, <a href="https://developer.apple.com/documentation/swiftui/dropinfo/hasitemsconforming(to:)-47irh">https://developer.apple.com/documentation/swiftui/dropinfo/hasitemsconforming(to:)-47irh</a>, which allows to check for the content types you are interested in. Does this help? 
+    forClasses classArray: [`AnyClass`],
+    options: [`NSPasteboard`.`ReadingOptionKey` : Any]? = nil
+) -&amp;gt; [Any]?
+</code></pre>
+<p>If I use SwiftUI</p>
+<p><code>DropDelegate.dropEntered(info:)</code></p>
+<p>how I can get access to the pasteboard from DropInfo object? Or there is another approach in this case? 
+Let me chime in. <code>DropInfo</code> has a member called <code>hasItemsConforming(to:)</code> member, <a href="https://developer.apple.com/documentation/swiftui/dropinfo/hasitemsconforming(to:)-47irh">https://developer.apple.com/documentation/swiftui/dropinfo/hasitemsconforming(to:)-47irh</a>, which allows to check for the content types you are interested in. Does this help? 
 I try to use it, but unfortunately, it does not help in my case. Or maybe I just do something wrong. This method only checks the dropped content type. In my case it’s</p>
-<p><code>`UTType.fileURL</code>
-<code>but it does not check is this an image or an mp4 file. 
+<p><code>UTType.fileURL</code></p>
+<p>but it does not check is this an image or an mp4 file. 
 Is it iOS or Mac? 
 macOS 
-Then the first idea on top of my head is to try to initialize</code>NSImage<code>with the URL/Data from the</code>NSItemProvider<code>and see if it succeeds. 
-If the app isn’t restricted to images from Finder only, you could register for receiving</code>NSImage.imageTypes` 
+Then the first idea on top of my head is to try to initialize <code>NSImage</code> with the URL/Data from the <code>NSItemProvider</code> and see if it succeeds. 
+If the app isn’t restricted to images from Finder only, you could register for receiving <code>NSImage.imageTypes</code> 
 Oh, great idea. I’ll try to initialize</p>
-<p><code>`NSImage from NSImageProvider</code>
-`
-Thank you Julia! </p>
+<p><code>NSImage from NSImageProvider</code></p>
+<p>Thank you Julia! </p>
 <hr />
 <blockquote>
 <h4 id="im-trying-to-mimic-the-3-view-layout-in-xcode-pages-numbers-etc-using-swiftui-sidebar-document-inspector-i-can-use-the-navigationsplitview-for-the-sidebar-and-document-but-i-cant-find-a-way-to-animate-the-inspector-in-a-right-sidebar-the-swiftui-animation-usually-animates-all-the-child-views-in-the-inspectors-view-is-there-a-way-to-do-this-in-swiftui-on-the-mac">I'm trying to mimic the 3-view layout in Xcode, Pages, Numbers, etc.  using SwiftUI.  Sidebar | Document | Inspector  I can use the NavigationSplitView for the Sidebar and Document, but I can't find a way to animate the Inspector in a right sidebar. The SwiftUI animation usually animates all the child views in the Inspector's view. Is there a way to do this in SwiftUI on the Mac?</h4>
@@ -4151,17 +4042,18 @@ Thank you Julia! </p>
 How are you trying to do the animation currently, if I may ask? 
 I’ve tried something like 
 with previous code (NavigationView is apparently deprecated)</p>
-<p><em>NavigationView {</em></p>
-<pre><code>  _SideBarView(survey: $document.survey)_
+<pre><code class="language-swift">_NavigationView {_
 
-  _HSplitView {_
-    _DetailView(document: $document)_
-      _.padding()_
+      _SideBarView(survey: $document.survey)_
 
-    _InspectorPane(survey: $document.survey)_
-      _.animation(.linear, value: uiState.showInspectorPane) // looks terrible_
-  _}_
-_}_
+      _HSplitView {_
+        _DetailView(document: $document)_
+          _.padding()_
+
+        _InspectorPane(survey: $document.survey)_
+          _.animation(.linear, value: uiState.showInspectorPane) // looks terrible_
+      _}_
+    _}_
 </code></pre>
 <p>I’ve tried moving the <em>.animation</em> inside the InspectorPane() struct, but the effect is still bad. 
 Ok, sorry you're hitting that. It would be helpful if you could include those details in the feedback. 
@@ -4250,15 +4142,19 @@ Thank you! </p>
 <p>I’ve personally done this before with a parent “container” view, an <code>enum</code> to represent the different possible views, and an <code>@State</code>  var that I use in a <code>switch</code> statement to swap out views. I have <code>@Binding</code> vars in all my child views so they can programatically change what’s shown in the parent.</p>
 <p>However, with programatic navigation in <code>NavigationStack</code> that’d probably be the preferred way to do this, check out the <a href="https://developer.apple.com/videos/play/wwdc2022/10054/|SwiftUI cookbook for navigation ">https://developer.apple.com/videos/play/wwdc2022/10054/|SwiftUI cookbook for navigation </a>session by &lt;@U03HW7P0HQR&gt; for more 
 You can actually use <code>switch</code> statements directly in SwiftUI! e.g.</p>
-<p>```enum Screen {
+<pre><code class="language-swift">enum Screen {
     case home
     case signIn
     case signUp
-}</p>
-<p>...</p>
-<p>@State private var selectedScreen: Screen</p>
-<p>...</p>
-<p>var body: some View {
+}
+
+...
+
+@State private var selectedScreen: Screen
+
+...
+
+var body: some View {
     switch selectedScreen {
     case .home:
         HomeView()
@@ -4267,8 +4163,9 @@ You can actually use <code>switch</code> statements directly in SwiftUI! e.g.</p
     case .signUp:
         SignUpView()
     }
-}<code>`</code> 
-Yeah that’s how I’ve done it 
+}
+</code></pre>
+<p>Yeah that’s how I’ve done it 
 But I mostly did that because I couldn’t use a <code>NavigationStack</code> on macOS before 
 <code>NavigationView</code>  is what I used before the new navigations were introduced. 
 Depending on your needs, <code>NavigationStack</code> is also a great tool to use for this, directly manipulating the current path :+1:</p>
@@ -4300,9 +4197,9 @@ This particular example should be <code>@ObservedObject</code> <a href="https://
 Thanks for the quick reply ! What is a common case where <code>@StateObject</code> should be useful ? I feel like when I’m using it, I can’t mock any data because the model can’t be injected so it makes unit test or screenshots automation harder 
 If your view wants to own an ObservableObject view model, and the lifetime of that object should match the lifetime of the identity of the view, you should use StateObject.</p>
 <p>You can initialize a StateObject with an external value using this code in your initializer:</p>
-<p><code>`_viewModel = StateObject(wrappedValue: existingModel)</code>
-<code>Note that the value passed to that initializer is accessed once and can't change over time. 
-Thank you. It makes sense. With your solution,</code>@StateObject<code>allows me to mock the data passed to the view (example: if the view displays a list of books, I can pass the mocked book list to the view initializer and then instantiate the</code>StateObject`). But it does not allow me to mock the state of the view (example : if the view model controls wether or not the view is in editing mode)</p>
+<p><code>_viewModel = StateObject(wrappedValue: existingModel)</code></p>
+<p>Note that the value passed to that initializer is accessed once and can't change over time. 
+Thank you. It makes sense. With your solution, <code>@StateObject</code> allows me to mock the data passed to the view (example: if the view displays a list of books, I can pass the mocked book list to the view initializer and then instantiate the <code>StateObject</code>). But it does not allow me to mock the state of the view (example : if the view model controls wether or not the view is in editing mode)</p>
 <p>Edit : typo </p>
 <hr />
 <blockquote>
@@ -4318,21 +4215,25 @@ Thanks for confirming &lt;@U03HELWUJN9&gt; :pray::skin-tone-2: </p>
 <h4 id="hi-there-this-might-not-be-a-ui-specific-question-sorry-for-that-but-id-like-to-know-the-answer-to-use-the-new-swiftui-apis-how-can-i-make-sure-i-support-older-ios-versions-for-example-ios-15-in-my-swiftui-app-while-still-using-the-new-features-for-ios-16-users-are-there-any-macros-for-that">Hi there! This might not be a UI-specific question (sorry for that), but I'd like to know the answer to use the new SwiftUI APIs.  How can I make sure I support older iOS versions, for example iOS 15 in my SwiftUI app, while still using the new features for iOS 16 users? Are there any macros for that?</h4>
 </blockquote>
 <p>You can conditionalize your code based on whether iOS 16 APIs are available like this:</p>
-<p><code>`if #available(iOS 16, *) {
+<pre><code class="language-swift">if #available(iOS 16, *) {
     // iOS 16 code
 } else {
     // iOS 15 and earlier code
-}</code>
-<code>Thanks! 
+}
+</code></pre>
+<p>Thanks! 
 This is exactly what I was searching for. 
-Is there any difference between</code>if #available<code>and</code>@available<code>? 
-Also note that Xcode will see that you are targeting an older version and will offer to put that check for you automatically. Either as</code>if #available<code>, or prefix your entire function or struct with</code>@available(iOS 16.0, <em>)<code>I saw someone talk about</code>@available<code>in another thread, the question above this one. 
-Thank you!</code>@available<code>is used to annotate your declarations to mark them as requiring a newer iOS version. For example, if you have a method that takes in an object/struct only available on iOS 16, then you need to annotate the method as</code>@available(iOS 16, </em>)<code></code>#available<code>is a runtime check to be used in a condition.</code>@available` is an annotation for a method that makes that method unavailable. If your iOS 16 only code is run in a method that is only available in iOS 16 then the compiler won’t complain. So you can use a mixture of both. 
+Is there any difference between <code>if #available</code>  and <code>@available</code> ? 
+Also note that Xcode will see that you are targeting an older version and will offer to put that check for you automatically. Either as <code>if #available</code>, or prefix your entire function or struct with <code>@available(iOS 16.0, *)</code> 
+I saw someone talk about <code>@available</code> in another thread, the question above this one. 
+Thank you! 
+<code>@available</code> is used to annotate your declarations to mark them as requiring a newer iOS version. For example, if you have a method that takes in an object/struct only available on iOS 16, then you need to annotate the method as <code>@available(iOS 16, *)</code> 
+<code>#available</code> is a runtime check to be used in a condition. <code>@available</code> is an annotation for a method that makes that method unavailable. If your iOS 16 only code is run in a method that is only available in iOS 16 then the compiler won’t complain. So you can use a mixture of both. 
 Thank you! 
 Right, the compiler will then complain if you try to call that method on an older iOS version. Frameworks like UIKit and SwiftUI use this to prevent new API introduced in iOS 16 from being called on iOS 15, for example. 
 Interesting! Thank you very much, I really appreciate it! 
 Usually one way suffice, but sometimes, you can use both together:</p>
-<p>```struct ContentView: View {
+<pre><code class="language-swift">struct ContentView: View {
     var body: some View {
         VStack {
             if #available(macOS 13.0, *) {
@@ -4343,28 +4244,32 @@ Usually one way suffice, but sometimes, you can use both together:</p>
             }
         }
     }
-}</p>
-<p>@available(macOS 13.0, *)
+}
+
+
+@available(macOS 13.0, *)
 struct MyNewView: View {
     var body: some View {
         Grid {
             GridRow {
-                Text("Hello")
+                Text(&quot;Hello&quot;)
             }
             GridRow {
-                Image(systemName: "hand.wave")
+                Image(systemName: &quot;hand.wave&quot;)
             }
         }
     }
-}</p>
-<p>struct MyOldView: View {
+}
+
+struct MyOldView: View {
     var body: some View {
         VStack {
-            Text("Hello")
-            Image(systemName: "hand.wave")
+            Text(&quot;Hello&quot;)
+            Image(systemName: &quot;hand.wave&quot;)
         }
     }
-}<code>`</code></p>
+}
+</code></pre>
 <hr />
 <blockquote>
 <h4 id="is-there-a-way-of-disabling-scrolling-on-a-list-or-would-the-best-option-be-to-use-uihostingconfiguration-inside-of-a-uicollectionview-thats-wrapped-in-a-uiviewrepresentable-so-that-i-can-disable-scrolling-on-the-collection-view-itself">Is there a way of disabling scrolling on a List, or would the best option be to use UIHostingConfiguration inside of a UICollectionView that's wrapped in a UIViewRepresentable so that I can disable scrolling on the collection view itself?</h4>
@@ -4377,35 +4282,37 @@ Ah, I completely missed that, nice! </p>
 </blockquote>
 <p>Hi Ron,</p>
 <p>You could try using something like this:</p>
-<p>```import AppKit
-import SwiftUI</p>
-<p>class KeyboardModifierMonitor: ObservableObject {
+<pre><code class="language-swift">import AppKit
+import SwiftUI
+
+class KeyboardModifierMonitor: ObservableObject {
     @Published var eventModifiers = EventModifiers()
     var localEventMonitor: Any?
-    var globalEventMonitor: Any?</p>
-<pre><code>init() {
-    localEventMonitor = NSEvent.addLocalMonitorForEvents(
-        matching: [.flagsChanged],
-        handler: { [weak self] event in
-            self?.eventModifiers = EventModifiers(event.modifierFlags)
-            return event
-        }
-    )
-    globalEventMonitor = NSEvent.addGlobalMonitorForEvents(
-        matching: [.flagsChanged],
-        handler: { [weak self] event in
-            self?.eventModifiers = EventModifiers(event.modifierFlags)
-        }
-    )
+    var globalEventMonitor: Any?
+
+    init() {
+        localEventMonitor = NSEvent.addLocalMonitorForEvents(
+            matching: [.flagsChanged],
+            handler: { [weak self] event in
+                self?.eventModifiers = EventModifiers(event.modifierFlags)
+                return event
+            }
+        )
+        globalEventMonitor = NSEvent.addGlobalMonitorForEvents(
+            matching: [.flagsChanged],
+            handler: { [weak self] event in
+                self?.eventModifiers = EventModifiers(event.modifierFlags)
+            }
+        )
+    }
+
+    deinit {
+        localEventMonitor.map { NSEvent.removeMonitor($0) }
+        globalEventMonitor.map { NSEvent.removeMonitor($0) }
+    }
 }
 
-deinit {
-    localEventMonitor.map { NSEvent.removeMonitor($0) }
-    globalEventMonitor.map { NSEvent.removeMonitor($0) }
-}
-</code></pre>
-<p>}</p>
-<p>extension EventModifiers {
+extension EventModifiers {
     init(_ flags: NSEvent.ModifierFlags) {
         self.init()
         if flags.contains(.capsLock) { insert(.capsLock) }
@@ -4416,19 +4323,19 @@ deinit {
         if flags.contains(.numericPad) { insert(.numericPad) }
         if flags.contains(.function) { insert(.function) }
     }
-}<code>`</code>
-which you would then use in your controls like so
-:
-```public struct MyAmazingButton: View {
-    @StateObject fileprivate var eventMonitor = KeyboardModifierMonitor()</p>
-<pre><code>public var body: some View {
-    let modifiers = eventMonitor.eventModifiers
-    let isOptionHeld = modifiers.contains(.option)
-    let isShiftHeld = modifiers.contains(.shift)
+}
 </code></pre>
-<p>&lt;...&gt;
-``` 
-Nice! Will do. 
+<p>which you would then use in your controls like so:</p>
+<pre><code class="language-swift">public struct MyAmazingButton: View {
+    @StateObject fileprivate var eventMonitor = KeyboardModifierMonitor()
+
+    public var body: some View {
+        let modifiers = eventMonitor.eventModifiers
+        let isOptionHeld = modifiers.contains(.option)
+        let isShiftHeld = modifiers.contains(.shift)
+&amp;lt;...&amp;gt;
+</code></pre>
+<p>Nice! Will do. 
 Oh darn! I did try exactly that a year ago. 
 The problem is that while the macOS menu is down, the message is not delivered. 
 The behavior in AppKit of opening a menu, then trying the modifier keys to see what changes while the menu is down is lost. 
@@ -4549,7 +4456,7 @@ Thanks &lt;@U03HW7P0HQR&gt; for the explanations. </p>
 <p>But in my example, I pass the post as an EnvironmentObject when a Post is selected. And it's directly available in the PostView. So this post object is passed in the Environment but not for pushed Views from the PostView. I was expected the object to be available in all the “flow” (cf screenshot). 
 Or this flow. I thought that if a Cart object created in the UserLogin View (probably in a NavigationStack) and passed in the Environment from this UserLogin View, it was accessible in the PaymentDetails in the same Stack. But this is only true if the Cart is passed before the NavigationStack? 
 A view can’t have two parent environments. Consider the two ways we could propagate the environment:</p>
-<p><code>`┌────────────────────────┐                             ┌────────────────────────┐              
+<pre><code>┌────────────────────────┐                             ┌────────────────────────┐              
 │    NavigationStack     │                             │    NavigationStack     │              
 └────────────────────────┘                             └────────────────────────┘              
              │                                                      │                          
@@ -4565,9 +4472,9 @@ A view can’t have two parent environments. Consider the two ways we could prop
              │                                                                     ▼           
              │  ┌──────────────────────┐                               ┌──────────────────────┐
              └─▶│     Pushed View      │                               │     Pushed View      │
-                └──────────────────────┘                               └──────────────────────┘</code>
-` 
-We chose the one on the left and leave it to developers to propagate any additional information as needed. This reduces the number of dependencies. </p>
+                └──────────────────────┘                               └──────────────────────┘
+</code></pre>
+<p>We chose the one on the left and leave it to developers to propagate any additional information as needed. This reduces the number of dependencies. </p>
 <hr />
 <blockquote>
 <h4 id="as-of-monterey-list-supports-drag-and-drop-reordering-of-items-on-macos-and-iosipados-but-it-seems-that-other-types-eg-hstack-vstack-etc-support-drag-and-drop-reordering-of-items-on-macos-only-in-catalyst-apps-in-any-other-kind-of-macos-app-the-same-swiftui-code-that-works-as-expected-in-iosipados-and-catalyst-doesnt-work-ie-a-drag-cannot-be-started-at-all-the-code-compiles-just-fine-but-it-doesnt-actually-work-how-can-i-support-drag-and-drop-reordering-of-items-or-sub-views-in-swiftui-code-in-hstacks-vstacks-etc-in-non-catalyst-macos-apps">As of Monterey, <code>List</code> supports drag-and-drop reordering of items on macOS and iOS/iPadOS, but it seems that other types (e.g., <code>HStack</code>, <code>VStack</code>, etc.) support drag-and-drop reordering of items on macOS <em>only</em> in Catalyst apps. In any other kind of macOS app, the same SwiftUI code that works as expected in iOS/iPadOS and Catalyst doesn't work (i.e., a drag cannot be started at all). The code compiles just fine, but it doesn't actually work.  How can I support drag-and-drop reordering of items (or sub-<code>View</code>s) in SwiftUI code in <code>HStack</code>s, <code>VStack</code>s, etc. in <em>non-Catalyst</em> macOS apps?</h4>
@@ -4586,24 +4493,25 @@ Changing that line to this worked. Thanks!</p>
 From what I understand, this will put Mac controls into the iOS style Form - it will not enable the macOS style Form. Unless this is changing this year, there’s no way to get native macOS SwiftUI in Catalyst. 
 FB9994506: Ability to use macOS SwiftUI in iOS app using Catalyst optimized for Mac idiom 
 This year, there is the new <code>FormStyle</code> support, with <code>FormStyle.columns</code> available on all platforms, including Catalyst. That creates a Form layout like the default on native macOS with trailing aligned labels next to the leading aligned controls </p>
-<p>```Form {
-    Picker("Notify Me About:", selection: $notifyMeAbout) {
-        Text("Direct Messages").tag(NotifyMeAboutType.directMessages)
-        Text("Mentions").tag(NotifyMeAboutType.mentions)
-        Text("Anything").tag(NotifyMeAboutType.anything)
+<pre><code class="language-swift">Form {
+    Picker(&quot;Notify Me About:&quot;, selection: $notifyMeAbout) {
+        Text(&quot;Direct Messages&quot;).tag(NotifyMeAboutType.directMessages)
+        Text(&quot;Mentions&quot;).tag(NotifyMeAboutType.mentions)
+        Text(&quot;Anything&quot;).tag(NotifyMeAboutType.anything)
     }
-    Toggle("Play notification sounds", isOn: $playNotificationSounds)
-    Toggle("Send read receipts", isOn: $sendReadReceipts)</p>
-<pre><code>Picker("Profile Image Size:", selection: $profileImageSize) {
-    Text("Large").tag(ProfileImageSize.large)
-    Text("Medium").tag(ProfileImageSize.medium)
-    Text("Small").tag(ProfileImageSize.small)
+    Toggle(&quot;Play notification sounds&quot;, isOn: $playNotificationSounds)
+    Toggle(&quot;Send read receipts&quot;, isOn: $sendReadReceipts)
+
+    Picker(&quot;Profile Image Size:&quot;, selection: $profileImageSize) {
+        Text(&quot;Large&quot;).tag(ProfileImageSize.large)
+        Text(&quot;Medium&quot;).tag(ProfileImageSize.medium)
+        Text(&quot;Small&quot;).tag(ProfileImageSize.small)
+    }
+    .pickerStyle(.inline)
 }
-.pickerStyle(.inline)
+.formStyle(.columns)
 </code></pre>
-<p>}
-.formStyle(.columns)<code>`</code> 
-<a href="https://developer.apple.com/documentation/swiftui/formstyle/columns">https://developer.apple.com/documentation/swiftui/formstyle/columns</a> 
+<p><a href="https://developer.apple.com/documentation/swiftui/formstyle/columns">https://developer.apple.com/documentation/swiftui/formstyle/columns</a> 
 Woooo I love that for us thanks!! 
 &lt;@U03HW7NMP6D&gt; Is there any possibility of creating my own form style? For example if I wanted to backport the new <code>.columns</code> style back to macOS Monterey. 
 <code>FormStyle</code> is only public this year, so not able to be backported. You would have to create your own <code>Form</code> replacement as a whole to do something like that 
@@ -4627,28 +4535,28 @@ I have a big problem with putting more effort into looking like I'm doing work r
 </blockquote>
 <p><code>onTapGesture</code> can indeed be used more than once but you need to get them in the right order, so that the double-tap fails before the single-tap succeeds.</p>
 <p>Something like this:</p>
-<p><code>`ItemView()
+<pre><code>ItemView()
     .onTapGesture(count: 2) {
         ...
     }
     .onTapGesture {
         ...
-    }</code>
-` 
-Thanks. I'll give it a try.  </p>
+    }
+</code></pre>
+<p>Thanks. I'll give it a try.  </p>
 <hr />
 <blockquote>
 <h4 id="what-is-the-recommended-way-to-conditionalize-code-for-view-modifiers-that-are-only-available-on-newer-versions-of-ios-for-example-if-i-have-a-view-and-previously-was-using-the-regular-ontapgesture-modifier-on-ios-15-but-when-running-on-ios-16-i-want-to-instead-use-the-new-version-that-provides-location">What is the recommended way to conditionalize code for view modifiers that are only available on newer versions of iOS? For example, if I have a View, and previously was using the regular <code>onTapGesture</code> modifier on iOS 15, but when running on iOS 16, I want to instead use the new version that provides <code>location</code>?</h4>
 </blockquote>
 <p>We recommend factoring out the common parts and then using <code>if #available</code> checks to use the relevant modifier. Something like this:</p>
-<p><code>`let common = commonViewParts
+<pre><code class="language-swift">let common = commonViewParts
 if #available(iOS 16.0, macOS 13.0, *) {
     return common.newModifier()
 } else {
     return common.oldModifier()
-}</code>
-` 
-Thanks. It would be great to have a cleaner way to do this in the future, especially as new modifiers get added in future versions of the operating systems (imagine an app targeting iOS 18, that had conditional branches for 18, 17, 16, and 15) 
+}
+</code></pre>
+<p>Thanks. It would be great to have a cleaner way to do this in the future, especially as new modifiers get added in future versions of the operating systems (imagine an app targeting iOS 18, that had conditional branches for 18, 17, 16, and 15) 
 Please do file some feedback with this request! 
 Just filed FB10135113 
 thank you! </p>
@@ -4693,24 +4601,24 @@ Ya that is very subtle. Thanks for pointing that out </p>
 <h4 id="is-it-possible-with-swiftuis-new-navigationstack-to-hide-the-tabbar-of-a-tabview-when-the-destionation-view-appears-with-the-existing-navigationview-it-was-possible-but-not-so-easy-to-handle-the-navigation-title-and-buttons">Is it possible with SwiftUIs new NavigationStack to hide the tabbar of a TabView when the destionation view appears. With the existing NavigationView it was possible but not so easy to handle the navigation title and buttons.</h4>
 </blockquote>
 <p>Take a look at the new toolbar visibility accepting modifier. This is new in SwiftUI and allows configuring the hiding or showing of different bars like the navigation bar, or the tab bar.</p>
-<p><code>`ContentView()
- .toolbar(.hidden, in: .tabBar)</code>
-`
-See <a href="https://developer.apple.com/documentation/swiftui/presentedwindowcontent/toolbar(_:in:)">https://developer.apple.com/documentation/swiftui/presentedwindowcontent/toolbar(_:in:)</a> </p>
+<pre><code class="language-swift">ContentView()
+ .toolbar(.hidden, in: .tabBar)
+</code></pre>
+<p>See <a href="https://developer.apple.com/documentation/swiftui/presentedwindowcontent/toolbar(_:in:)">https://developer.apple.com/documentation/swiftui/presentedwindowcontent/toolbar(_:in:)</a> </p>
 <hr />
 <blockquote>
 <h4 id="when-using-charts-to-draw-a-line-graph-is-there-a-way-to-get-the-last-point-to-be-at-the-trailing-edge-of-the-chart-view-im-finding-that-it-always-has-the-trailing-edge-as-a-multiple-of-values-used-on-the-x-axis">When using Charts to draw a line graph, is there a way to get the last point to be at the trailing edge of the chart view? I’m finding that it always has the trailing edge as a multiple of values used on the x axis.</h4>
 </blockquote>
 <p>You can use the <code>.chartXAxis(content:)</code> modifier passing an <code>AxisContentBuilder</code> that either completely customizes the x-axis, or you could first try out this initializer of <code>AxisMarks</code>  passing <code>true</code> for those <code>roundLowerBound</code> and <code>roundUpperBound</code></p>
-<p><code>`/// Automatically determines the values for the markers,
+<pre><code class="language-swift">/// Automatically determines the values for the markers,
 /// approximating the target number of values.
 public static func automatic(
     desiredCount: Int? = nil,
     roundLowerBound: Bool? = nil,
     roundUpperBound: Bool? = nil
-) -&amp;gt; Values</code>
-` 
-Thank you. I'll have a look at using that.  </p>
+) -&amp;gt; Values
+</code></pre>
+<p>Thank you. I'll have a look at using that.  </p>
 <hr />
 <blockquote>
 <h4 id="swiftui-in-uikit-what-is-the-recommended-way-of-animating-changes-to-swiftui-view-size-when-inside-a-uihostingcontroller-the-problem-im-facing-is-that-while-the-swiftui-view-itself-will-animate-and-with-the-new-sizing-options-the-uihostingcontroller-will-do-intrinsic-content-size-invalidation-automatically-the-hosting-view-bounds-change-isnt-animated-it-just-jumps-this-is-a-problem-especially-when-other-uiviews-are-constrained-to-the-hosting-view-with-auto-layout-is-there-any-way-to-solve-this-other-than-manually-tracking-swiftui-size-changes-and-triggering-a-separate-layout-pass-animation-of-the-hosting-view-superview">SwiftUI in UIKit: What is the recommended way of animating changes to SwiftUI view size when inside a UIHostingController? The problem I’m facing is that while the SwiftUI view itself will animate, and with the new sizing options the UIHostingController will do intrinsic content size invalidation automatically, the hosting view bounds change isn’t animated, it just jumps. This is a problem especially when other UIViews are constrained to the hosting view with Auto Layout. Is there any way to solve this other than manually tracking SwiftUI size changes and triggering a separate layout pass + animation of the hosting view superview?</h4>
@@ -4732,14 +4640,16 @@ Can I somehow show an alert or make some operation when a user clicks the back b
 </blockquote>
 <p>The moment you add <code>.swipeActions</code> it up to you to define the delete action (SwiftUI will stop synthesize that for you in the swipe action drawer).</p>
 <p>You want to create a button with a destructive role to achieve the same result:</p>
-<p><code>`Button(role: .destructive) {
+<pre><code class="language-swift">Button(role: .destructive) {
     delete()
 } label: {
-    Label("Delete", systemImage: "trash")
-}</code>
-<code>&lt;@U03J7BQQNPJ&gt; On the iPad, In a list when a swipe action is used which shows a confirmation dialogue, the popup is not shown on the correct cell. For Example cell 5 is swiped, confirmation dialogue points to a different cell cell. Feedback</code>FB10026540<code>&lt;@U03JCHKCDB4&gt; thank you for taking the time to file a feedback. 
+    Label(&quot;Delete&quot;, systemImage: &quot;trash&quot;)
+}
+</code></pre>
+<p>&lt;@U03J7BQQNPJ&gt; On the iPad, In a list when a swipe action is used which shows a confirmation dialogue, the popup is not shown on the correct cell. For Example cell 5 is swiped, confirmation dialogue points to a different cell cell. Feedback <code>FB10026540</code> 
+&lt;@U03JCHKCDB4&gt; thank you for taking the time to file a feedback. 
 &lt;@U03J7BQQNPJ&gt;, thanks for the reply. I do have destructive button like you mentioned. However, it doesn't have the animation like the one onDelete has. Any idea how to set it up? 
-&lt;@U03J7BQQNPJ&gt; Regarding feedback</code>FB10026540` I have updated the project and added more details on my observation. Thanks a ton for the immediate response!!! </p>
+&lt;@U03J7BQQNPJ&gt; Regarding feedback <code>FB10026540</code> I have updated the project and added more details on my observation. Thanks a ton for the immediate response!!! </p>
 <hr />
 <blockquote>
 <h4 id="in-swiftui-when-you-had-a-list-view-with-items-that-were-continuously-synced-with-a-server-and-you-displayed-the-details-view-of-a-selected-item-then-the-app-jumps-back-to-the-main-list-are-navigationstacks-solving-this-problem">In SwiftUI when you had a List view with items that were continuously synced with a server and you displayed the details view of a selected item then the app jumps back to the main list. Are NavigationStacks solving this problem?</h4>
@@ -4769,19 +4679,21 @@ Yes, the status item’s button has a image
 which is a template image 
 Ah ha. Thanks for that info! :slightly_smiling_face: 
 &lt;@U03HEM646TX&gt; Filed as <code>FB10144807</code> I can reproduce this on macOS 12.4. You should be able to reproduce it via the following code snippet:</p>
-<p>```import Cocoa</p>
-<p>@main
-class AppDelegate: NSObject, NSApplicationDelegate {
-    let statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)</p>
-<pre><code>func applicationDidFinishLaunching(_ aNotification: Notification) {
-    let useTemplateImage = true // set this to false and notice how the text appears for the status item on an inactive display
+<pre><code class="language-swift">import Cocoa
 
-    statusItem.button?.imagePosition = .imageRight
-    statusItem.button?.attributedTitle = NSAttributedString(string: "Hello World", attributes: [NSAttributedString.Key.foregroundColor : NSColor.labelColor])
-    statusItem.button?.image = NSImage(named: useTemplateImage ? NSImage.quickLookTemplateName : NSImage.statusAvailableName)
+@main
+class AppDelegate: NSObject, NSApplicationDelegate {
+    let statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
+
+    func applicationDidFinishLaunching(_ aNotification: Notification) {
+        let useTemplateImage = true // set this to false and notice how the text appears for the status item on an inactive display
+
+        statusItem.button?.imagePosition = .imageRight
+        statusItem.button?.attributedTitle = NSAttributedString(string: &quot;Hello World&quot;, attributes: [NSAttributedString.Key.foregroundColor : NSColor.labelColor])
+        statusItem.button?.image = NSImage(named: useTemplateImage ? NSImage.quickLookTemplateName : NSImage.statusAvailableName)
+    }
 }
 </code></pre>
-<p>} <code>`</code> </p>
 <hr />
 <blockquote>
 <h4 id="is-there-a-way-to-recreate-the-appearance-of-the-widgets-on-the-lock-screen-using-uivisualeffectview-in-an-app-using-either-swiftui-or-uikit-im-specifically-interested-in-recreating-the-appearance-of-the-circular-widget">Is there a way to recreate the appearance of the widgets on the Lock Screen using UIVisualEffectView in an app using either SwiftUI or UIKit? I'm specifically interested in recreating the appearance of the circular widget.</h4>
@@ -4900,12 +4812,12 @@ yea, I think we don’t translate search from anything other than the detail col
 </blockquote>
 <p>I cover this in the “Use SwiftUI with UIKit” talk! Its right at the beginning.
 You just need to add it as a child viewcontroller</p>
-<p><code>`// Add the hosting controller as a child view controller
+<pre><code class="language-swift">// Add the hosting controller as a child view controller
 viewController.addChild(hostingController)
 viewController.view.addSubview(hostingController.view)
-hostingController.didMove(toParent: viewController)</code>
-`
-<a href="https://developer.apple.com/wwdc22/10072">https://developer.apple.com/wwdc22/10072</a> 
+hostingController.didMove(toParent: viewController)
+</code></pre>
+<p><a href="https://developer.apple.com/wwdc22/10072">https://developer.apple.com/wwdc22/10072</a> 
 At the end I cover some of the limitations of UIHostingController and speak to why its necessary to embed in as a childViewController 
 oh I missed that video! I would check it. Thanks!</p>
 <p>I wonder if I could create a UIView that supports rendering SwiftUI view like UIHostingConfiguration for supporting older iOS version.</p>
@@ -4923,11 +4835,11 @@ Awesome talk &lt;@U03HL05BUJG&gt;! What would your recommended approach be for s
 <p>Left is current, right is design 
 MAKING PROGRESS, thank you for your help!!! how can I add the little circle dots for the data points? This is my code currently, Unbelievably short and easy (edited) 
 You can either add a <code>PointMark</code> on top of the <code>LineMark</code> or by adding a symbol to the linemark</p>
-<p><code>`LineMark(x: .value("xvalue", point.x),
-         y: .value("yvalue", point.y))
-    .symbol(Circle())</code>
-` 
-My “Use SwiftUI in UIKit” sample project actually has an example of this <a href="https://developer.apple.com/documentation/uikit/views_and_controls/using_swiftui_with_uikit">https://developer.apple.com/documentation/uikit/views_and_controls/using_swiftui_with_uikit</a>
+<pre><code class="language-swift">LineMark(x: .value(&quot;xvalue&quot;, point.x),
+         y: .value(&quot;yvalue&quot;, point.y))
+    .symbol(Circle())
+</code></pre>
+<p>My “Use SwiftUI in UIKit” sample project actually has an example of this <a href="https://developer.apple.com/documentation/uikit/views_and_controls/using_swiftui_with_uikit">https://developer.apple.com/documentation/uikit/views_and_controls/using_swiftui_with_uikit</a>
 as does I believe some of the Swift Charts talks sample code too! 
 &lt;@U03HL05BUJG&gt; what if i want to add the numerical values (eg: 15) above that PointMark? 
 TextMark? 
@@ -4935,8 +4847,7 @@ as an annotation?
 Yes 
 Let me find the docs for that… 
 It should be an annotation modifer on the mark!</p>
-<p><code>` .annotation(position: .top, alignment: .leading)</code>
-` 
+<p><code>.annotation(position: .top, alignment: .leading)</code> 
 <a href="https://developer.apple.com/documentation/charts/visualizing_your_app_s_data">https://developer.apple.com/documentation/charts/visualizing_your_app_s_data</a>
 the swift charts example project has an example of this! 
 You are the best! Got it! Anywhere I can follow you on social media? 
