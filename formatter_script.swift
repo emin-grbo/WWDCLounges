@@ -135,17 +135,22 @@ struct ChannelWriter {
             .replacingOccurrences(of: #"<.*> asked"#, with: "", options: .regularExpression)
         let messageMarkdown = "\n--- \n> #### \(formattedMessage)\n\n"
         let repliesMarkdown: [String] = message.slackdumpThreadReplies?.compactMap { $0.text }.map { text in
-            // Need to add a new line when closing a code block
-            var stringToReturn = "\(text) \n"
+            // Need to add two new lines around text as GitHub-flavoured markdown treats a single line break as none
+            var stringToReturn = "\n \(text) \n"
             let regex = try! NSRegularExpression(pattern: "```")
             let matches = regex.matches(in: stringToReturn, range: NSRange(location: .zero, length: stringToReturn.utf16.count))
             matches
                 .enumerated()
                 .forEach { offset, match in
                     let start = stringToReturn.startIndex
-                    let matchStart = offset % 2 == 0 ? match.range.lowerBound : match.range.upperBound
+                    // Need to add a line break when opening and when closing a code block
+                    let matchStart = offset % 2 == 0 ? match.range.lowerBound : match.range.upperBound - 1
+                    let matchEnd = matchStart + 4
                     let stringIndex = stringToReturn.index(start, offsetBy: matchStart)
+                    let stringEnd = stringToReturn.index(start, offsetBy: matchEnd)
+                    // Need to add a new line when closing and opening a code block
                     stringToReturn.insert("\n", at: stringIndex)
+                    stringToReturn.insert("\n", at: stringEnd)
                 }
             return stringToReturn
         } ?? []
