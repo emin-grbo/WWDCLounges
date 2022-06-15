@@ -20,6 +20,19 @@ nav:
         - arkit realitykit: wwdc22/arkit-realitykit-usdz-lounge.md
         - audio and video: wwdc22/audio-and-video-lounge.md
         - design: wwdc22/design-lounge.md
+        - app clips: wwdc22/app-clips-lounge.md
+        - app store: wwdc22/app-store-lounge.md
+        - cloudkit: wwdc22/cloudkit-lounge.md
+        - coredata: wwdc22/coredata-lounge.md
+        - device management: wwdc22/device-management-lounge.md
+        - education: wwdc22/education-lounge.md
+        - health and fitness: wwdc22/health-and-fitness-lounge.md
+        - machine learning: wwdc22/machine-learning-lounge.md
+        - maps: wwdc22/maps-lounge.md
+        - privacy and security: wwdc22/privacy-and-security-lounge.md
+        - safari: wwdc22/safari-lounge.md
+        - sirikit and shortcuts: wwdc22/sirikit-and-shortcuts-lounge.md
+        - widgetkit: wwdc22/widgetkit-lounge.md
    
 plugins:
   - search
