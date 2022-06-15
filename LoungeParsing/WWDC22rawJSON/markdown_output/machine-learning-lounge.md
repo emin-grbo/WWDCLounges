@@ -809,14 +809,12 @@ Thank you! You can definitely build a dance classifier using the action classifi
 
 
 `MLImageClassifier.ModelParameters` still has the
-
-``
-`init(
+```
+init(
 validation: ValidationData,
 maxIterations: Int,
 augmentation: ImageAugmentationOptions, algorithm: ModelAlgorithmType
 )
-
 ```
  initializer which you can use to set the maxIterations along with other parameters that you want.
 
@@ -854,11 +852,9 @@ these features are really cool and long-awaited but almost all cv models produce
 
 &gt;  is there any chance you will add support for at least 4 channels no-copy buffers?
 One way is to stack each channel on height axis and use that big pixel buffer as a backing of MLMultiArray. So:
-
-``
-`let backingPixelBuffer = ... // size = (width, height * 4), format = kCVPixelFormatType_OneComponent16Half
+```
+let backingPixelBuffer = ... // size = (width, height * 4), format = kCVPixelFormatType_OneComponent16Half
 let multiArray = MLMultiArray(pixelBuffer: backingPixelBuffer, shape: [4, height, width])
-
 ```
 This won’t work if your image representation is so called “packed” format, where each channel is interleaved in the frame buffer. We appreciate your feedback assistant report with a use case if that’s what you are looking for.
 
@@ -987,9 +983,8 @@ Hi Eddie! Thank you for waiting. The following code loads an AAC file into `MLSh
 `MLShapedArray` is a Swift-y cousin of `MLMultiArray` and, if you are using Swift, it is preferred over `MLMultiArray`. CoreML accepts either type. `MLMultiArray(_ shapedArray:)` and `MLShapedArray(_ multiArray:)` can convert between them.
 
 Hope it helps.
-
-``
-`import AVFoundation
+```
+import AVFoundation
 import CoreML
 
 let audioFormat = AVAudioFormat(commonFormat: .pcmFormatFloat32, sampleRate: 44100, channels: 2, interleaved: false)!
@@ -1026,7 +1021,6 @@ while sourceAudioFile.framePosition &lt; sourceAudioFile.length {
     // And encode and write to an AAC file.
     try! outputAudioFile.write(from: outputAudioBuffer)
 }
-
 ```
 
 
@@ -1096,10 +1090,8 @@ Exactly. If I see the entire error message, I might know what is differently wit
 I see, `Fetching decryption key from server failed: noEntryFound("No records found"). Make sure the encryption key was generated with correct team ID.` . I believe our remote builds use the same Team ID as the one I used locally to generate the key. I am waiting for a confirmation on this. While I wait for it, I wanted to see if there could be any other reason for failure because I see different errors before and after this error.
 
 Eg:
-
-``
-`Client "com.apple.CoreMLModelSecurityService" tried to access environment "Production", even though the entitlements specified "Sandbox"
-
+```
+Client "com.apple.CoreMLModelSecurityService" tried to access environment "Production", even though the entitlements specified "Sandbox"
 ```
 
 Looks like the Team IDs are different. Thanks a lot for you patience going through my issue.
@@ -1366,30 +1358,26 @@ See the header files inside the Xcode 14 beta. - Don't expect it to work before 
 @*<https://app.slack.com/team/U03HZ81AHCN|Alessandro>* - the source file I posted shows how you set the `revision` the request should use. You can also use responsdsToSelector() but I wouldn't trust it
 
 I handle code from Beta SDKs like this:
-
-``
-`#if defined(MAC_OS_VERSION_13_0) &amp;&amp; MAC_OS_X_VERSION_MAX_ALLOWED &gt;= MAC_OS_VERSION_13_0
+```
+#if defined(MAC_OS_VERSION_13_0) &amp;&amp; MAC_OS_X_VERSION_MAX_ALLOWED &gt;= MAC_OS_VERSION_13_0
 #warn "if you can see this, it's time to remove the #if."
 			if (@available(macOS 13.0, *))
 			{
 				revision = VNRecognizeTextRequestRevision3;
 			} else
 #endif
-
 ```
 
 …
 
-
-``
-`#if defined(MAC_OS_VERSION_13_0) &amp;&amp; MAC_OS_X_VERSION_MAX_ALLOWED &gt;= MAC_OS_VERSION_13_0
+```
+#if defined(MAC_OS_VERSION_13_0) &amp;&amp; MAC_OS_X_VERSION_MAX_ALLOWED &gt;= MAC_OS_VERSION_13_0
 #warn "if you can see this, it's time to remove the #if."
 			if (@available(macOS 13.0, *))
 			{
 				textRequest.automaticallyDetectsLanguage = YES;
 			}
 #endif
-
 ```
 
 I don’t like `respondsToSelector()`either… but is `VNRecognizeTextRequestRevision3` already public? I couldn’t find it in the documentation

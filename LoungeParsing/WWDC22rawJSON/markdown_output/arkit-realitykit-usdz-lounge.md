@@ -1060,9 +1060,8 @@ A way to get the entity gestures working on an entire scene is to use `visualBou
 |CollisionGroup&gt; to make sure it doesn’t interfere with any physics.
 
 If you’re using `ARView.installGestures(…)` you’ll need the entity to conform to `HasCollision` , which may require you to create a new entity type for the root. Quick example:
-
-``
-`// New Entity type which conforms for `HasCollision`
+```
+// New Entity type which conforms for `HasCollision`
 class CollisionAnchorEntity: Entity, HasAnchoring, HasCollision { }
 
 // Transfer scene contents
@@ -1078,7 +1077,6 @@ collisionAnchor.collision = CollisionComponent(shapes: [collisionShape])
 
 // Install gesture on new anchor
 arView.installGestures(for: collisionAnchor)
-
 ```
 This is also a great question for our RealityKit and Reality Composer lab, which is happening tomorrow @9:00 - 11:00AM.
 

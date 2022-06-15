@@ -245,10 +245,8 @@ I present it as a .sheet in SwiftUI. It does actually present a sheet, but the s
 
 I see. For UICloudSharingController we typically present it like this in swift UI samples:
 
-
-``
-`UIApplication.shared.rootController()?.present(sharingController, animated: true).
-
+```
+UIApplication.shared.rootController()?.present(sharingController, animated: true).
 ```
 
 Thank you! I will give that a try. 
@@ -459,11 +457,9 @@ And an image via `CKShareThumbnailImageDataKey`/`CKShare.SystemFieldKey.thumbnai
 You'd set those values on the `CKShare` itself when saving it
 
 E.g.
-
-``
-`let share = CKShare()
+```
+let share = CKShare()
 share[CKShare.SystemFieldKey.title] = "The best share in the world"
-
 ```
 
 That text should show up in the message being sent
@@ -929,9 +925,8 @@ Still the question holds: can we bulk up/download to CloudKit somehow relaibly a
 
 Have you verified that your `NSPersistentCloudKitContainer` is configured for the public database, see <https://developer.apple.com/documentation/coredata/nspersistentcloudkitcontaineroptions/3580372-databasescope>?
 
-
-``
-`Currently my code looks like this:      class DataController: ObservableObject {
+```
+Currently my code looks like this:      class DataController: ObservableObject {
     let container = NSPersistentCloudKitContainer(name: "LoggingData")
 
     init() {
@@ -954,7 +949,6 @@ Have you verified that your `NSPersistentCloudKitContainer` is configured for th
         container.viewContext.mergePolicy = NSMergeByPropertyObjectTrumpMergePolicy
     }
 }
-
 ```
 
 Please confirm this is non-nil before you set it: `description.cloudKitContainerOptions?.databaseScope = .public`

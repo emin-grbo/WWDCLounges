@@ -177,9 +177,8 @@ Got it, thanks!
 
 
 macOS 12 added these new APIs to NSScreen.
-
-``
-`// Variable Rate Refresh
+```
+// Variable Rate Refresh
 @interface NSScreen ()
 
 /** The maximum frames per second this screen supports.
@@ -210,7 +209,6 @@ macOS 12 added these new APIs to NSScreen.
 @property (readonly) NSTimeInterval lastDisplayUpdateTimestamp API_AVAILABLE(macos(12.0));
 
 @end
-
 ```
 
 If you are managing your own refresh timer, these can be helpful.
@@ -502,9 +500,8 @@ Yes, we have labs on Thursday and Friday. Make sure to sign up!
 
 Provide a `LPLinkMetadata` object to the activity view controller. The easiest way to do this is using a `UIActivityItemsConfiguration` object.
 
-
-``
-`let sharedItem = NSItemProvider(contentsOf: url)
+```
+let sharedItem = NSItemProvider(contentsOf: url)
 
 let aic = UIActivityItemsConfiguration(itemProviders: [sharedItem])
 
@@ -520,7 +517,6 @@ aic.linkMetadata = lm
 let avc = UIActivityViewController(activityItemsConfiguration: aic)
 
 // present avc
-
 ```
 
 --- 
@@ -956,9 +952,8 @@ WRT configuring XPC connections:
 
 We recommend that the app that defines the extension point provided a framework to extension developers. This framework should specialize the ExtensionKit protocols. This is a quick example of something such a framework might implement 
 
-
-``
-`struct ExampleConfiguration&lt;E:ExampleExtension&gt;: AppExtensionConfiguration {
+```
+struct ExampleConfiguration&lt;E:ExampleExtension&gt;: AppExtensionConfiguration {
     
     let exportedObject: ExportedObject
     
@@ -1003,21 +998,18 @@ extension ExampleExtension {
     }
 }
 
-
 ```
 
 An extension implementation would look like this:
 
-
-``
-`@main
+```
+@main
 final class ExampleAppExtension: ExampleExtension {
 
     func transform(text: String) -&gt; String {
         return text.uppercased()
     }
 }
-
 ```
 
 
@@ -1610,16 +1602,14 @@ No, you’d be calling cellForItem(at:) on the UICollectionView, so it will retu
 Yes! That should preserve the scroll offset.
 
 aha  it’s just like below?
-
-``
-`psuedo code
+```
+psuedo code
 // loop over cells
 let cell = UICollectionView.cellForItem(at:...)
 cell.image.height = xxx
 
 // Call performBatchUpdates
 collectionView.performBatchUpdates { &lt;empty&gt; }
-
 ```
 
 yep! That should work! Definitely encourage you to try it out.
@@ -1816,20 +1806,16 @@ func readObjects(
 ) -&gt; [Any]?
 
 If I use SwiftUI
-
-``
-`DropDelegate.dropEntered(info:)
-
+```
+DropDelegate.dropEntered(info:)
 ```
 how I can get access to the pasteboard from DropInfo object? Or there is another approach in this case?
 
 Let me chime in. `DropInfo` has a member called `hasItemsConforming(to:)` member, <https://developer.apple.com/documentation/swiftui/dropinfo/hasitemsconforming(to:)-47irh>, which allows to check for the content types you are interested in. Does this help?
 
 I try to use it, but unfortunately, it does not help in my case. Or maybe I just do something wrong. This method only checks the dropped content type. In my case it’s
-
-``
-`UTType.fileURL
-
+```
+UTType.fileURL
 ```
 but it does not check is this an image or an mp4 file.
 
@@ -1842,10 +1828,8 @@ Then the first idea on top of my head is to try to initialize `NSImage` with the
 If the app isn’t restricted to images from Finder only, you could register for receiving `NSImage.imageTypes`
 
 Oh, great idea. I’ll try to initialize
-
-``
-`NSImage from NSImageProvider
-
+```
+NSImage from NSImageProvider
 ```
 Thank you Julia!
 
@@ -2020,9 +2004,8 @@ However, with programatic navigation in `NavigationStack` that’d probably be t
 
 You can actually use `switch` statements directly in SwiftUI! e.g.
 
-
-``
-`enum Screen {
+```
+enum Screen {
     case home
     case signIn
     case signUp
@@ -2044,7 +2027,6 @@ var body: some View {
         SignUpView()
     }
 }
-
 ```
 
 Yeah that’s how I’ve done it
@@ -2098,10 +2080,8 @@ Thanks for the quick reply ! What is a common case where `@StateObject` should b
 If your view wants to own an ObservableObject view model, and the lifetime of that object should match the lifetime of the identity of the view, you should use StateObject.
 
 You can initialize a StateObject with an external value using this code in your initializer:
-
-``
-`_viewModel = StateObject(wrappedValue: existingModel)
-
+```
+_viewModel = StateObject(wrappedValue: existingModel)
 ```
 Note that the value passed to that initializer is accessed once and can't change over time.
 
@@ -2127,14 +2107,12 @@ Thanks for confirming <@U03HELWUJN9> :pray::skin-tone-2:
 
 
 You can conditionalize your code based on whether iOS 16 APIs are available like this:
-
-``
-`if #available(iOS 16, *) {
+```
+if #available(iOS 16, *) {
     // iOS 16 code
 } else {
     // iOS 15 and earlier code
 }
-
 ```
 
 Thanks!
@@ -2161,9 +2139,8 @@ Interesting! Thank you very much, I really appreciate it!
 
 Usually one way suffice, but sometimes, you can use both together:
 
-
-``
-`struct ContentView: View {
+```
+struct ContentView: View {
     var body: some View {
         VStack {
             if #available(macOS 13.0, *) {
@@ -2199,7 +2176,6 @@ struct MyOldView: View {
         }
     }
 }
-
 ```
 
 
@@ -2218,9 +2194,8 @@ Ah, I completely missed that, nice!
 Hi Ron,
 
 You could try using something like this:
-
-``
-`import AppKit
+```
+import AppKit
 import SwiftUI
 
 class KeyboardModifierMonitor: ObservableObject {
@@ -2261,12 +2236,8 @@ extension EventModifiers {
         if flags.contains(.numericPad) { insert(.numericPad) }
         if flags.contains(.function) { insert(.function) }
     }
-}
-
-```
-which you would then use in your controls like 
-so
-:
+}```
+which you would then use in your controls like so:
 ```public struct MyAmazingButton: View {
     @StateObject fileprivate var eventMonitor = KeyboardModifierMonitor()
 
@@ -2274,9 +2245,8 @@ so
         let modifiers = eventMonitor.eventModifiers
         let isOptionHeld = modifiers.contains(.option)
         let isShiftHeld = modifiers.contains(.shift)
-&lt;...
-
-&gt;```
+&lt;...&gt;
+```
 
 Nice! Will do.
 
@@ -2461,9 +2431,8 @@ But in my example, I pass the post as an EnvironmentObject when a Post is select
 Or this flow. I thought that if a Cart object created in the UserLogin View (probably in a NavigationStack) and passed in the Environment from this UserLogin View, it was accessible in the PaymentDetails in the same Stack. But this is only true if the Cart is passed before the NavigationStack?
 
 A view can’t have two parent environments. Consider the two ways we could propagate the environment:
-
-``
-`┌────────────────────────┐                             ┌────────────────────────┐              
+```
+┌────────────────────────┐                             ┌────────────────────────┐              
 │    NavigationStack     │                             │    NavigationStack     │              
 └────────────────────────┘                             └────────────────────────┘              
              │                                                      │                          
@@ -2480,7 +2449,6 @@ A view can’t have two parent environments. Consider the two ways we could prop
              │  ┌──────────────────────┐                               ┌──────────────────────┐
              └─▶│     Pushed View      │                               │     Pushed View      │
                 └──────────────────────┘                               └──────────────────────┘
-
 ```
 
 We chose the one on the left and leave it to developers to propagate any additional information as needed. This reduces the number of dependencies.
@@ -2513,9 +2481,8 @@ FB9994506: Ability to use macOS SwiftUI in iOS app using Catalyst optimized for 
 
 This year, there is the new `FormStyle` support, with `FormStyle.columns` available on all platforms, including Catalyst. That creates a Form layout like the default on native macOS with trailing aligned labels next to the leading aligned controls
 
-
-``
-`Form {
+```
+Form {
     Picker("Notify Me About:", selection: $notifyMeAbout) {
         Text("Direct Messages").tag(NotifyMeAboutType.directMessages)
         Text("Mentions").tag(NotifyMeAboutType.mentions)
@@ -2532,7 +2499,6 @@ This year, there is the new `FormStyle` support, with `FormStyle.columns` availa
     .pickerStyle(.inline)
 }
 .formStyle(.columns)
-
 ```
 
 <https://developer.apple.com/documentation/swiftui/formstyle/columns>
@@ -2573,16 +2539,14 @@ I have a big problem with putting more effort into looking like I'm doing work r
 `onTapGesture` can indeed be used more than once but you need to get them in the right order, so that the double-tap fails before the single-tap succeeds.
 
 Something like this:
-
-``
-`ItemView()
+```
+ItemView()
     .onTapGesture(count: 2) {
         ...
     }
     .onTapGesture {
         ...
     }
-
 ```
 
 Thanks. I'll give it a try. 
@@ -2592,15 +2556,13 @@ Thanks. I'll give it a try.
 
 
 We recommend factoring out the common parts and then using `if #available` checks to use the relevant modifier. Something like this:
-
-``
-`let common = commonViewParts
+```
+let common = commonViewParts
 if #available(iOS 16.0, macOS 13.0, *) {
     return common.newModifier()
 } else {
     return common.oldModifier()
 }
-
 ```
 
 Thanks. It would be great to have a cleaner way to do this in the future, especially as new modifiers get added in future versions of the operating systems (imagine an app targeting iOS 18, that had conditional branches for 18, 17, 16, and 15)
@@ -2672,11 +2634,9 @@ Ya that is very subtle. Thanks for pointing that out
 
 Take a look at the new toolbar visibility accepting modifier. This is new in SwiftUI and allows configuring the hiding or showing of different bars like the navigation bar, or the tab bar.
 
-
-``
-`ContentView()
+```
+ContentView()
  .toolbar(.hidden, in: .tabBar)
-
 ```
 See <https://developer.apple.com/documentation/swiftui/presentedwindowcontent/toolbar(_:in:)>
 
@@ -2684,10 +2644,7 @@ See <https://developer.apple.com/documentation/swiftui/presentedwindowcontent/to
 > ####  When using Charts to draw a line graph, is there a way to get the last point to be at the trailing edge of the chart view? I’m finding that it always has the trailing edge as a multiple of values used on the x axis. 
 
 
-You can use the `.chartXAxis(content:)` modifier passing an `AxisContentBuilder` that either completely customizes the x-axis, or you could first try out this initializer of `AxisMarks`  passing `true` for those `roundLowerBound` and `roundUpperBound`
-
-
-``
+You can use the `.chartXAxis(content:)` modifier passing an `AxisContentBuilder` that either completely customizes the x-axis, or you could first try out this initializer of `AxisMarks`  passing `true` for those `roundLowerBound` and `roundUpperBound```
 `/// Automatically determines the values for the markers,
 /// approximating the target number of values.
 public static func automatic(
@@ -2695,7 +2652,6 @@ public static func automatic(
     roundLowerBound: Bool? = nil,
     roundUpperBound: Bool? = nil
 ) -&gt; Values
-
 ```
 
 Thank you. I'll have a look at using that. 
@@ -2730,14 +2686,12 @@ The moment you add `.swipeActions` it up to you to define the delete action (Swi
 
 You want to create a button with a destructive role to achieve the same result:
 
-
-``
-`Button(role: .destructive) {
+```
+Button(role: .destructive) {
     delete()
 } label: {
     Label("Delete", systemImage: "trash")
 }
-
 ```
 
 <@U03J7BQQNPJ> On the iPad, In a list when a swipe action is used which shows a confirmation dialogue, the popup is not shown on the correct cell. For Example cell 5 is swiped, confirmation dialogue points to a different cell cell. Feedback `FB10026540`
@@ -2797,9 +2751,8 @@ Ah ha. Thanks for that info! :slightly_smiling_face:
 
 <@U03HEM646TX> Filed as `FB10144807` I can reproduce this on macOS 12.4. You should be able to reproduce it via the following code snippet:
 
-
-``
-`import Cocoa
+```
+import Cocoa
 
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -2813,7 +2766,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         statusItem.button?.image = NSImage(named: useTemplateImage ? NSImage.quickLookTemplateName : NSImage.statusAvailableName)
     }
 } 
-
 ```
 
 --- 
@@ -3001,13 +2953,11 @@ yea, I think we don’t translate search from anything other than the detail col
 
 I cover this in the “Use SwiftUI with UIKit” talk! Its right at the beginning.
 You just need to add it as a child viewcontroller
-
-``
-`// Add the hosting controller as a child view controller
+```
+// Add the hosting controller as a child view controller
 viewController.addChild(hostingController)
 viewController.view.addSubview(hostingController.view)
 hostingController.didMove(toParent: viewController)
-
 ```
 <https://developer.apple.com/wwdc22/10072>
 
@@ -3036,12 +2986,10 @@ Left is current, right is design
 MAKING PROGRESS, thank you for your help!!! how can I add the little circle dots for the data points? This is my code currently, Unbelievably short and easy (edited)
 
 You can either add a `PointMark` on top of the `LineMark` or by adding a symbol to the linemark
-
-``
-`LineMark(x: .value("xvalue", point.x),
+```
+LineMark(x: .value("xvalue", point.x),
          y: .value("yvalue", point.y))
     .symbol(Circle())
-
 ```
 
 My “Use SwiftUI in UIKit” sample project actually has an example of this <https://developer.apple.com/documentation/uikit/views_and_controls/using_swiftui_with_uikit>
@@ -3058,10 +3006,8 @@ Yes
 Let me find the docs for that…
 
 It should be an annotation modifer on the mark!
-
-``
-` .annotation(position: .top, alignment: .leading) 
-
+```
+ .annotation(position: .top, alignment: .leading) 
 ```
 
 <https://developer.apple.com/documentation/charts/visualizing_your_app_s_data>

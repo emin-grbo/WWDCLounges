@@ -103,11 +103,9 @@ Do you think I should request this in a Feedback? Anyway, thanks for your time.
 I believe you should be able to just pass it to the `open` command line tool or double click it.
 
 I can’t :disappointed:
-
-``
-`⇒  open <http://mmyapp.app|mmyapp.app>
+```
+⇒  open <http://mmyapp.app|mmyapp.app>
 The application cannot be opened because it has an incorrect executable format.
-
 ```
 And the application icon have that :no_entry_sign:
 
@@ -602,9 +600,8 @@ Hi Amy! I hope your WWDC is going well so far!
 
 Generally speaking, the equivalent to `instancetype` in Swift is `Self`. For example:
 
-
-``
-`class Animal {
+```
+class Animal {
   class func adopt() -&gt; Self {
     ...
   }
@@ -615,7 +612,6 @@ class Dog: Animal {
     ...
   }
 }
-
 ```
 Are you running into a scenario where `Self` isn't the right tool or isn't building? If I'm misunderstanding the issue, please let me know! :slightly_smiling_face:
 
@@ -637,11 +633,9 @@ Ah gotcha!
 
 As David says. `mutableCopy()` is an interface into Objective-C's `NSMutableCopying` protocol rather than being a Swift feature. One constraint here is that `mutableCopy()` does _not_ necessarily return an instance of `Self`—it could, for instance, return an instance of a type elsewhere in the class hierarchy. Compare `copy()` which often _cannot_ return `Self`:
 
-
-``
-`let a: NSMutableString = ...
+```
+let a: NSMutableString = ...
 let b = a.copy() // type of `b` is `NSString`, not `NSMutableString`.
-
 ```
 
 
@@ -654,14 +648,12 @@ There's no generic way to express the relationship between the types of `a` and 
 
 
 The solution is generally to hide the true underlying type of the variable. One potential solution is:
-
-``
-`final class Foo {
+```
+final class Foo {
   private lazy var _myBackingVar: Any { ... }
   @available(iOS 15.0, *)
   var myConditionallyAvailableVar: RealType { _myBackingVar as! RealType }
 }
-
 ```
 
 Another option that is sometimes useful is to define separate types for the cases with/without the partially available stored property, and to define a protocol over them that covers common members and can hold extension methods
@@ -1165,10 +1157,8 @@ This is a macOS app, correct?
 
 Perhaps, but not easily. My executable is 2.28 GB with both ASAN and UBSAN turned on, so it would take some doing to generate that much code. Yes, macOS.
 
-
-``
-`LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/../Frameworks
-
+```
+LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/../Frameworks
 ```
 
 Not seeing anything else that is non-default
@@ -1187,10 +1177,8 @@ That's a good point and lends more credence to the "binary too big" theory.
 
 So then our working theory is that this fails, because the instrumented code is too big.  :thinking_face:
 
-
-``
-`dyld cache '/System/Library/dyld/dyld_shared_cache_arm64e' not loaded: syscall to map cache into shared region failed
-
+```
+dyld cache '/System/Library/dyld/dyld_shared_cache_arm64e' not loaded: syscall to map cache into shared region failed
 ```
 
 That was my initial guess, but as you saw in the FB, it was ruled out. Maybe it shouldn’t have been?
@@ -1439,12 +1427,10 @@ Of course, that seems batched with other commands that also take that long.
 
 Sorry, can't create a snippet in here.
 
-
-``
-`CompileC /Users/jshier/Library/Developer/Xcode/DerivedData/CoinCraft-gwuknzufleeuswameyuiqpvmnuvj/Build/Intermediates.noindex/Promises.build/Debug-iphonesimulator/FBLPromises.build/Objects-normal/arm64/FBLPromise+Async.o /Users/jshier/Library/Developer/Xcode/DerivedData/CoinCraft-gwuknzufleeuswameyuiqpvmnuvj/SourcePackages/checkouts/promises/Sources/FBLPromises/FBLPromise+Async.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler (in target 'FBLPromises' from project 'Promises')
+```
+CompileC /Users/jshier/Library/Developer/Xcode/DerivedData/CoinCraft-gwuknzufleeuswameyuiqpvmnuvj/Build/Intermediates.noindex/Promises.build/Debug-iphonesimulator/FBLPromises.build/Objects-normal/arm64/FBLPromise+Async.o /Users/jshier/Library/Developer/Xcode/DerivedData/CoinCraft-gwuknzufleeuswameyuiqpvmnuvj/SourcePackages/checkouts/promises/Sources/FBLPromises/FBLPromise+Async.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler (in target 'FBLPromises' from project 'Promises')
     cd /Users/jshier/Library/Developer/Xcode/DerivedData/CoinCraft-gwuknzufleeuswameyuiqpvmnuvj/SourcePackages/checkouts/promises
     /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -target arm64-apple-ios9.0-simulator -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -fobjc-arc -fmodules -gmodules -fmodules-cache-path\=/Users/jshier/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -fmodules-prune-interval\=86400 -fmodules-prune-after\=345600 -fbuild-session-file\=/Users/jshier/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror\=non-modular-include-in-framework-module -fmodule-name\=FBLPromises -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-objc-interface-ivars -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DSWIFT_PACKAGE -DDEBUG\=1 -DOBJC_OLD_DISPATCH_PROTOTYPES\=1 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -fobjc-abi-version\=2 -fobjc-legacy-dispatch -index-store-path /Users/jshier/Library/Developer/Xcode/DerivedData/CoinCraft-gwuknzufleeuswameyuiqpvmnuvj/Index/DataStore -I/Users/jshier/Library/Developer/Xcode/DerivedData/CoinCraft-gwuknzufleeuswameyuiqpvmnuvj/Build/Products/Debug-iphonesimulator/include -I/Users/jshier/Library/Developer/Xcode/DerivedData/CoinCraft-gwuknzufleeuswameyuiqpvmnuvj/SourcePackages/checkouts/promises/Sources/FBLPromises/include -I/Users/jshier/Library/Developer/Xcode/DerivedData/CoinCraft-gwuknzufleeuswameyuiqpvmnuvj/Build/Intermediates.noindex/Promises.build/Debug-iphonesimulator/FBLPromises.build/DerivedSources-normal/arm64 -I/Users/jshier/Library/Developer/Xcode/DerivedData/CoinCraft-gwuknzufleeuswameyuiqpvmnuvj/Build/Intermediates.noindex/Promises.build/Debug-iphonesimulator/FBLPromises.build/DerivedSources/arm64 -I/Users/jshier/Library/Developer/Xcode/DerivedData/CoinCraft-gwuknzufleeuswameyuiqpvmnuvj/Build/Intermediates.noindex/Promises.build/Debug-iphonesimulator/FBLPromises.build/DerivedSources -F/Users/jshier/Library/Developer/Xcode/DerivedData/CoinCraft-gwuknzufleeuswameyuiqpvmnuvj/Build/Products/Debug-iphonesimulator -F/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -iframework /Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.0.sdk/Developer/Library/Frameworks -DXcode -MMD -MT dependencies -MF /Users/jshier/Library/Developer/Xcode/DerivedData/CoinCraft-gwuknzufleeuswameyuiqpvmnuvj/Build/Intermediates.noindex/Promises.build/Debug-iphonesimulator/FBLPromises.build/Objects-normal/arm64/FBLPromise+Async.d --serialize-diagnostics /Users/jshier/Library/Developer/Xcode/DerivedData/CoinCraft-gwuknzufleeuswameyuiqpvmnuvj/Build/Intermediates.noindex/Promises.build/Debug-iphonesimulator/FBLPromises.build/Objects-normal/arm64/FBLPromise+Async.dia -c /Users/jshier/Library/Developer/Xcode/DerivedData/CoinCraft-gwuknzufleeuswameyuiqpvmnuvj/SourcePackages/checkouts/promises/Sources/FBLPromises/FBLPromise+Async.m -o /Users/jshier/Library/Developer/Xcode/DerivedData/CoinCraft-gwuknzufleeuswameyuiqpvmnuvj/Build/Intermediates.noindex/Promises.build/Debug-iphonesimulator/FBLPromises.build/Objects-normal/arm64/FBLPromise+Async.o -index-unit-output-path /Promises.build/Debug-iphonesimulator/FBLPromises.build/Objects-normal/arm64/FBLPromise+Async.o
-
 ```
 
 Other files from the module took just .3s
@@ -1721,13 +1707,11 @@ Can we get the feedback number?
 
 `any P` for any protocol type will work on older runtimes. With associated types it's a bit more complicated. You can't generally use `any P&lt;Type&gt;` as a first-class type without the 5.7 runtime, but you can use it in stored properties of other types, allowing you to write a wrapper struct that can be back deployed
 
-
-``
-`// this will be back deployable
+```
+// this will be back deployable
 struct AnyP&lt;T&gt; {
   var value: any P&lt;T&gt;
 }
-
 ```
 
 Is there a concrete code example of what cannot be done without 5.7 and how this back deployable struct would work for older deployment targets?
@@ -1755,40 +1739,25 @@ What I’d love to know is if my team can use `any Collection&lt;any P&gt;` in p
 
 You can find the documentation for `objdump` here: <https://llvm.org/docs/CommandGuide/llvm-objdump.html>
 `--disassembler-options` should work like following but it doesn't work for you, please file a feedback report to us:
-
-``
-`objdump --macho --disassemble-all --disassembler-options=no-aliases arm64.o
-
+```
+objdump --macho --disassemble-all --disassembler-options=no-aliases arm64.o
 ```
 
 For `as` , it is just an alias to `clang`. You can just build your assembly file with `clang` instead.
 
-True. What I was referring to was more the syntax and keywords. Like, gcc as will accept `
-
-``
-`ADD X2, X1, X0, SXTB
-
+True. What I was referring to was more the syntax and keywords. Like, gcc as will accept ```
+`ADD X2, X1, X0, SXTB```
+clang needs
+```ADD X2, X1, W0, SXTB
 ```
-clang ne
-ed
-s
-```ADD X2, X1, W0, 
-
-SXTB```
 
 
 or
-
-``
-`MUL V6.4H, V0.4H, V3.4H[0]
-
 ```
-
-v
-s
-```MUL.4H V6, V0, V
-
-3[0]```
+MUL V6.4H, V0.4H, V3.4H[0]```
+vs
+```MUL.4H V6, V0, V3[0]
+```
 
 
 `as` exists as an compatibility tool to binutils. You can find documentation by running `man as` on commandline
@@ -2160,16 +2129,11 @@ Got it, so I guess the continuation needs to be captured outside of the SwiftUI 
 yea, that is a supported (and relatively common) way of using it
 
 Something like that?:
-
-``
-`TextField("Your Location", text: $location)
+```
+TextField("Your Location", text: $location)
             .onChange(of: location) {
                 viewModel.capturedTextfieldCntinuation.yield($0)
-            }
-
-
-``
-`
+            }```
 ```class ViewModel {
   var capturedTextfieldCntinuation: ...
 
@@ -2181,10 +2145,9 @@ Something like that?:
 
   textFieldStream
      .debounce()
-     .
-
-..
-}```
+     ...
+}
+```
 
 Or is there maybe another way to turn a `@Published`  which is bound to the textfield to an AsyncStream?
 
@@ -2914,16 +2877,14 @@ Thanks for your interest in using Combine with primary associated types. We shar
 
 To answer your question, there is nothing stopping Combine from adopting this feature. You can even try it out yourself if you want to by defining your own protocol that refines Publisher and making combines existing publisher types conform to it.
 
-
-``
-`protocol _Publisher&lt;Output, Failure&gt;: Combine.Publisher {
+```
+protocol _Publisher&lt;Output, Failure&gt;: Combine.Publisher {
   associatedtype Output
   associatedtype Failure
 }
 
 extension Just: _Publisher {}
 /* etc */
-
 ```
 It's a bit tedious but each conformance should take no code outside of the extension.
 
@@ -3407,10 +3368,8 @@ E.g. when you run your app from Xcode, Xcode will highlight common hang causes a
 
 Lastly, feel free to sign up for tomorrow's <https://developer.apple.com/wwdc22/labs-and-lounges/dashboard/TJ7F5J2CSP/dashboard|Performance, power, and stability lab> and we are happy to take a look at this together with you. If you can reproduce the issue and share your screen during the Webex lab we can take a look together.
 
-
-``
-`This year, we added Hang detection to Instruments.
-
+```
+This year, we added Hang detection to Instruments.
 ```
 
 Noice. :clap::skin-tone-3:
@@ -3626,10 +3585,8 @@ You can define new Clang modules by putting a `modules.modulemap` file into the 
 <https://clang.llvm.org/docs/Modules.html>
 
 In the simplest case something like:
-
-``
-`module MyModule { header "MyHeader.h" }
-
+```
+module MyModule { header "MyHeader.h" }
 ```
 would be sufficient.
 
@@ -3706,16 +3663,14 @@ You may need to think about how to cache this value before transferring the Real
 Right now, I have annotated the property itself with `@OurActor`.
 
 Can that be a computed setter/getter? In other words, if I refactor it as such in our state controller:
-
-``
-`@OurActor
+```
+@OurActor
 var user: User? {
   get { localUser }
   set { localUser = $0 }
 }
 
 private var localUser: User?
-
 ```
 Would that be legal?
 
@@ -3760,9 +3715,8 @@ However, if you want to manually handle authentication, adding an `Authorization
 
 
 Hi <@U03J4DRK4SY> ! This year Foundation introduced `URL.ParseStrategy` (alongside with `URL.FormatStyle`) that can be used to parse user generated URLs. You can use it the same way as the rest of Foundation's parse strategies. Here's an example:
-
-``
-`let strategy = URL.ParseStrategy()
+```
+let strategy = URL.ParseStrategy()
     .scheme(.defaultValue("https"))
     .user(.optional)
     .password(.optional)
@@ -3773,17 +3727,14 @@ Hi <@U03J4DRK4SY> ! This year Foundation introduced `URL.ParseStrategy` (alongsi
     .fragment(.optional)
 let text = "<http://www.watermelon.com/about|www.watermelon.com/about>"
 let url = try? strategy.parse(text) // <https://www.watermelon.com:8080/about>
-
 ```
 
 This new `ParseStrategy` supports Internationalized Domain Names (IDNs), so you'll be able to parse URLs like this:
-
-``
-`let strategy = URL.ParseStrategy()
+```
+let strategy = URL.ParseStrategy()
 // Yes, these are real URLs in use :P
-try? strategy.parse("https://👁👄👁.fm") // returns an URL instance```
-
-
+try? strategy.parse("https://👁👄👁.fm") // returns an URL instance
+```
 
 The parse strategy doesn’t implement the full WHATWG standard, but it can be used as a start if all you have access to is built-in functionality. If you’d like the standard to be in Foundation, the best way to track that is to send us a feedback!
 
@@ -3793,17 +3744,11 @@ The other big issue I've encountered in the past was that some remote services w
 
 &gt; Can the ParseStrategy handle escaping invalid characters in the URL?
 Yes! For example
-
-``
-`try? URL.ParseStrategy().parse("<http://見.香港/热狗/🌭>")`
-
-``
-should return an URL instance like thi
-s:
-
-```<http://xn--nw2a.xn--j6w193g/%E7%83%AD%E7%8B%97/%F0%9F%8C%
-
-AD>```
+```
+try? URL.ParseStrategy().parse("<http://見.香港/热狗/🌭>")```
+should return an URL instance like this:
+```<http://xn--nw2a.xn--j6w193g/%E7%83%AD%E7%8B%97/%F0%9F%8C%AD>
+```
 Note that the host name has been automatically Punycode encoded while the path has been percent encoded.
 
 :heart_eyes: That is fantastic!
@@ -3822,9 +3767,8 @@ If you are using something like `share()` or a built-in Subject type to share th
 
 maybe i’m not understanding combine correctly :sweat_smile:
 something like this
-
-``
-`@Published var myVar: Bool = false
+```
+@Published var myVar: Bool = false
 
 let sub1 = $myVar.sink {
     print($0)
@@ -3832,7 +3776,6 @@ let sub1 = $myVar.sink {
 let sub2 = $myVar.sink {
     print(!$0)
 }
-
 ```
 
 first subscription with `sub1` would subscribe and request it’s demand and receive the current value (cause `@Published` is like a `CurrentValueSubject` ) then `sub2` would subscribe and request it’s demand and get the current value. After that the subscriptions (so long as both `sub1` and `sub2` have an active reference count) would be setup so only demand and values would be exchanged
@@ -3925,10 +3868,8 @@ Thank you a lot!
 
 Great question. Generally swift plugins are running inside a sandbox for security reasons. This sandbox does not allow network access. If you have created your own plugin, which you trust, you can disable the sandbox on the command line with:
 
-
-``
-`swift package --disable-sandbox yourPluginName
-
+```
+swift package --disable-sandbox yourPluginName
 ```
 If you are interested in allowing plugins specialized network access while not disabling the sandbox, we would encourage you to post a swift forums thread describing your use case.
 
@@ -4085,10 +4026,8 @@ I wrote this question as I was watching the video. Just 2 minutes after sending 
 
 The better options here is to allow only write access to your files instead of disabling the sandbox altogether. This will ensure the plugin still can not communicate with the network/internet, but allows write access…
 
-
-``
-`swift package --allow-writing-to-package-directory yourPluginThatWantsWriteAccess
-
+```
+swift package --allow-writing-to-package-directory yourPluginThatWantsWriteAccess
 ```
 You can learn more about it here:
 <https://github.com/apple/swift-package-manager/blob/main/Documentation/Plugins.md>
@@ -4417,19 +4356,15 @@ It’s a Swift feature, so it doesn’t require increasing the deployment target
 I should note that using generics in concert with the new existential type features _may_ require you to increase your deployment target. Essentially, if Swift can determine something statically you're free to use it on whatever OS you'd like. However, when Swift needs to make runtime calls (the big ones are casting with `is/as!/as?`!) you will need to use availability guards.
 
 So something that compiles:
-
-``
-`let xs = [ "Hello" ] as any Collection&lt;String&gt;
-
+```
+let xs = [ "Hello" ] as any Collection&lt;String&gt;
 ```
 
 
 But something that requires a deployment target bump:
-
-``
-`let fail = Array&lt;any Collection&lt;String&gt;&gt;() // Requires runtime support to know the layout of `any Collection&lt;String&gt;
-
-````
+```
+let fail = Array&lt;any Collection&lt;String&gt;&gt;() // Requires runtime support to know the layout of `any Collection&lt;String&gt;`
+```
 
 --- 
 > ####  I have a question for Xcode Q&amp;A. I want to reset permission status for booted simulator. When I call `xcrun simctl privacy` commands, nothing happens. Example commands: `xcrun simctl privacy booted reset contacts MY_APP_ID` `xcrun simctl privacy booted reset all` This issue happens for all types of permissions: contacts, notifications, reminders etc. I submitted a bug report last year FB9737211 but the issue is not fixed in Xcode 14. When the issue will be fixed?
@@ -4490,11 +4425,9 @@ It looks like this issue was reported against 13.3, and it should already be add
 
 
 Hi there! Thanks for the great question! I believe this issue is noted on the Xcode 14 Beta Release Notes page at <https://developer.apple.com/documentation/xcode-release-notes/xcode-14-release-notes>:
-
-``
-`Apps won't launch in simulator and the following error occurs when viewing Xcode's Target Output: Library not loaded: /usr/lib/swift/libswiftCloudKit.dylib (94331191)
+```
+Apps won't launch in simulator and the following error occurs when viewing Xcode's Target Output: Library not loaded: /usr/lib/swift/libswiftCloudKit.dylib (94331191)
 Workaround: Set your app's minimum deployment target to iOS 16, tvOS 16, or watchOS 9.
-
 ```
 Hope that helps!!
 
@@ -4622,14 +4555,12 @@ So this is no longer work?
 I don't believe it properly worked before.
 
 yea this no longer works. this is a solution someone gave
-
-``
-`final class Foo {
+```
+final class Foo {
   private lazy var _myBackingVar: Any { ... }
   @available(iOS 15.0, *)
   var myConditionallyAvailableVar: RealType { _myBackingVar as! RealType }
 }
-
 ```
 
 
@@ -4654,9 +4585,8 @@ is this reasonable or there’s any other implication here we might not be seein
 
 Ah sorry for the late reply. I'm not a type checker expert, but...
 For both cases in this specific example, yes the compiler _can_ know `T` conforms to `B` for `Foo&lt;TypeB&gt;` . However, in case these functions are in a different module like this:
-
-``
-`// Library module.
+```
+// Library module.
 
 public protocol A {}
 public protocol B: A {}
@@ -4667,12 +4597,8 @@ public class Foo&lt;T: A&gt; {
   public func baz() -&gt; Bool
 }
 
-public func callBarFails&lt;X: A&gt;(from foo: Foo&lt;X&gt;) -&gt; Bool
-
-```
-And in the main modu
-le
-:
+public func callBarFails&lt;X: A&gt;(from foo: Foo&lt;X&gt;) -&gt; Bool```
+And in the main module:
 ```// main module
 
 import Library
@@ -4681,9 +4607,8 @@ struct TypeA: A {}
 struct TypeB: B {}
 
 _ = Foo&lt;TypeB&gt;().baz()
-_ = callBarFails(from: Foo&lt;TypeB&gt
-
-;())```
+_ = callBarFails(from: Foo&lt;TypeB&gt;())
+```
 In this case, when the compiler compiles `Library.callBarFails(from:)` , it doesn't know how the function is called at all. Also, when compiling `main` module, the compiler doesn't know the implementation of the `callBarFails(from:)` . So it can't dispatch it to `Foo&lt;T&gt;.bar() where T: B` .
 
 It'd be super confusable if we differentiate the behavior between `internal` decls and `public` decls.
@@ -4784,14 +4709,12 @@ Yes, it's a bit subtle, but can be a very flexible way to work with dependencies
 
 <@U03HES8111T> Well, if I add `<mailto:git@github.com|git@github.com>` URL references (without local ones), Xcode Cloud now says me:
 
-
-``
-`Could not resolve package dependencies:
+```
+Could not resolve package dependencies:
 Failed to clone repository git@github.com:MY_COMPANY/MY_PROJECT.git:
 Cloning into bare repository '/Volumes/workspace/DerivedData/SourcePackages/repositories/MY_PROJECT-23c66cda'.
 fatal: could not read Username for '<http://github.com>':terminal prompts disabled
 Failed to clone repository git@github.com:MY_COMPANY/MY_PROJECT.git:
-
 ```
 
 FWIW, I’m getting this same error.
@@ -5033,22 +4956,16 @@ But you should not receive any runtime crashes. The compiler or linker should th
 
 Thanks for the clarifying the syntax part. I think my second question can be rephrased into :
 Can I run this code on `iOS 15` if I build with `Swift 5.7`?
-
-``
-`struct AnyP&lt;T&gt; {
+```
+struct AnyP&lt;T&gt; {
   var value: any P&lt;T&gt;
 }
-let anyP: AnyP&lt;Int&gt; = ....
-
-```
-and even t
-hi
-s
+let anyP: AnyP&lt;Int&gt; = ....```
+and even this
 ```func foo&lt;T&gt;(_ bar: T) { ... }
 
-foo(any Collection&lt;Int&gt;) // can I run this on iOS 15 with built on Swift 5
-
-.7? ```
+foo(any Collection&lt;Int&gt;) // can I run this on iOS 15 with built on Swift 5.7? 
+```
 
 
 --- 

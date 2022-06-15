@@ -45,6 +45,13 @@ struct ChannelScanner {
 }
 
 struct ChannelWriter {
+    let CodeBlockRegex = {
+        try! NSRegularExpression(pattern: "`\\s*?`\\s*?`\\s*?([\\S\\s]*)`\\s*?`\\s*?`\\s*?")
+    }()
+    let CodeBlockTemplate = {
+        "```\n$1\n```"
+    }()
+    
     let channelSource: ParsableChannel
     
     func write() -> ParsableChannel {
@@ -68,32 +75,22 @@ struct ChannelWriter {
             .replacingOccurrences(of: #"<.*> asked"#, with: "", options: .regularExpression)
         
         let messageMarkdown = "\n--- \n> #### \(formattedMessage)\n\n"
-        
-        let repliesMarkdown: [String] = message.slackdumpThreadReplies?.compactMap { $0.text }.map { text in
-            // Need to add two new lines around text as GitHub-flavoured markdown treats a single line break as none
-            var stringToReturn = "\n\(text)\n"
-            let regex = try! NSRegularExpression(pattern: "```")
-            let matches = regex.matches(in: stringToReturn, range: NSRange(location: .zero, length: stringToReturn.utf16.count))
-            
-            matches
-                .enumerated()
-                .forEach { offset, match in
-                    let start = stringToReturn.startIndex
-                    // Need to add a line break when opening and when closing a code block
-                    let matchStart = offset % 2 == 0 ? match.range.lowerBound : match.range.upperBound - 1
-                    let matchEnd = min(matchStart + 4, match.range.upperBound)
-                    let stringIndex = stringToReturn.index(start, offsetBy: matchStart)
-                    let stringEnd = stringToReturn.index(start, offsetBy: matchEnd)
-                    // Need to add a new line when closing and opening a code block
-                    stringToReturn.insert("\n", at: stringIndex)
-                    stringToReturn.insert("\n", at: stringEnd)
-                }
-            
-            return stringToReturn
-        } ?? []
-        
         partialResult.append(messageMarkdown)
-        repliesMarkdown.forEach { partialResult.append($0) }
+        
+        message.slackdumpThreadReplies?
+            .compactMap { $0.text }
+            .lazy
+            .map { text -> String in
+                let stringBlock = "\n\(text)\n"
+                let stringToReturn = CodeBlockRegex.stringByReplacingMatches(
+                    in: stringBlock,
+                    range: NSRange(stringBlock.startIndex..., in: stringBlock),
+                    withTemplate: CodeBlockTemplate
+                )
+                return stringToReturn
+            }.forEach { formatted in
+                partialResult.append(formatted)
+            }
     }
 }
 

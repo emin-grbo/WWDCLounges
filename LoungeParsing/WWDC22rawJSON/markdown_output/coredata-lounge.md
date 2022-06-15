@@ -24,15 +24,13 @@ What can mark them as scheduled for deallocation?
 setting `-com.apple.CoreData.ConcurrencyDebug 1` in your apps arguments should help you zero in on any remaining thread-unsafe use (EDIT: aw admin disabled the “delete message” feature)
 
 Btw, I tried the flag, but it doesn’t seem to work. Or I don’t understand how it should work. Code example (projects is list of managed objects fetched from view context):
-
-``
-`            if let first = projects.first {
+```
+            if let first = projects.first {
                 DispatchQueue.global().async { [weak self] in
                     let persistentFirst = first
                     self?.dispatchBackToMain(project: persistentFirst)
                 }
             }
-
 ```
 I would expect this code to fail assertion and break on line `let persistenFirst = first` or the line after that, but it doesn’t seem to be the case. Or does the assertion only happen when `context.perform { }` is used?
 
@@ -360,14 +358,12 @@ The most common is the system decided that you don't get any more time when runn
 
 If you are seeing crashes around the file being removed out from underneath the other due to file manipulations , we provide API to interact with the files that will not crash the App/Extenstion :
 
-
-``
-`NSPersistentStoreCoordinator.h
+```
+NSPersistentStoreCoordinator.h
 
 - (BOOL)destroyPersistentStoreAtURL:(NSURL *)url withType:(NSString *)storeType options:(nullable NSDictionary *)options error:(NSError**)error API_AVAILABLE(macosx(10.11),ios(9.0));
 
 - (BOOL)replacePersistentStoreAtURL:(NSURL *)destinationURL destinationOptions:(nullable NSDictionary *)destinationOptions withPersistentStoreFromURL:(NSURL *)sourceURL sourceOptions:(nullable NSDictionary *)sourceOptions storeType:(NSString *)storeType error:(NSError**)error API_AVAILABLE(macosx(10.11),ios(9.0));
-
 ```
 
 We're still experimenting on this, but it happens during stack setup. NSSQLiteErrorDomain error 11, We changed some things and then got NSSQLiteErrorDomain error 261 sometimes. We migrated from deleting with FileManager to using these destroyPersistentStoreAtURL and replacePersistentStoreAtURL APIs.
@@ -1093,9 +1089,8 @@ You can also use it to drive view refreshing between processes with remote chang
 
 Here is a bit more about Remote Change Notifications and the option to enable them for your Persistent Stores:
 
-
-``
-`/* When NSPersistentStoreRemoteChangeNotificationPostOptionKey is set to YES, a NSPersistentStoreRemoteChangeNotification is posted for every
+```
+/* When NSPersistentStoreRemoteChangeNotificationPostOptionKey is set to YES, a NSPersistentStoreRemoteChangeNotification is posted for every
  write to the store, this includes writes that are done by other processes
  */
 COREDATA_EXTERN NSString * const NSPersistentStoreRemoteChangeNotificationPostOptionKey API_AVAILABLE(macosx(10.15),ios(13.0),tvos(13.0),watchos(6.0));
@@ -1104,7 +1099,6 @@ COREDATA_EXTERN NSString * const NSPersistentStoreRemoteChangeNotificationPostOp
  The payload is the store UUID (NSStoreUUIDKey), store URL (NSPersistentStoreURLKey), and NSPersistentHistoryToken for the transaction (if NSPersistentHistoryTrackingKey was also set)
  */
 COREDATA_EXTERN NSString * const NSPersistentStoreRemoteChangeNotification API_AVAILABLE(macosx(10.14),ios(12.0),tvos(12.0),watchos(5.0));
-
 ```
 
 Neat. I've been exploring those for the purposes of disconnecting my custom sync management from existing code which deals with modifying objects, but I'll definitely keep them in mind when we start to add more external processes/extensions. Thanks!
@@ -1331,11 +1325,9 @@ then you could be mapping the identities of the objects of notifications the FRC
 
 It’s easier to express something like this in SwiftUI (drycoded):
 
-
-``
-`@FetchRequest(…) var modelObjs: FetchedResults&lt;Entity&gt;
+```
+@FetchRequest(…) var modelObjs: FetchedResults&lt;Entity&gt;
 var viewModel: LazyMapCollection&lt;EntityVM&gt; { modelObjs.lazy.map { EntityVM($0) } }
-
 ```
 but there’s a lot of potential gotchas around accidentally defeating the laziness of `viewModel` (by using it in `ForEach` or `List` for example). If you know your list will have a limited size then the laziness isn’t necessary, but for something scaling beyond hundreds of cells you’d be able to measure problems pretty quickly.
 
@@ -1471,9 +1463,8 @@ For anyone else interested there is more info in this thread: <https://wwdc22.sl
 
 Probably need to add an intermediate view that manifests a fetch request, something like:
 
-
-``
-`struct ContentPreView: View {
+```
+struct ContentPreView: View {
     @FetchRequest(…) var foo: FetchedResults&lt;T&gt;
     
     var body: some View {
@@ -1486,7 +1477,6 @@ struct ContentView_Previews: PreviewProvider {
         ContentPreView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }
-
 ```
 
 
@@ -1525,18 +1515,14 @@ Yes. So, what should I input for the Custom Class?:thinking_face:
 `NSArray` is probably fine.
 
 If I used [Color], it will not crash, but appear error
-
-``
-`Unresolved error Error Domain=NSCocoaErrorDomain Code=134060 "A Core Data error occurred.", [:]
-
+```
+Unresolved error Error Domain=NSCocoaErrorDomain Code=134060 "A Core Data error occurred.", [:]
 ```
 
 Ok let me try NSArray
 
-
-``
-`Still error, Unresolved error Error Domain=NSCocoaErrorDomain Code=134060 "A Core Data error occurred.", [:]
-
+```
+Still error, Unresolved error Error Domain=NSCocoaErrorDomain Code=134060 "A Core Data error occurred.", [:]
 ```
 
 <@U03HMJ2P5MJ> is the transformable ‘natively’ support NSArray?
@@ -1979,19 +1965,15 @@ Aside from the APS environment value, is there anything else you'd recommend I l
 
 These are the logs that tell us what environment your app is entitled for:
 
-
-``
-`
+```
 
 ```
 
-
-``
-`2022-06-09 17:34:23.029452-0600 0xd08      Debug       0x0                  259    0    Vacation Planner: (CloudKit) [com.apple.cloudkit:NotificationListener] Running in an app and choosing app strategy
+```
+2022-06-09 17:34:23.029452-0600 0xd08      Debug       0x0                  259    0    Vacation Planner: (CloudKit) [com.apple.cloudkit:NotificationListener] Running in an app and choosing app strategy
 2022-06-09 17:34:23.029837-0600 0xd08      Debug       0x0                  259    0    Vacation Planner: (CloudKit) [com.apple.cloudkit:CK] APS environment entitlement is development
 2022-06-09 17:34:23.029842-0600 0xd08      Debug       0x0                  259    0    Vacation Planner: (CloudKit) [com.apple.cloudkit:NotificationListener] Using push environment development
 2022-06-09 17:34:23.030280-0600 0xd08      Info        0x0                  259    0    Vacation Planner: (CloudKit) [com.apple.cloudkit:NotificationListener] Init notification listener &lt;CKNotificationListener: 0x281d356d0; strategy=1, environment=development&gt;
-
 ```
 
 If you believe you set the entitlement correctly, but still see that the notification listener is working the development environment, you can attach your app for us to take a look.

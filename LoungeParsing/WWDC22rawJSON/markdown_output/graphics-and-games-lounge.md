@@ -133,9 +133,8 @@ check `synchronize` <https://developer.apple.com/documentation/metal/mtlblitcomm
 Also, if you wanted a example of this pattern check out the game template in XCode by creating a new project in Xcode, selecting the `Game` template and picking `Game Technology: Metal` . In that template check how `_inFlightSemaphore` is used to multi buffer the uniforms buffer.
 
 From the Dynamic Terrain Sample code:
-
-``
-`    // We allow up to three command buffers to be in flight on GPU before we wait
+```
+    // We allow up to three command buffers to be in flight on GPU before we wait
     static const NSUInteger kMaxBuffersInFlight = 3;
 
     _device             = device;
@@ -144,7 +143,6 @@ From the Dynamic Terrain Sample code:
     _inFlightSemaphore  = dispatch_semaphore_create (kMaxBuffersInFlight);
     _frameAllocator     = new AAPLAllocator (device, 1024 * 1024 * 16, kMaxBuffersInFlight);
     _uniforms_gpu       = _frameAllocator-&gt;allocBuffer &lt;AAPLUniforms&gt; (1);
-
 ```
 
 You can see we explicitly limit our in-flight sets to 3 in this example. (<https://developer.apple.com/documentation/metal/buffers/rendering_terrain_dynamically_with_argument_buffers|link to sample code> )
@@ -1463,9 +1461,8 @@ Here is a link to the talk for others who may be interested in more: <https://de
 I tried to extract the Metal Pipeline JSON from a harvested archive, but got `metal-source: error: unsupported binary format`
 
 I harvested the archive using (swift)...
-
-``
-`let lib = device.makeDefaultLibrary()!
+```
+let lib = device.makeDefaultLibrary()!
 let desc = MTLRenderPipelineDescriptor()
 desc.vertexFunction = lib.makeFunction(name: "vert_main")
 desc.fragmentFunction = lib.makeFunction(name: "frag_main")
@@ -1476,7 +1473,6 @@ let archdesc = MTLBinaryArchiveDescriptor()
 let archive = try device.makeBinaryArchive(descriptor: archdesc)
 try archive.addRenderPipelineFunctions(descriptor: desc)
 try archive.serialize(to: NSURL.fileURL(withPath: "/Users/pwong/Downloads/x-game.metallib"))
-
 ```
 
 Not sure if this is suppose to work yet on MacOS 13 beta/XCode 14 beta...
@@ -1506,26 +1502,19 @@ Thanks <@U03J7T89SQG> , I didn't know about that option!
 
 
 Hi, this sounds like an interesting question. For example sake (using non-real code), I think you are trying to ask if you can do something like
-
-``
-`template &lt;typename T&gt;
-void computeShader(...) { ... }
-
 ```
-in your shader code and then reference this function using something l
-ik
-e
-```id &lt;MTLFunction&gt; function = [defaultLibrary newFunctionWithName:@"computeShader&lt;MyType&gt
-
-;"];```
+template &lt;typename T&gt;
+void computeShader(...) { ... }```
+in your shader code and then reference this function using something like
+```id &lt;MTLFunction&gt; function = [defaultLibrary newFunctionWithName:@"computeShader&lt;MyType&gt;"];
+```
 Is that what you are asking?
 
 You can use the `host_name` attribute and then define your template specializations. In the <https://developer.apple.com/metal/Metal-Shading-Language-Specification.pdf|Metal Shading Language Specification>, section 5.1.10 and 5.1.11 show how you can change the name that Metal will use to reference the function name.
 
 For example, you could try something like:
-
-``
-`template &lt;typename MyType&gt;
+```
+template &lt;typename MyType&gt;
 kernel void computeShader(device MyType* output, constant MyType &amp;argument)
 {
   *output = argument;
@@ -1535,16 +1524,11 @@ template [[host_name("computeShader_int")]]
 kernel void computeShader&lt;int&gt;(device int* output, constant int &amp;argument);
 
 template [[host_name("computeShader_float")]]
-kernel void computeShader&lt;float&gt;(device float* output, constant float &amp;argument);
-
-```
-And then reference the functions in your app wi
-th
-:
+kernel void computeShader&lt;float&gt;(device float* output, constant float &amp;argument);```
+And then reference the functions in your app with:
 ```id &lt;MTLFunction&gt; function1 = [defaultLibrary newFunctionWithName:@"computeShader_int"];
-id &lt;MTLFunction&gt; function2 = [defaultLibrary newFunctionWithName:@"computeShader_floa
-
-t"];```
+id &lt;MTLFunction&gt; function2 = [defaultLibrary newFunctionWithName:@"computeShader_float"];
+```
 
 
 <@U03J7T89SQG> Yes, your example illustrates what I was looking for. So sounds like I'd still need to create a compute pipeline state per pixel format?
@@ -1554,11 +1538,9 @@ For context, I was hoping to build my compute pipeline state once up front and a
 Yes, you would need to create a pipeline state for each one.
 
 Something like:
-
-``
-`template &lt;typename T&gt;
+```
+template &lt;typename T&gt;
 void computeShader(texture2d&lt;T&gt; myTexture [[texture(0)]]) { ... }
-
 ```
 where T is inferred from `texture(0)`
 
@@ -1819,14 +1801,12 @@ Wooooooooo! No square brackets for ME this weekend! :confetti_ball: :man_dancing
 Hello David, could you please provide some further details about the crash? Is it a CPU crash pointing at the Metal library or is it a GPU crash? Thanks
 
 Posted in the study hall, but the common part of the stack trace is:
-
-``
-`Thread 0 Crashed:
+```
+Thread 0 Crashed:
 0   libobjc.A.dylib                      0x000000019c8b7470 objc_release + 16
 1   IOGPU                                0x00000001cf8059d8 -[IOGPUMetalResource dealloc] + 204
 2   IOGPU                                0x00000001cf80672c -[IOGPUMetalBuffer dealloc] + 288
 3   AGXMetalA10                          0x00000001df28ab28 0x1df26b000 + 129832
-
 ```
 
 It's rare, so I don't think it's an over-release on our part.
@@ -1849,9 +1829,8 @@ Based on the signature of your stack track this is quite likely a zombie object.
 
 Here ya go, had to anonymize it:
 
-
-``
-`Thread 0 Crashed:
+```
+Thread 0 Crashed:
 0   libobjc.A.dylib                      0x000000019c8b7470 objc_release + 16
 1   IOGPU                                0x00000001cf8059d8 -[IOGPUMetalResource dealloc] + 204
 2   IOGPU                                0x00000001cf80672c -[IOGPUMetalBuffer dealloc] + 288
@@ -1876,12 +1855,8 @@ Here ya go, had to anonymize it:
 21  UIKitCore                            0x0000000187d0fb90 -[UIApplication _run] + 1076
 22  UIKitCore                            0x0000000187aa516c UIApplicationMain + 328
 23  MyApp                                0x0000000106f36e1c main (main.m:127)
-24  ???                                  0x0000000109580250 0x0 + 0
-
-```
-And another one (different system altogeth
-er
-)
+24  ???                                  0x0000000109580250 0x0 + 0```
+And another one (different system altogether)
 ```Thread 0 Crashed:
 0   libobjc.A.dylib                      0x00000001dc079ef8 objc_msgSend + 56
 1   IOGPU                                0x00000002242b87a0 -[IOGPUMetalResource dealloc] + 208
@@ -1918,9 +1893,8 @@ er
 32  UIKitCore                            0x00000001c5d14e88 -[UIApplication _run] + 1096
 33  UIKitCore                            0x00000001c5a965ec UIApplicationMain + 360
 34  MyApp                                0x0000000106d495fc main (main.m:127)
-35  ???                                  0x0000000109679ce4 0x0
-
- + 0```
+35  ???                                  0x0000000109679ce4 0x0 + 0
+```
 
 Note: `deleteGLBuffers()` is part of the legacy code hierarchy. Rendering path is all Metal.
 
@@ -1937,14 +1911,12 @@ Let me look up the creation code
 Also, do you have a common pool of Metal resources that lives across sub-systems?
 
 Not vertex or index buffers, at least. Creation happens in Obj-C++ code and looks like:
-
-``
-`            auto em = std::any_cast &lt;Environment::Metal&gt; ( &amp;_environment-&gt;_metal );
+```
+            auto em = std::any_cast &lt;Environment::Metal&gt; ( &amp;_environment-&gt;_metal );
             id &lt;MTLDevice&gt; device = em-&gt;_device;
             
             auto mtl = std::any_cast &lt;Metal&gt; ( &amp;_metal );
             mtl-&gt;_buffer = [device newBufferWithLength: sizeInBytes options: MTLResourceCPUCacheModeDefaultCache];
-
 ```
 
 That should be retained, if I'm not mistatken.
@@ -1954,9 +1926,8 @@ Sorry, what I meant is: how do you create `MTLCommandBuffer` objects?
 Do you by chance use `MTLCommandQueue:commandBufferWithUnretainedReferences` or `MTLCommandQueue:commandBufferWithDescriptor` setting `commandBufferWithUnretainedReferences=YES`?
 
 No, I don't think so. Device and queue are created here:
-
-``
-`            _metal.emplace &lt;Metal&gt; ();
+```
+            _metal.emplace &lt;Metal&gt; ();
             auto mtl = std::any_cast &lt;Metal&gt; ( &amp;_metal );
             
             bool first = ( mtl-&gt;_device == nullptr );
@@ -1969,19 +1940,14 @@ No, I don't think so. Device and queue are created here:
             {
                 initialize();
                 initializeMetalRendering();
-            }
-
-```
-Then the command buffer is created he
-re
-:
+            }```
+Then the command buffer is created here:
 ```        void Environment::start()
         {
             auto mtl = std::any_cast &lt;Metal&gt; ( &amp;_metal );
             
-            mtl-&gt;_buffer = [mtl-&gt;_queue commandBuff
-
-er];```
+            mtl-&gt;_buffer = [mtl-&gt;_queue commandBuffer];
+```
 
 OK, that’s a command buffer with retained resources then
 

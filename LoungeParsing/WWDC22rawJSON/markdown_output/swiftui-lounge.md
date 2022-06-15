@@ -57,14 +57,12 @@ Yes!
 
 To animate between layouts you'll need to switch between the layouts using `AnyLayout`  for example:
 
-
-``
-`let layout = isVertical ? AnyLayout(VStack()) : AnyLayout(HStack())
+```
+let layout = isVertical ? AnyLayout(VStack()) : AnyLayout(HStack())
 layout {
     Text("Hi")
     Text("World")
 }
-
 ```
 
 Check out the Compose custom layouts with SwiftUI talk tomorrow for more details!
@@ -391,16 +389,14 @@ That’s close, Christian!
 
 You have to buffer the values too.
 
-
-``
-`    var objectWillChangeSequence:
+```
+    var objectWillChangeSequence:
         AsyncPublisher&lt;Publishers.Buffer&lt;ObservableObjectPublisher&gt;&gt;
     {
         objectWillChange
             .buffer(size: 1, prefetch: .byRequest, whenFull: .dropOldest)
             .values
     }
-
 ```
 
 Great thanks, for some reason the copy codes aren't appearing for me
@@ -446,9 +442,8 @@ The Build a Productivity App for Apple Watch talk, coming tomorrow, has an examp
 <https://developer.apple.com/wwdc22/10133>
 
 You can use `PointMark` (possibly with annotations) to highlight values on a line, such as:
-
-``
-`Chart {
+```
+Chart {
     // Create the line.
     ForEach(data) {
         LineMark(
@@ -467,7 +462,6 @@ You can use `PointMark` (possibly with annotations) to highlight values on a lin
         Text("Highlight")
     }
 }
-
 ```
 
 I am sorry for not being clear. What I want is having a vertical line when I tap on a specific X position so that all datapoints on that X position are highlighted.
@@ -496,15 +490,13 @@ You can pass any kind of information you like to an adopter of `Layout`.  So tha
 
 In the swiftinterface file there is discussion of this:
 
-
-``
-`/// Views have layout values that you set with view modifiers.
+```
+/// Views have layout values that you set with view modifiers.
 /// Layout containers can choose to condition their behavior accordingly.
 /// For example, a built-in ``HStack`` allocates space to its subviews based
 /// in part on the priorities that you set with the ``View/layoutPriority(_:)``
 /// view modifier. Your layout container accesses this value for a subview by
 /// reading the proxy's ``LayoutSubview/priority`` property.
-
 ```
 
 
@@ -515,13 +507,11 @@ Thinking about this more....
 Reasoning about this in terms of autolayout might make things tricker than they need to be, especially for 2 views.  For instance you could instead use a custom `LayoutValueKey` to say that View A should take 70% of the proposed size, and View B should take 30%.
 
 Rough sample code:
-
-``
-`MyCustomLayout(widthThreshold: 300.0) {
+```
+MyCustomLayout(widthThreshold: 300.0) {
     viewA.oversizedWidthPercentage(0.7)
     viewB.oversizedWidthPercentage(0.3)
 }
-
 ```
 
 i was thinking something more like breaking "constraints" due to certain conditions based (if possible)
@@ -554,15 +544,13 @@ Hi - great question! This is certainly something you can do, and is a good examp
 
 Yes, use the new `contextMenu` overload that accepts a preview view.
 
-
-``
-`NavigationLink( ... )
+```
+NavigationLink( ... )
     .contextMenu {
         Button { ... }
     } preview: {
         ViewIWantToPreview()
     }
-
 ```
 
 Wow, handy. Nice work!
@@ -616,9 +604,8 @@ Fingers crossed it gets accepted, i have a lot of feedback IDs and doubts :sligh
 
 For example, looking at ways to replace this code:
 
-
-``
-`UIApplication.shared
+```
+UIApplication.shared
        .sendAction(#selector(UIResponder.resignFirstResponder),
                         to: nil, from: nil, for: nil)
 
@@ -629,7 +616,6 @@ extension View {
         UIApplication.shared.sendAction(...)
     }
 }
-
 ```
 
 You can do this with the Focus State API: <https://developer.apple.com/documentation/swiftui/focusstate>
@@ -656,14 +642,12 @@ Is this the same for Layout? The example code for AnyLayout shows creating a lay
 
 You can now (last year?) also declare the viewbuilder as just a property. In SwiftUI 1, you had to manually implement the init, but no longer needed. Best (IMHO) to use synthesized init when you can.
 
-
-``
-`struct MyView&lt;Content: View&gt;: View {
+```
+struct MyView&lt;Content: View&gt;: View {
 
     @ViewBuilder var content: Content
 
 }
-
 ```
 (I believe is the correct code, coding from memory)
 
@@ -671,9 +655,8 @@ Yes you can attach `@ViewBuilder` to properties!
 
 You can actually support it on both view and closure properties, depending on whichever you need:
 
-
-``
-`struct MyView&lt;Content: View&gt;: View {
+```
+struct MyView&lt;Content: View&gt;: View {
 
   @ViewBuilder var content: Content
 
@@ -682,7 +665,6 @@ You can actually support it on both view and closure properties, depending on wh
   @ViewBuilder var content: (Int) -&gt; Content
 
 }
-
 ```
 
 &gt; Is this the same for Layout? The example code for AnyLayout shows creating a layout in the body instead of in the View.
@@ -1177,10 +1159,8 @@ Does it apply to both large style and inline style?
 
 
 You can make a variable color symbol with:
-
-``
-`Image(systemName: "wifi", variableValue: signalStrength)
-
+```
+Image(systemName: "wifi", variableValue: signalStrength)
 ```
 It’s part of initializing the image, not a separate modifier you apply.
 
@@ -1265,16 +1245,14 @@ We recommend doing any side effect or data loading with either `.task` or `.onAp
 
 Even `.onAppear`  ran last time I tried. Currently I am using this workaround from StackOverflow:
 
-
-``
-`public struct NavigationLazyView&lt;Content: View&gt;: View {
+```
+public struct NavigationLazyView&lt;Content: View&gt;: View {
     public let build: () -&gt; Content
     public init(_ build: @autoclosure @escaping () -&gt; Content) {
         self.build = build
     }
     public var body: Content { build() }
 }
-
 ```
 
 Starting loading of data in `onAppear`  causes some time the user has to wait for the heart rate graph. Also not super desireable.
@@ -1286,13 +1264,11 @@ Check out the new `NavigationStack`. Inside that `NavigationLink`s can present v
 
 
 You want to always add a `UIHostingController` as a `childViewController`.
-
-``
-`// Add the hosting controller as a child view controller
+```
+// Add the hosting controller as a child view controller
 self.addChild(hostingController)
 self.view.addSubview(hostingController.view)
 hostingController.didMove(toParent: self)
-
 ```
 without the view controller relationship things that depend on the `UIViewController` hierarchy won’t work. Such as `UIViewControllerRepresentable`
 
@@ -1322,10 +1298,8 @@ Hi - thanks for the question. This sounds like it is probably a bug. Could you p
 
 
 The GraphicsContext.ResolvedText type also has `firstBaseline` (and `lastBaseline`) methods. So you can do something like:
-
-``
-`let baseline = context.resolve(myText).firstBaseline(in: size)
-
+```
+let baseline = context.resolve(myText).firstBaseline(in: size)
 ```
 
 :face_palm: I totally missed that. Thank you Jacob!!!!
@@ -1336,15 +1310,13 @@ The GraphicsContext.ResolvedText type also has `firstBaseline` (and `lastBaselin
 
 Check out the new context menu API that accepts a `forSelectionType` parameter. This passes the value of the selection into the modifier for you to act on.
 
-
-``
-`List(selection: $selection) {
+```
+List(selection: $selection) {
  ...
 }
 .contextMenu(forSelectionType: MySelection.self) { selection in
  // check selection
 }
-
 ```
 Be sure to match the type of your lists selection to the type you provide to the context menu modifier.
 
@@ -1710,11 +1682,9 @@ The controversy I think you’re referring to is using that initializer explicit
 What about the State initializer?
 
 I think the confusion comes from this comment:
-
-``
-`/// Don't call this initializer directly. Instead, declare a property
+```
+/// Don't call this initializer directly. Instead, declare a property
 /// with the ``State`` attribute, and provide an initial value:
-
 ```
 
 I think `ObservedObject` also has a the initialiser `init(initialValue:)` is that preferred? The documentation doesn't mention any warning on this initialiser
@@ -1789,12 +1759,10 @@ For simple use cases, yes, I agree. I do exactly this in my own app, but it does
 
 
 Hi - thanks for the question! With regards to your last part around the window controls (traffic lights) - SwiftUI will enable/disable these depending on the content of the scene. So, for example, a content view with a fixed size, will have the zoom and fullscreen button disabled. I'd also like to point out that on macOS Ventura, SwiftUI App lifecycle windows will be fully flexible by default (they can be resized to the maximum allowed by the screen). This can be opted out with a new `Scene` modifier - `windowResizability`. ie:
-
-``
-`WindowGroup {
+```
+WindowGroup {
 }
 .windowResizability(.contentSize)
-
 ```
 
 Enabling/disabling of full screen behavior is also related to the maximum size of the window's contents and how that relates to the screen size of the device
@@ -2012,9 +1980,8 @@ Thank you :relaxed:
 If you have finite number of views you are displaying described by an enum could you switch over that enum in `body` of a view? `ViewBuilder` does support `switch` statements
 
 I have similar use case. Sometimes I would like to not couple the view which other views it present, but instead use other _Flow/Factory_ logic that shows whats needed depending on the business logic. It forces me to use `AnyView` . E.g.
-
-``
-`struct MainView: View {
+```
+struct MainView: View {
     @ObservedObject var viewModel: MainViewModel
     var channelsViewFactory: (Int?) -&gt; AnyView
 
@@ -2036,7 +2003,6 @@ extension AppDependencies: MainViewFactory {
          }
      }
 }
-
 ```
 
 It really depends on your use case. But most of the time, if you're in the situation where you think you need `[AnyView]` or `[any View]`, what you should likely do is invert the view dependency flow and have `[AnyDataModel` or `[any DataModel]`  instead, then create your views based on the type of data provided at runtime.
@@ -2128,12 +2094,10 @@ Thanks!
 <@U03JELC631P> the approach I normally take here Is to create a reusable view specifically for the button label rather than an entire button view. This results in code that composes nicely. I still use button styles for styling buttons more generally. 
 
 Thanks <@U03HT7Z5NAK>, that’s sort of the direction I was headed with the “custom Text view” idea—think like:
-
-``
-`Button(action: {}) {
+```
+Button(action: {}) {
   MyAppText("Hello World")
 }
-
 ```
 and then the ButtonStyle would set kerning in the environment for `MyAppText` to look at.
 
@@ -2148,9 +2112,8 @@ You can use the `symbolSize(by:)` modifier (<https://developer.apple.com/documen
 To make the points look like bubbles, you can use `.symbol(Circle().strokeBorder(lineWidth: 1))` so the symbols are drawn as stroked circles.
 
 Here is an example:
-
-``
-`Chart(data) {
+```
+Chart(data) {
     PointMark(
         x: .value("Wing Length", $0.wingLength),
         y: .value("Wing Width", $0.wingWidth)
@@ -2158,7 +2121,6 @@ Here is an example:
     .symbolSize(by: .value("Weight", $0.weight))
     .symbol(Circle().strokeBorder(lineWidth: 1))
 }
-
 ```
 
 great, thanks
@@ -2169,9 +2131,8 @@ great, thanks
 
 You can use `View.focusSection()` for this, which is newly available on macOS 13.0. Marking a view as a focus section causes the Tab loop to cycle through all of the section's focusable content as a group before moving on to the next thing in layout order. So, something like this should get you the sort of column-wise navigation you're after:
 
-
-``
-`struct ContentView: View {
+```
+struct ContentView: View {
     var body: some View {
         HStack {
             VStack {
@@ -2188,7 +2149,6 @@ You can use `View.focusSection()` for this, which is newly available on macOS 13
         }
     }
 }
-
 ```
 
 
@@ -2231,14 +2191,12 @@ Without knowing the details of your app, my inclination would be to try the Reda
 You can use the `.redacted` modifier to set a redaction reason. SwiftUI controls will automatically react to that, hiding sensitive data. You can also read the reason from the environment to redact in custom controls.
 
 Not the most elegant, but I’ve done something like this
-
-``
-`if let _ = auth.sessionToken {
+```
+if let _ = auth.sessionToken {
   ContentView()
 } else {
   AuthView()
 }
-
 ```
 
 You could also use an overlay modifier at the root of your hierarchy to present a view over the whole app, then adjust that view’s opacity based on the log in state.
@@ -2248,9 +2206,8 @@ Yeah, it's not a cookie cutter kind of problem but curious about other ideas
 Personally, I’d prefer swapping `rootViewController` of the app’s window in a UIKit environment. I think the closest approach in SwiftUI would be as Andrew shared above. Not sure if this would cover the need in question though.
 
 This is my approach currently, but it’s got some drawbacks...  I’m interested to know how others are doing.
-
-``
-`WindowGroup {
+```
+WindowGroup {
     switch userSessionManager.isLoggedIn {
     case true:
         TabViewScreen()
@@ -2260,7 +2217,6 @@ This is my approach currently, but it’s got some drawbacks...  I’m intereste
         LoginScreen()
     }
 }
-
 ```
 
 Yeah, the main drawback of conditionally showing different content is you kind of destroy the user's current context as you show the `LoginScreen()` which is why I like the window approach
@@ -2338,24 +2294,21 @@ You can search for “custom Layout”
 
 
 You can change the color of the axis labels with the `.chart{X/Y}Axis` modifier, where you can configure the `foregroundStyle` of `AxisValueLabel` . Here is an example changing the label color for the Y axis:
-
-``
-`.chartYAxis {
+```
+.chartYAxis {
     AxisMarks { _ in 
         AxisGridLine()
         AxisTick()
         AxisValueLabel().foregroundStyle(Color.red)
     }
 }
-
 ```
 You can change the color of the grid line and tick in a similar way too.
 
 Could it be that this currently doesn't work in the developer beta?
 Because I just tried the following code and it applied the colors on the grid line and tick, but not on the label next to the tick.
-
-``
-`.chartYAxis {
+```
+.chartYAxis {
                 AxisMarks { _ in
                     AxisGridLine()
                     .foregroundStyle(.yellow)
@@ -2367,7 +2320,6 @@ Because I just tried the following code and it applied the colors on the grid li
                     .foregroundStyle(.red)
                 }
             }
-
 ```
 
 Yes, looks like this is a bug in the beta. Feel free to file a bug via Feedback Assistant.
@@ -2439,9 +2391,8 @@ Another useful resource are the number and date bins we released this year: <htt
 
 
 You could try setting `yStart` and `yEnd` for the area, here is an example:
-
-``
-`Chart(data) {
+```
+Chart(data) {
     AreaMark(
         x: .value("Date", $0.date),
         yStart: .value("Start Price", 100),
@@ -2449,7 +2400,6 @@ You could try setting `yStart` and `yEnd` for the area, here is an example:
     )
 }
 .chartYScale(domain: .automatic(includesZero: false))
-
 ```
 The automatic option will use nicely rounded numbers. If that's not working for you, you can also set the domain directly like `domain: 100 ... 1000`
 
@@ -2458,9 +2408,8 @@ The automatic option will use nicely rounded numbers. If that's not working for 
 Just setting a range doesn’t quit work either… I guess I would need to do both?
 
 Umm, could you try turning off `roundLowerBound` in axis marks? Full code would be like this:
-
-``
-`Chart(data) {
+```
+Chart(data) {
     AreaMark(
         x: .value("Date", $0.date),
         yStart: .value("Start Price", 100),
@@ -2471,7 +2420,6 @@ Umm, could you try turning off `roundLowerBound` in axis marks? Full code would 
 .chartXAxis {
     AxisMarks(values: .automatic(roundLowerBound: false))
 }
-
 ```
 
 `roundLowerBound` tries to add a round number below the data range, that might be why we are seeing a 40,000 value below the area like in your first screenshot.
@@ -2503,9 +2451,8 @@ Yep
 This screenshot is from the Hello Swift Charts talk. Let me find the code for it.
 
 You can use a custom symbol (`Arrow` ).
-
-``
-`        Chart(data, id: \.x) {
+```
+        Chart(data, id: \.x) {
             PointMark(x: .value("x", $0.x), y: .value("y", $0.y))
                 .symbol(Arrow(angle: CGFloat(angle))
                 .foregroundStyle(by: .value("angle", angle))
@@ -2534,7 +2481,6 @@ You can use a custom symbol (`Arrow` ).
             return CGRect(x: 0, y: 0, width: 1, height: 1)
         }
     }
-
 ```
 
 This is not the complete code but should give you enough to make the example.
@@ -2613,13 +2559,11 @@ For now I think you can try implement a `UIView` with `UIPinchGestureRecognizer`
 
 absolutely! An easy way to do this is to store the desired highlighted data's ids in a `@State` and check against that in your `ForEach` of `Marks`. Something along the lines of
 
-
-``
-`ForEach(data) { value in
+```
+ForEach(data) { value in
   BarMark(x: ..., y: ...)
     .foregroundStyle(value.id == state.highlighted ? Color.red : Color.gray)
 }
-
 ```
 
 --- 
@@ -3033,13 +2977,11 @@ Will do. This is a great start!
 
 
 You can use the `annotation` modifier to add an annotation on top of the bar, where the content of the annotation is a SF Symbol image. Here's an example:
-
-``
-`BarMark(...)
+```
+BarMark(...)
 .annotation(position: .top) {
     Image(systemName: "sfsymbol_name")
 }
-
 ```
 Note that you can also use `Text` or other views as the content of the annotation.
 

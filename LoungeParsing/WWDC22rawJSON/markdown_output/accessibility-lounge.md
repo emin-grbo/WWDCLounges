@@ -218,10 +218,8 @@ Anything is possible. Are you able to explain your use cases in more detail? It 
 
 I suspect you’d want to use UIFontMetrics to help here
 
-
-``
-`- (UIFont *)scaledFontForFont:(UIFont *)font maximumPointSize:(CGFloat)maximumPointSize;
-
+```
+- (UIFont *)scaledFontForFont:(UIFont *)font maximumPointSize:(CGFloat)maximumPointSize;
 ```
 
 In general, we would like to NOT cap font sizes, however there are cases within the UI that are very hard to grow given constraints. In iOS and iPadOS we will often use UILargeContentViewer (UIKit/UILargeContentViewer.h) to allow a long press to show text that’s can’t grow well
@@ -398,10 +396,8 @@ You’ll get that announcement-without-interruption for free if you use an ARIA 
 We had a WWDC session cover live regions years ago, but it may be difficult to find now.
 
 The incomplete gist of a live region is:
-
-``
-`&lt;div role="status"&gt;As the contents of this element are changed, screen readers will announce the new text automatically.&lt;/div&gt;
-
+```
+&lt;div role="status"&gt;As the contents of this element are changed, screen readers will announce the new text automatically.&lt;/div&gt;
 ```
 
 
@@ -535,15 +531,13 @@ You can use `setAccessibilityElementsHidden` in UIKit or `.accessibilityHidden()
 <https://developer.apple.com/documentation/objectivec/nsobject/1615080-accessibilityelementshidden?language=objc>
 
 Just looked at how my UIKit code works. I have a hierarchy inside my main view (xib)
-
-``
-`UISegmentedControl
+```
+UISegmentedControl
 UIScrollView
    UIView
        UIView backgroundImage
        UIView backgroundColor
        UIView backgroundShader
-
 ```
 
 I'm just toggling `backgroundImage.isHidden` (etc) and relying on that to hide all the innermost controls
@@ -563,9 +557,8 @@ If you tap the segmented control to change to the other elements being visible, 
 It seems that the explicit toggling of `isHidden` on the parent views is enough to fix things for VoiceOver *but* relying on the initial `isHidden` from the xib, at view load, is not.
 
 I'm loading these detail editor VCs with
-
-``
-`    func hostVC(_ vc:UIViewController) {
+```
+    func hostVC(_ vc:UIViewController) {
 
         for child in children {
             child.willMove(toParent: nil)
@@ -586,7 +579,6 @@ I'm loading these detail editor VCs with
 
         vc.didMove(toParent: self)
     }
-
 ```
 
 --- 

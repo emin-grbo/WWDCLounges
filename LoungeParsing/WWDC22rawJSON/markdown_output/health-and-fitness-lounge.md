@@ -57,12 +57,10 @@ That’s not possible. To pass data from your iOS to your watchOS app you can us
 
 That is not currently possible. You can currently read Health Record Medication data. We’d love a Feedback for this!
 
-
-``
-`Please file an enhancement request via Feedback Assistant (<https://feedbackassistant.apple.com/>). If possible, please describe both your technical requirements and a description of your use case so we can better serve your needs.
+```
+Please file an enhancement request via Feedback Assistant (<https://feedbackassistant.apple.com/>). If possible, please describe both your technical requirements and a description of your use case so we can better serve your needs.
 
 Feel free to provide a feedback ID in this thread so that we can reference it later
-
 ```
 
 
@@ -210,9 +208,8 @@ My app is launched frequently, the other is not.
 
 The code looks as follows:
 
-
-``
-`let anchoredQuery = HKAnchoredObjectQuery(
+```
+let anchoredQuery = HKAnchoredObjectQuery(
             type: sampleType,
             predicate: compound,
             anchor: anchor,
@@ -222,7 +219,6 @@ The code looks as follows:
             completionHandler()
         }
 healthKitStore.execute(anchoredQuery)
-
 ```
 
 &gt; • When you say that the both execute hours after the workout, which device are you seeing this delay on and where was the workout saved?
@@ -817,13 +813,11 @@ Ahh I’ve seen they’re wrapping up questions atm so mine might still get answ
 
 
 Your code would do the correct thing, but there is a simpler way. You do not need to iterate through all the activities since the workout sample will have these totals as well.
-
-``
-`var distance: Double = 0
+```
+var distance: Double = 0
 distance += workout.statistics(for: .distanceSwimming)?.sumQuantity()?.doubleValue(for: .meter()) ?? 0
 distance += workout.statistics(for: .distanceCycling)?.sumQuantity()?.doubleValue(for: .meter()) ?? 0
 distance += workout.statistics(for: .distanceWalkingRunning)?.sumQuantity()?.doubleValue(for: .meter()) ?? 0
-
 ```
 
 

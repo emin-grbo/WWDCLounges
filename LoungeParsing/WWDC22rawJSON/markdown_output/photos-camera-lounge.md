@@ -534,15 +534,13 @@ Oh of course! Thanks!
 
 WIth a custom CIKernel like this:
 
-
-``
-`    float4 alpha_denorm (sample_t i)
+```
+    float4 alpha_denorm (sample_t i)
     {
         if (i.a &gt; 0.001)
             return float4(i.rgb / i.a, 1.0);
         return i;
     }
-
 ```
 
 --- 
@@ -921,12 +919,10 @@ Which bug is that? Involving the `NSCameraUsageDescription` entry in the Info.pl
 But should it be possible to use Live Text then, without directly getting access to the Camera?
 
 P.S. for now, I constantly receive the following error:
-
-``
-`Assertion failure in -[UIKeyboardCameraSession _keyboardCameraPreparationDidComplete]
+```
+Assertion failure in -[UIKeyboardCameraSession _keyboardCameraPreparationDidComplete]
 
 Terminating app due to uncaught exception 'NSInternalInconsistencyException', reason: 'Keyboard Camera is being used without remote keyboards enabled
-
 ```
 
 What API do you call to get Live Text in the keyboard?
@@ -942,9 +938,8 @@ And I was trying to make my UIInputViewController as both of them while returnin
 
 And the code I’ve been trying to run is close to the similar:
 
-
-``
-`class KeyboardViewController: UIInputViewController {
+```
+class KeyboardViewController: UIInputViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -970,7 +965,6 @@ extension KeyboardViewController: UIKeyInput {
         textDocumentProxy.deleteBackward()
     }
 }
-
 ```
 
 <@U03HHA1D44F> hey again,

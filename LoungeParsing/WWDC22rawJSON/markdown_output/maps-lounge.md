@@ -314,12 +314,10 @@ The indoor maps for malls and airports continue to be available only in Apple Ma
 
 :disappointed_relieved:
 
-
-``
-`Thank you for your questions. You can also file an enhancement request via Feedback Assistant (<https://feedbackassistant.apple.com/>). If possible, please describe both your technical requirements and a description of your use case so we can better serve your needs.
+```
+Thank you for your questions. You can also file an enhancement request via Feedback Assistant (<https://feedbackassistant.apple.com/>). If possible, please describe both your technical requirements and a description of your use case so we can better serve your needs.
 
 Feel free to provide a feedback ID in this thread so that we can reference it later
-
 ```
 
 
@@ -353,12 +351,10 @@ Yes I spoke once with a Apple engineer from another team who did something simil
 
 
 When the annotation is instantiated you could assign the title as follows:
-
-``
-`let startAnnotation = MKPointAnnotation()
+```
+let startAnnotation = MKPointAnnotation()
 startAnnotation.coordinate = requiredCoordinate
 startAnnotation.title = "My title"
-
 ```
 
 We have a custom `MKAnnotation` that is setting the title. The question is about the view side of it. It seems that by default that custom `MKAnnotationView` subclasses wont show a title on the map.
@@ -460,12 +456,10 @@ Thank you very much!
 
 
 The new room scanning app does not support creating an IMDF at this point.
-
-``
-`Thank you for your questions. You can also file an enhancement request via Feedback Assistant (<https://feedbackassistant.apple.com/>). If possible, please describe both your technical requirements and a description of your use case so we can better serve your needs.
+```
+Thank you for your questions. You can also file an enhancement request via Feedback Assistant (<https://feedbackassistant.apple.com/>). If possible, please describe both your technical requirements and a description of your use case so we can better serve your needs.
 
 Feel free to provide a feedback ID in this thread so that we can reference it later
-
 ```
 
 
@@ -505,9 +499,8 @@ Hello Talby!
 
 Changing the visible map region of an `MKMapView` to show two points can be done as the following...
 
-
-``
-`// these are your two lat/long coordinates
+```
+// these are your two lat/long coordinates
 CLLocationCoordinate2D coordinate1 = CLLocationCoordinate2DMake(lat1,long1);
 CLLocationCoordinate2D coordinate2 = CLLocationCoordinate2DMake(lat2,long2);
 
@@ -519,7 +512,6 @@ MKMapPoint p2 = MKMapPointForCoordinate (coordinate2);
 MKMapRect mapRect = MKMapRectMake(fmin(p1.x,p2.x), fmin(p1.y,p2.y), fabs(p1.x-p2.x), fabs(p1.y-p2.y));
 
 [mapView setVisibleMapRect:mapRect animated:YES];
-
 ```
 Thanks for your question!
 
@@ -768,9 +760,8 @@ If you are using storyboards, just add a push segue to your Look Around View Con
 
 If you are using code, you could have code like the following in the action handler of a `UIButton`:
 
-
-``
-`{
+```
+{
     let coordinate = CLLocationCoordinate2D(latitude: xxx, longitude: yyy) // the location to display
 	let lookAroundViewController = MKLookAroundViewController()
 	view.present(lookAroundViewController, animated: true)
@@ -783,7 +774,6 @@ If you are using code, you could have code like the following in the action hand
 		}
 	}
 }
-
 ```
 Note that is a fairly simple implementation that doesn’t verify that the specified coordinate does indeed support an `MKLookAroundScene`.
 

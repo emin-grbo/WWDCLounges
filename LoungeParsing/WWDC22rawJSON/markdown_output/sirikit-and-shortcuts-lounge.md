@@ -560,12 +560,10 @@ Just for my knowledge, can you provide a specific example of a phrase you used t
 
 Originally it was one of these:
 
-
-``
-`"Start Metronome in \(.applicationName)"
+```
+"Start Metronome in \(.applicationName)"
 "Start Metronome at \(\.$tempo) bpm"
 "Metronome \(\.$tempo)"
-
 ```
 
 none of those worked. I realized after the fact though that $tempo was unbounded (Int) and that wasn’t supposed to work.
@@ -685,9 +683,8 @@ Or is that a SwiftUI thing :wink:
 Nope, it’s a Swift feature.
 
 It's a Swift feature that allows you to call a type as a function, here's an example:
-
-``
-`struct MyIntent: AppIntent {
+```
+struct MyIntent: AppIntent {
     static var title: LocalizedStringResource = "My Intent"
     
     func perform() async throws -&gt; some IntentPerformResult {
@@ -697,7 +694,6 @@ It's a Swift feature that allows you to call a type as a function, here's an exa
 
 let intent = MyIntent()
 let result = try await intent()
-
 ```
 
 <https://developer.apple.com/documentation/appintents/appintent/callasfunction(donate:)?changes=latest_minor>

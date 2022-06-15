@@ -127,14 +127,12 @@ How are you storing the days/hours prior to localization?
 For example, is it a `Date`, or are you receiving the data in some other form?
 
 it would be a JSON from an API response in english,
-
-``
-`{
+```
+{
 day: 0,
 start: "0700",
 end: "2300"
 }
-
 ```
 and 0 means sunday as specified in the API
 
