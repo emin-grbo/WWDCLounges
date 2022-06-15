@@ -1,11 +1,7 @@
 # design-lounge QAs
 #### by [FeeTiki](https://twitter.com/FeeTiki)
 ---
-
-> ####  what are the next challenges you're working on tackling for SF Symbols?
-
-
---- 
+ 
 > ####  What design program do you prefer for creating the symbol paths...Sketch, Illustrator or something else?
 
 For custom symbols, I prefer using Illustrator. But Sketch works well too 
