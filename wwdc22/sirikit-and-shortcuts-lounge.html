@@ -1,0 +1,2035 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.15">
+    
+    
+      
+        <title>sirikit and shortcuts - WWDC Lounges</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.c382b1dc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.cc9b2e1e.min.css">
+        
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../css/app.css">
+    
+    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="cyan">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#sirikit-and-shortcuts-lounge-qas" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../index.html" title="WWDC Lounges" class="md-header__button md-logo" aria-label="WWDC Lounges" data-md-component="logo">
+      
+  <img src="../img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            WWDC Lounges
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              sirikit and shortcuts
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="cyan"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="cyan"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="WWDC Lounges" class="md-nav__button md-logo" aria-label="WWDC Lounges" data-md-component="logo">
+      
+  <img src="../img/logo.png" alt="logo">
+
+    </a>
+    WWDC Lounges
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        Welcome
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          WWDC 21
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="WWDC 21" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          WWDC 21
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wwdc21/SwiftUI.html" class="md-nav__link">
+        SwiftUI
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wwdc21/a11y.html" class="md-nav__link">
+        A11y
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wwdc21/DevTools.html" class="md-nav__link">
+        DevTools
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          WWDC 22
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="WWDC 22" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          WWDC 22
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="swiftui-lounge.html" class="md-nav__link">
+        swiftui
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="localization-and-internationalization.html" class="md-nav__link">
+        L10n & i18n
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="watchos-lounge.html" class="md-nav__link">
+        watchos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="uiframeworks-lounge.html" class="md-nav__link">
+        uiframeworks
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="graphics-and-games-lounge.html" class="md-nav__link">
+        graphics and games
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="object-capture-and-room-plan-lounge.html" class="md-nav__link">
+        object capture and room plan
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="photos-camera-lounge.html" class="md-nav__link">
+        photos camera
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="accessibility-lounge.html" class="md-nav__link">
+        accessibility
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="arkit-realitykit-usdz-lounge.html" class="md-nav__link">
+        arkit realitykit
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="audio-and-video-lounge.html" class="md-nav__link">
+        audio and video
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="design-lounge.html" class="md-nav__link">
+        design
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="app-clips-lounge.html" class="md-nav__link">
+        app clips
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="app-store-lounge.html" class="md-nav__link">
+        app store
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cloudkit-lounge.html" class="md-nav__link">
+        cloudkit
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="coredata-lounge.html" class="md-nav__link">
+        coredata
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="device-management-lounge.html" class="md-nav__link">
+        device management
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="education-lounge.html" class="md-nav__link">
+        education
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="health-and-fitness-lounge.html" class="md-nav__link">
+        health and fitness
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="machine-learning-lounge.html" class="md-nav__link">
+        machine learning
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="maps-lounge.html" class="md-nav__link">
+        maps
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="privacy-and-security-lounge.html" class="md-nav__link">
+        privacy and security
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="safari-lounge.html" class="md-nav__link">
+        safari
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          sirikit and shortcuts
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="sirikit-and-shortcuts-lounge.html" class="md-nav__link md-nav__link--active">
+        sirikit and shortcuts
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#by-shirblc" class="md-nav__link">
+    by shirblc
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#since-app-intents-dont-support-widget-configuration-yet-is-there-any-way-to-tell-the-system-that-an-app-intent-and-a-sirikit-intent-are-duplicative-andor-to-only-surface-app-intents-in-shortcutssirietc" class="md-nav__link">
+    Since App Intents don’t support widget configuration yet, is there any way to tell the system that an App Intent and a SiriKit intent are duplicative and/or to only surface App Intents in Shortcuts/Siri/etc.?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hi-in-our-app-what3words-we-identify-exact-3x3m-squares-with-3-unique-words-example-indexhomeraft-defines-a-specific-latlng-pair-in-the-middle-of-a-fixed-3x3m-square-i-would-love-to-be-able-to-implement-an-app-shortcut-like-what3words-navigate-to-index-home-raft-is-the-current-implementation-supporting-any-input-type-for-a-phrase-like-what3words-navigate-to-or-do-you-have-some-other-suggestions-for-implementing-this-feature" class="md-nav__link">
+    Hi, In our app (what3words) we identify exact 3x3m squares with 3 unique words, example: index.home.raft - defines a specific lat/lng pair in the middle of a fixed 3x3m square. I would love to be able to implement an app shortcut like: 'what3words navigate to index home raft'. Is the current implementation supporting any input type for a phrase like: what3words navigate to (.*) ? Or do you have some other suggestions for implementing this feature?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#great-session-im-new-to-intents-in-general-and-am-excited-about-the-parameterized-options-is-there-another-way-to-capture-an-arbitrary-phrase-at-the-end-of-the-intent-like-the-remainder-of-what-was-uttered" class="md-nav__link">
+    Great Session!  ...I'm new to intents in general and am excited about the parameterized options. Is there another way to capture an arbitrary phrase at the end of the intent, like the remainder of what was uttered?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#any-recommendations-around-best-practices-for-tracking-usage-of-shortcuts-very-broad-question-i-know-but-curious-if-you-have-any-thoughts" class="md-nav__link">
+    Any recommendations around best practices for tracking usage of shortcuts? Very broad question I know, but curious if you have any thoughts.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#so-the-new-intents-will-be-their-own-shortcuts-but-will-they-now-also-always-be-available-as-actions-to-include-in-other-shortcuts" class="md-nav__link">
+    So, the new intents will be their own Shortcuts, but will they now also always be available as actions to include in other Shortcuts?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#in-2019-i-installed-the-ios-beta-on-a-development-device-and-since-it-was-logged-into-icloud-it-synced-my-shortcuts-back-and-they-were-unusable-on-my-main-non-updated-device-is-that-still-the-case-this-year-if-i-access-my-shortcuts-on-a-beta-device-will-they-be-synced-back-and-unusable-on-my-other-devices" class="md-nav__link">
+    In 2019 I installed the iOS beta on a development device, and since it was logged into iCloud, it synced my shortcuts back and they were unusable on my main, non-updated device. Is that still the case this year? If I access my shortcuts on a beta device, will they be synced back and unusable on my other devices?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#is-there-downloadable-sample-code-associated-with-this-session" class="md-nav__link">
+    Is there downloadable sample code associated with this session?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#not-as-a-developer-but-as-a-user-i-created-an-automation-on-shortcuts-app-for-battery-level-is-there-a-way-to-conditionally-check-for-power-source-connection" class="md-nav__link">
+    Not as a developer, but as a user, i created an automation on Shortcuts app for battery level, is there a way to conditionally check for power source connection?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#with-app-intents-can-we-only-show-a-swiftui-view-in-response-if-so-can-we-wrap-a-uikit-view-in-uiviewcontrollerrepresentable-and-return-that" class="md-nav__link">
+    With App Intents, can we only show a SwiftUI view in response? IF so, can we wrap a UIKit-view in UIViewControllerRepresentable and return that?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#havent-had-a-chance-to-digest-all-documentation-yet-in-shortcuts-on-macos-monterey-there-are-some-built-in-actions-like-add-to-bear-note-that-allow-multiple-types-on-input-and-output-in-a-single-parameter-is-this-now-possible-using-the-new-api-ill-try-adding-a-screenshot-for-illustration" class="md-nav__link">
+    Haven't had a chance to digest all documentation yet. In Shortcuts on macOS Monterey, there are some built-in actions, like "Add to Bear Note" that allow multiple types on Input and Output in a single parameter.  Is this now possible using the new API? I'll try adding a screenshot for illustration.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#would-you-please-explain-the-convert-to-app-intent-a-bit-more-also-if-we-choose-not-to-upgrade-sirkit-intents-at-this-time-can-we-mix-them-up-with-new-app-intents" class="md-nav__link">
+    Would you please explain the "Convert to App Intent" a bit more?  Also, if we choose not to upgrade sirkit intents at this time, can we mix them up with new app intents?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hello-what-is-the-difference-between-app-intents-and-app-shortcuts-seems-like-intents-power-shortcuts-and-users-use-shortcuts-to-access-intents-is-there-a-better-mental-model-here" class="md-nav__link">
+    Hello, what is the difference between App Intents and App Shortcuts? Seems like Intents power Shortcuts and users use Shortcuts to access Intents - is there a better mental model here?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hi-guys-i-hope-you-can-help-me-with-something-not-on-the-latest-announcements-im-working-on-a-streaming-audio-app-catalyst-that-handles-inplaymediaintent-fine-on-ios-yet-on-macos-when-speaking-play-npr-on-myapp-siri-replies-i-cant-play-from-myapp-on-this-device-how-can-i-begin-to-figure-out-why-siri-on-mac-cannot-open-my-app-i-think-ive-done-things-correctly-by-donating-intents-setting-user-vocabulary-and-calling-becomecurrent-on-a-inmediausercontext-on-launch" class="md-nav__link">
+    Hi guys I hope you can help me with something not on the latest announcements... I'm working on a streaming audio app (Catalyst) that handles INPlayMediaIntent fine on iOS, yet on macOS when speaking "Play NPR on MyApp, Siri replies "I can't play from MyApp on this device". How can I begin to figure out why Siri on Mac cannot open my app? I think I've done things correctly by donating intents, setting user vocabulary and calling becomeCurrent on a INMediaUserContext() on launch
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#can-automations-be-triggered-by-events-like-sending-an-imessage-opening-an-app-or-taking-a-photo" class="md-nav__link">
+    Can Automations be triggered by events like sending an iMessage, opening an app, or taking a photo?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#is-there-anyway-to-create-siri-shortcuts-that-are-accessible-across-all-siri-touch-points-across-the-ecosystem-watch-iphone-ipad-mac-tv-homepod-airpods-if-so-whats-the-simplest-way-to-do-this-does-your-app-need-to-exist-on-all-these-platforms-to-be-exposed-in-each-siri-context" class="md-nav__link">
+    Is there anyway to create Siri shortcuts that are accessible across all Siri touch points across the ecosystem?  (Watch, iPhone, iPad, Mac, TV, HomePod, AirPods). If so, what's the simplest way to do this? Does your app need to exist on all these platforms to be exposed in each Siri context?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#is-there-a-trick-to-getting-appintents-to-show-up-in-shortcuts-like-something-in-infoplist-i-have-an-appintentsswift-file-in-my-main-app-target-xcode-shows-extract-app-intents-metadata-in-the-build-logtimeline-but-nothing-shows-up-in-shortcuts-on-simulator-for-my-app-i-did-initially-start-with-an-extension-target-and-then-deleted-it-which-may-have-screwed-something-up-thanks" class="md-nav__link">
+    Is there a trick to getting AppIntents to show up in Shortcuts, like something in Info.plist? I have an AppIntents.swift file in my main app target, Xcode shows "Extract app intents metadata" in the build log/timeline, but nothing shows up in Shortcuts on Simulator for my app. I did initially start with an extension target and then deleted it, which may have screwed something up...? Thanks!
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#if-i-use-app-intents-to-create-shortcuts-how-can-i-make-them-compatible-with-ios-15" class="md-nav__link">
+    If I use App Intents to create Shortcuts, how can I make them compatible with iOS 15?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#can-you-make-an-http-request-through-an-app-intent" class="md-nav__link">
+    Can you make an HTTP Request through an App Intent?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#is-it-possible-to-access-ble-with-the-new-changes-coming" class="md-nav__link">
+    Is it possible to access BLE with the new changes coming?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-can-we-expect-in-terms-of-backward-compatibility-if-we-migrate-existing-intents-to-app-intents-will-users-shortcuts-continue-to-work-etc" class="md-nav__link">
+    What can we expect in terms of backward compatibility if we migrate existing intents to App Intents? Will users' Shortcuts continue to work, etc.?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#we-have-several-app-extensions-in-our-product-like-imessage-extension-share-action-extensions-safari-extension-and-so-on-but-our-primary-product-on-ios-ipados-is-a-keyboard-extension-i-wonder-if-theres-something-new-in-sirikit-that-we-can-adopt-for-our-app-extension-especially-for-the-keyboard-extension-which-have-pieces-of-a-common-functionality-with-an-app-and-other-extensions" class="md-nav__link">
+    We have several app extensions in our product like iMessage extension, share &amp; action extensions, safari extension and so on. But our primary product on iOS &amp; iPadOS is a keyboard extension.  I wonder if there's something new in SiriKit that we can adopt for our app extension, especially for the keyboard extension, which have pieces of a common functionality with an app and other extensions.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#whats-going-to-be-the-best-way-to-maintain-backward-compatibility-with-sirikit-intents-if-supporting-the-new-app-intents-when-i-tried-the-convert-to-app-intent-option-i-started-getting-a-lot-of-duplicate-symbol-errors-because-the-intent-definition-file-also-outputs-the-same-generated-files-as-the-app-intent-generated-files-do-not-sure-how-to-best-handle-this" class="md-nav__link">
+    What's going to be the best way to maintain backward compatibility with SiriKit Intents if supporting the new "App Intents"? When I tried the "Convert to App Intent"' option, I started getting a lot of duplicate symbol errors, because the intent-definition file also outputs the same generated files as the App Intent generated files do. Not sure how to best handle this.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#is-it-possible-to-include-audio-sound-design-elements-as-part-of-a-supporting-dialog-response-via-siri" class="md-nav__link">
+    Is it possible to include audio (sound design elements) as part of a Supporting Dialog response via Siri?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#i-make-the-app-just-timers-and-want-to-be-able-to-have-phrasing-similar-to-start-a-5-minute-timer-but-the-video-explicitly-called-this-out-as-not-possible-because-of-needing-2-parameters-i-know-there-are-types-like-duration-how-would-i-define-a-parameter-that-can-take-a-time-value-like-that" class="md-nav__link">
+    I make the app Just Timers and want to be able to have phrasing similar to “start a 5 minute timer” but the video explicitly called this out as not possible because of needing 2 parameters, I know there are types like Duration, how would I define a parameter that can take a time value like that?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#are-there-any-changes-to-donating-intents-or-does-that-still-work-in-the-same-way-for-app-intents-compared-to-the-previous-sirikit-intents-and-are-there-any-changes-in-the-places-and-way-they-are-presented-to-users-in-ios-16" class="md-nav__link">
+    Are there any changes to donating intents? Or does that still work in the same way for App Intents compared to the previous SiriKit Intents? And are there any changes in the places and way they are presented to users in iOS 16?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#if-im-coming-in-fresh-on-this-and-not-concerned-about-pre-ios-16-support-do-i-need-to-unpack-the-sirikit-documentation-as-complementary-info-to-app-intents-or-can-i-have-have-tunnel-vision-and-just-focus-on-the-new-app-intents-docs" class="md-nav__link">
+    If I'm coming in fresh on this (and not concerned about pre iOS 16 support), do I need to unpack the SiriKit documentation as complementary info to App Intents? Or can I have have tunnel vision and just focus on the new App Intents docs?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#thanks-for-the-awesome-work-on-appintents-a-game-changer-perhaps-a-bit-of-a-basic-question-but-can-you-elaborate-on-how-nsuseractivity-donation-upon-say-opening-a-project-and-it-subsequently-surfacing-in-spotlight-would-interactcompare-to-appshortcuts-that-could-also-say-open-project-x" class="md-nav__link">
+    Thanks for the awesome work on AppIntents, a game changer! Perhaps a bit of a basic question, but can you elaborate on how NSUserActivity donation upon say opening a project (and it subsequently surfacing in spotlight) would interact/compare to AppShortcuts that could also say "Open Project X"?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#is-siri-able-to-process-custom-app-intentsshortcuts-while-offline-on-ios-watchos" class="md-nav__link">
+    Is Siri able to process custom App Intents/Shortcuts while offline on iOS? watchOS?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#can-an-app-clip-contain-an-app-intent" class="md-nav__link">
+    Can an App Clip contain an App Intent?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-all-of-the-new-actions-added-in-ios-16" class="md-nav__link">
+    What are all of the new actions added in iOS 16?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#if-i-understood-correctly-unless-you-mark-the-shortcut-as-needing-to-open-the-app-my-app-will-be-launched-in-the-background-when-executing-the-shortcut-will-the-app-be-left-running-in-that-state-or-will-it-immediately-be-closed-again-in-other-words-is-there-a-possibility-for-the-app-to-transition-from-this-background-running-state-to-the-fully-open-state-and-finally-is-this-background-running-state-different-from-other-background-statesdetectable-by-querying-in-my-code" class="md-nav__link">
+    If I understood correctly, unless you mark the shortcut as needing to open the app, my app will be launched in the background when executing the shortcut. Will the app be left running in that state or will it immediately be closed again? In other words, is there a possibility for the app to transition from this background running state to the fully open state? And finally, is this background running state different from other background states/detectable by querying in my code?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#thank-you-everyone-on-the-team-for-all-your-fantastic-work-making-something-that-is-indispensable-to-so-many-of-our-workflows-and-integral-to-the-apps-we-make-and-it-just-keeps-getting-better-i-have-a-widgets-intent-question-that-i-think-i-know-the-answer-to-but-i-want-to-check-is-it-possible-to-hide-intent-parameters-depending-on-the-widget-family-as-in-for-an-intent-that-is-used-for-multiple-families-of-widgets-can-a-specific-widget-family-not-show-a-particular-parameter-heres-my-use-case-i-make-the-time-tracking-app-timery-and-in-each-of-the-home-screen-widgets-theres-a-parameter-to-customize-the-widgets-background-match-the-system-dark-mode-always-show-light-or-dark-etc-if-i-use-the-same-widget-for-the-lock-screen-that-parameter-is-there-when-editing-the-widget-but-it-isnt-applicable-to-the-accessory-circular-widget-since-it-doesnt-have-a-background-there-are-a-couple-other-instances-in-the-home-screen-widgets-where-parameters-that-are-used-for-larger-sized-widgets-appear-when-editing-smaller-sized-widgets-but-they-arent-applicable-for-it-so-they-dont-actually-do-anything-so-it-would-be-nice-to-be-able-to-selectively-hide-parameters-for-specific-widget-families-and-not-potentially-confuse-users-with-a-parameter-that-doesnt-do-anything-for-that-widget-family-but-im-guessing-thats-not-possible" class="md-nav__link">
+    Thank you everyone on the team for all your fantastic work making something that is indispensable to so many of our workflows and integral to the apps we make! And it just keeps getting better!  I have a widgets intent question that I think I know the answer to, but I want to check: Is it possible to hide intent parameters depending on the widget family? As in for an intent that is used for multiple families of widgets, can a specific widget family not show a particular parameter?  Here’s my use case. I make the time-tracking app Timery, and in each of the Home Screen widgets, there’s a parameter to customize the widget’s background (match the system dark mode, always show light or dark, etc.). If I use the same widget for the Lock Screen, that parameter is there when editing the widget, but it isn’t applicable to the accessory circular widget since it doesn’t have a background.  There are a couple other instances in the Home Screen widgets where parameters that are used for larger-sized widgets appear when editing smaller-sized widgets, but they aren’t applicable for it, so they don’t actually do anything.  So it would be nice to be able to selectively hide parameters for specific widget families and not potentially confuse users with a parameter that doesn’t do anything for that widget family, but I’m guessing that’s not possible?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#is-there-a-way-to-create-a-shortcut-that-will-pass-specific-data-to-some-action-or-share-extension-but-only-if-that-file-conforms-to-the-uti-format-that-these-extensions-support" class="md-nav__link">
+    Is there a way to create a Shortcut, that will pass specific data to some Action or Share extension, but only if that file conforms to the UTI format that these extensions support?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#curious-if-theres-a-github-link-or-a-downloadable-version-of-the-app-intents-demo" class="md-nav__link">
+    Curious if there's a github link or a downloadable version of the App Intents demo?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#focus-filters-look-great-ive-already-got-a-prototype-working-in-my-app-streaks-1-possible-to-add-an-icon-to-a-parameter-list-i-have-a-customentity-parameter-the-multi-item-selector-in-focus-filter-setup-works-great-but-it-would-be-great-if-an-icon-could-be-shown-beside-each-item-2-assuming-not-due-to-privacy-but-is-there-a-way-to-get-a-list-of-focus-modes-i-want-users-to-be-able-to-assign-their-data-to-various-categories-which-would-align-with-focus-so-can-say-show-this-task-while-in-sleep-my-prototype-has-them-building-their-own-categories-then-they-need-to-select-that-when-setting-up-the-focus-filter" class="md-nav__link">
+    Focus Filters look great - i've already got a prototype working in my app, Streaks.  1. Possible to add an icon to a parameter list? I have a [CustomEntity] parameter. The multi-item selector in Focus Filter setup works great, but it would be great if an icon could be shown beside each item.  2. Assuming not due to privacy, but Is there a way to get a list of Focus modes? I want users to be able to assign their data to various categories (which would align with focus), so can say "show this task while in Sleep". My prototype has them building their own categories, then they need to select that when setting up the focus filter.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#focus-filter-followup-question-is-there-a-way-to-know-if-a-focus-mode-is-enabled-i-could-only-receive-notifications-from-the-system-when-parameters-are-changed-but-not-if-a-user-changed-from-no-focus-mode-to-some-focus-mode-if-no-parameters-are-changed-my-use-case-i-want-to-show-an-in-app-toggle-that-appears-to-allow-users-to-filter-data-but-i-only-want-it-to-appear-if-some-focus-mode-is-enabled" class="md-nav__link">
+    Focus filter followup question:  Is there a way to know if a focus mode is enabled? I could only receive notifications from the system when parameters are changed, but not if a user changed from "no focus mode" to "some focus mode" if no parameters are changed.  My use-case:  I want to show an in-app toggle that appears to allow users to filter data, but I only want it to appear if some Focus Mode is enabled.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apologies-if-this-is-covered-in-a-session-i-havent-seen-yet-but-is-there-direction-on-how-to-handle-focus-modes-in-watchos-is-it-just-a-matter-of-adding-the-appintent-to-the-watch-target-and-then-the-apple-watch-app-can-read-filter-parameters-accordingly" class="md-nav__link">
+    Apologies if this is covered in a session I haven't seen yet, but is there direction on how to handle focus modes in watchOS?  Is it just a matter of adding the AppIntent to the watch target, and then the Apple Watch app can read filter parameters accordingly?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#topic-backwards-compatibility-are-we-able-to-associate-the-new-app-intents-with-current-user-activities-like-interactions-from-the-intents-framework" class="md-nav__link">
+    Topic backwards compatibility: are we able to associate the new app intents with current user activities (like interactions from the Intents framework)?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#is-there-a-recommended-way-to-map-an-appentity-to-a-core-data-nsmanagedobejct-the-sample-code-uses-uuid-for-appentity-ids-so-i-would-presume-just-using-a-uuid-property-in-core-data-would-be-sufficient-but-wanted-to-check" class="md-nav__link">
+    Is there a recommended way to map an AppEntity to a Core Data NSManagedObejct?  The sample code uses UUID for AppEntity IDs, so I would presume just using a UUID property in Core Data would be sufficient, but wanted to check.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#is-it-a-known-issue-that-some-shortcuts-are-returning-an-error-there-was-problem-running-the-shortcut-and-couldnt-communicate-with-a-helper-application" class="md-nav__link">
+    Is it a known issue that some shortcuts are returning an error "there was problem running the shortcut" and "Couldn't communicate with a helper application."?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#do-users-have-to-first-enable-siri-with-your-app-for-siri-appintents-to-work-in-the-shortcuts-app-there-was-a-place-to-enable-siri-for-the-app-and-until-doing-that-it-didnt-seem-to-work" class="md-nav__link">
+    Do users have to first enable Siri with your app for Siri AppIntents to work?  In the shortcuts app there was a place to enable siri for the app and until doing that it didn't seem to work.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#is-it-possible-to-produce-a-result-from-an-app-intent-that-can-be-used-as-an-input-for-a-system-intent-ie-get-the-newest-song-released-from-band-x-returning-something-like-an-inmediaitem-and-the-next-intent-would-be-an-inplaymediaintent-to-play-the-song" class="md-nav__link">
+    Is it possible to produce a result from an app intent that can be used as an input for a system intent. i.e. Get the newest song released from band X (returning something like an INMediaItem) and the next intent would be an INPlayMediaIntent to play the song?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hi-there-i-have-tried-the-new-appintents-framework-in-particular-the-entitystringquery-while-the-suggestedentities-method-gets-called-the-entitiesfor-and-entitiesmatching-methods-never-get-called-after-entering-a-search-in-the-shortcut-app-is-there-anything-i-am-missing" class="md-nav__link">
+    Hi there. I have tried the new AppIntents framework, in particular the EntityStringQuery. While the 'suggestedEntities()' method gets called, the 'entities(for ..' and 'entities(matching ..' methods never get called after entering a search in the Shortcut app. Is there anything I am missing?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#is-there-a-way-for-siri-to-be-dismissed-after-an-intent-is-performed-right-now-siri-stays-open-and-the-app-isnt-in-focus-at-perform-is-returned" class="md-nav__link">
+    Is there a way for Siri to be dismissed after an intent is performed? Right now Siri stays open and the app isn't in focus at perform is returned.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#in-my-app-i-have-a-dedicated-siri-screen-that-we-added-back-when-sirikit-was-first-opened-which-then-evolved-to-basically-showing-users-the-shortcuts-they-could-add-for-each-task-it-makes-use-of-the-add-to-siri-ui-button-and-allows-management-of-voice-shortcuts-im-not-really-sure-now-what-to-do-with-this-screen-my-hunch-is-just-to-remove-it-completely-and-use-the-new-ui-buttons-in-more-contextually-aware-locations-the-problem-is-though-there-are-a-number-of-situations-where-adding-this-ui-doesnt-make-sense-even-though-i-want-the-user-to-know-about-it" class="md-nav__link">
+    In my app, I have a dedicated "Siri" screen that we added back when SiriKit was first opened, which then evolved to basically showing users the shortcuts they could add for each task.  It makes use of the "Add to Siri" UI button, and allows management of voice shortcuts.  I'm not really sure now what to do with this screen. My hunch is just to remove it completely, and use the new UI buttons in more contextually-aware locations.  The problem is though there are a number of situations where adding this UI doesn't make sense, even though I want the user to know about it.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#again-apologies-if-this-is-covered-elsewhere-im-trying-to-figure-out-how-best-to-think-about-appintents-as-a-whole-long-term-should-i-be-converting-all-internal-distinct-actions-of-my-app-even-if-not-uses-in-shortcuts-or-otherwise-to-be-appintents-for-example-if-the-app-has-a-move-to-trash-functionality-i-have-normally-workflow-to-delete-data-clean-up-whatever-long-term-should-i-be-encapsulating-this-functionality-into-a-single-appintent" class="md-nav__link">
+    Again apologies if this is covered elsewhere - I'm trying to figure out how best to think about AppIntents as a whole.  Long term, should I be converting all internal distinct actions of my app - even if not uses in Shortcuts or otherwise - to be AppIntents?  For example, if the app has a "move to trash" functionality, I have normally workflow to delete data / clean up / whatever. Long term should I be encapsulating this functionality into a single AppIntent?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#in-a-muli-turn-interaction-like-confirmation-or-disambiguation-does-siri-manage-the-dialog-state-or-is-your-app-in-the-loop-at-each-turn" class="md-nav__link">
+    In a muli-turn interaction (like confirmation or disambiguation) –does Siri manage the dialog state, or is your app in the loop at each turn?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hi-there-ive-gone-about-implementing-a-setfocusfilterintent-and-my-app-buildsruns-just-fine-but-the-filter-is-not-present-in-settings-focus-add-focus-filter-ive-looked-around-for-potential-solutions-one-being-ensuring-the-command-line-tools-are-set-to-xcode-14-ive-done-this-step-but-to-no-avail-thank-you-in-advance-and-congrats-on-all-the-great-new-apis" class="md-nav__link">
+    Hi there! I've gone about implementing a SetFocusFilterIntent and my app builds/runs just fine, but the filter is not present in Settings - Focus - Add Focus Filter. I've looked around for potential solutions, one being ensuring the command line tools are set to Xcode 14. I've done this step, but to no avail. Thank you in advance, and congrats on all the great new APIs!
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#i-have-been-an-avid-enthusiast-when-it-comes-to-working-on-shortcuts-i-used-it-a-lot-during-the-more-restrictive-covid-days-to-pick-from-a-list-of-services-output-was-the-phone-number-on-qr-form-the-iphone-then-just-dials-it-when-the-customer-taps-the-confirmation-on-the-screen-i-do-have-a-suggestion-can-we-build-blocked-actions-and-if-so-if-the-only-thing-that-changes-is-a-variable-that-could-become-a-block-with-a-drop-down-menuits-not-the-most-efficient-when-having-to-duplicate-actions-over-and-over-and-scroll-is-not-always-precise-i-would-also-love-to-have-the-system-kill-the-shortcut-or-give-a-signal-that-it-is-running-thats-another-bloc-sensory-feedback-to-test-progress-of-the-app-i-have-had-to-string-along-5-segments-of-an-app-that-i-had-to-test-part-by-part-which-means-that-each-one-has-the-command-to-end-the-shortcut-so-running-them-daisy-chained-doesnt-work-that-well-i-have-spent-a-lot-of-time-working-on-cool-little-projects-i-have-a-journal-log-to-a-cloud-file-and-another-that-goes-to-a-synced-reminder-i-did-have-a-very-special-work-shortcut-location-aware-it-first-pulled-the-end-time-of-my-shift-for-that-day-from-a-public-but-unposted-calendar-from-a-predetermined-set-of-phrases-it-picked-one-at-random-they-all-said-hey-love-i-just-arrived-at-work-ill-miss-you-i-will-get-out-at-add-that-time-variable-to-the-end-of-that-phrase-send-it-as-a-message-activate-dnd-low-battery-mode-this-can-ostensible-be-included-into-focus-modes-courtesy-text-at-the-beginning-with-a-due-time-best-part-of-it-is-hat-i-had-all-my-shortcuts-as-widgets-too-i-would-love-to-speak-to-someone-from-the-team-i-really-have-enjoyed-the-journey-if-only-the-data-that-i-needed-to-move-was-that-accessible-through-swift-thank-you-all-frederick" class="md-nav__link">
+    I have been an avid enthusiast when it comes to working on shortcuts. I used it a lot during the more restrictive covid days to pick from a list of Services, output was the phone number on QR form. The iPhone then just dials it when the customer taps the confirmation on the screen. I do have a suggestion. can we build blocked actions? and if so, if the only thing that changes is a variable, that could become a block with a drop down menu,…Its not the most efficient when having to duplicate actions over and over.. and scroll is not always precise. I would also love to have the system kill the shortcut or give a signal that it is running.. (thats another bloc, sensory feedback to test progress of the app. I have had to string along 5 segments of an app that I had to test part by part, which means that each one has the command to end the shortcut, so running them daisy chained doesn’t work that well. I have spent a lot of time working on cool little projects.. I have a journal log to a cloud file, and another that goes to a synced Reminder. I did have a very special Work shortcut. Location aware, it first pulled the end time of my shift for that day from a public (but unposted) calendar. from a predetermined set of phrases, it picked one at random. They all said “Hey love, I just arrived at work. I’ll miss you. I will get out at” Add that time variable to the end of that phrase, send it as a message, activate DND, Low battery mode. This can ostensible be included into Focus modes.. courtesy text at the beginning with a due time.. Best part of it is hat I had all my shortcuts as widgets too.. . I would love to speak to someone from the team, I really have enjoyed the journey.. If only the data that I needed to move was that accessible through Swift.. Thank you all, Frederick
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="widgetkit-lounge.html" class="md-nav__link">
+        widgetkit
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#by-shirblc" class="md-nav__link">
+    by shirblc
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#since-app-intents-dont-support-widget-configuration-yet-is-there-any-way-to-tell-the-system-that-an-app-intent-and-a-sirikit-intent-are-duplicative-andor-to-only-surface-app-intents-in-shortcutssirietc" class="md-nav__link">
+    Since App Intents don’t support widget configuration yet, is there any way to tell the system that an App Intent and a SiriKit intent are duplicative and/or to only surface App Intents in Shortcuts/Siri/etc.?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hi-in-our-app-what3words-we-identify-exact-3x3m-squares-with-3-unique-words-example-indexhomeraft-defines-a-specific-latlng-pair-in-the-middle-of-a-fixed-3x3m-square-i-would-love-to-be-able-to-implement-an-app-shortcut-like-what3words-navigate-to-index-home-raft-is-the-current-implementation-supporting-any-input-type-for-a-phrase-like-what3words-navigate-to-or-do-you-have-some-other-suggestions-for-implementing-this-feature" class="md-nav__link">
+    Hi, In our app (what3words) we identify exact 3x3m squares with 3 unique words, example: index.home.raft - defines a specific lat/lng pair in the middle of a fixed 3x3m square. I would love to be able to implement an app shortcut like: 'what3words navigate to index home raft'. Is the current implementation supporting any input type for a phrase like: what3words navigate to (.*) ? Or do you have some other suggestions for implementing this feature?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#great-session-im-new-to-intents-in-general-and-am-excited-about-the-parameterized-options-is-there-another-way-to-capture-an-arbitrary-phrase-at-the-end-of-the-intent-like-the-remainder-of-what-was-uttered" class="md-nav__link">
+    Great Session!  ...I'm new to intents in general and am excited about the parameterized options. Is there another way to capture an arbitrary phrase at the end of the intent, like the remainder of what was uttered?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#any-recommendations-around-best-practices-for-tracking-usage-of-shortcuts-very-broad-question-i-know-but-curious-if-you-have-any-thoughts" class="md-nav__link">
+    Any recommendations around best practices for tracking usage of shortcuts? Very broad question I know, but curious if you have any thoughts.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#so-the-new-intents-will-be-their-own-shortcuts-but-will-they-now-also-always-be-available-as-actions-to-include-in-other-shortcuts" class="md-nav__link">
+    So, the new intents will be their own Shortcuts, but will they now also always be available as actions to include in other Shortcuts?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#in-2019-i-installed-the-ios-beta-on-a-development-device-and-since-it-was-logged-into-icloud-it-synced-my-shortcuts-back-and-they-were-unusable-on-my-main-non-updated-device-is-that-still-the-case-this-year-if-i-access-my-shortcuts-on-a-beta-device-will-they-be-synced-back-and-unusable-on-my-other-devices" class="md-nav__link">
+    In 2019 I installed the iOS beta on a development device, and since it was logged into iCloud, it synced my shortcuts back and they were unusable on my main, non-updated device. Is that still the case this year? If I access my shortcuts on a beta device, will they be synced back and unusable on my other devices?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#is-there-downloadable-sample-code-associated-with-this-session" class="md-nav__link">
+    Is there downloadable sample code associated with this session?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#not-as-a-developer-but-as-a-user-i-created-an-automation-on-shortcuts-app-for-battery-level-is-there-a-way-to-conditionally-check-for-power-source-connection" class="md-nav__link">
+    Not as a developer, but as a user, i created an automation on Shortcuts app for battery level, is there a way to conditionally check for power source connection?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#with-app-intents-can-we-only-show-a-swiftui-view-in-response-if-so-can-we-wrap-a-uikit-view-in-uiviewcontrollerrepresentable-and-return-that" class="md-nav__link">
+    With App Intents, can we only show a SwiftUI view in response? IF so, can we wrap a UIKit-view in UIViewControllerRepresentable and return that?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#havent-had-a-chance-to-digest-all-documentation-yet-in-shortcuts-on-macos-monterey-there-are-some-built-in-actions-like-add-to-bear-note-that-allow-multiple-types-on-input-and-output-in-a-single-parameter-is-this-now-possible-using-the-new-api-ill-try-adding-a-screenshot-for-illustration" class="md-nav__link">
+    Haven't had a chance to digest all documentation yet. In Shortcuts on macOS Monterey, there are some built-in actions, like "Add to Bear Note" that allow multiple types on Input and Output in a single parameter.  Is this now possible using the new API? I'll try adding a screenshot for illustration.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#would-you-please-explain-the-convert-to-app-intent-a-bit-more-also-if-we-choose-not-to-upgrade-sirkit-intents-at-this-time-can-we-mix-them-up-with-new-app-intents" class="md-nav__link">
+    Would you please explain the "Convert to App Intent" a bit more?  Also, if we choose not to upgrade sirkit intents at this time, can we mix them up with new app intents?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hello-what-is-the-difference-between-app-intents-and-app-shortcuts-seems-like-intents-power-shortcuts-and-users-use-shortcuts-to-access-intents-is-there-a-better-mental-model-here" class="md-nav__link">
+    Hello, what is the difference between App Intents and App Shortcuts? Seems like Intents power Shortcuts and users use Shortcuts to access Intents - is there a better mental model here?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hi-guys-i-hope-you-can-help-me-with-something-not-on-the-latest-announcements-im-working-on-a-streaming-audio-app-catalyst-that-handles-inplaymediaintent-fine-on-ios-yet-on-macos-when-speaking-play-npr-on-myapp-siri-replies-i-cant-play-from-myapp-on-this-device-how-can-i-begin-to-figure-out-why-siri-on-mac-cannot-open-my-app-i-think-ive-done-things-correctly-by-donating-intents-setting-user-vocabulary-and-calling-becomecurrent-on-a-inmediausercontext-on-launch" class="md-nav__link">
+    Hi guys I hope you can help me with something not on the latest announcements... I'm working on a streaming audio app (Catalyst) that handles INPlayMediaIntent fine on iOS, yet on macOS when speaking "Play NPR on MyApp, Siri replies "I can't play from MyApp on this device". How can I begin to figure out why Siri on Mac cannot open my app? I think I've done things correctly by donating intents, setting user vocabulary and calling becomeCurrent on a INMediaUserContext() on launch
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#can-automations-be-triggered-by-events-like-sending-an-imessage-opening-an-app-or-taking-a-photo" class="md-nav__link">
+    Can Automations be triggered by events like sending an iMessage, opening an app, or taking a photo?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#is-there-anyway-to-create-siri-shortcuts-that-are-accessible-across-all-siri-touch-points-across-the-ecosystem-watch-iphone-ipad-mac-tv-homepod-airpods-if-so-whats-the-simplest-way-to-do-this-does-your-app-need-to-exist-on-all-these-platforms-to-be-exposed-in-each-siri-context" class="md-nav__link">
+    Is there anyway to create Siri shortcuts that are accessible across all Siri touch points across the ecosystem?  (Watch, iPhone, iPad, Mac, TV, HomePod, AirPods). If so, what's the simplest way to do this? Does your app need to exist on all these platforms to be exposed in each Siri context?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#is-there-a-trick-to-getting-appintents-to-show-up-in-shortcuts-like-something-in-infoplist-i-have-an-appintentsswift-file-in-my-main-app-target-xcode-shows-extract-app-intents-metadata-in-the-build-logtimeline-but-nothing-shows-up-in-shortcuts-on-simulator-for-my-app-i-did-initially-start-with-an-extension-target-and-then-deleted-it-which-may-have-screwed-something-up-thanks" class="md-nav__link">
+    Is there a trick to getting AppIntents to show up in Shortcuts, like something in Info.plist? I have an AppIntents.swift file in my main app target, Xcode shows "Extract app intents metadata" in the build log/timeline, but nothing shows up in Shortcuts on Simulator for my app. I did initially start with an extension target and then deleted it, which may have screwed something up...? Thanks!
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#if-i-use-app-intents-to-create-shortcuts-how-can-i-make-them-compatible-with-ios-15" class="md-nav__link">
+    If I use App Intents to create Shortcuts, how can I make them compatible with iOS 15?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#can-you-make-an-http-request-through-an-app-intent" class="md-nav__link">
+    Can you make an HTTP Request through an App Intent?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#is-it-possible-to-access-ble-with-the-new-changes-coming" class="md-nav__link">
+    Is it possible to access BLE with the new changes coming?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-can-we-expect-in-terms-of-backward-compatibility-if-we-migrate-existing-intents-to-app-intents-will-users-shortcuts-continue-to-work-etc" class="md-nav__link">
+    What can we expect in terms of backward compatibility if we migrate existing intents to App Intents? Will users' Shortcuts continue to work, etc.?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#we-have-several-app-extensions-in-our-product-like-imessage-extension-share-action-extensions-safari-extension-and-so-on-but-our-primary-product-on-ios-ipados-is-a-keyboard-extension-i-wonder-if-theres-something-new-in-sirikit-that-we-can-adopt-for-our-app-extension-especially-for-the-keyboard-extension-which-have-pieces-of-a-common-functionality-with-an-app-and-other-extensions" class="md-nav__link">
+    We have several app extensions in our product like iMessage extension, share &amp; action extensions, safari extension and so on. But our primary product on iOS &amp; iPadOS is a keyboard extension.  I wonder if there's something new in SiriKit that we can adopt for our app extension, especially for the keyboard extension, which have pieces of a common functionality with an app and other extensions.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#whats-going-to-be-the-best-way-to-maintain-backward-compatibility-with-sirikit-intents-if-supporting-the-new-app-intents-when-i-tried-the-convert-to-app-intent-option-i-started-getting-a-lot-of-duplicate-symbol-errors-because-the-intent-definition-file-also-outputs-the-same-generated-files-as-the-app-intent-generated-files-do-not-sure-how-to-best-handle-this" class="md-nav__link">
+    What's going to be the best way to maintain backward compatibility with SiriKit Intents if supporting the new "App Intents"? When I tried the "Convert to App Intent"' option, I started getting a lot of duplicate symbol errors, because the intent-definition file also outputs the same generated files as the App Intent generated files do. Not sure how to best handle this.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#is-it-possible-to-include-audio-sound-design-elements-as-part-of-a-supporting-dialog-response-via-siri" class="md-nav__link">
+    Is it possible to include audio (sound design elements) as part of a Supporting Dialog response via Siri?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#i-make-the-app-just-timers-and-want-to-be-able-to-have-phrasing-similar-to-start-a-5-minute-timer-but-the-video-explicitly-called-this-out-as-not-possible-because-of-needing-2-parameters-i-know-there-are-types-like-duration-how-would-i-define-a-parameter-that-can-take-a-time-value-like-that" class="md-nav__link">
+    I make the app Just Timers and want to be able to have phrasing similar to “start a 5 minute timer” but the video explicitly called this out as not possible because of needing 2 parameters, I know there are types like Duration, how would I define a parameter that can take a time value like that?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#are-there-any-changes-to-donating-intents-or-does-that-still-work-in-the-same-way-for-app-intents-compared-to-the-previous-sirikit-intents-and-are-there-any-changes-in-the-places-and-way-they-are-presented-to-users-in-ios-16" class="md-nav__link">
+    Are there any changes to donating intents? Or does that still work in the same way for App Intents compared to the previous SiriKit Intents? And are there any changes in the places and way they are presented to users in iOS 16?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#if-im-coming-in-fresh-on-this-and-not-concerned-about-pre-ios-16-support-do-i-need-to-unpack-the-sirikit-documentation-as-complementary-info-to-app-intents-or-can-i-have-have-tunnel-vision-and-just-focus-on-the-new-app-intents-docs" class="md-nav__link">
+    If I'm coming in fresh on this (and not concerned about pre iOS 16 support), do I need to unpack the SiriKit documentation as complementary info to App Intents? Or can I have have tunnel vision and just focus on the new App Intents docs?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#thanks-for-the-awesome-work-on-appintents-a-game-changer-perhaps-a-bit-of-a-basic-question-but-can-you-elaborate-on-how-nsuseractivity-donation-upon-say-opening-a-project-and-it-subsequently-surfacing-in-spotlight-would-interactcompare-to-appshortcuts-that-could-also-say-open-project-x" class="md-nav__link">
+    Thanks for the awesome work on AppIntents, a game changer! Perhaps a bit of a basic question, but can you elaborate on how NSUserActivity donation upon say opening a project (and it subsequently surfacing in spotlight) would interact/compare to AppShortcuts that could also say "Open Project X"?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#is-siri-able-to-process-custom-app-intentsshortcuts-while-offline-on-ios-watchos" class="md-nav__link">
+    Is Siri able to process custom App Intents/Shortcuts while offline on iOS? watchOS?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#can-an-app-clip-contain-an-app-intent" class="md-nav__link">
+    Can an App Clip contain an App Intent?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-all-of-the-new-actions-added-in-ios-16" class="md-nav__link">
+    What are all of the new actions added in iOS 16?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#if-i-understood-correctly-unless-you-mark-the-shortcut-as-needing-to-open-the-app-my-app-will-be-launched-in-the-background-when-executing-the-shortcut-will-the-app-be-left-running-in-that-state-or-will-it-immediately-be-closed-again-in-other-words-is-there-a-possibility-for-the-app-to-transition-from-this-background-running-state-to-the-fully-open-state-and-finally-is-this-background-running-state-different-from-other-background-statesdetectable-by-querying-in-my-code" class="md-nav__link">
+    If I understood correctly, unless you mark the shortcut as needing to open the app, my app will be launched in the background when executing the shortcut. Will the app be left running in that state or will it immediately be closed again? In other words, is there a possibility for the app to transition from this background running state to the fully open state? And finally, is this background running state different from other background states/detectable by querying in my code?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#thank-you-everyone-on-the-team-for-all-your-fantastic-work-making-something-that-is-indispensable-to-so-many-of-our-workflows-and-integral-to-the-apps-we-make-and-it-just-keeps-getting-better-i-have-a-widgets-intent-question-that-i-think-i-know-the-answer-to-but-i-want-to-check-is-it-possible-to-hide-intent-parameters-depending-on-the-widget-family-as-in-for-an-intent-that-is-used-for-multiple-families-of-widgets-can-a-specific-widget-family-not-show-a-particular-parameter-heres-my-use-case-i-make-the-time-tracking-app-timery-and-in-each-of-the-home-screen-widgets-theres-a-parameter-to-customize-the-widgets-background-match-the-system-dark-mode-always-show-light-or-dark-etc-if-i-use-the-same-widget-for-the-lock-screen-that-parameter-is-there-when-editing-the-widget-but-it-isnt-applicable-to-the-accessory-circular-widget-since-it-doesnt-have-a-background-there-are-a-couple-other-instances-in-the-home-screen-widgets-where-parameters-that-are-used-for-larger-sized-widgets-appear-when-editing-smaller-sized-widgets-but-they-arent-applicable-for-it-so-they-dont-actually-do-anything-so-it-would-be-nice-to-be-able-to-selectively-hide-parameters-for-specific-widget-families-and-not-potentially-confuse-users-with-a-parameter-that-doesnt-do-anything-for-that-widget-family-but-im-guessing-thats-not-possible" class="md-nav__link">
+    Thank you everyone on the team for all your fantastic work making something that is indispensable to so many of our workflows and integral to the apps we make! And it just keeps getting better!  I have a widgets intent question that I think I know the answer to, but I want to check: Is it possible to hide intent parameters depending on the widget family? As in for an intent that is used for multiple families of widgets, can a specific widget family not show a particular parameter?  Here’s my use case. I make the time-tracking app Timery, and in each of the Home Screen widgets, there’s a parameter to customize the widget’s background (match the system dark mode, always show light or dark, etc.). If I use the same widget for the Lock Screen, that parameter is there when editing the widget, but it isn’t applicable to the accessory circular widget since it doesn’t have a background.  There are a couple other instances in the Home Screen widgets where parameters that are used for larger-sized widgets appear when editing smaller-sized widgets, but they aren’t applicable for it, so they don’t actually do anything.  So it would be nice to be able to selectively hide parameters for specific widget families and not potentially confuse users with a parameter that doesn’t do anything for that widget family, but I’m guessing that’s not possible?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#is-there-a-way-to-create-a-shortcut-that-will-pass-specific-data-to-some-action-or-share-extension-but-only-if-that-file-conforms-to-the-uti-format-that-these-extensions-support" class="md-nav__link">
+    Is there a way to create a Shortcut, that will pass specific data to some Action or Share extension, but only if that file conforms to the UTI format that these extensions support?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#curious-if-theres-a-github-link-or-a-downloadable-version-of-the-app-intents-demo" class="md-nav__link">
+    Curious if there's a github link or a downloadable version of the App Intents demo?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#focus-filters-look-great-ive-already-got-a-prototype-working-in-my-app-streaks-1-possible-to-add-an-icon-to-a-parameter-list-i-have-a-customentity-parameter-the-multi-item-selector-in-focus-filter-setup-works-great-but-it-would-be-great-if-an-icon-could-be-shown-beside-each-item-2-assuming-not-due-to-privacy-but-is-there-a-way-to-get-a-list-of-focus-modes-i-want-users-to-be-able-to-assign-their-data-to-various-categories-which-would-align-with-focus-so-can-say-show-this-task-while-in-sleep-my-prototype-has-them-building-their-own-categories-then-they-need-to-select-that-when-setting-up-the-focus-filter" class="md-nav__link">
+    Focus Filters look great - i've already got a prototype working in my app, Streaks.  1. Possible to add an icon to a parameter list? I have a [CustomEntity] parameter. The multi-item selector in Focus Filter setup works great, but it would be great if an icon could be shown beside each item.  2. Assuming not due to privacy, but Is there a way to get a list of Focus modes? I want users to be able to assign their data to various categories (which would align with focus), so can say "show this task while in Sleep". My prototype has them building their own categories, then they need to select that when setting up the focus filter.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#focus-filter-followup-question-is-there-a-way-to-know-if-a-focus-mode-is-enabled-i-could-only-receive-notifications-from-the-system-when-parameters-are-changed-but-not-if-a-user-changed-from-no-focus-mode-to-some-focus-mode-if-no-parameters-are-changed-my-use-case-i-want-to-show-an-in-app-toggle-that-appears-to-allow-users-to-filter-data-but-i-only-want-it-to-appear-if-some-focus-mode-is-enabled" class="md-nav__link">
+    Focus filter followup question:  Is there a way to know if a focus mode is enabled? I could only receive notifications from the system when parameters are changed, but not if a user changed from "no focus mode" to "some focus mode" if no parameters are changed.  My use-case:  I want to show an in-app toggle that appears to allow users to filter data, but I only want it to appear if some Focus Mode is enabled.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apologies-if-this-is-covered-in-a-session-i-havent-seen-yet-but-is-there-direction-on-how-to-handle-focus-modes-in-watchos-is-it-just-a-matter-of-adding-the-appintent-to-the-watch-target-and-then-the-apple-watch-app-can-read-filter-parameters-accordingly" class="md-nav__link">
+    Apologies if this is covered in a session I haven't seen yet, but is there direction on how to handle focus modes in watchOS?  Is it just a matter of adding the AppIntent to the watch target, and then the Apple Watch app can read filter parameters accordingly?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#topic-backwards-compatibility-are-we-able-to-associate-the-new-app-intents-with-current-user-activities-like-interactions-from-the-intents-framework" class="md-nav__link">
+    Topic backwards compatibility: are we able to associate the new app intents with current user activities (like interactions from the Intents framework)?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#is-there-a-recommended-way-to-map-an-appentity-to-a-core-data-nsmanagedobejct-the-sample-code-uses-uuid-for-appentity-ids-so-i-would-presume-just-using-a-uuid-property-in-core-data-would-be-sufficient-but-wanted-to-check" class="md-nav__link">
+    Is there a recommended way to map an AppEntity to a Core Data NSManagedObejct?  The sample code uses UUID for AppEntity IDs, so I would presume just using a UUID property in Core Data would be sufficient, but wanted to check.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#is-it-a-known-issue-that-some-shortcuts-are-returning-an-error-there-was-problem-running-the-shortcut-and-couldnt-communicate-with-a-helper-application" class="md-nav__link">
+    Is it a known issue that some shortcuts are returning an error "there was problem running the shortcut" and "Couldn't communicate with a helper application."?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#do-users-have-to-first-enable-siri-with-your-app-for-siri-appintents-to-work-in-the-shortcuts-app-there-was-a-place-to-enable-siri-for-the-app-and-until-doing-that-it-didnt-seem-to-work" class="md-nav__link">
+    Do users have to first enable Siri with your app for Siri AppIntents to work?  In the shortcuts app there was a place to enable siri for the app and until doing that it didn't seem to work.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#is-it-possible-to-produce-a-result-from-an-app-intent-that-can-be-used-as-an-input-for-a-system-intent-ie-get-the-newest-song-released-from-band-x-returning-something-like-an-inmediaitem-and-the-next-intent-would-be-an-inplaymediaintent-to-play-the-song" class="md-nav__link">
+    Is it possible to produce a result from an app intent that can be used as an input for a system intent. i.e. Get the newest song released from band X (returning something like an INMediaItem) and the next intent would be an INPlayMediaIntent to play the song?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hi-there-i-have-tried-the-new-appintents-framework-in-particular-the-entitystringquery-while-the-suggestedentities-method-gets-called-the-entitiesfor-and-entitiesmatching-methods-never-get-called-after-entering-a-search-in-the-shortcut-app-is-there-anything-i-am-missing" class="md-nav__link">
+    Hi there. I have tried the new AppIntents framework, in particular the EntityStringQuery. While the 'suggestedEntities()' method gets called, the 'entities(for ..' and 'entities(matching ..' methods never get called after entering a search in the Shortcut app. Is there anything I am missing?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#is-there-a-way-for-siri-to-be-dismissed-after-an-intent-is-performed-right-now-siri-stays-open-and-the-app-isnt-in-focus-at-perform-is-returned" class="md-nav__link">
+    Is there a way for Siri to be dismissed after an intent is performed? Right now Siri stays open and the app isn't in focus at perform is returned.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#in-my-app-i-have-a-dedicated-siri-screen-that-we-added-back-when-sirikit-was-first-opened-which-then-evolved-to-basically-showing-users-the-shortcuts-they-could-add-for-each-task-it-makes-use-of-the-add-to-siri-ui-button-and-allows-management-of-voice-shortcuts-im-not-really-sure-now-what-to-do-with-this-screen-my-hunch-is-just-to-remove-it-completely-and-use-the-new-ui-buttons-in-more-contextually-aware-locations-the-problem-is-though-there-are-a-number-of-situations-where-adding-this-ui-doesnt-make-sense-even-though-i-want-the-user-to-know-about-it" class="md-nav__link">
+    In my app, I have a dedicated "Siri" screen that we added back when SiriKit was first opened, which then evolved to basically showing users the shortcuts they could add for each task.  It makes use of the "Add to Siri" UI button, and allows management of voice shortcuts.  I'm not really sure now what to do with this screen. My hunch is just to remove it completely, and use the new UI buttons in more contextually-aware locations.  The problem is though there are a number of situations where adding this UI doesn't make sense, even though I want the user to know about it.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#again-apologies-if-this-is-covered-elsewhere-im-trying-to-figure-out-how-best-to-think-about-appintents-as-a-whole-long-term-should-i-be-converting-all-internal-distinct-actions-of-my-app-even-if-not-uses-in-shortcuts-or-otherwise-to-be-appintents-for-example-if-the-app-has-a-move-to-trash-functionality-i-have-normally-workflow-to-delete-data-clean-up-whatever-long-term-should-i-be-encapsulating-this-functionality-into-a-single-appintent" class="md-nav__link">
+    Again apologies if this is covered elsewhere - I'm trying to figure out how best to think about AppIntents as a whole.  Long term, should I be converting all internal distinct actions of my app - even if not uses in Shortcuts or otherwise - to be AppIntents?  For example, if the app has a "move to trash" functionality, I have normally workflow to delete data / clean up / whatever. Long term should I be encapsulating this functionality into a single AppIntent?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#in-a-muli-turn-interaction-like-confirmation-or-disambiguation-does-siri-manage-the-dialog-state-or-is-your-app-in-the-loop-at-each-turn" class="md-nav__link">
+    In a muli-turn interaction (like confirmation or disambiguation) –does Siri manage the dialog state, or is your app in the loop at each turn?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hi-there-ive-gone-about-implementing-a-setfocusfilterintent-and-my-app-buildsruns-just-fine-but-the-filter-is-not-present-in-settings-focus-add-focus-filter-ive-looked-around-for-potential-solutions-one-being-ensuring-the-command-line-tools-are-set-to-xcode-14-ive-done-this-step-but-to-no-avail-thank-you-in-advance-and-congrats-on-all-the-great-new-apis" class="md-nav__link">
+    Hi there! I've gone about implementing a SetFocusFilterIntent and my app builds/runs just fine, but the filter is not present in Settings - Focus - Add Focus Filter. I've looked around for potential solutions, one being ensuring the command line tools are set to Xcode 14. I've done this step, but to no avail. Thank you in advance, and congrats on all the great new APIs!
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#i-have-been-an-avid-enthusiast-when-it-comes-to-working-on-shortcuts-i-used-it-a-lot-during-the-more-restrictive-covid-days-to-pick-from-a-list-of-services-output-was-the-phone-number-on-qr-form-the-iphone-then-just-dials-it-when-the-customer-taps-the-confirmation-on-the-screen-i-do-have-a-suggestion-can-we-build-blocked-actions-and-if-so-if-the-only-thing-that-changes-is-a-variable-that-could-become-a-block-with-a-drop-down-menuits-not-the-most-efficient-when-having-to-duplicate-actions-over-and-over-and-scroll-is-not-always-precise-i-would-also-love-to-have-the-system-kill-the-shortcut-or-give-a-signal-that-it-is-running-thats-another-bloc-sensory-feedback-to-test-progress-of-the-app-i-have-had-to-string-along-5-segments-of-an-app-that-i-had-to-test-part-by-part-which-means-that-each-one-has-the-command-to-end-the-shortcut-so-running-them-daisy-chained-doesnt-work-that-well-i-have-spent-a-lot-of-time-working-on-cool-little-projects-i-have-a-journal-log-to-a-cloud-file-and-another-that-goes-to-a-synced-reminder-i-did-have-a-very-special-work-shortcut-location-aware-it-first-pulled-the-end-time-of-my-shift-for-that-day-from-a-public-but-unposted-calendar-from-a-predetermined-set-of-phrases-it-picked-one-at-random-they-all-said-hey-love-i-just-arrived-at-work-ill-miss-you-i-will-get-out-at-add-that-time-variable-to-the-end-of-that-phrase-send-it-as-a-message-activate-dnd-low-battery-mode-this-can-ostensible-be-included-into-focus-modes-courtesy-text-at-the-beginning-with-a-due-time-best-part-of-it-is-hat-i-had-all-my-shortcuts-as-widgets-too-i-would-love-to-speak-to-someone-from-the-team-i-really-have-enjoyed-the-journey-if-only-the-data-that-i-needed-to-move-was-that-accessible-through-swift-thank-you-all-frederick" class="md-nav__link">
+    I have been an avid enthusiast when it comes to working on shortcuts. I used it a lot during the more restrictive covid days to pick from a list of Services, output was the phone number on QR form. The iPhone then just dials it when the customer taps the confirmation on the screen. I do have a suggestion. can we build blocked actions? and if so, if the only thing that changes is a variable, that could become a block with a drop down menu,…Its not the most efficient when having to duplicate actions over and over.. and scroll is not always precise. I would also love to have the system kill the shortcut or give a signal that it is running.. (thats another bloc, sensory feedback to test progress of the app. I have had to string along 5 segments of an app that I had to test part by part, which means that each one has the command to end the shortcut, so running them daisy chained doesn’t work that well. I have spent a lot of time working on cool little projects.. I have a journal log to a cloud file, and another that goes to a synced Reminder. I did have a very special Work shortcut. Location aware, it first pulled the end time of my shift for that day from a public (but unposted) calendar. from a predetermined set of phrases, it picked one at random. They all said “Hey love, I just arrived at work. I’ll miss you. I will get out at” Add that time variable to the end of that phrase, send it as a message, activate DND, Low battery mode. This can ostensible be included into Focus modes.. courtesy text at the beginning with a due time.. Best part of it is hat I had all my shortcuts as widgets too.. . I would love to speak to someone from the team, I really have enjoyed the journey.. If only the data that I needed to move was that accessible through Swift.. Thank you all, Frederick
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<h1 id="sirikit-and-shortcuts-lounge-qas">sirikit-and-shortcuts-lounge QAs</h1>
+<h4 id="by-shirblc">by <a href="https://github.com/shirblc">shirblc</a></h4>
+<hr />
+<hr />
+<blockquote>
+<h4 id="since-app-intents-dont-support-widget-configuration-yet-is-there-any-way-to-tell-the-system-that-an-app-intent-and-a-sirikit-intent-are-duplicative-andor-to-only-surface-app-intents-in-shortcutssirietc">Since App Intents don’t support widget configuration yet, is there any way to tell the system that an App Intent and a SiriKit intent are duplicative and/or to only surface App Intents in Shortcuts/Siri/etc.?</h4>
+</blockquote>
+<p>There are APIs to “match up” your App Intents to existing SiriKit intents.</p>
+<p>See <code>CustomIntentMigratedAppIntent</code> and similar APIs.</p>
+<p>If you adopt those APIs, the system will automatically only surface the App Intents version in Shortcuts, so your intents aren’t duplicated.</p>
+<hr />
+<blockquote>
+<h4 id="hi-in-our-app-what3words-we-identify-exact-3x3m-squares-with-3-unique-words-example-indexhomeraft-defines-a-specific-latlng-pair-in-the-middle-of-a-fixed-3x3m-square-i-would-love-to-be-able-to-implement-an-app-shortcut-like-what3words-navigate-to-index-home-raft-is-the-current-implementation-supporting-any-input-type-for-a-phrase-like-what3words-navigate-to-or-do-you-have-some-other-suggestions-for-implementing-this-feature">Hi, In our app (what3words) we identify exact 3x3m squares with 3 unique words, example: index.home.raft - defines a specific lat/lng pair in the middle of a fixed 3x3m square. I would love to be able to implement an app shortcut like: 'what3words navigate to index home raft'. Is the current implementation supporting <code>any input type</code> for a phrase like: <code>what3words navigate to (.*)</code> ? Or do you have some other suggestions for implementing this feature?</h4>
+</blockquote>
+<p>App Shortcuts doesn’t support arbitrary parameters in the initial utterance. Instead, your can specify parameters ahead of time while your app is running. For your use case, if you can specify all the possible options up front, your use case may fit a parameterized shortcut. If not, I’d suggest having a phrase like “what3words navigate”, where you request the parameter in a followup question using a Needs Value prompt</p>
+<p>Thanks for your reply.
+And this needs value prompt will show up as an input field where users would input the words with a keyboard ?</p>
+<p>in Siri, Siri will ask the user to dictate a response in voice. In Shortcuts and Spotlight, the user can type the string value using the keyboard</p>
+<hr />
+<blockquote>
+<h4 id="great-session-im-new-to-intents-in-general-and-am-excited-about-the-parameterized-options-is-there-another-way-to-capture-an-arbitrary-phrase-at-the-end-of-the-intent-like-the-remainder-of-what-was-uttered">Great Session!  ...I'm new to intents in general and am excited about the parameterized options. Is there another way to capture an arbitrary phrase at the end of the intent, like the remainder of what was uttered?</h4>
+</blockquote>
+<p>App Intents don’t support gathering arbitrary inputs in the initial utterance. But you can always gather additional inputs using followup prompts.</p>
+<hr />
+<blockquote>
+<h4 id="any-recommendations-around-best-practices-for-tracking-usage-of-shortcuts-very-broad-question-i-know-but-curious-if-you-have-any-thoughts">Any recommendations around best practices for tracking usage of shortcuts? Very broad question I know, but curious if you have any thoughts.</h4>
+</blockquote>
+<p>We recommend instrumenting your intent’s <code>perform()</code> method using your application’s existing instrumentation system. This method will be called any time your App Shortcut is invoked to run your action, so it’s a great way to get a sense for how often users are using your integration.</p>
+<hr />
+<blockquote>
+<h4 id="so-the-new-intents-will-be-their-own-shortcuts-but-will-they-now-also-always-be-available-as-actions-to-include-in-other-shortcuts">So, the new intents will be their own Shortcuts, but will they now also always be available as actions to include in other Shortcuts?</h4>
+</blockquote>
+<p>Yes! App Shortcuts are made up of App Intents, and the user can add any intent you create to a shortcut of their own. And, your intents can return results that can be used as the input to other actions.</p>
+<p>Awesome! Thanks!</p>
+<hr />
+<blockquote>
+<h4 id="in-2019-i-installed-the-ios-beta-on-a-development-device-and-since-it-was-logged-into-icloud-it-synced-my-shortcuts-back-and-they-were-unusable-on-my-main-non-updated-device-is-that-still-the-case-this-year-if-i-access-my-shortcuts-on-a-beta-device-will-they-be-synced-back-and-unusable-on-my-other-devices">In 2019 I installed the iOS beta on a development device, and since it was logged into iCloud, it synced my shortcuts back and they were unusable on my main, non-updated device. Is that still the case this year? If I access my shortcuts on a beta device, will they be synced back and unusable on my other devices?</h4>
+</blockquote>
+<p>That shouldn’t be the case this year! Shortcuts created in iOS 16 work on devices running iOS 15, unless they use new actions that were added in iOS 16.</p>
+<hr />
+<blockquote>
+<h4 id="is-there-downloadable-sample-code-associated-with-this-session">Is there downloadable sample code associated with this session?</h4>
+</blockquote>
+<p>Check out the food truck app, it has some app intents and app shortcuts integration in there.
+<a href="https://developer.apple.com/documentation/swiftui/food_truck_building_a_swiftui_multiplatform_app/">https://developer.apple.com/documentation/swiftui/food_truck_building_a_swiftui_multiplatform_app/</a></p>
+<p>Thank you, I'll take a look!</p>
+<p>Otherwise, let us know what kind of sample code you’d like to see in the future!</p>
+<p>github link: [<a href="https://github.com/apple/sample-food-truck">https://github.com/apple/sample-food-truck</a>].</p>
+<hr />
+<blockquote>
+<h4 id="not-as-a-developer-but-as-a-user-i-created-an-automation-on-shortcuts-app-for-battery-level-is-there-a-way-to-conditionally-check-for-power-source-connection">Not as a developer, but as a user, i created an automation on Shortcuts app for battery level, is there a way to conditionally check for power source connection?</h4>
+</blockquote>
+<p>I don’t think we support this right now, but please file a feedback request!</p>
+<p>Sure thing :crossed_fingers::skin-tone-2:</p>
+<hr />
+<blockquote>
+<h4 id="with-app-intents-can-we-only-show-a-swiftui-view-in-response-if-so-can-we-wrap-a-uikit-view-in-uiviewcontrollerrepresentable-and-return-that">With App Intents, can we only show a SwiftUI view in response? IF so, can we wrap a UIKit-view in UIViewControllerRepresentable and return that?</h4>
+</blockquote>
+<p>Custom views in the App Intents framework leverage the same technology as Widgets. This means your views need to be implemented using only SwiftUI — You cannot use UIViewControllerRepresentable.</p>
+<p>Thanks for the reply. This is different from SiriKit Intents I guess. My existing intents show a custom UI on completion, so I guess I'll have to port that to SwiftUI.</p>
+<p>&lt;@U03HZ2VBE21&gt; Yes! It’s different (and we think much easier), since you don’t need a separate UI plugin, etc.</p>
+<hr />
+<blockquote>
+<h4 id="havent-had-a-chance-to-digest-all-documentation-yet-in-shortcuts-on-macos-monterey-there-are-some-built-in-actions-like-add-to-bear-note-that-allow-multiple-types-on-input-and-output-in-a-single-parameter-is-this-now-possible-using-the-new-api-ill-try-adding-a-screenshot-for-illustration">Haven't had a chance to digest all documentation yet. In Shortcuts on macOS Monterey, there are some built-in actions, like "Add to Bear Note" that allow multiple types on Input and Output in a single parameter.  Is this now possible using the new API? I'll try adding a screenshot for illustration.</h4>
+</blockquote>
+<p>This is a great idea! We would love a feedback for this so we can take a look at supporting this.</p>
+<p>Will do! It would make actions so much easier. Currently I need to provide three almost identical actions to support three different kinds of input, in our case text, images and files.</p>
+<p>&lt;@U03H3MTANBZ&gt; Happens to be for an app you know from your past :wink:</p>
+<p>Just to make sure we’re talking the same thing: this is what I am referring to…</p>
+<p>Take a look at the Resolver protocol.  <a href="https://developer.apple.com/documentation/appintents/resolver">https://developer.apple.com/documentation/appintents/resolver</a></p>
+<p>It might let you do some of what you want</p>
+<p>Thanks for the hint, will do :slightly_smiling_face:</p>
+<p>&lt;@U03J1UQCFGB&gt;, one thing worth looking at in App Intents is that we now support “rich text” as a native type, by specifying an <code>AttributedString</code> parameter.</p>
+<p>If you specify a parameter that takes rich text, it also automatically supports plain text, and attachments (which could be files, images, etc.)</p>
+<p>Any attachments will be interpolated into the AttributedString as text attachments (as is standard for attributed strings)</p>
+<p>That <em>should</em> be sufficient to achieve the use case you’re outlining - give it a try and please file some feedback if it’s not what you’re looking for!</p>
+<hr />
+<blockquote>
+<h4 id="would-you-please-explain-the-convert-to-app-intent-a-bit-more-also-if-we-choose-not-to-upgrade-sirkit-intents-at-this-time-can-we-mix-them-up-with-new-app-intents">Would you please explain the "Convert to App Intent" a bit more?  Also, if we choose not to upgrade sirkit intents at this time, can we mix them up with new app intents?</h4>
+</blockquote>
+<p>“Convert to App Intent” will create skeleton AppIntent source files for existing SiriKit intents that you select.  It will translate basic information such as types, enumerations, and intent parameters, and add stubs for <code>perform</code> and query methods.  You are free to translate only some of your existing intents — SiriKit intents are still recommended if you use Media, Messaging, or Phone domains; or need to be compatible with older systems.</p>
+<p>I just ran the "Covert to App Intent" with my intent definition file and while it created a bunch of swift files with CustomIntentMigratedAppEnum and CustomIntentMigratedAppIntent. Unfortunately it doesn't label them as @available decorations so I got a bunch of errors as a result, warning me that "LocalizedStringResource' is only available in macOS 13 or newer" etc. Would be nice if that was marked automatically.</p>
+<p>Good suggestion, thank you!</p>
+<hr />
+<blockquote>
+<h4 id="hello-what-is-the-difference-between-app-intents-and-app-shortcuts-seems-like-intents-power-shortcuts-and-users-use-shortcuts-to-access-intents-is-there-a-better-mental-model-here">Hello, what is the difference between App Intents and App Shortcuts? Seems like Intents power Shortcuts and users use Shortcuts to access Intents - is there a better mental model here?</h4>
+</blockquote>
+<p>App Intents are how you as a developer create actions the user can run in your app. App Shortcuts are a layer on top, which lets you opt-in certain App Intents and turn them directly into Shortcuts for the user automatically, including Spotlight and built-in Siri support.</p>
+<p>For more on App Shortcuts, you can checkout my talk (the other Michael :blush:) here: <a href="https://developer.apple.com/wwdc22/10170">https://developer.apple.com/wwdc22/10170</a></p>
+<p>+1 to what &lt;@U03H3MTANBZ&gt; said! And, I think your initial description was right, &lt;@U03JEBK34D9&gt;!</p>
+<p>Thank you for answering - that helps clarify! So you need an Intent in order to create a Shortcut. Are there user-facing things you can do with <em>only</em> Intents or would I pretty much always have at least 1 intent and 1 shortcut?</p>
+<p>It depends a lot on what your App Intent does. Not every App Intent makes a great shortcut. For more information about what use cases make good App Intents, check out Lynn’s talk tomorrow, Design App Shortcuts: <a href="https://developer.apple.com/wwdc22/10169">https://developer.apple.com/wwdc22/10169</a></p>
+<p>&lt;@U03JEBK34D9&gt;, yes, there are user-facing things you can do with only an intent. If you publish an intent, users can add it to a custom shortcut, by creating one manually in the Shortcuts app.</p>
+<p>This is super useful for making your app deeply automatable with Shortcuts. But if you want to make it easy for a user to tap into an intent, definitely expose an App Shortcut so that it’s available with no setup.</p>
+<hr />
+<blockquote>
+<h4 id="hi-guys-i-hope-you-can-help-me-with-something-not-on-the-latest-announcements-im-working-on-a-streaming-audio-app-catalyst-that-handles-inplaymediaintent-fine-on-ios-yet-on-macos-when-speaking-play-npr-on-myapp-siri-replies-i-cant-play-from-myapp-on-this-device-how-can-i-begin-to-figure-out-why-siri-on-mac-cannot-open-my-app-i-think-ive-done-things-correctly-by-donating-intents-setting-user-vocabulary-and-calling-becomecurrent-on-a-inmediausercontext-on-launch">Hi guys I hope you can help me with something not on the latest announcements... I'm working on a streaming audio app (Catalyst) that handles INPlayMediaIntent fine on iOS, yet on macOS when speaking "Play NPR on MyApp, Siri replies "I can't play from MyApp on this device". How can I begin to figure out why Siri on Mac cannot open my app? I think I've done things correctly by donating intents, setting user vocabulary and calling becomeCurrent on a INMediaUserContext() on launch</h4>
+</blockquote>
+<p>Siri does not support <code>INPlayMediaIntent</code> on MacOS, but it is supported by the Shortcuts app.</p>
+<p>Quick correction, <code>INPlayMediaIntent</code> is unavailable on macOS in both Siri and Shortcuts.</p>
+<p>Oh ok cool I’ve been tearing my hair out thinking it’s me :joy: thank you so much!</p>
+<hr />
+<blockquote>
+<h4 id="can-automations-be-triggered-by-events-like-sending-an-imessage-opening-an-app-or-taking-a-photo">Can Automations be triggered by events like sending an iMessage, opening an app, or taking a photo?</h4>
+</blockquote>
+<p>Those aren’t currently supported, but you can run an automation based on opening or closing an app! You can suggest new triggers by submitting feedback in the Feedback Assistant app.</p>
+<p>Thank you!</p>
+<hr />
+<blockquote>
+<h4 id="is-there-anyway-to-create-siri-shortcuts-that-are-accessible-across-all-siri-touch-points-across-the-ecosystem-watch-iphone-ipad-mac-tv-homepod-airpods-if-so-whats-the-simplest-way-to-do-this-does-your-app-need-to-exist-on-all-these-platforms-to-be-exposed-in-each-siri-context">Is there anyway to create Siri shortcuts that are accessible across all Siri touch points across the ecosystem?  (Watch, iPhone, iPad, Mac, TV, HomePod, AirPods). If so, what's the simplest way to do this? Does your app need to exist on all these platforms to be exposed in each Siri context?</h4>
+</blockquote>
+<p>Shortcuts are supported on iPhone, iPad, Watch, Mac, HomePod, and AirPods (not Apple TV). If you implement an intent in your iOS/iPadOS app, it will be available on iPhone, iPad, HomePod, and AirPods. To support Watch, you’ll need to implement intents in your watchOS app, and to support Mac, you’ll need to implement intents in your macOS app.</p>
+<p>Note: App Shortcuts (the feature where your app’s shortcuts are made available automatically) are not available on macOS. HomePod support for App Shortcuts is coming later this year.</p>
+<p>Thank you &lt;@U03HJ9MNGPL&gt;!</p>
+<p>So once HomePod support for App Shortcuts comes later this year, a customer could download an iPhone app with bundled App Shortcuts, and then these invocation utterances would be exposed to any HomePod devices in their household?</p>
+<p>Yes, as long as the HomePod has Personal Requests enabled!</p>
+<p>Thanks &lt;@U03HBLRDGUW&gt;!!</p>
+<hr />
+<blockquote>
+<h4 id="is-there-a-trick-to-getting-appintents-to-show-up-in-shortcuts-like-something-in-infoplist-i-have-an-appintentsswift-file-in-my-main-app-target-xcode-shows-extract-app-intents-metadata-in-the-build-logtimeline-but-nothing-shows-up-in-shortcuts-on-simulator-for-my-app-i-did-initially-start-with-an-extension-target-and-then-deleted-it-which-may-have-screwed-something-up-thanks">Is there a trick to getting AppIntents to show up in Shortcuts, like something in Info.plist? I have an AppIntents.swift file in my main app target, Xcode shows "Extract app intents metadata" in the build log/timeline, but nothing shows up in Shortcuts on Simulator for my app. I did initially start with an extension target and then deleted it, which may have screwed something up...? Thanks!</h4>
+</blockquote>
+<p>You do not need to add anything to your Info.plist for things to show up. You may want to try clearing your build products, and making sure <code>xcode-select</code> has the Xcode beta selected (this is a known issue). If you have any other issues getting App Intents to appear, you should feel encouraged to file feedback.</p>
+<p>I'm guessing it was the xcode-select, I had already tried everything else, but switching xcode-select + resetting the simulator + clean build got things working. Thanks!</p>
+<hr />
+<blockquote>
+<h4 id="if-i-use-app-intents-to-create-shortcuts-how-can-i-make-them-compatible-with-ios-15">If I use App Intents to create Shortcuts, how can I make them compatible with iOS 15?</h4>
+</blockquote>
+<p>App Intents are supported on iOS 16 and later. If you want your Intents to be compatible with earlier versions of iOS, you'll have to use the existing Intents framework. Your custom intents and app intents can coexist and people won't see both on iOS 16, as long as you adopt the <code>CustomIntentMigratedAction</code> protocol in your App Intents.</p>
+<p>That's great to know. Thank you!</p>
+<hr />
+<blockquote>
+<h4 id="can-you-make-an-http-request-through-an-app-intent">Can you make an HTTP Request through an App Intent?</h4>
+</blockquote>
+<p>Yes you can, as long as it takes less than ten seconds.</p>
+<p>Thank you Michael :)</p>
+<hr />
+<blockquote>
+<h4 id="is-it-possible-to-access-ble-with-the-new-changes-coming">Is it possible to access BLE with the new changes coming?</h4>
+</blockquote>
+<p>Yes, this should be possible, as long as the operation takes less than ten seconds. Give it a try and file feedback if it doesn’t work as you might expect!</p>
+<p>Alright, thank you!</p>
+<hr />
+<blockquote>
+<h4 id="what-can-we-expect-in-terms-of-backward-compatibility-if-we-migrate-existing-intents-to-app-intents-will-users-shortcuts-continue-to-work-etc">What can we expect in terms of backward compatibility if we migrate existing intents to App Intents? Will users' Shortcuts continue to work, etc.?</h4>
+</blockquote>
+<p>Yes! See <a href="https://wwdc22.slack.com/archives/C03J26F7XKJ/p1654723060962539?thread_ts=1654723050.268569&amp;cid=C03J26F7XKJ">https://wwdc22.slack.com/archives/C03J26F7XKJ/p1654723060962539?thread_ts=1654723050.268569&amp;cid=C03J26F7XKJ</a>. Does that help?</p>
+<hr />
+<blockquote>
+<h4 id="we-have-several-app-extensions-in-our-product-like-imessage-extension-share-action-extensions-safari-extension-and-so-on-but-our-primary-product-on-ios-ipados-is-a-keyboard-extension-i-wonder-if-theres-something-new-in-sirikit-that-we-can-adopt-for-our-app-extension-especially-for-the-keyboard-extension-which-have-pieces-of-a-common-functionality-with-an-app-and-other-extensions">We have several app extensions in our product like iMessage extension, share &amp; action extensions, safari extension and so on. But our primary product on iOS &amp; iPadOS is a keyboard extension.  I wonder if there's something new in SiriKit that we can adopt for our app extension, especially for the keyboard extension, which have pieces of a common functionality with an app and other extensions.</h4>
+</blockquote>
+<p>App Intents are not supported in keyboard extensions. Intents are handled by your app process, or a standalone App Intents extension. We'd love to hear what kind of ideas you have for integrating Siri or Shortcuts into your keyboard extension!</p>
+<p>I have some :smile:</p>
+<p>Should I apply for a lab?)</p>
+<p>Regarding App Intents, I see that they’re not supported. But can we donate Intents to the Intents extension from the keyboard extension?</p>
+<p>Yes! We’ve got a lab coming up on Friday!</p>
+<p>I’m not sure what you mean by “donate intents to the intents extension from the keyboard extension”</p>
+<p>What would be the use case there?</p>
+<hr />
+<blockquote>
+<h4 id="whats-going-to-be-the-best-way-to-maintain-backward-compatibility-with-sirikit-intents-if-supporting-the-new-app-intents-when-i-tried-the-convert-to-app-intent-option-i-started-getting-a-lot-of-duplicate-symbol-errors-because-the-intent-definition-file-also-outputs-the-same-generated-files-as-the-app-intent-generated-files-do-not-sure-how-to-best-handle-this">What's going to be the best way to maintain backward compatibility with SiriKit Intents if supporting the new "App Intents"? When I tried the "Convert to App Intent"' option, I started getting a lot of duplicate symbol errors, because the intent-definition file also outputs the same generated files as the App Intent generated files do. Not sure how to best handle this.</h4>
+</blockquote>
+<p>Hi! Are you seeing duplicate file names, or duplicate symbols?</p>
+<p>Duplicate symbols.</p>
+<p>Ah OK. Yeah I would recommend renaming the generated symbols so they don’t collide.</p>
+<p>Can this be done by the convertor tool? It generated about 30+ different symbols from my intents definition file and it would be tedious to change it manually</p>
+<p>Outside of that, you have the right idea with migration. If you do the migration or implement the CustomIntentMigratedAppIntent and similar protocols manually, backward compatibility will be maintained.</p>
+<p>&lt;@U03HZ2VBE21&gt; yes there might be something we can do there. We’ll take that as a request!</p>
+<p>Also keep in mind, to make sure you get backwards compatibility, keep the schema of parameters the same between the app intent and sirikit intent.</p>
+<hr />
+<blockquote>
+<h4 id="is-it-possible-to-include-audio-sound-design-elements-as-part-of-a-supporting-dialog-response-via-siri">Is it possible to include audio (sound design elements) as part of a Supporting Dialog response via Siri?</h4>
+</blockquote>
+<p>There’s no explicit support for this, but if your app intent conforms to <code>AudioStartingIntent</code> , you should be able to play a brief sound before returning a result from your intent’s <code>perform()</code> method. Feel free to give it a try!</p>
+<p>Thanks &lt;@U03HJ5LTNEN&gt;!</p>
+<hr />
+<blockquote>
+<h4 id="i-make-the-app-just-timers-and-want-to-be-able-to-have-phrasing-similar-to-start-a-5-minute-timer-but-the-video-explicitly-called-this-out-as-not-possible-because-of-needing-2-parameters-i-know-there-are-types-like-duration-how-would-i-define-a-parameter-that-can-take-a-time-value-like-that">I make the app Just Timers and want to be able to have phrasing similar to “start a 5 minute timer” but the video explicitly called this out as not possible because of needing 2 parameters, I know there are types like Duration, how would I define a parameter that can take a time value like that?</h4>
+</blockquote>
+<p>It’s not possible for an app shortcut phrase to take an open-ended parameter like a # of minutes. But, you can consider:
+1. Using a conversational flow where the user says a phrase like “start Just Timer” and Siri asks “For how many minutes?” and the user specifies a duration that way
+2. If there’s a logical way to provide a set of timers ahead of time to Siri, perhaps with nicknames (like “tea timer”, “soup timer”, etc),  the user could use those in their phrase</p>
+<p>Makes sense. Is it the number that's the issue or the two parameters? Like, if i made a static phrase "start a X minute timer" where X is a number, would it work? in theory building a few different iterations like hour/second etc</p>
+<p>It’s the number that’s the issue! App Shortcuts supports taking only pre-defined parameters.</p>
+<p>got it! thank you! that was the only part I wasn’t quite clear on but it makes sense. here’s hoping for next year :crossed_fingers: :slightly_smiling_face:  </p>
+<hr />
+<blockquote>
+<h4 id="are-there-any-changes-to-donating-intents-or-does-that-still-work-in-the-same-way-for-app-intents-compared-to-the-previous-sirikit-intents-and-are-there-any-changes-in-the-places-and-way-they-are-presented-to-users-in-ios-16">Are there any changes to donating intents? Or does that still work in the same way for App Intents compared to the previous SiriKit Intents? And are there any changes in the places and way they are presented to users in iOS 16?</h4>
+</blockquote>
+<p>You can still donate intents, and provide predictions using the <code>PredictableIntent</code> protocol. But, suggestions do work differently in iOS 16 than earlier! Now, at the top level of Spotlight, only donated <code>INPlayMediaIntent</code>s are suggested. Other types of donated intents are only suggested in the Siri Suggestions widget.</p>
+<p>You should consider adopting the new App Shortcuts API instead! When you adopt App Shortcuts, your shortcuts will be featured in Spotlight at the top-level whenever your app is suggested, and whenever people search for your app in Spotlight. It’s a great way to surface your app’s functionality, and you don’t need to donate for them to appear!</p>
+<p>Good to know, thanks for the info!</p>
+<hr />
+<blockquote>
+<h4 id="if-im-coming-in-fresh-on-this-and-not-concerned-about-pre-ios-16-support-do-i-need-to-unpack-the-sirikit-documentation-as-complementary-info-to-app-intents-or-can-i-have-have-tunnel-vision-and-just-focus-on-the-new-app-intents-docs">If I'm coming in fresh on this (and not concerned about pre iOS 16 support), do I need to unpack the SiriKit documentation as complementary info to App Intents? Or can I have have tunnel vision and just focus on the new App Intents docs?</h4>
+</blockquote>
+<p>App Intents is a great way forward on our platforms! You shouldn't need to use SiriKit unless you specifically want to support Widgets or any of the Siri domains (like Messaging, Media, etc). If you do want to support one of those features, you'll want to also look at the SiriKit documentation as the App Intents framework does not support this at this time.</p>
+<p>Thanks &lt;@U03HBLR8UMC&gt;!</p>
+<p>&lt;@U03HBLR8UMC&gt; When you say support Widgets, does that mean creating a Widget that when tapped, would trigger the Shortcut?</p>
+<p>By supporting widgets, I mean if you want to make a widget for your app.</p>
+<p>When you make a widget using WidgetKit, the configuration is backed by custom Intents via SiriKit.</p>
+<p>See here: <a href="https://developer.apple.com/documentation/widgetkit/making-a-configurable-widget">https://developer.apple.com/documentation/widgetkit/making-a-configurable-widget</a></p>
+<p>:pray: thank you!</p>
+<hr />
+<blockquote>
+<h4 id="thanks-for-the-awesome-work-on-appintents-a-game-changer-perhaps-a-bit-of-a-basic-question-but-can-you-elaborate-on-how-nsuseractivity-donation-upon-say-opening-a-project-and-it-subsequently-surfacing-in-spotlight-would-interactcompare-to-appshortcuts-that-could-also-say-open-project-x">Thanks for the awesome work on AppIntents, a game changer! Perhaps a bit of a basic question, but can you elaborate on how NSUserActivity donation upon say opening a project (and it subsequently surfacing in spotlight) would interact/compare to AppShortcuts that could also say "Open Project X"?</h4>
+</blockquote>
+<p>Hi! They would both be searchable in Spotlight. You could consider setting the <code>eligibleForSearch</code> flag to <code>false</code> on your <code>NSUserActivity</code> objects, and using App Shortcuts instead to expose functionality in Spotlight.</p>
+<p>When you adopt App Shortcuts, your shortcuts will be featured in Spotlight at the top-level whenever your app is suggested, and whenever people search for your app in Spotlight. It’s a great way to surface your app’s functionality, and you don’t need to donate for them to appear.</p>
+<p>We’d suggest using App Shortcuts over <code>NSUserActivity</code> in this case, as it’s going to be shown more prominently in various places across the operating system, and enable more functionality for your users!</p>
+<p>Perfect, thanks!</p>
+<hr />
+<blockquote>
+<h4 id="is-siri-able-to-process-custom-app-intentsshortcuts-while-offline-on-ios-watchos">Is Siri able to process custom App Intents/Shortcuts while offline on iOS? watchOS?</h4>
+</blockquote>
+<p>Shortcuts that have no followup prompts (confirmations, disambiguations, value prompts) can run completely offline. Shortcuts that ask for followups require a network connection.</p>
+<p>Great! This is possible on watchOS 9 as well? I don't think offline was supported on watchOS 8 last year</p>
+<p>Yes! This is the case for watchOS 9 on Series 6 watch and later</p>
+<p>On iOS, offline Siri requires iPhone XS or later</p>
+<hr />
+<blockquote>
+<h4 id="can-an-app-clip-contain-an-app-intent">Can an App Clip contain an App Intent?</h4>
+</blockquote>
+<p>No, only apps can contain App Intents!</p>
+<p>(App Intents extensions within apps can also contain App Intents)</p>
+<p>what is an App Intents extension?</p>
+<p>&lt;@U03HJ5LTNEN&gt; are you referring to this?  <a href="https://developer.apple.com/documentation/sirikit/intent_handling_infrastructure/creating_an_intents_app_extension">https://developer.apple.com/documentation/sirikit/intent_handling_infrastructure/creating_an_intents_app_extension</a></p>
+<p>or is this a new concept within App Intents?</p>
+<hr />
+<blockquote>
+<h4 id="what-are-all-of-the-new-actions-added-in-ios-16">What are all of the new actions added in iOS 16?</h4>
+</blockquote>
+<p>Great question! Here are the new actions in iOS 16:
+• Notes
+    ◦ Added: Delete Notes, Pin Notes, Open Notes Account, Change Notes Setting, Open Notes View, Create Folder, Delete Folders, Move Notes to Folder, Open Folder, Add Tags to Notes, Create Tag, Delete Tags, Open Tag, and Remove Tags from Notes
+    ◦ “Create Note” and “Append to Note” now support Rich Text
+• Voice Memos
+    ◦ Added: Search Voice Memos, Open Folder, Open Recording, Delete Folders, Play Recording, Create Folder, Change Playback Setting, Delete Recordings, and Create Recording
+• Mail
+    ◦ Added: Open Mailbox, Search Mail
+• Books
+    ◦ Added: Open Book, Open Collection, Open Tab, Change Theme, Resize Text, Switch Page, and Search Books
+• Safari
+    ◦ Added: Open Tab Group, Create Tab Group, Open New Tab, Open New Private Tab, and Open View
+    ◦ Safari Reader actions are now available on macOS
+• Shortcuts
+    ◦ Added: Create Shortcut, Delete Shortcuts, Search Shortcuts, and Open Folder
+• Clock
+    ◦ “Open Tab” opens a specific tab in the Clock app
+    ◦ Clock actions are now available on macOS
+• “Search Files” starts a search in the Files app
+• “Get Parked Car Location” and “Set Parked Car” retrieve and mark the location of your car as displayed in Maps
+• “Configure Focus Filter” actions set Focus Filters for apps
+• “Optimize File Size of PDF” compresses the images inside a PDF, resulting in a smaller file size
+• “Remove Background” removes the background of images, keeping the subject only
+And some action improvements in iOS 16:
+• “Send Email” now supports rich text on macOS
+• “Find Calendar Events” can now filter events for declined or accepted status
+• “Set Personal Hotspot” toggles the status of Personal Hotspot on iOS
+• “Set Flashlight” can now control the flashlight on watchOS
+• “View Content Graph” has an improved interface
+• “Open URL” no longer fails to open FaceTime links
+• “Shazam It” no longer fails to run from Siri
+• “Find Notes” can now retrieve more than 26 notes at a time
+• “Find Photos” no longer fails to run when filtering for a photo album that does not exist on the local device
+• Evernote actions return content successfully on macOS</p>
+<hr />
+<blockquote>
+<h4 id="if-i-understood-correctly-unless-you-mark-the-shortcut-as-needing-to-open-the-app-my-app-will-be-launched-in-the-background-when-executing-the-shortcut-will-the-app-be-left-running-in-that-state-or-will-it-immediately-be-closed-again-in-other-words-is-there-a-possibility-for-the-app-to-transition-from-this-background-running-state-to-the-fully-open-state-and-finally-is-this-background-running-state-different-from-other-background-statesdetectable-by-querying-in-my-code">If I understood correctly, unless you mark the shortcut as needing to open the app, my app will be launched in the background when executing the shortcut. Will the app be left running in that state or will it immediately be closed again? In other words, is there a possibility for the app to transition from this background running state to the fully open state? And finally, is this background running state different from other background states/detectable by querying in my code?</h4>
+</blockquote>
+<p>When you implement App Intents in your app, your app will be launched in the background to perform the intent, then suspended when it's finished. If your app happens to be already launched and in the foreground, it will remain so after performing the intent.</p>
+<p>If you want your app to come into the foreground, you'll need to return <code>true</code> from <code>openAppWhenRun</code> on your app intent.</p>
+<p>If you need more control over this behavior for your use case, we'd love to hear about it! What use case are you looking at for transitioning from the background to the foreground?</p>
+<p>Given we store our data in a group container we have to be very careful with leaving file handles open (we’ve been bitten by crashes due to this fact in the past). It also means we are careful to close our database stack when going to the background. If the app is running and the intents is asked to perform all is good, I’m more worried though about the app being launched in the background and setting up the database stack, then being suspended and crashing due to file handles being left open. Or, the situation where we tear down the database stack after the intent has finished and the app is suspended, and then somehow transitioning to the foreground state without having detected that we need to setup the database stack again. Hence trying to grasp which transitions are possible.</p>
+<p>The only lifecycle events you will receive are the standard ones sent to your app delegate. If you initialize a database in your perform method or a query, you should clean it up before that method returns.</p>
+<p>Good point, I could definitely verify or defer things in the perform method itself indeed. Thanks!</p>
+<hr />
+<blockquote>
+<h4 id="thank-you-everyone-on-the-team-for-all-your-fantastic-work-making-something-that-is-indispensable-to-so-many-of-our-workflows-and-integral-to-the-apps-we-make-and-it-just-keeps-getting-better-i-have-a-widgets-intent-question-that-i-think-i-know-the-answer-to-but-i-want-to-check-is-it-possible-to-hide-intent-parameters-depending-on-the-widget-family-as-in-for-an-intent-that-is-used-for-multiple-families-of-widgets-can-a-specific-widget-family-not-show-a-particular-parameter-heres-my-use-case-i-make-the-time-tracking-app-timery-and-in-each-of-the-home-screen-widgets-theres-a-parameter-to-customize-the-widgets-background-match-the-system-dark-mode-always-show-light-or-dark-etc-if-i-use-the-same-widget-for-the-lock-screen-that-parameter-is-there-when-editing-the-widget-but-it-isnt-applicable-to-the-accessory-circular-widget-since-it-doesnt-have-a-background-there-are-a-couple-other-instances-in-the-home-screen-widgets-where-parameters-that-are-used-for-larger-sized-widgets-appear-when-editing-smaller-sized-widgets-but-they-arent-applicable-for-it-so-they-dont-actually-do-anything-so-it-would-be-nice-to-be-able-to-selectively-hide-parameters-for-specific-widget-families-and-not-potentially-confuse-users-with-a-parameter-that-doesnt-do-anything-for-that-widget-family-but-im-guessing-thats-not-possible">Thank you everyone on the team for all your fantastic work making something that is indispensable to so many of our workflows and integral to the apps we make! And it just keeps getting better!  I have a widgets intent question that I think I know the answer to, but I want to check: Is it possible to hide intent parameters depending on the widget family? As in for an intent that is used for multiple families of widgets, can a specific widget family not show a particular parameter?  Here’s my use case. I make the time-tracking app Timery, and in each of the Home Screen widgets, there’s a parameter to customize the widget’s background (match the system dark mode, always show light or dark, etc.). If I use the same widget for the Lock Screen, that parameter is there when editing the widget, but it isn’t applicable to the accessory circular widget since it doesn’t have a background.  There are a couple other instances in the Home Screen widgets where parameters that are used for larger-sized widgets appear when editing smaller-sized widgets, but they aren’t applicable for it, so they don’t actually do anything.  So it would be nice to be able to selectively hide parameters for specific widget families and not potentially confuse users with a parameter that doesn’t do anything for that widget family, but I’m guessing that’s not possible?</h4>
+</blockquote>
+<p>It's not possible for parameters to be hidden only in particular widget sizes. You may need to define a separate intent or widget to accomplish what you want.</p>
+<p>We'd appreciate a feedback report describing your use case, so we can track this enhancement request.</p>
+<p>Thank you! I figured it wasn’t possible, but I wanted to check. And thanks for already answering my follow-up question if I should create a separate widget/intent!</p>
+<hr />
+<blockquote>
+<h4 id="is-there-a-way-to-create-a-shortcut-that-will-pass-specific-data-to-some-action-or-share-extension-but-only-if-that-file-conforms-to-the-uti-format-that-these-extensions-support">Is there a way to create a Shortcut, that will pass specific data to some Action or Share extension, but only if that file conforms to the UTI format that these extensions support?</h4>
+</blockquote>
+<p>Are you talking about an App Intent, or a user-created Shortcut?</p>
+<p>Sorry &lt;@U03JER2C7MX&gt; looks like I missed a permission! You should be able to reply now.</p>
+<p>Yeah, I should’ve written the whole question in the initial message :smile:</p>
+<p>I was mentioning user-created Shortcuts, and the reason why I do so is that I’ve been looking for a way to activate functionality from the Share or Action extensions in the shortcut.</p>
+<p>Currently, the <code>Share with apps</code> action doesn’t care what kind of data will be passed into the app. The action will simply fail if the UTI of the data is unsupported.</p>
+<p>I was curious if that is something that can be achieved by users interacting with actions provided by the app via App Intents API.</p>
+<p>E.g., if some previous action always returns a Video as its result, we shouldn’t suggest users share that Video into the Reminders app that is not able to handle it and so on.</p>
+<p>&lt;@U03JER2C7MX&gt;, your description of the behavior is correct! The Share with Apps action lets you pick any Share Extension and pass any input to it, and will display an error if the input was not of the expected type.</p>
+<p>It needs to work this way because in Shortcuts, input is non-deterministic - we might not know what the type of the input is until the shortcut is run.</p>
+<p>I don’t understand exactly why the current implementation is problematic for your use case. Can you explain more about what you are looking to do?</p>
+<hr />
+<blockquote>
+<h4 id="curious-if-theres-a-github-link-or-a-downloadable-version-of-the-app-intents-demo">Curious if there's a github link or a downloadable version of the App Intents demo?</h4>
+</blockquote>
+<p>There isn’t a downloadable version of the Library app, but you can check out Food Truck here, which includes App Intents adoption like that shown in SOTU!
+<a href="https://github.com/apple/sample-food-truck">https://github.com/apple/sample-food-truck</a></p>
+<hr />
+<blockquote>
+<h4 id="focus-filters-look-great-ive-already-got-a-prototype-working-in-my-app-streaks-1-possible-to-add-an-icon-to-a-parameter-list-i-have-a-customentity-parameter-the-multi-item-selector-in-focus-filter-setup-works-great-but-it-would-be-great-if-an-icon-could-be-shown-beside-each-item-2-assuming-not-due-to-privacy-but-is-there-a-way-to-get-a-list-of-focus-modes-i-want-users-to-be-able-to-assign-their-data-to-various-categories-which-would-align-with-focus-so-can-say-show-this-task-while-in-sleep-my-prototype-has-them-building-their-own-categories-then-they-need-to-select-that-when-setting-up-the-focus-filter">Focus Filters look great - i've already got a prototype working in my app, Streaks.  1. Possible to add an icon to a parameter list? I have a <code>[CustomEntity]</code> parameter. The multi-item selector in Focus Filter setup works great, but it would be great if an icon could be shown beside each item.  2. Assuming not due to privacy, but Is there a way to get a list of Focus modes? I want users to be able to assign their data to various categories (which would align with focus), so can say "show this task while in Sleep". My prototype has them building their own categories, then they need to select that when setting up the focus filter.</h4>
+</blockquote>
+<ol>
+<li>
+<p>You should be able to show an icon for each entity in the parameter picker by simply implementing a <code>displayRepresentation</code> on your CustomEntity type. The icon can be an image or a SF Symbol. Check out <code>DisplayRepresentation.Image</code> for more details.</p>
+</li>
+<li>
+<p>We currently do not offer a way to fetch a list of Focus modes, and yes, privacy is one of the reasons behind this. Your proposed solution looks like a very reasonable approach to solve this problem.</p>
+</li>
+</ol>
+<p>Perfect, thank you!</p>
+<hr />
+<blockquote>
+<h4 id="focus-filter-followup-question-is-there-a-way-to-know-if-a-focus-mode-is-enabled-i-could-only-receive-notifications-from-the-system-when-parameters-are-changed-but-not-if-a-user-changed-from-no-focus-mode-to-some-focus-mode-if-no-parameters-are-changed-my-use-case-i-want-to-show-an-in-app-toggle-that-appears-to-allow-users-to-filter-data-but-i-only-want-it-to-appear-if-some-focus-mode-is-enabled">Focus filter followup question:  Is there a way to know if a focus mode is enabled? I could only receive notifications from the system when parameters are changed, but not if a user changed from "no focus mode" to "some focus mode" if no parameters are changed.  My use-case:  I want to show an in-app toggle that appears to allow users to filter data, but I only want it to appear if <em>some</em> Focus Mode is enabled.</h4>
+</blockquote>
+<p>Hi! When the user un-sets the focus mode and goes to “no focus”, you should get the “default” state of your intent performed on your app or extension. You’ll need to make sure that we can construct a “default” state for your action, ie. that all parameters are optional or have default values.</p>
+<p>If they’ve added my app as a focus filter for, say, “Workout”, but haven’t changed any parameters from the defaults, is there any way to know that the focus mode is enabled?</p>
+<p>It would be kind of cool to have access to the Focus Mode icon at least (again, presumably not due to privacy), but it would be useful to use that icon to drive some menu / UI stuff that’s only visible if focus mode is enabled, kind of like how iOS does it.</p>
+<p>Much simpler to use the system level icons / terminology, than add my own taxonomy to my app that simply hooks in with the system stuff.</p>
+<p>Ah, I see what you mean.</p>
+<p>No, there is not currently a way to do that, but we would love a Feedback to that effect with your use cases,</p>
+<p>Sure thing - sorry, was having trouble describing it exactly while I fumble through exactly how I want it to work in my app :wink:</p>
+<p>FB10139845</p>
+<p>Thanks for filing!</p>
+<hr />
+<blockquote>
+<h4 id="apologies-if-this-is-covered-in-a-session-i-havent-seen-yet-but-is-there-direction-on-how-to-handle-focus-modes-in-watchos-is-it-just-a-matter-of-adding-the-appintent-to-the-watch-target-and-then-the-apple-watch-app-can-read-filter-parameters-accordingly">Apologies if this is covered in a session I haven't seen yet, but is there direction on how to handle focus modes in watchOS?  Is it just a matter of adding the AppIntent to the watch target, and then the Apple Watch app can read filter parameters accordingly?</h4>
+</blockquote>
+<p>Yes, Focus Filters are synced between iOS and watchOS on paired phone / watch. If you build the intents into your watch app or an extension, they should be performed.</p>
+<hr />
+<blockquote>
+<h4 id="topic-backwards-compatibility-are-we-able-to-associate-the-new-app-intents-with-current-user-activities-like-interactions-from-the-intents-framework">Topic backwards compatibility: are we able to associate the new app intents with current user activities (like interactions from the Intents framework)?</h4>
+</blockquote>
+<p>Hi! NSUserActivities can’t be associated with app intents. If you want the capabilities of app intents and NSUserActivities, but you want to avoid duplicate results, you should disable <code>isEligibleForSearch</code> and <code>isEligibleForPrediction</code> on your NSUserActivities on iOS 16+.</p>
+<p>But, app intents can be associated with intents from the Intents framework, by adopting the <code>CustomIntentMigratedAppIntent</code> protocol. If you do this, you can provide both custom intents and app intents in your app, and the custom intents will automatically be ignored in iOS 16+.</p>
+<p>Does that answer your question?</p>
+<p>Mostly :) In the talk I‘ve seen that "open app intents" aren't suggested by the system and some of my user activities are just open screen activities. Does it make sense to migrate those (and if so) can I leave the switches for search and prediction on since the app intents aren't advertised?</p>
+<p>Good question… I don’t have guidance there, currently. We’d really like to encourage folks to make app shortcuts that work well without launching your app!</p>
+<p>Can you tell me more about cases where it’s important to you to have shortcuts that do launch your app, and where it’s valuable to you for those to show up?</p>
+<p>(i.e. Search, Siri Suggestions, etc.)</p>
+<p>Sure :) basically it‘s a podcast app and every screen has a user activity so that for example if I open a podcast page every morning at 9am, the systems starts picking up the habit and suggests opening the podcast close to 9am</p>
+<p>It is really just a shortcut to a deeplink in my app</p>
+<p>Oh got it!</p>
+<p>I also have other intents like "Get the number of episodes of podcast X" which will just be migrated to the new app intents</p>
+<p>Would you consider making a shortcut to play the podcast in addition to the shortcut to open the podcast page (for suggestion purposes, so the “play” one is the one that would be suggested)?</p>
+<p>Oh that’s awesome!</p>
+<p>That‘s also coming via donating the INPlayMediaIntent but of couse just when the user plays the episode :) (and removed when it finished cause it‘s rather unlikely that they want to play it again)</p>
+<p>For those suggestions, instead of removing play intents once the episode is finished, you might consider using the Upcoming Media API</p>
+<p>See <a href="https://developer.apple.com/documentation/sirikit/inupcomingmediamanager">https://developer.apple.com/documentation/sirikit/inupcomingmediamanager</a></p>
+<p>This allows you to replace predictions for INPlayMediaIntent with whatever media your app would like to suggest</p>
+<p>But I think I‘ll add a "Play the newest episode of podcast X" Shortcut</p>
+<p>Hmm that looks pretty cool actually :+1::skin-tone-2::+1::skin-tone-2:</p>
+<p>It’s good to avoid deleting old INPlayMediaIntent donations since that will cause your play intents to be predicted less often</p>
+<p>That sounds great too though, feel free to do both!</p>
+<p>Ahhh that‘s super good to know!</p>
+<p>I‘m excited what the Podcast app will offer (and tbh also what Castro will do since they have a crazy amount of custom intents and it‘s really inspiring too see what they do :)</p>
+<hr />
+<blockquote>
+<h4 id="is-there-a-recommended-way-to-map-an-appentity-to-a-core-data-nsmanagedobejct-the-sample-code-uses-uuid-for-appentity-ids-so-i-would-presume-just-using-a-uuid-property-in-core-data-would-be-sufficient-but-wanted-to-check">Is there a recommended way to map an <code>AppEntity</code> to a Core Data <code>NSManagedObejct</code>?  The sample code uses UUID for AppEntity IDs, so I would presume just using a <code>UUID</code> property in Core Data would be sufficient, but wanted to check.</h4>
+</blockquote>
+<p>Yes creating a UUID property of your own would work. You cannot currently use the NSManagedObjectID directly, but feel free to file a Feedback for that!</p>
+<hr />
+<blockquote>
+<h4 id="is-it-a-known-issue-that-some-shortcuts-are-returning-an-error-there-was-problem-running-the-shortcut-and-couldnt-communicate-with-a-helper-application">Is it a known issue that some shortcuts are returning an error "there was problem running the shortcut" and "Couldn't communicate with a helper application."?</h4>
+</blockquote>
+<p>No that’s not expected. pPlease do file a feedback through the Feedback app. That’s a crash and we will then get the crashlog.</p>
+<p>Feedback <code>FB10118054</code></p>
+<p>I get 2 different errors. One using <code>DynamicOptionsProvider</code> and the other an Int parameter.</p>
+<p>Thanks for filing this!</p>
+<p>This error seems to be due to defining multiple <code>AppShortcutsProvider</code> Only using one fixed the issue.</p>
+<p>&lt;@U03KR2XEKGQ&gt; Noted! :thumbsup:</p>
+<hr />
+<blockquote>
+<h4 id="do-users-have-to-first-enable-siri-with-your-app-for-siri-appintents-to-work-in-the-shortcuts-app-there-was-a-place-to-enable-siri-for-the-app-and-until-doing-that-it-didnt-seem-to-work">Do users have to first enable Siri with your app for Siri AppIntents to work?  In the shortcuts app there was a place to enable siri for the app and until doing that it didn't seem to work.</h4>
+</blockquote>
+<p>Yes, the first time people use Siri with your App Shortcut, Siri will ask the user to confirm that they want to use your app’s shortcuts. You can also do this enabling in the Shortcuts app itself, like you found.</p>
+<p>It sounds like in your case, the Siri confirmation isn’t working. What phrase are you saying to Siri where that’s happening? The only time we could expect this is if your phrase conflicts with built-in Siri functionality.</p>
+<p>Maybe there was a conflict. Basically, none of the phrases were working (from what I could tell) until I enabled it in Shortcuts.</p>
+<p>Is there a way to reset that permission so I can try it again?</p>
+<p>Yes! Go to your app in Shortcuts (by going to top level of the Shortcuts tab and finding your app in the “App Shortcuts” section), and then press the “(i)” button in the top-right, and turn off “Siri”</p>
+<p>That will reset it so you can try it again</p>
+<p>Ok perfect. I’ll give that a try and see if it prompts.</p>
+<p>Just for my knowledge, can you provide a specific example of a phrase you used that isn’t working?</p>
+<p>Originally it was one of these:</p>
+<pre><code>&quot;Start Metronome in \(.applicationName)&quot;
+&quot;Start Metronome at \(\.$tempo) bpm&quot;
+&quot;Metronome \(\.$tempo)&quot;
+</code></pre>
+<p>none of those worked. I realized after the fact though that $tempo was unbounded (Int) and that wasn’t supposed to work.</p>
+<p>After disabling Siri and trying again with a new phrase, it seems to properly prompt me.</p>
+<p>So this might of just been user error and a bad phrase that included that unbounded variable.</p>
+<p>Ah good to know, thanks Seth!</p>
+<p>This is helpful feedback since it should be made more clear when you are hitting the un-bounded case</p>
+<p>Yeah. I originally was hoping to be able to include an unbounded variable in a phrase, but I understand that’s not allowed yet.</p>
+<hr />
+<blockquote>
+<h4 id="is-it-possible-to-produce-a-result-from-an-app-intent-that-can-be-used-as-an-input-for-a-system-intent-ie-get-the-newest-song-released-from-band-x-returning-something-like-an-inmediaitem-and-the-next-intent-would-be-an-inplaymediaintent-to-play-the-song">Is it possible to produce a result from an app intent that can be used as an input for a system intent. i.e. Get the newest song released from band X (returning something like an INMediaItem) and the next intent would be an INPlayMediaIntent to play the song?</h4>
+</blockquote>
+<p>System intents like INPlayMediaIntent cannot accept inputs in Shortcuts, so you wouldn’t be able to do this - but you could make a new intent for that purpose!</p>
+<p>If the intent runs in an extension how do I communicate to launch the app in the background to start the audio session? I‘ve only found a way to open the app in the foreground</p>
+<p>For that, you should use in-app intent handling, instead of handling your intent in an extension.</p>
+<p>Okay I‘ll try, I hope the app launch doesn't use to much time so the Siri response feels delayed. That‘s why the play media handling is currently run in an extension</p>
+<p>Ah I see</p>
+<p>I think it’s not possible to launch the app in the background from an intent run in an extension (cc &lt;@U03HFBW311B&gt; to confirm)</p>
+<p>&lt;@U03JN2004TY&gt; Wouldn’t the Siri response be further delayed if you need to launch the extension and then also launch the app in the background in order to start media playback?</p>
+<p>It’s not possible to launch the app in the background from an intent run in an extension</p>
+<p>I‘m still implementing the Siri Media support so I haven‘t tested performance but from the sessions I watched previously I thought that one of the main benefits of an extra extension is that you can do all the filtering/figuring out the specific media item in the small process and then just hand the result over to the app (which just has to play)</p>
+<p>&lt;@U03JN2004TY&gt; I think in that case it would actually be faster to just do it in the app, because then you avoid the process launch time of the extension!</p>
+<p>Generally, the extension is only faster if you can do an action in the extension without requiring launching the app at all.</p>
+<p>Hm true, that makes a lot of sense and I wondered the same thing when I saw the video. But I guess there was a point where it was not possible in the app :blush:</p>
+<hr />
+<blockquote>
+<h4 id="hi-there-i-have-tried-the-new-appintents-framework-in-particular-the-entitystringquery-while-the-suggestedentities-method-gets-called-the-entitiesfor-and-entitiesmatching-methods-never-get-called-after-entering-a-search-in-the-shortcut-app-is-there-anything-i-am-missing">Hi there. I have tried the new AppIntents framework, in particular the EntityStringQuery. While the 'suggestedEntities()' method gets called, the 'entities(for ..' and 'entities(matching ..' methods never get called after entering a search in the Shortcut app. Is there anything I am missing?</h4>
+</blockquote>
+<p>Hi! Are you sure that your methods are correctly overriding the ones from the protocol, with correctly matching parameter labrls and types.</p>
+<p>If they are correctly overridden, you may be hitting a beta bug. We’d love a feedback, and sample code to reproduce if you have it.</p>
+<hr />
+<blockquote>
+<h4 id="is-there-a-way-for-siri-to-be-dismissed-after-an-intent-is-performed-right-now-siri-stays-open-and-the-app-isnt-in-focus-at-perform-is-returned">Is there a way for Siri to be dismissed after an intent is performed? Right now Siri stays open and the app isn't in focus at perform is returned.</h4>
+</blockquote>
+<p>Not currently, but this is a good point. We would love to have a feedback for this.</p>
+<p>Ok, I’ll submit a feedback suggestion. Would that be the proper channel?</p>
+<p>yes</p>
+<p>Thanks. Submitted <code>FB10140274</code></p>
+<p>Thanks for filing!</p>
+<hr />
+<blockquote>
+<h4 id="in-my-app-i-have-a-dedicated-siri-screen-that-we-added-back-when-sirikit-was-first-opened-which-then-evolved-to-basically-showing-users-the-shortcuts-they-could-add-for-each-task-it-makes-use-of-the-add-to-siri-ui-button-and-allows-management-of-voice-shortcuts-im-not-really-sure-now-what-to-do-with-this-screen-my-hunch-is-just-to-remove-it-completely-and-use-the-new-ui-buttons-in-more-contextually-aware-locations-the-problem-is-though-there-are-a-number-of-situations-where-adding-this-ui-doesnt-make-sense-even-though-i-want-the-user-to-know-about-it">In my app, I have a dedicated "Siri" screen that we added back when SiriKit was first opened, which then evolved to basically showing users the shortcuts they could add for each task.  It makes use of the "Add to Siri" UI button, and allows management of voice shortcuts.  I'm not really sure now what to do with this screen. My hunch is just to remove it completely, and use the new UI buttons in more contextually-aware locations.  The problem is though there are a number of situations where adding this UI doesn't make sense, even though I want the user to know about it.</h4>
+</blockquote>
+<p>Hi Quentin! Yes, the right thing to do is replace the Add to Siri button with the new Siri Tip. Can you tell me a bit more about the different situations where you think the tip won’t make sense?</p>
+<p>On the main screen of the app, where the primary action is performed (and most likely the primary Shortcut that users would want to use).</p>
+<p>Don’t get me wrong, the UI button looks great, but it’s nothing something I would want front-and-centre. Understand the recommended approach is to make it dismissable, but still don’t think i would want it featured that prominently.</p>
+<p>*not something, sorry.</p>
+<p>Or if I did have it on the main screen, there are many different actions that can be performed on the main screen, so I would then want that button to open to a “more info” screen, which is basically then the original Siri screen I’m thinking about removing.</p>
+<p>I guess the hard thing to know right now is how much will the system surface for the user in normal phone use, versus how much do I need to tell the user about the available shortcuts.</p>
+<p>It’s super important that there be a way inside of your app for people to learn about the Siri functionality! Otherwise a lot of people just won’t see it.</p>
+<p>I see! Another option is to use the new Shortcuts button, which would link the user to the list of shortcuts provided by your app inside the Shortcuts app.</p>
+<p><a href="https://developer.apple.com/documentation/appintents/shortcutsuibutton">https://developer.apple.com/documentation/appintents/shortcutsuibutton</a></p>
+<p>I agree with Ayaka, could be good to put a Shortcuts button in your Settings screen (or on the Siri screen) so people can hop to Shortcuts and see everything available there</p>
+<p>But, additionally, would you consider putting the Siri tips somewhere new, like in the edit screen for a Streak?</p>
+<p>I agree it would be difficult to put it on the main screen, but I think the edit screen could be a good place?</p>
+<p>Yea - I think that’s where i’ll need to head with it. It already does some of that but I think that could all use a little bit of love on my side, now that I have more shortcuts</p>
+<p>I think the ShortcutsUIButton will help me dramatically - thanks for pointing that out. I’d seen it in the talks but had forgotten to note it!</p>
+<p>Great!</p>
+<p>I would encourage you to use the Siri tip also if possible because it’s so user-friendly to see the utterance in a natural point in the app :slightly_smiling_face:</p>
+<hr />
+<blockquote>
+<h4 id="again-apologies-if-this-is-covered-elsewhere-im-trying-to-figure-out-how-best-to-think-about-appintents-as-a-whole-long-term-should-i-be-converting-all-internal-distinct-actions-of-my-app-even-if-not-uses-in-shortcuts-or-otherwise-to-be-appintents-for-example-if-the-app-has-a-move-to-trash-functionality-i-have-normally-workflow-to-delete-data-clean-up-whatever-long-term-should-i-be-encapsulating-this-functionality-into-a-single-appintent">Again apologies if this is covered elsewhere - I'm trying to figure out how best to think about AppIntents as a whole.  Long term, should I be converting all internal distinct actions of my app - even if not uses in Shortcuts or otherwise - to be AppIntents?  For example, if the app has a "move to trash" functionality, I have normally workflow to delete data / clean up / whatever. Long term should I be encapsulating this functionality into a single AppIntent?</h4>
+</blockquote>
+<p>I would focus on moving to AppIntents functionality that you expect you might want to expose to the system (whether that’s Shortcuts, Siri, or other system components).</p>
+<p>You can even callAsFunction an AppIntent type if you want to execute it from within your app. (This will call perform and donate it to the system).</p>
+<p>But if I’m just adding some new piece of functionality that won’t be exposed, internal to the app, is there value in structuring it as an AppIntent now, rather than migrating it in X years?</p>
+<p>&lt;@U03JH1D27C1&gt; I wouldn’t say so, no.</p>
+<p>Is <code>callAsFunction</code> for AppIntents spoken about or documented somewhere? I’m not familiar with this!</p>
+<p>Or is that a SwiftUI thing :wink:</p>
+<p>Nope, it’s a Swift feature.</p>
+<p>It's a Swift feature that allows you to call a type as a function, here's an example:</p>
+<pre><code>struct MyIntent: AppIntent {
+    static var title: LocalizedStringResource = &quot;My Intent&quot;
+
+    func perform() async throws -&amp;gt; some IntentPerformResult {
+        return .finished(value: &quot;Result string&quot;)
+    }
+}
+
+let intent = MyIntent()
+let result = try await intent()
+</code></pre>
+<p><a href="https://developer.apple.com/documentation/appintents/appintent/callasfunction(donate:)?changes=latest_minor">https://developer.apple.com/documentation/appintents/appintent/callasfunction(donate:)?changes=latest_minor</a></p>
+<p>Great - thanks, didn’t know about that!</p>
+<p>So is it recommended then to use the AppIntent internally as much as possible in order for donations to occur?</p>
+<p>Let me run through my use-case…</p>
+<ol>
+<li>I have a “start timer” shortcut now</li>
+<li>
+<p>If the user starts the timer in the app, it uses different code, but also donates the INIntent
+So my understanding now is:</p>
+</li>
+<li>
+<p>Convert this shortcut to be an AppIntent</p>
+</li>
+<li>When the user starts the timer in the app, run the AppIntent as above so it’s donated</li>
+<li>No need to manually donate anything</li>
+</ol>
+<p>(so <em>only</em> run the new AppIntent, even internally, not the separate code directly that starts the timer)</p>
+<p>Yes! That would save you from needing to manually donate.</p>
+<p>If that doesn’t work, you can always donate manually in a similar pattern to what you already do for INIntent, but yeah the callAsFunction trick is a nice way to avoid having to do donations, and to centralize the code.</p>
+<p>Ok that sounds great!</p>
+<p>Sorry if this is already answered, but can you point me to how to donate an AppIntent manually if I’m not calling it directly?</p>
+<p>&lt;@U03JH1D27C1&gt; call <code>donate</code> on the Intent. Or use <code>IntentDonationManager</code></p>
+<p>Great - thanks. Hadn’t seen that one either!</p>
+<p>Also look into the <code>PredictableIntent</code>  protocol that would allow the system to provide suggestions for your intents</p>
+<p><a href="https://developer.apple.com/documentation/appintents/intentdonationmanager?changes=latest_minor">https://developer.apple.com/documentation/appintents/intentdonationmanager?changes=latest_minor</a></p>
+<p><a href="https://developer.apple.com/documentation/appintents/predictableintent?changes=latest_minor">https://developer.apple.com/documentation/appintents/predictableintent?changes=latest_minor</a></p>
+<p>Thanks for all the help on this!</p>
+<hr />
+<blockquote>
+<h4 id="in-a-muli-turn-interaction-like-confirmation-or-disambiguation-does-siri-manage-the-dialog-state-or-is-your-app-in-the-loop-at-each-turn">In a muli-turn interaction (like confirmation or disambiguation) –does Siri manage the dialog state, or is your app in the loop at each turn?</h4>
+</blockquote>
+<p>Interesting. Can you clarify what you mean by “Dialog State”?</p>
+<p>I’m trying to get my head around how an app and Siri share responsibility in an active conversation.</p>
+<p>You make requests using AppIntents API (say “confirm” or “disambiguate”), your app waits using async/await, and gets the result back.</p>
+<p>While your app is waiting, Siri is interacting with the user and waiting for them to respond.</p>
+<p>Thanks Michael, that’s really helpful :pray: I’ve never created an Apple app before either!  so i’m  learning a huge amount this week.</p>
+<p>Would a Swift Playgrounds app be an easy way to start exploring these APIs? Or would the food truck repo in xcode be the better place to start?</p>
+<p>Start with Food Truck — App Intents currently do not work within a playground.</p>
+<p>thank you &lt;@U03HJ9140PM&gt; !!</p>
+<hr />
+<blockquote>
+<h4 id="hi-there-ive-gone-about-implementing-a-setfocusfilterintent-and-my-app-buildsruns-just-fine-but-the-filter-is-not-present-in-settings-focus-add-focus-filter-ive-looked-around-for-potential-solutions-one-being-ensuring-the-command-line-tools-are-set-to-xcode-14-ive-done-this-step-but-to-no-avail-thank-you-in-advance-and-congrats-on-all-the-great-new-apis">Hi there! I've gone about implementing a <code>SetFocusFilterIntent</code> and my app builds/runs just fine, but the filter is not present in Settings - Focus - Add Focus Filter. I've looked around for potential solutions, one being ensuring the command line tools are set to Xcode 14. I've done this step, but to no avail. Thank you in advance, and congrats on all the great new APIs!</h4>
+</blockquote>
+<p>Hi! I would make sure to restart your phone, first.</p>
+<p>Sounds like you’re already aware of the Xcode issue.</p>
+<p>If that doesn’t work, can you check for a metadata.appintents directory in your built app bundle?</p>
+<hr />
+<blockquote>
+<h4 id="i-have-been-an-avid-enthusiast-when-it-comes-to-working-on-shortcuts-i-used-it-a-lot-during-the-more-restrictive-covid-days-to-pick-from-a-list-of-services-output-was-the-phone-number-on-qr-form-the-iphone-then-just-dials-it-when-the-customer-taps-the-confirmation-on-the-screen-i-do-have-a-suggestion-can-we-build-blocked-actions-and-if-so-if-the-only-thing-that-changes-is-a-variable-that-could-become-a-block-with-a-drop-down-menuits-not-the-most-efficient-when-having-to-duplicate-actions-over-and-over-and-scroll-is-not-always-precise-i-would-also-love-to-have-the-system-kill-the-shortcut-or-give-a-signal-that-it-is-running-thats-another-bloc-sensory-feedback-to-test-progress-of-the-app-i-have-had-to-string-along-5-segments-of-an-app-that-i-had-to-test-part-by-part-which-means-that-each-one-has-the-command-to-end-the-shortcut-so-running-them-daisy-chained-doesnt-work-that-well-i-have-spent-a-lot-of-time-working-on-cool-little-projects-i-have-a-journal-log-to-a-cloud-file-and-another-that-goes-to-a-synced-reminder-i-did-have-a-very-special-work-shortcut-location-aware-it-first-pulled-the-end-time-of-my-shift-for-that-day-from-a-public-but-unposted-calendar-from-a-predetermined-set-of-phrases-it-picked-one-at-random-they-all-said-hey-love-i-just-arrived-at-work-ill-miss-you-i-will-get-out-at-add-that-time-variable-to-the-end-of-that-phrase-send-it-as-a-message-activate-dnd-low-battery-mode-this-can-ostensible-be-included-into-focus-modes-courtesy-text-at-the-beginning-with-a-due-time-best-part-of-it-is-hat-i-had-all-my-shortcuts-as-widgets-too-i-would-love-to-speak-to-someone-from-the-team-i-really-have-enjoyed-the-journey-if-only-the-data-that-i-needed-to-move-was-that-accessible-through-swift-thank-you-all-frederick">I have been an avid enthusiast when it comes to working on shortcuts. I used it a lot during the more restrictive covid days to pick from a list of Services, output was the phone number on QR form. The iPhone then just dials it when the customer taps the confirmation on the screen. I do have a suggestion. can we build blocked actions? and if so, if the only thing that changes is a variable, that could become a block with a drop down menu,…Its not the most efficient when having to duplicate actions over and over.. and scroll is not always precise. I would also love to have the system kill the shortcut or give a signal that it is running.. (thats another bloc, sensory feedback to test progress of the app. I have had to string along 5 segments of an app that I had to test part by part, which means that each one has the command to end the shortcut, so running them daisy chained doesn’t work that well. I have spent a lot of time working on cool little projects.. I have a journal log to a cloud file, and another that goes to a synced Reminder. I did have a very special Work shortcut. Location aware, it first pulled the end time of my shift for that day from a public (but unposted) calendar. from a predetermined set of phrases, it picked one at random. They all said “Hey love, I just arrived at work. I’ll miss you. I will get out at” Add that time variable to the end of that phrase, send it as a message, activate DND, Low battery mode. This can ostensible be included into Focus modes.. courtesy text at the beginning with a due time.. Best part of it is hat I had all my shortcuts as widgets too.. . I would love to speak to someone from the team, I really have enjoyed the journey.. If only the data that I needed to move was that accessible through Swift.. Thank you all, Frederick</h4>
+</blockquote>
+<p>Hi Frederick! Super exciting to hear that you’re an avid enthusiast of Shortcuts :smile: It sounds like you have a lot of ideas, and we’d love to talk to you about them at the Shortcuts labs tomorrow from 9AM-12PM PDT. If you are available, the sign up for labs is at <a href="https://developer.apple.com/wwdc22/labs/">https://developer.apple.com/wwdc22/labs/</a></p>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="safari-lounge.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: safari" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              safari
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="widgetkit-lounge.html" class="md-footer__link md-footer__link--next" aria-label="Next: widgetkit" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              widgetkit
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": ["search.share", "search.highlight"], "search": "../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.a6c66575.min.js"></script>
+      
+    
+  </body>
+</html>
