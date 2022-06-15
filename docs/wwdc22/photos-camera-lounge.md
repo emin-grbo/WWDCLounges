@@ -2,7 +2,6 @@
 #### by [FeeTiki](https://twitter.com/FeeTiki)
 ---
 
---- 
 > ####  Hello,  I pretty new at video in general and I was wondering where to get started with video processing, specifically how do I rewrite multiple videos next to each other for side by side 3D?  Thank you!
 
 Would you like to record a video with two video tracks? Composite two together? Blend two together? Producing a stereo effect? Give us a little more info. 

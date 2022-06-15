@@ -2,7 +2,6 @@
 #### by [FeeTiki](https://twitter.com/FeeTiki)
 ---
 
---- 
 > ####  When would we be able to see an option for playback speed/pitch in Apple Music? This is something I'd love to see.
 
 Hello <@U03JNAGPDS6>!

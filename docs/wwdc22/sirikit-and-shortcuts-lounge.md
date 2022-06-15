@@ -2,7 +2,6 @@
 #### by [shirblc](https://github.com/shirblc)
 ---
 
----
 > ####  Since App Intents don’t support widget configuration yet, is there any way to tell the system that an App Intent and a SiriKit intent are duplicative and/or to only surface App Intents in Shortcuts/Siri/etc.?
 
 

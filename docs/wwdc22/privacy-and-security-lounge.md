@@ -2,7 +2,6 @@
 #### by [shirblc](https://github.com/shirblc)
 ---
 
----
 > ####  Do passkeys require a device passcode and biometrics to be enabled?
 
 

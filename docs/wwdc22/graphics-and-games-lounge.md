@@ -2,7 +2,6 @@
 #### by [FeeTiki](https://twitter.com/FeeTiki)
 ---
 
---- 
 > ####  There any main tradeoffs between tessellation and mesh shading for vertex creation?
 
 Mesh Shading has a more flexible workflow and allows for dynamic scaling of your workload through the object shader stage. In terms of performance, Mesh Shading allows a more pipelined flow directly from the Mesh Shader stage to the rasterizer, so you have full mesh visibility during vertex creation. On the other hand - I would suggest using tessellation if you are doing actual tessellation of an existing geometry pipeline. 

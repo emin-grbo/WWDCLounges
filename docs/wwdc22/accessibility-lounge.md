@@ -2,7 +2,6 @@
 #### by [FeeTiki](https://twitter.com/FeeTiki)
 ---
 
---- 
 > ####  Will this plug-in work well for fast-paced games (like FPS)?
 
 Certain aspects of this plugin are wellsuited to fast paced games like FPS.  Forexample, reacting to users settings forlarge text and dynamic text (e.g. in yourmenus or HUD). 

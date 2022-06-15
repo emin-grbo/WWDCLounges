@@ -2,7 +2,6 @@
 #### by [FeeTiki](https://twitter.com/FeeTiki)
 ---
 
---- 
 > ####  How should we update our complications going forward? Are complication updates from iPhone still supported?
 
 Nothing has changed with the ClockKit API in this release. Your app can request timeline reloads via `CLKComplicationServer.sharedInstance.reloadTimeline(for: ...)` 

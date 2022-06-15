@@ -2,7 +2,6 @@
 #### by [FeeTiki](https://twitter.com/FeeTiki)
 ---
 
---- 
 > ####  Hello! I am pretty new to Reality Composer. I would like to know how (if it is possible) to add textures to custom USD objects.
 
 Reality Converter makes it easy to convert, view, and customize USDZ 3D objects on Mac. For more information, visit <http://developer.apple.com/augmented-reality/tools/|developer.apple.com/augmented-reality/tools/> 

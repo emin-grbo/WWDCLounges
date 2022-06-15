@@ -2,7 +2,6 @@
 #### by [FeeTiki](https://twitter.com/FeeTiki)
 ---
 
---- 
 > ####  Hi!  I'm just wondering if you have suggested guidance for capturing objects that are on a rotating platform, to minimize post-production work.  Is it advised to try to frame the platform out of the image as best as possible, to post-process each image and crop out the platform, wrap the platform in a similar color to the background, etc.?
 
 We suggest to use a uniform color platform which is different than the object and keep the object inside the frame, but as large as possible. Use object masking to make PhotogrammetrySession remove the background <https://developer.apple.com/documentation/realitykit/photogrammetrysession/configuration-swift.struct/isobjectmaskingenabled>

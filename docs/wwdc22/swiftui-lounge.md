@@ -2,7 +2,6 @@
 #### by [FeeTiki](https://twitter.com/FeeTiki)
 ---
 
---- 
 > ####  Great session and thank you for all the new features! But, most importantly, was the cake as nice as it looked!?!?!?!? :D
 
 Yup! It was chocolate, and delicious. We had some deleted scenes with the sliced cake, but we don't release WWDC Bloopers and Deleted Scenes unfortunately 

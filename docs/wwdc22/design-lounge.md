@@ -2,7 +2,6 @@
 #### by [FeeTiki](https://twitter.com/FeeTiki)
 ---
 
---- 
 > ####  what are the next challenges you're working on tackling for SF Symbols?
 
 

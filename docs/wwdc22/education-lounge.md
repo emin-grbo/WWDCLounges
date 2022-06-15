@@ -2,7 +2,6 @@
 #### by [shirblc](https://github.com/shirblc)
 ---
 
----
 > ####  We’re also wondering if there’s any information you’re able to share at this stage about the coming updates to Schoolwork and Classroom apps?
 
 

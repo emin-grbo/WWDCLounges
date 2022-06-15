@@ -2,7 +2,6 @@
 #### by [FeeTiki](https://twitter.com/FeeTiki)
 ---
 
---- 
 > ####  Was something changed on UIDragInteraction? When I tried doing local drag and drop (move) in my app, the drop gets cancelled if my finger is not perfectly still when I lift it. Bug?
 
 That may be bug. Feel free to file a feedback and join a UIFrameworks lab where we can look into this together! 
