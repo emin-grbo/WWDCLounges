@@ -9,8 +9,17 @@ nav:
         - A11y: wwdc21/a11y.md
         - DevTools: wwdc21/DevTools.md
    - WWDC 22:
+        - swiftui: wwdc22/swiftui-lounge.md
         - L10n & i18n: wwdc22/localization-and-internationalization.md
-        - in progress: wwdc22/template.md
+        - watchos: wwdc22/watchos-lounge.md
+        - uiframeworks: wwdc22/uiframeworks-lounge.md
+        - graphics and games: wwdc22/graphics-and-games-lounge.md
+        - object capture and room plan: wwdc22/object-capture-and-room-plan-lounge.md
+        - photos camera: wwdc22/photos-camera-lounge.md
+        - accessibility: wwdc22/accessibility-lounge.md
+        - arkit realitykit: wwdc22/arkit-realitykit-usdz-lounge.md
+        - audio and video: wwdc22/audio-and-video-lounge.md
+        - design: wwdc22/design-lounge.md
    
 plugins:
   - search
