@@ -78,10 +78,11 @@ struct ChannelWriter {
         partialResult.append(messageMarkdown)
         
         message.slackdumpThreadReplies?
-            .compactMap { $0.text }
             .lazy
-            .map { text -> String in
-                let stringBlock = "\n\(text)\n"
+            .compactMap { reply -> String? in
+                guard let replyText = reply.text else { return nil }
+                let userId = reply.user ?? "[?]"
+                let stringBlock = "\n|\(userId)|:\n\(replyText)\n"
                 let stringToReturn = CodeBlockRegex.stringByReplacingMatches(
                     in: stringBlock,
                     range: NSRange(stringBlock.startIndex..., in: stringBlock),
@@ -100,7 +101,7 @@ private extension ChannelWriter {
             return false
         }
         return message.subtype == "bot_message"
-        && message.username?.contains("Ask a Question") == true
-        && text.range(of: #"<.*> asked"#, options: .regularExpression) != nil
+            && message.username?.contains("Ask a Question") == true
+            && text.range(of: #"<.*> asked"#, options: .regularExpression) != nil
     }
 }

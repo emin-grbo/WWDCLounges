@@ -23,6 +23,7 @@ struct Message: Decodable {
 struct Reply: Decodable {
     let type: String
     let text: String?
+    let user: String?
 }
 
 class ParsableChannel {
