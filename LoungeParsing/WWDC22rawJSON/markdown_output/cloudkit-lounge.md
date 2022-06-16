@@ -1,8 +1,7 @@
 # cloudkit-lounge QAs
-#### by [FeeTiki](https://twitter.com/FeeTiki)
+#### by [shirblc](https://github.com/shirblc)
 ---
 
---- 
 > ####  Is it possible to have hierarchical sharing for NSPersistentCloudKitContainer in iOS 16? iOS 15 only support zone sharing.
 
 

@@ -1,8 +1,7 @@
 # privacy-and-security-lounge QAs
-#### by [FeeTiki](https://twitter.com/FeeTiki)
+#### by [shirblc](https://github.com/shirblc)
 ---
 
---- 
 > ####  Do passkeys require a device passcode and biometrics to be enabled?
 
 

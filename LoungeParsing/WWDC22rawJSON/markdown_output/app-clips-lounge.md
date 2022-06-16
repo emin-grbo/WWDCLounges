@@ -1,8 +1,7 @@
 # app-clips-lounge QAs
-#### by [FeeTiki](https://twitter.com/FeeTiki)
+#### by [shirblc](https://github.com/shirblc)
 ---
 
---- 
 > ####  Due to its size I believe an App Clip should have a limited/basic functionality. How many screens/use-cases/actions should an App Clip provide?
 
 
