@@ -341,7 +341,21 @@
   
   
     <li class="md-nav__item">
-      <a href="localization-and-internationalization.html" class="md-nav__link">
+      <a href="devtools-and-swift-lounge.html" class="md-nav__link">
+        devtools and swift
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="localization-and-internationalization-lounge.html" class="md-nav__link">
         L10n & i18n
       </a>
     </li>
@@ -1387,17 +1401,24 @@
 <blockquote>
 <h4 id="will-the-mediarecorder-api-be-promoted-out-of-the-experimental-features-in-safari-16">Will the MediaRecorder API be promoted out of the Experimental features in Safari 16?</h4>
 </blockquote>
-<p>We shipped MediaRecorder API in Safari 14.1, in March 2020. <a href="https://caniuse.com/mediarecorder">https://caniuse.com/mediarecorder</a></p>
-<p>yes, but it is still an experimental feature that has to be enabled?</p>
-<p>It is still listed in the Experimental Features menu, but it enabled by default</p>
-<p>So there is no need to enable it</p>
-<p>It will be removed from the menu at some point, but it is there still so it is possible to disable it for testing</p>
-<p>:pray:</p>
+<p>|U03HW6FMWHH|:
+We shipped MediaRecorder API in Safari 14.1, in March 2020. <a href="https://caniuse.com/mediarecorder">https://caniuse.com/mediarecorder</a></p>
+<p>|U03JDPD9UJZ|:
+yes, but it is still an experimental feature that has to be enabled?</p>
+<p>|U03HW6FMWHH|:
+It is still listed in the Experimental Features menu, but it enabled by default</p>
+<p>|U03HW6FMWHH|:
+So there is no need to enable it</p>
+<p>|U03HW6FMWHH|:
+It will be removed from the menu at some point, but it is there still so it is possible to disable it for testing</p>
+<p>|U03JDPD9UJZ|:
+:pray:</p>
 <hr />
 <blockquote>
 <h4 id="a-lot-of-folks-are-asking-for-more-information-about-web-push-and-how-it-will-work-in-safari">A lot of folks are asking for more information about Web Push and how it will work in Safari.</h4>
 </blockquote>
-<p>Web Push in Safari works... just like Web Push in any browser!</p>
+<p>|U03J8RWC3A5|:
+Web Push in Safari works... just like Web Push in any browser!</p>
 <p>We've implemented all the cross-browser web standards needed to support Web Push. If your site already supports Web Push in other browsers and you don't exclude Safari through browser detection, Safari 16 on macOS Ventura will work with your site.</p>
 <p>No Apple Developer Program membership is required. We use standard VAPID to manage push subscriptions.</p>
 <p>In addition to excluding Safari through browser detection, some websites tightly manage push endpoint URLs server side. If you do that, allow all subdomains of <a href="http://push.apple.com|push.apple.com">http://push.apple.com|push.apple.com</a></p>
@@ -1409,385 +1430,528 @@
 <blockquote>
 <h4 id="can-you-give-some-advicetalk-about-best-practices-on-using-wkwebview-with-swiftui-given-that-there-is-no-native-support-for-it-and-views-have-to-be-wrapped-in-uiviewrepresentable">Can you give some advice/talk about best practices on using WKWebView with SwiftUI, given that there is no native support for it and views have to be wrapped in UIViewRepresentable?</h4>
 </blockquote>
-<p>UIViewRepresentable is the way to go; if you want ideas about how to integrate it smoothly, the WebKit open source project has a SwiftUI MiniBrowser test app you can look at here: <a href="https://github.com/WebKit/WebKit/tree/main/Tools/MiniBrowserSwiftUI">https://github.com/WebKit/WebKit/tree/main/Tools/MiniBrowserSwiftUI</a></p>
+<p>|U03HYJ1UXRA|:
+UIViewRepresentable is the way to go; if you want ideas about how to integrate it smoothly, the WebKit open source project has a SwiftUI MiniBrowser test app you can look at here: <a href="https://github.com/WebKit/WebKit/tree/main/Tools/MiniBrowserSwiftUI">https://github.com/WebKit/WebKit/tree/main/Tools/MiniBrowserSwiftUI</a></p>
 <hr />
 <blockquote>
 <h4 id="sso-extensions-are-currently-active-in-private-browsing-mode-is-that-expected-behavior-or-something-that-may-be-fixed-in-the-future">SSO Extensions are currently active in Private Browsing mode. Is that expected behavior or something that may be fixed in the future?</h4>
 </blockquote>
-<p>Thanks for your question. This is something that would be great to have as a bug report that we can follow-up on. Can you file feedback with Feedback Assistant? <a href="http://feedbackassistant.apple.com">http://feedbackassistant.apple.com</a></p>
-<p>Yes, I can file this.</p>
+<p>|U03HVQMUA9Z|:
+Thanks for your question. This is something that would be great to have as a bug report that we can follow-up on. Can you file feedback with Feedback Assistant? <a href="http://feedbackassistant.apple.com">http://feedbackassistant.apple.com</a></p>
+<p>|U03JE2L47J8|:
+Yes, I can file this.</p>
 <hr />
 <blockquote>
 <h4 id="are-regexp-look-behind-assertions-coming-soon-a-webkit-issue-has-been-open-and-assigned-since-2017-httpsbugswebkitorgshow_bugcgiid174931httpsbugswebkitorgshow_bugcgiid174931-but-no-update-has-been-issued-this-is-implemented-in-all-other-browsers-and-is-starting-to-cause-some-compatibility-issues-for-us">Are RegExp look behind assertions coming soon? A WebKit issue has been open and assigned since 2017 (<a href="https://bugs.webkit.org/show_bug.cgi?id=174931),|https://bugs.webkit.org/show_bug.cgi?id=174931),">https://bugs.webkit.org/show_bug.cgi?id=174931),|https://bugs.webkit.org/show_bug.cgi?id=174931),</a> but no update has been issued. This is implemented in all other browsers and is starting to cause some compatibility issues for us.</h4>
 </blockquote>
-<p>RegExp lookbehind assertions is not supported. Thanks for letting us know this is important to you. Having a detailed use-case can help our team prioritize this work. You can add a comment to the existing bug report (<a href="https://bugs.webkit.org/show_bug.cgi?id=174931">https://bugs.webkit.org/show_bug.cgi?id=174931</a>) to share your use-case, or if you prefer, you can file feedback with Feedback Assistant and share details on your use-case confidentially. (<a href="http://feedbackassistant.apple.com">http://feedbackassistant.apple.com</a>)</p>
+<p>|U03HVQMUA9Z|:
+RegExp lookbehind assertions is not supported. Thanks for letting us know this is important to you. Having a detailed use-case can help our team prioritize this work. You can add a comment to the existing bug report (<a href="https://bugs.webkit.org/show_bug.cgi?id=174931">https://bugs.webkit.org/show_bug.cgi?id=174931</a>) to share your use-case, or if you prefer, you can file feedback with Feedback Assistant and share details on your use-case confidentially. (<a href="http://feedbackassistant.apple.com">http://feedbackassistant.apple.com</a>)</p>
 <hr />
 <blockquote>
 <h4 id="will-web-push-work-in-wkwebview-instances">will web push work in WKWebview instances?</h4>
 </blockquote>
-<p>On macOS Ventura, Web Push is only supported in Safari 16.</p>
-<p>what about iOS/iPadOS?</p>
-<p>What's the best way to ask for Web Push support in WKWebView? Feedback assistant? It would be great if it could at least work in app-bound domains.</p>
-<p>You can learn a bit more with our WebKit blog post - <a href="https://webkit.org/blog/12945/meet-web-push/">https://webkit.org/blog/12945/meet-web-push/</a>
+<p>|U03J8RWC3A5|:
+On macOS Ventura, Web Push is only supported in Safari 16.</p>
+<p>|U03JT31P8AD|:
+what about iOS/iPadOS?</p>
+<p>|U03JMRY8ERZ|:
+What's the best way to ask for Web Push support in WKWebView? Feedback assistant? It would be great if it could at least work in app-bound domains.</p>
+<p>|U03J8RWC3A5|:
+You can learn a bit more with our WebKit blog post - <a href="https://webkit.org/blog/12945/meet-web-push/">https://webkit.org/blog/12945/meet-web-push/</a>
 Which also links to the WWDC session! <a href="https://developer.apple.com/videos/play/wwdc2022/10098/">https://developer.apple.com/videos/play/wwdc2022/10098/</a></p>
-<p>Look for iOS/iPadOS support in 2023</p>
-<p>&lt;@U03JMRY8ERZ&gt; We'd love your uses cases wrapped up in a Feedback Assistant report!</p>
-<p>Can you clarify whether Web Push will work in an SFSafariViewController on macOS Ventura? Or does it <em>only</em> work in Safari 16?</p>
-<p>Only in Safari 16 :+1:</p>
-<p>I'd also be curious to understand what the use case for web push would be in WKWebView or SFSafariViewController. If you use that you have an app that supports native push?</p>
-<p>My web app receives a lot of traffic from Facebook's in-app browser, which is a WKWebView. When users navigate to my site from a Facebook link, they won't be able to sign up for push notifications.</p>
-<p>For some sites, a very high percentage of their traffic comes from in-app browsers, some of which are WKWebViews, and some of which are SFSafariViewControllers. (I think it's fair to argue that Facebook ought to use SFSVC instead of WKWebView, but that's neither here nor there.) It especially seems like an oversight not to allow web push in an SFSafariViewController.</p>
-<p>Does Facebook have a native app on macOS with an in-app browser? I don't see one on the Mac App Store, but maybe they provide it as a direct download?</p>
-<p>Perhaps their iPad app runs on an Apple Silicon Mac? I might find time to look into that more later. :crossed_fingers:</p>
+<p>|U03J8RWC3A5|:
+Look for iOS/iPadOS support in 2023</p>
+<p>|U03J8RWC3A5|:
+&lt;@U03JMRY8ERZ&gt; We'd love your uses cases wrapped up in a Feedback Assistant report!</p>
+<p>|U03JMRY8ERZ|:
+Can you clarify whether Web Push will work in an SFSafariViewController on macOS Ventura? Or does it <em>only</em> work in Safari 16?</p>
+<p>|U03J8RWC3A5|:
+Only in Safari 16 :+1:</p>
+<p>|U03JRDB98KB|:
+I'd also be curious to understand what the use case for web push would be in WKWebView or SFSafariViewController. If you use that you have an app that supports native push?</p>
+<p>|U03JMRY8ERZ|:
+My web app receives a lot of traffic from Facebook's in-app browser, which is a WKWebView. When users navigate to my site from a Facebook link, they won't be able to sign up for push notifications.</p>
+<p>|U03JMRY8ERZ|:
+For some sites, a very high percentage of their traffic comes from in-app browsers, some of which are WKWebViews, and some of which are SFSafariViewControllers. (I think it's fair to argue that Facebook ought to use SFSVC instead of WKWebView, but that's neither here nor there.) It especially seems like an oversight not to allow web push in an SFSafariViewController.</p>
+<p>|U03J8RWC3A5|:
+Does Facebook have a native app on macOS with an in-app browser? I don't see one on the Mac App Store, but maybe they provide it as a direct download?</p>
+<p>|U03J8RWC3A5|:
+Perhaps their iPad app runs on an Apple Silicon Mac? I might find time to look into that more later. :crossed_fingers:</p>
 <hr />
 <blockquote>
 <h4 id="safari-is-the-only-modern-browser-to-not-support-regex-lookbehind-httpscaniusecomjs-regexp-lookbehindhttpscaniusecomjs-regexp-lookbehind-which-is-a-useful-feature-for-matching-strings-based-on-the-text-behind-it-any-plans-to-support-it">Safari is the only modern browser to not support RegEx lookbehind (<a href="https://caniuse.com/js-regexp-lookbehind)|https://caniuse.com/js-regexp-lookbehind)">https://caniuse.com/js-regexp-lookbehind)|https://caniuse.com/js-regexp-lookbehind)</a> which is a useful feature for matching strings based on the text behind it. Any plans to support it?</h4>
 </blockquote>
-<p>Hi Ryan, thanks for your question and letting us know your interest in this feature. This was answered in a <a href="https://wwdc22.slack.com/archives/C03GSL4EAMD/p1654620439615579|previous question">https://wwdc22.slack.com/archives/C03GSL4EAMD/p1654620439615579|previous question</a>.</p>
+<p>|U03HVQMUA9Z|:
+Hi Ryan, thanks for your question and letting us know your interest in this feature. This was answered in a <a href="https://wwdc22.slack.com/archives/C03GSL4EAMD/p1654620439615579|previous question">https://wwdc22.slack.com/archives/C03GSL4EAMD/p1654620439615579|previous question</a>.</p>
 <p>We’d also appreciate details about your specific use-case for this feature to help us prioritize this work. Can you add a comment to the <a href="https://bugs.webkit.org/show_bug.cgi?id=174931|bug report">https://bugs.webkit.org/show_bug.cgi?id=174931|bug report</a> or share your use case with <a href="https://feedbackassistant.apple.com|Feedback Assistant">https://feedbackassistant.apple.com|Feedback Assistant</a>?</p>
 <hr />
 <blockquote>
 <h4 id="hey-two-questions-about-web-push-is-the-uservisibleonly-flag-supported-and-is-the-api-available-in-webextensions">Hey! Two questions about Web Push: is the <code>userVisibleOnly</code> flag supported, and is the API available in WebExtensions?</h4>
 </blockquote>
-<p>The <code>userVisibleOnly</code> flag is in fact required; You are not allowed to subscribe for push if you set the flag to <code>false</code></p>
+<p>|U03J8RWC3A5|:
+The <code>userVisibleOnly</code> flag is in fact required; You are not allowed to subscribe for push if you set the flag to <code>false</code></p>
 <p>This is covered in the session here - <a href="https://developer.apple.com/videos/play/wwdc2022/10098/">https://developer.apple.com/videos/play/wwdc2022/10098/</a></p>
 <p>On macOS Ventura, the API is only available to websites visited in a browser tab in Safari 16.
 We'd love to read use cases for support in extensions - Please file a Feedback Assistant issue!</p>
-<p>Thanks! I'll definitely open a feedback but to share some more context in the meantime, we've been discussing this at the Web Extensions Community Group as an alternative to the (no longer reliable) WebSockets in MV3: <a href="https://github.com/w3c/webextensions/issues/208">https://github.com/w3c/webextensions/issues/208</a>. Being able to set <code>userVisibleOnly</code> to <code>false</code> in extensions specifically would allow us to use it as a background notification mechanism and feels like less of a risk given that extensions are already running in the background.</p>
-<p>Apple makes a comment around around this in the "Meet Web Push" video available today, at 13:38.
+<p>|U03J24T1UTH|:
+Thanks! I'll definitely open a feedback but to share some more context in the meantime, we've been discussing this at the Web Extensions Community Group as an alternative to the (no longer reliable) WebSockets in MV3: <a href="https://github.com/w3c/webextensions/issues/208">https://github.com/w3c/webextensions/issues/208</a>. Being able to set <code>userVisibleOnly</code> to <code>false</code> in extensions specifically would allow us to use it as a background notification mechanism and feels like less of a risk given that extensions are already running in the background.</p>
+<p>|U03JMRY8ERZ|:
+Apple makes a comment around around this in the "Meet Web Push" video available today, at 13:38.
 &gt; You must promise that pushes will be user visible. Handling a push event is not an invitation for your JavaScript to get silent background run time. Doing so would violate both the user's trust, and the user's battery life.
-&gt;
+&gt; 
 &gt; When handling a push a event, you are in fact required to post a notification to notification center. Other browsers all have counter measures against violating the promise to make notifications user visible, and so does Safari.
-&gt;
+&gt; 
 &gt; In the beta build of macOS Ventura, after three push events where you fail to push a notification in a timely manner, your site's push subscription will be revoked. You will need to go through the permission workflow again.</p>
-<p>Thanks &lt;@U03JMRY8ERZ&gt;! That matches up with the other browsers, so no surprises there. If notifications do ever come to extensions, though, I'd still love to see a relaxing of this requirement. It feels like a slightly different threat model and one where background run time may be appropriate.</p>
-<p>(I know you're not from Apple, but just sharing what my response would be)</p>
+<p>|U03J24T1UTH|:
+Thanks &lt;@U03JMRY8ERZ&gt;! That matches up with the other browsers, so no surprises there. If notifications do ever come to extensions, though, I'd still love to see a relaxing of this requirement. It feels like a slightly different threat model and one where background run time may be appropriate.</p>
+<p>|U03J24T1UTH|:
+(I know you're not from Apple, but just sharing what my response would be)</p>
 <hr />
 <blockquote>
 <h4 id="safari-16-release-notes-mentions-web-extensions-api-improvements-can-we-have-more-information-on-what-those-improvements-are">Safari 16 release notes mentions “Web Extensions API improvements”. Can we have more information on what those improvements are?</h4>
 </blockquote>
-<p>“<a href="https://developer.apple.com/videos/play/wwdc2022/10099/|What’s new in Safari Web Extensions">https://developer.apple.com/videos/play/wwdc2022/10099/|What’s new in Safari Web Extensions</a>” goes into detail about the improvements to Web Extensions for Safari 16. Check it out on Wednesday and let us know if you have any questions?</p>
-<p>Sure. Thanks :blush:</p>
-<p>there's also "<a href="https://developer.apple.com/videos/play/wwdc2022/10100/|Create Safari Web Inspector Extensions">https://developer.apple.com/videos/play/wwdc2022/10100/|Create Safari Web Inspector Extensions</a>" if you're focus is more about developer tooling :slightly_smiling_face:</p>
+<p>|U03HFKHP08P|:
+“<a href="https://developer.apple.com/videos/play/wwdc2022/10099/|What’s new in Safari Web Extensions">https://developer.apple.com/videos/play/wwdc2022/10099/|What’s new in Safari Web Extensions</a>” goes into detail about the improvements to Web Extensions for Safari 16. Check it out on Wednesday and let us know if you have any questions?</p>
+<p>|U03JK6V7ESH|:
+Sure. Thanks :blush:</p>
+<p>|U03HFKHPLUX|:
+there's also "<a href="https://developer.apple.com/videos/play/wwdc2022/10100/|Create Safari Web Inspector Extensions">https://developer.apple.com/videos/play/wwdc2022/10100/|Create Safari Web Inspector Extensions</a>" if you're focus is more about developer tooling :slightly_smiling_face:</p>
 <hr />
 <blockquote>
 <h4 id="hello-my-company-website-is-already-supported-notification-on-chrome-and-other-browsers-when-i-tested-it-on-latest-safari-16-the-subscribe-buttonalert-did-not-pop-up-thinking_face">Hello! My company website is already supported Notification on Chrome and other browsers. When I tested it on latest Safari 16, the subscribe button/alert did not pop-up. :thinking_face:</h4>
 </blockquote>
-<p>Thanks for trying it out with your site! We need a little more info to better understand your question.
+<p>|U03J8RWC3A5|:
+Thanks for trying it out with your site! We need a little more info to better understand your question.
 Do you mean your website didn't show the button to subscribe, like it does in other browsers?
 Or do you mean that the button appears, but clicking it does nothing?</p>
-<p>Hi Brady,</p>
-<p>I cannot see this alert pop-up</p>
-<p>Is there any demo website I can test with this push API? Not sure why… I upgraded to the macOS 13.0, and all the web notifications that worked before disappeared too:smiling_face_with_tear:.</p>
-<p>Okay!</p>
+<p>|U03HVCK66P8|:
+Hi Brady,</p>
+<p>|U03HVCK66P8|:
+I cannot see this alert pop-up</p>
+<p>|U03HVCK66P8|:
+Is there any demo website I can test with this push API? Not sure why… I upgraded to the macOS 13.0, and all the web notifications that worked before disappeared too:smiling_face_with_tear:.</p>
+<p>|U03J8RWC3A5|:
+Okay!</p>
 <p>When we were developing the feature, many sites "just worked," but others unwittingly excluded Safari. There was a few common reasons for this.</p>
 <p>One common one was a site not setting the <code>userVisibleOnly</code> flag in subscription requests, or setting it to false. WebKit requires pushes to be user visible, so that flag must be set to true.</p>
 <p>If that were the case, you would see an error in Web Inspector. There's a few other less common errors that might show up in Web Inspector, so please check it out.</p>
 <p>If nothing shows up there, it's also possible that even though your website's "subscribe" button shows up, it's not fully functional in Safari because some part of your stack is doing browser detection instead of feature detection.</p>
 <p>Check to make sure your site to see if anything is doing a User Agent check or some other type of isSafari check, causing the button to not be fully functional.</p>
-<p>I'm sorry to hear that previously working Safari Push Notification subscriptions stopped working when you upgraded to Ventura. <em>Ugh</em></p>
+<p>|U03J8RWC3A5|:
+I'm sorry to hear that previously working Safari Push Notification subscriptions stopped working when you upgraded to Ventura. <em>Ugh</em></p>
 <p>As far as I know we haven't seen that happen. Could you file a feedback assistant on that, with a full sysdiagnose, etc?</p>
-<p>No problem. Let me pass your words to my team. Thank you, &lt;@U03J8RWC3A5&gt;</p>
-<p>You're very welcome!</p>
+<p>|U03HVCK66P8|:
+No problem. Let me pass your words to my team. Thank you, &lt;@U03J8RWC3A5&gt;</p>
+<p>|U03J8RWC3A5|:
+You're very welcome!</p>
 <hr />
 <blockquote>
 <h4 id="i-still-get-a-lot-of-value-out-of-httpslabsjensimmonscomhttpslabsjensimmonscom-and-am-wondering-if-there-is-any-plan-to-do-something-similar-for-container-queries-subgrid-etc-are-the-webkit-clothing-swap-examples-live-anywhere-or-on-github-i-appreciate-the-links-to-articles-in-animation-improvements-httpswebkitorgblog12824news-from-wwdc-webkit-features-in-safari-16-betaanimation-improvementshttpswebkitorgblog12824news-from-wwdc-webkit-features-in-safari-16-betaanimation-improvements">I still get a lot of value out of <a href="https://labs.jensimmons.com|https://labs.jensimmons.com">https://labs.jensimmons.com|https://labs.jensimmons.com</a> and am wondering if there is any plan to do something similar for Container Queries, Subgrid, etc. Are the WebKit Clothing Swap examples live anywhere or on GitHub? I appreciate the links to articles in Animation Improvements (<a href="https://webkit.org/blog/12824/news-from-wwdc-webkit-features-in-safari-16-beta/#animation-improvements).|https://webkit.org/blog/12824/news-from-wwdc-webkit-features-in-safari-16-beta/#animation-improvements).">https://webkit.org/blog/12824/news-from-wwdc-webkit-features-in-safari-16-beta/#animation-improvements).|https://webkit.org/blog/12824/news-from-wwdc-webkit-features-in-safari-16-beta/#animation-improvements).</a></h4>
 </blockquote>
-<p>Oh, thank you. I always appreciate hearing from people who watch Layout Land! It was really fun making those videos.</p>
+<p>|U03HLKXUP7E|:
+Oh, thank you. I always appreciate hearing from people who watch Layout Land! It was really fun making those videos.</p>
 <p>The WebKit Clothing Swap examples are not live anywhere. Keep an eye on <a href="http://webkit.org|webkit.org">http://webkit.org|webkit.org</a> for more info, demos, and help with Container Queries and Subgrid in the future. And follow me on twitter @jensimmons for info about upcoming conference presentations, videos and demos.</p>
 <hr />
 <blockquote>
 <h4 id="in-which-category-should-i-file-safari-issues-that-apply-to-all-platforms-when-filing-a-feedback-assistant-report-it-asks-where-would-you-like-to-start-your-feedback-it-gives-ten-options-tvos-macos-homepod-watchos-airpods-beta-firmware-ios-ipados-web-services-sdks-enterprise-education-mfi-technologies-and-developer-tools-id-expect-to-file-the-issue-on-safari-which-is-a-multi-platform-app-and-not-on-any-one-platform">In which category should I file Safari issues that apply to all platforms? When filing a Feedback Assistant report, it asks, "Where would you like to start your feedback?" It gives ten options: tvOS, macOS, HomePod, watchOS, AirPods Beta Firmware, iOS &amp; iPadOS, Web Services &amp; SDKs, Enterprise &amp; Education, MFi Technologies, and Developer Tools." I'd expect to file the issue on "Safari," which is a multi-platform app, and not on any one platform.</h4>
 </blockquote>
-<p>I can see this is non-obvious. Go ahead and pick any platform with Safari where you tested the issue, and specifically mention in your feedback that it applies to the other Safari platforms as well.</p>
+<p>|U03J8RWC3A5|:
+I can see this is non-obvious. Go ahead and pick any platform with Safari where you tested the issue, and specifically mention in your feedback that it applies to the other Safari platforms as well.</p>
 <p>In the meantime, we'll ping the folks in charge of Feedback Assistant to see what we can do to make this better in the future.</p>
-<p>Thanks!</p>
+<p>|U03JMRY8ERZ|:
+Thanks!</p>
 <hr />
 <blockquote>
 <h4 id="are-the-new-safari-extensions-for-dev-tools-exclusive-to-the-mac-can-they-work-when-inspecting-a-webview-on-ios-from-the-mac-is-there-a-way-to-enable-the-users-safari-extensions-with-safariviewcontroller-within-apps">Are the new Safari Extensions for Dev Tools exclusive to the Mac? Can they work when inspecting a WebView on iOS from the Mac?  Is there a way to enable the user's Safari extensions with SafariViewController within apps?</h4>
 </blockquote>
-<p>Yes, Safari Web Inspector extensions are only supported when inspecting within Safari on macOS.  No, they will not work when inspecting web content on iOS.</p>
+<p>|U03HFKHPLUX|:
+Yes, Safari Web Inspector extensions are only supported when inspecting within Safari on macOS.  No, they will not work when inspecting web content on iOS.</p>
 <p>For more info about Safari Web Inspector extensions, definitely check out <a href="https://developer.apple.com/videos/play/wwdc2022/10100/|&quot;Create Safari Web Inspector Extensions&quot;">https://developer.apple.com/videos/play/wwdc2022/10100/|"Create Safari Web Inspector Extensions"</a> :slightly_smiling_face:</p>
-<p>Thank you! That makes sense.</p>
+<p>|U03J4BXGXRS|:
+Thank you! That makes sense.</p>
 <hr />
 <blockquote>
 <h4 id="with-safari-16-bring-extension-syncing-across-platforms-does-that-mean-mac-is-getting-ioss-per-website-permissions-too">With Safari 16 bring extension syncing across platforms, does that mean Mac is getting iOS's per website permissions too?</h4>
 </blockquote>
-<p>Safari Web Extensions on macOS have the same per website permission model as Safari Web Extensions on iOS. In Safari 16, extension state syncing will be supported for Safari Web Extensions and Content Blockers. However, syncing of extension website permissions isn’t available in Safari 16. For more information, check out “<a href="https://developer.apple.com/videos/play/wwdc2022/10099/|What’s new in Safari Web Extensions">https://developer.apple.com/videos/play/wwdc2022/10099/|What’s new in Safari Web Extensions</a>” on Wednesday.</p>
+<p>|U03HFKHP08P|:
+Safari Web Extensions on macOS have the same per website permission model as Safari Web Extensions on iOS. In Safari 16, extension state syncing will be supported for Safari Web Extensions and Content Blockers. However, syncing of extension website permissions isn’t available in Safari 16. For more information, check out “<a href="https://developer.apple.com/videos/play/wwdc2022/10099/|What’s new in Safari Web Extensions">https://developer.apple.com/videos/play/wwdc2022/10099/|What’s new in Safari Web Extensions</a>” on Wednesday.</p>
 <hr />
 <blockquote>
 <h4 id="any-specific-best-practices-or-resources-for-using-css-animations-or-apis-like-requestanimationframe-on-promotion-displays-or-best-to-just-trust-webkit-to-render-those-and-not-think-about-framerate">Any specific best practices or resources for using CSS animations or APIs like requestAnimationFrame() on ProMotion displays, or best to just trust WebKit to render those and not think about framerate?</h4>
 </blockquote>
-<p>You should prefer CSS animations wherever you can, especially for things like transforms and opacity; if you need to implement animations yourself, using requestAnimationFrame and letting WebKit deal with the frame rate is the way to go.</p>
-<p>You might also be interested in <a href="https://github.com/WebKit/explainers/tree/main/animation-frame-rate|WebKit's proposal">https://github.com/WebKit/explainers/tree/main/animation-frame-rate|WebKit's proposal</a> to support custom animations at variable frame rates, but currently it's just that: a proposal, not an actual plan, and requires standardization work.</p>
-<p>I sure am! Will take a look, thanks Tim (Apple)!</p>
+<p>|U03HYJ1UXRA|:
+You should prefer CSS animations wherever you can, especially for things like transforms and opacity; if you need to implement animations yourself, using requestAnimationFrame and letting WebKit deal with the frame rate is the way to go.</p>
+<p>|U03HYJ1UXRA|:
+You might also be interested in <a href="https://github.com/WebKit/explainers/tree/main/animation-frame-rate|WebKit's proposal">https://github.com/WebKit/explainers/tree/main/animation-frame-rate|WebKit's proposal</a> to support custom animations at variable frame rates, but currently it's just that: a proposal, not an actual plan, and requires standardization work.</p>
+<p>|U03JRPW861E|:
+I sure am! Will take a look, thanks Tim (Apple)!</p>
 <hr />
 <blockquote>
 <h4 id="hello-i-hope-my-question-is-not-off-topic-im-used-to-use-google-analytics-to-monitor-visits-and-click-rates-on-a-website-of-mine-im-not-an-analytics-expert-im-just-an-app-developer-i-have-no-ad-campaigns-i-just-want-to-see-how-many-people-visit-my-site-daily-and-how-many-of-the-visitors-click-to-download-my-app-i-dont-care-about-any-of-their-personal-data-of-course-now-safari-blocks-it-and-i-wanted-to-know-if-theres-any-privacy-savvy-equivalent-you-could-recommend-to-me-to-use-instead-of-it-thank-you">Hello! I hope my question is not off topic. I'm used to use Google Analytics to monitor visits and click rates on a website of mine, I'm not an Analytics expert, I'm just an app developer, I have no AD campaigns, I just want to see how many people visit my site daily and how many of the visitors click to download my app, I don't care about any of their personal data. Of course now Safari blocks it and I wanted to know if there's any privacy savvy equivalent you could recommend to me to use instead of it. Thank you!</h4>
 </blockquote>
-<p>Hi Cristina, Safari doesn’t block Google Analytics. There is a helpful blog post “<a href="https://www.simoahava.com/analytics/no-safari-does-not-block-google-analytics/|No - Safari 14 Does Not Block Google Analytics">https://www.simoahava.com/analytics/no-safari-does-not-block-google-analytics/|No - Safari 14 Does Not Block Google Analytics</a>” that discusses how Intelligent Tracking Prevention works to prevent cross-site tracking without blocking Google Analytics.</p>
-<p>That said, I'm in love with <a href="http://usefathom.com|u">http://usefathom.com|u</a><a href="http://usefathom.com|sefathom.com">http://usefathom.com|sefathom.com</a>! I do have a referral code if you want it but just use them.</p>
+<p>|U03HVQMUA9Z|:
+Hi Cristina, Safari doesn’t block Google Analytics. There is a helpful blog post “<a href="https://www.simoahava.com/analytics/no-safari-does-not-block-google-analytics/|No - Safari 14 Does Not Block Google Analytics">https://www.simoahava.com/analytics/no-safari-does-not-block-google-analytics/|No - Safari 14 Does Not Block Google Analytics</a>” that discusses how Intelligent Tracking Prevention works to prevent cross-site tracking without blocking Google Analytics.</p>
+<p>|U03JRPW861E|:
+That said, I'm in love with <a href="http://usefathom.com|u">http://usefathom.com|u</a><a href="http://usefathom.com|sefathom.com">http://usefathom.com|sefathom.com</a>! I do have a referral code if you want it but just use them.</p>
 <hr />
 <blockquote>
 <h4 id="can-the-safari-web-extension-open-the-web-options-page-on-ios-just-like-on-the-mac-because-else-it-is-inconsistent-with-the-other-platform">Can the Safari Web Extension open the web "Options" page on iOS (just like on the Mac)? Because else it is inconsistent with the other platform.</h4>
 </blockquote>
-<p>You can open an extension’s options page from the Settings app on iOS. From Settings, choose Safari &gt; Extensions &gt; Your Extension, and tap <code>Extension Settings</code></p>
+<p>|U03HFKHP08P|:
+You can open an extension’s options page from the Settings app on iOS. From Settings, choose Safari &gt; Extensions &gt; Your Extension, and tap <code>Extension Settings</code></p>
 <hr />
 <blockquote>
 <h4 id="i-frequently-get-a-bug-in-the-inspector-modifying-especially-deep-css-each-keystroke-will-weirdly-become-a-new-property-or-sometimes-changes-completely-fall-out-of-sync-from-the-browser-is-this-a-known-bug-and-anything-i-can-do-to-help-yall-diagnose-it">I frequently get a bug in the Inspector modifying especially deep CSS. Each keystroke will weirdly become a new property, or sometimes changes completely fall out of sync from the browser. Is this a known bug, and anything I can do to help y’all diagnose it?</h4>
 </blockquote>
-<p>Thanks for letting us know. A video and/or the steps you take to experience this issue would be very helpful! This is something that would be great to have as a bug report that we can follow-up on. Can you file feedback with Feedback Assistant? <a href="http://feedbackassistant.apple.com">http://feedbackassistant.apple.com</a></p>
+<p>|U03HW7G46HY|:
+Thanks for letting us know. A video and/or the steps you take to experience this issue would be very helpful! This is something that would be great to have as a bug report that we can follow-up on. Can you file feedback with Feedback Assistant? <a href="http://feedbackassistant.apple.com">http://feedbackassistant.apple.com</a></p>
 <hr />
 <blockquote>
 <h4 id="can-a-user-logged-in-on-safari-be-automatically-login-on-the-app">Can a user logged in on safari be automatically login on the app?</h4>
 </blockquote>
-<p>We encourage developers to allow users to keep their state separate between Safari and in apps, but if really necessary then <code>ASWebAuthenticationSession</code> is the best answer.</p>
+<p>|U03HFKHPLUX|:
+We encourage developers to allow users to keep their state separate between Safari and in apps, but if really necessary then <code>ASWebAuthenticationSession</code> is the best answer.</p>
 <hr />
 <blockquote>
 <h4 id="question-about-the-availability-on-the-api-wkpreferencesissitespecificquirksmodeenabled-this-api-was-added-last-year-and-was-labeled-as-available-on-ios-150-however-in-practice-we-found-it-wasnt-actually-present-until-154-now-in-the-ios-16-sdk-its-labeled-as-available-on-ios-16-whats-going-on-and-can-you-please-fix-it-fb10109075">Question about the availability on the API <code>WKPreferences.isSiteSpecificQuirksModeEnabled</code>.  This API was added last year and was labeled as available on iOS 15.0. However, in practice, we found it wasn't actually present until 15.4. Now in the iOS 16 SDK, it's labeled as available on iOS 16! What's going on, and can you please fix it?  FB10109075</h4>
 </blockquote>
-<p>Thank you for reporting this! The API availability on <code>WKPreferences.isSiteSpecificQuirksModeEnabled</code> is indeed mislabeled — we will be tracking a fix for this in <a href="https://bugs.webkit.org/show_bug.cgi?id=241482">https://bugs.webkit.org/show_bug.cgi?id=241482</a>.</p>
-<p>Hi Wenson!  Thanks, I was not expecting to see a PR so fast.
+<p>|U03HT9GU8H3|:
+Thank you for reporting this! The API availability on <code>WKPreferences.isSiteSpecificQuirksModeEnabled</code> is indeed mislabeled — we will be tracking a fix for this in <a href="https://bugs.webkit.org/show_bug.cgi?id=241482">https://bugs.webkit.org/show_bug.cgi?id=241482</a>.</p>
+<p>|U03J4CTJ37W|:
+Hi Wenson!  Thanks, I was not expecting to see a PR so fast.
 While I’m here, any tips on getting our site out of the quirks mode list? We got added a couple years ago, it’s been causing a lot of trouble, and we believe we’ve mitigated the need for it by now.  Somebody pinged our Apple dev evangelist about it a while back, but nothing’s happened.  Should I just become a contributor on <a href="http://webkit.org|webkit.org">http://webkit.org|webkit.org</a> and submit a patch?</p>
-<p>(Unfortunately I don’t have a FB or WebKit bug ID for that. I can certainly file one though.)</p>
-<p>That’s a good question! It looks like <a href="http://figma.com|figma.com">http://figma.com|figma.com</a> was added to the quirks list to opt into “dispatch simulated mouse events” behaviors — I’ll see if I can figure out which bug that was intended to fix (if I recall correctly, that change was made during the push for desktop-class browsing on iPad)</p>
-<p>Oh! I see, it’s related to <a href="https://bugs.webkit.org/show_bug.cgi?id=196830">https://bugs.webkit.org/show_bug.cgi?id=196830</a> …perhaps we can follow up in that bug?</p>
-<p>Right, it was around that time. In the meantime the site has adopted newer web pointer event APIs, so we shouldn’t need the simulated mouse events anymore.  (In fact they cause a lot of problems that are difficult to work around.)</p>
-<p>Works for me, thanks for the attention!</p>
-<p>That’s great to hear! Yes, in that case, it sounds like we can probably remove figma from the quirks list, then — <em>especially</em> if the quirked behavior is causing other issues, as well.
+<p>|U03J4CTJ37W|:
+(Unfortunately I don’t have a FB or WebKit bug ID for that. I can certainly file one though.)</p>
+<p>|U03HT9GU8H3|:
+That’s a good question! It looks like <a href="http://figma.com|figma.com">http://figma.com|figma.com</a> was added to the quirks list to opt into “dispatch simulated mouse events” behaviors — I’ll see if I can figure out which bug that was intended to fix (if I recall correctly, that change was made during the push for desktop-class browsing on iPad)</p>
+<p>|U03HT9GU8H3|:
+Oh! I see, it’s related to <a href="https://bugs.webkit.org/show_bug.cgi?id=196830">https://bugs.webkit.org/show_bug.cgi?id=196830</a> …perhaps we can follow up in that bug?</p>
+<p>|U03J4CTJ37W|:
+Right, it was around that time. In the meantime the site has adopted newer web pointer event APIs, so we shouldn’t need the simulated mouse events anymore.  (In fact they cause a lot of problems that are difficult to work around.)</p>
+<p>|U03J4CTJ37W|:
+Works for me, thanks for the attention!</p>
+<p>|U03HT9GU8H3|:
+That’s great to hear! Yes, in that case, it sounds like we can probably remove figma from the quirks list, then — <em>especially</em> if the quirked behavior is causing other issues, as well.
 For what it’s worth, it’s also possible (as third party developers) to disable quirks in WebKit using Web Inspector, and test behaviors on websites without quirks. Let’s definitely follow up in the Bugzilla bug!</p>
 <hr />
 <blockquote>
 <h4 id="i-would-like-to-contribute-as-a-community-member-by-writing-content-about-webkit-for-example-by-writing-tutorials-on-how-to-use-the-web-inspector-or-improving-the-website-is-this-possible-whats-the-best-place-to-start">I would like to contribute as a community member, by writing content about WebKit.  For example, by writing tutorials on how to use the Web Inspector or improving the website.  Is this possible? What's the best place to start?</h4>
 </blockquote>
-<p>There are already a number of fantastic pages documenting many aspects of Web Inspector at &lt;<a href="https://webkit.org/web-inspector/">https://webkit.org/web-inspector/</a>&gt;, but we're always looking for feedback and suggestions, so in those cases we'd love it if you'd file <a href="https://feedbackassistant.apple.com|Feedback Assistant">https://feedbackassistant.apple.com|Feedback Assistant</a> bugs with details about what you'd change.  You're also welcome to &lt;https://webkit.org/getting-started/#staying-in-touch
+<p>|U03HFKHPLUX|:
+There are already a number of fantastic pages documenting many aspects of Web Inspector at &lt;<a href="https://webkit.org/web-inspector/">https://webkit.org/web-inspector/</a>&gt;, but we're always looking for feedback and suggestions, so in those cases we'd love it if you'd file <a href="https://feedbackassistant.apple.com|Feedback Assistant">https://feedbackassistant.apple.com|Feedback Assistant</a> bugs with details about what you'd change.  You're also welcome to &lt;https://webkit.org/getting-started/#staying-in-touch
 |join the WebKit slack&gt; (and/or mailing lists) to chat with us if you'd prefer something a bit more conversational. :slightly_smiling_face:</p>
 <hr />
 <blockquote>
 <h4 id="as-ive-been-migrating-my-webview-based-mac-html-editor-to-wkwebview-ive-come-across-indications-in-the-webkit-source-base-that-a-mechanism-for-injected-bundles-in-the-webprocess-exist-is-this-something-that-any-3rd-party-can-possibly-take-advantage-of-or-is-it-limited-to-internal-apple-webkit-clients">As I've been migrating my WebView based Mac HTML editor to WKWebView, I've come across indications in the WebKit source base that a mechanism for "injected bundles" in the WebProcess exist. Is this something that any 3rd party can possibly take advantage of, or is it limited to internal Apple WebKit clients?</h4>
 </blockquote>
-<p>Injected bundles are private WebKit API and we are in the process of deprecating them; if there is anything you can't achieve with API in the application process (or via script -- either in the page or invoked from the app via <code>evaluateJavaScript</code> or <code>callAsyncJavaScript</code> APIs), please file feedback with information about your use cases.</p>
-<p>Thank you!</p>
+<p>|U03HYJ1UXRA|:
+Injected bundles are private WebKit API and we are in the process of deprecating them; if there is anything you can't achieve with API in the application process (or via script -- either in the page or invoked from the app via <code>evaluateJavaScript</code> or <code>callAsyncJavaScript</code> APIs), please file feedback with information about your use cases.</p>
+<p>|U03HZ39CGAH|:
+Thank you!</p>
 <hr />
 <blockquote>
 <h4 id="hi-are-we-expected-to-actively-migrate-existing-apns-safari-web-push-users-to-the-standard-if-so-in-that-migration-scenario-are-users-required-to-perform-a-user-gesture-and-accept-notifications-again-or-can-we-detect-that-on-page-load-using-something-like-notificationpermission-granted-after-feature-detection-and-silently-move-them-from-apns-to-the-w3c-push">Hi, Are we expected to actively migrate existing APNs safari web push users to the standard?   If so, in that migration scenario, are users required to perform a user gesture and accept notifications again, or can we detect that on page load (using something like <code>Notification.permission === granted</code> after feature detection) and silently move them from APNs to the w3c push?</h4>
 </blockquote>
-<p>Safari Push notifications will continue to work in Safari on macOS Ventura and beyond. We'll announce ahead of time if that changes.</p>
-<p>Thanks!</p>
+<p>|U03J8RWC3A5|:
+Safari Push notifications will continue to work in Safari on macOS Ventura and beyond. We'll announce ahead of time if that changes.</p>
+<p>|U03JHQ4K125|:
+Thanks!</p>
 <hr />
 <blockquote>
 <h4 id="hey-love-the-new-share-across-devices-feature-for-syncing-extensions-blue_heart-does-this-setting-also-work-for-content-blocker-extensions-or-only-web-extensions">Hey, love the new "Share Across Devices" feature for syncing extensions! :blue_heart: Does this setting also work for content blocker extensions or only web extensions?</h4>
 </blockquote>
-<p>This will work for Web Extensions and Content Blockers. Check out <a href="https://developer.apple.com/documentation/safariservices/safari_web_extensions/syncing_safari_web_extensions_across_devices_and_platforms?language=objc|our documentation">https://developer.apple.com/documentation/safariservices/safari_web_extensions/syncing_safari_web_extensions_across_devices_and_platforms?language=objc|our documentation</a> for more details.</p>
+<p>|U03HFKHP08P|:
+This will work for Web Extensions and Content Blockers. Check out <a href="https://developer.apple.com/documentation/safariservices/safari_web_extensions/syncing_safari_web_extensions_across_devices_and_platforms?language=objc|our documentation">https://developer.apple.com/documentation/safariservices/safari_web_extensions/syncing_safari_web_extensions_across_devices_and_platforms?language=objc|our documentation</a> for more details.</p>
 <hr />
 <blockquote>
 <h4 id="hi-safari-team-a-little-question-why-outlineborder-radius-are-not-working-as-expected-on-safari-i-tried-chrome-which-works-fine-for-example-i-wanna-make-a-rounded-avatar-chrome-shows-me-a-circle-but-safari-show-me-a-square-any-idea">Hi Safari Team. A little question. Why outline+border-radius are not working as expected on Safari? I tried Chrome which works fine.  For example: I wanna make a rounded avatar. Chrome shows me a circle but Safari show me a square.  Any idea?</h4>
 </blockquote>
-<p>We are aware of this limitation and are tracking this in the WebKit bug tracker as <a href="https://bugs.webkit.org/show_bug.cgi?id=20807">https://bugs.webkit.org/show_bug.cgi?id=20807</a>; you can follow along there. We do support hugging outlines for <code>outline: auto</code>, but that results in also getting a focus ring, which might be undesirable.</p>
+<p>|U03HYJ1UXRA|:
+We are aware of this limitation and are tracking this in the WebKit bug tracker as <a href="https://bugs.webkit.org/show_bug.cgi?id=20807">https://bugs.webkit.org/show_bug.cgi?id=20807</a>; you can follow along there. We do support hugging outlines for <code>outline: auto</code>, but that results in also getting a focus ring, which might be undesirable.</p>
 <hr />
 <blockquote>
 <h4 id="hi-how-does-safari-extension-sync-work-if-i-have-separately-paid-extensions-in-the-ios-and-mac-app-store-also-does-it-work-with-safari-app-extensions">Hi. How does Safari extension sync work if I have separately paid extensions in the iOS and Mac App Store? Also, does it work with Safari app extensions?</h4>
 </blockquote>
-<p>Safari Extension sync works for Web Extensions and Content Blockers, not Safari App Extensions. If you have separately paid extensions for iOS and Mac, you can link them together as documented on <a href="http://developer.apple.com|developer.apple.com">http://developer.apple.com|developer.apple.com</a> and in this year’s “<a href="https://developer.apple.com/videos/play/wwdc2022/10099|What's new in Safari Web Extensions">https://developer.apple.com/videos/play/wwdc2022/10099|What's new in Safari Web Extensions</a>” talk.</p>
-<p>Thanks. What will be seen here if they haven't paid?</p>
-<p>The download button will become a buy button letting the user purchase the app directly from there.</p>
-<p>Cool, thanks!</p>
+<p>|U03HFKHP08P|:
+Safari Extension sync works for Web Extensions and Content Blockers, not Safari App Extensions. If you have separately paid extensions for iOS and Mac, you can link them together as documented on <a href="http://developer.apple.com|developer.apple.com">http://developer.apple.com|developer.apple.com</a> and in this year’s “<a href="https://developer.apple.com/videos/play/wwdc2022/10099|What's new in Safari Web Extensions">https://developer.apple.com/videos/play/wwdc2022/10099|What's new in Safari Web Extensions</a>” talk.</p>
+<p>|U03JXSU9QUV|:
+Thanks. What will be seen here if they haven't paid?</p>
+<p>|U03HFKHP08P|:
+The download button will become a buy button letting the user purchase the app directly from there.</p>
+<p>|U03JXSU9QUV|:
+Cool, thanks!</p>
 <hr />
 <blockquote>
 <h4 id="hello-will-safari-eventually-support-chrome_settings_overrides-httpsdevelopermozillaorgen-usdocsmozillaadd-onswebextensionsmanifestjsonchrome_settings_overrideshttpsdevelopermozillaorgen-usdocsmozillaadd-onswebextensionsmanifestjsonchrome_settings_overrides-like-chrome-edge-and-firefox-thanks">Hello, will Safari eventually support chrome_settings_overrides (<a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/chrome_settings_overrides)|https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/chrome_settings_overrides)">https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/chrome_settings_overrides)|https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/chrome_settings_overrides)</a> like Chrome, Edge and Firefox? Thanks!</h4>
 </blockquote>
-<p>Safari does not currently support that manifest option. Please file feedback using <a href="https://feedbackassistant.apple.com/|Feedback Assistant">https://feedbackassistant.apple.com/|Feedback Assistant</a> and let us know which keys in particular you are interested in!</p>
+<p>|U03HPJDLBFY|:
+Safari does not currently support that manifest option. Please file feedback using <a href="https://feedbackassistant.apple.com/|Feedback Assistant">https://feedbackassistant.apple.com/|Feedback Assistant</a> and let us know which keys in particular you are interested in!</p>
 <hr />
 <blockquote>
 <h4 id="will-there-be-a-fix-to-safaris-this-webpage-is-using-significant-memory-notification">Will there be a fix to Safari's "this webpage is using significant memory" notification?</h4>
 </blockquote>
-<p>That notification means the webpage <em>is</em> using significant memory, and we have an interest in notifying users that is the case.</p>
+<p>|U03J8RWC3A5|:
+That notification means the webpage <em>is</em> using significant memory, and we have an interest in notifying users that is the case.</p>
 <p>If you have found a scenario where Safari claims a page is using significant memory but the page isn't, we'd love a Feedback Assistant report filed with details.</p>
 <hr />
 <blockquote>
 <h4 id="do-you-have-plans-to-add-support-for-scroll-anchoring-and-overflow-anchor-anytime-in-the-near-future-it-would-be-a-huge-help-in-implementing-infinite-scroll-in-safari-and-wkwebviews-httpsbugswebkitorgshow_bugcgiid171099httpsbugswebkitorgshow_bugcgiid171099">Do you have plans to add support for scroll anchoring and <code>overflow-anchor</code> anytime in the near future? It would be a huge help in implementing infinite scroll in Safari and <code>WKWebView</code>s. <a href="https://bugs.webkit.org/show_bug.cgi?id=171099|https://bugs.webkit.org/show_bug.cgi?id=171099">https://bugs.webkit.org/show_bug.cgi?id=171099|https://bugs.webkit.org/show_bug.cgi?id=171099</a></h4>
 </blockquote>
-<p>We are aware of and understand the desire for scroll anchoring; one helpful thing you can do is file feedback requesting it, with your usecases, in order to help with prioritization.</p>
+<p>|U03HYJ1UXRA|:
+We are aware of and understand the desire for scroll anchoring; one helpful thing you can do is file feedback requesting it, with your usecases, in order to help with prioritization.</p>
 <hr />
 <blockquote>
 <h4 id="will-apple-bring-the-ability-to-have-safari-extension-icons-in-the-safari-toolbar-no-matter-what-they-do-my-extension-doesnt-request-any-permissions-and-its-frustrating-for-users-having-to-tap-the-aa-button-on-ios-and-ipados-and-then-tap-my-extension-in-the-menu-it-would-be-so-much-nicer-to-have-it-in-the-toolbar-all-the-time">Will Apple bring the ability to have Safari extension icons in the Safari toolbar no matter what they do? My extension doesn’t request any permissions and it’s frustrating for users having to tap the ‘Aa’ button on iOS and iPadOS and then tap my extension in the menu. It would be so much nicer to have it in the toolbar all the time. :)</h4>
 </blockquote>
-<p>Safari does not currently support dedicated toolbar icons on iOS or iPadOS. Please file feedback using <a href="https://feedbackassistant.apple.com/|Feedback Assistant">https://feedbackassistant.apple.com/|Feedback Assistant</a> and let us know what you are looking for and your use cases.</p>
+<p>|U03HT9H4E5T|:
+Safari does not currently support dedicated toolbar icons on iOS or iPadOS. Please file feedback using <a href="https://feedbackassistant.apple.com/|Feedback Assistant">https://feedbackassistant.apple.com/|Feedback Assistant</a> and let us know what you are looking for and your use cases.</p>
 <hr />
 <blockquote>
 <h4 id="our-app-relies-on-nsurlprotocol-to-proxy-our-apps-webviews-traffic-since-our-use-case-requires-traffic-in-the-web-view-to-come-from-a-specific-ip-address-there-was-talk-in-2020-of-no-app-updates-being-accepted-if-the-app-uses-uiwebview-will-we-be-able-to-continue-to-use-uiwebview-to-do-this-in-ios-16-if-not-does-wkwebview-have-anything-that-will-allow-us-to-proxy-traffic-to-a-proxy-server-thank-you">Our app relies on NSURLProtocol to proxy our app's webview's traffic, since our use case requires traffic in the web view to come from a specific IP address.  There was talk in 2020 of no app updates being accepted if the app uses UIWebView.  Will we be able to continue to use UIWebView to do this in iOS 16? If not, does WKWebView have anything that will allow us to proxy traffic to a proxy server? Thank you!</h4>
 </blockquote>
-<p>No new applications will be accepted that allow UIWebView, but existing UIWebView apps can continue to receive updates for now.</p>
+<p>|U03J8RWC3A5|:
+No new applications will be accepted that allow UIWebView, but existing UIWebView apps can continue to receive updates for now.</p>
 <p>That policy might change at anytime - see <a href="https://developer.apple.com/news/?id=edwud51q">https://developer.apple.com/news/?id=edwud51q</a></p>
 <p>There is currently no way to proxy http(s) traffic in WKWebViews</p>
-<p>Thanks for the update! I really hope that app updates with apps using UIWebView can continue to happen until WKWebView can proxy data :slightly_smiling_face:</p>
-<p>Let me ask this followup: Since you have a <em>rather unique</em> requirement of web content requiring the request to come from only 1 specific IP address... Is this web content entirely under your control?
+<p>|U03JMKX8ZEH|:
+Thanks for the update! I really hope that app updates with apps using UIWebView can continue to happen until WKWebView can proxy data :slightly_smiling_face:</p>
+<p>|U03J8RWC3A5|:
+Let me ask this followup: Since you have a <em>rather unique</em> requirement of web content requiring the request to come from only 1 specific IP address... Is this web content entirely under your control?
 If so, could you change it to use a custom URL scheme?</p>
 <hr />
 <blockquote>
 <h4 id="will-you-be-posting-demos-or-example-code-for-working-with-apple-pay-order-tracking-on-the-web-the-docs-dont-seem-to-be-fully-realized-yet">Will you be posting demos or example code for working with Apple Pay Order Tracking on the Web? The docs don't seem to be fully realized yet.</h4>
 </blockquote>
-<p>There's a brief code snippet for providing order details with Apple Pay on the web in &lt;<a href="https://developer.apple.com/videos/play/wwdc2022/10041/">https://developer.apple.com/videos/play/wwdc2022/10041/</a>&gt; (specifically at 20:12), but generally speaking the same rules/guidelines that Wallet/PassKit has for this feature also apply to the web.</p>
+<p>|U03HFKHPLUX|:
+There's a brief code snippet for providing order details with Apple Pay on the web in &lt;<a href="https://developer.apple.com/videos/play/wwdc2022/10041/">https://developer.apple.com/videos/play/wwdc2022/10041/</a>&gt; (specifically at 20:12), but generally speaking the same rules/guidelines that Wallet/PassKit has for this feature also apply to the web.</p>
 <p>We are also currently working on additional documentation and demos for this feature.</p>
 <hr />
 <blockquote>
 <h4 id="will-safari-have-a-complete-implementation-of-ecmascript2018-for-example-regex-lookbehind-assertions-httpsbugswebkitorgshow_bugcgiid174931httpsbugswebkitorgshow_bugcgiid174931">Will Safari have a complete implementation of ECMAScript2018? For example: regex lookbehind assertions? <a href="https://bugs.webkit.org/show_bug.cgi?id=174931|https://bugs.webkit.org/show_bug.cgi?id=174931">https://bugs.webkit.org/show_bug.cgi?id=174931|https://bugs.webkit.org/show_bug.cgi?id=174931</a></h4>
 </blockquote>
-<p>Thanks for your question and letting us know this is important to you. If you can provide details about how you plan to use this feature it can help our team prioritize this work. There is an existing <a href="https://bugs.webkit.org/show_bug.cgi?id=174931|bug report">https://bugs.webkit.org/show_bug.cgi?id=174931|bug report</a> where you can share your use-case, or if you prefer, you can file feedback with <a href="http://feedbackassistant.apple.com|Feedback Assistant">http://feedbackassistant.apple.com|Feedback Assistant</a> and share details on your use-case confidentially.</p>
-<p>Maybe it's the rapid iteration of ECMAScript that's making it seem like it's lagging but back in July of 2016 it was announced that <a href="https://webkit.org/blog/6756/es6-feature-complete/|Webkit was ES6 feature complete">https://webkit.org/blog/6756/es6-feature-complete/|Webkit was ES6 feature complete</a> only a year after it was ratified and then a year later in 2017 <a href="https://webkit.org/blog/7536/jsc-loves-es6/|JSC :two_hearts: ES6">https://webkit.org/blog/7536/jsc-loves-es6/|JSC :two_hearts: ES6</a> showed great gains in optimization. But in all the years since there hasn't been a "Feature Complete" post... so just wondering what is Webkit's commitment to trying to maintain some parity with current ECMASCript specs?</p>
+<p>|U03HVQMUA9Z|:
+Thanks for your question and letting us know this is important to you. If you can provide details about how you plan to use this feature it can help our team prioritize this work. There is an existing <a href="https://bugs.webkit.org/show_bug.cgi?id=174931|bug report">https://bugs.webkit.org/show_bug.cgi?id=174931|bug report</a> where you can share your use-case, or if you prefer, you can file feedback with <a href="http://feedbackassistant.apple.com|Feedback Assistant">http://feedbackassistant.apple.com|Feedback Assistant</a> and share details on your use-case confidentially.</p>
+<p>|U03JTLX5B8W|:
+Maybe it's the rapid iteration of ECMAScript that's making it seem like it's lagging but back in July of 2016 it was announced that <a href="https://webkit.org/blog/6756/es6-feature-complete/|Webkit was ES6 feature complete">https://webkit.org/blog/6756/es6-feature-complete/|Webkit was ES6 feature complete</a> only a year after it was ratified and then a year later in 2017 <a href="https://webkit.org/blog/7536/jsc-loves-es6/|JSC :two_hearts: ES6">https://webkit.org/blog/7536/jsc-loves-es6/|JSC :two_hearts: ES6</a> showed great gains in optimization. But in all the years since there hasn't been a "Feature Complete" post... so just wondering what is Webkit's commitment to trying to maintain some parity with current ECMASCript specs?</p>
 <hr />
 <blockquote>
 <h4 id="is-there-a-way-to-save-and-reload-wkbackforwardlist-into-a-wkwebview-we-are-building-a-browser-and-we-need-a-way-to-keep-the-back-and-forward-history-across-sessions-of-the-app-should-we-bypass-wkbackforwardlist-and-create-our-own-solution">Is there a way to save and reload WKBackForwardList into a WkWebView? We are building a browser and we need a way to keep the back and forward history across sessions of the app. Should we bypass WKBackForwardList and create our own solution?</h4>
 </blockquote>
-<p>That is what WKWebView.interactionState is for</p>
-<p>Here is a link to the documentation for <a href="https://developer.apple.com/documentation/webkit/wkwebview/3752236-interactionstate|WKWebView.interactionState">https://developer.apple.com/documentation/webkit/wkwebview/3752236-interactionstate|WKWebView.interactionState</a>.</p>
-<p>thanks, but just to be sure, as this property stores an Any, how can I interact with it, save it to disk / reload it?</p>
-<p>The API is intended to be used as described in “Restoring Your App’s State” (<a href="https://developer.apple.com/documentation/uikit/uiscenedelegate/restoring_your_app_s_state">https://developer.apple.com/documentation/uikit/uiscenedelegate/restoring_your_app_s_state</a>) and related docs, and not serialized / deserialized directly by the client.</p>
+<p>|U03HT9GSTLM|:
+That is what WKWebView.interactionState is for</p>
+<p>|U03HVQMUA9Z|:
+Here is a link to the documentation for <a href="https://developer.apple.com/documentation/webkit/wkwebview/3752236-interactionstate|WKWebView.interactionState">https://developer.apple.com/documentation/webkit/wkwebview/3752236-interactionstate|WKWebView.interactionState</a>.</p>
+<p>|U03JR4AUV8E|:
+thanks, but just to be sure, as this property stores an Any, how can I interact with it, save it to disk / reload it?</p>
+<p>|U03HW7FVBGA|:
+The API is intended to be used as described in “Restoring Your App’s State” (<a href="https://developer.apple.com/documentation/uikit/uiscenedelegate/restoring_your_app_s_state">https://developer.apple.com/documentation/uikit/uiscenedelegate/restoring_your_app_s_state</a>) and related docs, and not serialized / deserialized directly by the client.</p>
 <p>Though you can also retrieve the property from one WKWebView, and set on another WKWebView to restore state.</p>
 <hr />
 <blockquote>
 <h4 id="we-have-deployed-a-progressive-webapp-with-net-and-have-some-problems-with-it-html-selectinput-is-not-showing-in-webapp-on-ios-15-and-later-if-app-from-safari-is-put-on-home-screen-there-are-also-some-questions-in-the-forum-about-that-httpsdeveloperapplecomforumsthread705685httpsdeveloperapplecomforumsthread705685-this-is-my-own-question-httpsdeveloperapplecomforumsthread689901httpsdeveloperapplecomforumsthread689901-httpsdeveloperapplecomforumsthread699055httpsdeveloperapplecomforumsthread699055-and-i-also-submitted-it-in-the-feedback-assistant-fb10022937">We have deployed a Progressive Webapp with .net and have some problems with it. HTML select/input is not showing in Webapp on iOS 15 and later, if app from safari is put on home screen. There are also some questions in the forum about that: <a href="https://developer.apple.com/forums/thread/705685|https://developer.apple.com/forums/thread/705685">https://developer.apple.com/forums/thread/705685|https://developer.apple.com/forums/thread/705685</a> - this is my own question <a href="https://developer.apple.com/forums/thread/689901|https://developer.apple.com/forums/thread/689901">https://developer.apple.com/forums/thread/689901|https://developer.apple.com/forums/thread/689901</a> <a href="https://developer.apple.com/forums/thread/699055|https://developer.apple.com/forums/thread/699055">https://developer.apple.com/forums/thread/699055|https://developer.apple.com/forums/thread/699055</a> And i also submitted it in the feedback assistant: FB10022937</h4>
 </blockquote>
-<p>We are aware of this issue and are tracking this in the WebKit bug tracker as <a href="https://bugs.webkit.org/show_bug.cgi?id=238318">https://bugs.webkit.org/show_bug.cgi?id=238318</a>, you can follow along there.</p>
+<p>|U03HW7FVBGA|:
+We are aware of this issue and are tracking this in the WebKit bug tracker as <a href="https://bugs.webkit.org/show_bug.cgi?id=238318">https://bugs.webkit.org/show_bug.cgi?id=238318</a>, you can follow along there.</p>
 <hr />
 <blockquote>
 <h4 id="will-wkwebviews-support-pass-keys-automatically-will-they-ever-support-filling-in-passwords-automatically-using-your-keychain-ie-passwords-saved-from-safari">Will WKWebViews support pass keys automatically? Will they ever support filling in passwords automatically using your Keychain (ie passwords saved from Safari)?</h4>
 </blockquote>
-<p>Passkeys will work in WKWebViews in apps with the <code>com.apple.developer.web-browser</code> entitlement, but not in the current developer seed</p>
-<p>Thanks! What about on macOS? (that entitlement seems to be iOS/iPadOS only)
+<p>|U03HYJ1UXRA|:
+Passkeys will work in WKWebViews in apps with the <code>com.apple.developer.web-browser</code> entitlement, but not in the current developer seed</p>
+<p>|U03JXMBFWNR|:
+Thanks! What about on macOS? (that entitlement seems to be iOS/iPadOS only)
 And is there / will there be a way to autofill passwords from your Keychain?</p>
-<p>The Passkey folks say that autofill from keychain should work (in an app with the entitlement).</p>
+<p>|U03HYJ1UXRA|:
+The Passkey folks say that autofill from keychain should work (in an app with the entitlement).</p>
 <p>As for macOS, there is currently not a way to make them work in WKWebView.</p>
-<p>is there a way to ask for the com.apple.developer.web-browser entitlement for a mac application?</p>
-<p>That entitlement is currently for iOS and iPadOS apps only.</p>
-<p>ok thanks!</p>
+<p>|U03JR4AUV8E|:
+is there a way to ask for the com.apple.developer.web-browser entitlement for a mac application?</p>
+<p>|U03HYJ1UXRA|:
+That entitlement is currently for iOS and iPadOS apps only.</p>
+<p>|U03JR4AUV8E|:
+ok thanks!</p>
 <hr />
 <blockquote>
 <h4 id="we-believe-theres-an-issue-with-recent-versions-of-safari-where-safari-will-not-obey-a-set-cookie-directive-if-its-issued-as-part-of-a-401-unauthorized-response-from-the-server-this-runs-counter-to-rfc6265-which-states-that-user-agents-must-process-set-cookie-headers-in-400-level-responses-the-problem-for-us-is-that-this-breaks-our-single-sign-on-with-our-identity-provider-for-basic-web-browsing-we-just-tell-our-users-to-use-any-browser-other-than-safari-but-the-problem-is-unavoidable-when-it-comes-to-authentication-requests-from-microsoft-office-365-which-uses-an-embedded-instance-of-safari-so-our-mac-users-lose-out-on-the-smooth-sign-in-experience-that-our-windows-users-enjoy-weve-had-an-enterprise-applecare-case-open-for-a-year-for-this-but-it-has-gotten-no-traction-i-would-love-any-advice-or-information-i-could-add-to-our-ticket-that-might-help-get-it-closer-to-resolution-in-particular-would-this-fall-under-safari-or-webkit-or-maybe-even-somewhere-else-in-macos-thanks-so-much">We believe there's an issue with recent versions of Safari where Safari will not obey a 'Set-Cookie' directive if it's issued as part of a '401 Unauthorized' response from the server. (This runs counter to  RFC6265 which states that user agents <em>MUST</em> process Set-Cookie headers in 400-level responses.)  The problem for us is that this breaks our Single Sign-On with our identity provider. For basic web browsing we just tell our users to use "any browser other than Safari", but the problem is unavoidable when it comes to authentication requests from Microsoft Office 365, which uses an embedded instance of Safari. So our Mac users lose out on the smooth sign-in experience that our Windows users enjoy.  We've had an Enterprise AppleCare case open for a year for this, but it has gotten no traction.  I would love any advice or information I could add to our ticket that might help get it closer to resolution. In particular, would this fall under Safari, or WebKit, or maybe even somewhere else in macOS? Thanks so much!</h4>
 </blockquote>
-<p>Cookies are handled by <code>CFNetwork.framework</code>, so the issue exists at a different layer.</p>
+<p>|U03HFKHKMJB|:
+Cookies are handled by <code>CFNetwork.framework</code>, so the issue exists at a different layer.</p>
 <p>In addition to the Enterprise AppleCare case, it would be useful for software engineering to have a Feedback Assistant report open for the same issue, which includes the Enterprise AppleCare case ID, and (if possible) detailed steps to reproduce, or (even better) a stand-alone test case.  Please include an explanation of why this is needed (as you noted above) in the bug report.</p>
 <p>You can create a Feedback ID now, then add details later if they aren’t handy to copy/paste at this time.  Post the Feedback ID here if possible.  If you don’t get the Feedback ID posted here in time, ask AppleCare to pass it along to CFNetwork.</p>
-<p>Potentially related: Microsoft SSO requires 3P cookies which Safari blocks. There is a proposed FedCM standard for a browser API to address federation when 3P cookies are deprecated by all browsers.</p>
-<p>Thanks, I’m working on the feedback now. The IdP is F5 BIG-IP. They document the problem in their knowledge base here:
+<p>|U03JUB3CN03|:
+Potentially related: Microsoft SSO requires 3P cookies which Safari blocks. There is a proposed FedCM standard for a browser API to address federation when 3P cookies are deprecated by all browsers.</p>
+<p>|U03JE7BHGN9|:
+Thanks, I’m working on the feedback now. The IdP is F5 BIG-IP. They document the problem in their knowledge base here:
 <a href="https://support.f5.com/csp/article/K34550543|Mac and iOS users fail to connect to APM with Safari, Windows users are successful">https://support.f5.com/csp/article/K34550543|Mac and iOS users fail to connect to APM with Safari, Windows users are successful</a></p>
-<p>Ok, I’ve created feedback <code>FB10142576</code>. Thanks so much for your help!</p>
-<p>Thanks!  I’ll get the radar created for that over to the CFNetwork team now.</p>
-<p>Don’t worry if the Feedback ID comes back in duped status—that just means the CFNetwork team found another radar tracking the issue.</p>
+<p>|U03JE7BHGN9|:
+Ok, I’ve created feedback <code>FB10142576</code>. Thanks so much for your help!</p>
+<p>|U03HFKHKMJB|:
+Thanks!  I’ll get the radar created for that over to the CFNetwork team now.</p>
+<p>|U03HFKHKMJB|:
+Don’t worry if the Feedback ID comes back in duped status—that just means the CFNetwork team found another radar tracking the issue.</p>
 <p>When talking to Enterprise AppleCare, you can reference the FB ID and ask them to follow up on that (as well) by following the duplicate to the original radar.</p>
 <hr />
 <blockquote>
 <h4 id="is-there-an-extra-step-needed-to-get-wkdownloads-to-work-out-of-the-box-the-downloads-seem-to-not-have-the-right-permissions-preventing-downloaded-apps-from-opening-httpsbugswebkitorgshow_bugcgiid234249httpsbugswebkitorgshow_bugcgiid234249">Is there an extra step needed to get WKDownloads to work out of the box? The downloads seem to not have the right permissions, preventing downloaded apps from opening. <a href="https://bugs.webkit.org/show_bug.cgi?id=234249|https://bugs.webkit.org/show_bug.cgi?id=234249">https://bugs.webkit.org/show_bug.cgi?id=234249|https://bugs.webkit.org/show_bug.cgi?id=234249</a></h4>
 </blockquote>
-<p>It looks like you're right, there is something wrong with WKDownloads and gatekeeper.  Thanks for reporting the bug!</p>
-<p>Thanks for looking into it!</p>
+<p>|U03HT9GSTLM|:
+It looks like you're right, there is something wrong with WKDownloads and gatekeeper.  Thanks for reporting the bug!</p>
+<p>|U03JXMBFWNR|:
+Thanks for looking into it!</p>
 <hr />
 <blockquote>
 <h4 id="does-aswebauthenticationsession-support-passkeys">Does ASWebAuthenticationSession support Passkeys?</h4>
 </blockquote>
-<p>Yes, it does.</p>
+<p>|U03HYJ1UXRA|:
+Yes, it does.</p>
 <hr />
 <blockquote>
 <h4 id="we-recently-implemented-smart-app-banner-and-had-issues-with-the-banner-appearing-consistently-for-all-users-do-you-have-any-tips-for-troubleshooting-why-the-banner-does-not-appear">We recently implemented Smart App Banner and had issues with the banner appearing consistently for all users. Do you have any tips for troubleshooting why the banner does not appear?</h4>
 </blockquote>
-<p>There are a number of possible reasons for the Smart App Banner not appearing; I don't know if any of these apply to you, but it's worth checking:</p>
+<p>|U03HYJ1UXRA|:
+There are a number of possible reasons for the Smart App Banner not appearing; I don't know if any of these apply to you, but it's worth checking:</p>
 <ol>
 <li>If the user ever pressed the (X) on the banner for your app, Safari won't show it again.</li>
 <li>If the user is in private browsing, Safari won't show the banner.</li>
 <li>If the &lt;meta&gt; tag with the Smart App info is inserted programmatically, Safari won't show the banner.</li>
 </ol>
-<p>If you have a specific site where you're having trouble, and can reproduce it (even only sometimes), and it's not any of the cases above, I would definitely recommend filing feedback with the URL.</p>
-<p>If you did press (X) is there a way to reset that? I read somewhere the device would need reset to factory settings to get it to work again.</p>
-<p>For #3, our web team built the site in React. Can you clarify what you mean by programmatically?</p>
-<p>(I'm checking on your first follow-up, but in the meantime:) Is the &lt;meta&gt; tag that contains the <code>apple-itunes-app</code> information inserted after the page is loaded, with JavaScript? Or is it in the main resource as served by the server? I'm not sure of the <em>precise</em> timing requirements, but that's definitely something to look into, if it is inserted after the fact.</p>
-<p>As for your first question, it sounds like Clear Website Data (in Safari preferences) should reset the banner</p>
-<p>Thank you! I will check with our web team, that might be the cause.</p>
+<p>|U03HYJ1UXRA|:
+If you have a specific site where you're having trouble, and can reproduce it (even only sometimes), and it's not any of the cases above, I would definitely recommend filing feedback with the URL.</p>
+<p>|U03JDV4PQR0|:
+If you did press (X) is there a way to reset that? I read somewhere the device would need reset to factory settings to get it to work again.</p>
+<p>|U03JDV4PQR0|:
+For #3, our web team built the site in React. Can you clarify what you mean by programmatically?</p>
+<p>|U03HYJ1UXRA|:
+(I'm checking on your first follow-up, but in the meantime:) Is the &lt;meta&gt; tag that contains the <code>apple-itunes-app</code> information inserted after the page is loaded, with JavaScript? Or is it in the main resource as served by the server? I'm not sure of the <em>precise</em> timing requirements, but that's definitely something to look into, if it is inserted after the fact.</p>
+<p>|U03HYJ1UXRA|:
+As for your first question, it sounds like Clear Website Data (in Safari preferences) should reset the banner</p>
+<p>|U03JDV4PQR0|:
+Thank you! I will check with our web team, that might be the cause.</p>
 <hr />
 <blockquote>
 <h4 id="not-sure-whether-this-is-considered-off-topic-here-but-can-you-detail-on-which-platforms-the-javascriptcore-framework-uses-jit-compilation-and-on-which-it-is-interpretation-only">Not sure whether this is considered off-topic here, but can you detail on which platforms the JavaScriptCore framework uses JIT compilation and on which it is interpretation-only?</h4>
 </blockquote>
-<p>WKWebView, ASWebAuthenticationSession, and SFSafariViewController all JIT.
+<p>|U03J8RWC3A5|:
+WKWebView, ASWebAuthenticationSession, and SFSafariViewController all JIT.
 WebView and UIWebView do not.</p>
 <p>Using the JavaScriptCore API directly on iOS, iPadOS, and tvOS does not JIT.
 Using the JavaScriptCore API directly on macOS <em>might</em> JIT</p>
-<p>Thanks, appreciate your response</p>
-<p>Very interesting! Can you elaborate on the cases where it <em>might</em> <em>not</em> JIT on macOS?</p>
-<p>I cannot, for two reasons:
+<p>|U03JDNMQDKN|:
+Thanks, appreciate your response</p>
+<p>|U03JR4AUV8E|:
+Very interesting! Can you elaborate on the cases where it <em>might</em> <em>not</em> JIT on macOS?</p>
+<p>|U03J8RWC3A5|:
+I cannot, for two reasons:
 1 - The reasons are an ever moving target, with no guarantee one way or another
 2 - I am not the domain expert here and don't want to give you any incorrect information :slightly_smiling_face:</p>
-<p>More follow up from domain experts: The JavaScriptCore API on macOS uses the JIT, unless your app is compiled for the hardened runtime - <a href="https://developer.apple.com/documentation/security/hardened_runtime">https://developer.apple.com/documentation/security/hardened_runtime</a></p>
-<p>great, thanks!</p>
+<p>|U03J8RWC3A5|:
+More follow up from domain experts: The JavaScriptCore API on macOS uses the JIT, unless your app is compiled for the hardened runtime - <a href="https://developer.apple.com/documentation/security/hardened_runtime">https://developer.apple.com/documentation/security/hardened_runtime</a></p>
+<p>|U03JR4AUV8E|:
+great, thanks!</p>
 <hr />
 <blockquote>
 <h4 id="has-there-been-any-change-to-the-policy-that-requires-a-mac-app-to-be-distributed-via-the-app-store-in-order-to-provide-a-safari-web-extension-are-there-any-plans-to-support-safari-web-extensions-for-developer-idhardened-runtime-apps">Has there been any change to the policy that requires a Mac app to be distributed via the App Store in order to provide a Safari Web Extension? Are there any plans to support Safari Web Extensions for Developer ID/Hardened Runtime apps?</h4>
 </blockquote>
-<p>Safari still requires apps with Safari Web Extensions to be distributed through the App Store. Please file feedback using <a href="https://feedbackassistant.apple.com/|Feedback Assistant">https://feedbackassistant.apple.com/|Feedback Assistant</a> and tell us about your use case.</p>
-<p>Thanks. It feels a little weird to file a Feedbacjk about "wanting to ship features to customers outside of the app store" but that is the use case :wink:</p>
+<p>|U03HFKHP08P|:
+Safari still requires apps with Safari Web Extensions to be distributed through the App Store. Please file feedback using <a href="https://feedbackassistant.apple.com/|Feedback Assistant">https://feedbackassistant.apple.com/|Feedback Assistant</a> and tell us about your use case.</p>
+<p>|U03HZ39CGAH|:
+Thanks. It feels a little weird to file a Feedbacjk about "wanting to ship features to customers outside of the app store" but that is the use case :wink:</p>
 <hr />
 <blockquote>
 <h4 id="is-there-a-way-to-give-a-wkwebview-a-reference-to-another-wkwebviews-window-object-similar-to-how-if-a-web-view-opens-another-then-its-window-object-is-available-in-the-child-through-windowopener-would-be-great-for-complex-interactions-between-two-pages">Is there a way to give a WKWebView a reference to another WKWebView's Window object? Similar to how if a web view opens another, then its Window object is available in the child through <code>window.opener</code>. Would be great for complex interactions between two pages!</h4>
 </blockquote>
-<p>The JavaScript window.opener relationship has semantics specific to tying a popup window to the window that opened it.</p>
+<p>|U03J8RWC3A5|:
+The JavaScript window.opener relationship has semantics specific to tying a popup window to the window that opened it.</p>
 <p>It is a web technology concept.</p>
 <p>WKWebViews are an app developer technology. The concerns are not the same.</p>
 <p>To better understand the question, can you tell me more about the complex interactions you think this would enable?</p>
-<p>Let's say I have two WKWebViews with two different pages loaded in the same domain. Page A has a script loaded with access to a myriad of API functions. Page B does not. I'd like (in Javascript) to be able to access Page A's window object (and hence the API functions available in <code>window.api</code>) in Page B.</p>
+<p>|U03JXMBFWNR|:
+Let's say I have two WKWebViews with two different pages loaded in the same domain. Page A has a script loaded with access to a myriad of API functions. Page B does not. I'd like (in Javascript) to be able to access Page A's window object (and hence the API functions available in <code>window.api</code>) in Page B.</p>
 <p>The way this is possible at the moment is if Page A calls <code>window.open</code> to create Page B, and then Page B can access the API through <code>window.opener.api</code>.</p>
 <p>I was asking about the WKWebView level to see if I could "inject" the references at that point!</p>
 <p>Hope that's clear!</p>
-<p>I see. So you want to explicitly and manually <em>create</em> an opener-like relationship in native code, for hosted JavaScript to take advantage of.</p>
+<p>|U03J8RWC3A5|:
+I see. So you want to explicitly and manually <em>create</em> an opener-like relationship in native code, for hosted JavaScript to take advantage of.</p>
 <p>I can see why that sounds appealing, but unfortunately it runs counter to the direction the web security model and web browser engines are headed.</p>
 <p>E.g. there's a concerted effort by engine authors and also standards bodies to further limit what can be done with the window.opener relationship, and to make sure that whatever remains can be implemented with process isolation.</p>
-<p>Now, the good news is that WKWebView <em>does</em> provide the tools you need to have JavaScript in one window object in one WKWebView talk to JavaScript in another window object in another WKWebView.</p>
+<p>|U03J8RWC3A5|:
+Now, the good news is that WKWebView <em>does</em> provide the tools you need to have JavaScript in one window object in one WKWebView talk to JavaScript in another window object in another WKWebView.</p>
 <p>But your application process has to be a mediator through native code.</p>
 <p>A combination of WKScriptMessageHandlers and/or WKUserScripts along with [WKWebView callAsyncJavaScript:] will let you set up a messaging path between two different WKWebViews.</p>
-<p>The messaging will necessarily be asynchronous - no synchronous property access/function calls/etc.</p>
-<p>Depending on the nature of the web content (e.g. whether you control it, or whether you trust it) you can also isolate your application's javascript from the web content via javascript worlds.</p>
-<p>If you would like to pursue this further, <a href="https://developer.apple.com/videos/play/wwdc2020/10188/">https://developer.apple.com/videos/play/wwdc2020/10188/</a> would be a great place to start.</p>
-<p>Thanks for the info and the resource. Have got UserScripts and ScriptMessageHandlers working, but was really looking for a synchronous solution! (especially to iterate through the API object)</p>
-<p>The answer to "Can I do this complicated thing between WKWebViews synchronously?" will always be no. :+1:</p>
+<p>|U03J8RWC3A5|:
+The messaging will necessarily be asynchronous - no synchronous property access/function calls/etc.</p>
+<p>|U03J8RWC3A5|:
+Depending on the nature of the web content (e.g. whether you control it, or whether you trust it) you can also isolate your application's javascript from the web content via javascript worlds.</p>
+<p>|U03J8RWC3A5|:
+If you would like to pursue this further, <a href="https://developer.apple.com/videos/play/wwdc2020/10188/">https://developer.apple.com/videos/play/wwdc2020/10188/</a> would be a great place to start.</p>
+<p>|U03JXMBFWNR|:
+Thanks for the info and the resource. Have got UserScripts and ScriptMessageHandlers working, but was really looking for a synchronous solution! (especially to iterate through the API object)</p>
+<p>|U03J8RWC3A5|:
+The answer to "Can I do this complicated thing between WKWebViews synchronously?" will always be no. :+1:</p>
 <hr />
 <blockquote>
 <h4 id="hey-there-wave-any-plans-to-officially-support-picture-in-picture-interactions-in-wkwebview-what-about-apple-pay">Hey there! :wave:  Any plans to officially support picture-in-picture interactions in WKWebView? What about Apple Pay?</h4>
 </blockquote>
-<p>Both the &lt;https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api
+<p>|U03HFKHPLUX|:
+Both the &lt;https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api
 |Apple Pay JS&gt; and &lt;https://www.w3.org/TR/payment-request/
 |W3C Payment Request&gt; APIs are supported in <code>WKWebView</code>.</p>
 <p>In prior releases, it was the case that the &lt;https://developer.apple.com/videos/play/wwdc2019/518/
 |Apple Pay could not be used at the same time as JavaScript injection&gt; (specifically at 9:34), but this restriction has been removed in iOS 16 and macOS 13.</p>
-<p>Can you expand on your Picture-in-Picture question, what are you hoping to do?</p>
-<p><em>Apple Pay</em>
+<p>|U03HW6FMWHH|:
+Can you expand on your Picture-in-Picture question, what are you hoping to do?</p>
+<p>|U03JTMFH4J2|:
+<em>Apple Pay</em>
 Hmm I might be doing something wrong here, but couldn't get Apple Pay to work in WKWebView on macOS 11/12, even with zero JS injections. Great to read that the JS injections requirement has now been lifted on macOS 13! I use this link for testing: <a href="https://applepaydemo.apple.com/|https://applepaydemo.apple.com/">https://applepaydemo.apple.com/|https://applepaydemo.apple.com/</a></p>
 <p><em>Picture-in-Picture</em>
 Would just love to be able to start Picture in Picture mode when watching a video in WKWebView. This link is a good test case: <a href="https://googlechrome.github.io/samples/picture-in-picture/|https://googlechrome.github.io/samples/picture-in-picture/">https://googlechrome.github.io/samples/picture-in-picture/|https://googlechrome.github.io/samples/picture-in-picture/</a></p>
-<p><em>Extra information on Picture in Picture</em></p>
+<p>|U03JTMFH4J2|:
+<em>Extra information on Picture in Picture</em></p>
 <p>When I enable it at the moment via <code>preferences._allowsPictureInPictureMediaPlayback = true</code>, although it works when running the app through Xcode, it fails when reopening the same app outside of Xcode (maybe something to do with having a debugger attached? but not sure why that would/could matter)</p>
-<p>Are there any errors or anything like that in Web Inspector when you try to use Apple Pay?</p>
-<p>&lt;@U03HFKHPLUX&gt; - yes, there is an error. I can check (don’t remember the exact error) but it had something to do with the app being sandboxed</p>
-<p>The default value for <code>_allowsPictureInPictureMediaPlayback</code> is true in WKWebView, so you should not need to change it</p>
-<p>And the leading underscore lets you know it is a private preference, which you shouldn't use if only because it could be removed or changed in the future without warning</p>
-<p>&lt;@U03HFKHPLUX&gt;
+<p>|U03HFKHPLUX|:
+Are there any errors or anything like that in Web Inspector when you try to use Apple Pay?</p>
+<p>|U03JTMFH4J2|:
+&lt;@U03HFKHPLUX&gt; - yes, there is an error. I can check (don’t remember the exact error) but it had something to do with the app being sandboxed</p>
+<p>|U03HW6FMWHH|:
+The default value for <code>_allowsPictureInPictureMediaPlayback</code> is true in WKWebView, so you should not need to change it</p>
+<p>|U03HW6FMWHH|:
+And the leading underscore lets you know it is a private preference, which you shouldn't use if only because it could be removed or changed in the future without warning</p>
+<p>|U03JTMFH4J2|:
+&lt;@U03HFKHPLUX&gt; 
 <code>session.onCancel</code> is the error.</p>
 <p>I followed the code in the WebKit codebase to deduce it might be related to sandboxing</p>
-<p>&lt;@U03HFKHPLUX&gt; this is the error within WebKit (found by adding logs to my local copy and running the app with that build): <code>Error Domain=PKPassKitErrorDomain Code=4 "(null)"</code></p>
-<p>Hmmm very odd.  Can you please file a bug via <a href="https://feedbackassistant.apple.com|Feedback Assistant">https://feedbackassistant.apple.com|Feedback Assistant</a> including steps to reproduce and system diagnostics?</p>
-<p>&lt;@U03HW6FMWHH&gt; the value seems to be false by default on macOS, from what I can tell.
-I was testing the private preference while looking for an official solution to see if it worked at all!  </p>
-<p>Just to double check, is your device able to use Apple Pay?  If so, are you able to make purchases on other websites (i.e. have you added a credit/debit card to Wallet and configured all the other relevant info)?</p>
-<p>Will do &lt;@U03HFKHPLUX&gt; - thank you for looking into this!</p>
-<p>Yes you are correct, it is <code>false</code> by default on macOS</p>
-<p>&lt;@U03HFKHPLUX&gt; - yes, Apple Pay works fine on Safari. Console logs also show the device is authorised for Apple Pay.
+<p>|U03JTMFH4J2|:
+&lt;@U03HFKHPLUX&gt; this is the error within WebKit (found by adding logs to my local copy and running the app with that build): <code>Error Domain=PKPassKitErrorDomain Code=4 "(null)"</code></p>
+<p>|U03HFKHPLUX|:
+Hmmm very odd.  Can you please file a bug via <a href="https://feedbackassistant.apple.com|Feedback Assistant">https://feedbackassistant.apple.com|Feedback Assistant</a> including steps to reproduce and system diagnostics?</p>
+<p>|U03JTMFH4J2|:
+&lt;@U03HW6FMWHH&gt; the value seems to be false by default on macOS, from what I can tell. 
+I was testing the private preference while looking for an official solution to see if it worked at all! </p>
+<p>|U03HFKHPLUX|:
+Just to double check, is your device able to use Apple Pay?  If so, are you able to make purchases on other websites (i.e. have you added a credit/debit card to Wallet and configured all the other relevant info)?</p>
+<p>|U03JTMFH4J2|:
+Will do &lt;@U03HFKHPLUX&gt; - thank you for looking into this!</p>
+<p>|U03HW6FMWHH|:
+Yes you are correct, it is <code>false</code> by default on macOS</p>
+<p>|U03JTMFH4J2|:
+&lt;@U03HFKHPLUX&gt; - yes, Apple Pay works fine on Safari. Console logs also show the device is authorised for Apple Pay. 
 <code>Startup check: device is capable of making payments with Apple</code> <code>Pay</code></p>
-<p>Ah ok then yes please file a bug and we'll take a look at it :slightly_smiling_face:</p>
-<p>On it &lt;@U03HFKHPLUX&gt;!</p>
-<p>&lt;@U03HW6FMWHH&gt; any recommendations on what to do for Picture-in-Picture / will it be supported in the future?</p>
-<p>&lt;@U03JTMFH4J2&gt; please file an issue</p>
-<p>Will do :+1: Thanks for looking into this &lt;@U03HW6FMWHH&gt; :relaxed:</p>
+<p>|U03HFKHPLUX|:
+Ah ok then yes please file a bug and we'll take a look at it :slightly_smiling_face:</p>
+<p>|U03JTMFH4J2|:
+On it &lt;@U03HFKHPLUX&gt;!</p>
+<p>|U03JTMFH4J2|:
+&lt;@U03HW6FMWHH&gt; any recommendations on what to do for Picture-in-Picture / will it be supported in the future?</p>
+<p>|U03HW6FMWHH|:
+&lt;@U03JTMFH4J2&gt; please file an issue</p>
+<p>|U03JTMFH4J2|:
+Will do :+1: Thanks for looking into this &lt;@U03HW6FMWHH&gt; :relaxed:</p>
 <hr />
 <blockquote>
 <h4 id="apologies-for-this-question-without-too-much-research-ahead-of-time-but-while-ive-got-your-ears-can-the-drop-event-handler-in-a-wkwebview-page-convey-for-example-information-about-a-dropped-image-file-to-the-host-app-and-can-the-host-app-inherit-implied-sandbox-entitlement-to-read-from-the-url-likewise-for-file-promises-eg-from-the-screenshot-proxy-on-macos-i-havent-dug-into-this-yet-but-basically-i-wonder-what-im-up-against-migrating-from-webview-based-in-process-dragcopypaste-handling-any-tips-or-warnings-about-what-i-can-or-cant-do-i-imagine-in-the-worst-case-scenario-i-can-pipe-the-bytes-of-the-dragged-file-over-to-the-host-app">Apologies for this question without too much research ahead of time, but while I've got your ears: can the <code>drop</code> event handler in a WKWebView page convey, for example, information about a dropped image file to the host app, and can the host app inherit implied sandbox entitlement to read from the URL? Likewise for file promises (e.g. from the screenshot proxy on macOS). I haven't dug into this yet but basically I wonder what I'm up against migrating from <code>WebView</code> based in-process drag/copy/paste handling. Any tips or warnings about what I can or can't do? I imagine in the worst case scenario I can pipe the bytes of the dragged file over to the host app.</h4>
 </blockquote>
-<p>While the <code>drop</code> JavaScript event handler in the page doesn’t have direct access to the dropped file URLs, it is possible to intercept the drop by subclassing <code>WKWebView</code> and overriding <code>-performDragOperation:</code>. You can then inspect the given <code>id &amp;lt;NSDraggingInfo&amp;gt;</code>‘s pasteboard, which should contain the file paths.
+<p>|U03HT9GU8H3|:
+While the <code>drop</code> JavaScript event handler in the page doesn’t have direct access to the dropped file URLs, it is possible to intercept the drop by subclassing <code>WKWebView</code> and overriding <code>-performDragOperation:</code>. You can then inspect the given <code>id &amp;lt;NSDraggingInfo&amp;gt;</code>‘s pasteboard, which should contain the file paths.
 Ultimately, the web process’ capability to read dropped files comes from a sandbox extension from the host app, so the host app already has access to these dropped files.</p>
 <p>Alternately, if changing native code is not a viable option, consuming the data in the webpage and propagating it to the host app is also possible — you can listen for the drop event, inspect the event’s <code>DataTransfer</code> for files via <code>DataTransfer.files</code>, and finally use <code>postMessage</code> to send the dropped data over to your app.</p>
 
