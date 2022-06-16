@@ -10,7 +10,8 @@ nav:
         - DevTools: wwdc21/DevTools.md
    - WWDC 22:
         - swiftui: wwdc22/swiftui-lounge.md
-        - L10n & i18n: wwdc22/localization-and-internationalization.md
+        - devtools and swift: wwdc22/devtools-and-swift-lounge.md
+        - L10n & i18n: wwdc22/localization-and-internationalization-lounge.md
         - watchos: wwdc22/watchos-lounge.md
         - uiframeworks: wwdc22/uiframeworks-lounge.md
         - graphics and games: wwdc22/graphics-and-games-lounge.md
