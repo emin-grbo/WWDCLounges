@@ -1,8 +1,6 @@
 # device-management-lounge QAs
 ### Lounge Contributors
 #### [shirblc](https://github.com/shirblc)
-#### [tikimcfee](https://github.com/tikicmcfee)
-#### [roblack](https://github.com/roblack)
 ---
 
 --- 

@@ -1,7 +1,6 @@
 # object-capture-and-room-plan-lounge QAs
 ### Lounge Contributors
-#### [tikimcfee](https://github.com/tikicmcfee)
-#### [roblack](https://github.com/roblack)
+
 ---
 
 --- 

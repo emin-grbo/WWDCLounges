@@ -1,7 +1,6 @@
 # graphics-and-games-lounge QAs
 ### Lounge Contributors
-#### [tikimcfee](https://github.com/tikicmcfee)
-#### [roblack](https://github.com/roblack)
+
 ---
 
 --- 
