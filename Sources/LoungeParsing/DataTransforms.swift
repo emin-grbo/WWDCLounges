@@ -49,6 +49,7 @@ struct ChannelScanner {
 
 struct ChannelWriter {
     let channelSource: ParsableChannel
+    let usermapReader: UsermapReader
     
     func write() -> ParsableChannel {
         print("Handling channel messages: \(channelSource.channel.name)")
@@ -77,8 +78,8 @@ struct ChannelWriter {
             .lazy
             .compactMap { reply -> String? in
                 guard let replyText = reply.text else { return nil }
-                let userId = reply.user ?? "[?]"
-                let stringBlock = "\n|\(userId)|:\n\(replyText)\n"
+                let userName = findUserName(for: reply.user)
+                let stringBlock = "\n|\(userName)|:\n\(replyText)\n"
                 let stringToReturn = Self.CodeBlockRegex.stringByReplacingMatches(
                     in: stringBlock,
                     range: NSRange(stringBlock.startIndex..., in: stringBlock),
@@ -88,6 +89,13 @@ struct ChannelWriter {
             }.forEach { formatted in
                 partialResult.append(formatted)
             }
+    }
+    
+    private func findUserName(for userId: String?) -> String {
+        guard let userId = userId?.replacingOccurrences(of: "@", with: "") else {
+            return "[?]"
+        }
+        return usermapReader.usermap.known[userId] ?? userId
     }
 }
 

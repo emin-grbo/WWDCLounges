@@ -57,3 +57,7 @@ class ParsableChannel {
 struct Contributions: Decodable {
     let markdown: [String: [String]]
 }
+
+struct UserMap: Decodable {
+    let known: [String: String]
+}

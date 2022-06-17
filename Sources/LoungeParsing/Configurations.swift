@@ -19,3 +19,16 @@ class ContributionsReader {
         )
     }
 }
+
+class UsermapReader {
+    let usermapUrl: URL
+    let usermap: UserMap
+    
+    init(usermapUrl: URL) throws {
+        self.usermapUrl = usermapUrl
+        self.usermap = try JSONDecoder().decode(
+            UserMap.self,
+            from: try Data(contentsOf: usermapUrl)
+        )
+    }
+}

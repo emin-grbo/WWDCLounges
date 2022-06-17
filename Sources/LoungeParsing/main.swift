@@ -16,10 +16,13 @@ let outputUrl = rootUrl.appendingPathComponent("markdown_output", isDirectory: t
 print("Output to \(outputUrl)")
 
 let contributionsUrl = rootUrl.appendingPathComponent("config/contributors.json", isDirectory: false)
-print("Checking for contributors at \(contributionsUrl)")
+let usermapUrl = rootUrl.appendingPathComponent("config/usermap.json", isDirectory: false)
+print("Checking for:", contributionsUrl.lastPathComponent, usermapUrl.lastPathComponent)
 let reader: ContributionsReader
+let userMap: UsermapReader
 do {
     reader = try ContributionsReader(contributionsUrl: contributionsUrl)
+    userMap = try UsermapReader(usermapUrl: usermapUrl)
 } catch {
     print(error)
     exit(1)
@@ -40,7 +43,10 @@ ChannelScanner(sourceDirectory: rootUrl)
     .findChannels(contributionsReader: reader)
     .lazy
     .map {
-        ChannelWriter(channelSource: $0).write()
+        ChannelWriter(
+            channelSource: $0,
+            usermapReader: userMap
+        ).write()
     }
     .forEach { writtenChannel in
         let filename = "\(writtenChannel.channel.name).md"
