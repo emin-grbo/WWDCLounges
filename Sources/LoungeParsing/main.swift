@@ -3,11 +3,10 @@ import Foundation
 // MARK: - CLI Args
 
 let arguments = CommandLine.arguments
-guard arguments.count == 3 else {
-    print("Usage is:\n./formatter_script <root_directory> <your_twitter_handle>")
+guard arguments.count == 2 else {
+    print("Usage is:\n./formatter_script <root_directory>")
     exit(1)
 }
-let twitterUserHandle = arguments[2]
 let fileManager = FileManager.default
 let rootUrl = URL(fileURLWithPath: arguments[1], isDirectory: true)
 print("Starting in \(rootUrl)")
