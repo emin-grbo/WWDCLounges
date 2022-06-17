@@ -1,7 +1,11 @@
 # safari-lounge QAs
-#### by [shirblc](https://github.com/shirblc)
+### Lounge Contributors
+#### [shirblc](https://github.com/shirblc)
+#### [tikimcfee](https://github.com/tikicmcfee)
+#### [roblack](https://github.com/roblack)
 ---
 
+--- 
 > ####  Will the MediaRecorder API be promoted out of the Experimental features in Safari 16?
 
 

@@ -1,7 +1,10 @@
-# Localization and internationalization Lounge QAs
-#### by [emin](https://twitter.com/emin_ui)
+# localization-and-internationalization-lounge QAs
+### Lounge Contributors
+#### [tikimcfee](https://github.com/tikicmcfee)
+#### [roblack](https://github.com/roblack)
 ---
 
+--- 
 > ####  Sometimes there is a difference in font size(width/height) between LTR and RTL , how can we make this better?
 
 

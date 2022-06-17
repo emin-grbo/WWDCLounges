@@ -16,7 +16,7 @@ struct ChannelScanner {
         return decoder
     }()
     
-    func findChannels() -> [ParsableChannel] {
+    func findChannels(contributionsReader: ContributionsReader) -> [ParsableChannel] {
         sourceDirectory.children().compactMap { url in
             guard url.pathExtension == "json" else {
                 print("Skipping file: \(url)")
@@ -25,7 +25,10 @@ struct ChannelScanner {
             guard let channel = decode(url) else {
                 return nil
             }
-            return ParsableChannel(source: channel)
+            return ParsableChannel(
+                source: channel,
+                reader: contributionsReader
+            )
         }
     }
     
@@ -45,13 +48,6 @@ struct ChannelScanner {
 }
 
 struct ChannelWriter {
-    let CodeBlockRegex = {
-        try! NSRegularExpression(pattern: "`\\s*?`\\s*?`\\s*?([\\S\\s]*)`\\s*?`\\s*?`\\s*?")
-    }()
-    let CodeBlockTemplate = {
-        "```\n$1\n```"
-    }()
-    
     let channelSource: ParsableChannel
     
     func write() -> ParsableChannel {
@@ -83,10 +79,10 @@ struct ChannelWriter {
                 guard let replyText = reply.text else { return nil }
                 let userId = reply.user ?? "[?]"
                 let stringBlock = "\n|\(userId)|:\n\(replyText)\n"
-                let stringToReturn = CodeBlockRegex.stringByReplacingMatches(
+                let stringToReturn = Self.CodeBlockRegex.stringByReplacingMatches(
                     in: stringBlock,
                     range: NSRange(stringBlock.startIndex..., in: stringBlock),
-                    withTemplate: CodeBlockTemplate
+                    withTemplate: Self.CodeBlockTemplate
                 )
                 return stringToReturn
             }.forEach { formatted in
@@ -96,12 +92,20 @@ struct ChannelWriter {
 }
 
 private extension ChannelWriter {
+    static let CodeBlockRegex = {
+        try! NSRegularExpression(pattern: "`\\s*?`\\s*?`\\s*?([\\S\\s]*)`\\s*?`\\s*?`\\s*?")
+    }()
+    
+    static let CodeBlockTemplate = {
+        "```\n$1\n```"
+    }()
+    
     func isMessageIncluded(_ message: Message) -> Bool {
         guard let text = message.text else {
             return false
         }
         return message.subtype == "bot_message"
-            && message.username?.contains("Ask a Question") == true
-            && text.range(of: #"<.*> asked"#, options: .regularExpression) != nil
+        && message.username?.contains("Ask a Question") == true
+        && text.range(of: #"<.*> asked"#, options: .regularExpression) != nil
     }
 }

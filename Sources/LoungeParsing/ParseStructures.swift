@@ -28,14 +28,32 @@ struct Reply: Decodable {
 
 class ParsableChannel {
     let channel: Channel
-    lazy var root = """
-    # \(channel.name) QAs
-    #### by [\(twitterUserHandle)](https://twitter.com/\(twitterUserHandle))
-    ---
+    let reader: ContributionsReader
     
-    """
+    lazy var root = makeRoot()
     
-    init(source: Channel) {
-        channel = source
+    init(source: Channel,
+         reader: ContributionsReader) {
+        self.channel = source
+        self.reader = reader
     }
+    
+    private func makeRoot() -> String {
+        let contributorList = reader.contributions
+            .markdown[channel.name]?
+            .map { "#### \($0)" }
+            .joined(separator: "\n")
+            ?? "#### No contributors listed"
+        return """
+        # \(channel.name) QAs
+        ### Lounge Contributors
+        \(contributorList)
+        ---
+        
+        """
+    }
+}
+
+struct Contributions: Decodable {
+    let markdown: [String: [String]]
 }

@@ -8,13 +8,24 @@ guard arguments.count == 3 else {
     exit(1)
 }
 let twitterUserHandle = arguments[2]
-
 let fileManager = FileManager.default
 let rootUrl = URL(fileURLWithPath: arguments[1], isDirectory: true)
 print("Starting in \(rootUrl)")
 
 let outputUrl = rootUrl.appendingPathComponent("markdown_output", isDirectory: true)
 print("Output to \(outputUrl)")
+
+let contributionsUrl = rootUrl.appendingPathComponent("config/contributors.json", isDirectory: false)
+print("Checking for contributors at \(contributionsUrl)")
+let reader: ContributionsReader
+do {
+    reader = try ContributionsReader(contributionsUrl: contributionsUrl)
+} catch {
+    print(error)
+    exit(1)
+}
+
+// MARK: - Output setup
 
 do {
     try fileManager.createDirectory(at: outputUrl, withIntermediateDirectories: true)
@@ -23,10 +34,14 @@ do {
     exit(1)
 }
 
+// MARK: - Walk and write
+
 ChannelScanner(sourceDirectory: rootUrl)
-    .findChannels()
+    .findChannels(contributionsReader: reader)
     .lazy
-    .map { ChannelWriter(channelSource: $0).write() }
+    .map {
+        ChannelWriter(channelSource: $0).write()
+    }
     .forEach { writtenChannel in
         let filename = "\(writtenChannel.channel.name).md"
         let channelOutputUrl = outputUrl.appendingPathComponent(filename)

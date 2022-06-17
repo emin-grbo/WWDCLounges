@@ -1,7 +1,11 @@
 # maps-lounge QAs
-#### by [shirblc](https://github.com/shirblc)
+### Lounge Contributors
+#### [shirblc](https://github.com/shirblc)
+#### [tikimcfee](https://github.com/tikicmcfee)
+#### [roblack](https://github.com/roblack)
 ---
 
+--- 
 > ####  When using a "virtual camera" in a new Maps-based experience within our apps, is there a limit as to "how close" we can bring users?  More specifically, could we go almost ground-level, as if the user is standing inside the maps experience, or is that not advised due to performance, difficulty in navigating around the map, building quality, etc.?
 
 
