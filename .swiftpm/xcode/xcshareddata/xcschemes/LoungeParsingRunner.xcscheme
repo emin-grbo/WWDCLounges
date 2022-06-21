@@ -77,8 +77,8 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "WWDC2022rawJSON somerandomoutput asdasdasd"
-            isEnabled = "YES">
+            argument = "WWDC22rawJSON docs/wwdc22"
+            isEnabled = "NO">
          </CommandLineArgument>
       </CommandLineArguments>
    </LaunchAction>

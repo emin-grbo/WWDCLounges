@@ -1,7 +1,9 @@
 # coredata-lounge QAs
-#### by [shirblc](https://github.com/shirblc)
+### Lounge Contributors
+#### [shirblc](https://github.com/shirblc)
 ---
 
+--- 
 > ####  Can `NSPersistentContainer.viewContext` become `nil`? Container itself is properly retained in app's delegate so it is never released.   Trying to figure out why in our app `NSManagedObjects` are turned into a fault sometimes after they are being fetched from view context which in turn results in a crash.
 
 

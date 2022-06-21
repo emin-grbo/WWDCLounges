@@ -1,16 +1,24 @@
 import Foundation
 
+
+
 do {
+    print("--- Starting")
+    print(CommandLine.argumentList)
+    
     let initState = try ScriptInit()
-    try ChannelScanner(sourceDirectory: initState.rootUrl)
+    
+    print("\n--- Starting markdown generation")
+    try ChannelScanner(sourceDirectory: initState.jsonRootUrl)
         .findChannels(contributionsReader: initState.reader)
         .lazy
-        .map {
-            ChannelWriter(
-                channelSource: $0,
+        .map { parsedChannel -> ChannelWriter in
+            return ChannelWriter(
+                channelSource: parsedChannel,
                 usermapReader: initState.usermap
-            ).buildLoungeMarkdown()
+            )
         }
+        .map { writer -> ParsableChannel in writer.buildLoungeMarkdown() }
         .forEach { markdownChannel in
             let filename = "\(markdownChannel.channel.name).md"
             let channelOutputUrl = initState.outputUrl.appendingPathComponent(filename)
@@ -19,7 +27,7 @@ do {
                 atomically: true,
                 encoding: .utf8
             )
-            print("Wrote \(filename) to \(channelOutputUrl.path)")
+            print("... finished \(channelOutputUrl.path)")
         }
 } catch {
     print(error)

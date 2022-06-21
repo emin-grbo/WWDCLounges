@@ -1,7 +1,9 @@
 # health-and-fitness-lounge QAs
-#### by [shirblc](https://github.com/shirblc)
+### Lounge Contributors
+#### [shirblc](https://github.com/shirblc)
 ---
 
+--- 
 > ####  Why is it not possible to attach a singular workout location or read the one provided by the Workouts app? Something like a Tennis workout. Of course you can add a Workout Route with a singular location, but that's not the same. Thanks
 
 

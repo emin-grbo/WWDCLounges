@@ -1,5 +1,6 @@
 # object-capture-and-room-plan-lounge QAs
-#### by [FeeTiki](https://twitter.com/FeeTiki)
+### Lounge Contributors
+
 ---
 
 --- 

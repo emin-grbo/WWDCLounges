@@ -1,5 +1,6 @@
 # audio-and-video-lounge QAs
-#### by [FeeTiki](https://twitter.com/FeeTiki)
+### Lounge Contributors
+
 ---
 
 --- 

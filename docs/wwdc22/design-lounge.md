@@ -1,5 +1,6 @@
 # design-lounge QAs
-#### by [FeeTiki](https://twitter.com/FeeTiki)
+### Lounge Contributors
+
 ---
 
 --- 
@@ -10,10 +11,10 @@
 > ####  What design program do you prefer for creating the symbol paths...Sketch, Illustrator or something else?
 
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 For custom symbols, I prefer using Illustrator. But Sketch works well too
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Illustrator’s blending tools are helpfull
 
 |U03JEKW67KJ|:
@@ -35,7 +36,7 @@ I’ve used Glyphs3 (Glyphs App) same as Lance mentioned, but other popular font
 |U03HLJY8FRA|:
 The SF Pro and SF Compact fonts that are installed with the SF Symbols app are variable!
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 BTW, SF Symbols 4 and the updated fonts should be going live this morning.
 
 |U03J1UQCFGB|:
@@ -138,10 +139,10 @@ And in SwiftUI what you want is the `.foregroundStyle` modifier:
 > ####  When creating new symbols, what criteria is followed? I’ve wanted to make custom symbols before but want it to match with the rest of the rest of the SF Symbol catalog.
 
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Awesome, we have Thalia here to answer this.
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 I’m sure it might take a minute to compose her many thoughts…
 
 |U03J814M5MW|:
@@ -166,10 +167,10 @@ Matching the line weight within SF Symbols is a good metric to follow. Also, ref
 > ####  Are there any books you'd recommend reading regarding topics like typography, color theory, grid designs, and anything else regarding mobile UI design?
 
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Grid systems: Grid system - josef müller brockmann
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 The Elements of Typographic Style!
 
 |U03DJTBMVRT|:
@@ -182,13 +183,13 @@ Interaction of Color if one of my fav books!
 > ####  How would you convince a product team to adopt SF Symbols that already has a wide array of their own custom icons?
 
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 <@U03HLJY8FRA>?
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 But do their symbols have variable color support?!
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 A big advantage is that there are so many symbols to choose from so extending the library is easy. And also the way symbols are designed to work with text (font weight matching, small and large variants). Right to left support
 
 |U03HLJY8FRA|:
@@ -203,13 +204,13 @@ Symbols offer many benefits: visual craft and integration with the system font, 
 > ####  I think it was last year the .square and .circle modifier were added for some symbols. Is there a chance that will become and option for all symbols including custom symbols? :grimacing: I ended up creating square variants for a lot of our custom symbols last year and it was super tedious.
 
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Hi Emile, we have this policy where we don’t talk about future products. :slightly_smiling_face:
 
 |U03JDV4PQR0|:
 It was worth a shot :rolling_on_the_floor_laughing: Maybe a seed was planted.
 
-|U03HBHWCB4N|:
+|Sarah M - Design Evangelist|:
 Hi <@U03JDV4PQR0>, happy to see you’re here!!
 
 |U03JDV4PQR0|:
@@ -226,13 +227,13 @@ Will do.
 > ####  Will there ever be a Clarus the DogCow SF Symbol? :D
 
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Moof?
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 Moof.
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 :dog::cow2:
 
 |U03HVE4TV8E|:
@@ -250,7 +251,7 @@ Moof
 |U03HJ8DAEMC|:
 Moof!
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Moof!!! Moof!!!
 
 |U03J814M5MW|:
@@ -277,10 +278,10 @@ So is there a clarus hidden within the SF Symbols app?!?! :face_with_monocle::fa
 |U03HVE4TV8E|:
 The Great Moof Mystery of WWDC22
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 I’m still looking for that <@U03HA9EC4T1>!
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 I need glasses I think
 
 |U03JELQLESV|:
@@ -292,7 +293,7 @@ I only get this because I was randomly watching this the other day (linked to th
 > ####  Can we use SF or SF Symbols in other, non-Apple related projects or are we limited to Apple platforms? Thanks :blush: 
 
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Hi Sean, only for software running on Apple Platforms
 
 |U03HA9EC4T1|:
@@ -308,16 +309,16 @@ SF Symbols as you have seen are very dynamic. This functionality is implemented 
 > ####  Paul, what are some similarities between solving Rubik's Cubes and working on the SF Symbols app?
 
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 <@U03HLJY8FRA> Got an answer here?
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 <@U03J3FV12KB>?
 
 |U03JELQLESV|:
 Anyone is welcome to answer this pressing question.
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 I don’t do either so my answer is that it seems like a lot of work. LOL
 
 |U03HLJY8FRA|:
@@ -326,10 +327,10 @@ Lots of colors, lots of moving pieces, but in the end it all comes together to m
 |U03HLJY8FRA|:
 (how's THAT for deep)
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Wow Paul, real deep. :slightly_smiling_face:
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 That sounds like a nice way to bring this study hall to an end…
 
 --- 
@@ -382,10 +383,10 @@ Thank you. We don't offer that feature, but thanks for feedback!
 > ####  Are there ways we can submit icons for consideration as additions to future updates of SF Symbols and/or is there a place we can share our custom icons with the wider developer community?
 
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Absolutely. Use Feedback Assistant. Requests get routed right to the team for consideration
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 It’s been a very helpful way to learn about what symbols developers most want.
 
 |U03J20D4Q03|:
@@ -421,7 +422,7 @@ Really means a lot to the HomeKit community as they mean most apps will end up u
 > ####  Do variable colors animate automatically when changed?
 
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Hi <@U03JBMMB10A> can you elaborate a bit?
 
 |U03HLJY8FRA|:
@@ -443,62 +444,62 @@ Right, thank y’all!
 > ####  Thank you for the new HIG! Especially appreciate that it starts from UI elements and themes and then mentions platform considerations, instead of being branched off into different platforms only.   Are there good examples that come to mind of intentionally breaking the HIG for good reason (after knowing it well)?
 
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 Great question! I think that starts coming down to the customization you'd love to do for the app. For example there's no hard and fast rule that you *have* to use SF Symbols, or Apple Typefaces or a specific aesthetic for your app (and that's even more true for games).
 
 Think of the HIG as a great "base" for what you're doing, and tailor the guidance based on what makes the most sense for your users!
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 <@U03HJ86L1BL>’s also done a great job at wording the language of the HIG so we rarely ever say "don't" or "never" unless that's really true.
 
 --- 
 > ####  What are the key changes in the advice being given in the revised HIG, if any?
 
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Hey Duncan, a lot of the content in the HIG carries through from previous versions. But a lot of the older content was adjusted for clarity and we removed things that no longer seemed all that relevant. It’s hard to go through all the specifics but pretty much every page needed to be edited.
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 We also started adding in new guidance for iOS 16, macOS Ventura, and watchOS 9 (though there’s still a lot more coming this summer
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 One example I recall was the Buttons page. There was content in there about placard buttons and bezel buttons but those really aren’t used these days
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 We also removed some of the content about full color icons in toolbars, for example, since that’s not something modern apps do all that much of.
 
 |U03HJ86L1BL|:
 Another key change is in perspective: Rather than starting with guidance for an iOS experience, the revised HIG encourages designing the experience first and then adjusting it as needed to run great on each platform.
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 We added a lot of new information in the Patterns section for things like Searching or Sharing. That kind of content was spread out in component pages previously and missed a lot of important information and context when it was tied to specific controls
 
 --- 
 > ####  First off, congrats on the new HIG! I love how much more comprehensive it is. What are best practices when designing an app that is cross platform? Should the app design's adapt to the respective OS' design guidelines e.g. HIG on iOS, Material You on Android, and Fluent on Windows, or stick with one for a consistent user experience across different platforms (even though it might look slightly out of place depending on the OS)?
 
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 The best approach is to follow the relevant platform conventions. Many of them exist because of how the hardware functions. So ignoring that leads to software that feels disconnected from the hardware.
 
 |U03JELQLESV|:
 I also wonder to what extent it's applicable to the web, especially considering seeing more web apps coming from Apple!
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Apps that are designed once for all platforms will never feel right everywhere
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 It does apply, there are differences in conventions between web and apps.
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Some of the difference are pretty easy to address. Like not using “Click this button” in an app that only runs on touch screen devices
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 ^ huge pet peeve! Also Android and iOS differ a lot in how "back" functionality works for example. So making sure that the design patterns follow system conventions helps quite a bit to not make your app feel like it's alien to the platform
 
 |U03J20D4Q03|:
 Thanks for the insight, <@U03HBJXV0TY> and <@U03DMQBFPH8>! They are really helpful. I'll definitely share them with my team who insists on having the same design across different platforms (hamburger menus and FABs everywhere!)
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 Look I love a good FAB but only when I've designed for Android in the past! Thanks for the question <@U03J20D4Q03> hope that helps because yes, you can be 80%-90% consistent where you can but those platform details matter
 
 --- 
@@ -511,7 +512,7 @@ This is a great question. Multiple things influence this. One is our work (in ev
 |U03H3HNAGSK|:
 Another thing that influences the HIG is the work of our design and engineering teams, naturally. As the platforms evolve, there are needs to overhaul pages, or whole sections, to match the direction of the platform (or multiple platforms)
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 +1 to what Doug said! We talk with so many designers throughout the year and for this particular redesign we reached out specifically to the community to get input on where we could improve the HIG.
 
 |U03H3HNAGSK|:
@@ -524,7 +525,7 @@ I am resisting the urge to point out the various sections that are in need of wo
 |U03HJ86L1BL|:
 Although many details have changed, I think it's the keen focus on keeping the user experience at the center of design that's at the heart of the HIG, from the earliest days to the present.
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 Yes the earliest HIG (I believe from 1977???) continually emphasized the human nature of computers. How computer should conform to people and not the other way around. We are still very much firm believers of this, but with more nuance on what that means ergonomically, inclusively, as a holistic experience.
 
 --- 
@@ -534,12 +535,12 @@ Yes the earliest HIG (I believe from 1977???) continually emphasized the human n
 |U03JMGRA538|:
 I haven't had time to dig in as much as I'd like to yet, but at just the bit I have it looks really fantastic! Miss seeing you folks btw, sad I wasn't able to make it out this year :slightly_smiling_face:
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 That's a great question! I want to say that almost every section was rewritten to take out old, missing, or revised guidance :sweat_smile: It was a huge haul.
 
 Two sections that I personally love:
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 <https://developer.apple.com/design/human-interface-guidelines/foundations/inclusion|Inclusion: >We're SO happy this page is here because it speaks not only to good design guidance but our values
 <https://developer.apple.com/design/human-interface-guidelines/platforms/overview|The new Platform pages: >These are brand spanking new and give a nice overview of "getting started with designing for [ios/mac/etc]" that also speak to how many people use these devices and the considerations you need to have.
 
@@ -557,22 +558,22 @@ Because we were working with content that ranged in age from months to more than
 > ####  Hi, nice work on the redesign, I've been going through it this morning! I have a question about color.  On this page: <https://developer.apple.com/design/human-interface-guidelines/foundations/dark-mode|https://developer.apple.com/design/human-interface-guidelines/foundations/dark-mode> there's the advice "At a minimum, make sure the contrast ratio between colors is no lower than 4.5:1. For custom foreground and background colors, strive for a contrast ratio of 7:1, especially in small text."  I aim for high contrast as much as possible, but 4.5:1 is pretty limiting, and I don't think Apple always follows this rule themselves. Specifically I'm wondering about the systemColors such as systemOrange, systemMint etc, many of which have quite low contrast against white (i.e., in Light Mode). What is the intended purpose of these colours? Is it meant for text/SF Symbols? Because if so, systemMint comes in at 2.02:1 against white. Should we ever even use systemYellow? Or can we just rely on users turning on Increase Contrast if they need to? But maybe someone doesn't want to have to increase contrast for everything just so they can see that darn yellow text.  Any insight on the intended use of these systemColors would be greatly appreciated. Thanks!
 
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Awesome questions Jessiah! I could take the next 45 minutes trying to answer. :slightly_smiling_face:
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 In short, the rules about color contrast are a bit tricky, it’s not black and white (forgive the pun)
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Higher contrast is always better but there are mitigating circumstances that make it OK to have lower contrast. For example, text size. The larger or bolder the font, the easier it is to read given the same color value
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 But a color choice that works for large type can be too low contrast for smaller text.
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 The same applies for icons or glyphs (symbols): Finer features are harder to naturally harder to discern so boosting contrast is useful
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 As for system colors, they don’t all work equally well in every circumstance. Orange or mint on a light background probably isn’t the best choice. Definitely not as legible as blue or purple
 
 |U03J1EHL4KY|:
@@ -592,7 +593,7 @@ Yeah for our app which uses orange tint, we’ve used our own custom orange for 
 |U03J23RAFK4|:
 My personal guide when designing is to make all elements that need to be legible and clear have strong contrast. Details like a divider, for example, can be lighter to convey less prominence. But text should always be readable and accessible.
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 I also feel like I could spend the next hour speaking about this :sweat_smile: so GREAT question. As you might know, the 4.5:1 contrast ratio comes from WCAG 2.0 guidelines. While WCAG 3.0 is still not officially "out" they have an improved way of calculating contrast that I find incredibly interesting: <https://www.w3.org/TR/wcag-3.0/#visual-contrast-of-text>
 
 |U03J1EHL4KY|:
@@ -604,7 +605,7 @@ I’m imagining a future accessibility feature that allows you to increase contr
 |U03J1EHL4KY|:
 or colour range
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Hahahahah, yes <@U03J1EHL4KY> Providing high-contrast colors in the asset catalog is a good thing. :slightly_smiling_face: We do have some technical solutions after all. And of course the system colors provide high-contrast colors for free
 
 --- 
@@ -642,42 +643,42 @@ I guess I just see those terms as representing two things — (1) a cohesiveness
 |U03JJD6G79B|:
 Ohhh I think I gotcha, like how Carrot Weather uses satire and the robotic voice to strengthen the personality of the app’s narrator?
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 Yes there's being consistent with the platform experience, and then there's taking that to the next level by differentiating your app/game as a stellar example of one of our categories. That means you don't necessarily need a visually-heavy custom branded app but you offer something by way of your design/UX that sets you apart (I'm thinking Slopes here as a great example of this)
 
 --- 
 > ####  Could you elaborate on any user research (quantitive or qualitative) processes the team uses to shape HIG guidelines?
 
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 (These questions are good!)
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 We meet with developers to ask them for feedback on existing content (qualitative). We also regularly talk with developers throughout the year about their apps and, in those conversations, common questions come up that we realize we haven’t really answered in the HIG (or videos). So those turn into ideas about how we can improve the HIG.
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 And the HIG is really a massive collective effort involving design and engineering teams throughout Apple. This HIG is the product of internal experiences where people had misconceptions or questions during the design process that we anticipate designer and developers will have once we ship new features.
 
 |U03JMEET43F|:
 Does the team do any old school, Bruce Tognazzini-style quantitative experiments when designing new features? I’m thinking of the equivalent of Fitts’s Law, but for touch.
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 <@U03JCS2C03Z> Depends on the team! We always nerded out about that and other things (catmull rom) on the Prototyping team, but other teams keep their process more intuitive/empathy-based vs. scientific
 
 --- 
 > ####  Is the latest version of the HIG the first time I've seen Apple adopt sentence case for headings?! :smile:
 
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 Ha! Nice catch :smile: We also use sentence-casing throughout the developer app
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Love the attention to detail!
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Also WWDC videos
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 It’s the future!
 
 |U03HMCT187R|:
@@ -687,7 +688,7 @@ I’m sure this is in the HIG if so :grin: but figured it may be worth asking, a
 > ####  A web based HIG is great as documentation but right now—wanting to read the entire revised HIG—I want to reach for an ePUB that would keep track of where I’m up to, and lead me linearly from start to finish, to ensure I read the whole thing. Is an ePUB available, or is there another solution for this use case?
 
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 Thanks for the question! Could you submit this idea using <http://feedbackassistant.apple.com>? Right now there isn't mostly because we've found folks stop by the HIG because they're looking for specific documentation vs. reading it like a whole book.
 
 |U03J20D4Q03|:
@@ -702,7 +703,7 @@ HIG used to be available in iBooks! Back when it was separate for OS X vs iOS. S
 |U03HMCT187R|:
 And I added the original HIG from a PDF too :heart:
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 I have some of the old HIG books in front of me!
 
 |U03J4D1FEP6|:
@@ -718,38 +719,38 @@ FB10108496: Provide a mechanism to keep track of progress in reading the whole H
 > ####  Not a question but I LOVE the new HIG redesign!!!
 
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 Not an answer but THANK YOU! - from all of us
 
 --- 
 > ####  Hi there! Amazing work on the design guidelines. How can I measure contrast in my apps?
 
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Thank you so much!
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 There are good tools online for measuring color contrast. Searching for “color contrast calculator” will return good results
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 <https://coolors.co/contrast-checker/112a46-acc8e5>
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 <https://colourcontrast.cc>
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 <https://contrast-ratio.com>
 
 |U03JRP87THN|:
 Thank you very much, and again, amazing work on the HIG!
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 You're listing the nice looking ones – I've always used this:  :sweat_smile: <https://webaim.org/resources/contrastchecker/>
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 LOL
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Yes, it’s true, I only picked the nice looking ones.
 
 |U03H3HNAGSK|:
@@ -789,7 +790,7 @@ not a color nerd but often feel like i should be :joy:
 > ####  Hi, thank you for update for great HIG! Is there any design files or design system in Figma / Sketch?
 
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 <@U03HBJXV0TY> <@U03H3LD2M2T>
 
 |U03HVQQMNCF|:
@@ -803,10 +804,10 @@ I hope to be also in Figma. Japanese designers love to use Figma now:pleading_fa
 The Sketch libraries are so cool - I love poking around in there to see how things are set up.
 For Figma, <https://www.figma.com/@joey|Joey Banks> has become the unofficial supplier of iOS UI Kits there :wink:
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 So glad you shouted out Joey! He's doing great work :slightly_smiling_face:
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 We currently don't support Figma at this time but updates to the Sketch and XD libraries and templates are coming later this summer
 
 |U03HVQQMNCF|:
@@ -832,14 +833,14 @@ ok, thank you! :pray: will do
 |U03HJ86L1BL|:
 The bulk of the work started late 2021 and ran to last Sunday or so! :sweat_smile: Seriously, this project has been our hearts for a long time and we're ecstatic to deliver this update.
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 hahaha, yes we've been working on it consistently for about a year now!
 
 --- 
 > ####  Firstly, congrats on such a great update to the HIG! :clap: Throughout the OS, there's often times when a temporary sheet appears at the bottom of the screen. For example, when connecting your AirPods to the iPhone - I've made my way through the guidelines and can't find any write ups about that view. Is this view actually just a "Medium sheet" that is styled differently?  I'll thread a screenshot for context
 
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Hm… not sure if my reply came through. Posting again “Hi Ryan, yep, a medium height sheet is the closest system-provided element.”
 
 |U03JE2RK60J|:
@@ -849,13 +850,13 @@ Thanks <@U03HBJXV0TY> :ok_hand:
 > ####  Curious what your pov is on link buttons, specifically buttons embedded within text content on native.  There are some cases where this type of treatment can make sense and then others where it feels like we’re just pulling over from web.  Do you have any formalized process around when to use and not use this treatment?
 
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Good question! My sense is that links inline commonly get overlooked because (a) not expected in apps and (b) the color distinction is often too subtle. In general they should be avoided. But there are cases where it can work. One that comes to mind are “More &gt;” links at the end of a paragraph of text where you navigate to a child view to see more. Or expand a partially revealed block of text.
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 But it’s almost always more clear to use a proper button or table row with a chevron.
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Probably the biggest issue with link style buttons, especially when presented in context of other text, is that the tap target size is too small (not 44pt tall) so tapping accuracy is compromised
 
 |U03J1UU7HS7|:
@@ -911,10 +912,10 @@ Sorry correct screenshot.
 > ####  Any design guidelines for EDR color on Apple platforms?
 
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Mostly we just want people to add color profiles to their images. If we could do that, it’d be a huge win.
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 We don’t really have guidance specifically about EDR in the HIG. Might be some good documentation elsewhere on <http://developer.apple.com|developer.apple.com> but I’m not familiar with it.
 
 |U03JZNY81L0|:
@@ -925,22 +926,22 @@ AFAIK, images with EDR profiles don’t show up in EDR across the OS, though vid
 > ####  What prototyping app would you recommend?
 
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Such a good question. There are lots of good methods and tools out there that there’s really no one good answer.
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 That one you're fastest in!
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 It depends on what you like
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 OK, that was a good answer Linda
 
 |U03JNAGPDS6|:
 Currently using Sketch and XD, Figma is something I want to try :eyes:
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Principle, Figma, Sketch, XD, Keynote, paper and pencil,…
 
 |U03JNAGPDS6|:
@@ -949,7 +950,7 @@ Funny you say Keynote, that's actually what I began designing in :joy:
 |U03J20RJQ2X|:
 Principle is underrated!
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 They’re really all good in their own ways. We use Sketch a lot at Apple. XD. Keynote
 
 |U03JL795TE2|:
@@ -958,14 +959,14 @@ They’re really all good in their own ways. We use Sketch a lot at Apple. XD. K
 |U03HKV4V1FW|:
 Xcode and SwiftUI may also be great for prototyping.
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 <@U03JL795TE2> you bet! Some people love paper sketches first (me) others go straight to SwiftUI because they're lightning fast in it
 
 --- 
 > ####  In your guidance around colors, have you all started digging into color spaces like LCH and perceptual color contrast much yet? Maybe not something you can discuss yet but it's a super interesting area and trying to choose colors with a matching human perceptual contrast across the palette is super useful and something I'd love to see Apple push as well.
 
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 I also think it's a great area to explore! I posted this in another question but the WCAG 3.0 perspective on color contrast is fascinating and something that addresses our issues with how color contrast is calculated now
 
 |U03JMGRA538|:
@@ -978,13 +979,13 @@ eg <https://blog.datawrapper.de/color-contrast-check-data-vis-wcag-apca/>
 > ####  Do the HIG and Apple Style Guide influence each other?
 
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Yes!
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 <@U03HJ86L1BL> will be here in a minute to say more. :wink:
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 If you’re interested in knowing more about writing for apps, we have this session coming up tomorrow: <https://developer.apple.com/wwdc22/10037>
 
 |U03HJ86L1BL|:
@@ -1000,13 +1001,13 @@ I refreshed and counted 6 :laughing:
 |U03J23RAFK4|:
 Some different looks.
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Yep, six colors
 
 |U03J23RAFK4|:
 Ohhh… of course! :wink:
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 They’re meant to be read in order matching the old 6 colors logo. Tells a little bit of a story about making a button.
 
 |U03J23RAFK4|:
@@ -1019,7 +1020,7 @@ Love it!
 |U03JELM0ZNV|:
 Here's an example of these home-grown outlines (note there's no collapsing, which I'm mulling over).
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 <@U03HJ7LRK43>
 
 |U03HJ7LRK43|:
@@ -1029,16 +1030,16 @@ Howdy! This is a great question — we're aware of the need for better guidance 
 > ####  I’m a big believer in Human Interface Guidelines. However, I’d like to have some sincere feedback.   1. The all-new version seems dominated by texts. The older version contains a lot of illustrations and animation along with the content, and maybe it would be better to add more images and animation in the new version.   2. I’m so confused that even though this is an all-new version, there are still some images coming from macOS 10.x, with the design from Yosemite. Please update these images to the design after Big Sur.
 
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Hi <@U03HMCH9D5M> - appreciate you feedback and we full agree. We have a huge list of to-do items when it comes to making illustrations for the HIG. We’re a small team and there’s a lot of pages. But this is a top priority for us.
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 As is fixing all those old screenshots!
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 Yup we feel the same way! Luckily now that the redesign is out we can focus on these tasks and more exciting things we're planning! :slightly_smiling_face:
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 It bothers us too. :slightly_smiling_face:
 
 |U03HMCH9D5M|:
@@ -1048,13 +1049,13 @@ Appreciate it !!!
 > ####  Do you follow an 8-point grid? For example, Table row padding would be 16 on either side, but 44 in height? I understand tap states need to be large enough, but why not 48?
 
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Hi <@U03JK302NRH> - Yes, an 8-point grid is used in many circumstances. However, there are some exceptions. For example, layout margins are 16pt in compact size class but 20pt in regular…. 24pt would’ve been too much. Sticking at 16 would look too thin.
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 The grid is mostly about width, not height
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 IIRC, the decision about 44pt goes back further than the use of an 8pt grid for layout.
 
 |U03JK302NRH|:
@@ -1064,16 +1065,16 @@ Thanks for the insight <@U03HBJXV0TY>!
 > ####  With dynamic type is it expect that all text based content on the interface will scale? Is there a time where that's not appropriate such as in button containers?
 
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Great question. It’s really not possible for ALL text to scale in some cases. Tab bars, for instance, don’t scale because text would truncate immediately which defeats the purpose. And there is an AX setting for showing the tab icon and label in a bezel on tap.
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 The general approach is to make sure all text in the content area / scroll views scales.
 
 |U03JTFWKMMF|:
 Awesome, thanks for the clarification Mike :thumbsup:
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Text in fixed height elements (like tab / toolbars) is tricker
 
 --- 
@@ -1099,13 +1100,13 @@ It gets especially difficult when you try to cater to both, making the app easy 
 > ####  How do I know when a small button is ok? :smile: Do I just need to ensure they have appropriate clearance of 44px all the way around to meet the guidelines?
 
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 It’s OK to have smaller button but you definitely want to have a tap area that extends to 44pts in height
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 So, yes, padding can be a factor
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 In general though, a physical background height of 44pt is a good idea. Even if the tap target is taller, users don’t know that. So they’ll naturally slow down to aim accurately
 
 --- 
@@ -1122,10 +1123,10 @@ Great question! Although the guidance is to use title case in components like bu
 > ####  Is there still guidance on designing the navigation graph for an app? I cannot find it in the new layout.
 
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Hey <@U03JQEX9MGS> I’m not totally sure I understood your question. Do you mean the diagrams we used to have?
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 May not answer your question, but we have a video about Navigation this week you might want to check out. <https://developer.apple.com/wwdc22/10001>
 
 |U03JQEX9MGS|:
@@ -1506,7 +1507,7 @@ Those sessions were awesome!:round_pushpin::bread:
 |U03JEPCUBG9|:
 IIRC from the presentation, they used Keynote as a prototyping tool. Is SwiftUI used by the team for prototyping?
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 Glad you like the session! (back when I was on the team :sweat_smile:) Perhaps <@U03J52JBK0C> <@U03J0DULM0V> could add to your question
 
 |U03JELM0ZNV|:
@@ -1587,7 +1588,7 @@ I've also found that Looom makes animation so fast I am able to make simple hand
 |U03J0DULM0V|:
 (Looom won an apple design award a few years back. Highly recommend!)
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 We love Looom!!
 
 |U03J0DULM0V|:
@@ -1606,7 +1607,7 @@ Ah! I'm excited for you!
 |U03J52JBK0C|:
 Give yourself time to _not_ worry so much about solving the problem. “What other ideas does this give us?” can mean completely unrelated things. But if they seem _interesting_ they’re worth trying. Those weird-but-interesting ideas can inspire us to connect the weird / whimsical inspiration to something that actually does solve the problem.
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 well said :smiling_face_with_tear:
 
 --- 
@@ -1655,7 +1656,7 @@ Cool
 |U03JELM0ZNV|:
 Alberto, you just described the founding philosophy of Meng To over at <https://designcode.io/>
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 <@U03HBKARTV4>?
 
 |U03HBKARTV4|:
@@ -1691,7 +1692,7 @@ Because we’re often working with new hardware features: Years! The shortest tu
 |U03HMEA0C4X|:
 <@U03J52JBK0C> Can I ask what that two year project was? :eyes:
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 I believe our official answer is "you may ask but Julian can't respond" :stuck_out_tongue:
 
 --- 
@@ -1779,13 +1780,13 @@ Discoverable Design <https://developer.apple.com/videos/play/wwdc2021/10126/>
 |U03J23RAFK4|:
 Nice, thank you!
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 And some say the Fake It Til You Make It talk may still be on youtube if you search :wink:
 
 |U03J23RAFK4|:
 Okay, I’ve seen a few mentions of this Fake it Til You Make It talk here, so I must find it!
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 And gasp! Here it is again: <https://developer.apple.com/wwdc14/223> cc <@U03J23RAFK4>
 
 |U03J23RAFK4|:
@@ -1892,7 +1893,7 @@ Thanks for this insight, and thanks for these amazing products!
 |U03HBKARTV4|:
 Make things, show them to people, learn from their feedback!
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 That should be a tattoo at this point!
 
 |U03JGA79CQZ|:
@@ -1916,7 +1917,7 @@ For example:
 |U03J0DULM0V|:
 "Always design a thing by considering it in its next larger context – a chair in a room, a room in a house, a house in an environment, an environment in a city plan." is a quote that I think also nicely captures the spirit of always being able to step back and not design something in isolation
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 <@U03HVE4TV8E>!!! You will absolutely need to show this to us on Twitter when you do
 
 --- 
@@ -1987,16 +1988,16 @@ I with you on keeping things small… let’s just say that’s a rarity in my e
 > ####  Hello again, and thanks for your time! I am looking for general design guidelines on building out visuospatial metaphors in a 3D + AR environment. I have a project, <http://github.com/tikimcfee/LookAtThat|github.com/tikimcfee/LookAtThat>, that renders and visualizes an entire code base at once, but there's just so much to see, it gets cluttered and overwhelming! I would really appreciate some time to talk and think about what kinds of things can be presented, hidden, animated, and made otherwise visually appealing for users, such that the tool is less burdensome, and more useful. Cheers!!
 
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 Hey Ivan! This is a great question to ask in a 1:1 Design lab! There's still slots for tomorrow let me hand you a link
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 <https://developer.apple.com/wwdc22/labs-and-lounges/dashboard/upcoming?q=design%20lab> here you go!
 
 |U03JRPTDF6U|:
 Thank you once, twice, and thrice! I’ll make sure I’m signed up ASAP :smiley:
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 cc <@U03HBHWCB4N> ^
 
 --- 
@@ -2070,10 +2071,10 @@ We build what’s necessary to try the specific things we want to try. We try re
 > ####  I noticed you said that a destructive action should be on the left and red text. I never knew that - where is this sort of thing in the HIG?
 
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Ooops, should’ve responded with a reply. :wink:
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Hey Dan, we have writing guidance sprinkled around the HIG in various locations. This guidance is on the Alerts page: <https://developer.apple.com/design/human-interface-guidelines/components/presentation/alerts>
 
 --- 
@@ -2185,10 +2186,10 @@ Ooooh I didn’t know there was a lab happening tomorrow! Thanks :D
 > ####  Thanks for amazing advice! I wonder what the arrangement for options in an alarm means. For example putting major option on the left or top. Is it recommended to change the order, e.g. from major-on-left to major-on-right, for languages using different reading order?
 
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Hi Zhang - Yes, typically you’d want to order more important things above or to the left of less important things. And for RTL languages, check out this page in the HIG: <https://developer.apple.com/design/human-interface-guidelines/foundations/right-to-left>
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Also this video: <https://developer.apple.com/wwdc22/10034>
 
 |U03JERVQBFX|:
@@ -2201,10 +2202,10 @@ Thank you for answering! Such fun designing for different cultures.
 |U03HVE4TV8E|:
 Great question! I’ve been wondering this myself recently :facepunch:
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Totally great question. we get it a lot. We have an answer for you in the HIG: <https://developer.apple.com/design/human-interface-guidelines/components/presentation/sheets>
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Position Done and Cancel buttons as people expect. Typically, a Done or Dismiss button belongs in a sheet’s top-right corner (in a left-to-right layout) or top-left corner (in a right-to-left layout). The Cancel button belongs in a sheet’s top-left (in a left-to-right layout) or top-right (in a right-to-left layout) corner.
 
 |U03H3HNAGSK|:
@@ -2243,22 +2244,22 @@ Love that metaphor <@U03HJ5LRUEN>. Another thing we do often is link out to supp
 > ####  What would be the best way to dismiss a full screen modal that has content? Would it be a button along the lines of ‘Done’ at the bottom, or is it still a cross in the top right as mentioned earlier?
 
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Hi Charlie, there’s some good insights in the HIG on the Sheets and Modality pages.
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 <https://developer.apple.com/design/human-interface-guidelines/components/presentation/sheets>
 
 |U03JELQLESV|:
 Personally I would be reluctant to use a bottom corner in a Mac app, since you have to consider window movement and that it could be clipped by the Dock.
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 <https://developer.apple.com/design/human-interface-guidelines/patterns/modality>
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Yes Austin, generally not a good idea to position controls at the bottom of mac windows.
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Also, check out: <https://developer.apple.com/videos/play/wwdc2022/10001/>
 
 --- 
@@ -2301,7 +2302,7 @@ Too many times to count. :sweat_smile:
 > ####  I’ve found a small mistake in the HIG, where should I report this?  The Feedback assistant doesn’t seem to have a appropriate category
 
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Would love the feedback! We are working on adding a HIG category. You can use the Apple Design Resources component for now. I’ll make sure it gets to the right place. :wink:
 
 |U03JRR4R3CY|:
@@ -2310,7 +2311,7 @@ Reported, it’s really small but wanted to mention it somewhere, FB10140417
 |U03JELQLESV|:
 Typos happen, but I don't think I'll ever in my lifetime see a HIG screenshot accidentally show a time other than 9:41 or 10:09.
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Not as long as I’m here <@U03JELQLESV>!
 
 --- 
@@ -2320,7 +2321,7 @@ Not as long as I’m here <@U03JELQLESV>!
 |U03HJ5LRUEN|:
 "An Apple spokesperson declined to comment." :wink:
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 It happened onec
 
 |U03JELQLESV|:
@@ -2367,26 +2368,26 @@ Another way of answering your question is: You might as well get started with th
 |U03JELQLESV|:
 I think it would be great if it was clearer when there's more minor updates, like a technologies page gets added or something. Sometimes I'll discover on Twitter, but a more central diff would be nice! I can file feedback about this too.
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 We're already planning for changelogs in the HIG coming some time this summer!
 
 --- 
 > ####  The wonderful crusade against home tabs reminds me of the one you did for hamburger menus many years back. Are there other common app conventions that you see that you disagree with?
 
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Thanks for remembering that session. It was YEARS ago.
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 We have a few, mostly they center on design conventions that come over from other platforms that could be adapted to match Apple platform conventions
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 For example, drawing a back button as an arrow (with a tail) instead of a chevron ( &lt; )
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 ^ that's an android thing
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Tab bars that have a button in the center that performs an action rather than navigating to a location in the app
 
 |U03JELQLESV|:
@@ -2395,10 +2396,10 @@ One that comes to mind that might've been mentioned in that session is avoiding 
 |U03J20EAJKV|:
 Both so common :pensive:
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Yep!
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 That one gets my blood boiling. :slightly_smiling_face:
 
 |U03HVE4TV8E|:
@@ -2407,10 +2408,10 @@ My current pet peeve is floating buttons (i.e. on Twitter). Like, a plus in the 
 |U03J20EAJKV|:
 What's the icon they use, like three dots or something?
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Also, kabob menus (three vertical stacked dots) instead of an ellipses symbol
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 For me I personally dislike icons without labels. Unless you think your icon is universally understandable across all cultures – because it usually isn't :stuck_out_tongue:
 
 |U03JELQLESV|:
@@ -2426,13 +2427,13 @@ That’s the one that always gets me. Where does one place close buttons?
 > ####  In reference to not creating a "home" tab, what are your thoughts on having "cards" that are overviews of content from a different tab? Would you consider that a duplicate?
 
 
-|U03HBHWCB4N|:
+|Sarah M - Design Evangelist|:
 Hey <@U03K1SMSPUZ>, great question. This is highly dependent of the context and content of the app. Be cautious of cards that display unrelated or disparate types of information and make an interface feel like a dashboard. Dashboards are similar to Home tabs, as the information is not directly related and often overloaded. This makes it difficult to glance and takes longer to understand the relationships and how to take action
 
 |U03J1EHL4KY|:
 So, if you use cards or have a dashboard like view, try to keep the content relevant to the current tab?
 
-|U03E0DNA1JM|:
+|Adam H (no title)|:
 We’ve seen some apps that have a wide array of Widgets that can be configured like a dashboard. It can be very powerful, especially on iPad. But these widgets would take you to the corresponding tab in the app.
 
 --- 
@@ -2442,20 +2443,20 @@ We’ve seen some apps that have a wide array of Widgets that can be configured 
 |U03JELQLESV|:
 Curious about if there are situations when the tab bar should be hidden also.
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 It’s true that News doesn’t follow the typical convention we recommend for tabbed apps. I can’t really speak for the News team, but I believe the thinking was that people don’t generally switch between tabs frequently or want to persist state in each tab since the content changes all the time
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 People drill into articles, read, and then often leave.
 
-|U03HWRCNBLH|:
+|Majo C - Design Evangelist|:
 You could consider temporarily hide the Navigation Bar for immersive experiences, just be sure to allow
 the reverse interaction and show it when swiping down or tapping the screen.
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 In that usage pattern, persisting the tab bar to allow for fast lateral navigation, or keeping it visible to help people stay oriented, is less of an imperative.
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 This is pretty atypical for tabbed apps though
 
 |U03KA893DUY|:
@@ -2465,13 +2466,13 @@ got it! Yes I was thinking it can be also be possible to use a modal instead of 
 > ####  I saw in Sarah M's session that there were Places cells with a ... button on their top right side. On what cases should we use such a button?
 
 
-|U03HBHWCB4N|:
+|Sarah M - Design Evangelist|:
 I believe you’re referring to the ellipses SF Symbol in the navigation bar?
 
-|U03HBHWCB4N|:
+|Sarah M - Design Evangelist|:
 We would use this button for secondary actions that are related to the view, but perhaps not the primary actions someone would take
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 "..." More menus are typically used to host a set of additional actions vs. navigation. You'll often see designs conflate the two.
 
 |U03J1EHL4KY|:
@@ -2486,55 +2487,55 @@ If an app must use more than 5 tabs, is an ellipsis the appropriate icon for the
 > ####  Are there resources we can share with more web-minded colleagues. It can be difficult to explain that apps and websites should not have the same navigation design.
 
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Absolutely! <http://developer.apple.com/design|developer.apple.com/design>
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Also this video :slightly_smiling_face:
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 I’m not sure we really speak explicitly to web designers per se, but this should be a helpful primer on Apple platform design patterns
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 Also more specifically all the content inside "Navigation and search" in the HIG <https://developer.apple.com/design/human-interface-guidelines/components/navigation-and-search/navigation-bars>
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 As well as modality: <https://developer.apple.com/design/human-interface-guidelines/patterns/modality>
 
 --- 
 > ####  I saw in the session that there are list section headers that are bold and bigger than normal section headers. In which cases should we use these? Thanks 
 
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 They’re a relative recent change to iOS (last year I think). It’s a matter of taste and judgement I think. But they’re particularly effective when the list is text only. It helps created needed differentiation (or grouping) between content items and category labels
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 If the list items are visually distinctive, larger section headers might not be needed. But, personally, I think they’re an improvement in all situations.
 
 --- 
 > ####  "Home" is such a lazy name for the app's first tab! But the argument that's often given in its favour is that people understand it because that's how the first page is often referred to in web and app design and changing it would mean forcing people to change their already established habits.  Would Spotify / Twitter doing away with the home tab be a risky UI move that could lose them followers or a much needed navigation cleanse?
 
 
-|U03HWRCNBLH|:
+|Majo C - Design Evangelist|:
 We can’t speak about what other companies should do, but I don’t consider risky moving to a more intuitive labeling convention, this way you ensure predictability and intention.
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Specificity is always a good thing. If there’s a more descriptive word to use, it should be used.
 
 |U03J20EAJKV|:
 I was just thinking that. Maybe instead of “Home” it should just be “Timeline” for Twitter
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 And even web is starting to move away from the "home" concept. I have a feeling it will end up in the same category as having a floppy disk represent "save"
 
 --- 
 > ####  In the demo app shown, the Navigation Bar was hidden but the toolbar items was still showing. Is this new in iOS 16?! :blush:
 
 
-|U03HBHWCB4N|:
+|Sarah M - Design Evangelist|:
 Hmm. Can you elaborate what example you’re referring to?
 
-|U03HBHWCB4N|:
+|Sarah M - Design Evangelist|:
 None of these examples share UI that isn’t yet released :blush:
 
 |U03JQEX9MGS|:
@@ -2543,38 +2544,38 @@ Navigation bar appearances? <https://developer.apple.com/documentation/uikit/uin
 |U03HVE4TV8E|:
 Yeah of course! If you notice how the image goes behind an invisible NavigationBar but the toolbar is still visible
 
-|U03HBHWCB4N|:
+|Sarah M - Design Evangelist|:
 That’s a standard navigation bar with the background blur removed
 
-|U03HWRCNBLH|:
+|Majo C - Design Evangelist|:
 The image goes behind the navigation bar and it’s optional to remove its background, but for TAB BARS it’s not recommended.
 
-|U03HBHWCB4N|:
+|Sarah M - Design Evangelist|:
 Yes, the background translucency should not be changed or removed on the tab bar. On a navigation bar, it can be an aesthetic choice if it doesn’t hinder the user experience
 
 --- 
 > ####  I would love to hear the Design Teams thoughts on Kebab Menus and Floating Action Buttons! (I get a feeling they fall in the same boat as Hamburger Menus and Home Tab Bar Items :smile:)
 
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 Funnily enough we were just talking about this here: <https://wwdc22.slack.com/archives/C03H77GM1NW/p1654814044982489>
 
 |U03JRNE4KJL|:
 “Kebab menu”? Is that a thing? now I’m hungry…
 
-|U03HBHWCB4N|:
+|Sarah M - Design Evangelist|:
 Most of these components are problematic for other reasons. For example, FABS tend to cover elements of an interface which can be difficult to read or interact with the content behind the action. They also tend to be duplicated across tabs and the redundancy, shows that the action lacks context
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 And yes to all of the above, a lot of those paradigms you'll see on Android and it instantly makes people feel as if the design wasn't intended for an Apple platform.
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Yes to above! I should add that FABs aren’t verboten on iOS but the action should be VERY important and VERY frequently used. Otherwise they get in the way. Things and Notes are two good examples of where a FAB makes sense. Problem is a lot of other apps use FABs for an action that isn’t all that common.
 
 |U03JRNE4KJL|:
 After years of freelancing and working in startups, the most annoying thing was UI/UX concepts fighting against the (native) platform language - for the sake of brand experience, for “streamlining and build it faster” (the opposite was true) or lack of knowledge (or empowerment) of the designers. It is really hard to find good mobile1st designers…. still after over 10yrs
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 We feel your pain.
 
 |U03JRNE4KJL|:
@@ -2587,19 +2588,19 @@ Agree Oliver. I'm not a designer but I've certainly tried to advocate for native
 > ####  Wondering where "featured" tabs would fall—are they just home tabs with a different name or could they actually be considered useful?
 
 
-|U03HBHWCB4N|:
+|Sarah M - Design Evangelist|:
 Hi <@U03JRQAFUKA>, could you share what a feature tab would consist of?
 
 |U03JRQAFUKA|:
 I guess maybe recommended articles for example?
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 Hard to say a blanket "yes or no" because it depends on the content inside the tab. We do "For You" tabs where the content inside changes dynamically based on what we think is relevant to the user. That could be considered a "featured" section but its use case is specific enough from navigation that it can be its own page
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 Where it gets iffy is when you're just repeating the same content as in your navigation put on a page. That causes confusion with whether people should use the tab bar or Featured page to access information
 
-|U03HWRCNBLH|:
+|Majo C - Design Evangelist|:
 Recommended &amp; feature articles could be highlighted under the Articles tab, instead of having a dedicated tab. I’d say, as <@U03DMQBFPH8>, that it would be case by case and depending of the level of personalization the app offers.
 
 |U03JRQAFUKA|:
@@ -2609,10 +2610,10 @@ Ah okay, that makes sense! Thank you!
 > ####  I hope it's still fine to ask an unrelated question. I missed the previous Q&amp;As here, there is just so much going on :exploding_head:  I would love to have the design templates available for Affinity Photo and Designer. Is this something you are considering? I guess I should probably file a feedback for that, just thought about it now :innocent:
 
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Hi <@U03J4CVE1U4> - We are continually considering what apps to support for the ADR. :wink:
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 Feedback Assistant would be a good next move.
 
 |U03J4CVE1U4|:
@@ -2622,39 +2623,39 @@ Awesome, I'm glad to hear it! Actually just submitted one: FB10142299 :muscle:
 > ####  I saw a tweet showing batch editing in the iOS 16 Photos app and apparently it uses a progress indicator at the bottom that reminds me of an Android-style snackbar/toast. Do you have any guidance on this UI element? <https://twitter.com/apollozac/status/1534903049373761537|https://twitter.com/apollozac/status/1534903049373761537>
 
 
-|U03HBHWCB4N|:
+|Sarah M - Design Evangelist|:
 We have progress indicators on iOS currently
 <https://developer.apple.com/design/human-interface-guidelines/components/status/progress-indicators>
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 We don't currently have published design guidance on that particular style of progress indicator (when it becomes more common the platform we'll consider).
 
 |U03JDNMQDKN|:
 Gotcha! Thanks for your answers, <@U03HBHWCB4N> and <@U03DMQBFPH8>. I really enjoy reading through the conversations going on here.
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 Although from prior experience I can say that what that toasts are tricky to work with. The one you're seeing in iOS 16 is nice because it's using a deliberate "x" close button so people can dismiss the UI and it knows the process takes long enough that the toast won't magically disappear in 1 sec making it impossible to read or interact with
 
 |U03JDNMQDKN|:
 So it's not disappearing automatically after the batch edit has completed? I need to try it myself, I guess…
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 It is disappearing automatically after the batch edit completes, but the reason it appears in the first place is that batch edits take time so it's appropriate for this context
 
 --- 
 > ####  In the "Explore navigation design for iOS" session there is an example of a "Profile" Tab which I've seen several apps using, but others like f.e. the Appstore uses Profile as button in the top-right side. Does that depend on the importance of such a Profile screen ? in other words, What makes something to be a "tab-worthy" ?
 
 
-|U03HBHWCB4N|:
+|Sarah M - Design Evangelist|:
 Great question, <@U03J1TN6WBD>. This is a judgement call based off of the importance of the profile. In many cases, the profile is not that important to the apps main functionality and it isn’t needed as a tab bar item.
 
-|U03HBHWCB4N|:
+|Sarah M - Design Evangelist|:
 When considering what should be a tab, think of your apps menu of options. When tabs are designed well, they tell a story at a glance about what your app can do and how people can use it. Profile tends to be less important in the scheme of things.
 
-|U03HBHWCB4N|:
+|Sarah M - Design Evangelist|:
 And just because you have tabs to use, doesn’t mean you have to use them all. Sometimes an app will feel more approachable if the tabbed navigation is simplified
 
-|U03E0DNA1JM|:
+|Adam H (no title)|:
 Agree with <@U03HBHWCB4N>. Also, if the user needs to access the Profile content regularly and you don’t want to place a profile button in the nav bar of every tab, a profile tab may be a better option.
 
 |U03HMCT187R|:
@@ -2664,25 +2665,25 @@ Side note I wish the Updates tab were restored in App Store, I check for app upd
 > ####  Another "heated" topic: where to put the X/close/cancel button - top left or top right? Are there really no guidelines about it? Confuses the hell out me (as a user and developer)
 
 
-|U03HWRCNBLH|:
+|Majo C - Design Evangelist|:
 <@U03JRNE4KJL> I totally understand how this could be confusing. You’re right, top right accessories are used for the main actions. But in the case of Modals there might be other resources more suitable - like buttons - to convey important actions. So Close takes the top right place.
 I’d say that prioritization of the actions on screen are key here, once you have a clear understanding - you could decide what’s the best pattern to follow.
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 <@U03JRNE4KJL> a bit late but your question is answered here: <https://wwdc22.slack.com/archives/C03H77GM1NW/p1654807862947179>
 
 --- 
 > ####  It struck me that tab bars and navigation bars are, at least in principle, identical to the original iPhone interaction paradigm. I’m wondering what the biggest difference you’ve seen in navigation is, since that first iPhone?
 
 
-|U03HBHWCB4N|:
+|Sarah M - Design Evangelist|:
 I love this question. I wish I had the time to answer more thoroughly. Here are some thoughts about tab bars and navigation bars: these components and interaction patterns clearly resonated with people. Maybe that was luck, maybe it’s a pattern that reflected our natural understanding of how things are organized and arranged already in the world around us. But they have evolved and modernized while staying true to what ‘just worked’ originally. As people’s comfort with apps grow, new patterns emerge to support new complexity such as sidebar being a solution specific to a new device and form factor
 
 --- 
 > ####  Thank you for such an amazing WWDC! I definitely learned a lot this week. One last question from me: what are some books/resources that you would recommend every designer to read for design guidance, creative inspiration, best practices, etc (besides Apple's HIG, of course)?
 
 
-|U03DMQBFPH8|:
+|Linda D - Design Evangelist|:
 For me:
 • <https://www.goodreads.com/book/show/9386.Free_Play|Free Play: Improvisation in Life and Art> – Not specific to UX but this has really helped me unblock myself creatively 
 • <https://www.goodreads.com/book/show/111113.Interaction_of_Color|Interaction of Color by Josef Albers >– Great color theory resource
@@ -2693,21 +2694,21 @@ For me:
 > ####  I lost the description of Stickers and Sticker packs from HIG. Where can I find them?
 
 
-|U03HBJXV0TY|:
+|Mike S - from Design Evangelism (Apple)|:
 <@U03HVBUV0KY> This will be coming back soon!
 
 --- 
 > ####  I have heavy use of swipe buttons on different rows of a "tree control". (TableView with lots of different cell types).  I've not found any recent writing on swipe button discoverability but watching people, _average users_ don't seem to explore to see if swipes are available on lists.   Any suggestions on affordances or onboarding approaches? I've thought about an initial animation of sliding things over enough for a button to _peek_ through.
 
 
-|U03HBHWCB4N|:
+|Sarah M - Design Evangelist|:
 Since swipe actions are more for power users, we always recommend that they are _also_ exposed in the detail view. For example, if there’s a delete action on your table cell, make sure there’s a delete action in a toolbar, navigation bar or in-line within the secondary view.
 
 --- 
 > ####  Hi, I really enjoyed the session on the new iPad navigation bar for document-based apps. I just did a lab to explore this further - one of the suggestions was to adopt a layout/hierarchy similar to the Notes app.   I wanted to ask if there is any API for the file explorer (lists and grid view) that the Notes app uses. I would like to adopt this in a sidebar as well, and move my document-based app away from a tab controller. Thanks.
 
 
-|U03HBHWCB4N|:
+|Sarah M - Design Evangelist|:
 Hi <@U03JGS1CE2H>, thank you for the question, I’m not sure about an API specifically (I’m just a designer!). But here are two resources from the session side that may be helpful for you:
 1. The session Designed for iPad, which dives deep into the design for Sidebar 
 <https://developer.apple.com/wwdc20/10206>
@@ -2715,5 +2716,5 @@ Hi <@U03JGS1CE2H>, thank you for the question, I’m not sure about an API speci
 2. This year’s session about Desktop Class iPad apps which covers some tips for the new toolbar design
 <https://developer.apple.com/wwdc22/10009>
 
-|U03HBHWCB4N|:
+|Sarah M - Design Evangelist|:
 Just realized you referenced the second video in your message, it’s been a long week :sweat_smile:

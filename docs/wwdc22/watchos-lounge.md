@@ -1,5 +1,6 @@
 # watchos-lounge QAs
-#### by [FeeTiki](https://twitter.com/FeeTiki)
+### Lounge Contributors
+
 ---
 
 --- 

@@ -1,5 +1,6 @@
 # arkit-realitykit-usdz-lounge QAs
-#### by [FeeTiki](https://twitter.com/FeeTiki)
+### Lounge Contributors
+
 ---
 
 --- 
