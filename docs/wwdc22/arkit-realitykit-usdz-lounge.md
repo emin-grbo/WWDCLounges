@@ -1,5 +1,9 @@
 # arkit-realitykit-usdz-lounge QAs
-#### by [FeeTiki](https://twitter.com/FeeTiki)
+### Lounge Contributors
+#### [pol-piella](https://github.com/pol-piella)
+#### [roblacl@github](https://github.com/roblack) / [roblacl@twitter](https://twitter.com/emin_ui)
+#### [shirblc](https://github.com/shirblc)
+#### [tikimcfee](https://github.com/tikimcfee)
 ---
 
 --- 

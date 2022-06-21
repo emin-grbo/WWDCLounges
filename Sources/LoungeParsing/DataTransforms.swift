@@ -51,9 +51,7 @@ struct ChannelWriter {
     let channelSource: ParsableChannel
     let usermapReader: UsermapReader
     
-    func write() -> ParsableChannel {
-        print("Handling channel messages: \(channelSource.channel.name)")
-        
+    func buildLoungeMarkdown() -> ParsableChannel {
         channelSource.root = channelSource.channel.messages
             .filter { isMessageIncluded($0) }
             .reduce(into: channelSource.root) { partialResult, message in

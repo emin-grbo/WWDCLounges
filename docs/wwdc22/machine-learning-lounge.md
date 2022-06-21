@@ -1,7 +1,12 @@
 # machine-learning-lounge QAs
-#### by [shirblc](https://github.com/shirblc)
+### Lounge Contributors
+#### [pol-piella](https://github.com/pol-piella)
+#### [roblacl@github](https://github.com/roblack) / [roblacl@twitter](https://twitter.com/emin_ui)
+#### [shirblc](https://github.com/shirblc)
+#### [tikimcfee](https://github.com/tikimcfee)
 ---
 
+--- 
 > ####  When training an Object Detection Model in Create ML, is there a way to take automatic snapshots to ensure that there is a record of how the model is performing throughout iterations as opposed to having to take manual snapshots to do so?
 
 

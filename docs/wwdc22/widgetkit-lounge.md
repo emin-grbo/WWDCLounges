@@ -1,7 +1,12 @@
 # widgetkit-lounge QAs
-#### by [shirblc](https://github.com/shirblc)
+### Lounge Contributors
+#### [pol-piella](https://github.com/pol-piella)
+#### [roblacl@github](https://github.com/roblack) / [roblacl@twitter](https://twitter.com/emin_ui)
+#### [shirblc](https://github.com/shirblc)
+#### [tikimcfee](https://github.com/tikimcfee)
 ---
 
+--- 
 > ####  Is AccessoryWidgetBackground supported for the system small, medium and large widgets to give them a transparant background?
 
 

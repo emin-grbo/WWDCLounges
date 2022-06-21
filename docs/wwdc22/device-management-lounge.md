@@ -1,7 +1,12 @@
 # device-management-lounge QAs
-#### by [shirblc](https://github.com/shirblc)
+### Lounge Contributors
+#### [pol-piella](https://github.com/pol-piella)
+#### [roblacl@github](https://github.com/roblack) / [roblacl@twitter](https://twitter.com/emin_ui)
+#### [shirblc](https://github.com/shirblc)
+#### [tikimcfee](https://github.com/tikimcfee)
 ---
 
+--- 
 > ####  Does the given workflow of enabling Enrollment SSO also work with Automated Device Enrollment or will this be a User Enrollment feature only?
 
 

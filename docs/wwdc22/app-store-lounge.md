@@ -1,7 +1,12 @@
 # app-store-lounge QAs
-#### by [shirblc](https://github.com/shirblc)
+### Lounge Contributors
+#### [pol-piella](https://github.com/pol-piella)
+#### [roblacl@github](https://github.com/roblack) / [roblacl@twitter](https://twitter.com/emin_ui)
+#### [shirblc](https://github.com/shirblc)
+#### [tikimcfee](https://github.com/tikimcfee)
 ---
 
+--- 
 > ####  There's a mention about source ID that "Advertisers can configure this," whether now it's the responsibility of Ad Networks or is it going to become advertisers' responsibility?
 
 
