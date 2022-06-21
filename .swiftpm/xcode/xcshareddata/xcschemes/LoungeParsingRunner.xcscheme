@@ -60,7 +60,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "YES"
-      customWorkingDirectory = "/Users/lugos/udev/githubClones/WWDCLounges/LoungeParsing"
+      customWorkingDirectory = "/Users/lugos/udev/githubClones/WWDCLounges"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
@@ -77,7 +77,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "WWDC22rawJSON FeeTiki"
+            argument = "WWDC2022rawJSON somerandomoutput asdasdasd"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>

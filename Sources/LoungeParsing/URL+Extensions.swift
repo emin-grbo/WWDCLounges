@@ -14,7 +14,7 @@ extension URL {
     
     func children() -> [URL] {
         do {
-            let found = try fileManager.contentsOfDirectory(
+            let found = try FileManager.default.contentsOfDirectory(
                 at: self,
                 includingPropertiesForKeys: nil,
                 options: [.skipsHiddenFiles]
