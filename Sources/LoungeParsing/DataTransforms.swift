@@ -69,7 +69,7 @@ struct ChannelWriter {
             .replacingOccurrences(of: "\n", with: "")
             .replacingOccurrences(of: #"<.*> asked"#, with: "", options: .regularExpression)
         
-        let messageMarkdown = "\n--- \n> #### \(formattedMessage)\n\n"
+        let messageMarkdown = "\n> #### \(formattedMessage)\n\n"
         partialResult.append(messageMarkdown)
         
         message.slackdumpThreadReplies?
