@@ -1,7 +1,7 @@
 # sirikit-and-shortcuts-lounge QAs
 ### Lounge Contributors
 #### [pol-piella](https://github.com/pol-piella)
-#### [roblacl@github](https://github.com/roblack) / [roblacl@twitter](https://twitter.com/emin_ui)
+#### [emin@github](https://github.com/roblack) / [emin@twitter](https://twitter.com/emin_ui)
 #### [shirblc](https://github.com/shirblc)
 #### [tikimcfee](https://github.com/tikimcfee)
 ---
