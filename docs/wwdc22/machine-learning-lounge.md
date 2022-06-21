@@ -1,6 +1,8 @@
 # machine-learning-lounge QAs
 ### Lounge Contributors
+#### [tikimcfee](https://github.com/tikimcfee)
 #### [shirblc](https://github.com/shirblc)
+#### [roblacl@github](https://github.com/roblack) / [roblacl@twitter](https://twitter.com/emin_ui)
 ---
 
 --- 
