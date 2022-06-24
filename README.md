@@ -3,17 +3,21 @@
 # WWDCLounges
 
 ### An archive of questions asked during WWDC Lounges. 🙌
+- To view, visit [LINK](https://roblack.github.io/WWDCLounges)
 - _Forks/suggestions welcomed 🙌_
 
-# WWDC 21
-For WWDC 2021 lounges we only saved 3, visit the pages [LINK](https://roblack.github.io/WWDCLounges)
+## WWDC 21
+For WWDC 2021 lounges we only saved 3
 
-# WWDC 22
-*[...in progress]*
+## WWDC 22
+This year we came prepared and saved all the lounges, thanx to the amasing efforts of: [@shirblc](https://github.com/shirblc), [@tikimcfee](https://github.com/tikimcfee) and [@pol-piella](https://github.com/pol-piella).
 
-This year we came prepared and saved all the lounges. It will take a bit to format all the questions and possibly deliver the info in a new way.
+### Wanna Share?
+Start the repo ⭐️ or share on your preffered social network 🙌
 
-In case you want to be notified on the progress, find me on [Twitter](https://twitter.com/emin_ui), or start the repo ⭐️
-
-# Contribute
+### Contribute
 see [contributing](https://github.com/roblack/WWDCLounges/blob/main/CONTRIBUTING.md)
+
+### Technical
+- to update the exec, run `./build_runner.sh` in the root
+- to run the parser, run `./LoungeParsingRunner` in the root
