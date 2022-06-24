@@ -3009,6 +3009,7 @@ That’s a very good suggestion &lt;@U03HELXCTGV&gt;! I have a soup of gesture r
 Any chance we can lower the duration of the lift gesture (without doing some ugly hacks)?</p>
 <p>|U03J20E1BPD|:
 I know the duration is reduced if it’s dragged with a pointer.</p>
+<hr />
 <blockquote>
 <h4 id="does-the-browser-style-navigation-barcontroller-manage-the-forward-navigation-stack-automatically-and-if-so-is-it-accessible-for-say-a-custom-swipe-forward-gesture-a-la-safari">Does the browser-style navigation bar/controller manage the forward navigation stack automatically, and if so, is it accessible for, say, a custom swipe forward gesture a la Safari?</h4>
 </blockquote>
@@ -3034,11 +3035,13 @@ the default is <code>chevron.backward</code> (which is left in LTR). If you spec
 so to sum up, to get File’s style, set 2 items with <code>chevron.backward</code> &amp; <code>chevron.forward</code> and manage your own stack (replacing content as necessary). Then you can reorganize when in compact to a more traditional UI</p>
 <p>|U03J4DRK4SY|:
 Awesome, thank you!</p>
+<hr />
 <blockquote>
 <h4 id="thanks-for-the-great-session-love-uikit-so-much-in-a-uikit-app-if-you-enable-mac-catalyst-with-the-mac-idiom-is-it-possible-to-opt-into-native-macos-swiftui-by-default-it-uses-the-ios-style-for-form-for-example-which-isnt-ideal-when-youre-building-ui-thatll-only-be-used-in-your-mac-app-thanks">Thanks for the great session! Love UIKit so much. In a UIKit app if you enable Mac Catalyst with the Mac idiom, is it possible to opt into native macOS SwiftUI? By default it uses the iOS style for Form for example which isn't ideal when you're building UI that'll only be used in your Mac app. Thanks!</h4>
 </blockquote>
 <p>|U03HB0D5W22|:
 No, you can either use SwiftUI in native macOS (AppKit) mode, or Catalyst (UIKit) mode, but not both.</p>
+<hr />
 <blockquote>
 <h4 id="thank-you-for-such-a-great-improvments-as-of-ios-15-when-youre-using-estimated-size-of-nscollectionlayoutsections-boundarysupplementaryitems-you-cant-simultaneously-use-its-visibleitemsinvalidationhandler-properly-does-that-fixed-in-ios-16">Thank you for such a great improvments! As of iOS 15, when you<code>re using .estimated() size of NSCollectionLayoutSection</code>s boundarySupplementaryItems you can`t simultaneously use its visibleItemsInvalidationHandler properly. Does that fixed in iOS 16?</h4>
 </blockquote>
@@ -3048,6 +3051,7 @@ Hi, we still don’t support mutating items via <code>visibleItemsInvalidationHa
 Probably a 1-1 lab might be better for this question.</p>
 <p>|U03J223TNSE|:
 Thank you! 1-1 lab sounds good</p>
+<hr />
 <blockquote>
 <h4 id="will-multiple-windows-be-supported-in-ios-right-now-we-need-to-use-uikit-lifecycle-if-we-want-to-show-hud-that-overlays-the-entire-app-for-example-httpswwwfivestarsblogarticlesswiftui-windowshttpswwwfivestarsblogarticlesswiftui-windows">Will multiple windows be supported in iOS? Right now we need to use UIKit lifecycle if we want to show HUD that overlays the entire app. For example: <a href="https://www.fivestars.blog/articles/swiftui-windows/|https://www.fivestars.blog/articles/swiftui-windows/">https://www.fivestars.blog/articles/swiftui-windows/|https://www.fivestars.blog/articles/swiftui-windows/</a></h4>
 </blockquote>
@@ -3055,6 +3059,7 @@ Thank you! 1-1 lab sounds good</p>
 Hi there, do you mean supported in <em>SwiftUI</em>? I think this might be a better question for the &lt;#C03HX19UNCQ|&gt;.</p>
 <p>|U03JMMN8659|:
 Hi &lt;@U03HELXCTGV&gt;, thank you, yes you're right</p>
+<hr />
 <blockquote>
 <h4 id="wed-like-to-improve-our-app-framework-to-have-a-better-desktop-class-experience-for-that-wed-like-to-utilize-uicontextmenuinteraction-and-the-new-uieditmenuinteraction-how-should-we-decide-where-to-use-one-or-the-other-can-context-menus-on-ipados-be-presented-in-place-like-on-macos-without-a-targeted-preview">We'd like to improve our app &amp; framework to have a better desktop-class experience. For that, we'd like to utilize <code>UIContextMenuInteraction</code> and the new <code>UIEditMenuInteraction</code>. How should we decide where to use one or the other? Can context menus on iPadOS be presented "in place", like on macOS, without a targeted preview?</h4>
 </blockquote>
@@ -3072,6 +3077,7 @@ Anyway, thank you both for taking the time to answer my question!</p>
 We do not allow for programmatic activation of context menus, and only for the lightweight edit menu.</p>
 <p>|U03JRN827HN|:
 Got it. Thank you for clarifying this!</p>
+<hr />
 <blockquote>
 <h4 id="in-ios-15-compositional-layout-with-orthogonal-scrolling-behaviour-with-a-single-section-in-non-full-screen-size-also-scrolls-vertically-what-is-the-correct-way-to-prevent-vertical-scrolling-for-single-horizontal-section">In iOS 15, compositional layout with orthogonal scrolling behaviour with a single section in non-full screen size also scrolls vertically, what is the correct way to prevent vertical scrolling for single horizontal section?</h4>
 </blockquote>
@@ -3079,6 +3085,7 @@ Got it. Thank you for clarifying this!</p>
 If it is the outer (collection) view that is scrolling, you can set <code>alwaysBounceVertical = false</code> on it to prevent the scrolling. However if it is just a single section you may be better of not using an orthogonal section but just a horizontally scrolling collection view. This might be a great question to discuss in the labs later this week to find a solution that works best for you.</p>
 <p>|U03JRQ81NEL|:
 Thanks, other solution we tried to go back with the flow layout but we then loose the nice things about the declarative relation as in compositional layout.</p>
+<hr />
 <blockquote>
 <h4 id="in-new-uicalendarview-is-it-possible-to-change-the-layout-like-in-the-ios-calender-app">In new UICalendarView, is it possible to change the layout? Like in the iOS Calender app?</h4>
 </blockquote>
@@ -3086,6 +3093,7 @@ Thanks, other solution we tried to go back with the flow layout but we then loos
 That isn’t possible at the moment. Please file a feedback for us if this is something you’d like to see us add in the future.</p>
 <p>|U03JRQ81NEL|:
 Sure, thanks.</p>
+<hr />
 <blockquote>
 <h4 id="since-setvalueforkey-on-uidevice-is-not-longer-supported-to-force-orientation-is-there-are-step-by-step-explanation-of-how-to-force-landscape-orientation-for-1-uiviewcontroller-only">Since setValue:forKey: on UIDevice is not longer supported to force orientation. Is there are step by step explanation of how to force landscape orientation for 1 UIViewController only?</h4>
 </blockquote>
@@ -3100,6 +3108,7 @@ Thanks, I somehow missed <code>attemptRotationToDeviceOrientation</code> so I’
 <p>|U03JEKFMT4Z|:
 Hey &lt;@U03JRR4R3CY&gt; we have also such a button and the same problem now. After the button press we support that the user can rotate back with a physical orientation change. It's not a nice solution in my opinion, but it seems to work to temporarily override supportedInterfaceOrientation, call attemptRotationToDeviceOrientation() and then reset supportedInterfaceOrientation to all normally allowed orientations again.</p>
 <p>I started making a prototype here. Maybe it's useful for you too.</p>
+<hr />
 <blockquote>
 <h4 id="is-there-a-way-to-customize-the-colors-of-the-chevron-thats-shown-in-the-uinavigationbar-when-returning-a-uimenu-in-the-new-titlemenuprovider-function-on-uinavigationitem">Is there a way to customize the colors of the chevron that’s shown in the UINavigationBar when returning a UIMenu in the new titleMenuProvider function on UINavigationItem?</h4>
 </blockquote>
@@ -3107,6 +3116,7 @@ Hey &lt;@U03JRR4R3CY&gt; we have also such a button and the same problem now. Af
 The chevron will adapt automatically for light/dark mode, but there's no way to specify custom colors. If you feel that this is necessary for your app, please file a feedback report!</p>
 <p>|U03HZ4EJJ05|:
 Ouch, that’s unfortunate! But thanks for answering my question :pray:</p>
+<hr />
 <blockquote>
 <h4 id="the-session-mentioned-nswindowcollectionbehavior-but-how-will-stage-manager-interact-with-nswindowlevel-more-specifically-if-i-have-a-window-in-my-app-that-i-globally-float-above-all-other-windows-by-setting-the-level-to-nswindowlevelscreensaver-will-that-window-still-appear-in-stage-manager">The session mentioned NSWindow.collectionBehavior, but how will Stage Manager interact with NSWindow.level? More specifically, if I have a window in my app that I globally float above all other windows by setting the level to NSWindow.Level.screenSaver, will that window still appear in Stage Manager?</h4>
 </blockquote>
@@ -3114,6 +3124,7 @@ Ouch, that’s unfortunate! But thanks for answering my question :pray:</p>
 Window levels still work the same way in Stage Manager, in that they’ll impact the z-ordering of your window with respect to other windows on screen. Otherwise, its relationship to other windows in center stage (like whether it’s considered “floating” or “auxiliary”) is dictated by its collection behavior.</p>
 <p>|U03JHTBKY59|:
 Thank you Jeff!</p>
+<hr />
 <blockquote>
 <h4 id="id-really-love-to-learn-some-more-about-extensionkitextensionframework-and-extension-uis-are-there-any-sessions-that-cover-these-and-if-not-what-would-be-a-good-loungelab-to-ask">I'd really love to learn some more about ExtensionKit/ExtensionFramework and extension UIs. Are there any sessions that cover these, and if not, what would be a good lounge/lab to ask?</h4>
 </blockquote>
@@ -3141,6 +3152,7 @@ Hi &lt;@U03JKSLQ7J6&gt;,</p>
 There is some additional extension point configuration required. The "Host" app must declare an extension point by installing am <code>.appextensionpoint</code> file in the app bundle's <code>Extensions</code> directory. This is a minimal extension point declaration file:</p>
 <p>|U03JKSLQ7J6|:
 &lt;@U03JNQ1ABFC&gt; oh wow this is incredibly helpful, I’m really excited to check this out!</p>
+<hr />
 <blockquote>
 <h4 id="if-i-have-an-app-thats-primarily-written-in-appkit-is-there-any-way-to-use-swiftui-to-define-toolbar-items-from-within-an-appkit-window-or-does-the-window-itself-need-to-be-created-by-swiftui-too-for-that-to-work">If I have an app that's primarily written in AppKit, is there any way to use SwiftUI to define toolbar items from within an AppKit window? Or does the window itself need to be created by SwiftUI too for that to work?</h4>
 </blockquote>
@@ -3150,6 +3162,7 @@ You can attach your own NSView hierarchies to NSToolbarItems. Within these, you 
 It is correct that the SwiftUI <code>.toolbar()</code> modifier only works with windows that are created and managed by SwiftUI. But, as Chris said, you can bring SwiftUI content into your <code>NSToolbar</code> using a hosting view.</p>
 <p>|U03HMDFMVNK|:
 Got it, thanks!</p>
+<hr />
 <blockquote>
 <h4 id="assuming-i-am-not-doing-anything-custom-or-low-level-involving-metal-are-there-any-appkit-specific-apis-to-be-aware-of-to-fully-support-promotion-displays">Assuming I am not doing anything custom or low-level involving Metal, are there any AppKit-specific APIs to be aware of to fully support ProMotion displays?</h4>
 </blockquote>
@@ -3191,6 +3204,7 @@ macOS 12 added these new APIs to NSScreen.</p>
 If you are managing your own refresh timer, these can be helpful.</p>
 <p>|U03HHJAKKA7|:
 But if you’re just doing normal AppKit stuff, you don’t need to take any action. NSAnimation functionality, for example, will “do the right thing.”</p>
+<hr />
 <blockquote>
 <h4 id="in-jeffs-appkit-session-he-mentioned-heightofrow-timing-will-be-different-in-ventura-for-dynamic-row-heights-does-it-still-work-with-auto-layout-auto-resized-row-heights-i-dont-implement-heightofrow">In Jeff’s AppKit session, he mentioned heightOfRow  timing will be different in Ventura for dynamic row heights. Does it still work with auto-layout auto-resized row heights? I don’t implement heightOfRow.</h4>
 </blockquote>
@@ -3198,6 +3212,7 @@ But if you’re just doing normal AppKit stuff, you don’t need to take any act
 Row height estimation as discussed in the session only apply to NSTableViews whose delegate implements heightOfRow. Auto-layout based rows will continue work as before.</p>
 <p>|U03JENQA0TB|:
 Excellent. Thanks. Sorry for the double post.</p>
+<hr />
 <blockquote>
 <h4 id="hi-again-another-question-that-myke-said-would-be-best-for-this-venue-still-working-with-swiftui-xcode-134-under-macos-monterey-tried-to-restrict-orientation-for-deployed-app-to-iphoneportrait-orientation-by-using-the-check-box-in-generaldeployment-orientation-but-it-still-tries-to-work-when-going-to-landscape-leftright-in-the-process-it-refuses-to-scroll-in-those-orientations-and-when-i-return-to-portrait-the-headersui-elements-are-scrunched-this-is-not-solved-until-i-send-the-app-to-background-and-open-the-app-again-any-ideas-on-how-to-tackle-this-would-be-appreciated-thanks">Hi again! Another question that Myke said would be best for this venue. Still working with SwiftUI, Xcode 13.4 under macOS Monterey: tried to restrict orientation for deployed app to iPhone/portrait orientation by using the check box in GeneralDeployment orientation, but it still tries to work when going to landscape left/right. In the process, it refuses to scroll in those orientations, and when I return to portrait the headers/UI elements are “scrunched.” This is not solved until I send the app to background, and open the app again. Any ideas on how to tackle this would be appreciated, thanks!</h4>
 </blockquote>
@@ -3243,6 +3258,7 @@ I was using Xcode 14.</p>
 And for Feedback, there's a handy page here: <a href="https://developer.apple.com/bug-reporting/">https://developer.apple.com/bug-reporting/</a></p>
 <p>|U03J21EKNSE|:
 Thank you: incentive to dare use a beta version of Xcode (another first time!)</p>
+<hr />
 <blockquote>
 <h4 id="does-nstableview-support-dynamic-row-heights-for-multi-column-tables-when-i-tried-that-if-i-had-multiple-columns-it-didnt-resize-the-row-to-the-tallest-cells-content">Does NSTableView support dynamic row heights for multi-column tables? When I tried that, if I had multiple columns, it didn't resize the row to the tallest cell's content.</h4>
 </blockquote>
@@ -3250,11 +3266,13 @@ Thank you: incentive to dare use a beta version of Xcode (another first time!)</
 Automatic row height rows should size to fit the tallest cell's content. If that's not working for you, we'd love you to write a feedback, ideally with a sample project.</p>
 <p>|U03JENQA0TB|:
 Ok will do. Thanks.</p>
+<hr />
 <blockquote>
 <h4 id="how-can-nswindowcollectionbehavior-be-set-in-a-swiftui-app-and-if-it-can-be-does-that-apply-to-the-entire-app-or-only-a-specific-windowgroupdocumentgroup">How can NSWindow.collectionBehavior be set in a SwiftUI app? And if it can be, does that apply to the entire app or only a specific WindowGroup/DocumentGroup?</h4>
 </blockquote>
 <p>|U03HB0LK3FY|:
 There isn’t currently a way to request different collection behaviors from SwiftUI — so that would be an excellent enhancement request in Feedback Assistant!</p>
+<hr />
 <blockquote>
 <h4 id="is-there-a-way-to-present-the-menu-of-a-uieditmenuinteraction-thats-associated-with-an-instance-of-uitextinput-im-working-on-a-text-editor-where-im-programmatically-showing-the-menu-previously-i-could-use-uimenucontrollersharedshowmenufromrect-whats-the-equivalent-with-uieditmenuinteraction-to-show-a-menu-with-all-the-standard-editing-actions">Is there a way to present the menu of a UIEditMenuInteraction that’s associated with an instance of UITextInput? I’m working on a text editor where I’m programmatically showing the menu. Previously I could use <code>UIMenuController.shared.showMenu(from:rect:)</code>. What’s the equivalent with UIEditMenuInteraction to show a menu with all the standard editing actions?</h4>
 </blockquote>
@@ -3272,6 +3290,7 @@ Is this the recommended way of doing it?</p>
 You should install your own UIEditMenuInteraction; if nothing is showing when you call <code>presentEditMenu(with:)</code> , then there’s a good chance that nothing is responding YES to canPerformAction:withSender: so I’d verify that your actions can be performed.</p>
 <p>|U03HB0D4JLE|:
 Also, if you <em>just</em> want to add/remove/change some menu items for the edit menu that comes up on a <code>UITextInput</code> like text view etc., you can override <code>buildMenuWithBuilder:</code> on any suitable view controller in your hierarchy and use <code>UIMenuBuilder</code> to change the menu.</p>
+<hr />
 <blockquote>
 <h4 id="xcode-1341-m1-max-macbook-pro-macos-124-a-pure-swiftui-app-run-on-my-mac-mac-catalyst-choosing-a-signinwithapplebutton-added-in-a-view-crashes-the-app-with-_authenticationservices_swiftuisigninwithapplebuttonswift303-fatal-error-attempting-to-present-asauthorizationcontroller-from-a-swiftui-view-not-in-a-hierarchy-this-should-not-be-possible-please-file-feedback-anyone-ware-of-this-and-what-might-be-done-to-fix-this">Xcode 13.4.1 / M1 Max MacBook Pro / macOS 12.4 a pure SwiftUI app run on "My Mac (Mac Catalyst)"   choosing a SignInWithAppleButton() added in a view crashes the app with:  _AuthenticationServices_SwiftUI/SignInWithAppleButton.swift:303: Fatal error: Attempting to present ASAuthorizationController from a SwiftUI view not in a hierarchy. This should not be possible, please file feedback.  Anyone ware of this and what might be done to fix this?</h4>
 </blockquote>
@@ -3310,6 +3329,7 @@ Based on the crash backtrace, this does seem to be a bug with the SignInWithAppl
 <p>|U03JH6HKC66|:
 Thank you.
 I am happy you were able to reproduce the bug so i am sure it’s not something i am doing wrong. Looking forward for a fix / updates.</p>
+<hr />
 <blockquote>
 <h4 id="does-uiframeworks-mean-not-swift-ui-is-this-code-for-non-swiftui-uiframeworks">Does "UIFrameworks" mean not Swift UI? Is this code for non-SwiftUI UIFrameworks?</h4>
 </blockquote>
@@ -3318,6 +3338,7 @@ If this is a pure SwiftUI question you should use the SwiftUI lounges. If this i
 <p>|U03JH1ULBCH|:
 K. Point I am making is general, that maybe using "UIFrameworks" as a way of saying "Not Swift UI" is not clear. I think UIKit could get its own room (IDK what AppKit people would want).</p>
 <p>Apple is probably going to be making this distinction for a while so maybe think about what you call "UIFrameworks but not SwiftUI"</p>
+<hr />
 <blockquote>
 <h4 id="starting-from-ios-16-buttons-on-the-screen-dont-receive-touches-when-a-uimenucontroller-nay-a-menu-of-a-uieditmenuinteraction-is-presented-when-attempting-to-select-a-button-on-the-screen-thats-outside-of-the-menu-the-menu-will-be-dismissed-but-the-selected-button-will-not-receive-the-touches-this-is-a-change-from-ios-15-is-this-intentional-or-a-bug-in-beta-1-the-behavior-in-ios-16-poses-a-problem-in-my-app-that-lets-users-select-some-text-in-which-case-the-uimenucontroller-may-be-shown-and-act-on-that-selected-text-by-selecting-a-button-on-the-screen">Starting from iOS 16, buttons on the screen don’t receive touches when a UIMenuController (nay, a menu of a UIEditMenuInteraction) is presented. When attempting to select a button on the screen that’s outside of the menu, the menu will be dismissed but the selected button will not receive the touches. This is a change from iOS 15. Is this intentional or a bug in beta 1?  The behavior in iOS 16 poses a problem in my app that lets users select some text, in which case the UIMenuController may be shown, and act on that selected text by selecting a button on the screen.</h4>
 </blockquote>
@@ -3331,6 +3352,7 @@ Yeah np! And if you find any issues, please feel free to file a feedback for us 
 Filing feedback on issues like this is very helpful!</p>
 <p>|U03HZ4EJJ05|:
 It’s filed as FB10080311</p>
+<hr />
 <blockquote>
 <h4 id="is-the-new-uihostingconfiguration-bound-only-to-collection-and-table-view-cells-or-is-this-api-designed-to-be-used-in-other-places-where-i-might-inject-swiftui-views-in-the-middle-of-custom-uikit-view-hierarchies">Is the new <code>UIHostingConfiguration</code> bound only to collection and table view cells? Or is this API designed to be used in other places where I might "inject" SwiftUI views in the middle of custom UIKit view hierarchies?</h4>
 </blockquote>
@@ -3342,6 +3364,7 @@ Thank you! So if I’m vending a mostly UIKit-based framework and I want my user
 <code>UIHostingController</code> is the most general-purpose API to embed SwiftUI inside your UIKit app. Because it is a view controller, you can use it anywhere you can present or embed a view controller in UIKit, and all SwiftUI features are supported inside of it (including ones that require a connection to the view controller hierarchy in UIKit). UIHostingController also has some new features in iOS 16, so be sure to watch the “Use SwiftUI with UIKit” video to learn more about all of this later this week.</p>
 <p>|U03JRN827HN|:
 Noted, I’ll be sure to do so. Thanks again for answering my questions!</p>
+<hr />
 <blockquote>
 <h4 id="most-sf-symbols-appear-to-have-transparent-background-colours-in-appkit-is-there-a-way-to-get-a-white-background-colour-so-that-coloured-symbols-look-good-on-nspopupbuttons-right-now-when-the-selection-is-hovering-over-an-nsmenuitem-with-a-coloured-sf-symbol-for-the-image-the-symbol-colour-doesnt-change-to-make-it-viewable-for-example-if-your-accent-colour-is-yellow-and-the-nsmenuitems-image-is-yellow-it-basically-disappears-from-view-yellow-on-yellow">Most SF Symbols appear to have transparent background colours. In AppKit, is there a way to get a white background colour so that coloured symbols look good on NSPopupButtons? Right now when the selection is hovering over an NSMenuItem with a coloured SF Symbol for the image, the symbol colour doesn't change to make it viewable. For example, if your accent colour is yellow and the NSMenuItem's image is yellow, it basically disappears from view (yellow on yellow).</h4>
 </blockquote>
@@ -3354,6 +3377,7 @@ Excellent. I’ll submit feedback for it. When setting to multi-coloured SF Symb
 Here’s my popup button example with SF Symbols.</p>
 <p>|U03HEM646TX|:
 <code>NSMenu</code> does have a delegation mechanism that can tell you when an item has been highlighted. Try implementing <code>-menu:willHighlightItem:</code>, and altering the highlighted item. Since these are symbols, you could use <code>-[NSImage imageWithSymbolConfiguration:]</code> to get a new image with a different configuration, and set that to the highlighted item’s <code>image</code> property. Just be sure to restore the original image back to the previously-highlighted menu item and when the menu closes (<code>-menuDidClose:</code>).</p>
+<hr />
 <blockquote>
 <h4 id="is-it-possible-to-access-swiftui-environmentmodifiers-inside-uiviewrepresentables">Is it possible to access swiftui environment/modifiers inside UIViewRepresentables?</h4>
 </blockquote>
@@ -3365,6 +3389,7 @@ has an <code>environment</code> property you can read from.</p>
 Or you can use <code>@Environment</code> in your representable struct.</p>
 <p>|U03JRQ81NEL|:
 Thanks :blush: </p>
+<hr />
 <blockquote>
 <h4 id="is-there-a-known-issue-with-keyboard-shortcuts-in-uitextview-where-if-you-type-command-b-then-press-b-straight-after-the-b-key-press-is-not-registered-its-when-the-keystroke-is-the-same-letter-as-the-previous-command-key-combination-i-thought-it-was-our-bug-originally-but-havent-made-any-headway-into-whats-causing-it">Is there a known issue with keyboard shortcuts in UITextView where if you type command-B then press ‘B’ straight after, the ‘B’ key press is not registered? (It’s when the keystroke is the same letter as the previous command key combination.)  I thought it was our bug originally, but haven’t made any headway into what’s causing it.</h4>
 </blockquote>
@@ -3379,6 +3404,7 @@ This is an issue in iOS 15 (not tried in 16). Definitely not still holding comma
 Unfortunately I’m not able to reproduce this in a UITextView with allowsEditingTextAttributes enabled. Hitting ⌘B toggles boldface on the selected text, then hitting B replaces the now-bold text into a “b”.</p>
 <p>|U03HELXATD3|:
 If you’re able to reproduce this in a sample app, and file a bug report with the report attached (and post the report here), that would help us investigate the issue further!</p>
+<hr />
 <blockquote>
 <h4 id="what-should-i-do-when-i-encounter-performance-issue-when-i-have-hundreds-of-cashapelayers-ink-strokes-inside-a-huge-uiscrollview-content-view-should-i-consider-rasterization-solutions-such-as-catiledlayer">What should I do when I encounter performance issue when I have hundreds of CAShapeLayers (ink strokes) inside a huge UIScrollView content view? Should I consider rasterization solutions such as CATiledLayer?</h4>
 </blockquote>
@@ -3449,6 +3475,7 @@ Hmm, I’m afraid I don’t have time right now to write a post. Is there a lab 
 I’m afraid not. A forum post is the best way to communicate with the Core Animation team.</p>
 <p>|U03HELXCTGV|:
 Yes, we have labs on Thursday and Friday. Make sure to sign up!</p>
+<hr />
 <blockquote>
 <h4 id="whats-the-simplest-way-to-edit-the-airdropped-files-thumbnail-and-filename-for-the-ios-sharesheet-is-there-an-updated-or-modern-best-practice-version-of-the-sample-code-httpsdeveloperapplecomlibraryarchivesamplecodesc2273introductionintrohtmlapple_refdocuiddts40013842httpsdeveloperapplecomlibraryarchivesamplecodesc2273introductionintrohtmlapple_refdocuiddts40013842">What's the simplest way to edit the AirDropped file's thumbnail and filename for the iOS sharesheet?  Is there an updated or modern best practice version of the sample code: <a href="https://developer.apple.com/library/archive/samplecode/sc2273/Introduction/Intro.html#//apple_ref/doc/uid/DTS40013842|https://developer.apple.com/library/archive/samplecode/sc2273/Introduction/Intro.html#//apple_ref/doc/uid/DTS40013842">https://developer.apple.com/library/archive/samplecode/sc2273/Introduction/Intro.html#//apple_ref/doc/uid/DTS40013842|https://developer.apple.com/library/archive/samplecode/sc2273/Introduction/Intro.html#//apple_ref/doc/uid/DTS40013842</a></h4>
 </blockquote>
@@ -3471,6 +3498,7 @@ let avc = UIActivityViewController(activityItemsConfiguration: aic)
 
 // present avc
 </code></pre>
+<hr />
 <blockquote>
 <h4 id="hi-how-can-i-change-some-properties-of-nswindow-such-as-the-titlebar-color-when-using-catalyst">Hi, how can I change some properties of NSWindow (such as the titlebar color) when using Catalyst?</h4>
 </blockquote>
@@ -3488,6 +3516,7 @@ Design-wise, on macOS we do generally prefer to use the standard toolbar/titleba
 It’s totally OK to go for something custom (we love creative designs!) but if you do, you’re also taking responsibility for those affordances.</p>
 <p>|U03HZ81AHCN|:
 &lt;@U03HB0LK3FY&gt; Thanks for the suggestion! In fact, I was trying to keep the titlebar in order to give the Catalyst app a more “macOS” feel, but without simulating the default appearance with custom labels, since it almost never looks quite the same as the system</p>
+<hr />
 <blockquote>
 <h4 id="i-saw-an-app-that-shows-the-multitasking-dots-at-the-top-of-the-screen-but-still-hides-the-reset-of-the-status-area-i-could-not-figure-out-how-to-do-that-do-you-have-a-suggestion-on-how-best-to-do-this">I saw an app that shows the multitasking dots at the top of the screen, but still hides the reset of the status area. I could not figure out how to do that. Do you have a suggestion on how best to do this?</h4>
 </blockquote>
@@ -3495,6 +3524,7 @@ It’s totally OK to go for something custom (we love creative designs!) but if 
 I think returning <code>true</code> from an override of <code>prefersStatusBarHidden</code> on a view controller in your app will achieve this effect.</p>
 <p>|U03J22P9WKH|:
 Ah, yes, that does it. Thank you!</p>
+<hr />
 <blockquote>
 <h4 id="uihostingconfiguration-question-i-was-expecting-onappear-calls-to-be-made-on-the-hosted-views-as-cells-move-on-screen-but-it-seems-that-they-line-up-with-i-assume-the-reused-cell-population-if-i-adjust-your-useswiftuiwithuikit-demo-to-increase-the-cell-counts-and-add-a-print-on-onappear-i-see-fewer-logs-than-i-would-expect-to-see-and-no-logging-once-i-scroll-through-all-of-the-content-curious-if-this-expected-behavior-before-or-a-function-of-this-being-beta">UIHostingConfiguration question - I was expecting onAppear calls to be made on the hosted Views as cells move on screen, but it seems that they line up with (I assume?) the reused cell population.  If I adjust your UseSwiftUIWithUIKit demo to increase the cell counts and add a print on onAppear I see fewer logs than I would expect to see.  And no logging once I scroll through all of the content.  Curious if this expected behavior before, or a function of this being beta?</h4>
 </blockquote>
@@ -3502,6 +3532,7 @@ Ah, yes, that does it. Thank you!</p>
 Great question, the intent is for <code>onAppear</code> used inside UIHostingConfiguration to behave like it does in a SwiftUI <code>List</code>, however it’s a known issue in the current iOS 16 beta that it isn’t called with the expected timing :thumbsup:</p>
 <p>|U03J1UU7HS7|:
 Fantastic, thank you!</p>
+<hr />
 <blockquote>
 <h4 id="i-would-like-to-allow-users-to-configure-command-keys-for-menus-in-my-app-however-i-have-not-found-a-way-to-change-the-command-keys-or-add-remove-menus-after-the-initial-builder-phase-occurs-via-the-appdelegate-as-a-test-i-built-my-menus-and-then-used-a-dispatch-after-to-remove-the-view-menu-after-4-seconds-im-reusing-the-same-builder-that-was-passed-in-however-nothing-happens-is-the-expected-is-there-a-way-to-update-the-command-keys-after-launch">I would like to allow users to configure command keys for menus in my app. However, I have not found a way to change the command keys (or add / remove  menus) after the initial builder phase occurs (via the AppDelegate). As a test, I built my menus, and then used a Dispatch after to remove the View menu after 4 seconds. I'm reusing the same builder that was passed in. However, nothing happens. Is the expected? Is there a way to update the command keys after launch?</h4>
 </blockquote>
@@ -3513,6 +3544,7 @@ awesome!</p>
 Also note that on macOS / Catalyst, it is best to avoid a dynamically changing menu bar structure.
 All items should be in the same location at all times, so they're easy to discover and their location is easy to remember.
 Instead of adding/removing items, use validation to disable items when they are not applicable.</p>
+<hr />
 <blockquote>
 <h4 id="catalyst-question-i-would-like-create-a-custom-cursor-that-is-dependent-on-settings-in-the-ui-that-only-works-inside-a-specific-view-eg-a-tool-normally-on-mac-that-would-be-done-with-an-nstrackingarea-since-uipointerinteraction-is-not-supported-on-mac-how-should-i-go-about-doing-this">Catalyst question: I would like create a custom cursor that is dependent on settings in the UI that only works inside a specific view (e.g., a tool). Normally on Mac, that would be done with an NSTrackingArea. Since UIPointerInteraction is not supported on Mac, how should I go about doing this?</h4>
 </blockquote>
@@ -3537,6 +3569,7 @@ If that's not expected, I can make a project + feedback.</p>
 This is definitely at least something we’d like to take a look at, so please file a feedback!</p>
 <p>|U03J22P9WKH|:
 FB10082348 submitted.</p>
+<hr />
 <blockquote>
 <h4 id="is-it-now-possible-to-create-custom-app-specific-extensions-that-are-not-pre-defined-by-apple-or-am-i-misreading-the-extensionkit-docs-if-this-is-possible-is-there-a-good-session-to-watch-this-week">Is it now possible to create custom app-specific extensions that are not pre-defined by Apple or am I misreading the ExtensionKit docs? If this is possible, is there a good session to watch this week?</h4>
 </blockquote>
@@ -3553,6 +3586,7 @@ Great news! This is something I'm excited for even if it only works with macOS.<
 Are these extensions App Store compatible?</p>
 <p>|U03JNQ1ABFC|:
 Yes.</p>
+<hr />
 <blockquote>
 <h4 id="probably-it-is-more-core-services-but-i-cant-find-anything-like-that-so-we-have-a-case-where-ipad-is-the-heart-of-a-system-or-rather-ipads-in-the-aircraft-cockpit-it-is-one-of-the-most-powerful-and-flexible-units-now-we-need-two-or-more-devices-to-communicate-pilot-co-pilot-cabin-crew-yet-regulators-have-very-specific-need-that-one-device-is-a-master-and-manages-synchronization-with-others-we-found-that-ipad-is-not-providing-things-like-services-eg-httpsoaprestsocket-server-that-would-be-running-no-matter-if-app-is-open-or-closed-pilots-are-using-many-apps-for-different-purposes-is-that-achievable-in-any-way-clients-would-love-to-see-ipad-only-solution-but-we-are-limited-now-to-use-windows-machine-acting-as-server-and-ipad-devices-are-just-clients-with-quite-similar-functionality">Probably it is more core services but I can't find anything like that, so: We have a case where iPad is the heart of a system. Or rather iPads. In the aircraft cockpit it is one of the most powerful and flexible units. Now - we need two or more devices to communicate (pilot, co-pilot, cabin crew...). Yet regulators have very specific need that one device is a master and manages synchronization with others.  We found that iPad is not providing things like services (e.g. http/soap/rest/socket server) that would be running no matter if app is open or closed (pilots are using many apps for different purposes) - is that achievable in any way?  Clients would love to see iPad-only solution but we are limited now to use windows machine acting as server and iPad devices are just clients (with quite similar functionality).</h4>
 </blockquote>
@@ -3570,6 +3604,7 @@ You might want to take a look at CoreBluetooth, as it explicitly allows an app t
 <p>This is <em>not</em> a recommendation for your application. Please contact developer relations to explore legal and other implications.</p>
 <p>|U03JELM0ZNV|:
 In case you're still checking your thread - talk to the folks at ditto.live who are ex-Realm engineers doing a <em>lot</em> of work with in-plane communications.</p>
+<hr />
 <blockquote>
 <h4 id="looks-great-i-assume-apps-that-already-have-a-more-overflow-menu-should-migrate-the-items-to-additionaloverflowitems-is-that-correct">Looks great! I assume apps that already have a More (overflow) menu should migrate the items to additionalOverflowItems. Is that correct?</h4>
 </blockquote>
@@ -3591,6 +3626,7 @@ That was what I was getting at. For apps with lots of commands, that would be he
 always helpful!</p>
 <p>|U03K11CE03T|:
 Will do. Excellent presentation, David. Thank you.</p>
+<hr />
 <blockquote>
 <h4 id="this-may-not-be-a-question-with-a-straightforward-answer-but-a-degree-of-consensus-in-the-developer-community-prior-to-the-current-beta-releases-has-been-that-using-swiftui-inside-catalyst-is-the-most-difficult-path-and-it-would-be-better-to-target-macos-natively-directly-with-swiftui-in-trying-to-give-the-best-desktop-class-experience-on-ipad-would-it-be-your-recommendation-to-using-a-native-swiftui-app-if-that-is-an-option-or-a-catalyst-app-with-swiftui-components">This may not be a question with a straightforward answer, but... A degree of consensus in the developer community prior to the current beta releases has been that using SwiftUI inside Catalyst is the most difficult path, and it would be better to target macOS natively directly with SwiftUI. In trying to give the best desktop-class experience on iPad, would it be your recommendation to using a native SwiftUI app, if that is an option, or a Catalyst app with SwiftUI components?</h4>
 </blockquote>
@@ -3611,6 +3647,7 @@ Oops, just saw this</p>
 What stood out for me in the What's New in SwiftUI session was the advances in Forms. Previously, Forms on macOS seemed to require some, platform specific additions to get nice looking layouts without using Catalyst. With iOS 16 and macOS 13, it looks like you can get great looking Form layouts with nearly the same SwiftUI views. Really nice!</p>
 <p>|U03J4D1FEP6|:
 Late to the party to see these additional replies. :slightly_smiling_face: My app code base is currently all UIKit, pretty tidy, ready to be modular and move to the next ideal UI architecture.</p>
+<hr />
 <blockquote>
 <h4 id="are-there-any-particular-reasons-that-you-can-reveal-for-why-theres-no-general-uihostingview-only-uihostingcontroller-whereas-appkit-has-nshostingview-available">Are there any particular reasons (that you can reveal) for why there’s no general UIHostingView, only UIHostingController, whereas AppKit has NSHostingView available?</h4>
 </blockquote>
@@ -3620,6 +3657,7 @@ This is intentional, because our architecture relies on a UIView being a part of
 This is partially touched on in Use SwiftUI with UIKit as well! <a href="https://developer.apple.com/wwdc22/10072">https://developer.apple.com/wwdc22/10072</a></p>
 <p>|U03J1UAEU4B|:
 Thank you!</p>
+<hr />
 <blockquote>
 <h4 id="will-swiftui-slowly-replace-uikit-im-surprised-that-there-is-still-a-lot-of-content-focused-on-uikit-this-year-this-video-is-mostly-about-uikit-code-and-i-was-wondering-how-i-can-implement-them-in-swiftui-like-the-editor-style-toolbar">Will SwiftUI slowly replace UIKit? I'm surprised that there is still a lot of content focused on UIKit this year. This video is mostly about UIKit code and I was wondering how I can implement them in SwiftUI, like the editor style toolbar?</h4>
 </blockquote>
@@ -3633,6 +3671,7 @@ To add to this, for a lot of developers this means a mix of UIKit and SwiftUI, b
 For the last bit of your question, there will be a couple SwiftUI talks later in the week that go into the new iPad features:
 <a href="https://developer.apple.com/videos/play/wwdc2022/110343/">https://developer.apple.com/videos/play/wwdc2022/110343/</a>
 <a href="https://developer.apple.com/videos/play/wwdc2022/10058">https://developer.apple.com/videos/play/wwdc2022/10058</a></p>
+<hr />
 <blockquote>
 <h4 id="is-there-any-reason-why-live-text-feature-is-not-supported-in-ios-keyboard-extensions-using-the-api-either-crashes-the-extension-or-just-prints-error-logs-depending-on-the-ios-version">Is there any reason why Live Text feature is not supported in iOS Keyboard extensions?  Using the API either crashes the extension or just prints error logs, depending on the iOS version.</h4>
 </blockquote>
@@ -3647,16 +3686,19 @@ In case you're interested about details of why it affects me and my team so much
 <p>&lt;@U03H31CU1C7&gt; sure. <em>FB10022377</em>
 There's no system diagnose, but you won't need it, cz there's a test project attached to the ticket.</p>
 <p>Thanks in advance.</p>
+<hr />
 <blockquote>
 <h4 id="for-uieditmenuinteraction-all-the-examples-in-the-sessions-showed-apppending-items-to-the-menu-is-it-possible-to-have-our-custom-items-at-the-beginning-or-even-mixed-in-with-the-suggested-ones-if-we-appropriately-shuffle-them-into-the-returned-menu">For UIEditMenuInteraction, all the examples in the sessions showed APPPENDING items to the menu. Is it possible to have our custom items at the beginning or even mixed in with the 'suggested' ones if we appropriately shuffle them into the returned menu?</h4>
 </blockquote>
 <p>|U03HELXCTGV|:
 You can! <code>suggestedActions</code> is just an array, so you can prepend to it, append to it, or just return a UIMenu with an entirely different set of children if you want.</p>
+<hr />
 <blockquote>
 <h4 id="what-sessions-can-we-watch-to-start-learning-more-about-live-activities-for-the-ios-home-screen">What sessions can we watch to start learning more about Live Activities for the iOS home screen?</h4>
 </blockquote>
 <p>|U03HW7TNB5F|:
 Please schedule a 1-1 lab and we will probably be able to better answer this question. Or come to our QA again tomorrow.</p>
+<hr />
 <blockquote>
 <h4 id="when-an-ipad-is-connected-to-a-low-dpi-external-monitor-will-apps-run-at-a-1x-scale-factor-with-1x-assets-used-or-will-they-stay-at-2x-with-some-sort-of-downscaling">When an iPad is connected to a low dpi external monitor, will apps run at a 1x scale factor with 1x assets used? Or will they stay at 2x with some sort of downscaling?</h4>
 </blockquote>
@@ -3668,6 +3710,7 @@ So you do not need to worry about providing 1x assets</p>
 Thanks!</p>
 <p>|U03HHJNTFM0|:
 Np!</p>
+<hr />
 <blockquote>
 <h4 id="for-uimenuelements-if-i-change-the-uimenuelementattributeshidden-attribute-while-its-visible-will-it-disappear">For UIMenuElements, if I change the UIMenuElementAttributesHidden attribute while it's visible, will it disappear?</h4>
 </blockquote>
@@ -3677,6 +3720,7 @@ Similarly, if I change the title/image, do they update if already visible?</p>
 No, it won't. The only way to update a visible menu is using <code>UIContextMenuInteraction.updateVisibleMenu()</code> if you're using <code>UIContextMenuInteraction</code> directly, or by setting the button's <code>menu</code> property to a new value if you're using a <code>UIButton</code>. Menus are copied when consumed by the system, so any instance you may be holding onto is no longer directly connected to what's visible.</p>
 <p>|U03JFCP39T4|:
 (off to Feedback Assistant)</p>
+<hr />
 <blockquote>
 <h4 id="not-sure-if-this-is-the-right-time-for-this-but-in-ios-16-uidevicename-has-changed-to-only-return-the-model-name-eg-iphone-instead-of-matts-internet-communicator-i-think-in-one-of-the-sessions-i-heard-that-there-is-an-entitlement-to-get-the-old-behaviour-but-i-cant-find-any-reference-to-it-anywhere">Not sure if this is the right time for this, but... In iOS 16 UIDevice.name has changed to only return the model name (E.g "iPhone" instead of "Matt's internet communicator"). I think in one of the sessions I heard that there is an entitlement to get the old behaviour, but I can't find any reference to it anywhere.</h4>
 </blockquote>
@@ -3686,6 +3730,7 @@ The entitlement is <code>com.apple.developer.device-information.user-assigned-de
 There are some restrictions around what you can do with it (more in that video).</p>
 <p>|U03JUCK9B16|:
 In my case it would be on supervised devices, so hopefully not too restrictive</p>
+<hr />
 <blockquote>
 <h4 id="what-is-the-behavior-of-uidevicename-would-it-return-iphone-13-pro-or-just-iphone-if-you-dont-have-the-entitlement-to-get-the-devices-name-thanks">What is the behavior of <code>UIDevice.name</code>? Would it return iPhone 13 Pro or just iPhone if you don't have the entitlement to get the device's name? Thanks!</h4>
 </blockquote>
@@ -3718,6 +3763,7 @@ Seems its via <code>utsname</code> and <code>uname</code>:
 <a href="https://stackoverflow.com/questions/26028918/how-to-determine-the-current-iphone-device-model">https://stackoverflow.com/questions/26028918/how-to-determine-the-current-iphone-device-model</a></p>
 <p>|U03JUCK9B16|:
 (Assuming that code still works in iOS 16)</p>
+<hr />
 <blockquote>
 <h4 id="navigation-item-center-groups-does-it-make-sense-to-swap-them-completely-based-on-some-factor-like-object-selection-state-if-so-should-one-change-uinavigationitemcustomizationidentifier-then-any-other-considerations">Navigation item center groups: does it make sense to swap them completely based on some factor, like object selection state? If so, should one change <code>UINavigationItem.customizationIdentifier</code> then? Any other considerations?</h4>
 </blockquote>
@@ -3737,11 +3783,13 @@ Yes. I’m sure there is a way to initialise it from <code>UIBarButtonItem</code
 I don’t think we’ve really thought that much about it actually, usually you want the edit interaction to be directly on whatever thing is being edited. I think there are ways you might be able to get something useful like that, but I’d want to talk to the engineer that worked on edit menu interaction</p>
 <p>|U03JM92AMJ5|:
 So, another thing to chat about on labs. Thank you David :slightly_smiling_face:</p>
+<hr />
 <blockquote>
 <h4 id="do-you-think-its-a-good-idea-trying-to-convert-modals-to-use-structured-concurrency-on-ios-so-instead-of-usual-callback-the-caller-would-await-on-result-property">Do you think it's a good idea trying to convert modals to use structured concurrency on iOS? So instead of usual callback the caller would await on result property.</h4>
 </blockquote>
 <p>|U03HB0D5W22|:
 Yes! For modal flows that return a result via a delegate, I think using structured concurrency to await the result instead is an interesting approach to try.</p>
+<hr />
 <blockquote>
 <h4 id="do-uimenuelementattributeskeepsmenupresented-and-uimenuelementsize-translate-to-samesimilar-behaviour-in-mac-catalyst">Do UIMenuElementAttributesKeepsMenuPresented and UIMenuElementSize translate to same/similar behaviour in Mac Catalyst?</h4>
 </blockquote>
@@ -3751,6 +3799,7 @@ Since macOS menus are modal, <code>UIMenuElementAttributesKeepsMenuPresented</co
 I thought so, but was worth asking :slightly_smiling_face: Not having  <code>UIMenuElementAttributesKeepsMenuPresented</code> -like behaviour seems particularly problematic, since it enables great UX on iPad. With no direct Mac behaviour, one must look for completely different solution there.</p>
 <p>|U03J7BUNTDW|:
 Yeah, that's totally understandable. It's just incompatible with how Mac menus work currently.</p>
+<hr />
 <blockquote>
 <h4 id="i-am-wondering-how-many-of-these-api-are-available-in-a-native-swiftui-app-i-am-taking-my-ios-app-to-both-ipados-and-macos-in-a-current-redesign-which-will-require-ios-16can-require-macos-13-but-i-need-to-decide-between-using-catalyst-vs-going-swiftui-native">I am wondering how many of these API are available in a native SwiftUI app?   I am taking my iOS app to both iPadOS and macOS in a current redesign, which will require iOS 16/can require macOS 13, but I need to decide between using Catalyst vs. going SwiftUI native.</h4>
 </blockquote>
@@ -3769,6 +3818,7 @@ This would be a good question for the SwiftUI lounge.</p>
 OK</p>
 <p>|U03HHJP6N3C|:
 If you already have a UIKit app that’s working well, proceeding with a Catalyst app would definitely be the quickest path to Mac, and you can always start to mix and match SwiftUI alongside at the same time if you aren’t ready to commit fully. As far as how these properties are exposed in SwiftUI, I’m not sure off the top of my head, but there are additional SwiftUI Q&amp;As that should be able to provide a concrete answer for you</p>
+<hr />
 <blockquote>
 <h4 id="we-have-a-callkit-voip-app-that-supports-ipad-along-with-iphone-and-we-want-to-use-it-as-a-mac-app-for-apple-silicon-macs-we-have-two-issues-1-on-mac-there-is-no-request-for-microphone-access-the-microphone-request-as-it-is-on-iosipados-is-not-compatible-on-macos-we-should-add-different-permission-requests-according-the-available-platform-ios-vs-macos-2-on-mac-there-is-no-callkit-ui-for-the-incoming-calls-the-expectation-here-is-to-just-run-our-app-and-make-the-apps-windows-the-front-window-without-any-callkit-ui-view-or-status-bar-indicator-thank-you">We have a CallKit VOIP app that supports iPad (along with iPhone) and we want to use it as a Mac app for Apple silicon Macs. We have two issues:  1) On Mac there is no request for microphone access. The microphone request as it is on iOS/iPadOS is not compatible on macOS? We should add different permission requests according the available platform (iOS vs macOS)?  2) On Mac there is no CallKit UI for the incoming calls? The expectation here is to just run our app and make the app's windows the front window without any CallKit UI view or status bar indicator?  Thank you!!</h4>
 </blockquote>
@@ -3789,6 +3839,7 @@ Oh, I see! So, the launch of the app is what expected on VoIP push reception wit
 There are two upcoming AVAudioSession labs: June 9th from 11-2 PDT and June 10th from 1-3 PDT. That would be the best place to get your microphone access question answered.</p>
 <p>|U03J217TL5R|:
 Thank you guys, &lt;@U03HB0DARPG&gt;  and &lt;@U03HB0DC1PY&gt; I'll check the labs and I'll be prepared with the exact microphone request code that we use! :wave:</p>
+<hr />
 <blockquote>
 <h4 id="im-trying-to-hide-my-uinavigationbar-bar-with-slide-however-the-hiding-animation-is-broken-it-disappears-in-one-go-the-show-animation-slides-in-correctly-though-is-this-a-known-issue">I'm trying to hide my UINavigationBar bar with .slide. However, the hiding animation is broken, it disappears in one go. The show animation slides in correctly though. Is this a known issue?</h4>
 </blockquote>
@@ -3800,6 +3851,7 @@ even without an example, my rough guess here would be that if your setting <code
 I'm hiding the status bar simultaneously to get a full screen experience. When I remove the status bar animation, the nav bar animates fine. FB8980917 has a sample app.</p>
 <p>|U03HELWFGKF|:
 I pulled up the sample from that issue, it seems to be working in iOS 16, have you tried it there? (I haven’t checked on anything older at the moment, so not sure if this is a new change or not)</p>
+<hr />
 <blockquote>
 <h4 id="are-there-any-ways-to-support-bulleted-lists-unordered-and-ordered-via-the-uitextview-or-what-is-the-preferred-approached-here-thanks">Are there any ways to support bulleted lists (unordered and ordered) via the UITextView? Or what is the preferred approached here. Thanks</h4>
 </blockquote>
@@ -3809,6 +3861,7 @@ This wasn’t available in UIKit until this year, but in the betas you’ll see 
 Check out this video tomorrow for more: <a href="https://developer.apple.com/wwdc22/10090">https://developer.apple.com/wwdc22/10090</a></p>
 <p>|U03HZ52HR8V|:
 This is great! Thank you!</p>
+<hr />
 <blockquote>
 <h4 id="im-currently-trying-to-use-a-uicellaccessory-with-a-custom-view-in-a-uicollectionviewlistcell-but-i-get-a-degenerate-layout-feedback-loop-when-expanding-a-list-section-is-there-something-i-need-to-be-doing-differently">I'm currently trying to use a UICellAccessory with a custom view in a UICollectionViewListCell, but I get a degenerate layout feedback loop when expanding a list section. Is there something I need to be doing differently?</h4>
 </blockquote>
@@ -3832,6 +3885,7 @@ Just opened my sample. It does happen for me on the iPhone sim in Xcode 14 beta 
 Just also reproduced on a test device. Since I'd bet it's not encouraged to post files here, I'll post my debugger output to the feedback. Apologies that it's very long, I think I set the debugging threshold high.</p>
 <p>|U03JU8F54C8|:
 Ok. Just attached that file to the feedback. Thanks so much again for taking a look.</p>
+<hr />
 <blockquote>
 <h4 id="macos-extensionkit-question-does-an-extension-have-to-be-delivered-within-an-app-bundle-is-it-possible-to-build-a-standalone-appex-and-have-it-be-discoverable-by-an-hosting-application">macOS ExtensionKit question. Does an extension have to be delivered within an app bundle? Is it possible to build a standalone <code>.appex</code> and have it be discoverable by an hosting application?</h4>
 </blockquote>
@@ -3953,6 +4007,7 @@ Extensions must be bundled in a container app's bundle. Beyond that I cant comme
 I understand. Thank you so much for your time, you’ve been immensely helpful. I’m incredibly excited about these APIs, and cannot wait to do some real work with them.</p>
 <p>|U03JNQ1ABFC|:
 Glad to help. I'm excited to see what people do with these APIs. </p>
+<hr />
 <blockquote>
 <h4 id="the-new-self-sizing-uitableview-and-uicollectionview-cells-look-fantastic-is-there-anything-similar-for-table-view-headers-and-footers-is-there-a-recommended-technique-to-have-headers-and-footers-resize-to-accomodate-dynamic-type-for-example">The new self-sizing UITableView and UICollectionView cells look fantastic. Is there anything similar for table view headers and footers? Is there a recommended technique to have headers and footers resize to accomodate dynamic type for example?</h4>
 </blockquote>
@@ -3962,6 +4017,7 @@ The new <code>selfSizingInvalidation</code> functionality, including manually ca
 (And for UICollectionView, this includes self-sizing supplementary views too.)</p>
 <p>|U03J22HDMSN|:
 Thank you, that’s great news!</p>
+<hr />
 <blockquote>
 <h4 id="i-saw-that-the-san-francisco-font-has-new-compressed-condensed-and-expanded-style-widths-however-i-do-i-access-these-styles-with-uifont-or-uifontdescriptor">I saw that the San Francisco font has new compressed, condensed and expanded style widths. However I do I access these styles with UIFont or UIFontDescriptor?</h4>
 </blockquote>
@@ -3976,6 +4032,7 @@ Great, thanks. Are the float values for the width described anywhere?</p>
 …or probably more useful, <a href="https://developer.apple.com/documentation/uikit/uifontdescriptor/traitkey/1616684-width">https://developer.apple.com/documentation/uikit/uifontdescriptor/traitkey/1616684-width</a></p>
 <p>|U03HELXN8CV|:
 &gt; The valid value range is from <code>-1.0</code> to <code>1.0</code>. The value of <code>0.0</code> corresponds to the regular glyph spacing.</p>
+<hr />
 <blockquote>
 <h4 id="would-you-be-able-to-share-some-insight-on-how-the-various-collection-views-are-implemented-within-the-calendar-app-the-paging-that-goes-on-endlessly-is-something-i-have-been-trying-to-recreate-for-a-while-but-its-tricky-any-hints-would-be-greatly-appreciated">Would you be able to share some insight on how the various Collection Views are implemented within the Calendar app? The paging that goes on endlessly is something I have been trying to recreate for a while but it's tricky. Any hints would be greatly appreciated :)</h4>
 </blockquote>
@@ -3983,6 +4040,7 @@ Great, thanks. Are the float values for the width described anywhere?</p>
 You can achieve endless scrolling by essentially adding and removing sections while scrolling and making sure to adjust the content offset when doing so. <code>UIScrollView</code> (and thus <code>UICollectionView</code>) will keep its inertia and make it look seamless. If you have specific use cases this might be a great thing to discuss in a 1on1 lab.</p>
 <p>|U03JEMNCV18|:
 Thanks, i’ll try applying for a lab again :crossed_fingers:</p>
+<hr />
 <blockquote>
 <h4 id="ios-16-offers-a-great-new-api-addition-in-the-way-of-uihostingconfiguration-for-rendering-swiftui-views-in-list-collectionview-cells-however-wed-love-to-support-this-type-of-interop-on-ios-15-too-when-using-uihostingcontrollers-in-uicollectionview-list-cells-is-there-any-specific-considerations-that-should-be-taken-into-account-in-addition-to-managing-cell-reuse-issues">iOS 16 offers a great new API addition in the way of UIHostingConfiguration for rendering SwiftUI views in List CollectionView cells, however we’d love to support this type of interop on iOS 15 too.  When using UIHostingControllers in UICollectionView list cells, is there any specific considerations that should be taken into account in addition to managing cell reuse issues?</h4>
 </blockquote>
@@ -4014,6 +4072,7 @@ Thanks &lt;@U03HW7U6QF3&gt;! I will misuse this thread to once again request a U
 Feedback requests are greatly appreciated :pray:</p>
 <p>|U03HW7U6QF3|:
 Be sure to check out the video “Use SwiftUI with UIKit” when it goes live tomorrow as well! <a href="https://developer.apple.com/videos/play/wwdc2022/10072/">https://developer.apple.com/videos/play/wwdc2022/10072/</a></p>
+<hr />
 <blockquote>
 <h4 id="what-happens-to-the-display-scale-when-connecting-to-external-displays-of-different-resolutions-thanks">What happens to the display scale when connecting to external displays of different resolutions? Thanks!</h4>
 </blockquote>
@@ -4047,6 +4106,7 @@ Sorry, let me rephrase then. On iPadOS, when using stage mode on an external dis
 thanks!</p>
 <p>|U03HHJNTFM0|:
 np!</p>
+<hr />
 <blockquote>
 <h4 id="is-there-a-way-to-make-a-palette-window-in-a-catalyst-app-like-a-photoshop-palette-it-gets-events-but-its-not-a-true-document-window-and-it-has-a-smaller-title-bar-hud-appearance">Is there a way to make a palette window in a Catalyst app (like a Photoshop palette - it gets events, but it's not a true document window), and it has a smaller title bar / HUD appearance?</h4>
 </blockquote>
@@ -4054,6 +4114,7 @@ np!</p>
 This is not currently possible. We would appreciate a feedback request detailing your use case though!</p>
 <p>|U03J22P9WKH|:
 Here it is:FB10114581</p>
+<hr />
 <blockquote>
 <h4 id="in-the-past-ive-tried-incorporating-uitableview-uicollectionview-into-a-swiftui-app-using-uiviewrepresentable-for-the-advanced-drag-and-drop-features-after-experiencing-some-bugginess-with-the-tables-cell-reuse-i-was-advised-by-an-apple-engineer-to-build-a-uikit-or-appkit-app-a-year-later-with-this-latest-iteration-of-swiftui-do-apple-engineers-stand-by-that-guidance-or-has-swiftui-become-more-hospitable-to-complex-uikit-elements-like-uitableview-and-uicollectionview-for-apples-apps-that-are-comprised-mostly-of-swiftui-like-shortcuts-im-curious-if-you-could-share-which-framework-is-used-for-the-life-cycle-foundation-thanks-for-all-the-great-work">In the past I’ve tried incorporating UITableView / UICollectionView into a SwiftUI app using UIViewRepresentable (for the advanced drag and drop features). After experiencing some bugginess with the table’s cell reuse, I was advised by an Apple engineer to build a UIKit or AppKit app. A year later, with this latest iteration of SwiftUI, do Apple engineers stand by that guidance or has SwiftUI become more hospitable to complex UIKit elements like UITableView and UICollectionView? For Apple’s apps that are comprised mostly of SwiftUI (like Shortcuts), I’m curious if you could share which framework is used for the life cycle (foundation). Thanks for all the great work!</h4>
 </blockquote>
@@ -4062,6 +4123,7 @@ Hi, we have a couple of sessions coming out tomorrow that will talk about this i
 <em><a href="https://developer.apple.com/videos/play/wwdc2022/10072/|Use SwiftUI with UIKit">https://developer.apple.com/videos/play/wwdc2022/10072/|Use SwiftUI with UIKit</a></em> and <em><a href="https://developer.apple.com/videos/play/wwdc2022/10075/|Use SwiftUI with AppKit">https://developer.apple.com/videos/play/wwdc2022/10075/|Use SwiftUI with AppKit</a>.</em> In addition, we also have a Q&amp;A for SwiftUI &amp; UIFrameworks tomorrow morning at 8 AM PDT. I’d encourage you to ask again there, as well as sign up for a SwiftUI Lab to discuss specific use cases!</p>
 <p>|U03J286S5LP|:
 Will do, thank you!!</p>
+<hr />
 <blockquote>
 <h4 id="documentation-mentions-uitextview-in-ios16-uses-textkit-2-ive-managed-to-disable-word-wrap-via-textcontainerwidthtrackstextview-false-and-setting-the-textcontainersize-to-a-value-wider-than-the-views-bounds-but-looks-like-uitextview-still-doesnt-support-horizontal-scrolling-nor-it-tracks-the-cursor-is-that-something-thats-expected-to-work-or-not-yet">Documentation mentions <code>UITextView</code> in iOS16 uses TextKit 2. I’ve managed to disable word wrap via <code>textContainer.widthTracksTextView = false</code> and setting the <code>textContainer.size</code> to a value wider than the view’s bounds, but looks like <code>UITextView</code> still doesn’t support horizontal scrolling, nor it tracks the cursor. Is that something that’s expected to work, or not yet?</h4>
 </blockquote>
@@ -4094,6 +4156,7 @@ Ah - yeah, you’re right. We override those based on the ’scrollEnabled</p>
 I will return to my ‘non-scrollable text view inside a scroll view’ suggestion then. But I realize it’s clunky.</p>
 <p>|U03HELXN8CV|:
 Thanks for filing the feedback!</p>
+<hr />
 <blockquote>
 <h4 id="like-func-playerviewcontroller_-playerviewcontroller-avplayerviewcontroller-willtransitiontovisibilityoftransportbar-visible-bool-with-coordinator-avplayerviewcontrolleranimationcoordinator-there-is-no-callback-methods-to-track-info-pannel-visibility-whats-the-best-way-to-identify-when-info-pannel-appears-and-disappears">Like 'func playerViewController(_ playerViewController: AVPlayerViewController, willTransitionToVisibilityOfTransportBar visible: Bool, with coordinator: AVPlayerViewControllerAnimationCoordinator)` there is no callback methods to track info-pannel visibility. Whats the best way to identify when info-pannel appears and disappears?</h4>
 </blockquote>
@@ -4104,6 +4167,7 @@ This is a better question for AVKit. It looks like there's an AVKit lab at 3 PM 
 Noted thanks!</p>
 <p>|U03HHJNTFM0|:
 np!</p>
+<hr />
 <blockquote>
 <h4 id="i-have-a-view-controller-that-has-multiple-uitextfields-when-im-in-one-of-those-text-fields-and-press-tab-on-an-ipad-it-focuses-on-subsequent-text-fields-however-when-i-run-via-catalyst-on-macos-tabbing-while-in-a-text-field-inserts-a-tab-character-instead-of-focusing-on-the-next-text-field-do-you-know-how-to-enable-tabbing-to-focus-on-the-next-text-field">I have a view controller that has multiple UITextFields. When I’m in one of those text fields and press tab on an iPad, it focuses on subsequent text fields. However, when I run via Catalyst on macOS, tabbing while in a text field inserts a tab character instead of focusing on the next text field. Do you know how to enable tabbing to focus on the next text field?</h4>
 </blockquote>
@@ -4117,6 +4181,7 @@ Is there a known workaround for this issue in macOS Big Sur? &lt;@U03HELWUJN9&gt
 unfortunately there is not but you should check on latest betas.</p>
 <p>|U03J1UX2CQK|:
 Thanks!</p>
+<hr />
 <blockquote>
 <h4 id="does-continuity-camera-support-a-file-promise-previously-only-the-data-itself-was-returned-with-kpasteboardtypefilepromisecontent">Does Continuity Camera support a file promise? Previously only the data itself was returned with <code>kPasteboardTypeFilePromiseContent</code>.</h4>
 </blockquote>
@@ -4140,6 +4205,7 @@ And we use file promises in other places, we're familiar with the technique</p>
 Try it out with NSFilePromiseReceiver. If it's still failing, file a feedback report with a small sample project.</p>
 <p>|U03HZ4PT2ER|:
 ok</p>
+<hr />
 <blockquote>
 <h4 id="hi-im-currently-trying-to-update-my-apple-watch-app-to-support-watchos-9-however-the-videoplayer-in-swiftui-is-crashing-when-playing-a-video-and-xcode-prints-something-to-do-with-volume-hud-class-name-changing-and-just-wondering-if-this-is-something-thats-changed-with-watchos-9-or-its-something-that-i-need-to-update-in-my-code-somewhere">Hi,  I’m currently trying to update my Apple Watch app to support watchOS 9 however the VideoPlayer in SwiftUI is crashing when playing a video and Xcode prints something to do with volume HUD class name changing and just wondering if this is something that’s changed with watchOS 9 or it’s something that I need to update in my code somewhere.</h4>
 </blockquote>
@@ -4150,6 +4216,7 @@ Also, if you’re able to provide them the crash log, that’ll help investigate
 <p>|U03HZ3L98TF|:
 Yep I can do both, I'll make sure to be on my Mac too so I can get the log for them.
 Thanks both :) </p>
+<hr />
 <blockquote>
 <h4 id="hi-in-my-carplay-app-in-templateapplicationscene_didconnect-i-get-the-provided-interfacecontroller-and-store-a-reference-to-it-but-most-of-the-times-when-i-try-to-access-interfacecontrollercartraitcollection-the-app-crashes-because-cartraitcollection-is-uninitialized-so-it-makes-creating-image-for-different-display-scale-2x-3x-or-different-display-styles-dark-light-impossible-i-tried-to-make-sure-that-i-always-access-it-from-main-thread-but-still-have-the-same-problem">Hi, In my CarPlay app, In <code>templateApplicationScene(_:didConnect:)</code> I get the provided <code>interfaceController</code> and store a reference to it, but most of the times when I try to access <code>interfaceController.carTraitCollection</code> The app crashes because <code>carTraitCollection</code> is <code>Uninitialized</code>, so it makes creating image for different display scale (2x, 3x) or different display styles (dark, light) impossible. I tried to make sure that I always access it from main thread but still have the same problem.</h4>
 </blockquote>
@@ -4159,6 +4226,7 @@ This is a better question for someone on the CarPlay team. There's a Q&amp;A Dig
 Also, probably worth filing a feedback on it in case it isn't being tracked anywhere!</p>
 <p>|U03HHJNTFM0|:
 Looks like we do have feedback tracking this and the CarPlay team is looking into it.</p>
+<hr />
 <blockquote>
 <h4 id="with-uiactivityviewcontroller-is-it-possible-to-provide-multiple-representations-of-the-same-object-a-url-and-text-eg-through-an-nsitemprovider-as-well-as-lplinkmetadata-uiactivityitemsconfigurationreading-is-the-only-way-ive-gotten-the-nsitemprovider-to-work-but-that-doesnt-support-link-metadata-and-uiactivityitemsource-supports-the-metadata-but-not-the-item-provider">With UIActivityViewController, is it possible to provide multiple representations of the same object (a URL and text, e.g., through an NSItemProvider) as well as LPLinkMetadata?   UIActivityItemsConfigurationReading is the only way I've gotten the NSItemProvider to work, but that doesn't support link metadata. And UIActivityItemSource supports the metadata, but not the item provider.</h4>
 </blockquote>
@@ -4174,6 +4242,7 @@ Strike that, the metadataProvider closure is never even called with the linkPres
 &lt;@U03H31CQZ0F&gt; I've filed FB10116030 about this</p>
 <p>|U03H31CQZ0F|:
 Thank you. I’ll take a look.</p>
+<hr />
 <blockquote>
 <h4 id="in-catalyst-is-there-a-way-to-only-show-the-preview-for-a-link-when-dragging-a-link-in-a-uitextview-instead-of-the-whole-view-the-associated-uidraginteractiondelegate-methods-dont-seem-to-work">In Catalyst, is there a way to only show the preview for a link when dragging a link in a UITextView instead of the whole view? The associated UIDragInteractionDelegate methods don't seem to work.</h4>
 </blockquote>
@@ -4189,6 +4258,7 @@ If you drag on iOS, only the area around the link is highlighted, but if you dra
 Is there a reason you couldn't rely on the text view's built in drag interaction and customize the behavior via <code>UITextDragDelegate</code>?</p>
 <p>|U03JEEU1MF1|:
 I think it's because my text view has isEditable and isSelectable set to false. But also using the UITextDragDelegate methods doesn't work either.</p>
+<hr />
 <blockquote>
 <h4 id="with-the-new-self-sizing-cells-is-there-a-way-to-run-an-animation-alongside-a-cell-resize-animation-or-at-least-adding-a-custom-completion-handler-to-the-system-provided-resize-animation">With the new self-sizing cells, is there a way to run an animation alongside a cell resize animation (or at least, adding a custom completion handler to the system-provided resize animation)?</h4>
 </blockquote>
@@ -4224,6 +4294,7 @@ For empty batch updates, as well as the new iOS 16 self-sizing invalidation feat
 Thanks Tyler!</p>
 <p>|U03HW7U6QF3|:
 (Don’t forget about the <code>reconfigure</code> API introduced in iOS 15 to update cells without replacing them, too!)</p>
+<hr />
 <blockquote>
 <h4 id="is-there-a-way-to-get-a-notification-when-a-new-item-eg-image-is-added-to-uipasteboard-remotely-eg-through-universal-clipboard-currently-i-can-poll-changecount-to-detect-changes-but-i-receive-no-changednotification-unless-the-copy-originated-from-the-app-itself-im-trying-to-implement-a-feature-where-the-app-conveniently-offers-a-paste-button-when-theres-something-on-the-uipasteboard">Is there a way to get a notification when a new item (e.g. image) is added to UIPasteboard remotely (e.g. through Universal Clipboard). Currently I can poll <code>changeCount</code> to detect changes, but I receive no <code>changedNotification</code> unless the copy originated from the app itself. I'm trying to implement a feature where the app conveniently offers a paste button when there's something on the UIPasteboard.</h4>
 </blockquote>
@@ -4267,6 +4338,7 @@ You can also run pattern detection w/o triggering the paste alert, so e.g. looki
 You can check if the data is an image <em>and</em> the change count is incremented.</p>
 <p>|U03J20E1BPD|:
 You’re right! I have a bug in my code :man-facepalming:. Thanks!</p>
+<hr />
 <blockquote>
 <h4 id="does-swiftui-support-the-new-toolbar-modes-for-ipad-or-do-you-need-to-use-uikit">Does SwiftUI support the new toolbar modes for iPad or do you need to use UIKit?</h4>
 </blockquote>
@@ -4279,6 +4351,7 @@ It does!</p>
 <a href="https://developer.apple.com/videos/play/wwdc2022/10058">https://developer.apple.com/videos/play/wwdc2022/10058</a></p>
 <p>|U03J22FSUUS|:
 Thank you so much!</p>
+<hr />
 <blockquote>
 <h4 id="hello-should-we-approach-swiftui-views-as-data-models-for-real-views-where-should-we-place-data-formatting-logic-if-swiftui-view-is-a-data-model-we-can-data-formatting-logic-there-how-can-we-test-our-data-formatting-logic-in-this-case">Hello, should we approach SwiftUI views as data models for real views? Where should we place data formatting logic? If SwiftUI view is a data model we can data formatting logic there? How can we test our data formatting logic in this case?</h4>
 </blockquote>
@@ -4297,6 +4370,7 @@ Unit testing is a bit of an art and so I wouldn't say it's a necessarily a good 
 <p>I think the concerns are more pragmatic: how easy is it to assert against the SwiftUI view vs against a model. Does one way or the other require extra boilerplate? Does one way or the other lead to fewer false negatives?</p>
 <p>|U03J0GP5L6R|:
 Thanks Kyle for your answers :raised_hands:</p>
+<hr />
 <blockquote>
 <h4 id="does-this-new-apis-are-backward-comaptible-with-uikit-project-or-just-only-ios-16">Does this new APIs are backward comaptible with UIKit project or just only iOS 16?</h4>
 </blockquote>
@@ -4308,6 +4382,7 @@ Ok got it, but it might double the implementation and maintenance</p>
 That, unfortunately, is a technical limitation. These features are implemented in frameworks that are shipping with the OS and that are heavily integrated with the OS, so they require the new OS to work. In a lot of cases you can just add the new features when running on the new OS and just do nothing on older versions, in which case it is enough to just check the current version you are running at run time before calling out to the new APIs.</p>
 <p>|U03HPFD1GG7|:
 Ok got it thanks, I think we might need to wait until next two years lol :smile:</p>
+<hr />
 <blockquote>
 <h4 id="whats-the-naming-convention-youd-recommend-using-for-a-swiftui-view-with-or-without-view-suffix-i-think-ive-seen-both-in-apple-examples">What’s the naming convention you’d recommend using for a SwiftUI view - with or without <code>View</code> suffix? I think I’ve seen both in Apple examples.</h4>
 </blockquote>
@@ -4322,6 +4397,7 @@ That makes a lot of sense, thank you Luca!</p>
 Clint – click the + in the bottom left and select “Ask a question”:</p>
 <p>|U03JKEKF1TP|:
 Thanks for clarifying--the message next to that plus button says "only certain people can post" so that threw me off</p>
+<hr />
 <blockquote>
 <h4 id="once-again-here-goes-the-question-about-swiftui-views-in-tablecollection-cell-grin-if-wed-like-to-tinker-with-our-own-uihostingconfiguration-to-support-older-os-versions-what-would-be-the-recommended-way-to-update-cells-height-when-used-with-diffabledatasource-currently-the-most-common-scenario-i-see-is-a-pair-of-tableviewbeginupdates-tableviewendupdates-it-would-be-nice-to-recap-on-our-available-options">Once again, here goes the question about SwiftUI views in Table/Collection cell. :grin: If we'd like to tinker with our own UIHostingConfiguration to support older OS versions, what would be the recommended way to update cell's height when used with DiffableDataSource? Currently, the most common scenario I see is a pair of  tableView.beginUpdates() tableView.endUpdates()  It would be nice to recap on our available options.</h4>
 </blockquote>
@@ -4331,11 +4407,13 @@ On iOS 15 and earlier, you request an update to the size of self-sizing cells in
 • If not using diffable data source, performing empty batch updates on the collection or table view directly (that’s the same as the begin/end updates you mentioned)</p>
 <p>|U03J22AU6DQ|:
 Got it, thanks!</p>
+<hr />
 <blockquote>
 <h4 id="is-there-a-proper-way-to-implement-dynamic-menu-items-on-macos-with-commandmenu-menu-items-that-change-with-keyboard-modifier-keys-im-currently-polling-on-a-timer-but-that-is-unsatisfying-in-appkit-this-was-done-using-the-isalternate-property-fb9406583">Is there a proper way to implement dynamic menu items on macOS with CommandMenu? (Menu items that change with keyboard modifier keys.) I'm currently polling on a timer, but that is... unsatisfying. In AppKit, this was done using the isAlternate property.  (FB9406583)</h4>
 </blockquote>
 <p>|U03HW7PE3SM|:
 There is not a way to do this at the moment. Thanks for filing (and referencing) the feedback, we will route it to the appropriate component!</p>
+<hr />
 <blockquote>
 <h4 id="weve-experiencing-a-watchdog-termination-in-the-background-due-to-a-function-inside-uikit-sleeping-please-see-the-following-backtrace-thread-0-crashed-0-libsystem_kerneldylib-0x00000002065bba2c-__semwait_signal-8-1-libsystem_cdylib-0x00000001d9c700e4-nanosleep-220-nanosleepc104-2-libsystem_cdylib-0x00000001d9c70e14-usleep-68-usleepc52-3-quartzcore-0x00000001d292bc84-cabackingstorecollectblocking-264-x-misccpp186-4-uikitcore-0x00000001d1184778-__35-uiwindowscene-_prepareforsuspend_block_invoke-60-uiwindowscenem1273-5-uikitcore-0x00000001d1243b90-_uicontextbinder-purgecontextswithpurgeactionafterpurgeaction-472-_uicontextbinderm221-6-uikitcore-0x00000001d12874ec-uiwindowscene-_prepareforsuspend-88-uiwindowscenem1271-7-uikitcore-0x00000001d1ec935c-__130-uiapplication-_updatestaterestorationarchiveforbackgroundeventsavestateexitifcouldnotrestorestateupdatesnapshotwindowscene_block_invoke_2-228-uiapplicationm11237-8-uikitcore-0x00000001d128e4dc-_uiaftercacommitblock-run-72-_uiaftercacommitqueuem137-9-uikitcore-0x00000001d11a1864-_uiaftercacommitqueue-flush-192-_uiaftercacommitqueuem228-10-libdispatchdylib-0x00000001ce7eae6c-_dispatch_call_block_and_release-32-initc1517-11-libdispatchdylib-0x00000001ce7eca30-_dispatch_client_callout-20-objectm560-12-libdispatchdylib-0x00000001ce7faf48-_dispatch_main_queue_drain-928-inline_internalh2622-13-libdispatchdylib-0x00000001ce7fab98-_dispatch_main_queue_callback_4cf-44-queuec7770-14-corefoundation-0x00000001ceb3d800-__cfrunloop_is_servicing_the_main_dispatch_queue__-16-cfrunloopc1795-15-corefoundation-0x00000001ceaf7704-__cfrunlooprun-2532-cfrunloopc3144-16-corefoundation-0x00000001ceb0abc8-cfrunlooprunspecific-600-cfrunloopc3268-17-graphicsservices-0x00000001eac3e374-gseventrunmodal-164-gseventc2200-18-uikitcore-0x00000001d147a648-uiapplication-_run-1100-uiapplicationm3511-19-uikitcore-0x00000001d11fbd90-uiapplicationmain-364-uiapplicationm5064-20-redacted-0x0000000104e87460-main-112-mainm27-21-dyld-0x00000001055e5ce4-start-520-dyldmaincpp879">We've experiencing a watchdog termination in the background due to a function inside UIKit sleeping. Please see the following backtrace:  <code>Thread 0 Crashed: 0   libsystem_kernel.dylib          0x00000002065bba2c __semwait_signal + 8 1   libsystem_c.dylib               0x00000001d9c700e4 nanosleep + 220 (nanosleep.c:104) 2   libsystem_c.dylib              0x00000001d9c70e14 usleep + 68 (usleep.c:52) 3   QuartzCore                     0x00000001d292bc84 CABackingStoreCollectBlocking + 264 (x-misc.cpp:186) 4   UIKitCore                       0x00000001d1184778 __35-[UIWindowScene _prepareForSuspend]_block_invoke + 60 (UIWindowScene.m:1273) 5   UIKitCore                       0x00000001d1243b90 -[_UIContextBinder purgeContextsWithPurgeAction:afterPurgeAction:] + 472 (_UIContextBinder.m:221) 6   UIKitCore                      0x00000001d12874ec -[UIWindowScene _prepareForSuspend] + 88 (UIWindowScene.m:1271) 7   UIKitCore                        0x00000001d1ec935c __130-[UIApplication _updateStateRestorationArchiveForBackgroundEvent:saveState:exitIfCouldNotRestoreState:updateSnapshot:windowScene:]_block_invoke_2 + 228 (UIApplication.m:11237) 8   UIKitCore                       0x00000001d128e4dc -[_UIAfterCACommitBlock run] + 72 (_UIAfterCACommitQueue.m:137) 9   UIKitCore                        0x00000001d11a1864 -[_UIAfterCACommitQueue flush] + 192 (_UIAfterCACommitQueue.m:228) 10  libdispatch.dylib                 0x00000001ce7eae6c _dispatch_call_block_and_release + 32 (init.c:1517) 11  libdispatch.dylib                0x00000001ce7eca30 _dispatch_client_callout + 20 (object.m:560) 12  libdispatch.dylib               0x00000001ce7faf48 _dispatch_main_queue_drain + 928 (inline_internal.h:2622) 13  libdispatch.dylib              0x00000001ce7fab98 _dispatch_main_queue_callback_4CF + 44 (queue.c:7770) 14  CoreFoundation                 0x00000001ceb3d800 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__ + 16 (CFRunLoop.c:1795) 15  CoreFoundation                    0x00000001ceaf7704 __CFRunLoopRun + 2532 (CFRunLoop.c:3144) 16  CoreFoundation                  0x00000001ceb0abc8 CFRunLoopRunSpecific + 600 (CFRunLoop.c:3268) 17  GraphicsServices               0x00000001eac3e374 GSEventRunModal + 164 (GSEvent.c:2200) 18  UIKitCore                         0x00000001d147a648 -[UIApplication _run] + 1100 (UIApplication.m:3511) 19  UIKitCore                        0x00000001d11fbd90 UIApplicationMain + 364 (UIApplication.m:5064) 20  [REDACTED]                    0x0000000104e87460 main + 112 (main.m:27) 21  dyld                              0x00000001055e5ce4 start + 520 (dyldMain.cpp:879)</code></h4>
 </blockquote>
@@ -4354,6 +4432,7 @@ Apps generally have around 5 seconds to stop processing when they’re backgroun
 Thanks for reading my novel.</p>
 <p>|U03J20RJQ2X|:
 &lt;@U03HELXN8CV&gt; That's super interesting! I never considered how much work goes into creating screenshots for the app switcher</p>
+<hr />
 <blockquote>
 <h4 id="my-doubt-is-regarding-drag-and-drop-on-swiftui-i-think-there-are-2-approaches-but-i-am-stuck-with-both-the-approaches-wwdc22-when-using-the-new-draggable-dropdestination-transferable-api-i-am-only-able-to-drag-single-items-i-am-unable-to-drag-multiple-items-in-a-list-i-have-filed-a-feedback-fb10128110-wwdc21-i-have-faced-a-couple-of-issues-for-drag-and-drop-introduced-in-wwdc21-ondrag-ondrop-itemidentifier-the-feedback-ids-are-fb9854301-fb9854569-fb9855245-fb9855532-fb9855567-fb9855575-note-all-feedbacks-include-a-sample-project-with-detail-steps-and-some-even-have-screenshots-and-videos-please-let-me-know-me-if-my-approach-is-wrong-or-if-i-am-missing-something-unfortunately-i-didnt-manage-to-get-a-swiftui-lab-session-got-declined-so-any-assistance-on-the-above-would-be-much-appreciated">My doubt is regarding drag and drop on SwiftUI I think there are 2 approaches but I am stuck with both the approaches  WWDC22 - When using the new <code>draggable</code>, <code>dropDestination</code>, <code>Transferable</code> API, I am only able to drag single items. I am unable to drag multiple items in a list. I have filed a feedback FB10128110  WWDC21 - I have faced a couple of issues for drag and drop introduced in WWDC21 (onDrag, onDrop, itemIdentifier), the Feedback ids are FB9854301, FB9854569, FB9855245, FB9855532, FB9855567, FB9855575.  Note: All feedbacks include a sample project with detail steps and some even have screenshots and videos  Please let me know me if my approach is wrong or if I am missing something. Unfortunately I didn't manage to get a SwiftUI lab session (got declined), so any assistance on the above would be much appreciated</h4>
 </blockquote>
@@ -4393,6 +4472,7 @@ Thanks &lt;@U03JCHKCDB4&gt;, it seems I have a lot of work ahead to update both 
 &lt;@U03HW7P2WTB&gt; Thank you so much for helping me get the lab appointment, really appreciate it, made my day!!! You guys have no clue how excited i was … I am really grateful to you guys for answering all my questions. I am so sorry i forgot note down his name … I have been watching so many videos to get his name to tag him on this post. Please let him know as well</p>
 <p>|U03HW7P2WTB|:
 Sure! Thank you as well for filing the feedback and asking great questions! It was nice meeting you today.</p>
+<hr />
 <blockquote>
 <h4 id="are-there-any-major-limitations-to-be-aware-of-with-the-new-uihostingconfiguration-for-collection-view-cells-using-swiftui-that-may-not-be-addressed-in-the-session-video">Are there any major limitations to be aware of with the new UIHostingConfiguration for collection view cells using SwiftUI, that may not be addressed in the session video?</h4>
 </blockquote>
@@ -4401,6 +4481,7 @@ We do try to address the majority of the limitations in the video! Theres a spot
 <a href="https://developer.apple.com/wwdc22/10072">https://developer.apple.com/wwdc22/10072</a></p>
 <p>|U03JEMNCV18|:
 Ok, still waiting for the session to become available. Thanks :grin:</p>
+<hr />
 <blockquote>
 <h4 id="i-was-wondering-if-we-can-use-the-swiftui-view-protocol-with-the-new-any-keyword-and-if-itll-be-helpful-or-a-good-solution-in-some-example-use-case">I was wondering if we can use the SwiftUI View protocol with the new 'any' keyword? And if it'll be helpful or a good solution in some example use-case?</h4>
 </blockquote>
@@ -4413,6 +4494,7 @@ Great, thank you for the detailed explanation!</p>
 You are welcome! Was your question based on a concrete problem you are trying to solve?</p>
 <p>|U03HMDKEWJK|:
 No, I just watched the Embrace Generics session today and this question immediately popped to mind :slightly_smiling_face:</p>
+<hr />
 <blockquote>
 <h4 id="we-have-compositional-layout-with-collectionview-and-content-is-coming-from-remote-including-image-so-based-on-the-image-height-we-adjust-the-height-of-the-cells-so-until-we-determine-the-height-of-the-image-we-have-ideal-height-but-the-problem-is-user-can-keep-scrolling-down-while-images-are-getting-downloaded-cells-are-drawn-with-ideal-height-but-when-image-get-downloaded-we-fix-the-height-for-the-cell-during-which-we-see-collection-view-jittersjump-up-down-due-to-content-size-changes-any-ways-to-improve-this">We have compositional layout with CollectionView and content is coming from remote including image so based on the image height we adjust the height of the cells, so until we determine the height of the image we have ideal height, but the problem is user can keep scrolling down while images are getting downloaded cells are drawn with ideal height but when image get downloaded we fix the height for the cell during which we see collection view jitters/jump up down due to content size changes Any ways to improve this?</h4>
 </blockquote>
@@ -4477,6 +4559,7 @@ unfortunately that would be hard to get the sizes from the server since we don�
 Fair. Feel free to file a feedback if you run into issues, perhaps even try to get a lab appointment.</p>
 <p>|U03HPFD1GG7|:
 Yes i got one for tomorrow but will give a shot on this, thanks</p>
+<hr />
 <blockquote>
 <h4 id="hello-how-can-i-get-started-with-uikit-i-currently-know-swiftui-only-which-in-my-opinion-is-amazing-btw-but-id-like-to-learn-a-little-bit-of-uikit-too-because-i-might-use-it-in-some-cases-too-in-the-future">Hello! How can I get started with UIKit? I currently know SwiftUI only (which, in my opinion, is amazing btw!), but I'd like to learn a little bit of UIKit too, because I might use it in some cases too in the future.</h4>
 </blockquote>
@@ -4494,6 +4577,7 @@ Thank you!</p>
 Aside from that there are also tons of other resources on the internet that have a very high quality, so I’d also suggest looking around a bit there and see what people recommend.</p>
 <p>|U03JRP87THN|:
 I must say that the tutorials are amazing. I followed some of them to learn Swift and SwiftUI. Thank you for this great tutorials and documentation!</p>
+<hr />
 <blockquote>
 <h4 id="using-sharelink-in-swiftui-and-transferable-we-will-now-be-able-to-share-custom-types-between-users-how-does-this-compare-to-sharing-core-data-entities-using-a-shared-cloudkit-database-as-i-understand-the-main-difference-is-that-sharing-using-transferable-copies-the-item-from-user-a-and-pastes-it-for-user-b-so-in-the-end-there-will-be-2-instances-of-this-item-with-no-synchronization-any-subsequent-changes-to-any-of-the-items-will-remain-local-for-that-user-in-contrast-sharing-using-shared-cloudkit-database-means-a-single-entity-will-be-synchronized-for-both-users-am-i-on-the-right-track-are-there-some-other-key-differences-to-be-aware-of">Using ShareLink in SwiftUI and Transferable, we will now be able to share custom types between users. How does this compare to sharing Core Data entities using a .shared CloudKit database? As I understand, the main difference is that sharing using Transferable copies the item from User A and pastes it for User B, so in the end there will be 2 instances of this item, with no synchronization. Any subsequent changes to any of the items will remain local for that user. In contrast, sharing using .shared CloudKit database means a single entity will be synchronized for both users. Am I on the right track? Are there some other key differences to be aware of?</h4>
 </blockquote>
@@ -4512,6 +4596,7 @@ Thank you &lt;@U03HW7P2WTB&gt;! So in a use case where we are sharing persistent
 I wouldn’t say <em>discouraged</em>, it just has different purpose. <code>ShareLink</code> allows to present the share sheet or another system sharing interface, so users could send over the recipes to their friends in Messages, or pasted into Notes, etc. Does this make sense?</p>
 <p>|U03JMMN8659|:
 Yes I think so - in this case, the recipe would have to be converted to something Messages/Notes can understand, like String or Image. Right?</p>
+<hr />
 <blockquote>
 <h4 id="good-morning-thank-you-for-a-wonderful-wwdc-i-was-trying-to-play-around-with-the-new-photopicker-im-able-to-initiate-the-picker-but-im-not-quite-sure-how-to-assign-the-selected-photo-to-an-image-in-my-swiftui-view-would-you-please-provide-a-code-sample-i-was-trying-to-look-into-the-documentation-but-i-couldnt-find-anything-that-would-resolve-my-problem">Good morning! Thank you for a wonderful WWDC! I was trying to play around with the new PhotoPicker. I’m able to initiate the picker but I’m not quite sure how to assign the selected photo to an image in my SwiftUI view. Would you please provide a code sample? I was trying to look into the documentation but I couldn’t find anything that would resolve my problem.</h4>
 </blockquote>
@@ -4527,6 +4612,7 @@ The PhotoPicker won't dismiss itself. And also I'm not sure where/how to grab th
 It's a bug. Check my thread here for a fix. <a href="https://twitter.com/xmcgraw/status/1534557535495147520?s=21&amp;t=wihRQOSc4PXqFcu1fWt-dQ|https://twitter.com/xmcgraw/status/1534557535495147520?s=21&amp;t=wihRQOSc4PXqFcu1fWt-dQ">https://twitter.com/xmcgraw/status/1534557535495147520?s=21&amp;t=wihRQOSc4PXqFcu1fWt-dQ|https://twitter.com/xmcgraw/status/1534557535495147520?s=21&amp;t=wihRQOSc4PXqFcu1fWt-dQ</a></p>
 <p>|U03J20KFJG3|:
 You can access the Data of the image (Transferable).</p>
+<hr />
 <blockquote>
 <h4 id="having-implemented-several-swiftui-apps-i-still-consider-its-constraints-concerning-custom-designs-a-challenge-to-communicate-to-designers-apart-from-hig-or-trying-out-do-you-know-any-resourcestooling-which-helps-to-implement-good-design-like-are-their-sketch-export-tools-to-generate-code-for-componentssymbols">Having implemented several SwiftUI apps, I still consider its constraints concerning custom designs a challenge to communicate to designers. Apart from HIG or trying out, do you know any resources/tooling which helps to implement good design? Like are their Sketch export tools to generate code for components/symbols?</h4>
 </blockquote>
@@ -4542,6 +4628,7 @@ Of course, nothing is going to be as high fidelity as the designer jumping into 
 Yeah, stock components are well supported and I know it’s in Apples interest to push in that direction (which I like), but reality bites more often with custom tweaks and they are sometimes really hard to solve…</p>
 <p>|U03JRNE4KJL|:
 I wish PaintCode would be updated to export to SwiftUI…</p>
+<hr />
 <blockquote>
 <h4 id="is-there-a-way-to-coordinate-between-swiftui-draggesture-with-their-uikit-counterparts-in-the-uigesturerecognizerdelegate-like-shouldbegin-or-shouldrequirefailure">Is there a way to coordinate between SwiftUI DragGesture with their UIKit counterparts in the UIGestureRecognizerDelegate like <code>shouldBegin</code> or <code>shouldRequireFailure</code>?</h4>
 </blockquote>
@@ -4563,6 +4650,7 @@ They seem to conflict each other, and optionally I want to disable one over anot
 It's not supported. Please file a feedback request for this.</p>
 <p>|U03JELT4UC9|:
 Will do, thanks &lt;@U03HHJNTFM0&gt;  &lt;@U03HELT4EG5&gt; </p>
+<hr />
 <blockquote>
 <h4 id="about-swiftuis-layout-when-creating-a-custom-layout-is-it-ok-to-use-another-layout-within-the-func-like-sizethatfits-or-placesubviews-including-the-built-in-layout-like-hstack-more-specifically-is-it-possible-to-compose-some-hstack-and-vstack-within-my-custom-layout-in-that-case-i-have-to-create-a-layoutsubview-by-myself-is-it-possible">About SwiftUI’s Layout: When creating a custom Layout, is it OK to use another Layout within the func like sizeThatFits or placeSubviews, including the built-in Layout (like HStack)?  More specifically, is it possible to compose some HStack and VStack within my custom Layout? In that case I have to create a LayoutSubview by myself, is it possible?</h4>
 </blockquote>
@@ -4582,6 +4670,7 @@ I don't think there are any available examples of that yet.</p>
 I’ve made one that works but doesn’t yet deal with cache completely. <a href="https://gist.github.com/ryanlintott/d03140dd155d0493a758dcd284e68eaa">https://gist.github.com/ryanlintott/d03140dd155d0493a758dcd284e68eaa</a></p>
 <p>|U03JRP2D5NC|:
 For example, I’m implementing the (Vertical) Flow Layout. After doing some calculation and chunked the <code>subviews</code>, firstly I use those chunked subviews to make some <code>HStack</code>s, then I should embed these <code>HStack</code> into a <code>VStack</code> but I cannot convert these <code>HStack</code>s to <code>LayoutSubviews</code> that I can pass to <code>VStack</code>’s <code>subviews</code>parameter, right?</p>
+<hr />
 <blockquote>
 <h4 id="hi-there-whats-the-recommended-way-to-repeatedly-fetch-data-in-a-swiftui-app-so-that-we-dont-push-updates-from-a-different-thread">Hi there! What's the recommended way to repeatedly fetch data in a SwiftUI app, (so that we don't push updates from a different thread)?</h4>
 </blockquote>
@@ -4600,6 +4689,7 @@ I think conformance to ObservableObject is not the issue here. What you want is 
 Yeah, I understood that the conformance to ObservableObject is not the problem, but rather the way I used to asynchronously fetch data to the model. Thanks!</p>
 <p>|U03JRP87THN|:
 Here’s a link about Swift Actors that i just found: <a href="https://developer.apple.com/videos/play/wwdc2021/10133/">https://developer.apple.com/videos/play/wwdc2021/10133/</a></p>
+<hr />
 <blockquote>
 <h4 id="would-you-use-swiftui-or-uikit-to-implement-a-list-that-can-change-layout-between-a-table-and-grid-layouts-i-currently-have-a-uicollectionview-with-different-layouts-but-i-cant-animate-between-the-layout-change">Would you use SwiftUI or UIKit to implement a list that can change layout between a table and grid layouts? I currently have a UICollectionView with different layouts but I can't animate between the layout change.</h4>
 </blockquote>
@@ -4615,6 +4705,7 @@ This also might be a good question for a 1on1 lab if you are facing specific iss
 If there is time available I'll try to grab one :sweat_smile: I forget if I was using <code>setLayout</code> before and what the crash was. I'm using compositional layout and returning a different <code>NSCollectionLayoutSection</code> based on if the layout should be a grid or list, and calling <code>`self.collectionView.collectionViewLayout.invalidateLayout()</code> , but I can try that and see if it works, or maybe there is a better way to construct multiple layouts?</p>
 <p>|U03HL03H7QC|:
 Right, UICollectionView can’t currently animate changes to the layout stemming from an invalidation. If you require an animation, I would call <code>setCollectionViewLayout(_:animated:completion:)</code></p>
+<hr />
 <blockquote>
 <h4 id="assume-that-i-keep-the-whole-app-state-in-the-state-object-in-my-app-struct-this-way-i-can-make-sure-that-all-the-views-are-in-a-consistent-state-and-have-a-single-source-of-truth-how-can-i-tune-performance-because-in-this-case-swiftui-starts-diffing-the-whole-app-view-hierarchy-on-every-single-change-of-the-app-state">Assume that I keep the whole app state in the state object in my app struct? This way I can make sure that all the views are in a consistent state and have a single source of truth. How can I tune performance because in this case, SwiftUI starts diffing the whole app view hierarchy on every single change of the app state?</h4>
 </blockquote>
@@ -4625,6 +4716,7 @@ You’re completely right that with a single observable object, you’ll end up 
 • And if you still need to optimize further, writing a custom <code>objectWillChange</code> implementation for your <code>StateObject</code>s which only does invalidation when changes that should actually affect the UI occur (in cases, for example, where published values have multiple different representations that should display in the same manner).</p>
 <p>|U03J0GP5L6R|:
 Thanks Sam :+1:</p>
+<hr />
 <blockquote>
 <h4 id="what-is-correct-way-to-specify-file-type-that-allowed-for-dragdrop-from-finder-i-mean-if-i-use-uttypefileurl-it-allows-to-drop-any-type-of-files-but-if-i-specify-uttypeimage-that-not-allow-drop-at-all-what-is-correct-approach-if-i-want-allow-drop-only-images-from-finder">What is correct way to specify file type that allowed for Drag&amp;Drop from Finder. I mean if I use <code>UTType.fileURL</code> it allows to Drop any type of files, but if I specify <code>UTType.image</code> that not allow Drop at all. What is correct approach if I want allow Drop only images from Finder?</h4>
 </blockquote>
@@ -4661,6 +4753,7 @@ Oh, great idea. I’ll try to initialize</p>
 <pre><code>NSImage from NSImageProvider
 </code></pre>
 <p>Thank you Julia!</p>
+<hr />
 <blockquote>
 <h4 id="im-trying-to-mimic-the-3-view-layout-in-xcode-pages-numbers-etc-using-swiftui-sidebar-document-inspector-i-can-use-the-navigationsplitview-for-the-sidebar-and-document-but-i-cant-find-a-way-to-animate-the-inspector-in-a-right-sidebar-the-swiftui-animation-usually-animates-all-the-child-views-in-the-inspectors-view-is-there-a-way-to-do-this-in-swiftui-on-the-mac">I'm trying to mimic the 3-view layout in Xcode, Pages, Numbers, etc.  using SwiftUI.  Sidebar | Document | Inspector  I can use the NavigationSplitView for the Sidebar and Document, but I can't find a way to animate the Inspector in a right sidebar. The SwiftUI animation usually animates all the child views in the Inspector's view. Is there a way to do this in SwiftUI on the Mac?</h4>
 </blockquote>
@@ -4693,6 +4786,7 @@ But this is the expected approach, but using NavigationSplitView?</p>
 That feels like a good expression of this structure, yes</p>
 <p>|U03KAP7FKPB|:
 Thanks.</p>
+<hr />
 <blockquote>
 <h4 id="is-there-a-way-to-allow-duplicate-commandmenu-item-keyboardshortcuts-in-appkit-macos-menus-this-works-but-not-in-swiftui-the-duplicate-shortcuts-are-never-active-at-the-same-time-they-depend-on-the-type-of-the-selection-focus-fb9931615">Is there a way to allow duplicate CommandMenu item .keyboardShortcuts? In AppKit macOS menus, this works, but not in SwiftUI.  The duplicate shortcuts are never active at the same time - they depend on the type of the selection focus. (FB9931615)</h4>
 </blockquote>
@@ -4712,6 +4806,7 @@ In the one case where I had overloaded a shortcut, no. (Command-I for italics in
 I have rewritten 35 years of code in Swift and SwiftUI with the goal of maximum bug-for-bug compatibility. While there are inevitably going to be differences, I would like to make the transition as seamless as possible for users, many of whom have been using the software for decades.</p>
 <p>|U03HB0N777G|:
 Ron, in your AppKit version, did you use the same selector for each item that had a matching command key? I’m asking just to understand the approach that worked for you in the old codebase.</p>
+<hr />
 <blockquote>
 <h4 id="swiftui-layout-isnt-possible-for-dynamic-content-right-since-each-subview-need-to-be-there-at-calculation-time">SwiftUI Layout isn't possible for dynamic content, right? Since each subview need to be there at calculation time.</h4>
 </blockquote>
@@ -4739,6 +4834,7 @@ So, if the Layouts could’ve been lazy, that means that the views in the Layout
 &lt;@U03JRP87THN&gt; That's correct. A lazy Layout theoretically wouldn't have access to all of its children up front from sizeThatFits or placeSubviews, and so that limits some of the things it can calculate up front. Paul covers this well at the beginning of the "Compose custom layouts with SwiftUI" talk from yesterday: <a href="https://developer.apple.com/videos/play/wwdc2022/10056/">https://developer.apple.com/videos/play/wwdc2022/10056/</a></p>
 <p>|U03JRP87THN|:
 Thank you very much for the clarification!</p>
+<hr />
 <blockquote>
 <h4 id="when-using-swiftui-with-core-data-should-we-setup-the-predicate-and-sort-descriptors-for-a-fetchrequest-in-the-view-init-or-in-the-onappear-of-the-view-when-theyre-based-on-object-passed-from-the-containing-view-i-noticed-some-issues-when-using-the-onappear-because-items-are-displayed-then-removed-with-animation">When using SwiftUI with Core Data, should we setup the predicate and sort descriptors for a FetchRequest in the View init or in the onAppear of the View, when they’re based on object passed from the containing View? I noticed some issues when using the onAppear because items are displayed then removed (with animation).</h4>
 </blockquote>
@@ -4756,6 +4852,7 @@ Is there a best practice for Core Data and Swift UI app project on <a href="http
 <p>|U03J20KFJG3|:
 Thanks &lt;@U03J7BQQNPJ&gt;. I'll fill a feedback.</p>
 <p>Do you confirm that the FetchRequest is reset when the containing View is redrawn? For example, if the SubView customises the predicate or sortDescriptor (in a context where the SubView apply some filters). The FetchRequest is not tied to the View lifecycle contrary to State or StateObject.</p>
+<hr />
 <blockquote>
 <h4 id="is-there-a-specific-session-this-week-that-discusses-app-extensions-and-the-new-appextension-api-httpsdeveloperapplecomdocumentationextensionfoundationappextensionhttpsdeveloperapplecomdocumentationextensionfoundationappextension-i-tried-searching-and-found-nothing">Is there a specific session this week that discusses App Extensions, and the new AppExtension API (<a href="https://developer.apple.com/documentation/extensionfoundation/appextension)?|https://developer.apple.com/documentation/extensionfoundation/appextension)?">https://developer.apple.com/documentation/extensionfoundation/appextension)?|https://developer.apple.com/documentation/extensionfoundation/appextension)?</a> I tried searching and found nothing.</h4>
 </blockquote>
@@ -4765,6 +4862,7 @@ Hi! There’s no session related to AppExtensions, but if you have specific ques
 Just an introduction and overview. Is there some sample code. The docs are pretty sparse. For example, will this API allow me as Developer A to open up a part of my app and UI to Developer B to extend, or is it limited to extending Apple apps?</p>
 <p>|U03JNQ1ABFC|:
 Currently we have no documentation beyond the  published API reference. </p>
+<hr />
 <blockquote>
 <h4 id="in-swiftui-is-there-a-way-to-listen-for-navigation-events-or-would-that-have-to-be-custom-from-uikit-delegates">In SwiftUI, is there a way to listen for navigation events or would that have to be custom from UIKit delegates?</h4>
 </blockquote>
@@ -4803,11 +4901,13 @@ I’d love a Feedback with details of your use case.</p>
 Sure; I’ll see if I can extract out the sample cases.</p>
 <p>|U03HW7P0HQR|:
 Thank you!</p>
+<hr />
 <blockquote>
 <h4 id="do-ids-in-a-foreach-just-need-to-be-unique-within-that-foreach-or-globally-for-instance-using-the-new-charts-all-my-data-is-keyed-by-date-and-there-are-several-places-where-i-have-adjacent-foreaches-that-include-mostly-the-same-dates">Do ids in a ForEach just need to be unique within that ForEach or globally? For instance using the new Charts, all my data is keyed by date and there are several places where I have adjacent ForEaches that include mostly the same dates.</h4>
 </blockquote>
 <p>|U03J7BPCWMN|:
 The IDs must be unique within the container, so for example if you have a List with two ForEach's inside it, they must generate unique IDs within that List.</p>
+<hr />
 <blockquote>
 <h4 id="i-am-new-to-swiftui-what-is-the-best-way-to-switch-between-views-for-example-depending-on-the-condition-of-a-state-variable-how-can-i-switch-between-a-homeview-signinview-and-signupview">I am new to SwiftUI, what is the best way to Switch between Views? For example, depending on the condition of a @State variable how can I switch between a HomeView, SignInView and SignUpView?</h4>
 </blockquote>
@@ -4850,6 +4950,7 @@ Depending on your needs, <code>NavigationStack</code> is also a great tool to us
 <p>But if you just need to swap views in and out, a <code>switch</code> works just fine. For example, it’s common to use a <code>switch</code> to choose the detail view of a <code>NavigationSplitView</code> based on the current selection.</p>
 <p>|U03JHQDJ31C|:
 Thank you so much!</p>
+<hr />
 <blockquote>
 <h4 id="textkit-2-question-just-watching-the-video-about-how-glyph-apis-are-no-longer-available-i-have-code-that-capitalises-characters-at-glyph-rendering-time-by-finding-the-appropriate-character-range-for-the-glyph-range-converting-to-upper-case-and-re-generating-glyphs-for-the-new-string-its-important-to-me-to-not-change-the-contents-of-my-text-storage-to-have-the-upper-case-characters-this-should-behave-like-a-display-time-attribute-how-would-you-go-about-doing-this-in-textkit-2">TextKit 2 question: just watching the video about how glyph APIs are no longer available.   I have code that capitalises characters at glyph rendering time, by finding the appropriate character range for the glyph range, converting to upper case, and re-generating glyphs for the new string.   It’s important to me to not change the contents of my text storage to have the upper case characters — this should behave like a display time attribute.   How would you go about doing this in TextKit 2?</h4>
 </blockquote>
@@ -4861,6 +4962,7 @@ Look for “TextKit 2, Fonts, and SFSymbols Adoption lab”.</p>
 I will ask there!</p>
 <p>|U03JB2WCEPL|:
 I'd love to know the answer to this too</p>
+<hr />
 <blockquote>
 <h4 id="swiftui-when-using-self_printchanges-in-the-body-of-views-what-should-we-pay-close-attention-to-is-self-printed-often-harmful-what-are-the-numbers-44-we-see-when-using-fetchrequest-in-the-view">SwiftUI: When using Self._printChanges() in the body of Views, what should we pay close attention to? Is @Self printed often harmful? What are the numbers @44 we see when using FetchRequest in the View.</h4>
 </blockquote>
@@ -4870,6 +4972,7 @@ I'd love to know the answer to this too</p>
 <p>If you see <code>@</code> followed by any number it means that we couldn’t find the field (property) name, so printed the byte offset of the swift view struct field instead.</p>
 <p>|U03J20KFJG3|:
 Thanks &lt;@U03J7BQQNPJ&gt; for the precisions! Helpful. I'm seeing lots of @Self printed when a View has an EnvironmentObject dependency (a Core Data object), and the object publishes a change. For example, a List of Core Data objects (owned) related to the EnvironmentObject (owner). If I update an owned object from the List, the relationship between the owner and the owned is updated, the owner EnvironmentObject publishes an update. This break the animation that should be displayed when updating the owned item in the List.</p>
+<hr />
 <blockquote>
 <h4 id="hi-im-still-having-an-issue-with-generic-view-models-in-swiftui-im-having-trouble-to-understand-what-should-i-choose-between-observableobject-or-stateobject-when-injecting-a-generic-view-model-into-a-swiftui-view-im-commonly-doing-this-swift-protocol-viewmodelprotocol-struct-myviewltviewmodel-viewmodelprotocol-view-observedobject-var-viewmodel-viewmodel-let-myviewmodel-myviewmodel-let-myview-myviewviewmodel-myviewmodel-in-this-case-the-viewmodel-property-should-be-stateobject-or-observableobject">Hi ! I’m still having an issue with generic view models in SwiftUI. I’m having trouble to understand what should I choose between <code>@ObservableObject</code> or <code>@StateObject</code> when injecting a generic view model into a SwiftUI view.  I’m commonly doing this: <code>swift protocol ViewModelProtocol { }  struct MyView&amp;lt;ViewModel: ViewModelProtocol: View {     @ObservedObject var viewModel: ViewModel }  let myViewModel = MyViewModel() let myView = MyView(viewModel: myViewModel)</code>  In this case, the <code>viewModel</code> property should be <code>@StateObject</code> or <code>@ObservableObject</code> ?</h4>
 </blockquote>
@@ -4890,6 +4993,7 @@ If your view wants to own an ObservableObject view model, and the lifetime of th
 <p>|U03J2125SNP|:
 Thank you. It makes sense. With your solution, <code>@StateObject</code> allows me to mock the data passed to the view (example: if the view displays a list of books, I can pass the mocked book list to the view initializer and then instantiate the <code>StateObject</code>). But it does not allow me to mock the state of the view (example : if the view model controls wether or not the view is in editing mode)</p>
 <p>Edit : typo</p>
+<hr />
 <blockquote>
 <h4 id="using-swiftui-cells-in-uikit-is-a-fantastic-feature-in-ios-16-however-that-will-not-work-if-my-app-is-still-supporting-ios-prior-to-ios-13-right">Using SwiftUI cells in UIKit is a fantastic feature in iOS 16, however that will not work if my app is still supporting iOS prior to iOS 13. Right ?</h4>
 </blockquote>
@@ -4902,6 +5006,7 @@ So I will always need to wrap my code in the <code>if @available</code> block</p
 Correct. That is the recommended way to do this.</p>
 <p>|U03JR3BQQJ2|:
 Thanks for confirming &lt;@U03HELWUJN9&gt; :pray::skin-tone-2:</p>
+<hr />
 <blockquote>
 <h4 id="hi-there-this-might-not-be-a-ui-specific-question-sorry-for-that-but-id-like-to-know-the-answer-to-use-the-new-swiftui-apis-how-can-i-make-sure-i-support-older-ios-versions-for-example-ios-15-in-my-swiftui-app-while-still-using-the-new-features-for-ios-16-users-are-there-any-macros-for-that">Hi there! This might not be a UI-specific question (sorry for that), but I'd like to know the answer to use the new SwiftUI APIs.  How can I make sure I support older iOS versions, for example iOS 15 in my SwiftUI app, while still using the new features for iOS 16 users? Are there any macros for that?</h4>
 </blockquote>
@@ -4974,6 +5079,7 @@ struct MyOldView: View {
     }
 }
 </code></pre>
+<hr />
 <blockquote>
 <h4 id="is-there-a-way-of-disabling-scrolling-on-a-list-or-would-the-best-option-be-to-use-uihostingconfiguration-inside-of-a-uicollectionview-thats-wrapped-in-a-uiviewrepresentable-so-that-i-can-disable-scrolling-on-the-collection-view-itself">Is there a way of disabling scrolling on a List, or would the best option be to use UIHostingConfiguration inside of a UICollectionView that's wrapped in a UIViewRepresentable so that I can disable scrolling on the collection view itself?</h4>
 </blockquote>
@@ -4981,6 +5087,7 @@ struct MyOldView: View {
 Use the new <code>scrollDisabled</code> modifier. <a href="https://developer.apple.com/documentation/swiftui/menu/scrolldisabled(_:)">https://developer.apple.com/documentation/swiftui/menu/scrolldisabled(_:)</a></p>
 <p>|U03J4DRK4SY|:
 Ah, I completely missed that, nice!</p>
+<hr />
 <blockquote>
 <h4 id="is-there-an-analog-to-appkits-flangschanged-notification-to-change-the-appearance-of-swiftui-controls-based-on-keyboard-modifiers-im-currently-polling-on-a-timer-to-do-this-but-that-is-unsatisfying-fb9601140">Is there an analog to AppKit's flangsChanged notification, to change the appearance of SwiftUI controls based on keyboard modifiers? I'm currently polling on a timer to do this, but that is unsatisfying. (FB9601140)</h4>
 </blockquote>
@@ -5061,6 +5168,7 @@ Should I file a separate fb to get modifer events during event tracking, or is F
 Sorry, wrong number, juggling too many open issues. that should have been FB9406583</p>
 <p>|U03HL05FX6Y|:
 Ah, yes. That radar covers it. Thanks!</p>
+<hr />
 <blockquote>
 <h4 id="uinavigationbarappearances-have-different-behavior-between-ios-13-and-ios-15-how-can-we-get-the-behavior-of-ios-13-in-the-current-version-of-ios-where-the-navigation-bar-doesnt-disappear-upon-scrolling-and-can-take-a-background-color-easily-and-wouldnt-it-make-sense-if-a-breaking-change-is-introduced-to-document-the-code-necessary-to-restore-the-previous-behavior">UINavigationBarAppearances have different behavior between iOS 13 and iOS 15.  How can we get the behavior of iOS 13 in the current version of iOS (where the navigation bar doesn't disappear upon scrolling and can take a background color easily)?  And wouldn't it make sense if a breaking change is introduced to document the code necessary to restore the previous behavior?</h4>
 </blockquote>
@@ -5177,6 +5285,7 @@ Glad you guys were here this week!</p>
 :smile:</p>
 <p>|U03HELWFGKF|:
 its definitely come up a few times that having that available in the appearance objects would be super helpful, just hasn’t been high enough priority to get it done yet. Feedback is definitely appreciated in this area though!</p>
+<hr />
 <blockquote>
 <h4 id="with-menubarextra-is-it-possible-to-have-a-primary-action-thats-triggered-when-the-menu-bar-item-is-clicked-and-then-a-separate-menu-thats-shown-when-the-item-is-option-clicked">With MenuBarExtra, is it possible to have a primary action that's triggered when the menu bar item is clicked and then a separate menu that's shown when the item is option clicked?</h4>
 </blockquote>
@@ -5184,6 +5293,7 @@ its definitely come up a few times that having that available in the appearance 
 Hi - thanks for the question. This isn't something we have support for at the moment, but a feedback with any details you can provide would certainly be helpful.</p>
 <p>|U03J4DRK4SY|:
 FB10134356!</p>
+<hr />
 <blockquote>
 <h4 id="swiftui-and-environmentobject-do-we-have-to-pass-the-object-every-time-we-use-a-navigationlink-my-app-crashes-when-viewa-adds-an-environmentobject-post-when-displaying-viewb-and-viewb-navigates-to-viewc-where-viewc-accesses-the-post-object-cf-httpsdeveloperapplecomforumsthread707659httpsdeveloperapplecomforumsthread707659">SwiftUI and EnvironmentObject: do we have to pass the object every time we use a NavigationLink?  My app crashes when ViewA adds an EnvironmentObject Post when displaying ViewB, and ViewB navigates to ViewC where ViewC accesses the Post object. Cf: <a href="https://developer.apple.com/forums/thread/707659|https://developer.apple.com/forums/thread/707659">https://developer.apple.com/forums/thread/707659|https://developer.apple.com/forums/thread/707659</a></h4>
 </blockquote>
@@ -5235,6 +5345,7 @@ A view can’t have two parent environments. Consider the two ways we could prop
 </code></pre>
 <p>|U03HW7P0HQR|:
 We chose the one on the left and leave it to developers to propagate any additional information as needed. This reduces the number of dependencies.</p>
+<hr />
 <blockquote>
 <h4 id="as-of-monterey-list-supports-drag-and-drop-reordering-of-items-on-macos-and-iosipados-but-it-seems-that-other-types-eg-hstack-vstack-etc-support-drag-and-drop-reordering-of-items-on-macos-only-in-catalyst-apps-in-any-other-kind-of-macos-app-the-same-swiftui-code-that-works-as-expected-in-iosipados-and-catalyst-doesnt-work-ie-a-drag-cannot-be-started-at-all-the-code-compiles-just-fine-but-it-doesnt-actually-work-how-can-i-support-drag-and-drop-reordering-of-items-or-sub-views-in-swiftui-code-in-hstacks-vstacks-etc-in-non-catalyst-macos-apps">As of Monterey, <code>List</code> supports drag-and-drop reordering of items on macOS and iOS/iPadOS, but it seems that other types (e.g., <code>HStack</code>, <code>VStack</code>, etc.) support drag-and-drop reordering of items on macOS <em>only</em> in Catalyst apps. In any other kind of macOS app, the same SwiftUI code that works as expected in iOS/iPadOS and Catalyst doesn't work (i.e., a drag cannot be started at all). The code compiles just fine, but it doesn't actually work.  How can I support drag-and-drop reordering of items (or sub-<code>View</code>s) in SwiftUI code in <code>HStack</code>s, <code>VStack</code>s, etc. in <em>non-Catalyst</em> macOS apps?</h4>
 </blockquote>
@@ -5247,6 +5358,7 @@ Hm, have you tried to provide the contents to the <code>NSItemProvider</code> in
 <p>|U03JET5HAV7|:
 Changing that line to this worked. Thanks!</p>
 <p><code>*return* NSItemProvider(item: item *as* NSSecureCoding, typeIdentifier: "public.text")</code></p>
+<hr />
 <blockquote>
 <h4 id="hi-is-there-any-recommended-way-of-making-controls-inside-a-swiftuis-form-look-more-native-on-macos-in-an-app-made-with-catalyst-would-i-have-to-have-an-appkit-bundleplugin-that-renders-those-swiftui-views">Hi, is there any recommended way of making controls inside a SwiftUI’s <code>Form</code> look more native on macOS in an app made with Catalyst? Would I have to have an AppKit bundle/plugin that renders those SwiftUI views?</h4>
 </blockquote>
@@ -5288,6 +5400,7 @@ Woooo I love that for us thanks!!</p>
 <code>FormStyle</code> is only public this year, so not able to be backported. You would have to create your own <code>Form</code> replacement as a whole to do something like that</p>
 <p>|U03JEKM4LFK|:
 Awesome, thanks for your help!</p>
+<hr />
 <blockquote>
 <h4 id="perhaps-a-bit-of-a-simple-question-for-such-a-space-but-i-am-really-wondering-the-best-way-to-get-started-with-swiftui-i-have-done-the-apple-app-dev-course-where-i-build-scrumdinger-ive-perused-the-documentation-and-im-very-familiar-with-c-bash-and-6502-assembly-i-build-games-for-the-nes-however-im-having-a-bit-of-a-hard-time-remembering-the-syntax-mostly-though-i-guess-im-looking-for-a-place-to-start-my-own-development-for-ideas-of-things-to-implement-to-get-better-at-swift-i-have-always-wanted-to-at-one-point-in-my-life-work-for-apple-like-since-i-saw-the-iphone-come-out-in-2007-im-19-now-sorry-if-this-has-been-a-bit-all-over-the-place-im-just-so-excited-to-be-here">Perhaps a bit of a simple question for such a space, but I am really wondering the best way to get started with SwiftUI. I have done the Apple App Dev course where I build scrumdinger, I've perused the documentation, and I'm very familiar with c, bash, and 6502 assembly (I build games for the NES). However, I'm having a bit of a hard time remembering the syntax. Mostly though, I guess I'm looking for a place to start my own development, for ideas of things to implement to get better at Swift. I have always wanted to at one point in my life work for Apple, like since I saw the iPhone come out in 2007, I'm 19 now. Sorry if this has been a bit all over the place, I'm just so excited to be here.</h4>
 </blockquote>
@@ -5306,6 +5419,7 @@ Don't worry about "writing the code the right way" to start. Just worry about ge
 Ahhh gotcha, I read your response wrong, thank you.</p>
 <p>|U03JTH9NTGD|:
 I have a big problem with putting more effort into looking like I'm doing work rather than actually doing it, so it's refreshing to hear that I'm not really correct for that</p>
+<hr />
 <blockquote>
 <h4 id="can-ontapgesture-be-used-more-than-once-on-a-single-view-like-single-click-to-select-double-click-to-open-in-a-window-itemview-ontapgestureperform-selectitem-ontapgesturecount-2-perform-openiteminwindow">Can onTapGesture be used more than once on a single view?  Like single-click to select, double-click to open in a window?  ItemView()   .onTapGesture(perform: selectItem)    .onTapGesture(count: 2, perform: openItemInWindow)</h4>
 </blockquote>
@@ -5322,6 +5436,7 @@ I have a big problem with putting more effort into looking like I'm doing work r
 </code></pre>
 <p>|U03KAP7FKPB|:
 Thanks. I'll give it a try. </p>
+<hr />
 <blockquote>
 <h4 id="what-is-the-recommended-way-to-conditionalize-code-for-view-modifiers-that-are-only-available-on-newer-versions-of-ios-for-example-if-i-have-a-view-and-previously-was-using-the-regular-ontapgesture-modifier-on-ios-15-but-when-running-on-ios-16-i-want-to-instead-use-the-new-version-that-provides-location">What is the recommended way to conditionalize code for view modifiers that are only available on newer versions of iOS? For example, if I have a View, and previously was using the regular <code>onTapGesture</code> modifier on iOS 15, but when running on iOS 16, I want to instead use the new version that provides <code>location</code>?</h4>
 </blockquote>
@@ -5342,6 +5457,7 @@ Please do file some feedback with this request!</p>
 Just filed FB10135113</p>
 <p>|U03HW7PE3SM|:
 thank you!</p>
+<hr />
 <blockquote>
 <h4 id="hi-i-asked-this-yesterday-and-was-told-to-ask-the-swiftui-team-and-include-a-log-so-here-i-am-im-trying-to-update-my-watchos-app-to-support-watchos-9-however-when-trying-to-play-a-video-using-videoplayer-the-app-crashes-immediately-and-the-console-shows-unable-to-find-class-nacvolumecontroller-is-there-any-around-this-or-should-i-file-a-feedback">Hi, I asked this yesterday and was told to ask the SwiftUI team and include a log so here I am… I’m trying to update my watchOS app to support watchOS 9 however when trying to play a video using VideoPlayer the app crashes immediately and the console shows “Unable to find class NACVolumeController”. Is there any around this or should I file a feedback?</h4>
 </blockquote>
@@ -5365,6 +5481,7 @@ its the sysdiagnose instructions from this page</p>
 <p>|U03HZ3L98TF|:
 Yep that appears to have worked 
 Thank you right I'll get the log and finish the feedback </p>
+<hr />
 <blockquote>
 <h4 id="when-it-comes-to-concurrency-and-swiftui-how-are-you-managing-creationinjections-of-your-actor-objectsbusiness-layer-so-that-your-views-have-access-to-them-or-do-you-have-any-specific-recommendations-based-on-the-newer-swift-concurrency-model-ive-been-reviewing-through-some-of-the-2021-videos-in-conjunction-with-the-new-discussions-this-year-and-i-tend-to-see-shared-in-the-sample-code-which-would-mean-a-singleton-which-id-frankly-rather-avoid-we-been-injecting-interactors-through-the-environment-or-environment-object-but-this-has-issues-because-using-stateobjects-we-dont-necessarily-have-access-to-the-environment-object-during-init-when-weve-been-trying-to-binding-subscriptions-to-our-published-vars-if-we-use-task-would-we-have-access-to-enviroment-at-the-time-the-task-closure-is-run-in-this-way-we-could-probably-set-access-to-our-common-actors-through-the-environment-or-environmentobject-and-then-set-up-flows-that-just-bind-to-state-via-an-async-sequence-is-there-a-way-to-know-when-environment-is-actual-set-for-a-view-so-we-can-respond-to-in-within-a-stateobject-to-set-up-subscription-bindings-either-through-publishers-or-async-sequences">When it comes to concurrency and SwiftUI, how are you managing creation/injections of your actor objects/business layer so that your views have access to them or do you have any specific recommendations based on the newer Swift concurrency model. I've been reviewing through some of the 2021 videos in conjunction with the new discussions this year and I tend to see <code>.shared</code> in the sample code, which would mean a singleton which I'd frankly rather avoid. We been injecting interactors through the @Environment or @Environment object but this has issues because using @StateObjects we don't necessarily have access to the @Environment object during init when we've been trying to binding subscriptions to our @Published vars. If we use .task {} would we have access to @Enviroment at the time the task closure is run? In this way we could probably set access to our common actors through the @Environment or @EnvironmentObject and then set up flows that just bind to @State via an async Sequence. Is there a way to know when @Environment is actual set for a view so we can respond to in within a @StateObject to set up subscription bindings either through publishers or async sequences?</h4>
 </blockquote>
@@ -5380,6 +5497,7 @@ Thank you!</p>
 I’ve found that because there is some unknown amount of time between init() of a view or especially the init() of the @StateObject of view and when the environment is set that it’s hard to know when to run configuration code related to this injection.</p>
 <p>|U03J7BQQNPJ|:
 It’s only safe to access any of the property wrapper from within body</p>
+<hr />
 <blockquote>
 <h4 id="the-offercoderedemptionispresentedoncompletion-modifier-seems-very-specific-and-maybe-should-have-been-something-exported-from-storekit-going-forward-will-specialized-ui-like-this-always-be-added-to-core-swiftui-or-will-we-start-seeing-other-frameworks-implement-swiftui-modifiers">The <code>offerCodeRedemption(isPresented:onCompletion:)</code> modifier seems very specific and maybe should have been something exported from StoreKit.    Going forward will specialized UI like this always be added to core SwiftUI or will we start seeing other frameworks implement SwiftUI modifiers.</h4>
 </blockquote>
@@ -5391,6 +5509,7 @@ Interesting!  The documentation here: <a href="https://developer.apple.com/docum
 makes it look like it is part of core SwiftUI.  I don't see anything that indicates it is part of StoreKit.</p>
 <p>|U03HELTEP9T|:
 Ya that is very subtle. Thanks for pointing that out</p>
+<hr />
 <blockquote>
 <h4 id="is-it-possible-with-swiftuis-new-navigationstack-to-hide-the-tabbar-of-a-tabview-when-the-destionation-view-appears-with-the-existing-navigationview-it-was-possible-but-not-so-easy-to-handle-the-navigation-title-and-buttons">Is it possible with SwiftUIs new NavigationStack to hide the tabbar of a TabView when the destionation view appears. With the existing NavigationView it was possible but not so easy to handle the navigation title and buttons.</h4>
 </blockquote>
@@ -5400,6 +5519,7 @@ Take a look at the new toolbar visibility accepting modifier. This is new in Swi
  .toolbar(.hidden, in: .tabBar)
 </code></pre>
 <p>See <a href="https://developer.apple.com/documentation/swiftui/presentedwindowcontent/toolbar(_:in:)">https://developer.apple.com/documentation/swiftui/presentedwindowcontent/toolbar(_:in:)</a></p>
+<hr />
 <blockquote>
 <h4 id="when-using-charts-to-draw-a-line-graph-is-there-a-way-to-get-the-last-point-to-be-at-the-trailing-edge-of-the-chart-view-im-finding-that-it-always-has-the-trailing-edge-as-a-multiple-of-values-used-on-the-x-axis">When using Charts to draw a line graph, is there a way to get the last point to be at the trailing edge of the chart view? I’m finding that it always has the trailing edge as a multiple of values used on the x axis.</h4>
 </blockquote>
@@ -5415,6 +5535,7 @@ public static func automatic(
 |U03K9095Y7K|:
 Thank you. I'll have a look at using that. 
 
+---
 &gt; ####  SwiftUI in UIKit: What is the recommended way of animating changes to SwiftUI view size when inside a UIHostingController? The problem I’m facing is that while the SwiftUI view itself will animate, and with the new sizing options the UIHostingController will do intrinsic content size invalidation automatically, the hosting view bounds change isn’t animated, it just jumps. This is a problem especially when other UIViews are constrained to the hosting view with Auto Layout. Is there any way to solve this other than manually tracking SwiftUI size changes and triggering a separate layout pass + animation of the hosting view superview?
 
 
@@ -5427,6 +5548,7 @@ Sure! Does that mean there's no solution to this at this time, or you just need 
 |U03HELT4EG5|:
 Both!
 
+---
 &gt; ####  I wrote small testing NavigationStack ```struct ContentView: View {     var body: some View {         NavigationStack {             VStack {                 NavigationLink(value: 123) {                     Text(&quot;Click Me&quot;)                 }             }             .toolbar {                 ToolbarItem {                     Button {                      } label: {                         Text(&quot;Done&quot;)                     }                 }             }             .navigationTitle(&quot;Title&quot;)             .navigationDestination(for: Int.self) { value in                 DetailView()             }         } //        .toolbar(.hidden, in: .windowToolbar)     } }  struct DetailView: View {     var body: some View {         Text(&quot;Detail View&quot;)             .navigationTitle(&quot;Title&quot;)             .toolbar {                 ToolbarItem {                     Button {                                              } label: {                         Text(&quot;New Button&quot;)                     }                 }             }     } }```  But when I click on 'Click Me' button the back button automatically appear in the toolbar. How I can hide or customize this back button? PS: It's on macOS
 
 
@@ -5442,6 +5564,7 @@ Thank you! I will post a feedback report.
 |U03J21F2PQS|:
 Can I somehow show an alert or make some operation when a user clicks the back button in the toolbar? Or now it isn’t possible too? For example to stop a task or to warning a user that there is some unsave changes and wait for user response.
 
+---
 &gt; ####  I'm trying to have .onDelete for delete and .swipeActions for other actions. It is not working this way. Any idea? The thing is I try to have delete as part of .swipeActions. However, I can't find the way to set up the delete animation like the one .onDelete has.
 
 
@@ -5469,6 +5592,7 @@ You want to create a button with a destructive role to achieve the same result:
 |U03JCHKCDB4|:
 &lt;@U03J7BQQNPJ&gt; Regarding feedback `FB10026540` I have updated the project and added more details on my observation. Thanks a ton for the immediate response!!!
 
+---
 &gt; ####  In SwiftUI when you had a List view with items that were continuously synced with a server and you displayed the details view of a selected item then the app jumps back to the main list. Are NavigationStacks solving this problem?
 
 
@@ -5506,6 +5630,7 @@ Explicit identifiers can be used to force an identity change, but not to prevent
 |U03HW7P0HQR|:
 In practice the identity of a view is a combination of its structural and explicit identity.
 
+---
 &gt; ####  We're using an attributed string with the `labelColor` on a `NSStatusItem `s button. However, when displaying this on an inactive display the color isn't dimmed as expected. Is there a way to have the text appear dim when on an inactive display using this approach?
 
 
@@ -5549,6 +5674,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 </code></pre>
 <p>} </p>
 <pre><code>
+---
 &gt; ####  Is there a way to recreate the appearance of the widgets on the Lock Screen using UIVisualEffectView in an app using either SwiftUI or UIKit? I'm specifically interested in recreating the appearance of the circular widget.
 
 
@@ -5561,6 +5687,7 @@ A variety of the gauge styles used in circular complications on the Lock Screen 
 |U03HELWFGKF|:
 with `UIVisualEffectView` you can try the `UIVibrancyEffect`s created with a `UIBlurEffectStyleSystem*Material`, but I’m not sure that will necessarily match what the lock screen is doing
 
+---
 &gt; ####  The documentation for makeCoordinator states: &quot;Creates the custom instance that you use to communicate changes from your view to other parts of your SwiftUI interface.&quot; could you explain what that means? It doesn't make sense to me because normally the coordinator is an NSObject that is the delegate to a UIView. I have seen some examples of Coordinator classes that take in an @Binding, that was passed in to the UIViewRepresentable and then into the Coordinator. Is that what this means?
 
 
@@ -5581,6 +5708,7 @@ I think it would be useful if the documentation for makeCoordinator was updated 
 |U03HB1A8VRU|:
 Passing a binding works great as well, but doesn't scale as well if you have multiple pieces of state to pass through. You're welcome to do it either way!
 
+---
 &gt; ####  There's no way of posting images on the question. But I ll add it once the question gets posted. Using SwiftUI, I m trying to use SwiftChart to add color underneath my line graph. I was wondering if there's a good resource on how I can do that?
 
 
@@ -5674,6 +5802,7 @@ You’re a genius sir. Almost there, just need to add the gradient!! &lt;@U03HL0
 |U03JDDPLMHD|:
 One last question, how can I add the little circle dots for the data points? Do i need to create a new question for that? This is my code currently, Unbelievably short and easy
 
+---
 &gt; ####  What's the recommended way of using a property wrapper such as `@FocusState` such that it will compile targeting iOS 14 for example? AFAIK you can't add an availability annotation
 
 
@@ -5688,6 +5817,7 @@ If you have a specific use case you’re okay with sharing, please file feedback
 |U03J4CGDGH2|:
 Thanks for the reply, would be helpful if it was possible to directly init a FocusState
 
+---
 &gt; ####  SWIFT-UI question:  How to identify the visibility (in index or id) inside a TableColumn View for paginate remote content.
 
 
@@ -5703,6 +5833,7 @@ Yes, it does. We even using that technique in Photos in macOS Ventura :slightly_
 |U03JRQ81NEL|:
 :star-struck: awesome 
 
+---
 &gt; ####  By default UIHostingController configures a navigation bar. What is the best way to hide it?  Overriding viewWillAppear to call setNavigationBarHidden does not always give the expected result.  The best result I got was by overriding viewWillAppear and NOT calling super.viewWillAppear.  Is there any risk with this method?
 
 
@@ -5728,6 +5859,7 @@ Subclassing UIHostingController is the solution for which I asked you advice.
 To prevent SwiftUI to set isNavigationBarHidden to true, we have to override viewWillAppear (and better yet: don't call super.viewWillAppear)
 Why do you say that it is not recommended?
 
+---
 &gt; ####  Question about SwiftUI. We have background task that may generate errors and application shows alert when this error appears. If we use alert(…) modifier on parent view, it works. But when parent view displays some child view, parent view can’t show this alert and app shows warning in console “Attempt to present &amp;lt;Alert on &amp;lt;ParentView which is already presenting &amp;lt;ChildView&quot;.  As workaround we can use identical alert(…) modifiers for parent and ALL child views (sheets, popovers, action sheets, etc.). But in this case we still have warning in console.  How can we display “global” alerts in SwiftUI without warnings in console? Or perhaps we can ignore these warnings?
 
 
@@ -5743,12 +5875,14 @@ Please attach it to the feedback report you create.
 |U03JYBU2FR7|:
 Thanks for the answer! It doesn’t look like a bug, more like a limitation. We need to show alert in unknown period of time. We may show it from .sheet or from the parent view. In parent view it will not be displayed if sheet is already on the screen.
 
+---
 &gt; ####  Is there a way to know when a drop has been cancelled with `.onDrag` and the `DropDelegate`? While dragging I want to change the opacity of the view for the duration of the drag. I tried providing a preview view and using `onDisappear` but it isn't called either. There is `dropExited` but the user can still be dragging.
 
 
 |U03HB1A8VRU|:
 There is no API for this, and as you noted, the drop session state in DropDelegate is different than the drag session state. We'd love to hear your use case for this, so could you file a feedback report asking for this functionality?
 
+---
 &gt; ####  How would I go about making a Grid where all the cells are the same size based on the cell that needs the largest size to appropriately display its content?
 
 
@@ -5761,6 +5895,7 @@ Though you might be able to to implement the custom Layout so that it calls into
 Hi, I’ve done something similar recently in iOS 15. For this I created a child size reader (you can search for that) and then keep track of the largest size. Lastly, simply apply the size to grid items using .frame.
 Not sure if you’re already doing that and simply wanted a neater solution for iOS 16…
 
+---
 &gt; ####  The auto-magical conversion from UiNavigationBars to NSToolbar in Catalyst is an awesome addition, but I’m not sure how it works with multiple columns. I have an app with UISplitViewController and 3 columns. All of the view controllers in each columns have their own buttons, and the one in the secondary view controller has a search bar. Which of these should appear in the Mac toolbar? Ideally they would all appear in their own “section” of the toolbar, like they do on iPad. But in testing, only the buttons from the secondary VC appear — no buttons from the other columns and no search bar. Is that expected? Is there a way to separate toolbar like we can using NSToolbar?
 
 
@@ -5779,6 +5914,7 @@ Ah my appologies — I said “secondary” but meant “supplementary”. My su
 |U03HELWFGKF|:
 yea, I think we don’t translate search from anything other than the detail column currently. We may have bugs here as well, so please send your samples so we can make sure your translation is fantastic!
 
+---
 &gt; ####  When we use UIHostingController, should we register it to responder chain? by presentation or adding as a child view controller. Otherwise what would be happening? for example just retaining UIHostingController and then just adding view to the parent view.
 
 
@@ -5805,12 +5941,14 @@ I wonder if I could create a UIView that supports rendering SwiftUI view like UI
 |U03KDARQ0QY|:
 Awesome talk &lt;@U03HL05BUJG&gt;! What would your recommended approach be for small leaf node SwiftUI views in UIKit, which would not usually be full VCs? Even given the pitfalls of separating the hosting view, we find that we need to do this in ui libraries where clients expect UIViews, not view controllers. Thanks! (FB10019256)
 
+---
 &gt; ####  Is there a way in the SwiftUI document model to access updateChangeCount directly, in order to decouple document saving from the undo stack? (Certain operations don't make sense to undo, but do change the document's file state.) (FB9974481)
 
 
 |U03HW7P2WTB|:
 Hi Ron! For now, there is no API available in SwiftUI for `updateChangeCount`. But also I want to thank you for filing the feedback, it is important to know which functionality is anticipated.
 
+---
 &gt; ####  How do i get points on my lineMark in swift charts? (See Image for comparison)
 
 
@@ -5858,30 +5996,38 @@ the swift charts example project has an example of this!</p>
 You are the best! Got it! Anywhere I can follow you on social media?</p>
 <p>|U03HL05BUJG|:
 Ahh sorry I don’t have any social media!</p>
+<hr />
 <blockquote>
 <h4 id="is-it-possible-in-swiftui-on-mac-to-use-a-modifier-with-a-mouse-click-like-leftclick-i-like-to-select-non-adjacent-items-like-in-photos-and-finder">Is it possible in SwiftUI on Mac to use a modifier with a mouse click like ⌘-leftClick? I like to select non-adjacent items like in Photos and Finder.</h4>
 </blockquote>
 <p>|U03HW7NMP6D|:
 Gestures have  <code>.modifiers(_:)</code> modifier, which allows restricting that gesture to only respond when the modifier is active. So in this case you could use a Tap gesture with <code>.modifiers(.command)</code></p>
+<hr />
 <blockquote>
 <h4 id="for-complex-views-i-often-define-subviews-inside-computed-vars-to-keep-my-body-block-more-readable-especially-for-components-that-dont-need-to-be-reused-elsewhere-in-the-app-so-they-dont-seem-to-warrant-a-reusable-struct-example-struct-myview-view-var-body-some-view-sometext-somebutton-private-var-sometext-some-view-texthello-private-var-somebutton-some-view-buttonpress-ive-heard-that-this-can-be-bad-for-performance-is-that-true-and-does-using-viewbuilder-on-some-computed-vars-have-any-impact">For complex views, I often define subviews inside computed vars to keep my <code>body</code> block more readable.  Especially for components that don't need to be reused elsewhere in the app, so they don't seem to warrant a reusable struct. Example:  struct MyView: View {     var body: some View {         someText         someButton     }     private var someText: some View {         Text("Hello")     }     private var someButton: some View {         Button("Press") {}     } }  I've heard that this can be bad for performance - is that true? And does using @ViewBuilder on some computed vars have any impact?</h4>
 </blockquote>
 <p>|U03HKVDCL7N|:
 SwiftUI’s traversal of your view tree isn’t impacted at all by whether you chose to use new structs, or computed properties, for small pieces of views, etc. So this is totally reasonable. Using <code>@ViewBuilder</code> here also shouldn’t have a performance impact. I would highly recommend doing so!</p>
 <p>The only thing that you should pay attention to is your mechanisms for invalidating your views will be a bit less fine-grained, as you’re making a larger part of your view hierarchy dependent on the sources of truth specified by <code>MyView</code> . Make sure you’re paying attention to what pieces of your view depend on which pieces of data, and when you see computed properties that have completely disparate dependencies from the rest of the view, you consider breaking those out.</p>
+<hr />
 <blockquote>
 <h4 id="are-the-new-navigation-bar-styles-httpsdeveloperapplecomdocumentationuikituinavigationitem3987969-stylehttpsdeveloperapplecomdocumentationuikituinavigationitem3987969-style-supported-on-swiftui">Are the new navigation bar styles (<a href="https://developer.apple.com/documentation/uikit/uinavigationitem/3987969-style)|https://developer.apple.com/documentation/uikit/uinavigationitem/3987969-style)">https://developer.apple.com/documentation/uikit/uinavigationitem/3987969-style)|https://developer.apple.com/documentation/uikit/uinavigationitem/3987969-style)</a> supported on SwiftUI?</h4>
 </blockquote>
 <p>|U03HW7QCHK3|:
 Howdy! You can find the answer to this in this slack thread: <a href="https://wwdc22.slack.com/archives/C03H9K1JYJY/p1654786985779439">https://wwdc22.slack.com/archives/C03H9K1JYJY/p1654786985779439</a></p>
+<hr />
 <blockquote>
 <h4 id="hi-all-thanks-for-all-the-great-work-this-year-what-approaches-would-you-recommend-to-start-integrating-swiftui-into-existing-codebases-that-support-ios-1415">Hi all, thanks for all the great work this year.   What approaches would you recommend to start integrating SwiftUI into existing codebases that support iOS 14/15?</h4>
 </blockquote>
 <p>|U03HB1A8VRU|:
 I'd suggest trying to adopt it in a view controller first, and replace the existing view controller with a UIHostingController and try to recreate the existing layout.</p>
 <p>A great place to start is a settings view, where you can use Form to put a list of fields, switches, sliders, and more.</p>
+<hr />
 <blockquote>
 <h4 id="in-continuation-of-my-question-about-navigationstack-httpswwdc22slackcomarchivesc03h9k1jyjyp1654791464924449httpswwdc22slackcomarchivesc03h9k1jyjyp1654791464924449-can-i-somehow-show-an-alert-or-make-some-operation-when-a-user-clicks-the-back-button-in-the-toolbar-or-now-it-isnt-possible-too-for-example-stop-a-task-or-warn-a-user-that-there-are-some-not-saved-changes-and-wait-for-the-users-response">In continuation of my question about NavigationStack <a href="https://wwdc22.slack.com/archives/C03H9K1JYJY/p1654791464924449|https://wwdc22.slack.com/archives/C03H9K1JYJY/p1654791464924449">https://wwdc22.slack.com/archives/C03H9K1JYJY/p1654791464924449|https://wwdc22.slack.com/archives/C03H9K1JYJY/p1654791464924449</a>  Can I somehow show an alert or make some operation when a user clicks the back button in the toolbar? Or now it isn’t possible too? For example, stop a task or warn a user that there are some not saved changes and wait for the user’s response.</h4>
+</blockquote>
+<hr />
+<blockquote>
 <h4 id="is-there-a-way-to-specify-the-tabbing-order-of-text-fields-akin-to-textviewnextkeyview-fb10020959-my-app-has-a-combination-of-swiftui-textfield-views-and-nsuitextview-wrapping-in-nsuiviewrepresentable-and-ive-seen-some-odd-cases-where-the-default-tabbing-order-is-quite-unintuitive">Is there a way to specify the tabbing order of text fields, akin to textView.nextKeyView (FB10020959). My app has a combination of SwiftUI TextField Views and NS/UITextView wrapping in NS/UIViewRepresentable, and I've seen some odd cases where the default tabbing order is quite unintuitive.</h4>
 </blockquote>
 <p>|U03HW7NMP6D|:
@@ -5893,12 +6039,14 @@ focusSection would have been perfect, but my bug is occurring on the iOS app.</p
 It does seem to be following leading to trailing, top to bottom in terms of the entire screen, however, the View with logically grouped TextField’s can happen to be in a column next to unrelated NSTextViews far away, but along the same leading to trailing line horizontally.</p>
 <p>|U03HW7NMP6D|:
 Ah, thanks for clarifying, and I see in the feedback that you provided a test flight — thank you! We’ll check that out and follow up if we have any more questions on that</p>
+<hr />
 <blockquote>
 <h4 id="is-it-possible-to-have-a-self-sizing-list-in-swiftui-similar-to-how-lazyvstack-works-list-has-support-for-drag-and-drop-through-onmove-while-lazyvstack-does-not">Is it possible to have a self-sizing list in SwiftUI similar to how LazyVStack works? List has support for drag and drop through <code>onMove</code> while LazyVStack does not.</h4>
 </blockquote>
 <p>|U03HB1A8VRU|:
 List doesn't size itself based on the height of the content like LazyVStack. You'll need to give it a fixed height using the <code>.frame(height: ...)</code> modifier. List has support for reordering, swipe actions, and other features that LazyVStack does not.</p>
 <p>We'd love to hear about your use case in a feedback report. Specifically let us know what kind of experience you're trying to achieve, but can't.</p>
+<hr />
 <blockquote>
 <h4 id="i-have-a-couple-of-apps-written-in-swiftui-in-the-past-two-years-that-are-broken-now-because-they-rely-on-lists-and-the-background-color-cant-be-changed-anymore-using-the-uitableviewappearance-api-how-can-we-change-the-default-background-color-for-list-in-swiftui">I have a couple of apps written in SwiftUI in the past two years that are broken now because they rely on lists and the background color can’t be changed anymore using the UITableView.appearance() API.  How can we change the default background color for List in SwiftUI?</h4>
 </blockquote>
@@ -5908,17 +6056,20 @@ Please see our earlier post in the channel here: <a href="https://wwdc22.slack.c
 Awesome! Thanks for your reply and sorry for not paying attention :D I really hope I won't have to throw away my years worth of code for such a small detail :P</p>
 <p>|U03HW7PE3SM|:
 No worries :slightly_smiling_face:</p>
+<hr />
 <blockquote>
 <h4 id="is-there-swiftui-equivalent-of-new-uinavigationitembackaction">Is there SwiftUI equivalent of new UINavigationItem.backAction?</h4>
 </blockquote>
 <p>|U03HW7QCHK3|:
 There is no equivalent in SwiftUI, but a feedback would be appreciated!</p>
+<hr />
 <blockquote>
 <h4 id="how-can-i-adjust-the-width-or-thickness-of-a-linemark-in-swift-charts">How can I adjust the width or thickness of a linemark in swift charts?</h4>
 </blockquote>
 <p>|U03HL05BUJG|:
 you can use a LineStyle! <a href="https://developer.apple.com/documentation/charts/chartcontent/linestyle(_:)">https://developer.apple.com/documentation/charts/chartcontent/linestyle(_:)</a>
 <code>.lineStyle(StrokeStyle(lineWidth: 3))</code></p>
+<hr />
 <blockquote>
 <h4 id="we-have-an-app-that-has-a-50-components-built-using-uikit-we-are-trying-to-use-swiftui-by-reusing-our-existing-components-but-we-are-facing-multiple-challenges-1-it-seems-that-uiviewrepresentable-doesnt-work-out-of-the-box-with-views-that-are-built-using-auto-layout-we-have-a-generic-container-intrinsiccontentheightview-that-tries-to-calculate-the-size-of-the-uikit-view-and-return-it-to-the-intrinsiccontentsize-is-there-a-better-solution-2-we-noticed-performance-issues-using-uiviewrepresentable-views-in-swiftui-lists-it-seems-that-lists-always-re-create-the-uiviewrepresentable-views-and-never-recycle-cells-are-we-doing-anything-wrong-3-our-design-system-slightly-modifies-the-line-height-of-our-texts-we-have-a-solution-using-nsattributedstring-that-works-well-for-uikit-but-havent-found-a-solution-for-swiftui-text-supports-line-spacing-but-it-can-only-increase-the-default-line-spacing-it-cannot-decrease-it-passing-negative-values-does-nothing-is-there-anything-we-can-do-to-customize-the-line-height-of-a-text-in-swiftui">We have an app that has a 50+ components built using UIKit. We are trying to use SwiftUI by reusing our existing components but we are facing multiple challenges. 1. It seems that UIViewRepresentable doesn't work out of the box with views that are built using auto-layout. We have a generic container (IntrinsicContentHeight&lt;View) that tries to calculate the size of the UIKit view and return it to the intrinsicContentSize. Is there a better solution?  2. We noticed performance issues using UIViewRepresentable views in SwiftUI Lists. It seems that Lists always re-create the UIViewRepresentable views and never recycle cells. Are we doing anything wrong?  3. Our design system slightly modifies the line-height of our texts. We have a solution using NSAttributedString that works well for UIKit but haven't found a solution for SwiftUI. Text supports line spacing but it can only increase the default line spacing, it cannot decrease it (passing negative values does nothing). Is there anything we can do to customize the line height of a Text in SwiftUI?</h4>
 </blockquote>
@@ -5930,6 +6081,7 @@ Thank you, Raj! I will check if we can build a solution for iOS 16 with sizeThat
 For your last question, can you please file a feedback with your request? In particular, it would be good to know what kind of customization you need for line spacing/line height? It it going to be a fixed value, or certain percentage, or a delta applied, or a value relative to Dynamic Type sizes? Thanks!</p>
 <p>|U03JRJWPYKB|:
 Value relative to the dynamic type size sounds like the thing that will work for me. I will make sure to file feedback to give more details. Thank you for answering, Paul!</p>
+<hr />
 <blockquote>
 <h4 id="is-there-any-thought-to-making-uitextinteraction-spell-checking-api-public-uitextinteraction-respects-the-spellcheckingtype-property-of-uitextinputtraits-if-the-value-is-uitextspellcheckingtypedefault-or-uispellcheckingtypeyes-spell-checking-occurs-as-expected-unfortunately-uitextinteraction-uses-the-private-uitextreplacement-class-to-handle-spell-checking-when-it-encounters-a-misspelled-word-it-correctly-presents-a-menu-with-the-spelling-options-however-when-you-tap-the-correction-it-attempts-to-call-the-private-replace-method-with-a-sender-of-private-class-uitextreplacement-the-replacementtext-property-of-the-sender-contains-the-misspelling-the-code-works-fine-but-using-this-private-method-and-property-earns-you-a-rejection-from-app-review-so-it-isnt-possible-to-use-the-spell-checking-features-of-uitextinteraction">Is there any thought to making UITextInteraction spell-checking API public? UITextInteraction respects the spellCheckingType property of UITextInputTraits. If the value is UITextSpellCheckingTypeDefault or UISpellCheckingTypeYes, spell checking occurs as expected. Unfortunately, UITextInteraction uses the private UITextReplacement class to handle spell checking. When it encounters a misspelled word, it correctly presents a menu with the spelling options. However, when you tap the correction, it attempts to call the private <code>replace:</code> method with a sender of private class UITextReplacement. The replacementText property of the sender contains the misspelling. The code works fine, but using this private method and property earns you a rejection from app review, so it isn’t possible to use the spell-checking features of UITextInteraction.</h4>
 </blockquote>
@@ -5939,6 +6091,7 @@ This seems like an oversight on our part. Have you filed a feedback request for 
 FB10136384</p>
 <p>|U03HELXCTGV|:
 Thanks. I think the expectation is that <code>replaceRange:withText:</code> should be invoked instead of the private <code>replace:</code> method. In the meantime, you should try implementing <code>shouldChangeTextInRange:replacementText:</code> and see if that gets called before/after the call to <code>replace</code> . That would be a way to get the replacement text without using private API.</p>
+<hr />
 <blockquote>
 <h4 id="did-anything-change-in-uitextinteraction-with-respect-to-dictation-on-ios-16-dictation-in-a-custom-view-that-supports-uitextinteraction-always-fails-the-same-shipping-code-works-on-ios-15">Did anything change in UITextInteraction with respect to dictation? On iOS 16, dictation in a custom view that supports UITextInteraction always fails. The same (shipping) code works on iOS 15.</h4>
 </blockquote>
@@ -5946,16 +6099,19 @@ Thanks. I think the expectation is that <code>replaceRange:withText:</code> shou
 Changes were made to dictation to support the new "modeless" dictation feature. If this has broken a custom text view implementation, it was unintentional and a feedback request would be appreciated.</p>
 <p>|U03K11CE03T|:
 Will do. I notice that dictation seems to be failing in Pages too, but not Notes old this (old) iPad.</p>
+<hr />
 <blockquote>
 <h4 id="is-there-a-way-to-use-app-specific-uiactivities-with-swiftuis-new-sharelink">Is there a way to use app-specific UIActivities with SwiftUI’s new ShareLink?</h4>
 </blockquote>
 <p>|U03HELXCTGV|:
 This might be a better question for the &lt;#C03HX19UNCQ|&gt;.</p>
+<hr />
 <blockquote>
 <h4 id="the-new-find-stuff-is-great-it-took-30-seconds-to-integrate-with-my-uitextview-on-catalyst-the-find-panel-seems-to-have-some-issues-namely-that-clicking-on-the-buttons-doesnt-work-the-search-field-is-focused-and-i-can-type-it-in-but-clicking-doesnt-do-anything-is-that-a-known-issue-with-beta-1-or-is-there-something-i-should-investigate-on-my-end">The new find stuff is great — it took 30 seconds to integrate with my UITextView. On Catalyst, the find panel seems to have some issues, namely that clicking on the buttons doesn’t work — the search field is focused and I can type it in, but clicking doesn’t do anything. Is that a known issue with beta 1 or is there something I should investigate on my end?</h4>
 </blockquote>
 <p>|U03HELXCTGV|:
 This is a known issue (but feedback requests still appreciated). A workaround currently is to call <code>layoutSubviews</code> on the UITextView after the find panel appears.</p>
+<hr />
 <blockquote>
 <h4 id="a-bit-late-to-the-party-due-to-a-lab-appointment-so-still-working-my-way-through-the-video-can-you-advise-is-there-an-api-to-enable-me-to-add-custom-data-detectors-in-text-editing-in-my-app-for-instance-id-like-to-be-able-to-have-a-data-detector-that-adds-text-decoration-or-other-features-to-any-time-someone-inserts-the-name-of-a-person-in-their-text-from-a-list-of-names-of-people-already-in-the-app-say-several-thousand-people-is-there-an-apimechanism-for-this">A bit late to the party, due to a lab appointment, so still working my way through the video. Can you advise: is there an API to enable me to add custom data detectors in text editing in my app? For instance, I'd like to be able to have a data detector that adds text decoration or other features to any time someone inserts the name of a person in their text, from a list of names of people already in the app (say, several thousand people). Is there an API/mechanism for this?</h4>
 </blockquote>
@@ -5963,6 +6119,7 @@ This is a known issue (but feedback requests still appreciated). A workaround cu
 Unfortunately, that is not something that is supported today. Please file a feedback request for us to look at in the future :slightly_smiling_face:</p>
 <p>|U03HELXN8CV|:
 Obviously not as nice as a dedicated API , but you could do it very manually, by watching the delegate methods of <code>UITextView</code> for text changes, and then maybe overlaying things or editing the text to add links.</p>
+<hr />
 <blockquote>
 <h4 id="honestly-its-been-a-while-since-i-last-checked-this-but-is-there-an-api-in-uikit-these-days-that-i-can-query-to-check-whether-an-external-hardware-keyboard-is-present">Honestly, it’s been a while since I last checked this, but is there an API in UIKit these days that I can query to check whether an external hardware keyboard is present?</h4>
 </blockquote>
@@ -5990,6 +6147,7 @@ One case we're hitting where we would love to check for HW keyboard - in our cus
 Your hex editor needs to run in the background indefinitely? Why?</p>
 <p>|U03JDNMQDKN|:
 Let’s say you are moving around large chunks of data stored on a slow USB drive. If the OS decides to kill the app while the app is still busy writing data, data corruption occurs, I guess? Maybe this is not an issue with journaled file systems, but what about plain old FAT32?</p>
+<hr />
 <blockquote>
 <h4 id="the-uifindinteraction-doesnt-seem-to-fire-off-a-new-query-on-my-session-when-the-user-removes-all-text-from-the-search-box-is-this-intended-is-there-another-way-of-listening-for-this-so-we-can-clear-our-custom-text-highlights">The UIFindInteraction doesn't seem to fire off a new query on my session when the user removes all text from the search box. Is this intended? Is there another way of listening for this so we can clear our custom text highlights?</h4>
 </blockquote>
@@ -5999,6 +6157,7 @@ You should get a call to <code>invalidateFoundResults</code> instead.</p>
 Thank you for answering the last minute Q! I totally thought <code>invalidateFoundResults</code> was only there to be called by us, not the system.</p>
 <p>|U03HELXCTGV|:
 Ah, indeed, the documentation is wrong. Thanks for pointing that out!</p>
+<hr />
 <blockquote>
 <h4 id="hi-in-my-carplay-app-in-templateapplicationscene_didconnect-i-get-the-provided-interfacecontroller-and-store-a-reference-to-it-but-most-of-the-times-when-i-try-to-access-interfacecontrollercartraitcollection-the-app-crashes-because-cartraitcollection-is-uninitialized-so-it-makes-creating-image-for-different-display-scale-2x-3x-or-different-display-styles-dark-light-impossible-i-tried-to-make-sure-that-i-always-access-it-from-main-thread-but-still-have-the-same-problem-this-code-always-crashes-for-me-carplay-connected-func-templateapplicationscene-_-templateapplicationscene-cptemplateapplicationscene-didconnect-interfacecontroller-cpinterfacecontroller-selfinterfacecontroller-interfacecontroller-selfinterfacecontrollerdelegate-self-printinterfacecontrollercartraitcollection">Hi, In my CarPlay app, In <code>templateApplicationScene(_:didConnect:)</code> I get the provided <code>interfaceController</code> and store a reference to it, but most of the times when I try to access <code>interfaceController.carTraitCollection</code> The app crashes because <code>carTraitCollection</code> is <code>Uninitialized</code>, so it makes creating image for different display scale (2x, 3x) or different display styles (dark, light) impossible. I tried to make sure that I always access it from main thread but still have the same problem.  This code always crashes for me: <code>// CarPlay connected     func templateApplicationScene(         _ templateApplicationScene: CPTemplateApplicationScene,         didConnect interfaceController: CPInterfaceController     ) {         self.interfaceController = interfaceController;         self.interfaceController?.delegate = self;           print(interfaceController.carTraitCollection) }</code></h4>
 </blockquote>
@@ -6036,6 +6195,7 @@ Thank you Kevin and Jonathan.</p>
 <p>|U03JBFATXM2|:
 another related question that I noticed, looking at another thread, &lt;@U03HJA80GLS&gt; When using UIImageAsset, the pickup of the correct asset also depends on the interfaceController.carTraitCollection which is nil at some point, so if we use an image asset to create the template when the carTraitCollection is nil we will get the wrong asset, or no asset at all.
 Is there any workaround for this?</p>
+<hr />
 <blockquote>
 <h4 id="hi-ive-a-question-about-the-car-play-simulator-i-added-arm64-in-the-excluded-architecture-to-run-in-the-iphone-simulator-for-my-m1-mac-now-i-get-this-error-in-carplay-simulator-terminating-app-due-to-uncaught-exception-nsinvalidargumentexception-reason-unsupported-object-cptabbartemplate-i-think-it-crashes-because-of-arm64-in-the-excluded-architecture-can-you-please-help">Hi, I've a question about the Car Play simulator . I added arm64 in the excluded architecture to run in the iPhone simulator for my M1 mac.  Now I get this error in  carplay simulator “Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: 'Unsupported object &lt;CPTabBarTemplate: …. “ , I think it crashes because of arm64 in the excluded architecture. Can you please help ?</h4>
 </blockquote>
@@ -6045,6 +6205,7 @@ Hi! This is most likely caused by a library or third-party dependency in your ap
 You might also try running your app on-device with the new CarPlay Simulator app on your Mac, available under the Additional Tools downloads on the developer site.</p>
 <p>|U03J8ND0AH2|:
 Thank you so much. I downloaded that tool and planning to use the CarPlay simulator.</p>
+<hr />
 <blockquote>
 <h4 id="when-your-carplay-app-is-running-but-your-screen-on-your-device-is-locked-is-your-app-considered-in-the-foreground-for-example-can-i-run-something-like-a-timer-if-im-just-within-the-carplay-ui">When your CarPlay app is running but your screen on your device is locked, is your app considered "in the foreground?"  For example, can I run something like a Timer if I'm just within the CarPlay UI?</h4>
 </blockquote>
@@ -6052,6 +6213,7 @@ Thank you so much. I downloaded that tool and planning to use the CarPlay simula
 When an app is launched in CarPlay and visible on the CarPlay display, the corresponding UIScene (specifically a <code>CPTemplateApplicationScene</code>) is foregrounded. As with UIScene in general, your app's overall application state is the highest activation state of all of its connected scenes.</p>
 <p>|U03HQMRPRTR|:
 Thanks!</p>
+<hr />
 <blockquote>
 <h4 id="do-push-notifications-non-time-sensitive-work-like-normal-when-in-the-carplay-ui-as-in-can-i-process-them-and-do-everything-i-would-expect-to-do-just-like-when-my-app-is-open-on-my-device">Do push notifications (non-time sensitive) work like normal when in the CarPlay UI? As in, can I process them and do everything I would expect to do just like when my app is open on my device?</h4>
 </blockquote>
@@ -6077,6 +6239,7 @@ App icon badges will appear in CarPlay, that’s one way to communicate that you
 Definitely file feedback too if you think it could be useful for your app!</p>
 <p>|U03HQMRPRTR|:
 Will do. Although this may be an entire project killer at this point.</p>
+<hr />
 <blockquote>
 <h4 id="does-the-new-carplay-simulator-app-only-function-with-devices-running-ios-16-i-couldnt-get-it-to-actually-display-carplay-visuals-from-my-plugged-in-ios-155-iphone-no-error-messages-just-nothing-happening">Does the new CarPlay Simulator app only function with devices running iOS 16? – I couldn't get it to actually display CarPlay visuals from my plugged-in iOS 15.5 iPhone (No error messages; just …nothing happening)</h4>
 </blockquote>
@@ -6103,6 +6266,7 @@ I'm sorry the steps didn't resolve the issue. This sounds like something we need
 It's also worth trying the latest beta of iOS 15 - 15.6 beta 2, it includes a fix to an issue that can lead to this problem.</p>
 <p>|U03JEEUJPMJ|:
 (FYI: CarPlay Simulator just kicked into life for me once I’d turned off Personal Hotspot :+1::skin-tone-3:)</p>
+<hr />
 <blockquote>
 <h4 id="ive-been-snapshotting-a-swiftui-view-uihostingcontroller-uiimage-to-create-point-of-interest-images-this-works-in-the-ios-simulator-with-carplay-external-display-but-ive-found-on-a-real-car-head-unit-that-when-my-app-is-launched-from-carplay-and-hasnt-been-launched-on-the-device-or-the-device-is-locked-i-just-get-an-empty-image-rendered-when-run-via-carplay-this-seems-to-be-related-to-the-on-device-app-being-inactive-despite-the-carplay-app-being-active-im-hitting-walls-in-my-knowledge-of-ios-app-activation-states-is-there-there-some-way-api-you-can-think-of-that-i-could-call-in-my-carplay-side-of-things-to-wake-up-man-shruggingskin-tone-3-the-on-device-app">I've been snapshotting a SwiftUI View (<code>UIHostingController</code> = <code>UIImage</code>) to create Point of Interest images. This works in the iOS Simulator (with CarPlay external display), but I've found on a real car head-unit that: - when my app is launched from CarPlay (and hasn't been launched on the device), - or the device is locked, I just get an empty image rendered when run via CarPlay.  This seems to be related to the 'on-device app' being inactive, despite the CarPlay app being active. I'm hitting walls in my knowledge of iOS app activation states–– is there there some way (API) you can think of that I could call in my CarPlay side of things, to 'wake up' (:man-shrugging::skin-tone-3:) the 'on-device app'?</h4>
 </blockquote>
@@ -6119,6 +6283,7 @@ This is probably a question better answered by the SwiftUI team, but filing a fe
 Noted, thanks :relaxed:</p>
 <p>|U03HWUTHA1X|:
 And, to answer your question about 'waking up' the app on the phone, there is no means of doing this. Apps are only launched (given scenes) by the system (generally this is because the user launched the app in that environment)</p>
+<hr />
 <blockquote>
 <h4 id="for-a-generic-notification-that-shows-up-when-your-app-is-not-in-the-foregroundare-those-just-time-sensitive-notifications-or-are-those-restricted-to-only-certain-types-of-entitlements">For a generic notification that shows up when your app is not in the foreground...are those just time-sensitive notifications or are those restricted to only certain types of entitlements?</h4>
 </blockquote>
@@ -6129,6 +6294,7 @@ We only allow notifications for certain categories such as navigation apps, park
 When requesting notifications authorization for user notifications, include the <code>allowInCarPlay</code> option:
 <a href="https://developer.apple.com/documentation/usernotifications/unnotificationcategoryoptions/1649281-allowincarplay">https://developer.apple.com/documentation/usernotifications/unnotificationcategoryoptions/1649281-allowincarplay</a>
 And make sure to post the notification with that category. Separate out notifications intended for CarPlay into their own category to avoid other notifications your app might post that aren’t relevant while driving from appearing in CarPlay.</p>
+<hr />
 <blockquote>
 <h4 id="is-there-any-way-to-have-two-different-icons-for-each-tab-one-for-when-the-tab-is-selected-and-one-for-when-the-tab-is-not-selected-i-have-tried-to-change-the-tab-icon-when-the-template-appearsdisappears-but-it-does-not-work">Is there any way to have two different icons for each tab? one for when the tab is selected and one for when the tab is not selected? I have tried to change the tab icon when the template appears/disappears, but it does not work.</h4>
 </blockquote>
@@ -6136,6 +6302,7 @@ And make sure to post the notification with that category. Separate out notifica
 You should get a <code>CPTabBarTemplateDelegate</code> callback when the active tab changes, but any changes to the tab image will only be picked up when the tab bar template is created OR reloaded with a new set of tabs, via <code>updateTemplates:</code>. This would be a great feedback to file!</p>
 <p>|U03JBFATXM2|:
 Thank, I will file a feedback</p>
+<hr />
 <blockquote>
 <h4 id="can-a-carplay-app-run-in-the-background-for-location-updates-and-trigger-a-local-notification-ie-location-services-background-mode-or-do-carplay-apps-not-have-access-to-the-same-functionality-when-closed-use-case-an-ev-charging-app-which-launches-maps-to-navigate-to-a-charging-station-but-monitors-location-updates-in-the-background-and-when-the-user-is-a-few-miles-from-the-charging-station-location-checks-the-stations-availability-again-to-notify-the-user-if-the-station-is-no-longer-available">Can a CarPlay app run in the background, for location updates, and trigger a local notification? (i.e. location services background mode)  (Or do CarPlay apps not have access to the same functionality when 'closed'?)  Use case = an EV charging app, which launches Maps to navigate to a charging station, but monitors location updates in the background, and – when the user is a few miles from the charging station location – checks the station's availability again; to notify the user if the station is no longer available.</h4>
 </blockquote>
@@ -6143,6 +6310,7 @@ Thank, I will file a feedback</p>
 Background app activity policies are the same in CarPlay. If your app already supports a background location service such as an arrival geofence for that charger the app will continue to support that behavior when launched or backgrounded in CarPlay as well.</p>
 <p>|U03JEEUJPMJ|:
 Yay! :partying_face:</p>
+<hr />
 <blockquote>
 <h4 id="do-i-have-any-access-to-car-information-through-carplay">Do I have any access to car information through carplay?</h4>
 </blockquote>
@@ -6152,6 +6320,7 @@ Can you please clarify the use case you are trying to address here?</p>
 I was hoping for mileage information, for trip durations, and just noting this mileage is being recorded as a business trip or a personal trip.</p>
 <p>|U03HLM4KG7N|:
 Unfortunately that information isn't passed over, no.</p>
+<hr />
 <blockquote>
 <h4 id="what-is-the-expected-image-size-for-the-section-header-button-introduced-in-ios-15">What is the expected image size for the section header button (introduced in iOS 15)?</h4>
 </blockquote>
@@ -6195,6 +6364,7 @@ Thank you for the answers &lt;@U03HBMB6TPG&gt;. Is there any estimate for when t
 <p>|U03HBMB6TPG|:
 No problem &lt;@U03JBFATXM2&gt;, thank you for developing with us!
 We’re investigating the issue, but can't share a timeframe at this time</p>
+<hr />
 <blockquote>
 <h4 id="in-ios-simulator-with-the-additional-carplay-external-display-options-enabled-via-defaults-theres-load-and-save-functionality-for-simulation-config-screen-dimensions-scale-etc-are-there-any-defaults-that-can-be-set-to-enable-loadsave-functionality-in-the-new-carplay-simulator-app-use-case-swapping-between-different-cars-for-testing">In iOS Simulator, with the additional CarPlay external display options enabled via <code>defaults</code>, there's <code>Load</code> and <code>Save</code> functionality for simulation config (screen dimensions, scale, etc)  Are there any <code>defaults</code> that can be set to enable load/save functionality in the new CarPlay Simulator app? (Use case: swapping between different 'cars' for testing)</h4>
 </blockquote>
@@ -6203,6 +6373,7 @@ Unfortunately this isn't a currently supported feature, but please file a feedba
 <p>|U03JEEUJPMJ|:
 Noted :+1::skin-tone-3:</p>
 <p><code>FB10165659 (Support loading+saving of CarPlay Simulator configuration)</code></p>
+<hr />
 <blockquote>
 <h4 id="when-it-comes-to-color-of-icons-and-images-it-seems-as-those-need-to-already-be-the-color-you-want-them-to-be-for-displaying-it-doesnt-seem-that-i-can-tint-them-when-displaying-them-in-the-carplay-ui-is-that-correct-or-am-i-doing-something-wrong">When it comes to color of icons and images, it seems as those need to already be the color you want them to be for displaying.  It doesn't seem that I can tint them when displaying them in the CarPlay UI. Is that correct or am I doing something wrong?</h4>
 </blockquote>
@@ -6224,6 +6395,7 @@ thanks!</p>
 Is there any workaround for this?</p>
 <p>|U03HJA80GLS|:
 Thanks! That’s worth a separate feedback for sure. I don’t think we have any workaround to share right now, but it’s under investigation.</p>
+<hr />
 <blockquote>
 <h4 id="for-testing-carplay-with-ios-simulator-it-appears-that-the-carplay-window-shown-with-ios-simulator-is-not-responding-to-external-inputs-on-apple-silicon-is-that-a-known-issue">For testing CarPlay with iOS Simulator, it appears that the CarPlay window shown with iOS Simulator is not responding to external inputs on Apple silicon. Is that a known issue?</h4>
 </blockquote>
@@ -6233,6 +6405,7 @@ Hi there — we're aware of an issue with inputs on the Xcode Simulator and are 
 Cool thanks ^^</p>
 <p>|U03HZ462JCV|:
 Just want to make sure I didn’t do something dumb :sweat_smile:</p>
+<hr />
 <blockquote>
 <h4 id="any-chance-for-an-answer-previous-question-regarding-the-ability-to-share-text-from-one-carplay-app-to-another">Any chance for an answer previous question regarding the ability to share text from one CarPlay app to another?</h4>
 </blockquote>

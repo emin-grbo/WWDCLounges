@@ -1723,6 +1723,7 @@ I see, thanks! So I assume the data flow is that it’s still up to the Watch ap
 If you want to simplify, you can call both and the system will only reload your widgets if you’re running on watchOS 9 or later and have adopted WidgetKit based complications.</p>
 <p>|U03HHHJT28K|:
 After migrating to WidgetKit, your ClockKit based complications will no longer be run.</p>
+<hr />
 <blockquote>
 <h4 id="what-is-the-best-way-to-log-watch-applications-especially-in-production-builds-installing-logging-profiles-can-be-problematic-for-non-tech-users-and-only-lasts-for-a-couple-of-days">What is the best way to log Watch applications, especially in production builds? Installing logging profiles can be problematic for non-tech users and only lasts for a couple of days</h4>
 </blockquote>
@@ -1744,6 +1745,7 @@ The profiles expire, but that doesn’t stop you from having your own logging. :
 I believe the intention is to expire the profiles because often a user will forget they have it enabled and that can have power and performance implications.</p>
 <p>|U03HMESB695|:
 If this helps at all, here is my code <a href="https://gist.github.com/aaronpearce/ae5a287d99fce09b4507e708d6aa329e">https://gist.github.com/aaronpearce/ae5a287d99fce09b4507e708d6aa329e</a> Uses a watchconnectivity library called Communicator.</p>
+<hr />
 <blockquote>
 <h4 id="if-we-go-for-watchos-9-only-is-it-then-possible-for-watch-series-3-users-to-load-the-old-binary-of-the-app-from-the-watch-app-store">If we go for watchOS 9 only is it then possible for Watch Series 3 users to load the old Binary of the App from the  "Watch App Store"?</h4>
 </blockquote>
@@ -1767,16 +1769,19 @@ But the Watch Binary is still a part of the iOS Binary right? If a user with a S
 The watchOS binary is not downloaded to the phone if the paired watch is running watchOS 6.0 or later. It does not make your iOS app any bigger.</p>
 <p>|U03JELPN197|:
 Ahh good to know thank you :raised_hands:</p>
+<hr />
 <blockquote>
 <h4 id="can-you-point-me-in-the-direction-of-the-share-sheet-documentation-is-it-swiftui-only">Can you point me in the direction of the Share Sheet documentation? Is it SwiftUI only?</h4>
 </blockquote>
 <p>|U03HL004760|:
 The documentation is here: <a href="https://developer.apple.com/documentation/swiftui/sharelink">https://developer.apple.com/documentation/swiftui/sharelink</a>, and there will be a related session available tomorrow: Meet Transferable. ShareLink is SwiftUI only.</p>
+<hr />
 <blockquote>
 <h4 id="is-the-size-for-a-watch-app-still-limited-to-75mb">Is the size for a Watch App still limited to 75mb?</h4>
 </blockquote>
 <p>|U03H96N55U5|:
 Yes it is.</p>
+<hr />
 <blockquote>
 <h4 id="hello-there-is-no-datepicker-for-watchos-could-creating-a-list-with-sections-be-an-alternative-thanks-for-your-time">Hello! There is no DatePicker for watchOS. Could creating a List with sections be an alternative? Thanks for your time.</h4>
 </blockquote>
@@ -1808,6 +1813,7 @@ thank you! if you can, follow up here when you have the feedback request number,
 Hello! Trying to find out if Scott D received the message sent last night: my watch session did not get approved, so I just submitted two feedback requests: FB10115599 (mentioning the need for a DatePicker in watchOS) and FB10115881 (mentioning watchOS8 needs a number keyboard). Thanks for your time; have a good day!</p>
 <p>|U03HHHXDL03|:
 Thank you for following up!</p>
+<hr />
 <blockquote>
 <h4 id="does-callkit-automatically-grant-us-access-to-the-microphone-on-the-watch-and-if-so-are-we-able-to-access-the-microphone-in-third-party-apps-without-using-callkit-using-a-plist-value-for-example">Does callkit automatically grant us access to the microphone on the watch and if so are we able to access the microphone in third party apps without using callkit using a plist value for example?</h4>
 </blockquote>
@@ -1822,6 +1828,7 @@ Looks like what I am looking for!
 Thank you very much for quick response and your help </p>
 <p>|U03HHJK2FJ6|:
 Of course! Thank you for you questions!</p>
+<hr />
 <blockquote>
 <h4 id="i-have-developed-an-app-to-submit-files-from-the-apple-watch-to-the-iphone-and-from-the-iphone-to-the-watch-the-file-transfer-from-the-apple-watch-to-the-iphone-is-successful-but-the-file-transfer-from-the-iphone-to-the-watch-is-not-the-iphone-is-receiving-its-own-sent-file-what-am-i-doing-wrong-ziqiao-chen-from-apple-couldnt-find-the-problem-in-the-dts-lab-session">I have developed an app to submit files from the apple watch to the iPhone and from the iPhone to the watch. The file transfer from the Apple watch to the iPhone is successful, but the file transfer from the iPhone to the watch is not. The iPhone is receiving its own sent file.  What am I doing wrong? Ziqiao Chen from apple couldn't find the problem in the DTS Lab Session.</h4>
 </blockquote>
@@ -1831,6 +1838,7 @@ Hi Paul. It sounds like something is going wrong there. If Ziqiao wasn’t able 
 I've opened a TSI</p>
 <p>|U03J1TZUPC3|:
 Thanks</p>
+<hr />
 <blockquote>
 <h4 id="i-have-an-existing-iphonewatch-app-when-i-open-it-in-xcode-it-runs-great-but-there-is-a-warning-to-update-to-recommended-settings-when-i-update-to-recommended-settings-i-get-an-error-related-to-found-watchkit-20-app-whatchkit-httpappappappapp-but-it-does-not-have-a-wkwatchkitapp-or-wkapplication-key-set-to-true-in-its-infoplist-and-am-not-totally-sure-how-to-best-remediate-this-error-after-letting-xcode-update-to-recommended-settings">I have an existing iPhone+Watch app, when I open it in Xcode it runs great, but there is a warning to update to recommended settings... when I update to recommended settings I get an error related to "Found WatchKit 2.0 app... WhatchKit <a href="http://App.app|App.app">http://App.app|App.app</a> but it does not have a WKWatchKitApp or WKApplication key set to true in its Info.plist" and am not totally sure how to best remediate this error after letting Xcode update to recommended settings?</h4>
 </blockquote>
@@ -1870,6 +1878,7 @@ sure do you have a link to the labs sign up so i make sure i go to the right pla
 <a href="https://developer.apple.com/wwdc22/110496">https://developer.apple.com/wwdc22/110496</a> (Fri)</p>
 <p>|U03J20PPN3U|:
 thanks so much! just sent a request for Friday</p>
+<hr />
 <blockquote>
 <h4 id="do-you-have-any-tips-to-run-a-bigger-app-with-support-for-complications-and-siri-intents-on-a-real-apple-watch-with-the-debugger-currently-i-have-to-be-lucky-to-get-it-to-work">Do you have any tips to run a bigger App with support for Complications and Siri Intents on a real Apple Watch with the debugger? Currently I have to be lucky to get it to work.</h4>
 </blockquote>
@@ -1885,6 +1894,7 @@ Here's a couple tips!</p>
 If WiFi is otherwise unavailable, we use Bluetooth for the connection which will be slower.</p>
 <p>|U03JELPN197|:
 Thank you very much. Will check again whether I can adjust the network somehow better when debugging with a real device.</p>
+<hr />
 <blockquote>
 <h4 id="is-there-a-way-to-trigger-a-sysdiagnose-on-a-watch-or-iphone">Is there a way to trigger a sysdiagnose on a watch (or iPhone)</h4>
 </blockquote>
@@ -1899,6 +1909,7 @@ Thanks &lt;@U03HHJK2FJ6&gt; that’s very helpful!
 How this command behaves if i have multiple simulators open simultaneously? (maybe a watch sim paired with an iphone sim)</p>
 <p>|U03HHJK2FJ6|:
 The <code>help</code> for <code>simctl</code> will give some pointers. <a href="https://developer.apple.com/forums/thread/679842|This answer">https://developer.apple.com/forums/thread/679842|This answer</a> from the developer forums suggests using the <code>--uuid</code> parameter.</p>
+<hr />
 <blockquote>
 <h4 id="what-happens-if-a-widgetkit-backed-complication-update-is-running-while-i-request-another-reload-of-the-widgets-is-the-second-request-dropped-or-enqueued-to-the-end-of-the-current-reload-thanks">What happens if a WidgetKit-backed complication update is running while I request another reload of the "widgets"? Is the second request dropped, or enqueued to the end of the current "reload"? Thanks!</h4>
 </blockquote>
@@ -1918,6 +1929,7 @@ I suppose you’d recommend throttling?</p>
 There’s nothing wrong with requesting a third time, because you don’t control when the reloads will happen. We’ll be sure to keep one of the reload requests queued up, and when budgets allow, we’ll reload your widget with whatever is the current latest content</p>
 <p>|U03HKV0T82Y|:
 We’ll do throttling too. Depends on several factors such as how frequently your widget is viewed, and there is a daily budget. <a href="https://developer.apple.com/documentation/widgetkit/keeping-a-widget-up-to-date">https://developer.apple.com/documentation/widgetkit/keeping-a-widget-up-to-date</a> has more</p>
+<hr />
 <blockquote>
 <h4 id="is-it-possible-to-display-location-associated-with-a-workout-that-occurred-in-a-third-party-watchos-app-that-was-then-written-to-the-fitness-app-just-like-with-workouts-from-the-workout-app">Is it possible to display location associated with a workout that occurred in a third-party watchOS app that was then written to the Fitness app? Just like with workouts from the Workout app.</h4>
 </blockquote>
@@ -1929,11 +1941,13 @@ You as the developer would be responsible for the visual representation of this 
 Thank you! Seems this wouldn't fit for just a pin of a location, like where a tennis workout happened. Unless I'm missing something, I can file this in Feedback Assistant.</p>
 <p>|U03H96N55U5|:
 Right, Tennis is not a workout for which you can collect a route, but if you request location permissions, you might be able to capture the user’s location at the time the workout was started and/or ended, which would be sufficient for a pin.</p>
+<hr />
 <blockquote>
 <h4 id="can-we-establish-a-socket-connection-for-server-based-apps-and-also-can-we-use-quic-for-client-server-connections-on-watchos">Can we establish a Socket connection for server-based apps? And also - can we use QUIC for client-server connections on WatchOS?</h4>
 </blockquote>
 <p>|U03HHJK2FJ6|:
 Sockets are only available for streaming audio. You can use the Network framework for the connection.</p>
+<hr />
 <blockquote>
 <h4 id="thank-you-for-adding-callkit-support-on-watchos-in-case-if-user-receives-voip-call-on-iphone-and-he-didnt-have-an-watchos-version-of-this-app-on-his-watch-can-he-receive-incoming-call-alert-or-notification-on-watch-in-that-case-or-we-need-to-have-an-watchosapp">Thank you for adding CallKit support on WatchOS. In case if user receives voip call on iphone, and he didn't have an watchOS version of this app on his Watch - can he receive incoming call alert or notification on watch in that case? Or we need to have an watchOSApp?</h4>
 </blockquote>
@@ -1945,6 +1959,7 @@ So, am I right that watchOS now will support VoIP notifications for such cases?<
 &lt;@U03HB0UR9RU&gt; sorry, i forgot to mention :disappointed:</p>
 <p>|U03HB0UR9RU|:
 I am not sure if I understand the question correctly. Just to clarify, the Watch would receive the incoming call notification if the corresponding watchOS app is installed and it would not, if it is not installed.</p>
+<hr />
 <blockquote>
 <h4 id="do-the-new-widgetkit-complications-support-all-existing-watch-faces-or-do-we-still-need-to-handle-the-older-complication-families-separately-using-clkcomplicationtemplatewhatever">Do the new WidgetKit complications support all existing Watch faces? Or do we still need to handle the older complication families separately using <code>CLKComplicationTemplateWhatever</code>?</h4>
 </blockquote>
@@ -1960,6 +1975,7 @@ Thanks! Is there a good list of which faces now use graphic complication? That's
 All the faces in watchOS 9 support graphic complications.</p>
 <p>|U03HHHJT28K|:
 The talk on Thursday, Go further with Complications in WidgetKit, goes into more detail about this.</p>
+<hr />
 <blockquote>
 <h4 id="hello-everyone-how-can-we-schedule-local-notifications-to-be-displayed-on-watchos-apps-with-a-companion-ios-app-and-a-custom-notification-view-i-mean-if-a-notification-is-scheduled-on-the-iphone-does-this-get-shown-on-the-watch-using-our-custom-notification-view-or-do-we-have-to-provide-additional-configuration-to-share-notifications-across-the-two-devices">Hello everyone! How can we schedule local notifications to be displayed on watchOS apps with a companion iOS app and a custom notification view? I mean, if a notification is scheduled on the iPhone, does this get shown on the Watch using our custom notification view - or do we have to provide additional configuration to "share" notifications across the two devices?</h4>
 </blockquote>
@@ -1969,11 +1985,13 @@ If you have a custom <code>WKNotificationScene</code> in your watch app, it will
 the local notification scheduled from your iPhone will automatically display on the watch when appropriate, you only need a <code>WKNotificationScene</code> if you want to customize the UI of the notification on the watch</p>
 <p>|U03JRQ9ADA4|:
 Thank you, Lori and Jose - that’s amazing! That’s the clarification I was precisely looking for. Great! :smile:</p>
+<hr />
 <blockquote>
 <h4 id="are-we-allowed-to-instantiate-a-cbperipheralmanager-on-a-watch-application-and-let-the-watch-act-as-a-btle-peripheral">Are we allowed to instantiate a CBPeripheralManager on a watch application and let the watch act as a Btle peripheral?</h4>
 </blockquote>
 <p>|U03HL004760|:
 No. The Watch app can instantiate a <code>CBCentralManager</code> and communicate with peripherals, but it cannot be a peripheral.</p>
+<hr />
 <blockquote>
 <h4 id="i-know-this-is-likely-to-change-with-appintentsappshortcuts-but-is-there-a-way-to-get-shortcuts-into-the-watchos-simulator-so-they-can-be-tested-currently-they-can-only-be-added-via-ios-and-they-dont-sync-across-presumably-because-they-need-icloud">I know this is likely to change with AppIntents/AppShortcuts - but is there a way to get shortcuts into the watchOS simulator so they can be tested? Currently they can only be added via iOS, and they don't sync across (presumably because they need iCloud)</h4>
 </blockquote>
@@ -1983,11 +2001,13 @@ Hi Quentin! Can you file Feedback about this? (Or if you have, can you post the 
 Will do for this specifically. It’s related to this though: FB9980324</p>
 <p>|U03JH1D27C1|:
 Submitted: FB10081835</p>
+<hr />
 <blockquote>
 <h4 id="if-we-convert-our-intent-definition-files-to-app-intents-can-we-deploy-to-watchos-8-and-earlier-and-have-existing-user-created-shortcuts-continue-working">If we convert our Intent definition files to App Intents, can we deploy to watchOS 8 and earlier and have existing user-created shortcuts continue working?</h4>
 </blockquote>
 <p>|U03HHJK2FJ6|:
 This would best answered at the SiriKit lounge.</p>
+<hr />
 <blockquote>
 <h4 id="hello-can-anyone-suggest-an-alternative-to-a-datepicker-still-absent-from-watchos-multiple-wheel-pickers-are-a-possibility-especially-since-people-would-not-want-to-type-monthdayyear-in-their-watch-dictation-is-another-possibility-im-considering-steppers-would-have-too-many-numbers-for-days-thanks-in-advance-for-the-input">Hello! Can anyone suggest an alternative to a DatePicker (still absent from watchOS)? Multiple wheel pickers are a possibility, especially since people would not want to type month/day/year in their Watch. Dictation is another possibility I’m considering; Steppers would have too many numbers for days… thanks in advance for the input!</h4>
 </blockquote>
@@ -2005,11 +2025,13 @@ Homework accepted: will file tonight!</p>
 I'd have thought the watch screen size is just about big enough for the new date picker option on swiftui, would be great to see it there</p>
 <p>|U03J21EKNSE|:
 Same here, but I’ve been waiting for something like it for two years… I’m sure it will happen right after I hit my last bug. And the official implementation will be better (of course)!</p>
+<hr />
 <blockquote>
 <h4 id="this-looks-to-be-a-great-year-for-watchos-from-the-simplified-app-target-to-the-improvements-brought-through-swiftui-i-already-know-ill-be-building-some-better-apps-this-year-thank-you">This looks to be a great year for watchOS. From the simplified app target to the improvements brought through SwiftUI, I already know I'll be building some better apps this year. Thank you!</h4>
 </blockquote>
 <p>|U03H96N55U5|:
 That is so awesome to hear. Thanks Josh!</p>
+<hr />
 <blockquote>
 <h4 id="thank-you-for-the-presentation-is-there-anyway-to-know-what-watchos-versions-my-users-are-on-my-app-supports-watchos6-but-if-no-one-is-using-that-os-i-would-like-to-remove-code-that-is-specific-to-that-older-version-thank-you">Thank you for the presentation! Is there anyway to know what watchOS versions my users are on? My app supports watchOS6, but if no one is using that OS I would like to remove code that is specific to that older version. Thank you!</h4>
 </blockquote>
@@ -2023,11 +2045,13 @@ For a cross-platform / structured data solution there's also: <a href="https://d
 Ok thank you. Yes, that would be nice to have analytics package for watchOS! It would be nice to see the break down on AppStore connect for watchOS like you can for iOS :blush:</p>
 <p>|U03H96N55U5|:
 Definitely file that Feedback!!</p>
+<hr />
 <blockquote>
 <h4 id="whats-the-cool-magnifying-glass-thing-thats-in-your-presentation-when-you-are-telling-us-where-to-go-to-find-more-information-about-swiftui-is-there-a-story-there">What's the cool magnifying glass thing that's in your presentation when you are telling us where to go to find more information about SwiftUI? Is there a story there?</h4>
 </blockquote>
 <p>|U03HL004760|:
 That is a hand lens for examining rocks in the field. I got that one when I was at university getting my degree. After being a geologist for a few years, I’ve spent most of my career as a software engineer. But all of my math, physics, chemistry, biology, and communications serve me well.</p>
+<hr />
 <blockquote>
 <h4 id="howdy-face_with_cowboy_hat-first-of-all-many-thanks-for-the-marvellous-updates-this-year-and-such-a-great-sessions-my-question-is-regarding-portrait-watch-face-ive-been-playing-around-with-different-images-and-what-pique-my-curiosity-was-the-fact-that-the-same-image-might-be-used-with-depth-effect-on-the-new-ios-lock-screen-while-not-supporting-portrait-on-the-watch-it-is-correct-to-assume-that-the-reason-is-different-screen-dimensions-and-depth-effect-requires-some-padding-around-the-subject-to-work">Howdy :face_with_cowboy_hat: First of all, many thanks for the marvellous updates this year and such a great sessions!  My question is regarding Portrait watch face. I've been playing around with different images and what pique my curiosity was the fact that the same image might be used with depth effect on the new iOS Lock Screen while not supporting Portrait on the watch. It is correct to assume that the reason is different screen dimensions and Depth Effect requires some padding around the subject to work?</h4>
 </blockquote>
@@ -2037,6 +2061,7 @@ Starting with watchOS 9, the Portraits face <em>does</em> support photos from yo
 Gotcha, thanks &lt;@U03HHHK57K5&gt;!</p>
 <p>|U03HHHK57K5|:
 Of course!</p>
+<hr />
 <blockquote>
 <h4 id="will-the-watch-ui-testing-be-able-to-handle-complications-in-clockkit-as-well-as-widgetkit-soon-its-hard-to-automate-testing-for-the-watch-but-i-need-it-the-most-on-complications">will the watch ui testing be able to handle complications in clockkit as well as widgetkit soon? It's hard to automate testing for the watch but i need it the most on complications</h4>
 </blockquote>
@@ -2046,6 +2071,7 @@ You should be able to test the SwiftUI views that make up your WidgetKit complic
 If there's some specific support you're looking for in regards to having a more widget-like environment, please file a feedback and be sure to include specific details about what we can improve on! :slightly_smiling_face:</p>
 <p>|U03J7JKA23F|:
 ok! yeah! i sorely need ui testing for complications (they multiply like tribbles) - will file feedback if necessary. good to know!!! :tada:</p>
+<hr />
 <blockquote>
 <h4 id="hi-all-when-developing-for-watchos-in-xcode-we-currently-use-two-targets-apple-watch-and-apple-watch-extension-to-be-honest-im-still-pretty-confused-about-why-this-is-needed-and-i-feel-like-both-targets-use-my-assets-some-of-the-time-do-upcoming-releases-simplify-this-workflow-into-a-single-target-and-make-it-more-similar-to-iosmacos-development">Hi all! When developing for watchOS in XCode, we currently use two targets: Apple Watch and Apple Watch Extension. To be honest, I'm still pretty confused about why this is needed, and I feel like both targets use my assets some of the time. Do upcoming releases simplify this workflow into a single target and make it more similar to iOS/macOS development?</h4>
 </blockquote>
@@ -2057,6 +2083,7 @@ The code <em>had</em> to be in two targets, because they went to different devic
 This changed in watchOS 2, when the contents of both targets moved to Apple Watch.</p>
 <p>|U03H96N55U5|:
 We are so excited to simplify the developer experience this year by merging the targets in Xcode, and by offering a new Watch App target that makes your options clearer up front.</p>
+<hr />
 <blockquote>
 <h4 id="there-are-problems-with-syncing-data-application-context-messages-between-the-watch-and-ios-simulator-httpsdeveloperapplecomforumsthread682915httpsdeveloperapplecomforumsthread682915-are-these-problems-fixed-with-xcode-14">There are problems with syncing data (application context, messages, ...) between the Watch and iOS simulator (<a href="https://developer.apple.com/forums/thread/682915).|https://developer.apple.com/forums/thread/682915).">https://developer.apple.com/forums/thread/682915).|https://developer.apple.com/forums/thread/682915).</a> Are these problems fixed with Xcode 14?</h4>
 </blockquote>
@@ -2066,11 +2093,13 @@ We gave some guidance about this on Tuesday: <a href="https://wwdc22.slack.com/a
 Debugging tip that may help @Simon, based on a few years now of working on a very complex iMessage app extension. Not quite as hard as WatchKit comms but Messages simulator debugging is pretty fragile too.</p>
 <p>Thanks to a friend pushing me, I made the bulk of my complex logic able to compile cleanly on Mac and run unit tests there. (I have a document model that rivals Keynote in complexity, so encode/decode &amp; DOM manipulation is significant - 500 tests now).</p>
 <p>That saves me massive time &amp; so can focus on <em>just</em> UI testing on the devices.</p>
+<hr />
 <blockquote>
 <h4 id="we-use-a-wkextendedruntimesession-smartalarm-mode-when-the-user-dismisses-the-alarm-we-want-to-send-a-request-to-our-server-this-happens-in-the-func-extendedruntimesession_-wkextendedruntimesession-didinvalidatewith-_-wkextendedruntimesessioninvalidationreason-error-error-delegate-function-do-we-need-to-use-a-network-background-session-for-that-the-normal-async-urlsession-data-task-does-not-finish">We use a WKExtendedRuntimeSession (SmartAlarm Mode). When the user dismisses the alarm, we want to send a request to our server. This happens in the <code>func extendedRuntimeSession(_: WKExtendedRuntimeSession, didInvalidateWith _: WKExtendedRuntimeSessionInvalidationReason, error: Error?)</code> delegate function. Do we need to use a network background session for that? The normal async URLsession data task does not finish?</h4>
 </blockquote>
 <p>|U03H96N55U5|:
 Background URLSessions are almost always the right strategy on watchOS, and in this specific case as well. :slightly_smiling_face:</p>
+<hr />
 <blockquote>
 <h4 id="can-swiftuiswift-be-use-to-create-a-watchos-custom-keyboard-if-so-can-you-point-me-to-the-resourcesdocs-that-covers-this-topic-thx">Can SwiftUI/Swift be use to create a WatchOS custom keyboard? If so, can you point me to the resources/doc(s) that covers this topic?  Thx</h4>
 </blockquote>
@@ -2078,6 +2107,7 @@ Background URLSessions are almost always the right strategy on watchOS, and in t
 Hi Nolan! This isn’t supported on watchOS yet, but we’ll happily take a Feedback enhancement request!</p>
 <p>|U03JUGE7XB5|:
 I just sent a Feedback enhancement request; can I expect this functionality by next week? :laughing:</p>
+<hr />
 <blockquote>
 <h4 id="if-we-go-with-the-new-app-target-for-an-independent-watch-app-which-doesnt-contain-an-iphone-app-will-we-be-able-to-convert-it-to-a-iphone-app-with-an-independent-watch-app">If we go with the new app target for an independent Watch app which doesn't contain an iPhone app, will we be able to convert it to a iPhone app with an independent watch app?</h4>
 </blockquote>
@@ -2088,6 +2118,7 @@ This can be done!
 3. On the Build Settings, search for Bundle Identifier. Set the WatchKit Companion App Bundle Identifier to the Bundle Identifier of the Watch App.
 4. Delete the iOS Stub target that was originally created when you created the Watch Only app.
 5. Delete the iOS Stub from the Watch App scheme Build.</p>
+<hr />
 <blockquote>
 <h4 id="are-there-any-changes-to-a-complications-daily-reload-budget-when-using-widgetkit-instead-of-clockkit-in-particular-the-widgetkit-docs-say-that-reloads-arent-counted-when-the-containing-app-has-an-active-audio-or-navigation-session-does-this-also-apply-on-watchos">Are there any changes to a complication's daily reload budget when using WidgetKit instead of ClockKit? In particular, the WidgetKit docs say that reloads aren't counted when the containing app has an active audio or navigation session. Does this also apply on watchOS?</h4>
 </blockquote>
@@ -2097,11 +2128,13 @@ Yes, audio and navigation sessions also give you unmetered refreshes on watchOS!
 &lt;@U03HHJ4LRU2&gt; Thanks! Would the watchOS complication get unmetered refreshes if the companion iOS application had an active audio or navigation session? Or only if the watchOS app had an active session?</p>
 <p>|U03HHJ4LRU2|:
 Only on the same device, there's no sharing between them.</p>
+<hr />
 <blockquote>
 <h4 id="in-our-application-weve-got-a-screen-with-recently-played-content-which-pulled-from-repositoriesapi-client-in-ios-counterpart-app-but-when-the-ios-app-is-not-running-then-watch-application-will-never-load-that-screen-the-data-exchange-works-through-watchconnectivity-and-in-documentation-it-says-sending-a-message-from-a-watchos-app-wakes-up-its-paired-ios-app-if-its-reachable-but-if-we-kill-ios-application-the-messages-will-be-never-delivered-as-far-as-we-see-the-mentioned-screen-above-doesnt-loads-is-there-any-other-way-to-wake-it-up-maybe-you-have-any-advice-how-to-debug-it">In our application we've got a screen with recently played content which pulled from repositories/api client in iOS counterpart app. But when the iOS app is not running then Watch application will never load that screen. The data exchange works through <code>WatchConnectivity</code> and in documentation it says "Sending a message from a watchOS app wakes up its paired iOS app if it's reachable." But if we "kill" iOS application the messages will be never delivered (as far as we see the mentioned screen above doesn't loads). Is there any other way to wake it up? Maybe you have any advice how to debug it?</h4>
 </blockquote>
 <p>|U03HL004760|:
 I’d suggest using the WatchConnectivity’s Application Context to communicate the information from iOS to Watch. The Application Context is intended to be there when the app launches and the values can be updated if something changes. For more information about the different parts of WatchConnectivity and when you might use each one (and other data communication technologies that might be useful), check out this session: <a href="https://developer.apple.com/videos/play/wwdc2021/10003/">https://developer.apple.com/videos/play/wwdc2021/10003/</a>.</p>
+<hr />
 <blockquote>
 <h4 id="i-apologize-if-this-is-an-overly-basic-question-when-the-watch-series-6-came-out-i-was-very-excited-about-the-oxygen-sensor-outside-of-spot-checks-i-was-interested-in-righting-and-app-to-gather-oxygen-data-overnight-along-with-other-parameters-to-provide-an-additional-dataset-for-people-with-obstructive-sleep-apnea-to-share-with-their-doctors-is-their-a-way-to-modify-the-polling-rate-on-the-oxygen-sensor-to-pull-more-frequently-if-so-whats-the-limit-and-whats-the-best-way-to-approach-this-please-excuse-my-ignorance-im-new-to-apple-watch-and-a-novice-at-software-developmentthis-is-more-of-a-passion-project-for-me-not-for-a-jobincome-and-im-intending-to-have-this-app-be-free-and-as-a-conversation-starter-for-people-and-their-physicians-who-are-either-diagnosed-or-think-they-may-have-sleep-apnea-and-thus-their-doctor-can-conducted-additional-questioners-and-sleep-studies-to-make-an-actual-diagnoses-or-reassessment">I apologize if this is an overly basic question. When the watch series 6 came out I was very excited about the oxygen sensor. Outside of spot checks I was interested in righting and app to gather oxygen data overnight along with other parameters to provide an additional dataset for people with obstructive sleep apnea to share with their doctors. Is their a way to modify the polling rate on the oxygen sensor to pull more frequently (if so what’s the limit) and what’s the best way to approach this?  Please excuse my ignorance I’m new to Apple Watch and a novice at software development(this is more of a passion project for me not for a job/income and I’m intending to have this app be free and as a conversation starter for people and their physicians who are either diagnosed or think they may have sleep apnea and thus their doctor can conducted additional questioners and sleep studies to make an actual diagnoses or reassessment)</h4>
 </blockquote>
@@ -2111,6 +2144,7 @@ Hi, Ahmed. Unfortunately there's currently no way to do this. But I'd suggest yo
 &lt;@U03JYB15E2G&gt; I would also benefit from this feature. If you file a feedback, please send it to me.</p>
 <p>|U03JYB15E2G|:
 Thank you will do!</p>
+<hr />
 <blockquote>
 <h4 id="hi-all-swiftui-on-watchos-now-appears-to-have-a-keyboard-with-quicktype-can-we-provide-values-for-quicktype-to-suggest-specific-strings-for-example-lets-say-the-user-is-searching-in-a-long-list-of-fruits-by-passing-the-fruits-data-to-quicktype-we-could-tell-the-system-to-suggest-specific-fruits-whose-name-property-matches-the-user-typed-string-so-that-typing-a-does-not-suggest-and-but-apple-right-now-we-can-pass-suggestions-to-searchable-but-the-suggestions-are-not-shown-while-the-user-is-typing-instead-they-appear-as-an-overlay-to-list-once-the-user-finished-typing-and-returns-to-the-view-also-searchable-does-not-bring-up-the-keyboard-right-away-unlike-textfieldlink">Hi all! SwiftUI on watchOS now appears to have a keyboard with QuickType. Can we provide values for QuickType to suggest specific strings? For example, let's say the user is searching in a long list of fruits. By passing the fruits data to QuickType, we could tell the system to suggest specific fruits whose name property matches the user-typed string, so that typing "a" does not suggest "and" but "Apple".  Right now we can pass suggestions to .searchable, but the suggestions are not shown while the user is typing. Instead, they appear as an overlay to List once the user finished typing and returns to the view. Also, .searchable does not bring up the keyboard right away, unlike TextFieldLink.</h4>
 </blockquote>
@@ -2128,6 +2162,7 @@ Alright, sent as FB10135103 :slightly_smiling_face:</p>
 great thanks!</p>
 <p>|U03JMMN8659|:
 thank you &lt;@U03HHHXDL03&gt;!</p>
+<hr />
 <blockquote>
 <h4 id="i-am-currently-working-on-an-ios-app-that-stores-data-on-device-in-core-data-what-way-would-be-best-to-add-an-optional-watch-app-that-could-be-used-along-side-it-prefer-not-to-use-cloud-storage-if-possible-similar-to-how-workout-functions-but-the-workout-could-be-started-on-either-iphone-or-watch-thanks-for-keeping-the-questions-open-for-devs-working-gmt-time">I am currently working on an iOS app that stores data on device in core data. What way would be best to add an optional Watch app, that could be used along side it. (Prefer not to use cloud storage if possible). Similar to how workout functions, but the workout could be started on either iPhone, or Watch. Thanks for keeping the questions open for devs working GMT time :)</h4>
 </blockquote>
@@ -2140,6 +2175,7 @@ Hi Anne, thanks for replying.  I am hoping as far as possible to allow the user 
 So many of us are a lot more conscious now about how our data is being stored and shared, so it’s great that you’re considering this so strongly. :heart: It’s a balancing act. You want to protect everyone’s privacy and also ensure that they don’t lose data should something happen to their phone. Options are always good. I hope the video helps, and definitely read about privacy and security with iCloud. Once you know all the options, you can make the best choice to provide the level of privacy you want to deliver.</p>
 <p>|U03JG3QTSGL|:
 That video was great, just at the right level too. I see what you mean about maybe needing to think about combining strategies, and also the trade off between privacy and usability.</p>
+<hr />
 <blockquote>
 <h4 id="i-want-to-expose-a-textfield-to-users-on-my-watch-app-but-only-allow-numeric-entry-can-i-show-just-a-number-pad-keyboard-for-input">I want to expose a TextField to users on my Watch app but only allow numeric entry. Can I show just a number pad keyboard for input?</h4>
 </blockquote>
@@ -2149,6 +2185,7 @@ We do not support numeric keyboards at this time. Could you file a feedback with
 Hello! I posted a feedback about this same thing yesterday (FB <tel:10115881|10115881>), and had been referred to 3 months ago in the Developer Forum. The developer that typed that comment said he had filed a report about the lack of number keyboard in watchOS 8 in August 2021 under the number FB9568384 (searched but couldn’t find it as active). </p>
 <p>|U03H96N55U5|:
 Thanks for filing! Duplicates are VOTES. :slightly_smiling_face:</p>
+<hr />
 <blockquote>
 <h4 id="hi-i-enjoy-the-exciting-wwdc-i-have-one-question-about-watchkit-can-you-tell-that-you-are-wearing-a-apple-watch-i-can-know-the-charging-status-with-wkinterfacedevicebatterystate-how-can-the-app-tell-if-a-user-wears-an-apple-watch-on-their-wrist-thank-you">Hi, I enjoy the exciting WWDC. I have one question about WatchKit. Can you tell that you are wearing a Apple Watch? I can know the charging status with WKInterfaceDeviceBatteryState. How can the app tell if a user wears an Apple Watch on their wrist? Thank you!</h4>
 </blockquote>
@@ -2156,16 +2193,19 @@ Thanks for filing! Duplicates are VOTES. :slightly_smiling_face:</p>
 Hi Yoichi! It would be helpful to understand the use case better before responding. If threads are locked by the time you see this, can you please file Feedback and describe what you’re trying to do?</p>
 <p>|U03H96N55U5|:
 watchOS does support <code>LocalAuthentication</code>, so if your case is about, say, requiring that the watch be unclocked or that the user enter their passcode  before showing data, you should be good.</p>
+<hr />
 <blockquote>
 <h4 id="ive-a-game-design-which-relies-heavily-on-the-digital-crown-conceptually-am-i-right-in-thinking-that-wkcrownsequencer-will-allow-me-to-directly-capture-the-rotations-so-i-can-map-them-into-manipulating-the-state-of-the-game-rather-than-it-only-being-able-to-change-focused-pickers-its-been-a-fair-while-since-i-dived-into-wk-gave-up-as-early-versions-were-too-constraining">I've a game design which relies heavily on the digital crown (conceptually). Am I right in thinking that WKCrownSequencer will allow me to directly capture the rotations so I can map them into manipulating the state of the game, rather than it only being able to change focused pickers?  (It's been a fair while since I dived into WK &amp; gave up as early versions were too constraining)</h4>
 </blockquote>
 <p>|U03HW7XJHR7|:
 You're correct that you can use the digital crown to drive much more than pickers. But we would recommend looking at the <a href="https://developer.apple.com/documentation/swiftui/form/digitalcrownrotation(_:)|digitalCrownRotation">https://developer.apple.com/documentation/swiftui/form/digitalcrownrotation(_:)|digitalCrownRotation</a> in SwiftUI instead.</p>
+<hr />
 <blockquote>
 <h4 id="the-new-sharelink-to-open-a-share-sheet-on-watchos-finally-is-great-is-there-a-way-to-make-my-app-a-sharing-destination-on-the-watch-like-an-equivalent-to-share-and-action-extensions-on-ios">The new ShareLink to open a share sheet on watchOS (finally!) is great. Is there a way to make my app a sharing destination on the Watch, like an equivalent to Share and Action Extensions on iOS?</h4>
 </blockquote>
 <p>|U03J7BPFP8Q|:
 Hi Christopher, I'm so glad you like the new <code>ShareLink</code> API! There is not a way to make your app a sharing destination in watchOS 9.0, but please file Feedback with some details about your use case!</p>
+<hr />
 <blockquote>
 <h4 id="question-about-subscriptions-on-apple-watch-i-would-like-to-have-a-single-subscription-to-unlock-content-in-my-app-across-apple-devices-according-to-this-httpsdeveloperapplecomsupportuniversal-purchasehttpsdeveloperapplecomsupportuniversal-purchase-support-doc-to-offer-your-app-on-iphone-and-apple-watch-create-an-ios-app-with-a-watchos-counterpart-in-xcode-and-upload-the-apps-to-app-store-connect-from-the-same-xcode-project-watch-only-apps-cannot-be-part-of-a-universal-purchase-but-during-the-wwdc22-talk-about-multiplatform-apps-both-my-ios-and-macos-app-products-use-the-same-bundle-identifier-by-default-which-is-awesome-because-that-means-when-i-publish-them-to-the-app-store-they-will-be-made-available-for-universal-purchase-so-folks-who-buy-my-ios-app-will-also-get-my-mac-app-automatically-so-question-can-we-have-a-single-subscription-for-content-in-an-ios-app-and-an-independent-watchos-app-face_with_monocle">Question about subscriptions on Apple Watch. I would like to have a single subscription to unlock content in my app across Apple devices.  According to this (<a href="https://developer.apple.com/support/universal-purchase/)|https://developer.apple.com/support/universal-purchase/)">https://developer.apple.com/support/universal-purchase/)|https://developer.apple.com/support/universal-purchase/)</a> support doc: "To offer your app on iPhone and Apple Watch, create an iOS app with a watchOS counterpart in Xcode and upload the apps to App Store Connect from the same Xcode project. <strong>Watch-only apps cannot be part of a universal purchase</strong>. But during the WWDC22 talk about multiplatform apps: "Both my iOS and macOS app products use the same bundle identifier by default, which is awesome, because that means when I publish them to the App Store, they will be made available for Universal Purchase. <strong>So folks who buy my iOS app will also get my Mac app automatically</strong>." So, question: can we have a single subscription for content in an iOS app, and an independent watchOS app? :face_with_monocle:</h4>
 </blockquote>
@@ -2179,6 +2219,7 @@ Thank you &lt;@U03H96N55U5&gt; :pray:  so it does not matter (for universal subs
 If I recall correctly, the watchOS app should have the same root identifier as the iOS app. E.g., com.fancyapps.mymealtracker (iOS) and com.fancyapps.mymealtracker.watchkitapp (watchOS)</p>
 <p>|U03JMMN8659|:
 yep, it does</p>
+<hr />
 <blockquote>
 <h4 id="multi-line-text-support-in-textfield-is-very-exciting-but-doesnt-seem-to-work-in-watchos-9-beta-1-will-it-be-supported-and-if-so-will-the-keyboard-editor-support-new-lines-currently-all-newlines-are-removed-from-any-existing-text-collapsing-it-to-a-single-line-and-theres-no-way-to-type-a-return">Multi-line text support in TextField is very exciting, but doesn’t seem to work in watchOS 9 beta 1. Will it be supported? And if so, will the keyboard editor support new lines? Currently all newlines are removed from any existing text (collapsing it to a single line) and there’s no way to type a return.</h4>
 </blockquote>
@@ -2186,6 +2227,7 @@ yep, it does</p>
 &lt;@U03HVF46TEJ&gt; Could you please file a feedback request with your use case? and the details about new lines here as well?</p>
 <p>|U03HVF46TEJ|:
 Sure, will do. Thanks!</p>
+<hr />
 <blockquote>
 <h4 id="checking-an-analogy-here-ive-been-working-for-years-on-an-imessage-app-extension-which-also-has-fragile-debugging-on-simulator-something-that-helps-hugely-is-i-built-a-unit-test-suite-that-can-run-on-mac-so-all-my-complex-data-handling-logic-gets-heavily-exercised-in-fast-builds-there-leaving-the-on-device-testing-to-being-ui-only-is-this-a-useful-strategy-for-watchos-kinda-a-comment-as-question-that-might-help-simon-others-with-the-sync-issues-and-am-asking-for-my-own-benefit-as-i-restart-a-watch-project">Checking an analogy here. I've been working for years on an iMessage app extension which also has fragile debugging on simulator. Something that helps hugely is I built a unit test suite that can run on Mac so all my complex data handling logic gets heavily exercised in fast builds there, leaving the on-device testing to being UI-only. Is this a useful strategy for WatchOS?  Kinda a comment-as-question that might help @Simon &amp; others with the sync issues, and am asking for my own benefit as I restart a Watch project.</h4>
 </blockquote>
@@ -2195,6 +2237,7 @@ UI tests will take longer to develop and run. Having good model tests allows you
 <p>|U03JELM0ZNV|:
 I have a complex document model for encoding games that does things like particle emitters in 1/20th the Apple formats. Lots of bit fields. You bet my tests are exhaustive 500 of them, about 25% of code is test code when I'm working on the core model!
 <em>TDD Purists</em> will disagree with some of my torture tests though but I can refactor with impunity :smile:</p>
+<hr />
 <blockquote>
 <h4 id="when-using-watchkit-and-the-extensiondelegate-we-could-access-the-root-interface-controller-to-change-the-snapshot-controller-for-instance-is-there-a-way-to-do-this-using-swiftui-lifecycle">When using WatchKit and the ExtensionDelegate, we could access the root interface controller to change the snapshot controller for instance. Is there a way to do this using SwiftUI lifecycle?</h4>
 </blockquote>
@@ -2204,6 +2247,7 @@ Hi &lt;@U03JPJ277SQ&gt;! New in watchOS 9 is the <a href="https://developer.appl
 One more note: If you’ve updated your app to the newest recommended settings from Xcode, you’ll no longer have a watchOS extension and you can use <a href="https://developer.apple.com/documentation/swiftui/wkapplicationdelegateadaptor|WKApplicationDelegateAdaptor">https://developer.apple.com/documentation/swiftui/wkapplicationdelegateadaptor|WKApplicationDelegateAdaptor</a> instead of WKExtensionDelegateAdaptor.</p>
 <p>|U03JPJ277SQ|:
 Oh I didn’t know that. Thanks.</p>
+<hr />
 <blockquote>
 <h4 id="can-you-use-spritekit-on-watchos-with-swiftui-is-spritekit-limited-on-watches-i-cant-find-any-listed-most-stuff-goes-back-to-watchos2-or-3">Can you use SpriteKit on WatchOS with SwiftUI? Is SpriteKit limited on Watches? I can't find any listed - most stuff goes back to WatchOS2 or 3.</h4>
 </blockquote>
@@ -2214,6 +2258,7 @@ Thanks, partly answering my own question - <a href="https://developer.apple.com/
 <p>&gt;  <code>SKNode</code> subclasses <code>UIResponder</code> in iOS and tvOS, and <code>NSResponder</code> in macOS, allowing nodes to respond to user interaction events such as touches and mouse movements</p>
 <p>|U03JELM0ZNV|:
 are there any <em>other</em> significant missing bits of SpriteKit on Watch?</p>
+<hr />
 <blockquote>
 <h4 id="thanks-for-extending-the-ask-questions-workflow-left-town-right-after-wwdc-are-there-any-conceptual-limitations-to-building-an-app-with-only-1-input-method-one-finger-and-40mm-45mm-screens-with-apple-watches-getting-more-and-more-independent-from-iphones-how-far-should-we-take-apps-gaming-social-media-etc-also-watchos-supports-scenekit-but-not-metal-at-least-not-in-the-xcode-template-is-there-a-reason-for-this-conceptually-or-just-technically">Thanks for extending the ask questions workflow (left town right after WWDC 🫠).  Are there any conceptual limitations to building an app with only 1 input method (one finger) and 40mm-45mm screens? With Apple Watches getting more and more independent from iPhones, how far should we take apps (gaming, social media, etc.)?  Also, watchOS supports SceneKit but not Metal (at least not in the Xcode template), is there a reason for this conceptually or just technically?</h4>
 </blockquote>
@@ -2233,6 +2278,7 @@ Assistive touch might be one of my favorite Apple Watch features. Absolutely inc
 Will do! I really want Metal to come to the watch because the Ray traced Unity Lights showed how capable the watch can be</p>
 <p>|U03HHJK2FJ6|:
 That watch face really is incredible!</p>
+<hr />
 <blockquote>
 <h4 id="i-already-ask-a-similar-question-but-can-i-use-the-nsubiquitouskeyvaluestore-to-sync-data-between-different-complications-widgets-on-multiple-devices-example-i-tell-siri-on-my-phone-that-i-ate-a-donut-i-store-then-an-integer-in-nsubiquitouskeyvaluestore-with-the-amount-of-donuts-i-ate-on-my-watch-i-have-a-complication-that-should-show-the-amount-of-donuts-would-nsubiquitouskeyvaluestore-a-good-approach-to-sync-data-between-siri-intents-and-watch-complications">I already ask a similar question, but can I use the NSUbiquitousKeyValueStore to sync data between different Complications / Widgets on multiple devices? Example: I tell Siri on my phone that I ate a Donut. I store then an Integer in NSUbiquitousKeyValueStore with the Amount of Donuts I ate. On my Watch I have a Complication that should show the amount of Donuts. Would NSUbiquitousKeyValueStore a good approach to sync data between Siri Intents and Watch Complications?</h4>
 </blockquote>
@@ -2240,6 +2286,7 @@ That watch face really is incredible!</p>
 No. KVS is for syncing configuration/preferences, not data.</p>
 <p>|U03H96N55U5|:
 From what you’re describing, you don’t need data transfer at all. Your <em>app</em> can store the fact that you ate the donut (your intent could be invoked by something like, “hey Siri, tell MyDietTracker that I ate a donut,” and MyDietTracker records that you ate the donut. The complication can be updated based on that data when the app is running, or using background app refresh.</p>
+<hr />
 <blockquote>
 <h4 id="we-want-to-use-fall-detection-on-the-watch-to-be-informed-when-a-fall-occurs-will-the-system-continue-to-handle-fall-events-natively-and-call-the-rescure-services-when-we-register-as-a-fall-detection-delegate-or-are-we-from-then-on-alone-responsible-for-handling-the-fall-event">We want to use fall detection on the Watch to be informed when a fall occurs. Will the system continue to handle fall events natively and call the rescure services when we register as a fall detection delegate? Or are we from then on alone responsible for handling the fall event?</h4>
 </blockquote>
@@ -2254,6 +2301,7 @@ Keep in mind that you will need an entitlement to use <code>CMFallDetectionManag
 Here's the documentation for the HealthKit fall detection samples: <a href="https://developer.apple.com/documentation/healthkit/hkquantitytypeidentifier/1615592-numberoftimesfallen">https://developer.apple.com/documentation/healthkit/hkquantitytypeidentifier/1615592-numberoftimesfallen</a></p>
 <p>|U03HL0NNTEG|:
 For that, you need to authorize HealthKit access to that sample type.</p>
+<hr />
 <blockquote>
 <h4 id="testing-swiftui-on-watchos-is-there-documentation-or-a-video-you-would-recommend-for-getting-started-with-this-thank-you">Testing SwiftUI on watchOS - is there documentation or a video you would recommend for getting started with this? Thank you!</h4>
 </blockquote>
@@ -2262,6 +2310,7 @@ The best way to test your SwiftUI app on watchOS is to make your model layer tes
 You can build a test suite for your model layer and run it to catch any regressions. You can find documentation for XCTest here: <a href="https://developer.apple.com/documentation/xctest">https://developer.apple.com/documentation/xctest</a>, and there are a lot of great WWDC session videos about designing and writing tests.</p>
 <p>|U03JJQ3BMB7|:
 Cool thank you. I have my model in a swift package and wrote tests for it with XCTest.  Just need to figure out UI tests now ! :blush:</p>
+<hr />
 <blockquote>
 <h4 id="is-there-a-component-or-a-way-to-animate-marquee-style-horizontal-scrolling-for-text-like-in-the-now-playing-ui-back-in-swiftui-v1-and-watchos-6-i-couldnt-figure-it-out-has-something-been-added-since">Is there a component, or a way to animate marquee style (horizontal) scrolling for text, like in the Now Playing UI? Back in SwiftUI v1 and watchOS 6 I couldn’t figure it out, has something been added since?</h4>
 </blockquote>
@@ -2271,6 +2320,7 @@ There is nothing specifically built for this exact use-case. But I've built simi
 Ok, thanks for the info. I’ll have a look at those newer APIs to see if I can implement it myself.</p>
 <p>|U03JELM0ZNV|:
 Or you could use SpriteKit as in <a href="https://www.hackingwithswift.com/forums/swift/opening-credits-crawl-like-star-wars/287">https://www.hackingwithswift.com/forums/swift/opening-credits-crawl-like-star-wars/287</a> (at the end)</p>
+<hr />
 <blockquote>
 <h4 id="dear-watchos-team-it-is-so-easy-to-download-a-watchos-app-through-the-apple-watch-app-on-the-iphone-as-a-companion-app-just-great-but-when-our-team-tried-to-download-an-app-direct-through-the-apple-watch-appstore-the-experience-was-quite-different-searching-for-the-app-switching-to-passcode-mode-trying-to-enter-the-appleid-not-what-we-want-to-customers-to-endure-any-other-way-to-download-an-independent-apple-watch-app">Dear WatchOS team: It is so easy to download a WatchOS app through the Apple-watch app on the iPhone as a companion app. Just great. But when our team tried to download an App direct through the Apple Watch Appstore the experience was quite different. Searching for the App, switching to Passcode mode, trying to enter the AppleID - not what we want to customers to endure. Any other way to download an independent Apple Watch App?</h4>
 </blockquote>
@@ -2282,6 +2332,7 @@ At this point I have over 90 third-party watchOS apps on my watch; most of them 
 For example, I only ever use Insight Timer on my watch, so I install it from the App Store on Apple Watch. :slightly_smiling_face:</p>
 <p>|U03HVD9QKHU|:
 Thanks for the insight!:slightly_smiling_face::de:</p>
+<hr />
 <blockquote>
 <h4 id="in-watchos-7-the-corebluetoooth-framework-worked-great-in-the-background-allowing-for-a-constantly-updated-app-interface-on-the-watch-especially-if-this-application-communicates-via-ble-with-a-peripheral-that-has-more-than-20-characteristics-there-are-problems-with-the-ble-connection-and-then-the-application-has-to-connect-to-the-periphery-every-time-and-read-the-initial-values-of-the-characteristics-this-process-could-take-up-to-10-seconds-for-my-app-starting-with-watchos-8-the-application-on-the-watch-going-into-the-background-stops-communicating-with-the-periphery-how-will-the-corebluetooth-framework-change-in-the-future-to-properly-design-my-application-on-the-watch">In watchos 7, the CoreBluetoooth framework worked great in the background, allowing for a constantly updated app interface on the watch. Especially if this application communicates via BLE with a peripheral that has more than 20 characteristics. There are problems with the BLE connection, and then the application has to connect to the periphery every time and read the initial values of the characteristics. This process could take up to 10 seconds for my app. Starting with watchos 8, the application on the watch, going into the background, stops communicating with the periphery. How will the CoreBluetooth framework change in the future to properly design my application on the watch?</h4>
 </blockquote>
@@ -2290,6 +2341,7 @@ Hi Sergey! Starting in watchOS 9.0, bluetooth peripherals that your app connects
 <p><a href="https://developer.apple.com/videos/play/wwdc2022/10135/">https://developer.apple.com/videos/play/wwdc2022/10135/</a></p>
 <p>|U03JZ0QA8BD|:
 :+1:</p>
+<hr />
 <blockquote>
 <h4 id="whats-the-best-way-to-sending-fast-messages-with-less-enery-using-with-watchconnectivity-does-sending-as-data-instead-of-dictionary-performs-better-do-you-recommend-sending-a-big-payload-as-smaller-parts-or-at-once-also-is-there-any-payload-size-limit">What's the best way to sending fast messages with less enery using with WatchConnectivity? Does sending as Data instead of Dictionary performs better? Do you recommend sending a big payload as smaller parts or at once? Also is there any payload size limit?</h4>
 </blockquote>
@@ -2303,6 +2355,7 @@ There's also a great talk from last year about watch connectivity: <a href="http
 That one was done by &lt;@U03HL004760&gt;!</p>
 <p>|U03J5EP5RSB|:
 Thank you! :pray:</p>
+<hr />
 <blockquote>
 <h4 id="with-the-new-sleep-stage-is-it-possible-to-monitor-and-reading-from-realtime-in-extending-runtime-of-what-stage-the-user-is-in-or-all-these-data-are-still-calculated-and-write-to-healthkit-when-the-user-wake-up">With the new sleep stage? is it possible to monitor and reading from realtime in extending runtime of what stage the user is in? Or all these data are still calculated and write to healthkit when the user wake up</h4>
 </blockquote>
@@ -2310,6 +2363,7 @@ Thank you! :pray:</p>
 It is not possible to monitor sleep stage in realtime. I would suggest you file a Feedback.</p>
 <p>|U03HVD9QKHU|:
 Really would support sleep stages in real time!</p>
+<hr />
 <blockquote>
 <h4 id="is-there-a-way-to-send-a-message-from-the-iphone-application-to-wake-up-the-associated-applewatch-application-note-the-applewatch-application-is-already-started-i-just-need-to-wake-it-up">Is there a way to send a message from the iPhone application to wake up the associated AppleWatch application ? Note: the AppleWatch application is already started, I just need to wake it up.</h4>
 </blockquote>
@@ -2331,6 +2385,7 @@ I’m assuming you’ve already seen &lt;@U03HL004760&gt;’s great talk <a href
 :slightly_smiling_face:</p>
 <p>|U03JSSE35GQ|:
 Thanks! I did miss this WWDC21 video and from the code examples it seems that i will be able to implement my use case. thanks again!</p>
+<hr />
 <blockquote>
 <h4 id="how-can-i-make-sure-that-my-coredata-cloudkitcontainer-objects-sync-over-correctly-from-watchos-to-ios-when-does-the-watchos-app-start-the-sync-or-is-coredata-with-icloud-maybe-not-the-best-way-to-sync-objects-its-one-of-the-most-recurring-complaint-from-my-users-at-the-moment-sorry-if-its-not-detailed-enough-but-im-a-bit-lost-a-modern-example-of-coredata-support-between-watchos-and-ios-would-be-amazing-smile">How can I make sure that my CoreData (CloudKitContainer) objects sync over correctly from watchOS to iOS?    When does the watchOS app start the sync?  Or is CoreData with iCloud maybe not the best way to sync Objects?   It’s one of the most recurring complaint from my users at the moment. Sorry if it’s not detailed enough but I’m a bit lost, A modern example of CoreData support between watchOS and iOS would be amazing :smile:</h4>
 </blockquote>
@@ -2358,11 +2413,13 @@ I suppose. But if I just set up a disclaimer to show once container receives dat
 what is the data that y’all are waiting for? fwiw I was thinking along the lines of relying on data that’s already on the watch (because it’s generated by the watch, or stored there) whenever possible, and augmenting with data from other sources when it becomes available. this isn’t <em>always</em> possible, of course; if you have a reminders/task or grocery list app across platforms, the user is going to expect those to sync, and in that case spinners and other syncing UI might be approrpriate.</p>
 <p>|U03HMDG985D|:
 And even if your app has no local data on first launch and you show your ‘new user’ UI, once your local Core Data store syncs up, you could update your UI. So the disclaimer would go away. And maybe the disclaimer can include wording that, if they have used the app on another device with the same Apple ID, that they can expect to see data soon.</p>
+<hr />
 <blockquote>
 <h4 id="hi-wave-were-using-hkliveworkoutbuilder-for-tracking-indoor-swimming-but-the-workoutbuilderdidcollectevent-for-the-distance-datatype-is-coming-in-delayed-and-resulting-in-an-inaccurate-data-usually-2-or-more-laps-of-distance-50m-are-missing-could-you-maybe-help-me-with-this-issue">Hi! :wave: We’re using HKLiveWorkoutBuilder for tracking indoor swimming. But the workoutBuilderDidCollectEvent for the distance datatype is coming in delayed and resulting in an inaccurate data.  Usually 2 or more laps of distance (~50m) are missing. Could you maybe help me with this issue?</h4>
 </blockquote>
 <p>|U03HL0NNTEG|:
 Hi, &lt;@U03J7AWBLDT&gt; and I'm sorry you're running into trouble with your swimming app. This sounds very much like something the Health team would like to look at. Can you please file feedback about this? Thanks!</p>
+<hr />
 <blockquote>
 <h4 id="how-can-we-hook-into-assistive-touch-sorry-if-covered-in-videos-due-16hr-time-diff-being-busy-elsewhere-havent-seen-them-yet-ive-been-in-love-with-the-feature-since-a-staffer-at-local-apple-store-was-wizzing-through-but-i-cant-find-an-api-just-uikit-stuff">How can we hook into assistive touch? (Sorry if covered in videos, due 16hr time diff &amp; being busy elsewhere haven't seen them yet).  I've been in love with the feature since a staffer at local Apple Store was wizzing through but I can't find an API, just UIKit stuff.</h4>
 </blockquote>
@@ -2375,12 +2432,14 @@ It's a new API available for watchOS only in watchOS9. The user does need to hav
 I'd also found last years's video <a href="https://developer.apple.com/videos/play/wwdc2021/10223/">https://developer.apple.com/videos/play/wwdc2021/10223/</a> but no matching docs, was looking at the code.</p>
 <p>|U03HHJK2FJ6|:
 AssistiveTouch works with the same accessibility infrastructure as VoiceOver. Following best practices for <a href="https://developer.apple.com/documentation/swiftui/view-accessibility|Accessibility in SwiftUI">https://developer.apple.com/documentation/swiftui/view-accessibility|Accessibility in SwiftUI</a> will make your app work well with AssistiveTouch.</p>
+<hr />
 <blockquote>
 <h4 id="is-it-possible-to-know-that-the-watch-app-will-exceed-the-75mb-limit-before-it-has-been-submitted-and-processed-in-app-store-connect">Is it possible to know that the Watch App will exceed the 75mb limit before it has been submitted and processed in App Store connect?</h4>
 </blockquote>
 <p>|U03HL004760|:
 I don’t have a great recommendation for how to check this in advance. But in general, are you having issues with this when submitting your app?
 I know we all want to be good Watch app citizens and some devices are quite limited on storage. If you’re using a lot of storage, people might get frustrated and uninstall your app. Have you considered  ways to reduce the size of your app and still deliver a great experience? I know this is a constant challenge.</p>
+<hr />
 <blockquote>
 <h4 id="if-you-make-the-decision-to-make-a-watch-only-app-does-that-mean-you-have-to-distribute-it-separately-or-can-it-still-be-sold-with-an-iphone-app-functionally-they-could-be-used-separately-but-buying-the-iphone-app-would-provide-the-watch-app-too-is-that-the-definition-of-companion-app">if you make the decision to make a Watch only app - does that mean you have to distribute it separately or can it still be sold with an iPhone app. Functionally they could be used separately but buying the iPhone app would provide the watch app too? Is that the definition of "companion app"?</h4>
 </blockquote>
@@ -2438,6 +2497,7 @@ omg yes please use a Series 6 or later if you have one!</p>
 It got to be a challenge to see how long my S2 could last - it was something like 5 years!</p>
 <p>|U03H96N55U5|:
 I still have a Series 2 that I use to test various scenarios, but I definitely don’t debug on it. :slightly_smiling_face:</p>
+<hr />
 <blockquote>
 <h4 id="back-when-developing-against-watchos-6-watchdog-killed-my-app-after-the-binary-grew-too-big-removing-some-dependencies-solved-the-issue-but-i-want-to-ask-is-this-size-limit-documented-somewhere-and-has-it-been-raised-in-the-last-few-releases">Back when developing against watchOS 6, Watchdog killed my app after the binary grew too big. Removing some dependencies solved the issue.  But I want to ask:  is this size limit documented somewhere, and has it been raised in the last few releases?</h4>
 </blockquote>
@@ -2459,6 +2519,7 @@ I see, that’s probably what I was hitting as well then. I’m a bit hazy on th
 give it another whirl! :slightly_smiling_face:</p>
 <p>|U03JFUBCW85|:
 I will, for sure. Thanks for the info. These lounges are really great!</p>
+<hr />
 <blockquote>
 <h4 id="whats-the-best-way-to-wake-up-ios-app-from-watch-app-to-keep-it-running-my-ios-app-is-connecting-to-a-server-by-socket-and-keep-sending-real-time-data-to-the-watch-app-is-sending-short-messages-to-iphone-with-an-interval-good-way-thank-you">What's the best way to wake up iOS app from Watch app to keep it running? My iOS app is connecting to a server by socket and keep sending real time data to the Watch app. Is sending short messages to iPhone with an interval good way? Thank you</h4>
 </blockquote>
