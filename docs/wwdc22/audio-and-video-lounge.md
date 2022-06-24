@@ -4,9 +4,10 @@
 #### [emin@github](https://github.com/roblack) / [emin@twitter](https://twitter.com/emin_ui)
 #### [shirblc](https://github.com/shirblc)
 #### [tikimcfee](https://github.com/tikimcfee)
----
 
---- 
+
+
+---
 > ####  When would we be able to see an option for playback speed/pitch in Apple Music? This is something I'd love to see.
 
 
@@ -17,7 +18,7 @@ You can already change the playback speed with MusicKit by setting the <https://
 
 As for changing pitch, we don’t currently support this, but feel free to file an enhancement request in <https://feedbackassistant.apple.com|Feedback Assistant>.
 
---- 
+---
 > ####  How is the Music API related to the Podcast API?
 
 
@@ -27,14 +28,14 @@ Hey <@U03K8HA5U2U>!
 The Apple Music API is a separate product from any other metadata APIs. We currently don’t have a dedicated Podcasts API, but if you need podcast metadata you can leverage the pre-existing iTunes Search API -
 <https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/index.html>
 
---- 
+---
 > ####  Hello! Thanks for your amazing work, to begin with. I wanted to ask about songs lyrics, there's a `hasLyrics` boolean variable inside the `Song` object, but I see no way to access those lyrics, am I missing something? I'd need to have timed lyrics for an app idea I have. Thank you!
 
 
 |U03J1SQJYRW|:
 Hi Cristina, unfortunately there's no current way to access the lyrics of a `Song` object in either MusicKit or Apple Music API. Please consider filing an enhancement request in <https://feedbackassistant.apple.com|Feedback Assistant> for a request for this feature!
 
---- 
+---
 > ####  Thank you for all the new structures in MusicKit this year!! All my wishlist items ticked. :white_check_mark:  I wonder how to work with the MusicCatalogTopLevelResourceRequesting protocol and the new init() of MusicCatalogResourceRequest?
 
 
@@ -54,7 +55,7 @@ I assume that it will help me fetch all the top genres from this <https://api.mu
 |U03H96G1FB7|:
 That’s exactly right. We think we need this to tie into the new <https://developer.apple.com/documentation/musickit/musiccatalogchartsrequest|MusicCatalogChartsRequest>, which can be <https://developer.apple.com/documentation/musickit/musiccatalogchartsrequest/init(genre:kinds:types:)|initialized for a specific Genre> (optionally).
 
---- 
+---
 > ####  What are some great tips on creating immersive audio experiences in our apps?  I really like Spatial Audio and Spatialise Stereo.
 
 
@@ -65,7 +66,7 @@ Currently <https://developer.apple.com/documentation/musickit/audiovariant|Music
 |U03JRP87THN|:
 Thank you very much!
 
---- 
+---
 > ####  Is it possible to determine the location (country, etc.) of origin of an album, track, or artist?
 
 
@@ -73,7 +74,7 @@ Thank you very much!
 Hey Mark - we don’t expose this metadata via the Apple Music API at this time.
 But feel free to file an enhancement request in <https://feedbackassistant.apple.com/|Feedback Assistant>.
 
---- 
+---
 > ####  I didn't see anything about Apple Classical / Primephonic so far. Will MusicKit and Apple Music API support it?
 
 
@@ -86,7 +87,7 @@ Thank you Betim. So I guess there was no official news I missed for WWDC
 |U03GXGA6B63|:
 That’s correct, we currently don’t have any updates on this yet
 
---- 
+---
 > ####  Like the new recently played structure in MusicKit, is there a way to access the recently added items in the user's library?
 
 
@@ -94,7 +95,7 @@ That’s correct, we currently don’t have any updates on this yet
 Hi Rudrank,
 Unfortunately, there currently isn't a way to access the recently added items in the user's library like the recently played structure. However, you could get this information from <https://developer.apple.com/documentation/applemusicapi/get_recently_added_resources|Apple Music API>. Please consider filing an enhancement request in <https://feedbackassistant.apple.com|Feedback Assistant> for a request for this feature!
 
---- 
+---
 > ####  Like the new recently played structure in MusicKit, is there a way to access the heavy rotation content (like the one mentioned in Apple Music API) from the user's library?  If not, do you recommend using MusicDataRequest for the URL <https://api.music.apple.com/v1/me/history/heavy-rotation,|https://api.music.apple.com/v1/me/history/heavy-rotation,> and decoding it as a music item collection of RecentlyPlayedMusicItem?
 
 
@@ -102,7 +103,7 @@ Unfortunately, there currently isn't a way to access the recently added items in
 Hi Rudrank,
 Unfortunately, there currently isn't a way to access heavy rotation content from the user's library. Using `MusicDataRequest` to fetch this would work but decoding the items as `RecentlyPlayedMusicItem` is not recommended. For recommendations based on listening, we encourage exploring <https://developer.apple.com/documentation/musickit/musicpersonalrecommendationsrequest|MusicPersonalRecommendationsRequest>.
 
---- 
+---
 > ####  Does Spatial Audio only work with MusicKit? Or does it also work with MediaPlayer as well?
 
 
@@ -113,7 +114,7 @@ Spatial Audio playback will be handled automatically, however, there is no metad
 |U03JBMMB10A|:
 Thank you!
 
---- 
+---
 > ####  Is the ISRC given by the Music API reliable to identify a song outside of the Music API? In the past, I've found that there are differences between Apple Music ISRC and other platforms ISRC. The other platforms seem to be correct, but I thought ISRC is supposed to be universal.
 
 
@@ -122,7 +123,7 @@ Hey <@U03JE7H2DM4>!
 
 Yes, the ISRC value is intended to be a way to identify songs outside of Apple Music. If you have examples of ISRC values not matching what you expected, please consider sharing them with us using the Feedback Assistant.
 
---- 
+---
 > ####  Will there be an option to be able to playback Apple Music directly via AVPlayer?
 
 
@@ -156,7 +157,7 @@ I think the best way forward would be to capture this information about your use
 |U03JE7H2DM4|:
 Thank you!
 
---- 
+---
 > ####  Apple Music API - How to work with Catalog Activity? <https://developer.apple.com/documentation/applemusicapi/get_a_catalog_activity|https://developer.apple.com/documentation/applemusicapi/get_a_catalog_activity>  The given example throws "Resource with requested id was not found" error, and I am not sure where to find the activity to understand it
 
 
@@ -169,7 +170,7 @@ This year's enhancements to MusicKit for Apple platforms have also made it easie
 
 Thank you for reporting the sample ID in the documentation is not working, that will need to be updated.
 
---- 
+---
 > ####  Is this the appropriate place to ask about the new control center on the lock screen?  They showed an audio example in the keynote which included fullscreen album art.  But what if you have video running?  Would you actually see the video on the lock screen?
 
 
@@ -183,7 +184,7 @@ To do this, the app needs to publish its <https://developer.apple.com/documentat
 |U03H96G1FB7|:
 One more thing <@U03J20WEYV8>, we’ll have more information on a new way to publish the now playing information in a new session titled <https://developer.apple.com/wwdc22/110338|Explore media metadata publishing and playback interactions>, which will be released on Friday.
 
---- 
+---
 > ####  Like MusicLibraryRequest, does MusicLibrarySearchRequest not do a network call, and searches from the local copy stored on device?
 
 
@@ -191,7 +192,7 @@ One more thing <@U03J20WEYV8>, we’ll have more information on a new way to pub
 Hi Rudrank,
 Yes, like the `MusicLibraryRequest` on iOS, `MusicLibrarySearchRequest`  doesn't make a network call for searching but instead searches your local library.
 
---- 
+---
 > ####  One wish (I will file feedback for it), the possibility of using MusicKit in the simulator?
 
 
@@ -202,7 +203,7 @@ Getting MusicKit to work in the simulator is very challenging on a technical lev
 
 We keep investigating ways we could enable using some aspects of MusicKit in the simulator, and we’ll make sure to communicate around it if and when we have any specific updates.
 
---- 
+---
 > ####  I'm working on migrating form MediaPlayer to MusicKit. Does MusicKit work to play back iTunes content even if the user does not have an AppleMusic subscription?
 
 
@@ -213,7 +214,7 @@ Great to hear that you're migrating! If you were using MediaPlayer to play back 
 |U03JBMMB10A|:
 Great, thank you!
 
---- 
+---
 > ####  Now that we have artwork for artist (YAY), do we assume that licensing issues have been sorted?   <https://developer.apple.com/forums/thread/688012|https://developer.apple.com/forums/thread/688012>
 
 
@@ -238,7 +239,7 @@ Got it, thanks!
 |U03JBMMB10A|:
 Right, that’s great because we used to have run all our AppStore screenshots though photoshop to change all the album artwork to public domain images. So we really appreciate this! Thank you!
 
---- 
+---
 > ####  My app uses AVAudioEngine, and I am very disappointed that the "TapOnBus()" command has such a slow responsiveness.  At an audio sample rate of 44,100 fps, it can not respond any faster than giving me 4,400 samples every 0.1 seconds.  Is there any way to speed this up?
 
 
@@ -251,7 +252,7 @@ Thanks for the question! I think your question is best suited for a scheduled _C
 
 My question relates to this Apple’s Q&amp;A - *<https://developer.apple.com/library/archive/qa/qa1872/_index.html>*
 
---- 
+---
 > ####  For iOS MultiCam capture, Apple provides AVCaptureMultiCamSession to help with capturing from multiple inputs and feeding to multiple outputs.  For Mac, what is the best way to achieve the same result. Running multiple AVCaptureSessions is definitely not the way I want to go, do I have to figure out a way of adding multiple inputs and mapping them to multiple outputs as I will be using AVCaptureVideoDataOutputDelegate and is that okay to do
 
 
@@ -259,14 +260,14 @@ My question relates to this Apple’s Q&amp;A - *<https://developer.apple.com/li
 Hello!
 Thank you for the question. This would be best suited for tomorrow’s Q&amp;A: AVFoundation (between 1pm and 3pm PT).
 
---- 
+---
 > ####  Does SharePlay work inside Messages, specifically inside an iMessage App Extension?
 
 
 |U03HEF3T0GL|:
 We do not support SharePlay in extensions (IE: iMessage App Extensions), but we love hearing the feedback so please do file the feedback!
 
---- 
+---
 > ####  Is there existing API to share a URL of a document in iCloud Drive and for the invitees to be automatically given shared access to it for the duration of the SharePlay session, with iCloud dealing with keeping everyone up to date? If not, how do apps like Pages do this?
 
 
@@ -291,7 +292,7 @@ You’re in the right place for all things SharePlay :slightly_smiling_face: not
 |U03J4E99F9S|:
 Thanks
 
---- 
+---
 > ####  SharePlay: Has the SharePlay message size been extended? or publicly documented?
 
 
@@ -304,14 +305,14 @@ The message payload for the `GroupSessionMessenger` has been increased to 256KB!
 |U03J1USNBDZ|:
 :+1:
 
---- 
+---
 > ####  SharePlay related:  FB9991061  GroupActivitySharingController is unavailable in Mac Catalyst despite the documentation: <https://developer.apple.com/documentation/groupactivities/groupactivitysharingcontroller|https://developer.apple.com/documentation/groupactivities/groupactivitysharingcontroller>
 
 
 |U03HEF3Q79S|:
 Thank you for bringing this to our attention. We will look into this.
 
---- 
+---
 > ####  Hello all, hope everyone is doing well, i would like anyone's input on streaming audio through MQTT messages. I have created a working class that uses AudioQueue to grab packets of a certain size and listen to these bytes after applying an algorithm to it. I've done this for talking and listening using AudioQueue only. However, sometimes there could be some instability when listening and talking. Does anyone have any improvements or things i can look out for when handling live streamed audio data with AudioQueue? Or is this the right service for streaming audio? Just for context, I've tried AVAudioEngine but a few issues arose when doing so. Thanks!
 
 
@@ -322,7 +323,7 @@ Thanks for your question, we don’t have someone from the CoreAudio team here t
 |U03J9T1R5M4|:
 Hey Gavin, thank you would love to discuss more.
 
---- 
+---
 > ####  SharePlay related:  Are there any updates to user management such as linking SharePlay and FaceTime participants?
 
 
@@ -332,7 +333,7 @@ Apps can associate GroupSession participants with accounts in your app, but the 
 |U03J1USNBDZ|:
 Thank you
 
---- 
+---
 > ####  I have a SharePlay game on the App Store. In the game you answer questions out loud. Starting with iOS 16 my game is no longer able to access the microphone during a FaceTime call. Is this an expected change?
 
 
@@ -342,7 +343,7 @@ Hi <@U03J7G8UX50>! Thanks for bringing this to our attention! If you file a feed
 |U03J7G8UX50|:
 Great, thanks
 
---- 
+---
 > ####  I've have Adam on 2X to see the SharePlay updates: so appologies:  With the new Messages and SharePlay integration, does FaceTime remain as the transport layer for the stable connection and Messages therefore is a new way/UI to initiate a SharePlay/FaceTime session?
 
 
@@ -368,7 +369,7 @@ I shall and much thanks
 |U03J1USNBDZ|:
 it seems that I already submitted a request for: June 8, 2022,  between 8:00 p.m. and 10:00 p.m. EDT (UTC-04:00)
 
---- 
+---
 > ####  When an arbitrary UIView is overlaid on top of an AVPlayer containing HDR content (think subtitles, mute toggle, etc.), the overlay appears much dimmer and can be hard to read. Is there a way to disable this behavior and render the overlay with the same brightness?
 
 
@@ -381,7 +382,7 @@ it seems that I already submitted a request for: June 8, 2022,  between 8:00 p.m
 |U03JN1D5XNJ|:
 Thanks! Please see FB9875960 -- this is on iOS
 
---- 
+---
 > ####  What's the best way of determining audio output latency, esp with wireless devices like Airpods?  My app synchronizes on-screen graphics (not video) with sound, and getting accurate latency info with Airpods has been challenging.
 
 
@@ -408,7 +409,7 @@ Thank you very much for the FB number.
 Note that AVFoundation playback objects like AVPlayer or AVSampleBufferAudioRenderer handle latency for you.
 So, if you can use one of those for rendering your audio, you can rely on the AVPlayerItem timebase or AVSampleBufferRenderSynchronizer currentTime to synchronize your graphics.
 
---- 
+---
 > ####  Hi! I have a fairly technical question that might have been a better fit for a lab, but I missed the deadline on Monday to apply for it. :pensive:  I am using a custom Core Image compositing pipeline (via the AVVideoCompositing protocol) that is using CIFilters for adjusting a foreground and background video and combine them via alpha blending/masking.  The custom compositor has some parameters stored in an instance conforming to the AVVideoCompositionInstructionProtocol.  The goal is for the user to interactively adjust these parameters, and have the composited video (played back continuously) reflect these changes with as little latency as possible.  In my current implementation there is a significant lag between slider adjustments and the video image responding. Presumably this is because the video player has already processed and buffered frames using the previous parameter values.  I am hoping to find an approach that would allow smooth and responsive adjustments of the CIFilter parameter(s) while the video is playing. Maybe there is some instruction that would flush the player's cache (without interrupting playback)?  Amongst other things I tried setting the AVPlayerItem’s preferredForwardBufferDuration to a very low value (such as 0.01), but this seemed to have no effect on the responsiveness of adjustments.   Here is a simplified example project that only has a single slider for controlling foreground exposure : <https://www.dropbox.com/s/bk3srki6ys455sr/VideoCompositing.zip?dl=1|https://www.dropbox.com/s/bk3srki6ys455sr/VideoCompositing.zip?dl=1>
 
 
@@ -421,7 +422,7 @@ Regarding your request to reduce the latency for rendering during user interacti
 |U03JRPTG8BS|:
 Thank you. I didn’t consider the Playback lab, but actually my question fits into that pretty well, so I will apply for a lab appointment tomorrow.
 
---- 
+---
 > ####  I have a custom document format that embeds video files. Is there a way to get an AVPlayer to play that data without first writing the video data out to a tmp file so that I have a file URL to pass to AVPlayer?
 
 
@@ -430,7 +431,7 @@ G'day, Daniel.
 Check out AVAssetResourceLoader.  Through it, you can provide a delegate that will be called to interpret a custom URL scheme and deliver data that you will read from your custom document format.
 There is a new API property in iOS 16 and macOS 13 Ventura called entireLengthAvailableOnDemand which optimizes the case where the data is already available locally, as in your app.
 
---- 
+---
 > ####  Can I disable the control center option to spatialize audio if the user is using AirPods? Setting AVPlayerItem.allowedAudioSpatializationFormats to .none doesn't seem to do the trick. 
 
 
@@ -440,7 +441,7 @@ Hi Martin, can you describe your use case a little more?  Why would you like to 
 |U03HC3P9VS7|:
 If this capability is important to your app, we'd love to hear more.  Could you also file a request (<https://developer.apple.com/bug-reporting/>) and describe your use case?
 
---- 
+---
 > ####  Is there a way to get presentation and decoding data from AVPlayer such as the PTS (presentation time stamp), DTS (display time stamp), or PCR (program clock reference)?
 
 
@@ -565,7 +566,7 @@ Yeah, that will work.
 |U03J213RF18|:
 ok, thanks
 
---- 
+---
 > ####  How can we use multiple AVPlayerLayer's with one AVPlayer? This leads to frozen video in simulators. See: <https://developer.apple.com/forums/thread/688766|https://developer.apple.com/forums/thread/688766>
 
 
@@ -575,7 +576,7 @@ Hello Kai, it looks like you've submitted FB9566529.  Thanks for the report.  We
 |U03JEKFMT4Z|:
 It works on devices in production, but it's limiting our simulator productivity for debugging so any fixes or workarounds would be very helpful
 
---- 
+---
 > ####  My iPad app has a camera view (streaming / recording).  Is it possible to use the camera while in multitasking mode / stage manager? I'd like to adopt all the new apis, but currently I'm stuck requiring my app to stay in full screen.
 
 
@@ -592,14 +593,14 @@ WOW Thank you!
 |U03J08PTTB6|:
 You're very welcome. Have a great rest of WWDC!
 
---- 
+---
 > ####  Are there any plans for native integration of CMCD in AVFoundation....
 
 
 |U03HHD1EC3Z|:
 Good Afternoon! We would love to hear more information about your app and use case of CMCD, if you haven’t already could you please file an enhancement request at <https://developer.apple.com/bug-reporting/>
 
---- 
+---
 > ####  This is about AVCaptureDevice.  If the device is a telephoto camera, I suggest a direct way to query it (or query its active format) as to its lens power.  That is, does it have 2.0x optical power, or 2.5x or 3.0x?  This would be useful for any camera app where the user manually selects the lens to use (no virtual device).  Thanks!
 
 
@@ -608,7 +609,7 @@ Hi Eric,
 Thanks for your question, unfortunately we don’t have someone from the AVCaptureDevice team with us today. But we have a Q&amp;A: Camera Capture digital lounge tomorrow or a Camera Capture
 lab on Friday.
 
---- 
+---
 > ####  How do you turn an array of `Float`s (representing audio) into an `AVAudioPCMBuffer` (to pass to `AVAudioFile`'s `write(to:)` method)?  This seems to mangle the output: ``` var floats: [Float] = ... // this comes from somewhere else try withUnsafeMutablePointer(to: &amp;floats) { bytes in     let audioBuffer = AudioBuffer(mNumberChannels: 1, mDataByteSize: UInt32(bytes.pointee.count * MemoryLayout&lt;Float.size), mData: bytes)     var bufferList = AudioBufferList(mNumberBuffers: 1, mBuffers: audioBuffer)     let outputAudioBuffer = AVAudioPCMBuffer(pcmFormat: buffer.format, bufferListNoCopy: &amp;bufferList)!     try self.renderedAudioFile?.write(from: outputAudioBuffer) } ```  ... and the version without the `withUnsafeMutablePointer {` gives me a warning (`Cannot use inout expression here; argument 'mData' must be a pointer that outlives the call to 'init(mNumberChannels:mDataByteSize:mData:)'`) when you try and dereference the float array directly like: ``` var floats: [Float] = ... // this comes from somewhere else let audioBuffer = AudioBuffer(mNumberChannels: 1, mDataByteSize: UInt32(floats.count * MemoryLayout&lt;Float.size), mData: &amp;floats) // ... ```
 
 
@@ -622,7 +623,7 @@ I’d love to, but I’m in CET+1 and the Thursday ones seem to be booked out an
 |U03KGFBCP24|:
 I’ve replicated the question in the dev forums: <https://developer.apple.com/forums/thread/707690>
 
---- 
+---
 > ####  I am trying to compress video files before uploading to a server. I am using an AVAssetExportSession to do this, however, i have not been able to get it to work. After running, the session's status is always "failed" and I get a very generic error with the ID 17508. Any insight as to what might be going wrong?   This is the error:  Asset Writer Error: Error Domain=AVFoundationErrorDomain Code=-11800 "The operation could not be completed" UserInfo={NSLocalizedFailureReason=An unknown error occurred (-17508), NSLocalizedDescription=The operation could not be completed, NSUnderlyingError=0x280314d80 {Error Domain=NSOSStatusErrorDomain Code=-17508 "(null)
 
 
@@ -755,14 +756,14 @@ Yes. absolutely. Please mention that this is follow-up for a digital lounge ques
 |U03JRSDS7JQ|:
 Sounds good, thank you so much!
 
---- 
+---
 > ####  I have an app for iOS and macOS for which I am using AVFoundation to capture video.  I have a specific question when it comes to capturing data simultaneously from multiple AVCaptureDevice objects. On iOS we have AVCaptureMultiCamSession.  But I am more interested in macOS. Since that API is not available for macOS, what is the best way to achieve the same result i.e. mapping multiple simultaneous input devices to multiple outputs. Would I have to run a single AVCaptureSession and do my own management of adding multiple inputs and mapping each input to its own distinct output device ? Hoping to discuss the best method to do this. Thanks
 
 
 |U03HC493YP4|:
 Thank you for the question, unfortunately we don’t have someone from the AVCaptureDevice team with us today. But we have a Q&amp;A: Camera Capture digital lounge tomorrow and a Camera Capture lab on Friday.
 
---- 
+---
 > ####  we have some devices which provide audio and video samples which are synced with one another but not with the host clock. So the audio sample rate is not e.g. 48kHz, but something close to it. Microphones usually provide a feedback pipe so that the host can tell the device to djust its output sample rate to match the host clock rate; these devices cannot do that. Can we just measure the incoming sample rate and tell CoreAudio that it is (e.g.) 48012 Hz for some seconds and 48006 Hz for some seconds, etc, or can it not to do rate matching?
 
 
@@ -831,7 +832,7 @@ I'm a Mac sysadmin who happens to have a degree in audio engineering and has sup
 |U03HVCWP48N|:
 But I don't know the code level stuff.
 
---- 
+---
 > ####  I wonder if it's possible to have an `AVAudioEngine` running and connect the `inputNode` later and only request permission for the microphone when actual recording is going on. Most apps I've see have the recording indicator in the status bar immediately up even if recording will only happen later. Users might be spooked by the rec. indicator if it's always on, it gives the impression the app is always listening, even it's just generating audio. Is there a way to optimize this experience?
 
 
@@ -842,7 +843,7 @@ Thank you for the question, unfortunately we don’t have someone from the audio
 |U03JPBUSHLZ|:
 Did you get an answer to this? Curious about if this is possible too
 
---- 
+---
 > ####  I'm trying to customize the tvOS native AV Player UI.  Is there a way to toggle the LIVE badge on and off?  Working on live DVR, and I would like to be able to use that Live badge to indicate if the user is at the live edge or in the archive.
 
 
@@ -852,7 +853,7 @@ Hey Joseph, there is currently no way to toggle the live badge on and off when y
 |U03KB8G0ENL|:
 Thanks.  I will do!
 
---- 
+---
 > ####  When defining an HLS manifest with multiple audio groups and and audio tracks that use the same NAME parameter such as this example:  #EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio-ac3",LANGUAGE="en",NAME="English",AUTOSELECT=YES,CHANNELS="6",URI="playlist-ac3.m3u8"  #EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio-aac",LANGUAGE="en",NAME="English",AUTOSELECT=YES,CHANNELS="2",URI="playlist-aac.m3u8"  AVFoundation seems to filter out all but one of the audio tracks. Is there documentation somewhere on how the filters are applied (such as on device X with os Y you get the multichannel rendition vs the 2 channel rendition)?  Or should we always be using separate NAME values across groups to keep the audio tracks available when asking AVPlayer for the tracks?
 
 
@@ -886,14 +887,14 @@ I have 2 questions for the HTTP lab....how can i best manager that, i can't requ
 |U03HC493YP4|:
 You could describe both of your questions when requesting the one appointment.
 
---- 
+---
 > ####  Is it possible to configure an AVAudioRecorder to do echo cancellation on macOS/iOS? e.g. so that recording while a FaceTime call/Zoom/whatever is going on, the recorder only records the voices of people in the same room as the computer, not the sound coming out of the computer?
 
 
 |U03HC3P9VS7|:
 Hi William, we would love to chat to you in more detail 1-1 on this. Please book an appointment in the Core Audio lab on Thursday 10am Pacific or Friday 2pm Pacific
 
---- 
+---
 > ####  What are the constraints on code running in an AVAudioNode.installTap (<https://developer.apple.com/documentation/avfaudio/avaudionode/1387122-installtap)|https://developer.apple.com/documentation/avfaudio/avaudionode/1387122-installtap)> block? Is that running in the audio thread or observing real-time rules, or can we make allocations/dispatch to other queues/write Swift? I've seen conflicting answers on this around the web
 
 
@@ -903,7 +904,7 @@ Hi again William, looks like you have a few questions that would be well-suited 
 |U03J1UX2CQK|:
 Thank you!
 
---- 
+---
 > ####  We're trying to run AVAudioRecord to use it for Speech Recognition in our iOS keyboard extension for an unique dictation experience, but we keep receiving an error, which is described in the following Apple's Q&amp;A that it is impossible to start record in any app extension: `com.apple.coreaudio.avfaudio error 561145187`  My question is why it was limited since iOS 8 and is it still a case in iOS 16, so that maybe we can get an access to it?  URL for a feedback: <https://developer.apple.com/library/archive/qa/qa1872/_index.html|https://developer.apple.com/library/archive/qa/qa1872/_index.html>
 
 
@@ -927,7 +928,7 @@ If you haven't already, I think it is worth filing a report using the feedback a
 |U03JER2C7MX|:
 Sure, here you go. FB10060598
 
---- 
+---
 > ####  I'm building a Python app that runs on Raspberry Pi to use Apple Music. There are already bindings for the API (which will probably need updating due to the new features announced yesterday).  My question is how does playback occur when I play a song through the API?  Does it need to be handled by a native player, or is it delivered by the server through the API?
 
 
@@ -938,7 +939,7 @@ Thank you for the question, unfortunately we don’t have the folks that could a
 |U03J22HLA4S|:
 Ah. My mistake.
 
---- 
+---
 > ####  On the Mac, can multiple apps access the camera at the same time? I am considering developing an app that would track the user's posture (and poke them to sit up straight when necessary). It would likely just need to grab a frame once a second or so. Would it be able to do that without interfering with other apps using the camera (such as FaceTime or Zoom)?
 
 
@@ -951,14 +952,14 @@ Short answer, yes, multiple apps can access camera at the same time.
 |U03J2DMEULA|:
 on Mac
 
---- 
+---
 > ####   Do you have any code snipets showing how to load a stereo audio file into MLMultiArray object?
 
 
 |U03H96KAN0M|:
 Hi Eddie, unfortunately we don’t have any code snippets for interacting with MLMultiArray in AVFoundation. If you are looking for info for how to use MLMultiArray, there are Machine Learning &amp; Computer Vision labs on Thursday and Friday that you might like to check out. For the audio itself, what form is it in (.mov, .mp4, AudioFile supported formats such as CAF, etc.) and are you reading it all at once or processing it over time?
 
---- 
+---
 > ####  If one user has ads and the other doesn't and `interstitialTimeRangesForPlayerItem` is implemented along with having the no ads user wait, is it possible to display a count down for that user indicating when the main content will resume?
 
 
@@ -969,7 +970,7 @@ You could share the ad schedules across the group when playback starts using the
 |U03HZ4B2WBF|:
 :thumbsup: ty <@U03HC3P2J8K>
 
---- 
+---
 > ####  What is the minimum value that users expect when they want to edit a document with someone using SharePlay? What edge cases should we handle, like connection being temporarily lost, trying to edit/delete the same selection of the text, etc.?  And if we expect that there will be only one copy of the document, stored on the hosts' side, should we close the document for participants when the session is over, or should we let them see the content, being able to copy it, save, and so on?
 
 
@@ -986,7 +987,7 @@ Awesome, will do so :innocent:
 |U03JMB7160Z|:
 CRDTs for the win! :sunglasses:
 
---- 
+---
 > ####  If we wait for a coordinated playback session to resume when displaying stitched interstitials, is it possible to cap the maximum amount of waiting in a time period before we might revert to a skip behaviour? Thinking in particular of a scenario where two users might have ad-breaks that aren't _quite_ simultaneous. It would be very frustrating to wait for Alice to complete her advert, both videos to resume for two seconds, then Bob to view his. Ideally we'd want to force these to play simultanously?
 
 
@@ -996,7 +997,7 @@ You should be able to do this by removing the `"playingInterstitial"` suspension
 But we would strongly recommend to synchronize the ad timings across participants.
 You could also try issuing `AVPlayer.playImmediatelyAtRate:` at the waiting participant to force them to play.
 
---- 
+---
 > ####  Like 'func playerViewController(_ playerViewController: AVPlayerViewController, willTransitionToVisibilityOfTransportBar visible: Bool, with coordinator: AVPlayerViewControllerAnimationCoordinator)` there is no callback methods to track info-pannel visibility. Whats the best way to identify when info-pannel appears and disappears?
 
 
@@ -1084,14 +1085,14 @@ However, in tvOS 15.0 and later with an app linking against tvOS 15.0 and later,
 
 If the behavior I just described above is not working in the new tvOS 16.0 beta or if you need more granular callbacks for when individual customInfoViewControllers (like the info tab) are selected then I would definitely file a request in Feedback Assistant - that’s valuable feedback!
 
---- 
+---
 > ####  I have a question regarding SharePlay experience in a documents app that doesn't provide an features like collaborative editing or sharing links to the document yet.  iOS 15 case: Let's say the user starts SharePlay session with another person, which joins to edit this document as a guest. Which means that whenever the season is over, the guest won't be able to suggest edits to the other user, so that we finish editing experience and give him an option to copy text or create his own copy of the doc.  My question is how can we improve that user experience on iOS 15, improving the flow itself? And what are we capable of in iOS 16 - what would be the desired flow for editor's users and should we use collaboration api instead/combined?
 
 
 |U03HEF3RZKN|:
 Thanks for the detailed question, <@U03JER2C7MX>! There’s some more relevant details on this too in response to <@U03HC3KUDGB>’s question above, but it sounds like a prime example for adopting the new Messages collaboration APIs! In this case, the user doesn’t need to have an existing account in your app (e.g. they can still be a guest), but sharing the document over a Messages group will let your app get an identity for this user based on the real Messages identity, so you can ensure they can still access the document even after a SharePlay session has ended.
 
---- 
+---
 > ####  Is it currently possible to add my view/interface like an OSD aside/on top of the video content I share with others?
 
 
@@ -1112,7 +1113,7 @@ f.e I thought about showing live stats if i'm sharing a video of a sport game wi
 |U03HC3KUDGB|:
 Thanks Lior, I will see if we can get someone from the AVKit team tomorrow to help you with the view, in the meantime check out the session Adam posted above so you can see ways to coordinate interface elements using the Group Sessions Messenger API
 
---- 
+---
 > ####  Hello. Is it possible to adjust video quality in the player?
 
 
@@ -1139,7 +1140,7 @@ I tried both apps (iOS/macOS/web), even the new player cannot change too.
 |U03HVCK66P8|:
 Thus, I can only download the video, and it just takes a few seconds.
 
---- 
+---
 > ####  Is it safe to update the GroupActivity conforming object after the session begins?  I’ve used this method to update some global info about the session without using messages to make sure everyone including late-joiners receive the new data. But would this have any unintended side-effects/should I refactor to only use messages?
 
 
@@ -1151,7 +1152,7 @@ This can be a great way to infrequently update the “state” of the group, e.g
 |U03JLRZJHQR|:
 Great, thanks for the detailed reply!
 
---- 
+---
 > ####  I am building a Music Visualizer (for macOS and iOS as well as any future Apple platforms that would support immersive Metal powered visualization)   I have been wondering about how to properly support Apple Music instead of merely internet streams and purchased iTunes music. There is wonderful support for integrating with Apple Music to allow the user to select tracks and playlists etc. I have not found a way to actually tap into the audio buffers to do the analysis (e.g. FFT) that I need. Common sense tells me there could be fully understandable legal reasons for this, but I still want to ask for your advice on how to best support Apple Music, now that I have this brief window of time. Perhaps there is a way to get access to "reduced information" about the audio signal somehow without my app actually accessing the raw buffers?  A workaround using the microphone incurs a lag in responsiveness and results in very poor audio with headphones. (I use AudioKit, but this seems to be a general issue even when activating the mic in System Preferences).  Thank you!
 
 
@@ -1176,14 +1177,14 @@ I think you should actually use either “macOS” or “iOS &amp; iPad OS”.
 |U03HZ462YF7|:
 Thank you! I think users would expect an app like this to work great with Apple Music and it would be so incredibly cool.
 
---- 
+---
 > ####  Something I've been wondering. If I'm expecting a ShazamKit experience to be used in a noisy environment, do I need to mix in some simulated noise into source audio when creating a catalog?
 
 
 |U03HJ50BLD9|:
 There’s no need to mix in noise at any stage in the creation of custom catalogs, clean audio is always preferred. Shazam is noise tolerant (you’ve used the app in a noisy setting and still received a match I’m sure). So have a clean audio reference signature, and try and make sure that the query signature is as clean as possible, but it can tolerate a certain amount of noise.
 
---- 
+---
 > ####  Please in Apple Music API add finally endpoint to remove a song from playlist! This is very tedious job if I want to have curated playlist that I share to other people. We wait for such simple feature :)
 
 
@@ -1200,7 +1201,7 @@ If you would like to see this functionality exposed in Apple Music API so it can
 
 Thanks!
 
---- 
+---
 > ####  Will MusicKitJS be updated? Currently AppleMusic API is upgraded to 1.2 however JS is still 1.0 with a bug preventing playback after 15 minutes. At the same time at <https://js-cdn.music.apple.com/musickit/v3/docs/index.html?path=/docs/introduction--page|https://js-cdn.music.apple.com/musickit/v3/docs/index.html?path=/docs/introduction--page> documentation for JS v3 exists but there is no ETA for that - is that abandoned project?
 
 
@@ -1225,7 +1226,7 @@ My recommendation is to report any issues via <https://feedbackassistant.apple.c
 |U03H96G1FB7|:
 But also, feel free to keep the conversation going in the Apple Developer Forums, by starting new threads there with the tag <https://developer.apple.com/forums/tags/musickit-js|MusicKit JS>.
 
---- 
+---
 > ####  Are both devices able to gracefully end?
 
 
@@ -1235,7 +1236,7 @@ Yes, either side can end gracefully by canceling the NWConnection.
 |U03JWCQ8ZPY|:
 Thank you :slightly_smiling_face:
 
---- 
+---
 > ####  Is this available for every Watch series?
 
 
@@ -1245,7 +1246,7 @@ Every watch that supports watchOS 9 is supported
 |U03JWCQ8ZPY|:
 Thank you :slightly_smiling_face:
 
---- 
+---
 > ####  Is there a limit in what information we want to pass from the watch to the tv, or can we send images, video or sound?
 
 
@@ -1259,7 +1260,7 @@ Thank you so much Eliot :slightly_smiling_face: This session made my day! :party
 |U03HQNWPDBK|:
 Thank you for all the questions!  Its always awesome to see people enthusiastic about the things we build here ^_^
 
---- 
+---
 > ####  Can only one device connect to the TV at one time?
 
 
@@ -1269,7 +1270,7 @@ DeviceDiscoveryUI only supports having one device connected to the Apple TV at a
 |U03JPBUSHLZ|:
 Sorry google search didn’t reveal the docs for some reason. I’ve found them.
 
---- 
+---
 > ####  Is the app icon that shows on the TV something that I can configure as part of the connection? Will it be the same as my iPhone app's icon?
 
 
@@ -1285,7 +1286,7 @@ No worries!  Hopefully they've helped clear up any questions you have, and if yo
 |U03J1T8T77A|:
 All good! Feel free to post on the Forums too after WWDC, if there are any other questions. We're happy to help!
 
---- 
+---
 > ####  Is there a max limit of time for the connection to exists between tv and watch or how is this regulated in case the user forgets to terminate the connection?
 
 
@@ -1295,7 +1296,7 @@ The connection is allowed to exist for long as the application is running on bot
 |U03JWCQ8ZPY|:
 Awesome! Thank you Elliot :slightly_smiling_face:
 
---- 
+---
 > ####  There would be great opportunities with being able to connect multiple users to the Apple TV for my use case. I will submit a Feedback outlining that as a suggestion, but what is the best current best alternative to DeviceDiscoveryUI for implementing something like a multi-person quiz where the main interface is on the Apple TV, and multiple people in the room are submitting their input on their own devices?
 
 
@@ -1307,14 +1308,14 @@ Hey Duncan, we hear you loud and clear! Right now, DeviceDiscoveryUI supports a 
 |U03JWCQ8ZPY|:
 That would be amazing! To have collaborative  sessions between multiple devices with a single Apple TV, it would make the Apple TV a video game console (Make sure you add an amazing GPU in the next versions too :heart:)! And will make the Apple TV more competitive agains the most used ones like Roku and Chrome Cast and Amazon Fire.
 
---- 
+---
 > ####  I watched the "Create a great video playback experience" session and tried to implement the external metadata discussed there to show a video description. The chevron shows up, but when you tap the title the description doesn't show up. Will this be addressed in a future beta?
 
 
 |U03HQNTQQFK|:
 Hey Erick, This is a known issue in the iOS seed 1 builds
 
---- 
+---
 > ####  I'm not sure if this is intended or just a bug in the Developer iOS app, but I was using the Developer app on iOS 16 and there's no full screen button for the videos. Is the new AVPlayerViewController not have a full screen button?
 
 
@@ -1330,7 +1331,7 @@ I love the AVPlayerViewController changes BTW
 |U03HQNTQK33|:
 So glad to hear it! Yeh we think people are really going to love it. The new gestures are :fire:
 
---- 
+---
 > ####  (Re: previous question– my use case would be displaying a grid of /many/ videos at once on-screen on iPhone. I could whip up a prototype that displays a ton of AVPlayer visuals to see how it goes, but …was wondering if there's a more concrete answer here, rather than a "throw stuff at the wall &amp; see what sticks" approach :sweat_smile:)
 
 
@@ -1366,14 +1367,14 @@ Okay, thanks.
 
 (Re users + overwhelming: these videos would be short, simple, looping clips of people’s headshots– if you know of the Harry Potter franchise; imagine the newspapers in their universe, and how they have ‘moving photos’ on them :relaxed:)
 
---- 
+---
 > ####  Does/Can our app get notifications for Visual Intelligence events?
 
 
 |U03HQNTQK33|:
 Hey Jaime, what kinds of visual intelligence events would you be looking for? We’re curious to better understand your use case.
 
---- 
+---
 > ####  Maybe this is a bit out of the scope here, but do you have intentions of supporting video playback from mkv containers? Or have you some tips how to add custom support for such container formats efficiently and with as little work as possible?
 
 

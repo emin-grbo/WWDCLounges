@@ -4,9 +4,10 @@
 #### [emin@github](https://github.com/roblack) / [emin@twitter](https://twitter.com/emin_ui)
 #### [shirblc](https://github.com/shirblc)
 #### [tikimcfee](https://github.com/tikimcfee)
----
 
---- 
+
+
+---
 > ####  Is AccessoryWidgetBackground supported for the system small, medium and large widgets to give them a transparant background?
 
 
@@ -25,7 +26,7 @@ Ok I will make a feedback suggestion then, it would be great if the small, mediu
 |U03HKV0T82Y|:
 Excellent feedback, thank you!
 
---- 
+---
 > ####  Where does the "Extra Large" complication size fit when migrating from ClockKit, since that supports SwiftUI? Does it just scale up the  .accessoryCircular type?
 
 
@@ -35,7 +36,7 @@ Yes it automatically scales up the `.accessoryCircular` family.
 |U03HHHJT28K|:
 There will be more info about the watch specific accessory widgets in the Go further with Complication in WidgetKit talk on Thursday.
 
---- 
+---
 > ####  How to deal with relative dates in the widget, such as counting down the end of a match, does the relative style update the time every second?
 
 
@@ -60,7 +61,7 @@ Thanks!
 |U03HHHJT28K|:
 Same updating applies to the new ProgressView option.
 
---- 
+---
 > ####  To apply a background to a widget, we use an AccessoryWidgetBackground() view inside a ZStack? Also, does it work for accessoryRectangular widgets?
 
 
@@ -76,14 +77,14 @@ Thank you!
 |U03HHHJT28K|:
 If you use it in a `.background` then the size of the view it’s applied to will be the size of the background too. Which can be smaller than the size of the widget.
 
---- 
+---
 > ####  Are widgets able to be made transparent, I know in the past it was not possible to have transparent widgets that were not built in.  I see that lock screen widgets take on transparency but I am not sure about home screen widgets.
 
 
 |U03HHHK57K5|:
 No changes to how home screen widgets are rendered this year.
 
---- 
+---
 > ####  I noticed that users can choose in Settings whether they want widgets to be redacted when the device is locked, similarly to notifications. I looked in my iPhone’s Settings and couldn’t find this option (I guess I just missed it); where is it?
 
 
@@ -102,7 +103,7 @@ That sounds like a bug! Yes, please file a feedback!
 |U03HMBY0SDV|:
 Alright, done! FB10078325
 
---- 
+---
 > ####  Has the update policy for Complications/Widgets changed or is it still a minimum of 15 minutes?
 
 
@@ -118,14 +119,14 @@ You can provide timeline entries at a higher frequency than 15 minutes, but ther
 |U03JELPN197|:
 Thanks :raised_hands:.
 
---- 
+---
 > ####  Does WidgetKit get more refresh quota / frequency / budget on macOS this year?
 
 
 |U03HKV0T82Y|:
 No changes
 
---- 
+---
 > ####  How can we reduce the update frequency for widgets? For example, if we know a widget wouldn't update every 15 minutes, but hourly, or even daily.
 
 
@@ -137,7 +138,7 @@ Great question! You can implement a custom TimelineProvider to control this. You
 |U03JRP87THN|:
 Thank you very much!
 
---- 
+---
 > ####  Is it somehow possible to sync data from an Intent on the iPhone to a Complication on the Watch "on the fly"? If I would add something with an Intent, a new Donut for example, on my Phone, could you then somehow trigger an update of a Counter Complication on the Watch?
 
 
@@ -159,7 +160,7 @@ You can use WatchConnectivity or other data sync frameworks to ensure that both 
 |U03HHJ4LRU2|:
 The WidgetKit framework doesn't provide any utilities to help sync data or entries, though. That'll need to happen as part of your app.
 
---- 
+---
 > ####  Is there a way to change the precision of the Text.DateStyle in Text(Date(), style: .timer) so it doesn't display seconds, for example?
 
 
@@ -169,7 +170,7 @@ There isn't currently a way to do that. Please file a Feedback as it's a great s
 |U03HVDDBP0W|:
 Thanks, will do!
 
---- 
+---
 > ####  How to ensure widget content up-to-date based on data synced from CloudKit or WatchKit in the background?
 
 
@@ -189,7 +190,7 @@ It's typically pretty immediate, unless you've exceeded reload quotas. Please fi
 |U03JELT4UC9|:
 Sure, will do
 
---- 
+---
 > ####  How does a user decide when they want the content on a widget to be redacted? Can this be configured per widget?
 
 
@@ -202,7 +203,7 @@ Applications can also specify settings for your app and then set redaction in co
 |U03HKV0T82Y|:
 see `.privacySensitive`, we mentioned it near the end of the talk
 
---- 
+---
 > ####  Is there a time limit for networking and processing when reloading Widgets / Complications?
 
 
@@ -215,7 +216,7 @@ There's more details on <https://developer.apple.com/documentation/widgetkit/kee
 |U03HKV0T82Y|:
 There is a finite time limit for your extension to give back a timeline, too
 
---- 
+---
 > ####  Hello. Is there any way we could create an analog clock complication/widget using ClockKit/WidgetKit? Does the system allow us to ask for updates every minute?
 
 
@@ -235,21 +236,21 @@ That’s great. Thanks.
 |U03HVF46TEJ|:
 Is there a limit to how many entries we should put in a timeline or a limit on how much processor time we have to return a timeline? In the past, I've tried to return a timeline with per-minute updates but any more than around 100 entries/minutes will fail.
 
---- 
+---
 > ####  Hey all! I'm new to Widgets so apologies if this is simple. Can I create a widget that relies on user location, as well as the new WeatherKit API? I'd like to show some weather data for user's current location
 
 
 |U03HKV0T82Y|:
 Yes, widgets can use location: <https://developer.apple.com/documentation/widgetkit/accessing-location-information-in-widgets>
 
---- 
+---
 > ####  It seems like the Link/.widgetURL rules for the new Accessory widget types follow the same as the existing .systemSmall family, is that correct?
 
 
 |U03HHJ4LRU2|:
 Yes! Accessory widgets don't support embedded tap targets, just like systemSmall
 
---- 
+---
 > ####  Thanks for your previous answer. What options do we have at our disposal to make our widgets look more live? I’ve already been using `.timer` in `Text` . Is it possible to use such feature in any other form? Is using TimelineView allowed in WidgetKit? What is the rate limit of updating widgets using the timeline? How many items could we provide in the widget/complication timeline?
 
 
@@ -260,28 +261,28 @@ Sorry to simply throw you at docs, but this is a great read all about timelines!
 Rates are limited due to power budget.
 As well as `.timer` there’s `.relative` for a different text output
 
---- 
+---
 > ####  Are there _XCWidgetFamily equivalents for the new .accessory widget families, for use while testing out the new widget types?  Right now I find myself having to constantly lock and unlock my phone every time I build&amp;run.
 
 
 |U03HHJ4LRU2|:
 Not at the moment. We're actively tracking this
 
---- 
+---
 > ####  I've been having so much fun playing with lock screen widgets! Is there a way to make the text in `Gauge(...) { ... } currentValueLabel: Text("here") }` shrink if it gets too long? Most of the time my data is 4 digits (i.e. 100W) but it could be longer (i.e. 1,200W) in rare cases. It would for it to shrink if it get's too long!
 
 
 |U03HHHJT28K|:
 Please file a Feedback for this. It’s a great suggestion!
 
---- 
+---
 > ####  If a widget displays EventKit data, are the timelines somehow automatically updated when there's a change in EventKit? If not, how can an app keep the widget up-to-date? Thanks!
 
 
 |U03HHJ4LRU2|:
 Nothing will change automatically, but if you know that your data has changed, you can use `WidgetCenter.shared.reloadTimelines(ofKind: ...)` to reload your widget content.
 
---- 
+---
 > ####  It seems like .widgetAccentable serves a similar role as the clockkit .complicationForeground modifier. Are there situations where you'd need to use both? or if we migrate our complications to widgetkit would we switch over to .widgetaccentable?
 
 
@@ -291,21 +292,21 @@ widgetAccentable is the replacement for complicationForeground, they do the same
 |U03HHJ4LRU2|:
 You should still use .complicationForeground() in ClockKit and .widgetAccentable() in WidgetKit. They serve the same purpose, but there's no guarantee that they won't diverge under the hood.
 
---- 
+---
 > ####  Follow-up question on EventKit. It may happen that a certain event is changed in another app. For instance the user edits an event inside the system Calendar app. I assume there’s no way we can get notified of this change while we’re in the background to update our app’s widget?
 
 
 |U03HHJ4LRU2|:
 There isn't a mechanism for this at the moment, as far as I'm aware. I think something to enable this would be a great enhancement though! Please file a feedback :slightly_smiling_face:
 
---- 
+---
 > ####  Is it possible to tint capacity gauge with a gradient? `Gauge(...).gaugeStyle(.accessoryCircularCapacity).tint(Gradient(...))` It seems to only pick the first color and tint it with just that color. Is that expected or a bug?
 
 
 |U03HHHJT28K|:
 Certain styles only use a single color. Please file a Feedback with your use case if you need to use a gradient.
 
---- 
+---
 > ####  Is it possible to share a widget extension between multiple platforms? I'd like to reuse the same widgets on iOS, macOS, and watchOS.
 
 
@@ -315,7 +316,7 @@ You’ll need separate Xcode targets, but you can share code between them.
 |U03HKV0T82Y|:
 This shows us doing this across iOS &amp; watchOS: <https://developer.apple.com/videos/play/wwdc2022/10050/>
 
---- 
+---
 > ####  Hi, we have an app which currently supports both a watch app with complications and a widget.  If I do nothing and build my app with Xcode 14 will then my watch complication code stop working since my app has a widget extension?  So I need to migrate over to use widget kit for my complication?
 
 
@@ -335,7 +336,7 @@ But basically if I do nothing then my old logic using ClockKit will continue to 
 |U03HHHJT28K|:
 yep!
 
---- 
+---
 > ####  Is it possible to achieve custom date representations, or are you limited to the available style options like .date, .time, and .relative? For example I'd like to show text that reads Due today or Due tomorrow or Due in 4 days or Due next week etc, so custom logic based on today's date in comparison to another date. If not, is it correct the other solution would be to create separate entries at the right times those different formats need to change? Thanks!
 
 
@@ -345,7 +346,7 @@ The auto-updated timer &amp; relative text are handy, but if you have something 
 |U03HKV0T82Y|:
 I think I echoed your “other solution” there :slightly_smiling_face:
 
---- 
+---
 > ####  Are there best practices our guides available (or plan to be soon available) for writing tests for Widgets, either UI tests or unit tests?
 
 
@@ -360,7 +361,7 @@ Yep! What <@U03HAV8SRHC> said!
 |U03HL5H29CL|:
 UI Testing for system components will require use of the XCUIApplication initializer that takes a bundle identifier which you can reference here: <https://developer.apple.com/documentation/xctest/xcuiapplication>
 
---- 
+---
 > ####  I have a widget that shows a value driven by a web socket. Is the best approach for `getTimeline` to open the socket, fetch the value, and return a single entry? Is there a more efficient way to do this?  I know the frequency the web socket will update the value. Can I tell the system to ask me again in x seconds? It's not that important that it's super up to date, but it would be nice to set a minimum interval of a minute or two.
 
 
@@ -384,7 +385,7 @@ I was just reading about the background networking stuff. It seems like I won’
 
 Thanks again!
 
---- 
+---
 > ####  AccessoryWidgetBackground() seems to have the same layout attributes as a regular SwiftUI color (fills whatever space it is given), are there any special layout considerations we should take when using it?
 
 
@@ -394,7 +395,7 @@ Nope, it's very much like a color! I think we'd generally recommend against fill
 |U03HZ5HSU3F|:
 Great, thank you.  It also seems like ContainerRelativeShape() wouldn’t be appropriate in the .accessoryRectangular as the container is rectangular, without a rounded border.
 
---- 
+---
 > ####  Is there some way for a widget extension to ask for data from the host application?  We have an api client in our normal iOS app which has accessToken logic. So it knows if it is authenticated and it can refresh the token.  Now I want my widget extension to be able to also fetch new data when it gets reloaded. What is the common approach here?  Do I need a separate api client for the widget extension with its own separate token? Or do you recommend to use the same token and share it.  Or can the widget request data from the iOS app directly?  Thanks
 
 
@@ -417,7 +418,7 @@ Either make a push notification to iOS app when the state changes and have it up
 
 Or have the widget update itself regularly and then build some api client into it.
 
---- 
+---
 > ####  Before I download the beta… is there an option to revert to iOS 15-and-earlier style lock screens that take up the entire view?  Some of us don’t put people on the lock screens, but landscapes or architecture, and we don’t mind notifications taking up the whole view.  In some countries, particularly where Islam is the dominant religion, putting someone’s face on the phone would be grounds for chastisement or arrest, so they're not going to find this new view terribly useful.
 
 
@@ -453,7 +454,7 @@ List should give you the notification behavior you are looking for.
 |U03JHQ4K125|:
 They will still stack from the bottom in List (which seems to be behaving a bit weirdly, but it's only Beta 1, so I'll file feedbacks :slightly_smiling_face: ), but to be honest I find it way easier to reach them that way
 
---- 
+---
 > ####  If we send a push notification to our iOS app whenever important state changes, and the iOS app then call widgetkit to update our widget, does this update call then decrease our widgets update budget?  Our does it stay unaffected since the iOS app called the update function?
 
 
@@ -461,14 +462,14 @@ They will still stack from the bottom in List (which seems to be behaving a bit 
 I believe your budget is not affected by recent notifications. If you feel it should be, please provide feedback.
 If your app is in the foreground then you’ll get reloads that are not subject to the budget.
 
---- 
+---
 > ####  I didn't see any specific guidance in the new HIG for the .accessory type widgets, should we mirror the guidance shown in the Complications area for the equivalent Rectangular/Circular/Inline types...or will there be a subsequent update to the HIG with guidance for these new widget types?
 
 
 |U03HHJ4LRU2|:
 Yes! You should follow the HIG for Complications with these accessory widgets as well. They have the same intent. Keep an eye out for updates to the HIG in the future
 
---- 
+---
 > ####  In my iOS home screen (&amp; now lock screen!) widget code, I've been trying to exchange data with other users that have my app, by listening/scanning via Core Bluetooth, then sending characteristics back &amp; forth.  I'm wondering: how can I ensure that other iPhones that have my app installed, show up in this scan, even if the app isn't in the foreground on those devices? How can I schedule these "periphery" apps to also awaken, advertise they are my app users &amp; exchange data, all while the apps are either backgrounded or just using scheduled widget runtime? (imagine all the app users have their iPhones on, in their purse, and all my code has is widget scheduled runtime to exchange data)
 
 
@@ -478,14 +479,14 @@ Doing this in your extension seems like a bad idea – your extension could be r
 |U03HKV0T82Y|:
 A good resource would be to request an appointment in the Developer Technical Support Open Hours lab. They offer two chances a day (9-11am, 2-4pm)
 
---- 
+---
 > ####  Hi, when my widget updates after a new timeline event triggered, is it then possible to trigger a local notification which would trigger code in my host iOS app to run?  Maybe so that I could have the iOS host app record some analytics or something.
 
 
 |U03HHJ4LRU2|:
 No, but you can write your analytics to disk in a shared container with your app, and have your app read that and report it when it runs
 
---- 
+---
 > ####  how many different small widgets can we support on the lock screen, and what is the max number of widgets allowed? can users also create multiple widgets like they do now?
 
 
@@ -501,7 +502,7 @@ is there a limit we are allowed to provide like how we can only have 5 different
 |U03HKV0T82Y|:
 Your app can provide many many widget kinds!
 
---- 
+---
 > ####  Is it safe to explicitly write the init method of a TimelineProvider and place code in there? Or would you advise against this? The reason for that is to make sure that the code is called at least once before a TimelineProvider life cycle method. The alternative would be to call this code in all three life cycle methods.
 
 
@@ -529,14 +530,14 @@ Maybe it could become an issue if in future releases the TimelineProvider implem
 |U03HHJ4LRU2|:
 I think getSnapshot and getTimeline would be the right place to do those - don't assume a guaranteed order between them though, you'd want to check in both methods. In general, avoid work specific to providing views in your `init`  and wait for those methods to be called instead. Your TimelineProvider may be created much more often then it's actually asked for views and entries.
 
---- 
+---
 > ####  The .accessoryInline family appears to always override whatever font/size values have been applied to the Text elements it contains.  Are there any ways to customize the appearance of these elements?
 
 
 |U03HHHJT28K|:
 The `Inline` family is designed to match the look and feel of the system.
 
---- 
+---
 > ####  What is the best way to provide an async timeline? For instance, when fetching locations, I pass the completion block to the success methods of location manager. Is this a good practice?
 
 
@@ -552,7 +553,7 @@ I don’t remember the exact error message correctly; but on macOS, I sometimes 
 |U03HHJ4LRU2|:
 Hm, strange. It could be that the framework providing you data has differences in behavior between the platforms. If this really seems erroneous, please file a feedback!
 
---- 
+---
 > ####  For analytics purpose is there a way from the main app I can know the user have widget installed? or I have to write something in the share container and read it?
 
 
@@ -565,7 +566,7 @@ I thought this API just return all the available widget types, not the one being
 |U03HKV0T82Y|:
 It gives a list of user-configured widgets
 
---- 
+---
 > ####  Do I understand correctly the widget only ever is running executing code when it's getting new timeline entries? I'm wondering in the context of CloudKit + Core Data sync, which does occur in the widget, I'm trying to determine when that can happen. For example, if I schedule a week's worth of entries, it won't be run again (and thus won't sync) until it needs to get more entries right?
 
 
@@ -581,7 +582,7 @@ Thanks!!
 |U03HKV0T82Y|:
 An extension is a teeny tiny part of your app that we can quickly load up and get info from, without having to launch your entire app to get the data. The whole idea is to avoid loading &amp; running as much as possible, to save battery. So yeah, we’ll only spool up your extension when absolutely necessary!
 
---- 
+---
 > ####  Thinking about a home audio setup. Is there any option that would allow me to reload my widget more often (songs can change every 3min) or reload the widget, when the Homescreen is shown to the user?
 
 
@@ -594,7 +595,7 @@ This link has some more in depth info on how this all works: <https://developer.
 |U03HZ3WBQBX|:
 Thanks for the feedback. That is some good information and I hope I can use that :slightly_smiling_face:
 
---- 
+---
 > ####  [Follow-up] What is your recommended approach for CoreData migrations when CoreData is used in the main app and shared with the widget via app groups. Where would you recommend to handle the migration check? Because before each access to CoreData it has to be checked if a migration is available and if so, the migration has to be performed. In my understanding it can happen after an app update with a new CoreData model that the widget accesses CoreData before the app has been launched.
 
 
@@ -603,7 +604,7 @@ You’re right that the extension could be called before the app is, after an ap
 So yes your CoreData layer would have to be prepared to migrate whether called from your extension or app
 An alternative would be for the app to write out a simplified version of the data to JSON (say) for the widget extension to render from
 
---- 
+---
 > ####  Do we need to request Always Authorization to get the location in WidgetKit on watchOS? Scenario is when we have to provide the timeline we need to fetch the current location.
 
 
@@ -616,7 +617,7 @@ Ah ok then WhenInUse might work just fine (which we use for iOS Widgets)
 |U03HHJ4LRU2|:
 The widget gets "In Use" authorization when it's on the active watch face
 
---- 
+---
 > ####  Can Combine be used to handle the asynchronous tasks for getSnapshot or getTimeline? I am asking because Combine needs to store a reference to the AnyCancellable and I think this is not possible because the TimelineProvider struct is a value type (so it cannot have a mutable property).
 
 
@@ -638,7 +639,7 @@ Maybe it does even make more sense to use a class then. Because if the same inst
 |U03J7BAGWFJ|:
 Well do keep in mind the configurations of the Intent across calls could also be different, so keep that into consideration as well.
 
---- 
+---
 > ####  For users with multiple widgets of the same app installed, can the app developer somehow do the work of reading widget data from disk once and use it to generate all timelines for all widgets at once?  Or maybe, could the widget extension be notified that it's about to start generating timelines and when it has ended, so we can prepare this info for all widget timeline generation within that time frame?  Thanks!
 
 
@@ -660,7 +661,7 @@ The problem is, closing the transaction is the thing that is required to happen 
 |U03HHJ4LRU2|:
 Hm, I see. I'm not sure that I have enough context on SQLite to be very helpful. I'd suggest maybe reading all the data you need in to memory upfront and closing your transaction afterward, but that could also be costly depending on the amount of data.
 
---- 
+---
 > ####  What is the memory limit for the Widget Extension? Can we embed crypto frameworks? What could be the best approach to ensure security when we need to decrypt content before displaying it inside a Widget?
 
 
@@ -676,7 +677,7 @@ The Widget views are created and stored by the system before the widget is displ
 |U03HHHJT28K|:
 You can specify the Data Protection Class using an entitlement. <https://developer.apple.com/documentation/bundleresources/entitlements/com_apple_developer_default-data-protection>
 
---- 
+---
 > ####  On the iOS Lock Screen, is the Inline widget supposed to be configurable? If not, what data do they use?
 
 
@@ -698,7 +699,7 @@ If you’re in the editor, you can long press if you hold near the center of the
 |U03HVF46TEJ|:
 :+1: 
 
---- 
+---
 > ####  Hi there! Really loving the new lock screen widgets.  How can I preview them on the lock screen using Xcode previews?  I can change the family to one of the lock screen ones via .previewContext(WidgetPreviewContext(family: .familyHere)), but I didn't find anything on how to make it appear on the lock screen like in the preview that appears in Complications and widgets: Reloaded.
 
 
@@ -714,7 +715,7 @@ If I may add, don't worry if the small widget looks a bit too big and ends up cr
 |U03JRP87THN|:
 Ok, thanks!
 
---- 
+---
 > ####  Am I correct in understanding that `.widgetAccentable()` is limited to single concrete `View`s whose `body` return type is also always a concrete view? No `Group`s, no stacks, `ViewBuilder`s, etc.? On a instance of a`View` whose root is a `ZStack` I’m getting `Value of type 'ExampleView' has no member 'widgetAccentable'` and I think I’ve also seen `Value of type 'some View' has no...`
 
 
@@ -727,7 +728,7 @@ Make sure you import WidgetKit in to the file as well, this modifier doesn't liv
 |U03KC4368BS|:
 Ooh, not importing WidgetKit might have been it. It's good to know what it's intended to work on. Thanks!
 
---- 
+---
 > ####  Are there any plans to document the size of the widgets on the Lock Screen in the HIG? The sizes of the Home Screen widgets are documented but the Lock Screen widgets are missing. Also, any chance you can share the sizes of the Lock Screen widgets with me?
 
 
@@ -737,7 +738,7 @@ Keep an eye out for updates to the HIG regarding widgets in the future.
 |U03HZ4EJJ05|:
 Will do! Thanks for your reply.
 
---- 
+---
 > ####  Can the new widget families that support the Lock Screen be tested in a simulator or with SwiftUI previews, or do they require a physical device?
 
 
@@ -750,21 +751,21 @@ And as for Previews, we just answered that a couple minutes ago here <https://ww
 |U03J20E7UBV|:
 Thank you, <@U03HHHJT28K>!  I just saw that other question, too, lol.  Thank you!
 
---- 
+---
 > ####  Is it possible to support lock screen widgets both on iOS and WatchOS but without having a proper WatchOS app, while just providing WatchOS users those widgets?  Sorry if that question was covered, couldn't find it.
 
 
 |U03HHHJT28K|:
 For Widgets on watchOS you will need to embed the extension into a watch app
 
---- 
+---
 > ####  Is there a way to use `.widgetAccentable()` on say, a particular element of a Chart? I’ve not gotten super deep into it yet, but I haven’t found a way to actually access the `View`s it generates from all of the marks and such we give it.
 
 
 |U03HHJ4LRU2|:
 If you can't access the Views, then I don't believe there's a way to accomplish this. Please file a feedback!
 
---- 
+---
 > ####  Is this a bug? Whenever I run a widget extension without supporting any home screen widget families, a .systemSmall widget briefly appears on the home screen (or sometimes persists). I filed a feedback (FB10118823) but wasn't sure if this is a bug. Video here: <https://twitter.com/samrshi/status/1534723216136192000?s=20&amp;t=hk1CCfdOQbMpfoJl9MFxPQ|https://twitter.com/samrshi/status/1534723216136192000?s=20&amp;t=hk1CCfdOQbMpfoJl9MFxPQ>
 
 
@@ -776,7 +777,7 @@ Perfect. Thanks!! I haven’t verified on a physical device, but for some extra 
 • Xcode-beta Version 14.0 beta (14A5228q)
 • iPhone 13 Simulator Version 14.0 (982)
 
---- 
+---
 > ####  Is there a maximum (or recommended max) size for a timeline, or is it more of a time limit for timeline generation?   I have a widget I update every minute, so I could in theory make a timeline with thousands of entries. In practice, I am only able to *reliably* make a timeline with around 150-200 entries. Is that an actual limit somewhere? I know there’s a limit on how long we can take generating a timeline, but for a simple widget the difference between 200 entries and 500 is negligible. Maybe it’s memory?   (Fun bonus complication: I have to limit my Mac widget to 100 entries because it seems to fail or “get stuck” way more often — does macOS actually have lower limits for widget timeline generation? Or maybe the process is way more throttled and thus more likely to time out?)
 
 
@@ -794,7 +795,7 @@ Thanks. Is there a way to tell what limit(s) I'm hitting? In the debugger, remot
 |U03J7BAGWFJ|:
 We dedupe images where possible for efficiency.  There are scenarios where we do and where we don’t.  As long as you’re referencing the same image, I would expect things to behave as you’d expect.
 
---- 
+---
 > ####  What's the advisable/best-practice approach to passing data (immediately on call) from the main iOS app to home-screen or lock-screen widget, for immediate display/reflection?  What's the best way to access the same (large, added by folder reference rather than asset catalog) folder of images without "Copy Bundle Resources" in Xcode project Build Phases? It's added as a blue folder to main app, but paths to those images don't locate the image by the same NSBundle NSURL from Widget extension code.)
 
 
@@ -808,7 +809,7 @@ For the shared image folder, if I’m building the directory path to an image fi
 |U03HKV0T82Y|:
 I think you can specify the bundle UIImage(named: inBundle:). Or you could have a shared framework that contains the assets. Or maybe you need NSFileManager’s containerURLForSecurityApplicationGroupIdentifier: ?
 
---- 
+---
 > ####  Some of the built-in Lock Screen widgets are extremely low contrast and hard to read. Is that something likely to be tweaked in upcoming betas?  Regardless — are the opacity values we use in our widgets affecting the final appearance or does the system take full control? Is 100% opacity possible with these “vibrant” appearances? 
 
 
@@ -832,7 +833,7 @@ And for the record: it would be super useful if Color.secondary resolved to some
 |U03HHJ4LRU2|:
 That does sound like a great idea :slightly_smiling_face: If you could file a feedback for that and send me the number, that'd be greatly appreciated!
 
---- 
+---
 > ####  Widgets sometimes fail to update — they get “stuck” on an old value, they turn black, etc. Common non-crash causes (that I know of) include timeouts and using too much memory. What’s the best way to catch and log these problems? Are they logged as crashes or performance issues to App Store Connect? Are they on my device in the Console or logs?
 
 
@@ -846,7 +847,7 @@ Be aware that images are newly restricted in size now – to about the same dime
 |U03HKV0T82Y|:
 the 16 beta
 
---- 
+---
 > ####  Is there a way to request that a widget's timeline only be updated when the device is unlocked, without also redacting the widget contents when the device is locked?  Here's a feedback about this: FB10163412
 
 
@@ -862,7 +863,7 @@ It's an issue for any app that wants to incorporate a HealthKit query into a tim
 |U03JJ2ZPFTK|:
 I'm not 100% sure, but wouldn't this also be an issue if you set data protection on your shared container and need to read a file out it?
 
---- 
+---
 > ####  This question overlaps expertise with Core Data + CloudKit but do you have any general recommendations for implementing a widget that displays data that the app syncs? Eg, access it in a shared app group or write separate file to the app group from the app, and how to ensure it stays up-to-date? Thanks!
 
 
@@ -881,7 +882,7 @@ Sorry I maybe should have been more precise in noting I’m using Core Data + Cl
 |U03HKV0T82Y|:
 Cool, good to go!
 
---- 
+---
 > ####  Sometimes widgets seem to get ‘stuck’. They no longer update but seem to show an old cached version. Do you know of any common reasons this may happen?
 
 
@@ -891,7 +892,7 @@ This can be a few things. Maybe your extension is crashing. But often it’s bec
 |U03HZ4EJJ05|:
 Thanks for your reply!
 
---- 
+---
 > ####  Is WidgetCenter.shared.reloadTimelines rate limited on our behalf, or would triggering that 10x in 1 second (just an example lol) cause it to attempt getTimeline 10x? Do I need to be super careful about how often this can get called in a short amount of time (for example in response to database changes) or does it work similar to `UIView.setNeedsLayout` which will only result in one execution after a bit of a delay?
 
 
@@ -902,14 +903,14 @@ If you flood the system with a bunch in a short duration, you may exhaust your a
 
 I’d encourage coalescing as much as possible before sending a WidgetCenter.shared.reloadTimelines call - especially around a batch of database changes.
 
---- 
+---
 > ####  I've mentioned that after deleting widget from the home screen and calling `WidgetCenter.shared.getCurrentConfigurations` in the opened app sometimes may return the list which includes previously deleted widget.  Rebooting the app should helps, but it doesn't allow us to properly track how many users have our widgets installed.  Is that behavior intentional?
 
 
 |U03HKV0T82Y|:
 That sounds like a bug – please file some Feedback!
 
---- 
+---
 > ####  Re: reloadTimelines budgeting, calling reload while my app is in the foreground doesn’t count against the budget, correct? So what counts as foreground? If I call reload in willResignActive is that foreground? What about calling it in didEnterBackground?
 
 

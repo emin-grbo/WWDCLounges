@@ -4,23 +4,24 @@
 #### [emin@github](https://github.com/roblack) / [emin@twitter](https://twitter.com/emin_ui)
 #### [shirblc](https://github.com/shirblc)
 #### [tikimcfee](https://github.com/tikimcfee)
----
 
---- 
+
+
+---
 > ####  There's a mention about source ID that "Advertisers can configure this," whether now it's the responsibility of Ad Networks or is it going to become advertisers' responsibility?
 
 
 |U03JFDN0D88|:
 This would be the responsibility of the ad network when they serve the ads.
 
---- 
+---
 > ####  There's a mention of low/mid/high privacy threshold in the session earlier today. Could you share the definition of those threshold?
 
 
 |U03JFDN0D88|:
 Sorry, we are unable to share these definitions.
 
---- 
+---
 > ####  In my game, I buy points with in-app purchase and spend the purchased points to get something. For accounting purposes, sales are generated when points are consumed, not when points are purchased, but there is no amount information on the receipt. How do people who are developing apps with similar mechanisms get paid? Do you remember the amount when you buy points? If you use the method of getting item information from the store, the amount at the time of purchase may be different.
 
 
@@ -53,7 +54,7 @@ I understand. Thank you.
 |U03J22N3FM0|:
 Thank you.
 
---- 
+---
 > ####  It was mentioned that the 1st postback wouldn't have any source ID in it. Does it mean we won't have any campaign-level data until the 2nd postback?
 
 
@@ -81,7 +82,7 @@ Thanks a lot for the clarifications!
 |U03JFDN0D88|:
 Of course, happy to help! :slightly_smiling_face:
 
---- 
+---
 > ####  I have an app+iMessage extension that's currently iOS 12+ and am considering bumping it to much later (15+) but worried about proportion of people still on 14.  If I keep iOS12/13/14 supported, can I have StoreKit1 &amp; 2 in same app? I would like to avoid having to build receipt validation just for legacy customers, in my new store.
 
 
@@ -101,7 +102,7 @@ Or is that all on me to write?
 |U03J49L9DG9|:
 it should be automatic, StoreKit 2 will attempt to get all of the transaction history when your app opens without needing to do a restore or have the user authenticate. you should be able to just use the StoreKit 2 history APIs pretty much right away
 
---- 
+---
 > ####  I have 4 auto-renewable subscriptions: "Basic 1 Month", "Basic 1 Year", "Advanced 1 Month" and "Advanced 1 Year". "Basic 1 Month" and "Basic 1 Year" offer the same functionalities but with different duration, and the same goes to "Advanced 1 Month" and "Advanced 1 Year".   Should "Basic 1 Month" and "Basic 1 Year" belong to the same subscription level?
 
 
@@ -111,7 +112,7 @@ Yes, subscriptions of different durations with the same level of service should 
 |U03JRPEC4AU|:
 Thank you!
 
---- 
+---
 > ####  Hi. I have a free app, which is gaining users for now. Later, at some point in time, I am planning to make it subscription based only. I never touched StoreKit or In-App Purchases APIs before. In this ocean of API options, which path I should focus on my attention to make the job done. And is this transition is allowed?Thx.
 
 
@@ -129,7 +130,7 @@ You can learn more about `AppTransaction` here: <https://developer.apple.com/doc
 |U03J49LAG3B|:
 no problem :slightly_smiling_face:
 
---- 
+---
 > ####  Are there any new localizations planned in the App Store Connect?
 
 
@@ -140,7 +141,7 @@ We are unable to provide information about future plans, however if there is a l
 You can file feedback at:
 <http://feedbackassistant.apple.com>
 
---- 
+---
 > ####  In our app we have single IAP subscription group with introductory offer (free trial). We see an uptick in people complaining they are charged right away. We suspect it has something to do with family sharing we have enabled just recently.   Two related questions: 1) If one member of the family receives introductory offer, can another member of the family receive one or will he be charged right away? In other words - is it tracked per family or per user basis. 2) If it's one introductory offer per family - there is code tutorial that suggest to parse all transactions in receipt to verify if user has previously used introductory offer. Will family members see transactions done by other members of the family?
 
 
@@ -181,7 +182,7 @@ and no worries!
 |U03JL18FUHH|:
 Thank you for the answer!
 
---- 
+---
 > ####  Hi there! Do you have any tips on submitting apps to the App Store?
 
 
@@ -206,14 +207,14 @@ Thank you very much! Really appreciate it.
 |U03HJ8HUYQJ|:
 Sure :smile:
 
---- 
+---
 > ####  For the new web-to-app SKAN support, does  the `href` value need to go DIRECTLY to app store, or are redirects permitted?
 
 
 |U03JFDN0D88|:
 Hello Alexander, the href value has to go directly to the app store page for the app being advertised.
 
---- 
+---
 > ####  Regarding App Store Guidelines 5.4 VPN Apps: Is there more documentation or resources regarding the rule "VPN apps must not violate local laws"? As restrictions in some territories are not straight forward, it would be useful to have more detailed guidelines on the subject. Thanks!
 
 
@@ -229,7 +230,7 @@ There is an App Review Lab tomorrow:
 |U03K0TC1KME|:
 Understood, thanks for the info!
 
---- 
+---
 > ####   4.2.3: Deleted requirement to include sufficient content in the binary for the app to function at launch.  Are I no longer rejected for this reason, thinking that the regulations have been relaxed?
 
 
@@ -248,14 +249,14 @@ There is an App Review Lab tomorrow:
 |U03J22N3FM0|:
 Thank you.
 
---- 
+---
 > ####  Now that SKAdNetwork 4.0 supports three Crowd Anonymity levels, is the new 'high' level equivalent to the prior, single threshold in earlier SKAN versions (meaning the new 'mid' level is additional), or do the three levels in 4.0 not correspond directly to prior versions?
 
 
 |U03JFDN0D88|:
 Hello Alexander, the levels in 4.0 do not correspond directly to prior versions and are designed around supporting the new models in 4.0.
 
---- 
+---
 > ####  Hi all! I use offer codes in my iOS app to unlock all content, across Apple devices. Currently, I'm working on a watchOS version of the app, but it looks like offer codes remain unsupported on watchOS, so theoretically users with only the Apple Watch cannot redeem my offer codes. What is the recommended flow for this use case?
 
 
@@ -275,7 +276,7 @@ thank you <@U03HRLNQ5JN>, will do! :pray:
 |U03JMMN8659|:
 Submitted at FB10124699 :+1:
 
---- 
+---
 > ####  I have a pay up front watchOS app. I want to change it to be free with a subset of capabilities, with an IAP for all the features.   What documentation/videos  should I look at to make this conversion? For my existing users, how can I ensure they will not have to pay the IAP? I want them to keep their full app and not have to repurchase it. Thanks!
 
 
@@ -294,7 +295,7 @@ That's great! Thank you so much! :relaxed:
 |U03HB36192B|:
 no problem! :slightly_smiling_face:
 
---- 
+---
 > ####  Can a SKAD ad actually have more than one fidelity ? Apple developer documentation suggests that ad networks have to choose one option of either 1. “StoreKit-Rendered Ads - App Store product page, rendered by StoreKit” 2. “View-Through Ads - Custom, provided by ad network” Providing those rendering options works quite differently on the device, so I’m not sure they could happen simultaneously for the same ad impression. I'm referring to this document: <https://developer.apple.com/documentation/storekit/skadnetwork/signing_and_providing_ads|https://developer.apple.com/documentation/storekit/skadnetwork/signing_and_providing_ads>  This question came up when reviewing oRTB spec, which defines fidelities as an array: "SKAdNetwork API starting from version 2.2 supports multiple ad presentation options specified by the fidelity-type parameter of the SKAdNetwork signature. This holds parameters used to generate the signature that would be different for each fidelity type supported."  <https://developers.google.com/authorized-buyers/rtb/openrtb-guide?hl=en|https://developers.google.com/authorized-buyers/rtb/openrtb-guide?hl=en>
 
 
@@ -307,7 +308,7 @@ Fidelity is very much a singular value and not considered an array.
 |U03JFDN0D88|:
 I believe that in the link posted above to the google documentation, when they say "array" they are referring to the array of parameters that compose the signature and not the fidelity specifically
 
---- 
+---
 > ####  Does Apple have a supported mechanism for re-signing already archived and signed Ad Hoc IPA apps?  For example, if we archive an (ad hoc) IPA, can it be re-signed by someone else if they have an Enterprise Distribution Certificate?
 
 
@@ -323,7 +324,7 @@ sorry, there was one on Tuesday which closed signup on Monday, but you should ha
 |U03J49L9DG9|:
 i didn't see a Digital Lounge for that team. you might try the Xcode Lounge, or just file a Feedback
 
---- 
+---
 > ####  Can you share some tips or guides on StoreKit testing on the simulator? Not just iPhone, but also Apple Watch and other devices. I would like to have a subscription to unlock all content across Apple devices.
 
 
@@ -342,7 +343,7 @@ Tomorrow, we’ll have a new session with some advanced instructions: <https://d
 |U03JMMN8659|:
 Amazing, thank you! :pray:
 
---- 
+---
 > ####  The App Store Review Guidelines say that for physical goods, you must use a payment method other than In-App Purchases.  I would like to include an in-app currency in my highest subscription tier for credits to redeem physical branded merchandise.  Is that allowable to group it with the other in-app purchases?
 
 
@@ -352,14 +353,14 @@ Please refer to an App Review Lounge or Lab for all App Store Guidelines and Rev
 |U03J49L9DG9|:
 it's a very reasonable question, and I'd hate to give you the wrong answer, since we are not the team that does the reviewing :slightly_smiling_face:
 
---- 
+---
 > ####  Will SKAd Network privacy thresholds be the same across Source ID (2-3-4 digits) and Conversion Value (null/coarse/fine)? E.g., does it mean that in postback, it always will be either 2 digits of Source ID and null CV/3 digits of Source ID and coarse CV/4 digits of Source ID and fine CV? Or are the different combinations also possible?
 
 
 |U03JFDN0D88|:
 Hello Petr, sorry but we are unable to provide specific information about the SKAdNetwork privacy thresholds at present.
 
---- 
+---
 > ####  Currently I have a paid up front app. I'm building a new version of it with a different bundle ID as a subscription app. Is it possible to give existing users who purchased the old app (with the old bundle ID) a free year subscription to the new, version of my app? I'd like to reward existing customers, but it's not their fault the app will be essentially a brand new app. But after the free year I'd like them to be charged the regular subscription rate.
 
 
@@ -379,7 +380,7 @@ Yes, you can use one-time offer code, they are unique and redeemed only once. Pl
 |U03JH7N0KSS|:
 Here is also one more article  <@U03JENQA0TB> <https://developer.apple.com/documentation/storekit/supporting_business_model_changes_by_using_the_app_transaction>
 
---- 
+---
 > ####  Is there expected to be some logic for SKAd Network postback deduplication? User-story behind that is to be able to calculate the overall count of installs no matter how many conversions it was for each of them (one, two or three)
 
 
@@ -440,7 +441,7 @@ Got it! Sounds perfect, thanks a lot!
 |U03JFDN0D88|:
 Of course!
 
---- 
+---
 > ####  I have implemented StoreKit2 in my new app - and I based my implementation largely upon the sample code from WWDC21-10114 “Meet StoreKit2”.    My use case is simpler than the sample code - I have no nonConsumables nor consumables - just autoRenewables.  And honestly, all I want to know is “which productID is the user currently subscribed to.”    Maybe I’m just confused, but there seems to be A LOT of information retrieved in the sample code, but none of it is easily used to answer my question.  I can tell if the user EVER purchased my subscription (but that’s not terribly helpful - it’s like my wife asking me if I’m subscribed to Sports Illustrated - and I reply by saying YES - but in fact that was 20 years ago when I was in college.)  I can tell if the user is ENTITLED to my subscription (but that’s not helpful either - because it lists ALL of the subscriptions within the group and doesn’t single out the one which I’m ACTUALLY paying for in the moment.)  OK, so bottom line I’m just begging for a simple answer to a simple question:  which product ID is my user currently paying for.  Bonus points for also telling me when that subscription expires, and whether or not they’re in a billing retry or grace period.  Maybe the info is in there somewhere, but I’m all over the map with Transactions, RenewalInfo, and it’s ALLLL confused because I’m using Sandbox Testers (my app hasn’t been approved for distribution yet.)  Any help???
 
 
@@ -502,7 +503,7 @@ I wanted to add:
 
 If you file a bug this week via Feedback Assistant, could you please post the number here? We can take a look.
 
---- 
+---
 > ####  The next version of my app will be bundled to include the Mac and iOS apps for the same subscription price. Some customers have a PC and want the iOS version of my app, but not the Mac version. Can I offer a separate subscription just for the iOS version at say a cheaper price than the bundled version?
 
 
@@ -530,28 +531,28 @@ Yes, assuming you rank your subscriptions logically, that would be an Upgrade:
 |U03HRLNQ5JN|:
 Sure thing!
 
---- 
+---
 > ####  For all the SKAd Network postbacks (conversions), is the same 24-48h delay that exists in SKAd Network going to be used? E.g., does it mean that the earliest time to receive 2nd one is 72h after the installation?
 
 
 |U03JFDN0D88|:
 Hello Petr, sorry but we are unable to comment on this at present.
 
---- 
+---
 > ####  For the conversion postback, is the same 24-48h delay going to be applied as in previous SKAD version? E.g., does it mean that the earliest time to receive 2nd one is 72h after the installation?
 
 
 |U03JFDN0D88|:
 Hello Hechen, sorry but we are unable to comment on this at present.
 
---- 
+---
 > ####  Can two members of the same family use an introductory offer for single family-sharable subscription IAP?
 
 
 |U03J49S9XHP|:
 Hello! We answered this follow-up question here: <https://wwdc22.slack.com/archives/C03H49L2CA1/p1654722703254589?thread_ts=1654720278.663449&amp;cid=C03H49L2CA1>
 
---- 
+---
 > ####  I have auto-renewable subscriptions with introductory offers:  1. Basic - 1 week free 2. Advanced - 1 month free Let's say a user starts subscribing to "Basic" and gets a 1-week trial period. During the trial period, if the user decides to upgrade to "Advanced", it seems that the "Advanced" subscription is only applied when the 1-week free trial ends. I want to offer the "Advanced" features immediately, but it looks like StoreKit 2 does not recognize this. Am I missing something?
 
 
@@ -561,7 +562,7 @@ Make sure your basic and advanced subscriptions are in the same subscription gro
 |U03JRPEC4AU|:
 OK thank you!
 
---- 
+---
 > ####  I’m going through App Submission for the 1st time - and I’ve got some confusion regarding how to associate my 4 in-app autoRenewable subscriptions to my app.  The AppStoreConnect page states that my 1st subscription must be submitted with a new app version, and then once the binary &amp; 1st subscription has been submitted, only then can additional subscriptions be submitted.   I got a rejection from AppReview because only 1 of my 4 subscriptions have been submitted.  So, is it true then that I have to submit the binary first, and then all 4 of my subscription IAPs immediately thereafter?
 
 
@@ -584,7 +585,7 @@ Hey James. If you make any edit to your subscription and click save, the subscri
 |U03J201SFAP|:
 Hey - THAT WORKED!!!  :smiley:  I just had to add a space character to the end of the English localization description.  Thanks, Shannon!
 
---- 
+---
 > ####  Suggestion: please create a feedback report category for the AppStore automated app reviews.  After a recent lab I was requested to fill a feedback for one of the issues I've faced recently, but I can't find the right category. Thanks
 
 
@@ -613,14 +614,14 @@ If you put “AppStore automated app reviews” into the text of Feedback Assist
 |U03JER2C7MX|:
 Thanks Chris
 
---- 
+---
 > ####  There was a mention in a session earlier today that SKAd Network Conversion values can both increase and decrease. It seems to be a breaking change from the current logic where it could only increase. So just wanted to confirm, is that correct or have I misunderstood it?
 
 
 |U03JFDN0D88|:
 Hello Petr, yes, in SKAdNetwork 4.0 conversion values can increase AND decrease. This is different from earlier versions where they could only increase.
 
---- 
+---
 > ####  Could you please elaborate a bit on the logic of sending multiple postbacks? E.g., if the update conversion API will be called only once in the first 2 days, is it correct to expect only 1st postback? As an extreme example, if API will be called every hour, is it correct to expect all 3 postbacks somewhere after the end of respective periods (2nd day, 7th day, 35th day)? If will be called somewhere after the install and then only after 7+ days, so missing the timeframe for the 2nd postback, but matching for the 1st and 3rd ones, what would be sent? Only the 1st, or all 3 of them?
 
 
@@ -664,7 +665,7 @@ So is it correct that all the conversion windows (0-2 days, 3-7 days, and 8-35 d
 |U03JFDN0D88|:
 That is correct.
 
---- 
+---
 > ####  This is sort of an App Store question, so I understand if you refer me elsewhere, but: we are discussing what’s the best way to create a trial version of a non-subscription macOS app. Are there some guidelines around this? Is this covered in the new HIG?
 
 
@@ -677,7 +678,7 @@ Susannah, you can also request an appointment with the App Store team tomorrow f
 |U03HVD4HFRU|:
 Thanks!  Will convey this back to my team.
 
---- 
+---
 > ####  In WWDC 21 sample application from "Meet StoreKit2", I noticed that SubscriptionsView.swift is not checking for revocationDate in updateSubscriptionStatus() while Store.swift does in isPurchased() and other methods. Is this correct?
 
 
@@ -692,7 +693,7 @@ I see! Thank you!
 |U03HB36192B|:
 no problem! :smile:
 
---- 
+---
 > ####  Any solutions to combat SKAdNetwork fraud from ad networks where they report a lot of view-through ads that never really happened / not shown to the user?
 
 
@@ -714,7 +715,7 @@ This is an area we are aware of. We cannot comment further on this at present.
 |U03JTHGQNL9|:
 :thumbsup::thumbsup:
 
---- 
+---
 > ####  In the past, SKAdNetwork's timers could technically be extended as long as you kept updating the conversion value. With SKAN v4 - is there a clear cutoff between 0-2, 3-7, etc?  (Or could you somehow make your first postback be sent after 4-5 days?)  I assume there has to be some cutoff, otherwise the logic setting the conversion logic (in our case Singular as the MMP) wouldn't be able to know which postback "we're on"
 
 
@@ -738,7 +739,7 @@ Thanks <@U03JFDN0D88> -- from all of us here at Singular, and I'm sure many othe
 |U03JFDN0D88|:
 Thank you very much Eran! and thanks for coming on this journey with us :slightly_smiling_face:
 
---- 
+---
 > ####  Is the App Store Connect API now available for Enterprise Developer Accounts? Ability to generate API keys for Enterprise accounts is highly desirable to be able to manage users and generate provisioning profiles.
 
 
@@ -748,7 +749,7 @@ App Store Connect API is not available for Enterprise Developer Accounts at the 
 |U03JELLKVED|:
 Thank you- FB9098638 has been filed for this issue.
 
---- 
+---
 > ####  Is it possible to learn more about this upload error we're currently encountering for one of our apps?    ITMS-90427: Invalid Swift Support - The expected dylibs are missing from the app’s Framework location...  Is this something we can fix somehow, or is this something the Xcode team needs to fix?
 
 
@@ -770,7 +771,7 @@ Thanks <@U03HBKRJQ2J>, I’ve passed that along to my team!
 |U03KD8SLYPJ|:
 We asked about this over in <https://mattermost.omnigroup.com/omnigroup/channels/product-managers#|#devtools-and-swift-lounge>, and ended up filing FB10115173, for anyone following along!
 
---- 
+---
 > ####  Hi all! Good job on the revamped App Store Connect website! :grin:Just one tiny issue that keeps bugging me: Safari never seems to remember my login to App Store Connect. I need to go through the "trust this browser" routine like every week :exploding_head:
 
 
@@ -788,7 +789,7 @@ Thank you Jan - BUMP!
 |U03JMMN8659|:
 Sent as FB10124500 :+1:
 
---- 
+---
 > ####  I’ve got a couple of questions about App Clips.    My app DOES have one really, really cool function - and most of my app’s code quite frankly is just adding support for managing a history of the user’s use of this really cool function.    So, is there a limit to how large the executable can be?  We have almost NO marketing for our app yet (as it’s not yet passed App Review - but we’re close :crossed_fingers: :smiley:).  Most of the users who I believe will love our app can be found in reddit groups.  Is there a way to promote an App Clip in a reddit group?
 
 
@@ -815,7 +816,7 @@ But this afternoon’s Q&amp;A is focused on App Store Connect so we don’t hav
 |U03J201SFAP|:
 OK, thanks Jeff.  I’ve signed up for the Lab - thanks for the pointer!
 
---- 
+---
 > ####  Hey there! Are there any improvements for Product Page Optimization coming up/planned? Specifically, why are we not able to A/B Test Screenshots for macOS (we have a universal app using Catalyst), and will we get the chance to A/B Test other metadata, like keywords and descriptions anytime soon?  Also, are there any improvements to the Product Page Optimization Sections in App Analytics planned (being able to filter by Devices, Source Type, etc.)?  Thx a lot in advance!
 
 
@@ -840,7 +841,7 @@ Can you also share these through Feedback Assistant: <https://feedbackassistant.
 |U03K8FBMZ7B|:
 <@U03HLKHT5A8> FB10133443 (Improvements to Product Page Optimization) is ready for you :)
 
---- 
+---
 > ####  I really struggle with performance in App Store Connect - is this an issue on the team's radar? Is there anything I can do on my end to speed load times up?
 
 
@@ -857,7 +858,7 @@ Thanks, I can certainly do that! I find I have to wait for pretty much any page 
 |U03KD8SLYPJ|:
 Filed as FB10115233
 
---- 
+---
 > ####  Is there a way to see watchOS versions an app has been installed on? I can see iOS versions, but not watchOS. Thank you! 
 
 
@@ -873,7 +874,7 @@ We can't comment on future plans, but we'd love if you filed feedback as a reque
 |U03JJQ3BMB7|:
 Created FB10115390. Thank you :blush: 
 
---- 
+---
 > ####  Is it possible to average the ratings of all countries to make each country rating instead of dividing the app ratings by country? We would like to expand our app globally, but with the current algorithm, it is difficult to raise each rating in each country.
 
 
@@ -894,7 +895,7 @@ Thanks Akito! Feel free to share your feedback number here so we can track it.
 Thank you!
 That feedback number is FB10115182.
 
---- 
+---
 > ####  Is it possible to edit a testers name or email through App Store Connect. We did a csv import a while ago and some of the names are either missing or don't match the email.
 
 
@@ -906,7 +907,7 @@ Will do!
 
 Our use case is just that humans sometimes make mistakes. :smile:
 
---- 
+---
 > ####  We have urls a user can share with friends to invite them to use our app. They're universal links that contain a referral code so they will open the app if installed. If the app isn't installed we redirect the user to the App Store to install but the referral code is lost in redirect/install. Do you have any recommendations for how to pass a referral code to an app that was just installed from the app store? I've heard App Clips could possibly be used.
 
 
@@ -914,7 +915,7 @@ Our use case is just that humans sometimes make mistakes. :smile:
 Hi Craig! Thanks for the question. We don't have the right folks in this lounge at the moment to answer that question but we recommend connecting with other developers in the Developer Forums. I see other posts there about universal links with responses from developers or others at Apple. Hope that helps!
 <https://developer.apple.com/forums/>
 
---- 
+---
 > ####  A question about marketing….  There are a lot of new software APIs and evolving ideas on how to best write software for Apple platforms - and I’m wondering if the same is true for marketing.  I think App Clips is a great fit for our new app, and I’ve heard about other stuff like AppStore events.  Can anyone here comment on what marketing techniques they find to be the most exciting, the most promising???
 
 
@@ -923,7 +924,7 @@ Bonjour! Here's a list of tools to promote your app in App Store and across Appl
 
 Additionally, you can connect with our business and marketing experts in our App Store business and marketing labs which are running through the rest of the week :briefcase: :chart_with_upwards_trend: <https://developer.apple.com/wwdc22/labs/>
 
---- 
+---
 > ####  SUPER IMPORTANT QUESTION!  I’m in the process of submitting my app for review - and one of my autoRenewable subscriptions isn’t appearing in the “Add In-App Purchases or Subscriptions” dialog box.  It’s listed as “Developer Action Needed” inside of the Subscription Group where it is defined - although there is NO indication of what action I need to take.  Help???
 
 
@@ -932,7 +933,7 @@ Hi James! This question is probably better suited for the App Store Review lab h
 
 If you sign up it would be great to include your app link in your appointment notes so the team can come prepared with as much information as possible.
 
---- 
+---
 > ####  Dumb question:  if my app uses CoreData and CloudKit - is that by itself reason enough to have to say “YES” to encryption?
 
 
@@ -947,14 +948,14 @@ Whoops - sorry didn’t see the answer to this before I submitted my similar que
 |U03J1UGE04B|:
 With Dictation going from on server to on device it seems like this answer would be changing with iOS 16. The call to Siri was an encrypted channel and now it wouldn’t be
 
---- 
+---
 > ####  A few questions about the new "SKAdNetwork postback testing" feature: 1. What "other properties" can be customized in the postback?  Any/all postback values?   2. Is the postback URL validated in any way? Can we use any URL, or does it only work for the URL of the specified registered adNetworkIdentifier, or developer endpoint via NSAdvertisingAttributionReportEndpoint? 3.  Is there a way to identify a test postback vs a real one received by the URL?
 
 
 |U03HBKR584E|:
 Hi Jonathan! These questions are better suited for StoreKit labs or <https://developer.apple.com/wwdc22/110759|Q&amp;A: StoreKit and In-App Purchases>. The team can talk to you about your specific use cases. If you sign up, it is always great to include your app link in notes so they come prepared with as much information as possible.
 
---- 
+---
 > ####  Does the new web-to-app support in SKAN 4.0 work only for clicks in Safari, or are other browsers also supported?
 
 
@@ -967,7 +968,7 @@ This is very helpful info. Thank you for confirming!
 |U03JFDN0D88|:
 Of course!
 
---- 
+---
 > ####  Is there a new parameter in the SKAN 4.0 postback to differentiate between clicks coming from web and app sources?
 
 
@@ -980,7 +981,7 @@ That's excellent! I don't think I've seen an example of the new postback format 
 |U03JFDN0D88|:
 Yes, this will be coming in the updated documentation.
 
---- 
+---
 > ####  Do parameters controlled by Crowd Anonymity (source ID, source app ID, conversion value) all share the SAME three levels (low/medium/high), or is it possible for each parameter to fall into a different level? For example, could a first postback have the fine-grained conversion value, but only two digits of the source identifier?
 
 
@@ -989,7 +990,7 @@ Hello Alexander. We are unable to share specific details about Crowd Anonymity l
 
 The levels and how they affect the different privacy controlled fields are set in a way as to best protect the user's privacy.
 
---- 
+---
 > ####  Will SKAN 4.0 be available on iOS 16 only, or will it also be coming to earlier versions of iOS?
 
 
@@ -1008,7 +1009,7 @@ If you feel compelled to file this request in Feedback Assistant, it will get ro
 
 <https://feedbackassistant.apple.com/new-form-response>
 
---- 
+---
 > ####  Is it known yet whether SKAN 4.0 will be included in the initial iOS 16.0 release, or coming later in the year?
 
 
@@ -1030,14 +1031,14 @@ I really appreciate you and <@U03JFDN0D88> taking the time to answer these. It's
 |U03JFDN0D88|:
 Thank you for the kind words Alexander and thanks for coming on this journey with us! :slightly_smiling_face:
 
---- 
+---
 > ####  Is the Crowd Anonymity level set once for all three SKAN postbacks, or is it possible for the level to change (go up...or even down) after the first SKAN postback and before the second or third postback?
 
 
 |U03JFDN0D88|:
 Hello Alexander, sorry but we are unable to comment on this at present.
 
---- 
+---
 > ####  Is there a breakdown available for how the source app ID parameter will be affected by the three levels of Crowd Anonymity?
 
 
@@ -1055,14 +1056,14 @@ Or are you saying that for source app ID, there is still just one threshold?
 |U03JFDN0D88|:
 There are different thresholds that can dictate the presence or absence of the source app ID. We are unable to provide more specific information concerning the thresholds themselves at this point.
 
---- 
+---
 > ####  You don't think we can talk about the future, but will cryptocurrencies be added to the payment method?
 
 
 |U03HJ8HUYQJ|:
 Hi Yukio, thank you for question. We cannot speak to future plans but you can always track the latest news and announcement here: <https://developer.apple.com/news/>
 
---- 
+---
 > ####  I develop a universal app (for iOS, iPadOS and macOS) with a subscription-based business model. I currently offer a single subscription level (with monthly and annual durations) that unlocks access to all features on all platforms.  Since there are some users that use my app only one platform I'm considering if it wouldn't be better to have two levels of subscriptions: 1) lower priced one unlocking all features only on a single platform (iOS+iPadOS or macOS) and 2) a more expensive subscription providing access to everything on all platforms. Is that kind of setup allowed or do you have any other recommendations?
 
 
@@ -1080,28 +1081,28 @@ No problem! :slightly_smiling_face:
 |U03HLKHJ8BW|:
 Hi <@U03JEKM4LFK>! Another tip: Make sure to create these tiers within the same subscription group in App Store Connect to ensure customers have the ability to upgrade, downgrade or cross-grade between them. Note that if you choose to offer multiple tiers, each one will need to provide ongoing value and a continually innovated experience. For more information please see App Review guideline 3.1.2(a) for more information about creating a great subscription experience - subscriptions must be available across all of a user’s devices. Thanks, and enjoy the rest of WWDC!
 
---- 
+---
 > ####  We're building a game and planning to offer in-game currency for our players as a means to purchase extra "lives" and retry. Is there any StoreKit APIs that support keeping track of in-game currency balance for the player? If not, what is the recommended way of implementing such feature?
 
 
 |U03HU1RS59S|:
 Apps must keep track of consumable transactions on their own since they are not included in the unified app receipt or using the transaction history APIs after they have been finished. The data can be stored in any number of ways, including CoreData, CloudKit, or just setting a user default. For the best user experience it's recommended the in-game currency balance is synced to a server to allow customers to use it across devices and not lose it if the app is deleted and reinstalled.
 
---- 
+---
 > ####  With StoreKit2, is it possible to know if a consumable purchase was ever made in the past? I have a tip jar in my app and would like to know if a user has ever made a tip.
 
 
 |U03HU1RS59S|:
 Apps must keep track of consumable transactions on their own since they are not included in the unified app receipt or using the transaction history APIs after they have been finished.
 
---- 
+---
 > ####  if our app is offered to iOS 14+ users but we choose to use StoreKitV2 which is iOS 15+, and only offer in-app payments/subscriptions to iOS 15+ users, will our app store review have any issues? Will our app be rejected because of that? Thanks!
 
 
 |U03JH7N0KSS|:
 Hi Edward - Yes, you can choose to offer in-app purchase using StoreKit2 for iOS15+. Ensure your app is following guideline <https://developer.apple.com/app-store/review/guidelines/#business>
 
---- 
+---
 > ####  How long will StoreKit 1 be supported? We are attracted to StoreKit 2, but our apps have been running for nearly 10 years and we have built a system that is not easy to switch to.
 
 
@@ -1124,7 +1125,7 @@ Hi <@U03HVBUV0KY> when you have some time, we have a couple great sessions discu
 &gt; <https://developer.apple.com/wwdc21/10114>
 &gt; <https://developer.apple.com/wwdc22/10007>
 
---- 
+---
 > ####  Is there sample code on how to verify a StoreKit2 JWS server-side? Either in Swift, or in other popular server languages.  The x5c claim isn’t very widely used outside StoreKit in my experience &amp; there’s a fair amount of misinformation online about it. Specifically I’ve seen a number of people suggest only validating the first or last certificate in the chain. Which … isn’t right. Many JWT libraries don’t support it either.
 
 
@@ -1165,7 +1166,7 @@ Hi William — we appreciate your feedback and thank you for sending those 2 FB 
 |U03J49S9XHP|:
 Thank you so much for the feedback, William! I am also quite happy to hear that.
 
---- 
+---
 > ####  Hi all! Are the new testing features also available for Apple Watch apps?
 
 
@@ -1175,7 +1176,7 @@ Most of the features in StoreKit Testing in Xcode are supported on Apple Watch o
 |U03JMMN8659|:
 Ok, thank you <@U03J49LAG3B>! I already submitted feedback (FB10124699) that we need offer codes to be available on all platforms. This will really unlock their power
 
---- 
+---
 > ####  Is there is way to test a subscription offercode with the sandbox subscription?
 
 
@@ -1185,7 +1186,7 @@ Offer code redemption is not supported in sandbox, please submit feedback using 
 Testing offer codes is available in StoreKit Testing in Xcode though, and with the new App Store Connect syncing feature, it even syncs offer codes set up in App Store Connect to a StoreKit configuration file! Check out this year's WWDC session to see it in action:
 <https://developer.apple.com/videos/play/wwdc2022/10039>
 
---- 
+---
 > ####  We've been trying to implement offers for user who cancel their trial and we couldn't get them to work.   The flow would be: user starts a trial - cancels trial - an offer gets shown.   What would be the best way to implement this flow since our experience has been that if someone cancels a trial, they cannot claim a promo offer?
 
 
@@ -1200,21 +1201,21 @@ For more information about Offer Types, see here:
 |U03HRLNQ5JN|:
 Sure thing!
 
---- 
+---
 > ####  Our company has 8 brands, each one catering to specific user groups with different needs.  We would like to have the same underlaying app development for all brands and publish them as different apps in the App Store. With pertinent UI customizations to match each brand, but keeping the same overall UX.  Due to rule "4.3 Spam" from App Store Review Guidelines we are currently forced to have a single app publised in the App Store for all of our bands. And then users needs to choose a brand after install.  This provides a diminished experience for our users because it's important that users can discover our apps by themselves in the App Store. Also, as need to include information for all brands, all users see information that is not relevant to them and can be confusing.  The addition of Custom product pages may alleviate the situaion but is not ideal as it does not really help with discoverability within the App Store.  We are aware of the need to have rule "4.3 Spam" keep the App Store a safe place and to provide the best experience to our users.  But we would also work with Apple to find a way to be able to offer our users the best possible experience by providing them separate published apps in the App Store with different Bundle IDs. And thus providing the best journey for users since even before they install our apps.  Thank you!
 
 
 |U03JH7N0KSS|:
 Hi Xavier - Thank you for your question. We would request you to discuss your options with App Review directly. You can reach out to them using link: <https://developer.apple.com/app-store/review/>
 
---- 
+---
 > ####  Our app uses a green tint color. Now when I present an SKStoreProductViewController with that tint color, the App Store page is only halfway tinted. I've reported FB9388616 in July last year but so far the bug isn't fixed. Can you get this fixed in iOS 16?
 
 
 |U03HJ8HUYQJ|:
 Hi <@U03J4J6MMK8> - thank you for the feedback &amp; the FB number. Currently this is not supported. We value your feedback and will provide this as an input to our teams.
 
---- 
+---
 > ####  Is there any restriction around what kind of company is eligible to register for SKAN and use the new web-to-app functionality? For example, could an affiliate network register as an 'ad network' and enable their links for SKAN web-to-app attribution?
 
 
@@ -1227,14 +1228,14 @@ More information about the specifics of what ad networks need to do in order to 
 |U03JGCP2C02|:
 Thank you!
 
---- 
+---
 > ####  In SKAdNetwork v4.0, can we get a full list of the possible fields (including the sequence indexes for example)? Are any of these not included in the “attribution-signature” field, such as the conversion value in previous versions?
 
 
 |U03JFDN0D88|:
 Hello Eran, the full set of fields and updated signature compositions will be made available along with the documentation that is set to come out later this year.
 
---- 
+---
 > ####  Is it possible for legacy StoreKit and StoreKit2 APIs to co-exist, and listen to transactions at the same time?
 
 
@@ -1247,7 +1248,7 @@ How does that work if listening to transactions at the same time? Who gets notif
 |U03HU1RS59S|:
 Calling `finishTransaction` on the original StoreKit API will not affect the StoreKit 2 Transaction listener.
 
---- 
+---
 > ####  Is SKAdNetwork expected to be included in the iOS16 release, or will it likely be added in a later version?
 
 
@@ -1259,14 +1260,14 @@ Have you checked out <@U03JFDN0D88>’s WWDC22 session?
 Full of great information :raised_hands:
 <https://developer.apple.com/wwdc22/10038>
 
---- 
+---
 > ####  Is the web-to-app support in SKAdNetwork 4.0 supported by all browsers, or only by Safari? Does the WebView UI support it as well?
 
 
 |U03JFDN0D88|:
 Hello Eran, at present our plan is for Safari support. More information about this will be made available along with our documentation release later this year.
 
---- 
+---
 > ####  For the new web-to-app functionality in SKAN, does the link click need to come directly from user interaction with the URL (like a Universal Link), or can it be any request that leads from the SKAN link directly to the App Store page? For example, can the SKAN link be redirected to via javascript or a 301 redirect?  (I tried to send this earlier, but I don't think it went through — I apologize if it's a duplicate!)
 
 
@@ -1289,7 +1290,7 @@ Of course! I have done so.
 |U03JFDN0D88|:
 Thank you!
 
---- 
+---
 > ####  I’ve just included an App Clip in my binary.  Since my app is SwiftUI based, I’m using the .appStoreOverlay(isPresented:) binding.    Question:  do I need to incorporate the AppClip code in my app binary, or is that something that is configured in AppStoreConnect?
 
 
@@ -1297,7 +1298,7 @@ Thank you!
 Since App Clips are separate targets when building in Xcode, you can include code in your App Clip that is not included in your app’s main binary and vice versa. Check out this article and related documentation for best practices on building App Clips:
 <https://developer.apple.com/documentation/app_clips/creating_an_app_clip_with_xcode>
 
---- 
+---
 > ####  Is there a possibility to see app ratings &amp; reviews through the AppStore Connect API?
 
 
@@ -1307,7 +1308,7 @@ Thanks for asking! With our 2.0 release coming this summer, we're adding the abi
 |U03HZ4M12AH|:
 Wow very happy to hear. Didn't found it it in the docs and haven't watched the session yet!
 
---- 
+---
 > ####  We've had a bunch of users report that opening the subscription management page from our app with `UIApplication.open(URL(string: "<https://apps.apple.com/account/subscriptions|https://apps.apple.com/account/subscriptions>")!)` or the brand-new, super-awesome `try await AppStore.showManageSubscriptions(in: scene)` shows a blank page across iOS versions. Is there anything we could be doing wrong to cause this? Any recommendations for working around this?  (FB9930203)
 
 
@@ -1320,7 +1321,7 @@ Thanks <@U03JH7N0KSS>. The frustrating thing is we can't really reproduce it eit
 |U03JH7N0KSS|:
 Thanks William - Also you can use the instruction from section “Sysdiagnose for iOS” section in the above link.
 
---- 
+---
 > ####  Does the new App Store Connect API 2.0 have a capability to track whether the in-app purchases/subscription offer code redeemed?
 
 
@@ -1332,7 +1333,7 @@ Hi Velu - To identify successful offer redemption for a customer you can use:
 <https://developer.apple.com/documentation/appstoreserverapi/jwstransactiondecodedpayload>
 <https://developer.apple.com/documentation/appstoreservernotifications/notificationtype>
 
---- 
+---
 > ####  How to make promoted In-App Purchase appear on product page (with image)? I added an image in the optional field "App Store Promotion" in App Store Connect, but it still doesn't appear.
 
 
@@ -1341,14 +1342,14 @@ Good question, <@U03JH2L3E59> — In the <https://help.apple.com/app-store-conne
 
 Additionally, if the promoted in-app purchase Promotional Metadata state displays as “Prepare for Submission” in the App Store Promotions section, you’ll need to submit your <https://help.apple.com/app-store-connect/#/dev1f52cd4dd|promotional image> for review, before it displays on the App Store product page.
 
---- 
+---
 > ####  Is there a way to get the popularity score of a keyword, ideally via an API or so? Apple Search Ads provides that data through its UI but it's cumbersome to look it up that way. ASO services like AppTweak, App Radar and Appfigures are also providing that data but just for keyword optimization those services are overkill. They all state that the popularity scores they provide are directly coming from you, so I'm curious whether they use a (public) API, scrape the web UI of Search Ads or have some kind of partnership with you to obtain that data.
 
 
 |U03HLKHJ8BW|:
 Thanks for the suggestion, Niels! It's a great idea to share with us through Feedback Assistant! <https://feedbackassistant.apple.com/>
 
---- 
+---
 > ####  I understand plurals of keywords are automatically taken into account. Does this also work for other languages, and to what extend?
 
 
@@ -1360,7 +1361,7 @@ Hi Niels, yup we do take plurals into account! You can find other information ab
 |U03J4J6MMK8|:
 I'd also like to know if pluralization works in non-English languages, too. E.g. in German, pluralization is not as easy as appending an "s", so pluralization rules/dictionaries are needed. The pages mention only that pluralization works, but don't talk about foreign languages at all.
 
---- 
+---
 > ####  When will the "Unlisted App Distribution" become available in App Store Connect?
 
 
@@ -1369,21 +1370,21 @@ Thanks for the question, Micha. To create an unlisted app, please refer to <http
 
 More background is in <https://developer.apple.com/videos/play/tech-talks/10892>.
 
---- 
+---
 > ####  Does App Store Connect API V2 have the ability to notify us of App Review reject text?　The best implementation is to be notified to Slack. Developers can act fastest by checking attachments in slack and getting real-time notifications of replies from reviewers. Perhaps we could implement this with a polling operation, but we don't want to damage apple's servers.
 
 
 |U03HBKR584E|:
 This is a great question, but we don’t support webhooks. Polling is the only option at the moment. We also send Push Notifications, if you have App Store Connect app installed.
 
---- 
+---
 > ####  Are there any plans to streamline the process for the new "Unlisted App Distribution" method? Currently, it looks like only the Account Holder can request this setting through a separate form (although that isn't documented anywhere) and only the Account Holder can see the questionnaire and receive feedback on the request.  It would be great if this could just be a setting in App Store Connect like Public / Private distribution.
 
 
 |U03H3LTELDD|:
 Hi Jan, thanks for the feedback! We’ve included details about this in <https://help.apple.com/app-store-connect/#/dev275598f16|App Store Connect Help> under *Make your app available only through a direct link.* We encourage you to share your suggestions with us via <https://feedbackassistant.apple.com|Feedback Assistant>.
 
---- 
+---
 > ####  Is App Store Connect API available for the App Reviews and Ratings?
 
 
@@ -1391,14 +1392,14 @@ Hi Jan, thanks for the feedback! We’ve included details about this in <https:/
 Great question <@U03KA56EY3B> — take a look at our response on this similar question here for more information on our updates to the App Store Connect API:
 <https://wwdc22.slack.com/archives/C03H49L2CA1/p1654884449205289?thread_ts=1654884442.035649&amp;cid=C03H49L2CA1>
 
---- 
+---
 > ####  Hi there! Are there any plans to fix the bug with the Product Page Optimization Analytics? When you click on "View Anlaytics", a white screen appears without any data. It's not pretty comfortable and easy to find other ways to see the metrics of test screens.
 
 
 |U03HFAWG5B7|:
 We believe this issue should be resolved. If you’re still seeing this behavior from your side, please file a <https://feedbackassistant.apple.com/|feedback assistant> ticket with your app information so we can further investigate.
 
---- 
+---
 > ####  Right now it takes more than 24 hours for an app to come from "waiting to review" to "in review". Can we expedite the app review process by any chance ? (I know we can submit a form and request expedite app review ) Any other way in which the time can be reduced ?
 
 
@@ -1407,7 +1408,7 @@ In our <https://developer.apple.com/wwdc22/10043|What's New in App Store Connect
 
 Here's a video with tips on preventing common review issues: <https://developer.apple.com/videos/play/tech-talks/10885>
 
---- 
+---
 > ####  App Review is super fast now for production app reviews, which is great. However, app review is typically "slow" (~24 hours) for external TestFlight testers. Besides the fact that it would be nice if external TestFlight review was as fast as regular App Review, one issue is when we have a critical bug, we are able to get an update out to production users quickly (even without needing an expedited review), but it can take ~24 hours for the same update to make it to external TestFlight testers due to the longer review process. It would be really nice to have it such that if an app gets approved for production App Review, if same build is also waiting for external TestFlight review, if that external TestFlight build could get automatically get approved rather than having to wait for a second manual review.
 
 
@@ -1417,7 +1418,7 @@ Thanks for your feedback. We are constantly looking into improvements to TestFli
 |U03J2AD912N|:
 Just filed as FB10163456
 
---- 
+---
 > ####  Hello, When I submitted my first app it was rejected because of copyright violations in the metadata. It was the English word memory that is copyrighted by Ravensburger. My game is a pairs game that is different from real memory-game clones, but, what can I do? Actual memory clones are all over the App Store, their visible metadata brimming with "memory" and they all get found after typing "memory". My game, which is different, is not allowed such metadata. Why is that so and where in the process can I get help and advice?
 
 
@@ -1429,7 +1430,7 @@ Just filed as FB10163456
 Wow! Seems like _combinations_ may help
 <https://www.lexology.com/library/detail.aspx?g=de499870-bae0-4391-9404-63316fb7be1e>
 
---- 
+---
 > ####  Is it possible to optimize subscription plans on the product page in AppStore Connect by using different text or image?
 
 
@@ -1448,7 +1449,7 @@ In-App Purchases with <https://developer.apple.com/app-store/product-page-optimi
 
 If you can, please submit feedback using <https://feedbackassistant.apple.com/>.
 
---- 
+---
 > ####  Greetings! Hi the team!  I have two quick questions and wait for your response: 1, For the account deletion regulation, I found in the news that there's a newly-mentioned API: Sign in with Apple REST API. It takes some time for me to connect to this API but the deadline is so close.  So my question is: What would happen if the version I will be submitting on July 1st doesn't come with this API? (other parts about the account deletion are perfect)  2, My company would like to apply for the enterprise account - that's Apple Developer Enterprise Program. However, I heard the membership enrollment is limited per year, and very hard to successfully join in. Is there any advice and tips that can help me better join the program?  Summer
 
 
@@ -1467,7 +1468,7 @@ Also, please keep <https://developer.apple.com/news/?id=12m75xbj|these requireme
 Regarding #2:
 Please review this overview of the <https://developer.apple.com/programs/enterprise/|Apple Developer Enterprise Program>. Here you will find eligibly requirements for signing up for this program.
 
---- 
+---
 > ####  Hi, my app was rejected yesterday for not having all the metadata required which I accept however the app is a standalone watchOS app and the screenshot the review team gave us, which was literally a black image, seems to imply the iOS app (which we don’t have because it’s a standalone independent watch app) didn’t have an app icon. Is there any way to solve this? 
 
 
@@ -1477,7 +1478,7 @@ Hi Hugo. I would suggest responding to your app review rejection message in the 
 |U03HZ3L98TF|:
 Alright I'll do that thank you 
 
---- 
+---
 > ####  Hi all - I’m still a bit confused about the review process for in-app purchases.  My app needs 4 subscriptions (in one subscriptions group) in order to be happy.  I currently have 1 subscription that’s listed as “Waiting for Review” and 3 which are listed as “Ready to Submit”.  Can I go ahead and submit the app binary (with the 3 subscriptions that are ready) and then add the 4th subscription after (:crossed_fingers:) the binary passes app review?
 
 

@@ -4,9 +4,10 @@
 #### [emin@github](https://github.com/roblack) / [emin@twitter](https://twitter.com/emin_ui)
 #### [shirblc](https://github.com/shirblc)
 #### [tikimcfee](https://github.com/tikimcfee)
----
 
---- 
+
+
+---
 > ####  Is it possible to have hierarchical sharing for NSPersistentCloudKitContainer in iOS 16? iOS 15 only support zone sharing.
 
 
@@ -71,7 +72,7 @@ That way List objects from both stores will show up in the same section of the F
 |U03JE8T2Z2R|:
 thank you, that's awesome
 
---- 
+---
 > ####  A question about database level CloudKit subscriptions any suggestions on determining which CKZone or CKRecords or record types were modified... we currently have to parse the CKNotification internal json sent from CloudKit to APNS but were hoping for more formal support... much thanks
 
 
@@ -108,7 +109,7 @@ CloukKit API enhancment   FB10081536
 |U03HJ9HCBFV|:
 Awesome, thanks!
 
---- 
+---
 > ####  Using CoreData with CloudKit. Is it now possible to use constraints with NSPersistentCloudKitContainer? If not, what is the recommended way when importing a large amount of records?
 
 
@@ -135,7 +136,7 @@ Everyone kind of chooses their own adventure. Sometimes the schemas are differen
 |U03JCC3UM6G|:
 oh wait. So when importing to the store with constraints, the history tracking will tell me only the items which actually changed? And this is the list I need to loop over to then forward these changes to the CloudKit connected store?
 
---- 
+---
 > ####  I am using an NSPersistentCloudKitContainer to sync private stores. I added a large amount of records on device A and then successfully synced on device B. At some point, I uninstalled the app on B and reinstalled it only to find that most of my data was removed from the store.  Can a new installation inadvertently delete my data? Almost as if the new install told CloudKit "I have nothing" and CloudKit tried to delete things to make it match?
 
 
@@ -181,7 +182,7 @@ What could cause it to get in a stuck state?
 |U03HMJ2P5MJ|:
 It’s not possible to say without logs. We could offer baseless conjecture but that’s not productive.
 
---- 
+---
 > ####  Question about CoreData+CloudKit. When user is no authenticated then the mirroring from CloudKit Public database to Core Data does not seem to work. Error: Failed to setup CloudKit integration for store. Is that an intended behavior? Can I mirror Public database when user not authenticated? Thanks!
 
 
@@ -197,7 +198,7 @@ Will do, Thanks for the feedback.
 |U03JM8PFK2P|:
 Feedback Submitted FB10110489
 
---- 
+---
 > ####  Is there a quota for syncing data with an NSPersistentCloudKitContainer? I have found that my app seems to stop fetching data even though I can see there is more in the dashboard.
 
 
@@ -211,7 +212,7 @@ Also a bunch of great labs you could request an appointment to if you’d like t
 • CloudKit lab, Thursday, 10am: <https://developer.apple.com/wwdc22/110674>
 • Core Data lab, Thursday, 1pm: <https://developer.apple.com/wwdc22/110676>
 
---- 
+---
 > ####  Are there best practices for naming entities/columns if you change them?  Ex, include a version number in the column names? (primaryFamilyMemberNameV1, primaryFamilyMemberNameV2)
 
 
@@ -257,7 +258,7 @@ That's usually the main worry with things like this, backward/forward compatibil
 |U03J4BFE17W|:
 Agreed
 
---- 
+---
 > ####  What is the best way to download a default table, edit locally and sync between devices? After download the default, the user only keeps sync for himself. Not needing to upload to Public. I’ve been using Public to create a default DB and when downloaded, using CD to keep sync between devices. Is this right?
 
 
@@ -273,7 +274,7 @@ Techniques vary, opting for 2 is the most efficient, but 1 offers better sync fr
 |U03HVDF8N6A|:
 Thanks Nick. Will try looking for this.
 
---- 
+---
 > ####  Can we import/export data through the dashboard via something like a CSV file?
 
 
@@ -293,7 +294,7 @@ Thanks :raised_hands:
 |U03HLLZK136|:
 Thank you!
 
---- 
+---
 > ####  Is there a better way to view the telemetry usage graphs on the dashboard? Once I mouseover a section (ex Users), if I mouseover any other section I continue to see Users data.
 
 
@@ -307,14 +308,14 @@ Developer Tools &gt; “CloudKit Console” as the area.
 |U03J4BFE17W|:
 Thanks!
 
---- 
+---
 > ####  Is there an @AppStorage equivalent for NSUbiquitousKeyValueStore?
 
 
 |U03HJ9HCBFV|:
 Not at the moment, but that's definitely a good enhancement request. Could you file a bug through Feedback Assistant to request this?
 
---- 
+---
 > ####  I’ve tried to use UICloudSharingController with SwiftUI, but the init(preparationHandler:) method doesn’t seem to work — it never displays the dialog. As a work-around I’ve had to create an empty share ahead of time and use init(share:container:). While this works, I don’t like creating the share if the user is just going to cancel. Any ideas about how to get this work?
 
 
@@ -346,7 +347,7 @@ we can route that to the appropriate team.
 |U03J2019QTV|:
 I thought that I filed a feedback, but upon checking just now can’t find it. I will definitely file one. Thanks for your help.
 
---- 
+---
 > ####  I see there is a new CKSystemSharingUIObserver in the documentation. How will this be used? Does this somehow replace UICloudSharingControllerDelegate?
 
 
@@ -358,7 +359,7 @@ You can find more information about the system sharing UI observer in this sessi
 
 <https://developer.apple.com/videos/play/wwdc2022/10095/>
 
---- 
+---
 > ####  If I use CloudKit + CoreData, can I still change my data model and add new fields to CoreData once I have gone into production?  Or is that a non-starter?
 
 
@@ -374,7 +375,7 @@ There are a number of follow-on documents from there that describe these in more
 |U03J22BCM0A|:
 Thank you Nick, this is great!
 
---- 
+---
 > ####  What are some of the best sessions, links or resources for Cloudkit?
 
 
@@ -404,7 +405,7 @@ Great point! Those sample projects are super helpful, and get updated all the ti
 This is also a good starting point:
 <https://developer.apple.com/icloud/cloudkit/>
 
---- 
+---
 > ####  We're using NSPersistentCloudKitContainer to sync data to CloudKit. It seems to only sync intermittently. Is there any way to force a sync?
 
 
@@ -467,7 +468,7 @@ So in theory we just need a callback in the main-app. And once it has been synce
 |U03HJA0EJ1G|:
 correct.  The WidgeKit team might have some thoughts but AFAIK you can't get the widget to force the app to launch
 
---- 
+---
 > ####  Can we manually force/request a sync operation of local Core Data from CloudKit when using NSPersistentCloudKitContainer?
 
 
@@ -483,7 +484,7 @@ Thanks. I was commenting in the previous question workflow. Will report back on 
 |U03HMJ2P5MJ|:
 The public database has a much lower expectation of sync freshness. An initial import will be performed immediately for empty store files. However subsequent imports will occur approximately once a day .
 
---- 
+---
 > ####  Is there a way to receive a callback when NSPersistentCloudKitContainer receives updates? We need to update Widgets &amp; Complications on all our devices when the data changes. Not sure how to do or if it's even possible.  We're on watchOS, iOS, iPad OS and macOS. So we need it to work on all these platforms :sweat_smile:
 
 
@@ -493,7 +494,7 @@ Clients use one of `NSPersistentCloudKitContainerEvent` or remote store notifica
 |U03HMJ2P5MJ|:
 You should file a feedback report with your app and detailed instructions for how we can reproduce your desired flow with your widget so we can investigate further.
 
---- 
+---
 > ####  I have many users that report NSPersistentCloudKitContainer returns a 134400 error (as I expose errors in a debugging panel), which I believe corresponds to CKError code 9 (not logged in). I know that MDM or iCloud settings may cause this, but I don't believe this to be the case. Is this likely to be a system bug, or are there are strategies for dealing with errors such as this?
 
 
@@ -541,7 +542,7 @@ Settings don't follow the same switches
 |U03HJA44L0J|:
 Feel free to submit <https://feedbackassistant.apple.com|feedback>, we love to hear your ideas
 
---- 
+---
 > ####  Not a question, purely praise.  I have been incredibly happy with CloudKit/CoreData - it is pure magic, and works wonders.   Kudos to the team.
 
 
@@ -560,7 +561,7 @@ Agree. I was able to remove thousands of lines of code from my app. Thank you!
 |U03JFQ1BQMA|:
 I've got to agree! It's the first time I'm doing any kind of sync and I've got it to work in about 3 days for a non-standard setup. Changes across devices happen near-instantly. Incredible!
 
---- 
+---
 > ####  Hi Patrick, I watched the What's new in CloudKit console and I have a question regarding Act as iCloud... I tried logging in as "Act as iCloud" but I'm not sure how (or if) I can access a user private database if I need to investigate a bug with his or her data, would that be possible?
 
 
@@ -603,7 +604,7 @@ Definitely agree with Kent, filing feedback with <http://feedbackassistant.apple
 |U03JK9ZRJJJ|:
 Perhaps what got me confused and I asked the question is the fact that my personal and developer accounts are the same. Now I understand that if you have different accounts, this feature will definitely be quite helpful!
 
---- 
+---
 > ####  I would like to show the thumbnail for a CKShare with that share.  A) I noticed <http://Notes.app|Notes.app> sends a text with it's CKShare invitation, how can I do that (an can I send an image instead of a text) B) If it's a private API I could use UIActivityViewController, but I would need to show the options (e.g. public or just to specific people) somehow. <http://Photos.app|Photos.app> is kind of doing what I would like to do, but I have not found any API to add even a single button (other than an activity) to UIActivityViewController?
 
 
@@ -763,7 +764,7 @@ Or optionally you can post this question on the <https://developer.apple.com/for
 Thank you! I created FB10141453 with this request :slightly_smiling_face:
 Maybe you can help getting it into the right peoples hands.
 
---- 
+---
 > ####  Is it possible to make a query like,   Kind == cat || legs == 4 || surface == fur  If so how. Compound predicates doesn’t allow this I think
 
 
@@ -788,7 +789,7 @@ Documentation states that only AND and NOT compond predicates are supported for 
 |U03HJA44L0J|:
 Good call out, please file a bug report/enhancement request via <https://feedbackassistant.apple.com|Feedback Assistant>
 
---- 
+---
 > ####  I've been working with CoreData on a multiplatform app but haven't had a chance to check yet... by default is the data shared between devices on the user's account or do I need to hook into CloudKit... or something else? I watched one of the talks but it was sharing information between users so I figured I'd triple-check through here. Thank you.
 
 
@@ -804,7 +805,7 @@ It sounds like you watched the talk about sharing, but the original talk about g
 |U03JRPWSDJ4|:
 Thank you. Somehow I missed your reply earlier. I'll bookmark that video right now. :)
 
---- 
+---
 > ####  Hello! How to storage array on CloudKit (transformable)?
 
 
@@ -816,7 +817,7 @@ Array based fields are natively supported on <https://developer.apple.com/docume
 |U03HJ9HCBFV|:
 By your mention of transformable, it sounds like you're using Core Data for storage/sync?
 
---- 
+---
 > ####  1. Synchronization seems to only take place when the app runs in the foreground. Is there a way to keep the app synchronizing when it is brought to the background? I have enabled remote notifications and use registerForRemoteNotifications in my app delegate (via UIApplicationDelegateAdaptor). I haven't yet experimented with background processing. Should I do that, and can you point me to some references?
 
 
@@ -841,7 +842,7 @@ That is generally correct, when your app transitions into a suspended state the 
 |U03HJ9HCBFV|:
 Agreed that it's more of a workaround than a long-term solution, and we should be able to sync in the background without you having to explicitly take out those background tasks
 
---- 
+---
 > ####  Hi all! Thank you for your work on integrating Core Data and CloudKit .private database using NSPersistentCloudKitContainer, which I use in my app! :zap:I am thinking of creating a sharing feature using Core Data and CloudKit .shared and .public database (as per videos from previous WWDCs). But I heard it was difficult, if not impossible, to achieve this functionality on the Apple Watch. Are there any recommendations or guides for this?
 
 
@@ -859,7 +860,7 @@ You might want to watch the talk about sharing data here:
 
 <https://developer.apple.com/videos/play/wwdc2021/10015/>
 
---- 
+---
 > ####  If User A shared record LogRecord(CKRecord) with User B. Any way to get remote notification for User B when Record A is modified by User A?
 
 
@@ -872,7 +873,7 @@ I would like to have `CKQuerySubscription` also available for shared databases. 
 |U03HJA44L0J|:
 As you are aware, `CKQuerySubscriptions` are not available for the shared database. Please feel free to file an enhancement request with your reasoning for needing this support via <https://feedbackassistant.apple.com|Feedback Assistant>
 
---- 
+---
 > ####  How to get real time update from public database?
 
 
@@ -887,7 +888,7 @@ Correct. There isn't support for `CKDatabaseNotification` in the public database
 
 Do note, due to the natural of the public database the rate of changes can be quite high. Do consider this as your create your subscription.
 
---- 
+---
 > ####  2. Is there a way to check whether the local-stored data matches what's available on the server? E.g. checking whether a (local-stored) NSPersistentHistoryToken matches the latest NSPersistentHistoryToken on the server. Internally NSPersistentCloudKitContainer knows, as I can see log events popping up saying that there's no new data to mirror. I would like to know this to inform the user that synchronization still takes place. Right now, users are complaining about missing data, while it's just not available yet.
 
 
@@ -897,7 +898,7 @@ You can monitor sync progress via <https://developer.apple.com/documentation/cor
 |U03J20XDZ3L|:
 Thanks. I'll experiment with that.
 
---- 
+---
 > ####  How do you recommend to handle low storage in instances where the CloudKit data is larger than the device's available space?
 
 
@@ -955,7 +956,7 @@ IIRC this also works in the simulator.
 |U03JFQ1BQMA|:
 Good to know! I'll look into that. Thanks all :thumbsup:
 
---- 
+---
 > ####  What are some of the best tutorials/docs for beginners looking to integrate CloudKit with their SwiftUI app?
 
 
@@ -964,7 +965,7 @@ General documentation can be found here: <https://developer.apple.com/icloud/clo
 
 We also have some great <https://github.com/apple?q=cloudkit-sample&amp;type=repository”|sample code> available to get you started!
 
---- 
+---
 > ####  I'm seeing various errors when running queries in my CloudKit Console. "Field 'recordName' is not marked queryable" "Queried type is not marked indexable" "Can't query system types" Where can I start to figure out the cause of the errors? (FB10135562)
 
 
@@ -996,7 +997,7 @@ Would I also need to set up indexes to resolve the other two errors?
 |U03HZ1C3YKE|:
 That’s correct, you’ll need to continue adding indexes to fields if you want them to be `Searchable` , `Sortable` or `Queryable`
 
---- 
+---
 > ####  Can I use CloudKit in a WatchOS?  If so, will records created on a non-cellular watch get synced up to the Cloud when the watch gets close to it’s paired phone?
 
 
@@ -1021,7 +1022,7 @@ Yeah NSUbiquitousKeyValueStore is great for simpler data models. If it works for
 |U03HJA44L0J|:
 We often like to recommend `NSUbiquitousKeyValueStore` for small, atomic things that don't change often, think user settings
 
---- 
+---
 > ####  Currently my whiteboard drawing app does not persist or sync data. I want to choose a persistence/sync solution that: 1) supports offline editing, undo/redo 2) automatically figure out how to merge conflicts (maybe CRDT?), 3) have near real-time performance when collaborating (through SharePlay or the new Messages sharing thing). Could you point me towards the right direction? How should I architect my app? Should I use Core Data/NSPCKContainer for this?
 
 
@@ -1078,7 +1079,7 @@ Those are built in change tracking tables that are created when turning on persi
 |U03J20E1BPD|:
 Thank you for the explanation <@U03J1V9TNLT>!
 
---- 
+---
 > ####  I'm using iCloud Drive by copying a file to the directory obtained by `FileManager.default.url(forUbiquityContainerIdentifier: nil)`. In the case that we put a file whose file size is about 1MB, the value of `NSMetadataUbiquitousItemIsUploadedKey` for the saved item usually becomes true within a second under a good network condition. However, when I put the 1MB file immediately after deleting all items in the iCloud directory, the value of `NSMetadataUbiquitousItemIsUploadedKey` for the newly added item remains false for more than 20 seconds. Is it a limitation of CloudKit?
 
 
@@ -1092,7 +1093,7 @@ We'd like to look at this a little more closely though to make sure nothing is g
 You'll find the iCloud Drive debug profile here:
 <https://developer.apple.com/bug-reporting/profiles-and-logs/?platform=ios>
 
---- 
+---
 > ####  Does CloudKit still require iCloud Drive to be enabled? Is there API to detect iCloud Drive not enabled, vs user not being signed in to iCloud? I have users who have managed computers where iCloud Drive is disabled, but thirdparty CloudKit apps would be fine. Currently such users cannot use CloudKit-based apps.
 
 
@@ -1120,14 +1121,14 @@ Thank you for the comments :smile:
 |U03HJ9HCBFV|:
 And thank you for providing the feedback!
 
---- 
+---
 > ####  Hey Patrick. I'm using NSPersistentCloudKitContainer with Core Data in my app. I've adopted the deduplication workflow detailed in the Synchronizing a local store to the cloud sample code. I noticed that when the items are fetched and inserted, the relationships are not yet updated (the relationship is nil). Later, I receive other transactions from the history where the items where updated: at this time, the relations are good. Is that the intended behaviour? I need to deduplicate my items based on a relationship, so having it nil when the transaction is of change insert does not help me.
 
 
 |U03HMJ2P5MJ|:
 Yes this is expected. You will need to wait for NSPersistentCloudKitContainer to saturate the related objects before you can dedupe them.
 
---- 
+---
 > ####  I recently had a user accidentally delete my app (data) from his iCloud account. Is there a way he could have restored his data? Either via a UI or via Apple Support?
 
 
@@ -1152,7 +1153,7 @@ You could even keep user-deleted data around in your database temporarily, but w
 |U03HJ9HCBFV|:
 But sadly for this particular user, if the data is deleted from CloudKit, it's unrecoverable
 
---- 
+---
 > ####  Hello! When releasing an update with updates to the CloudKit Cloud Schema, should you publish changes to production before App Review or after it releases on the App Store? Thanks :grin:
 
 
@@ -1165,7 +1166,7 @@ Great, thank you so much! :grin::ok_hand:
 |U03JLTMSAV7|:
 I’d also add Testflight. Before submitting, it’s a good idea to test with Testflight testers. TF builds work against the public schema.
 
---- 
+---
 > ####  Are there plans to support CloudKit in Swift Playgrounds on iPad? Or does it already work and I simply missed it.
 
 
@@ -1175,7 +1176,7 @@ You’re right that Playgrounds doesn’t currently CloudKit, but please file a 
 |U03J4EJ0CVA|:
 I filed a feedback request for this earlier this week. Here it is: FB10079951
 
---- 
+---
 > ####  With NSPersistentStoreRemoteChange is there a way to filter out local changes from remote? There are times I only want to react to remote changes.
 
 
@@ -1194,7 +1195,7 @@ That’s not what NSPersistentStoreRemoteChangeNotification does. NSPersistentSt
 |U03JDV4PQR0|:
 Thank you!
 
---- 
+---
 > ####  Hey there. I have two questions about CloudKit sharing.  1. If User A shares e.g. a Record with User B who has the app not installed, is iOS giving them a prompt to download the app or does the user has to do that by hand? 2. If I have a main app and in addition to that a second app (e.g. a companion app), is there a possibility to share a record from the main app to the companion app? And if so, can I somehow specify the app I want to share the record with?   Thanks a lot for the info in advance!
 
 
@@ -1219,7 +1220,7 @@ If neither app is installed, we'll prompt to install one or the other, but no gu
 |U03HJ9HCBFV|:
 I don't believe we store the app that actually initiated the share, so we can't necessarily choose which one, although that's worth a feature request via Feedback Assistant
 
---- 
+---
 > ####  Not updated myself recently but is there a chance to bulk-upload/-download data to/from a public database? I wanted to prefill data for my users...
 
 
@@ -1252,7 +1253,7 @@ Indeed for 1st launch experience, we have the most recent “copy” inside of t
 |U03JRNE4KJL|:
 Still the question holds: can we bulk up/download to CloudKit somehow relaibly and fast?
 
---- 
+---
 > ####  Hey, I'm trying to use Core Data and CloudKit together. I want to push some data from the user's device to the CloudKit Public Database but every time I try, it uploads to the private database.
 
 
@@ -1311,7 +1312,7 @@ Sure thing, will do!
 |U03HYTN0AH4|:
 Thanks
 
---- 
+---
 > ####  Are there known issues with Xcode 14 first beta and iOS 16 Simulator for CloudKit? All my CloudKit apps crash on launch with this configuration. FB10094049
 
 
@@ -1321,7 +1322,7 @@ Sadly this is a known issue, but it should be fixed in seed 2
 |U03JLTMSAV7|:
 So I figured, thank you.
 
---- 
+---
 > ####  Does "Act As iCloud Account" in CloudKit Dashboard allows us to see our test user's data? When I log in to CloudKit Dashboard using a test iCloud account (not an Apple Developer member), I see "No Containers" message and an "Enabling CloutKit in Your App" button, but can I just click this button and expect to be able to see its private data, for example?
 
 
@@ -1350,14 +1351,14 @@ Developer Tools &gt; “CloudKit Console” as the area.
 |U03J1V9TNLT|:
 <@U03HZ1C3YKE> done FB10141541 Dashboard "Act As" state is lost when reloading the web page
 
---- 
+---
 > ####  In WWDC21, NSPersistentCloudKitContainer added support for sharing between different users. What is the expected sync delay? Is it possible to add SharePlay on top of that to reduce the delay?
 
 
 |U03JR9WQELV|:
 In most cases the sync will take a delay in seconds order of magnitude. The delay depends on a number of conditions, such as number of records, file size, network conditions, etc.  Share Play does not take a role in how NSPersistentCloudKitContainer shares data between users.
 
---- 
+---
 > ####  My production app using CloudKit and CoreData only seem to sync between devices (eg: Mac and iPhone) when I quit and relaunch the app. Or perhaps I'm not waiting long enough... Can you point me in the right direction for how I can better keep data in sync between devices while the app is running?
 
 
@@ -1448,7 +1449,7 @@ The CloudKit logging profile can be found here: <https://developer.apple.com/bug
 |U03K7L2F51P|:
 Yes, I'll do that
 
---- 
+---
 > ####  Hey everyone! What would be best practice to start and end sync with NSPersistentCloudKitContainer at runtime? So a user could toggle sync. I'm thinking of removing all stores and re-loading them setting the cloudKitContainerOptions appropriately.  Anything else I need to do? Like resetting the context?
 
 
@@ -1476,7 +1477,7 @@ This gives the user an explicit-cannot-be-confused-by-application-logic / store 
 |U03JBGPGQCF|:
 Thank you, that sounds like a perfect solution.
 
---- 
+---
 > ####  I have several thousands records in a public CloudKit database. The records are added daily and there is only a handful of new records every day. The new records are added by one central process outside of the actual iOS app. All app users need read only access to all the records. The iOS app is using NSPersistentCloudKitContainer to sync the Core Data store with the public CloudKit database. After watching the WWDC20 'Sync a Core Data store with the CloudKit public database' video I thought this sync methodology would work perfectly in the above scenario. Here is a quote from the presentation. "So we're only going to poll for changes on application launch or after about every 30 minutes of application use. And this is to ensure that we align the load of these requests with the actual usage of your applications. Of course, this does mean that the quality of freshness that you can expect from the public database will be noticeably different from the private database." In practice I encountered two issues: 1. The initial import of the records happens in batches. This is understandable since it balances the load on the CloudKit servers. However, the way the records are imported is not ideal. I had records created everyday from September to May. When the import process started users saw records from March appear in the app first. The other records were imported later. This was not ideal. I would like to have control on which records are imported first. In my scenario I would like the newest records to appear first in the application. This way users would not be confused why there are only old records visible in the app. It is much easier to explain to users that it takes time to import and that the older records are imported later, when the newest records are visible first.  2. From the above quote "poll for changes on application launch" - the poll for changes should ideally happen when application comes back to the foreground. Of course if the poll can be done only every 30 minutes, then it should be throttled accordingly. My point is that the moment when a user opens the app and looks at the data, the moment when the application comes back to the foreground, is critical from the user experience point of view and you want the data to be up to date as much as possible at this particular moment. Perhaps the app should be able to signal and ask for poll to be performed and the system would perform the poll for changes if other time related criteria are met?
 
 

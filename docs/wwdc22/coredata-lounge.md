@@ -4,9 +4,10 @@
 #### [emin@github](https://github.com/roblack) / [emin@twitter](https://twitter.com/emin_ui)
 #### [shirblc](https://github.com/shirblc)
 #### [tikimcfee](https://github.com/tikimcfee)
----
 
---- 
+
+
+---
 > ####  Can `NSPersistentContainer.viewContext` become `nil`? Container itself is properly retained in app's delegate so it is never released.   Trying to figure out why in our app `NSManagedObjects` are turned into a fault sometimes after they are being fetched from view context which in turn results in a crash.
 
 
@@ -59,7 +60,7 @@ but if you were to access a property on such an object, we would assert
 |U03JL18FUHH|:
 Thank you so much for your answers. Will investigate further and hopefully figure out what happens there (or figure out how to use query generations). :wave:
 
---- 
+---
 > ####  If my store description is pointing to a pre-seeded store that is in the bundle and I update that store in an update, will users still see the outdated store or will they start using the updated one?
 
 
@@ -81,7 +82,7 @@ Is there some other mechanism that caches data? I'd assume that whatever file th
 |U03HK7797D0|:
 You can tell `NSFetchedResultsController` to create a cache when you initialize it (the `cacheName:` parameter) but it should invalidate correctly in this circumstance
 
---- 
+---
 > ####  When using an `NSPersistentCloudKitContainer`, is there a download limit/throttle based on user count?
 
 
@@ -97,7 +98,7 @@ Or perhaps what the quota might be for synching data per user/month?
 |U03HMJ2P5MJ|:
 That’s a question for the CloudKit Q&amp;A / Labs.
 
---- 
+---
 > ####  I’m using NSPersistentCloudkitContainer along with shared record zones. Is there a simple way to get notified when something related to the CKShare changes? For example, permissions? I’d like my UI to update as soon as permissions change. 
 
 
@@ -107,7 +108,7 @@ No. You can file an enhancement request for this, but the existing way we see cl
 |U03J2019QTV|:
 Ok. Thank you. I have already filed the enhancement request. 
 
---- 
+---
 > ####  For cases when app doesn’t use CloudKit but uses sqlite file for synchronisation of data between devices. And app on different devices may have different CoreData model versions. CoreData automatically cleans all new attributes and entities when app with older model version opens db created by app with newer model version. Is there any way to open db in app with older model without data lost?  Thank you!
 
 
@@ -120,7 +121,7 @@ You'd have to either share the matching model with the file, or disable automati
 |U03HJA0EJ1G|:
 We'd usually discourage trying to share db files "back in time" with older versions of the app though.  There are a lot of assumptions about the data that an old version just won't know to handle
 
---- 
+---
 > ####  Are there circumstances in which a persistent store coordinator that has been successfully initialized could lose its persistent store? I've been getting occasional reports of crashes due to a save w/o a store, but I'm not doing anything to remove the store
 
 
@@ -154,7 +155,7 @@ or if you have some convenient excerpt of the logs, here.
 |U03J4DRK4SY|:
 if it comes up again, I'll definitely file a feedback, but I think the race condition is the most likely explanation
 
---- 
+---
 > ####  I'm syncing a local Core Data store with NSPersistentCloudKitContainer to CloudKit to the public database. But I don't want my users to be able to make changes to the public database. I have a command that's only available when running my app in Xcode that lets me update the public database. Is it possible that a user could edit the .sqlite file directly and cause the public database to be synced with their changes? I've been playing around with roles on the CloudKit dashboard, but I'm not sure exactly what to do to prevent users from changing the public database.
 
 
@@ -204,7 +205,7 @@ I’m going to have one of my beta testers test it out with their account to see
 |U03JENQA0TB|:
 Ah that’s a good thing to look out for. To make sure it doesn’t get stuck trying to write.
 
---- 
+---
 > ####  I see some unexpected behaviour with NSPersistentCloudKitContainer, where out of date data is displayed, or data seemingly goes missing, etc..  1. What is the recommended Merge Policy? I use `.mergeByPropertyObjectTrump` but I'm not sure if it should be `.mergeByPropertyStoreTrump`, or something else?  2. Are there any side effects if `setQueryGenerationFrom` is never called?  3. Are there any side effects if the persistent history transactions aren't cleaned up (other than disk usage)  Thanks!
 
 
@@ -214,7 +215,7 @@ Ah that’s a good thing to look out for. To make sure it doesn’t get stuck tr
 3. There are no side effects but you could potentially cause a reset sync if you destroy history and the experience may seem broken. We discourage purging history.
 
 
---- 
+---
 > ####  I'm at a design/ experiment stage with my app which previously used Filemaker, and migrating it to CoreData. Am I insane to be thinking that I may want to have multiple, separate persistent stores?
 
 
@@ -284,7 +285,7 @@ or "pre canned assets shipping with app" vs "user generated content"
 |U03J9P3A03V|:
 I have 6 years of data in Filemaker, which I can now migrate fairly easily into CoreData. I think I’ll try looking at performance with separate stores vs with entities that don’t have a relationship.  Thanks for the insights.
 
---- 
+---
 > ####  Can a @FetchRequest in SwiftUI refresh the view if a relationship object is updated ?  If A have a to one relationship to B. If my view have a @FetchRequest of [A]. When I make an update to B, can the @FetchRequest reload the SwiftUI view to show the changes from B ?
 
 
@@ -294,7 +295,7 @@ I have 6 years of data in Filemaker, which I can now migrate fairly easily into 
 |U03JJAEKX4H|:
 Thanks for the suggestion ! That’s what I have been looking for !
 
---- 
+---
 > ####  Is accessing a CloudKit DB supported yet for users that don't have an iCloud account? I'd like to use CloudKit for my next iOS application but I know some of my users don't use iCloud. Thank you!
 
 
@@ -313,7 +314,7 @@ I think that's a question for the CloudKit team.  AFAIK private databases requir
 |U03J20RCBKM|:
 Great, thank you!
 
---- 
+---
 > ####  With NSPersistentCloutKitContainer  seem to focus on one particular aspect. Is there any possibility of a "source of truth" sample project, which demonstrates:  * Best practice for apps with multiple extensions, sharing data * All the nitty gritty details, such as merge policies, data deduplication * Best practices for informing users when sync events are occurring, or the progress/status of sync * Best practices for handling errors (e.g. quota exceeded) so the user can be notified accordingly  There just seems to be a lot of gotchas in the default setup and the solutions aren't obvious.
 
 
@@ -427,7 +428,7 @@ Thanks - I’ll be watching!
 
 (just submitted FB10080236)
 
---- 
+---
 > ####  Is there a way I can unarchive `CD_moveReceipt` object created when doing cloudkit share so I can see the contents inside it. This is for the custom implementation of the sync behaviour that uses the same schema/data that is generated on Cloudkit by CoreData.
 
 
@@ -448,7 +449,7 @@ No, your implementation should not attempt to mutate it. If it is present on a r
 |U03JEN2SZT7|:
 Sure, thanks.
 
---- 
+---
 > ####  Does @FetchRequest in SwiftUI have all of the functionality of an NSFetchedResultsController? Or should I use NSFetchedResultsController in SwiftUI
 
 
@@ -473,7 +474,7 @@ I had wondered if SwiftUI imposed limits in the fetchrequest based on knowing ho
 |U03HK7797D0|:
 if you tell SwiftUI to track the state of a billion rows it will die trying
 
---- 
+---
 > ####  Any best practices for a Core Data sqlite store in an app group directory where an app and extensions can read and write? This setup leads to rare crashes probably related to multiple processes doing something concurrently.
 
 
@@ -541,7 +542,7 @@ Okay thank you. We don't have that currently. Widgets and other extensions can a
 |U03J90D8Q0Y|:
 Is it possible to make it so only the application does the replacement, and if the widget/extension notices a need for replacement, the user is messaged that the application needs to be opened
 
---- 
+---
 > ####  Can a pre-made store be used as the store description for SwiftUI previews? If I want to have different previews show different possible states, can I somehow use different test stores?
 
 
@@ -557,7 +558,7 @@ I tend to have one or more helpers that construct an in-memory store with the te
 |U03HK7797D0|:
 Again, I haven’t tried it but it should work!
 
---- 
+---
 > ####  I have an app that uses CoreData and NSPersistentCloudKitContainer. Currently, receiving record updates via CloudKit in the background while the app is inactive results stale data being displayed via my apps widget and local notifications. This is time sensitive information to the user and results in a poorer user experience. Is it possible to increase the processing queue priority for record updates that happen in the background? Can we manually request an update in a widget process?
 
 
@@ -627,7 +628,7 @@ I have an `NSFetchedResultsController` that monitors for new changes to the data
 |U03HMJ2P5MJ|:
 I’m not sure we can tell without a reproducible example.
 
---- 
+---
 > ####  If I know I'll be sharing an entire Core Data database, should I set the `databaseScope` to `.shared` right from the get go? Or can you migrate a `.private` database to be shared after the fact? My app can have multiple database documents, each with their own .sqlite store, so I want to share the entire thing, not just individual records. Different database documents could be shared with different people too.
 
 
@@ -709,7 +710,7 @@ But that’s not beyond its capabilities.
 |U03JENQA0TB|:
 Ah cool. Ok thanks. Looking forward to giving this a go.
 
---- 
+---
 > ####  Is there a rule of thumb for when to use @FetchRequest versus fetching data as a @Published variable in some @ObservableObject?
 
 
@@ -760,7 +761,7 @@ Thanks, I'll take a look into derived attributes. I am not familiar with them.
 |U03HK7797D0|:
 <https://developer.apple.com/documentation/coredata/nsderivedattributedescription|Here are the docs>, the short intro is you can think of them as denormalization automatically managed by Core Data.
 
---- 
+---
 > ####  What would be the best strategy to add unique constraints to entities stored through CoreData in CloudKit? It can be done "locally" but not for entities in CloudKit (unless that has changed this year?)
 
 
@@ -803,7 +804,7 @@ Ok, part of the right solution. I only consume history from CloudKit…
 |U03JFQ1BQMA|:
 Will work on that, Thank you!
 
---- 
+---
 > ####  Do you have guidance for how to implement NSPersistentCloudKitContainer such that you can make fetch requests in your widget and update it when data changes on different devices? Eg, move your database to a shared app groups and then how do you get informed when it sync in the background to trigger reloading the widget?
 
 
@@ -850,7 +851,7 @@ I may need to set up a lab to discuss this in more detail :sunglasses: would you
 |U03HMCT187R|:
 Or WidgetKit :laughing:
 
---- 
+---
 > ####  Can you give any hint why saving to CoreData in a background thread sometimes fails with these NSPersistentStoreCoordinator errors. Or which circumstances can lead to this error? Because this only happens on iOS 14.  [NSPersistentStoreCoordinator _coordinator_you_never_successfully_opened_the_database_so_saving_back_to_it_is_kinda_hard:] [NSPersistentStoreCoordinator _coordinator_you_never_successfully_opened_the_database_io_error:]
 
 
@@ -869,7 +870,7 @@ we can't save from a background thread before loading / adding the store is done
 |U03JG18LGAG|:
 Thank you for your input. In the crash reporting I can see that some devices still have free disk space so I would rule that out. The asynchronous work start before the loading finishes sounds interesting, I will have a look into that!
 
---- 
+---
 > ####  When creating a new version of my model, I added a new entity and a fetched property pointing to it from an existing entity. Each live in a separate configuration which is why I need the fetched property. When doing a lightweight migration, loadPersistentStores seems to crash with error "Can't use fetch request with fetched property description (entity model mismatch)". Is that a bug I should report or expected behavior? If so, how can I successfully migrate between the two models?
 
 
@@ -892,7 +893,7 @@ It would probably be easier to not use a modeled fetched property and instead cr
 I do have two `NSPersistentStoreDescription` in my container but yes I guess the local store is being migrated first and it has no knowledge of the other store's existence.
 I ended up doing the NSFetchRequest as you suggested but wanted to sense check my approach.
 
---- 
+---
 > ####  Do you have any idea how a lightweight migration could fail (but only occasionaly in some cases). It fails in the [NSPersistentStoreCoordinator migratePersistentStore:toURL:options:withType:error:] method and apparently because of: [__NSArrayM replaceObjectAtIndex:withObject:]: object cannot be nil.  I am confused because this is not 100 percent reproducible and the migration runs fine on some devices so the migration setup does not seem incorrect per se.
 
 
@@ -911,7 +912,7 @@ There is also a session on lightweight migration on Thursday if you want to chec
 |U03JG18LGAG|:
 I already bookmarked it and look forward to it :+1:
 
---- 
+---
 > ####  If I have a relationship between two Entities where Entity A - Entity B and I want to create and append a new instance of Entity B to an instance of Entity A (where some property on type A == some property declared on entity type B), is there a preferred way or even, place, to do this?  My gut is telling me to create a function on some kind of CoreDataController class that will accept an argument for Entity type B that is being appended to an Entity type A record and then apply some conditional inside the function that will check to see if this can be appended. Or, would this kind of function be placed in a ViewModel for Entity B?
 
 
@@ -1084,7 +1085,7 @@ Okay, so good to play around then and see what works best with my current model 
 |U03K1TMNVMF|:
 I'm sorry, as I said before, I like to know the preferred methods and I can just get stuck down in the not always necessary details!
 
---- 
+---
 > ####  Do you have any tipps how to debug and get additional information out of a [NSPersistentStoreCoordinator _introspectLastErrorAndThrow] error. Or is it "to late" if this error happens and the store setup is in an inconsistent state in general?
 
 
@@ -1103,7 +1104,7 @@ Only the xccrashpoints
 |U03HJA0EJ1G|:
 Hmm I think those have crash reports if you open up the bundle
 
---- 
+---
 > ####  I am not sure of this is the right place for the question because it has also to do with the WidgetKit life cycle. So before performing reads/writes we always check first if a migration is necessary. So in our Widgets we start this migration in the init method of the TimelineProvider and not necessarily wait in the life cycle methods for the migration to finish. Do you think this is error-prone? Would it be better to check the migration in every life cycle method separately, because then we could wait there for the migration to finish before performing reads/writes. By writing this I think I have answered it myself. But I would be interested in your feedback as well.
 
 
@@ -1143,7 +1144,7 @@ so you could just let migration happen asynchronously and only attempt to save i
 |U03JG18LGAG|:
 The migration happens already asynchronously on a different queue with the barrier flag. I think that waiting for it to finish could be the missing link.
 
---- 
+---
 > ####  Hi, I’m wondering if the best practice when using NSPersistentCloudKitContainer is to never purge the Core Data persistent history. The documentation for persistent history tracking talks about purging history to reduce storage usage, but that you obviously need a single gatekeeper to determine the oldest history to keep. The NSPersistentCloudKitContainer example projects process persistent history but never attempt to purge any. I see that I might be able to use NSPersistentCloudKitContainer.Event to get a date/time when a sync occurs but I’m not confident this is a wise choice.  For my app that will likely have 10-15 “rows” added each day (each with 7-10 integer/double/string “fields”) where there’s a small chance those might be updated / deleted in the future, should I just not worry about purging persistent history? What about a hypothetical app where we’re doing thousands of INSERTs/UPDATEs/DELETEs each day?
 
 
@@ -1159,7 +1160,7 @@ You can.  I'd suggest a very large buffer period, though.
 |U03K7L8PUGZ|:
 Ok, thanks!
 
---- 
+---
 > ####  Just got into NSPersistentCloudKitContainer so haven't been able to try it out. Does NSPersistentCloudKitContainer also perform lightweight migrations automatically?
 
 
@@ -1175,7 +1176,7 @@ We love to hear it!
 |U03HWU7EYBB|:
 <@U03J2GNP82E> if you have any followup questions, feel free to ask here or with another workflow submission!
 
---- 
+---
 > ####  Hi ... thanks for the talk. I've been using Core Data for a few years, and from what I remember, if we wanted to update our data model, we had to create a new 'version' of the data model, make our changed there, and select the new version in the model  properties, before lightweight migration would work. At what point was that behavior changed so that we don't need to create a new version anymore? Are there any benefits for creating a model version?
 
 
@@ -1191,7 +1192,7 @@ Thanks. But I'm still curious about this ...  from what I remember (and I may be
 |U03HZ2VBE21|:
 Apparently this changed in WWDC15, around iOS9!
 
---- 
+---
 > ####  How efficient is the Core Data migration process, in terms of time and memory? For e.g. if we have a million entries in our store, and we run lightweight migration to add a couple of attributes to an entity, will it load them all into memory at the time of migration to update each row?
 
 
@@ -1225,7 +1226,7 @@ One more thing about this ... would creating a new relationship (whether one-to-
 |U03HMJ2P5MJ|:
 I wouldn’t expect so. Column adds are free and table adds are too.
 
---- 
+---
 > ####  Hey there, I have a question regarding the staged lightweight migrations. How can we actually interpose code between migrations, like shown at around 09:33? Is there a way to get the model version numbers of the models between the current and the newest, so that we can create a loop to apply one migration wirth additional code after another?
 
 
@@ -1253,7 +1254,7 @@ Alright, thank you :blush: This approach sounds very interesting, especially bec
 |U03JEEUJPMJ|:
 [Removed by self]
 
---- 
+---
 > ####  Does adding indexes to existing attributes also force a lightweight migration to occur?
 
 
@@ -1269,7 +1270,7 @@ Yes, this would cause a hash change.
 |U03J90D8Q0Y|:
 You can also bump the models version hash with your own custom identifier to trigger the migration as well
 
---- 
+---
 > ####  It seems like lightweight migration has quietly got a lot more capable over the years… is that correct? I’ve had to do some heavier migrations in the past with my data model, e.g., when moving from a grandparent-parent-child relationship to a direct grandparent-child relationship... Wondering if that is an example of something that could be achieved by a lightweight migration (if I wasn't now also using NSPersistentCloudKitContainer).  Is there further written documentation somewhere of the kinds of migrations that lightweight migration is well set up to take on, building on the ideas in this talk?
 
 
@@ -1285,7 +1286,7 @@ As well as changing relationships, (adding, deleting, etc).
 |U03HFC8U0J1|:
 The official documentation is here: <https://developer.apple.com/documentation/coredata/using_lightweight_migration>
 
---- 
+---
 > ####  Hello! One of my apps, which has evolved more and more over time i.e. more and more attributes getting added to the Core Data model without much thought, now has a Core Data Model of over 150 items. This causes a caution in Xcode. Is there a safe way to divide all of this up to reduce the stress on the Core Data model while keeping user data safe? Thanks :D
 
 
@@ -1295,7 +1296,7 @@ Hi! You should be able to divide up the model using the lightweight operations I
 |U03HVE4TV8E|:
 That’s fantastic! Really appreciate the response! :D
 
---- 
+---
 > ####  In the Session, Xcode “Arguments Passed On Launch” Core Data debug features are shown (at ~15:31). I never knew these existed!! Is there a list on Apple Developer of these arguments?
 
 
@@ -1310,7 +1311,7 @@ Thank you so much! :D
 |U03HWU7EYBB|:
 If you file a Feedback, feel free to drop the Feedback ID here and I’ll pass it along!
 
---- 
+---
 > ####  If I am using an NSPersistentCloudKitContainer and manually assign persistent store descriptions with history tracking and remote change notification options, will the container still handle migrations automatically? Or do I need to additionally include the migrate and infer mapping options to my descriptions?
 
 
@@ -1323,7 +1324,7 @@ Sure, that makes sense. I've made the proper changes to my CloudKit schema, but 
 |U03HFC8U0J1|:
 If you’re using NSPersistentStoreDescription or NSPersistent[CloudKit]Container, the options are automatically added for you.
 
---- 
+---
 > ####  Is this possible to load db created with newer model version in app with older version without light weight migration? If disable migration NSMigratePersistentStoresAutomaticallyOption = false it just fails to load store. Thank you!
 
 
@@ -1339,7 +1340,7 @@ You can provide your own mapping model
 |U03J90D8Q0Y|:
 And drive a custom migration with your own NSMigrationManager
 
---- 
+---
 > ####  I am in the very final stages of finishing up a SwiftUI app that uses core data with cloudkit. I was wondering if there is guidance on error handling when loading the persistent store? Is there a list explicit errors that I should handle beyond the generic info that is in the comment when I created the app?
 
 
@@ -1349,7 +1350,7 @@ One error code that you should definitely handle is `NSPersistentStoreIncompatib
 |U03K7P8CHKJ|:
 Thank you! In beta testing, I've not run into any errors with loading the store (which I've been super pleased with). I appreciate the help!
 
---- 
+---
 > ####  Is there a built-in way to encrypt and decrypt a local Core Data store so it's encrypted at rest on macOS and iOS? I know on iOS file system security plays a role when the device is locked. But not on macOS. And if someone wanted to send someone else an encrypted version of their database, they wouldn't want anyone else to get access to it other than the person they shared the key with.
 
 
@@ -1365,7 +1366,7 @@ In the current version of my app, it uses CouchbaseLite, but I’m migrating it 
 |U03HK7797D0|:
 Unfortunately there’s no API for this. I don’t recommend mixing a custom build of SQLite into your process for Core Data to use, it will cause more problems than it will solve.
 
---- 
+---
 > ####  We're changing our core data model and will be moving some properties to separate entities. Since these properties have been deployed to CloudKit Production they can't be removed there. But is it ok to remove them in the Core Data model? Or is it recommended to keep them, even if they're no longer used?
 
 
@@ -1396,7 +1397,7 @@ But there is no technical restriction on it.
 |U03JRPFE82C|:
 Got it. Thanks!
 
---- 
+---
 > ####  Are there any sample apps that showcase SwiftUI along with CoreData + CloudKit synchronization with .private, .shared, as welll as .public database?
 
 
@@ -1417,7 +1418,7 @@ Of course! Feel free to reply with your Feedback ID for us to look into if you g
 |U03JMMN8659|:
 Alright, sent at FB10138481
 
---- 
+---
 > ####  Is there a Code sample for Staged Lightweight Migration? I came up with my own solution to do that, but now I'm wondering if this talk means there's a conventional solution.
 
 
@@ -1427,7 +1428,7 @@ We do not have one.
 |U03HVDY9F2A|:
 All right then! Thanks <@U03HFC8U0J1>
 
---- 
+---
 > ####  I wrote the following code in order to merge changes from the backgroundContext into the viewContext:  --------- func mergeChangesAutomatically() {     NotificationCenter.default.addObserver(forName: .NSManagedObjectContextDidSave,                                            object: nil,                                            queue: nil, using: { notification in         guard let context = notification.object as? NSManagedObjectContext, context != viewContext else { return }          viewContext.perform {             self.viewContext.mergeChanges(fromContextDidSave: notification)         }     }) } ---------  Is this code necessary? Changes made to the backgroundContext shows up in the viewContext even without this code, so I was wondering if this is actually needed.
 
 
@@ -1440,7 +1441,7 @@ I'd add that `automaticallyMergesChangesFromParent` only covers changes within t
 |U03HJA0EJ1G|:
 similarly, batch operations don't post notifications, so they would also need to be pulled from history.   However they are typically unusual enough that folks often simply ask their fetched results controller to refetch (or they view fetch again) instead of merging
 
---- 
+---
 > ####  Hi. I've read that both Voice Memos as well as Images (Pictures) should be stored outside of CoreData (FileManager) with only saving references of these in CoreData for performance reasons. A) Is that true? B) (How) Can I still lock the whole storage of the app behind a passcode/FaceID/TouchID?
 
 
@@ -1487,7 +1488,7 @@ Alright, thanks for the clarification and again sorry for the confusion! With th
 |U03JENQA0TB|:
 I store files in a separate Media entity and the blob is set to use external storage. That way it makes sync much easier. You don't need to manually manage syncing of an external set of files. Plus it eliminates file name conflicts since the file name is stored in a property of my Media entity. 
 
---- 
+---
 > ####  The NSPersistentHistory feature seems designed for syncing with CloudKit. Is it still an appropriate use of persistent history to work with a custom syncing solution not based on CloudKit?
 
 
@@ -1521,7 +1522,7 @@ COREDATA_EXTERN NSString * const NSPersistentStoreRemoteChangeNotification API_A
 |U03J1UX2CQK|:
 Neat. I've been exploring those for the purposes of disconnecting my custom sync management from existing code which deals with modifying objects, but I'll definitely keep them in mind when we start to add more external processes/extensions. Thanks!
 
---- 
+---
 > ####  I'm using a constraint in the data model for deduping, so I don't have to worry about whether a record already exists at the code level before creating the managed object and saving the context. So far it's working great, but I notice I now get a lot of Objective-C exceptions fired due to the constraint. Does this mean I'm doing it wrong? Should I first fetch to see if the record already exists before creating the managed object and saving? I figured that would be a performance hit but the exception makes me think I should avoid triggering this constraint at the database level.
 
 
@@ -1540,7 +1541,7 @@ yes, those are ours for our internal flow.  You should see anything needed repor
 |U03JZ8P3726|:
 :thumbsup: sounds good, I don’t remember seeing any errors coming from the API, so it sounds like I’m good. thanks!
 
---- 
+---
 > ####  Is an NSManagedObjectID's URI guaranteed to be unique across devices (as much as one can expect from a random UUID) assuming the default NSPersistentStore implementation is used?   I see that it currently is represented by the store ID (which is a UUID by default, documented by Apple to be globally unique), the table name, and an integer. Is this uniqueness guaranteed? Are IDs reused if an object is deleted?
 
 
@@ -1565,7 +1566,7 @@ we don't reuse PK after deletions
 |U03J1UX2CQK|:
 Yeah, the UUID thing is what I'm doing now. Was just sort of curious, since it might simplify some code. This is very helpful!
 
---- 
+---
 > ####  I'm suffered by error -134030 on saving managed object. Once this error happens, no objects are saved and it seems no way to recover other than restarting the app. It's appreciated to let me know how to recover from this state, or how to avoid this error.
 
 
@@ -1581,7 +1582,7 @@ I'd start with a breakpoint and introspecting the NSError object itself
 |U03HJA0EJ1G|:
 you can also file a feedback report with a sysdiagnose after reproducing the error and we can take a look at the logs
 
---- 
+---
 > ####  Hello everyone! Thank you for keeping this workflow enabled for us here in Europe.  In our project we started using Core Data Context alongside NSOperations. We want every remote data we fetch to be stored locally for offline usage. After a lot of reading and trial&amp;error we ended up having each Operation to create their own instance of Context that inserts/updates objects based on the network response and saves them at the end.  My question is, if we want to display these new data on screen to the user and given that you are not allowed to pass objects between threads, what's the best practise in this case? To load objects from local using the main context (UI thread) after the remote fetch was successful? Or, to pass the objectIDs from that Operation's context back to main and from there to do `object(with objectID: NSManagedObjectID)`? Thank you.
 
 
@@ -1591,7 +1592,7 @@ NSManagedObjectContext uses its own dispatch serial queue, so you don't HAVE to 
 |U03HJA0EJ1G|:
 for merging the changes back, usually folks use `automaticallyMergesChangesFromParent` or `mergeChangesFromContextDidSaveNotification`
 
---- 
+---
 > ####  What's the recommended way to store an image in Core Data? Store a URL in an entity to a file on disk? Transformable data within the entity? An entity relationship to another entity that just stores the data, like the NSPersistentCloudKitContainer sample app uses? What are some of the tradeoffs to consider for the above methods or any other methods I'm not thinking of?
 
 
@@ -1610,7 +1611,7 @@ I've had success with "Allows External Storage" using the pngData from the image
 |U03J1UAEU4B|:
 Thank you!
 
---- 
+---
 > ####  I have a Book entity that has attributes for the Date it was (1) checked out from the library and its (2) due date. I’d like to fetch entities and sort them by the *percent* of remaining time. I this possible to do with derived attributes?
 
 
@@ -1624,7 +1625,7 @@ Thank you <@U03J90D8Q0Y> ! I see on &lt;NSDerivedAttributeDescriptionhttps://dev
 |U03HJA0EJ1G|:
 unfortunately at the moment you'd need to update an attribute like this yourself within a custom setter or a notification like `NSManagedObjectContextWillSaveNotification`
 
---- 
+---
 > ####  Apologies if this is a total newbie stupid question, But is there any reason why an NSBatchInsertRequest might fail due to reading in optionals? I'm doing my own version of reading in a JSON file and manage to populate it successfully, but am failing to get the data into CoreData
 
 
@@ -1717,7 +1718,7 @@ Sorry, I think I’m confusing a display of the creation date, so let’s leave 
 |U03HJA0EJ1G|:
 Time is an illusion, except coffee time, which is very real
 
---- 
+---
 > ####  Is it possible to rename an existing Entity and create a new Entity with existing Entity's old name? The two entities don't share the same attributes. Is just that we gave to that Entity a not so relevant name at the beginning. Thank you
 
 
@@ -1731,7 +1732,7 @@ This would mean that you’d need two separate model changes.
 |U03HFC8U0J1|:
 I would recommend you check out the session “Evolve your Core Data schema” from WWDC ’22. It addresses this exact topic.
 
---- 
+---
 > ####  Is there any danger to marking an attribute as Optional in the CoreData model editor, but non-optional in the generated NSManagedObject subclass?  Related: is it ok to replace all NSSet relationships in the subclass with Set&lt;Type and read/write directly - instead of using the generated accessors?
 
 
@@ -1778,7 +1779,7 @@ Collin: this seems like more of a feedback report (with a reproducing project) a
 |U03HK7797D0|:
 all the more reason to track it officially!
 
---- 
+---
 > ####  Say NSPersistentCloudKitContainer is being used and a sync hasn't happened for a while and the sqlite is full of change records that contain column IDs. When a migration happens are all those change records containing column IDs updated too? E.g. even if a field is inserted rather than appended to the model that would make all the previous change records invalid. Is there any thing we should be careful about in this scenario?
 
 
@@ -1790,7 +1791,7 @@ For example, if you changed an object, say the `name` attribute, and then perfor
 |U03HMJ2P5MJ|:
 Adding an attribute doesn’t have that affect. All of the preceding changes are still valid and will be in the history tracking tables. In that case NSPersistentCloudKitContainer would still have work to do to export those changes.
 
---- 
+---
 > ####  I'd like to have a clear separation between my core data stack (NSManagedObjects) and my View layer, therefore I'd like to map my NSManagedObjects to structs along the way and still have faulting in place as well as the possibility to animate changes in my collection views. Diffable data sources accomplish that by only binding the ObjectIDs to the collection view so that the faults do not fire. Can you give me an advice how to accomplish that separation? The only thing I think that might work is to set a batch size for my fetch requests, but that feels a little odd since in a perfect world I feel like the fetch request should not know that it needs to have a batch size because its items have to be shown in a collection view.
 
 
@@ -1824,7 +1825,7 @@ but there’s a lot of potential gotchas around accidentally defeating the lazin
 |U03JHD6Q60H|:
 Forgot to say that I am also using a FRC in my view model (what probably a @FetchRequest is also using under the hood?) but wasn't sure if I can use a lazy map collection without the faults firing since the diffing of a List or a DiffableDataSource probably needs to have access to all of the objects to do it's thing?
 
---- 
+---
 > ####  In my CoreData model, I have a “name” field that’s nil by default. Users can choose to set a name or leave it blank. I’d like to offer a “sort by name” option in my List, but the nil names are all sorted to the beginning of the list and I’d like to put them last — is there any way to do this with FetchRequest? Smarter predicates, computer property, groups, anything?
 
 
@@ -1873,7 +1874,7 @@ Hence Nick’s suggestion to use a computed/transient property to translate `nil
 |U03HVF46TEJ|:
 Ah I see. That seems like a… risky approach with a NSFetchedResultsController and table view but I could see it working fine in SwiftUI. Thanks!
 
---- 
+---
 > ####  The Synchronizing a local store to the cloud sample project created a separate entity ImageData with a data attribute which is optional binary data that allows external storage, and the Attachment entity has an imageData relationship, in order to store images. In my app I achieved this using a different approach - I simply added an attribute inside only entity (again optional binary data which allows external storage). I was wondering why the sample code did this, and what would be the differences you could expect between these different setups (specifically for using Core Data + CloudKit with NSPersistentCloudKitContainer if relevant)? Thanks!
 
 
@@ -1896,7 +1897,7 @@ Neat thanks! Sounds like I screwed up modeling my data :joy:
 |U03J1UAEU4B|:
 I also found this explanation super helpful, thank you!
 
---- 
+---
 > ####  I have a Notes entity with a ‘noteDate’ attribute (of type Date) that tracks when a note was saved, using the timestamp. I want to now group all the notes by their actual ‘date’ (e.g. 06-10-2022), so that Charts can show a timeline with how many notes were saved each day. I just need a ‘count’ for each date. What’s the best way to do this?
 
 
@@ -1933,7 +1934,7 @@ Sure but why wouldn’t you just do a lightweight migration to add the new colum
 |U03HZ2VBE21|:
 Yep, that's probably a good idea. I just have to figure out the details of one-time upgrades with my custom sync engine, so that's more work for me! :smiling_face_with_tear:
 
---- 
+---
 > ####  I've been working with coreData on my first app... but I didn't hook it up to CloudKit yet. I'm not interested in the user sharing data to others but I do want syncing between devices. Do I need CloudKit to do this? Or is there another way? And where would I go to research this?  Thanks :)
 
 
@@ -1954,7 +1955,7 @@ Makes sense. CloudKit sounds like the way to go (over manual). Just wanted to co
 |U03JRPWSDJ4|:
 Perfect. Adding that to my TODO right now :slightly_smiling_face:
 
---- 
+---
 > ####  Migration decomposition is an interesting idea. What are the performance implications of having multiple lightweight migrations vs. doing a manual migration?   (Clearly, it avoids a developer taking on the complexity of learning how to do a heavyweight migration, but apart from that...)
 
 
@@ -1967,7 +1968,7 @@ unless you have a small data set, I'd tell you to simply never do a heavyweight 
 |U03HJA0EJ1G|:
 Lightweight migrations are built around functions like ALTER TABLE to the maximal extent possible, and composing them is still pretty efficient
 
---- 
+---
 > ####  I've watched the WWDC videos on NSPersistentCloudKitContainer over the last few years but haven't dug in deeply myself yet. One question - my Core Data model is somewhat relationship heavy (7 entities with relationships between many of them). I don't have sync yet but am considering adding it. Does NSPersistentCloudKitContainer handle that level of relationships well? Are there considerations I should think about when considering adding syncing? The sample app only had 3 entities with relatively straightforward relationships.
 
 
@@ -1983,7 +1984,7 @@ But you should explore how it will sync with the data generator approach I talke
 |U03J1UAEU4B|:
 Thanks - I will do that!
 
---- 
+---
 > ####  What happens if 2 apps running at same time are using the same  NSPersistentCloudKitContainer with a store file in an app group and both try and sync?
 
 
@@ -1993,7 +1994,7 @@ generally just one process in the associated app group should be responsible for
 |U03J1V9TNLT|:
 For anyone else interested there is more info in this thread: <https://wwdc22.slack.com/archives/C03GSLDRB4P/p1654885880293989?thread_ts=1654885781.398129&amp;cid=C03GSLDRB4P>
 
---- 
+---
 > ####  SwiftUI &amp; Core Data: how can we pass FetchedResults&lt;T for Previews?
 
 
@@ -2020,7 +2021,7 @@ struct ContentView_Previews: PreviewProvider {
 |U03J20KFJG3|:
 All right thanks. This is what I was thinking about.
 
---- 
+---
 > ####  Hello CoreData Team, I missed the last Q&amp;A. Really want to know how to store [Color] array into Transformable? Thank you :)  Sample: [AccentColorProvider(), AccentColorProvider(), AccentColorProvider(), AccentColorProvider(), AccentColorProvider(), AccentColorProvider(), AccentColorProvider(), &lt;CGColor 0x2813e8e40 [&lt;CGColorSpace 0x2813dd920 (kCGColorSpaceICCBased; kCGColorSpaceModelRGB; sRGB IEC61966-2.1)] ( 1 0.8 0 1 ), AccentColorProvider()]
 
 
@@ -2113,14 +2114,14 @@ That’s the type of issue we can’t really spot without a more detailed descri
 |U03HVCK66P8|:
 I see. Anyway thank you :slightly_smiling_face:
 
---- 
+---
 > ####  Is there a way to disable NSPersistentCloudKitContainer from automatically syncing? If you want a widget to only read from the database as opposed to it trying to perform sync as well.
 
 
 |U03HMJ2P5MJ|:
 Your widget should load the store without an instance of NSPersistentCloudKitContainerOptions set on the store description.
 
---- 
+---
 > ####  Any plan to add FTS support to Core Data in the near future?
 
 
@@ -2187,7 +2188,7 @@ I *think* you'd need to tell spotlight you want to delete them, as opposed to sa
 |U03JENQA0TB|:
 Ah. But that would be out of my control outside the app, so I just wanted to make sure that situation was handled. I’m guessing then the only way to properly delete from Spotlight would be to keep around another database that keeps track of a list of package bundles and if one is missing on the system when my app launches, then to tell Spotlight to delete the corresponding index where ever it keeps them. Does that sound right? Too bad I can’t bundle the index inside the package.
 
---- 
+---
 > ####  Hey Patrick, thanks for the Q&amp;A.  We hear a lot of bad things about parent and children entity (Core Data creates a unique table with all the attributes from all the children entities in this one table).  Could you clarify when it's ok to use parent/children entities and when it's recommended to avoid them? What tips can we use to help us choose?  For example, if I have an generic expense, and a fuel expense (with specific attributes to track the volume purchased, etc): should I create parent/children, on instead use relationship between an Expense entity and a FuelMetadataEntity (or other more specific metadata per expense category for exemple)?
 
 
@@ -2224,7 +2225,7 @@ But you probably wouldn't model ExpenseReport and UserAccount as the same inheri
 |U03J20KFJG3|:
 Thanks <@U03HJA0EJ1G> for this thread! Really helpful. I did not have the intention to model my schema on generic attributes such as id or createdAt etc. But your tip on the single fetch makes a lot of sense.
 
---- 
+---
 > ####  We're doing advanced migration using a mapping model and custom policies. Is it recommended to add support for migrating both ways, both upgrade and downgrade versions? Or is that considered unnecessary?
 
 
@@ -2249,7 +2250,7 @@ it's basically pandora's box
 |U03JRPFE82C|:
 Thanks for the extensive response <@U03HJA0EJ1G>. Really appreciate it. I'll skip downgrade support for now and see where that takes us. Thanks! :man-bowing:
 
---- 
+---
 > ####  I seem to have gotten mixed answers in regards to how to add a widget to an app that uses NSPersistentCloudKitContainer. If you move the database to app groups so app and widget can access it, there's two approaches I thought you could use to try to keep it up-to-date: reload the widget when the app updates the db and/or let the widget try to update itself for example by letting sync occur when the getTimeline function is executing. But a message here implied the widget should not allow syncing otherwise it'll conflict with the app sync. Can you provide clarifying direction on how you should approach implementing a widget that needs data from NSPersistentCloudKitContainer? Thanks!
 
 
@@ -2280,7 +2281,7 @@ Super good to know thanks!
 |U03HMJ2P5MJ|:
 So the letter-of-the-law is that the app process gets the `NSPersistentCloudKitContainerOptions`, the widget does not.
 
---- 
+---
 > ####  Is there a Code Sample showcasing editing items in a child context in SwiftUI? How would you do that? I came up with a solution where I condition a sheet on an optional item containing the object to edit and the child context, past in the environment).
 
 
@@ -2328,7 +2329,7 @@ I could still use a State in the SubView for both the object and the context, bu
 |U03HK7797D0|:
 Why won’t it work? The child context has the same view of the store as its parent, plus whatever the child context has dirtied
 
---- 
+---
 > ####  Is it possible know the last sync time of CoreData+CloudKit? Any chance we can 'force fetch' the data from iCloud DB?
 
 
@@ -2344,7 +2345,7 @@ Okay
 |U03HVCK66P8|:
 :pray:
 
---- 
+---
 > ####  I have a few warnings in my build logs like these:  "FileAttachments.fileProperties is using a nil or insecure value transformer. Please switch to NSSecureUnarchiveFromDataTransformerName or a custom NSValueTransformer subclass of NSSecureUnarchiveFromDataTransformer [2]"   What's the best way to update this? Just change the transformer name in model editor to 'NSSecureUnarchiveFromDataTransformer'? Does it affect existing data saved in that attribute, or force a lightweight migration?
 
 
@@ -2390,7 +2391,7 @@ You can just pass it though your value transformer by calling `transformedValue`
 |U03HMJ2P5MJ|:
 If it blows up you found the issue
 
---- 
+---
 > ####  Will NSManagedObjectID be sendable?  What is the recommended way to move object IDs from an NSAsyncronousFetchResult to surface the results into swift concurrency?
 
 
@@ -2400,7 +2401,7 @@ please file a feedback report.  NSManagedObjectID should be sendable
 |U03KC4LFL64|:
 Perfect.  Thank you!
 
---- 
+---
 > ####  In my Core Data model I have an abstract entity and I use NSFetchedResultsController to display its children entities data in a UITableview. I want to group the table view rows in sections according to the concrete entity types. What would be the best approach to achieve that, please?
 
 
@@ -2422,7 +2423,7 @@ I don’t think you can target `self.entity.name` with a derived attribute but t
 |U03JK9ZRJJJ|:
 Yeah, I tried but I was not able to set the sectionNameKeyPath based on the entity name. That’s a good point, I’ll create a feedback report and put the details of what I’ve tried so far.
 
---- 
+---
 > ####  I want to add Core Data/CloudKit data persistence to my app. Currently my app only uses local on device @AppStorage. Looking for best approach to bring in @FetchRequest functionality for my views, and tie my model data into Core Data and CloudKit. 
 
 
@@ -2457,7 +2458,7 @@ Yeah, the only thing really missing here is that your default data still isn’t
 |U03J4EJ0CVA|:
 Ok. Yeah I do remember us talking about seeding the data. I just didn’t update the graphic well enough. This is a good reminder thanks again:gratitude-thank-you:
 
---- 
+---
 > ####  Does the demo app provide examples for how to use an UndoManager with our persistent container?
 
 
@@ -2488,7 +2489,7 @@ yes
 |U03JEL0155X|:
 Well that's convenient! :slightly_smiling_face:
 
---- 
+---
 > ####  I'm going to migrate my app from Realm to CoreData.  But currently I'm using the following technique: I have the separate Thread (singleton object) created for Realm Writing operations (I mean exactly Thread, to keep the same thread_id under the hood; not an OperationQueue).  So, can I keep this technique for CoreData activities too, or it might not work properly this way?
 
 
@@ -2520,7 +2521,7 @@ So if I got you right, I can try keep my current pattern at least for the neares
 
 Thanks again!
 
---- 
+---
 > ####  Follow-up on a previous q: "the others [processes] (eg widget) should respond to remote change notifications and persistent history to view imported changes." I believe widgets don't receive remote change notifications, to clarify, should the app be the one that responds to this notification and trigger the widget to reload (and since it's accessing the same database on disk, it will already have the updates applied right to show the changed data)?
 
 
@@ -2554,7 +2555,7 @@ It’s not clear to me what else you’re trying to do?
 |U03HMCT187R|:
 Widgets are weird :sweat_smile: iOS basically just runs the code to get an array of entries then stops executing, then when it runs out (maybe a week later) it’ll asks for more, I’m not even sure the same process persists. But yes the app can tell iOS to reload the widget at any time, at which point it will start it up to get a new timeline of entries.
 
---- 
+---
 > ####  What's the best way to store dates in Core Data so that time zones can be maintained. A dictionary? A date field with a separate time zone field? Trying to avoid the situation where someone enters dates into the database then changes time zones and all the dates are now off by X Hours. 
 
 
@@ -2591,7 +2592,7 @@ yeah, the data didn't change, the user's locale and expectations did
 |U03HJA0EJ1G|:
 as a practical matter, you might need to cache persistently a denormalized copy of the time zone in the row for filtering or sorting
 
---- 
+---
 > ####  What's the best way to make a copy of your SQLite file into a single file for backup purposes, while the app is still in use?
 
 
@@ -2622,7 +2623,7 @@ Thanks. One final question about this: is the 'replace' API better to make a cop
 |U03HK7797D0|:
 `migratePersistentStore(…)` is designed for when you want to change the store, if you’re just looking to make a copy you’re better off with `replace…`
 
---- 
+---
 > ####  Ben T mentioned earlier that heavy migrations load the entire dataset into memory. But maybe I'm misunderstanding. The heavy migration code pattern seems to lend itself to efficiently handling one entity and even one attribute at a time. Am I understanding that correctly that a multi-gigabyte dataset would be loaded into memory for a heavy migration?  Or where are best practices to handle heavy migrations with large datasets that simply can't fit in memory?
 
 
@@ -2647,14 +2648,14 @@ okay that’s useful. I’ll shift to a multi-step lightweight migrations in the
 |U03HMBP2FD5|:
 Ben, you’ve been prolific in this lounge this week--we really appreciate your sharing your insights
 
---- 
+---
 > ####  If order matters for a to-many relationship (where we'd normally use Array in Swift), is it preferable to mark the arrangement as Ordered in the core data editor (thus getting NSOrderedSet), or keep using NSSet and add an `index` attribute manually?
 
 
 |U03HK7797D0|:
 It Depends™? For most things you’re probably going to want to sort by a property anyway (in which case relationship ordering isn’t helping you much) but there are some cases where ordered relationships make sense, like if you want a user-defined sort order for a playlist
 
---- 
+---
 > ####  In my production app, changes don't sync between devices while both are running the app. I must quit and relaunch the app on one device for the change from the other device to appear. I've verified that the app *does* have APS environment in the entitlements, and the remote-notifications background mode in the capabilities.  Any suggestions of what else I should look at? FB10144431
 
 
@@ -2713,7 +2714,7 @@ Ok, good to know. Thanks.
 |U03K7L2F51P|:
 I won't be able to upload those new sysdiagnoses today, so I'll just plan on continuing this all through my Feedback report. Thanks for your help <@U03HMJ2P5MJ>!
 
---- 
+---
 > ####  Suggestions for enumerating to-many children in a type safe way? e.g.: ```  @NSManaged public var children: NSOrderedSet! ForEach(item.children) { /* need typed Child here */  } ```
 
 
@@ -2771,7 +2772,7 @@ To manage this with a desire for Set&lt;Child&gt; you could be more careful with
 |U03HJA0EJ1G|:
 we slice and dice the object graph in several ways, so if you want to preload all the related objects, you'd need to take a little more care with the batch sizes to offset that
 
---- 
+---
 > ####  My app is using NSPersistentCloudKitContainer. I want to ensure that my mental model is reasonably in sync with what actually occurs.   A) When a new device is set up, and syncs the data from the CloudKit, is it more akin to synching in the current state of the objects in CloudKit or more akin to synching in the complete history of changes to those objects?   B) If it's the complete history of each change being synced, are changes pruned that are later reversed? Or might I, for instance, see at the destination that an object is created and then deleted again later due to a historical deletion of that object being synced up?   C) Is the situation different for a sync to an existing install with most of the data?
 
 
@@ -2856,7 +2857,7 @@ With a sysdiagnose and some store files we can usually tell why.
 |U03J4D1FEP6|:
 Thanks for your help on this.
 
---- 
+---
 > ####  There is a almost similar question but I wasn't clear on how to apply it so sorry for the duplication. I like to have a clear separation between my form using a struct and perform validations transforms , calcs etc. before creating a NSManagedObject that could end up being accidentally saved.   For example if I am adding an Account ,I want to create a struct of type Account and then once its validated I create the actually Account NSManaged object in the managed context and save it. Is there a best practice for this? I have checked the child contexts as a option but seems overkill
 
 

@@ -4,9 +4,10 @@
 #### [emin@github](https://github.com/roblack) / [emin@twitter](https://twitter.com/emin_ui)
 #### [shirblc](https://github.com/shirblc)
 #### [tikimcfee](https://github.com/tikimcfee)
----
 
---- 
+
+
+---
 > ####  Good morning. How can I automatically launch multiple simulators at once by the run keyboard shortcut? (e.g., iPhone 8, iPhone X, iPad, 14.5/16)
 
 
@@ -37,7 +38,7 @@ I'd encourage you to look at test plans with a combination of unit tests and UI 
 |U03J1V52JQK|:
 Snapshot tests (not from Apple, but there are libraries) are also a great tool here. They let you record snapshots of views and then diff the images if they change.
 
---- 
+---
 > ####  I'm working on an Apple Watch app that uses compass heading for navigation. However, the debugging on an actual watch is slow. Is there a way to simulate compass data using the watchOS Simulator?
 
 
@@ -59,7 +60,7 @@ The use case is an app for theme parks, these locations are poorly mapped if map
 |U03HHPY6YQ2|:
 Thanks for your feedback
 
---- 
+---
 > ####  Hi, are there plans to include network link conditioning into Xcode/simulators so that we can simulate bad network connections on apps running in simulators without impacting the entire computer's internet connection (or requiring the use of software like Charles or Proxyman)?
 
 
@@ -69,7 +70,7 @@ Each Simulator is a separate userspace but shares the kernel and networking stac
 |U03HL5EFWP6|:
 But we are aware of the desire for this!
 
---- 
+---
 > ####  Good day! How can I change simulators location and language programmatically?  My primary use case is Unit Tests need to check multiple locations and languages and am hoping for a better option than shell scripts that change plist files...
 
 
@@ -92,7 +93,7 @@ Currently Simulator does not surface a UI to change this directly. Instead of ma
 |U03HL5EFWP6|:
 The same goes for the `AppleLocale`
 
---- 
+---
 > ####  Is there any means of using the iOS Simulator for ARKit or AVFoundation, wherein the Mac's camera (or Continuity camera in macOS Ventura) could be used for testing AR or camera experiences?
 
 
@@ -111,7 +112,7 @@ Thanks, <@U03HL5EFWP6>!  I will file a feedback request.  Mostly, this is a requ
 |U03JH1ULBCH|:
 Hi <@U03HL5EFWP6> Even if the simulator didn't provide live camera, that we are unable to ~test~ run any Camera code in the simulator has been a big pain point over the years. If it even just let us run the camera APIs and delivered a static/placeholder image would be a huge help
 
---- 
+---
 > ####  Hi, are the simulators being updated to support Stage Manager? What about Stage Manager support in external displays?
 
 
@@ -121,7 +122,7 @@ This is a known bug for Seed 1 that didn't make it into the release notes
 |U03HWD3Q7LH|:
 Support for enabling Stage Manager will be coming in a future beta.  Check out our future release notes for information.
 
---- 
+---
 > ####  How can I build and run in the command line using the "My Mac (Designed for iPad)" destination? I've tried `xcrun simctl list devices`, but it does not have this destination.
 
 
@@ -152,7 +153,7 @@ Ok, well it's getting built right (as an iPad app).  But we should be able to la
 |U03J58WAJ2J|:
 Here it is: FB10138671
 
---- 
+---
 > ####  Simulators and previews take up a ton of space on my Mac. I noticed in particular Previews keeps growing and growing to the point where the previews folder in the developer folder takes up more that 100gigs of space. Is there a way to limit the amount of space previews and simulators take up, and if so what is the best and safest way to clear that space?
 
 
@@ -173,7 +174,7 @@ Then do the same with the erase/delete subcommands.
 |U03JSBCTCQ1|:
 Thanks for this question, just removed almost 100gb of previews files today :slightly_smiling_face:
 
---- 
+---
 > ####  This is not a question, but just so your team sees it, thank you for the amazing work you do.  Xcode and Simulators are the tools so many of us use to build fun apps, or even build businesses that support our lives.  We couldn't do this without your hard work.
 
 
@@ -195,7 +196,7 @@ Thank you Brandon!
 |U03J4CWFAN8|:
 Argh, wrong thread, sorry
 
---- 
+---
 > ####  What's the best place to turn to for help in getting our apps to run in Xcode 14 (errors like ld: symbol(s) not found for architecture x86_64 are commonplace).  It'd be great to start testing Xcode 14 to have the chance to find questions to ask before WWDC ends!
 
 
@@ -243,7 +244,7 @@ Also forgot to mention that undefined symbols problem mention in the beginning r
 |U03J20E7UBV|:
 Thanks, <@U03J4CWFAN8>!  In my case, our frameworks and dependencies are building fine on Apple Silicon in Xcode 13.4.1 (running in Rosetta), but I'm getting an error doing the same in Xcode 14, and was hoping to get going with Xcode 14 during WWDC!
 
---- 
+---
 > ####  Will it ever be possible to simulate accessibility gestures (such as the VoiceOver “Z” gesture and the rotor) in the simulator, especially in calls from UI Tests?
 
 
@@ -263,7 +264,7 @@ It feels like, while Apple has developed some incredible, and sometimes life-cha
 |U03J7H4CG6L|:
 We definitely agree with you on the importance of being able to test the accessibility features of your app! There's no UI testing API today for automating the VoiceOver gestures you listed, but this would be a great enhancement. If you capture that request into a feedback assistant, it would be really appreciated. You can also check out one of the "Xcode Cloud and testing open hours" labs to discuss this use case.
 
---- 
+---
 > ####  Hello everyone, for Xcode project having large codebase, every time if its a clean build or branch change, Xcode start preparing the indexing which causes whole mac system makes so much slower until indexing task completes. Any workaround or tips for it?
 
 
@@ -280,7 +281,7 @@ There are two threads about this issue on the forum:
 <https://developer.apple.com/forums/thread/699112>
 This issue is still present in Xcode 14 :-(
 
---- 
+---
 > ####  Hey guys! In order to inject a dynamic library to an application we use `xcrun simctl launch` with `SIMCTL_CHILD_DYLD_INSERT_LIBRARIES` argument, which works only for iOS Simulators of course. What is the alternative for iOS real (hardware) devices?
 
 
@@ -333,7 +334,7 @@ indeed :confused:
 |U03J1TVG79R|:
 OK, thanks for the answers guys
 
---- 
+---
 > ####  Will it ever be possible to get the Apple Watch battery level via 3rd party apps? I do not see any documentation for this.
 
 
@@ -346,7 +347,7 @@ Will do.
 |U03HL553PNG|:
 You can <https://developer.apple.com/wwdc22/labs-and-lounges/dashboard/upcoming?q=watch|sign up for a 1:1 appointment> in one of the watchOS labs too.
 
---- 
+---
 > ####  Can I try Focus filters in the simulator? Thanks!
 
 
@@ -368,7 +369,7 @@ Can you please file this as a feedback item?
 |U03HMEM4TM5|:
 correct! will do, thanks
 
---- 
+---
 > ####  When running UI tests, we sporadically get an error like this inside of XCTest (when trying to do element queries), and it seems like it persists until restarting the simulator. Any tips for how to debug this kind of thing or what might cause it?  `*** -[__NSArrayM insertObject:atIndex:]: object cannot be nil (NSInvalidArgumentException)`
 
 
@@ -406,7 +407,7 @@ Also, correction to what I said earlier: the bug I was referencing was fixed in 
 I ran into this issue or a similar one with the same exception in XCTest on Xcode 13. I submitted Feedback FB9905764 with a sample project.
 I’ll try it out with Xcode 14 beta too.
 
---- 
+---
 > ####  For purely logical unit tests (i.e. a Unit Test bundle - not UI Unit Tests), what difference is there between running the tests on the simulator versus running them in catalyst?  If I'm not planning on distributing my app via catalyst, would it make running unit tests using them less helpful?  I like running them in catalyst, because it seems to be easier to automate - but I don't know if there are downsides to running them like that.
 
 
@@ -433,7 +434,7 @@ Not as it pertains to unit testing unless you have specific hardware needs like 
 |U03HL5EFWP6|:
 If you want to build your own automation outside of what Xcode provides you can check out `xcrun simctl` as well.
 
---- 
+---
 > ####  We’ve recently launched widgets at my company. It was really hard to develop with the sim as the widget extension would fail to attach to the simulator after the second or third run. The simulator would crash and not be reusable until restarting the Mac. Any tips of how to avoid that?
 
 
@@ -455,7 +456,7 @@ Thank you for your help!!
 |U03H36PM1BR|:
 Sure thing!
 
---- 
+---
 > ####  At home when I recently updated my router from an old AirPort Extreme to a mesh Orbi system, wireless debugging has stopped working and I can never get it to work. Is there any known issues with mesh networks and wireless debugging?
 
 
@@ -485,7 +486,7 @@ Not sure how this fixed it, but it might have been a broken implementation. So t
 |U03JRR4R3CY|:
 We turned it off
 
---- 
+---
 > ####  Is it possible to run Xcode 13.4.1 under Ventura?  If so, how do you install it?
 
 
@@ -552,7 +553,7 @@ To select another volume you need to use it to create a USB installer. No proble
 |U03HZ47UMRT|:
 FYI, success.  Thanks again.
 
---- 
+---
 > ####  When testing my app over different simulators it creates multiple instances of simulator which over time cause simulator to become unresponsive. The only fix I have found for this is to quit and relaunch the simulator, which in turn causes me to have to rebuild for each instance. Is there an easier way to clean my cache without me having to start over?
 
 
@@ -565,7 +566,7 @@ Using that action (and the similar action for testing, `Product &gt; Perform Act
 |U03JP09AXLL|:
 Ok, I will give that a try! Thanks so much!
 
---- 
+---
 > ####  Can I use SPM to build executable binaries for non apple platforms, like example Windows or Platform.custom(“nintendo”)?  
 
 
@@ -584,7 +585,7 @@ Great question! `Platform.custom(_:)` is intended for use when someone is adding
 |U03JSFUKL2U|:
 Thats clear for me. Thanks a lot)
 
---- 
+---
 > ####  What is the reason for Swift Regex only being available in iOS, is it because it's a part of the standard library not the swift language it self? If so would it be possible to ship the standard library with our app to gain backwards compatibility like we did before we had ABI stability?
 
 
@@ -609,7 +610,7 @@ If having specific features be back-deployable to older OSes is important for yo
 |U03J9D6803X|:
 Is there a good resource or estimates available for how many people still use iPhone 6s, iPhone 7, and original SE?  I've seen articles written in 2022 still recommending that people buy iPhone 7 who can't afford newer phones, and I still have multiple family members who use iPhone 7.  It seems like a particularly large burden this year to either drop or continue support for iPhone 7.
 
---- 
+---
 > ####  When to use class and actor?
 
 
@@ -634,7 +635,7 @@ Yes, in general you should ensure that types are `Sendable` when crossing concur
 |U03HHPMGVEF|:
 Yes, only `Sendable` types can be safely passed amongst different actors and tasks. The session "Eliminate data races using Swift Concurrency" (<https://developer.apple.com/videos/play/wwdc2022/110351/>) goes into detail on `Sendable` types and how they interact with tasks and actors.
 
---- 
+---
 > ####  SwiftUI and Swift Standard Library sometimes rely on emitting public protocols with underscored/hidden requirements that end up in module interface but – crucially – not in code completion or documentation. I would find this extremely useful as a framework vendor. Is there a way to achieve this using a special flag or attribute?
 
 
@@ -650,7 +651,7 @@ Note that you can also hide inits and subscripts by underscoring their argument 
 |U03JRN827HN|:
 Ha, nice! I would’ve never discovered this. Thanks!
 
---- 
+---
 > ####  Other than being open source, is Apple really interested in advancing Swift on the server? I'd love to replace some Spring Boot webservices with Swift that use Kafka/Cassandra...unfortunately the community and support just doesn't yet seem mature enough. Is this just a dream of mine or is this a priority for Apple?
 
 
@@ -682,7 +683,7 @@ Thanks <@U03J4CR8WAG>
 |U03J4CR8WAG|:
 Thank you, <@U03HL5K6L04>
 
---- 
+---
 > ####  What is the plan for XPC support in Distributed Actors? Will there be support or will that be left to the community?
 
 
@@ -722,7 +723,7 @@ It's also available on Linux!
 |U03HHPMGVEF|:
 Any recent Swift 5.7 Linux toolchain from <https://www.swift.org/download/> provides support for distributed actors
 
---- 
+---
 > ####  When converting a blocking method to async like `Foundation.Process`’s `waitUntilExit()` will block the current thread, so do we embed that logic to a continuation block, or just making function async is enough?
 
 
@@ -744,7 +745,7 @@ You also can use continuations to convert your termination handler use to async/
 |U03JRQ81NEL|:
 Thanks. I think I need to request for lab appointment for more details :sweat_smile::crossed_fingers::skin-tone-2:.
 
---- 
+---
 > ####  There is a lot of different architectural patterns out there used to separate UI from businesslogic like MVVM, MVC, VIPER and so on..  Apple still seems to be favouring MVC as the preferred style. Is that correct or are you more considering your self as agnostics in that matter?
 
 
@@ -757,7 +758,7 @@ This would be better answered by a UI toolkit team, but note that the standard l
 |U03HB5XE9K8|:
 I would suggest asking this in the SwiftUI lounge; there would be better answers from that team.
 
---- 
+---
 > ####  Saw Foundation team merged the Foundation Swift Overlay into Foundation.framework.  Does it mean entire Swift runtime will be loaded and linked as part of Foundation (for a pure Obj-C project) for iOS 16 unconditionally?  Trying to understand what extra cost there will be during app launch (for a zero-swift project but import Foundation).
 
 
@@ -787,7 +788,7 @@ We add in a few more like the overlays for dispatch and XPC; but on Apple’s pl
 |U03HZ3L66QM|:
 <@U03HL5K6L04> Really appreciate the detailed answers and all the amazing works you’ve done!
 
---- 
+---
 > ####  There are so many different means to approach concurrency, or even asynchronous development in iOS today. Does GCD and operations still have their place in a project today, or could that all be trumped by focussing on Combine and/or async/await?
 
 
@@ -806,7 +807,7 @@ Hope that helps!
 |U03JKD29SCV|:
 Thanks a ton <@U03HL5K6L04>, it helps yeah. I’ve been diving quite deep into the new async algorithms, hence the question. I’ve personally always been a fan of operations. Not just for concurrency or asynchronous tasks, but also just to plainly schedule a flow to happen in a certain order, that might be a different conversation though :sweat_smile: . I’m excited to (hopefully soon) start incorporating these swift async algorithms.
 
---- 
+---
 > ####  Has it been considered to have a type like instancetype that could be used as a return type for a method? Use case: methods that return self (or other instances of the same class), that subclasses could override, and the type checker would know it was an instance of the subclass. Currently working around it with generics, but that requires explicitly typing the receiving variable…
 
 
@@ -868,7 +869,7 @@ let b = a.copy() // type of `b` is `NSString`, not `NSMutableString`.
 |U03H36U6JHM|:
 There's no generic way to express the relationship between the types of `a` and `a.copy()` in Objective-C, so `id` is used, and that's imported into Swift as `Any`.
 
---- 
+---
 > ####  with xcode 14,  ``` @available(iOS 15.0, *) private(set) lazy var myVar: &lt;Some type only available on iOS15.0+ ``` gives `Stored properties cannot be marked potentially unavailable with '@available'` error. what is the new workaround we should use to have a stored property of a type that is only available on some versions?
 
 
@@ -885,7 +886,7 @@ final class Foo {
 |U03HB5WK03G|:
 Another option that is sometimes useful is to define separate types for the cases with/without the partially available stored property, and to define a protocol over them that covers common members and can hold extension methods
 
---- 
+---
 > ####  I've been using RxSwift and Combine, and am starting to really like Swift Async Algorithms. Would you say that's the way forward for async sequences, superceding even Combine?
 
 
@@ -913,7 +914,7 @@ Oh, I wasn't aware of the async-algorithms. Nice, I will try it.
 |U03HL5K6L04|:
 We have a talk about it today too! Meet Async Algorithms. And a live watch party here at 2pm PDT (50 min from now)
 
---- 
+---
 > ####  Just wondering if asking for Swift Regex to be back-ported to older OSes is practical? Seems like it 'should' be simpler than back-porting async/await was.
 
 
@@ -929,7 +930,7 @@ Will do, Sadly I suspect I’ll have to support iOS 14 for a few more years due 
 |U03HHPMJCSX|:
 Yes, some of the work needed to remove that dependency allows us to implement core regex features that are not available on older platforms.
 
---- 
+---
 > ####  First I want to thank everyone who worked on the new regex APIs. It is so Apple that you went back to first principles and asked how programming with regexes could be improved, and the result is so above and beyond what I expected!  My question: I usually forget about `lazy` when writing collection code. I know in principle what it means, but I haven't gotten in the habit of using it when I should. Are there simple rules of thumb to memorize, or is it more complicated than that? How does a StdLib expert think about this topic?
 
 
@@ -944,7 +945,7 @@ Also note that you can combine things! For example, you could do `Array(someColl
 |U03HMD22287|:
 Thank you, this is helpful!
 
---- 
+---
 > ####  Is this trending of placing new developments into packages separate from the standard library, like async sequences and collections, going to be more common going forward? I was wondering if the aim is to allow for more frequent updates like what’s been going in the android ecosystem with the jetpack suite of libraries
 
 
@@ -954,7 +955,7 @@ BTW this question is from the previous Swift Standard Library lounge but we stil
 |U03HHPMJCSX|:
 Hi! We love our packages and would be more than excited to make more if it made sense as a package. Some things make more sense in the standard library and others as standalone packages. We’re also using packages to get feedback on things we’d like to eventually add to the standard library.
 
---- 
+---
 > ####  is accessing the projected value publisher of a `@Published` variable thread safe? and does that publisher emit the current value as the first event?
 
 
@@ -964,7 +965,7 @@ so to clarify the behavior of `@Published` - accessing the value at any time is 
 |U03HL553PNG|:
 This question was also left over from the previous Swift StdLib lounge. :slightly_smiling_face:
 
---- 
+---
 > ####  Is there a way to use new iPadOS 16 features in Swift Playgrounds? I love to use it to learn new APIs and early prototyping.
 
 
@@ -983,14 +984,14 @@ Confirmed for me. iPadOS 16
 |U03HV47RD8X|:
 Hmmmmmmm I wonder what I did wrong? I haven’t been able to see anything and everything crashes (and these are previous projects that run under iPadOS 15 fine)
 
---- 
+---
 > ####  Do the steps described in the video work on iOS 15? Thank you for an excellent presentation.
 
 
 |U03HL551ATW|:
 They do indeed!
 
---- 
+---
 > ####  I would really like to find a help document for the code in Swift Playgrounds. Now is this only done through the documentation search, there is no shortcut to do this, similar to Xcode's right click menu.
 
 
@@ -1024,14 +1025,14 @@ The number is FB10080275
 |U03JF5LHNTS|:
 Thank you!
 
---- 
+---
 > ####  Does Swift playgrounds integrate with Xcode cloud?
 
 
 |U03HL551ATW|:
 At this time, Swift Playgrounds does not have any integration with Xcode Cloud.
 
---- 
+---
 > ####  How was the debugging working in the preview? Can you tell us a little about that? Looks super helpful.
 
 
@@ -1041,7 +1042,7 @@ In Swift Playgrounds, the App Preview is always running, so every change you mak
 |U03JBMMB10A|:
 Cool! Thank you.
 
---- 
+---
 > ####  Suuuuuper minor but is there any way to tighten up the line spacing on iPad so more code is visible on screen? I always feel like there’s not quite enough visible
 
 
@@ -1054,7 +1055,7 @@ Try the "..." button.
 |U03HHPNR942|:
 You can use the View Menu on macOS and the ••• option on iPad.
 
---- 
+---
 > ####  What’s the right way to add Info.plist settings to an app? For stuff like export restrictions? 
 
 
@@ -1067,7 +1068,7 @@ Can you say more about that? I can’t find the Package.swift in playgrounds
 |U03JF5LHNTS|:
 The Package.swift file isn't visible inside of Swift Playgrounds, but if you have a Mac you can right-click it and choose "Show Package Contents" and then edit the Package.swift file from there
 
---- 
+---
 > ####  How do we run Swift playgrounds on iPad OS 16? I can’t seem to get it to run previews or apps even with developer mode on 
 
 
@@ -1098,7 +1099,7 @@ Never mind. I see the Send Feedback from within the Swift Playground app itself.
 |U03HV47RD8X|:
 Followup: Yes! Turning off developer mode has fixed things up for me and I can run Swift Playgrounds. Thank you, all
 
---- 
+---
 > ####  Any new features in Swift playgrounds beyond version 4.1… e.g. more capabilities like Core Data and CloudKit integration?
 
 
@@ -1123,7 +1124,7 @@ Great job on presenting. I appreciate it. Same to Collette.
 |U03JF5LHNTS|:
 Thank you!
 
---- 
+---
 > ####  Is there a way to use asset catalogs? Or a right away to include @2x and @3x assets?
 
 
@@ -1133,7 +1134,7 @@ Yes! Importing your first image to the app creates an asset catalog for ya. The 
 |U03HV47RD8X|:
 Y’all are champs. Thank you for answering my million questions!
 
---- 
+---
 > ####  I want to use CoreData or Realm in Swift Playgrounds App project, any good suggestions? My student very like Swift Playgrounds 4.1.Because it has very fast preview and very little resource requirements on Mac.
 
 
@@ -1143,7 +1144,7 @@ You can use the CoreData framework by importing it, but Swift Playgrounds does n
 |U03J225HUN6|:
 thank you
 
---- 
+---
 > ####  Can Swift Playgrounds be opened inside an Xcode project? Is that the best first step in moving code developed in a playground to Xcode?
 
 
@@ -1174,7 +1175,7 @@ Feedback Request submitted. Thanks.
 |U03J4EJ0CVA|:
 FB10080022
 
---- 
+---
 > ####  Can swift playground handle unsupported file formats? I wanna use similar with Resource.copy(""). In this case I can manage files like CoreData Model, metal shaders files and anything I want!
 
 
@@ -1193,14 +1194,14 @@ Wow! Thats sound great!
 |U03JSFUKL2U|:
 Thanks a lot, Connor!
 
---- 
+---
 > ####  Not a question -- just a message of thanks to the entire team for beautiful, elegant work. I am definitely going to be playing in Swift Playgrounds this summer.
 
 
 |U03HL551ATW|:
 Thank you so much for your kind words! We've got the whole team sitting here reading along. :relaxed: Can't wait to see what you build!
 
---- 
+---
 > ####  What is each of your favorite type of tea? :)
 
 
@@ -1252,14 +1253,14 @@ Oolong is a _*very*_ close second…
 |U03J7BXV8KA|:
 Hibiscus and pu'er
 
---- 
+---
 > ####  swift playground book have any upgrade?
 
 
 |U03HL551ATW|:
 There are no updates to the playground book format at this time
 
---- 
+---
 > ####  Why AsyncStream can't use multiple subscribers? Swift crashed with unstopped task error. I wanna see same result as in Combine Publisher.
 
 
@@ -1278,7 +1279,7 @@ thanks!
 |U03H36UD5QX|:
 Note: if you are using an AsyncStream pre 5.7 you have nothing to worry about if the stream is used just by one task
 
---- 
+---
 > ####  Are these new algorithms compatible with earlier versions of iOS?
 
 
@@ -1288,7 +1289,7 @@ A good amount of them can be used before the most recent releases; the ones that
 |U03H36UD5QX|:
 so for example `zip` can be used as far back as Swift concurrency can
 
---- 
+---
 > ####  What would be Combine's place with Swift concurrency now released? How to choose between the two? Will Combine be mainly used behind the scenes for SwiftUI only?
 
 
@@ -1316,7 +1317,7 @@ Specifically for SwiftUI, those remain the way to notify views of state that nee
 |U03H36UD5QX|:
 the thing similar to subjects is `AsyncChannel` . That is a way to send values between tasks. But as Tony points out for the SwiftUI side of things `ObservableObject` and `@Published` are good ways to still communicate events.
 
---- 
+---
 > ####  Does the new Swift Package give us anything akin to a Parallel For-Loop?
 
 
@@ -1341,7 +1342,7 @@ You can look at <https://github.com/JohnSundell/CollectionConcurrencyKit> if you
 |U03J22A0C4S|:
 Also note that `withTaskGroup` may not perform well for large collections in the Swift 5.5 runtime IIRC.
 
---- 
+---
 > ####  What are ways to define async work that returns an AsyncSequence, which is lazy. So it only runs later when explicitly requested or started?
 
 
@@ -1351,7 +1352,7 @@ AsyncSequences are by nature very similar to lazy algorithms because they proces
 |U03H36UD5QX|:
 so that first call to next is that request for things to be done; and that function is mutating so that it can know if it has started or not
 
---- 
+---
 > ####  Which algorithm in the package are you most proud of?
 
 
@@ -1379,7 +1380,7 @@ and the tests <https://github.com/apple/swift-async-algorithms/blob/main/Tests/A
 |U03HL5K6L04|:
 yup, with docs <https://github.com/apple/swift-async-algorithms/blob/main/Sources/AsyncSequenceValidation/AsyncSequenceValidation.docc/Validation.md|here>
 
---- 
+---
 > ####  I’m struggling to grasp what is go on behind the scenes during an await for an AsyncSequence like in your examples from today’s session with Zip and Merge. Could you show an example similar to those on how to build an AsyncSequence that can take advantage of these new algorithms?
 
 
@@ -1437,7 +1438,7 @@ I’ll be moving on from this lounge to give space to the new topic — but you 
 |U03JXD1AQRE|:
 Thank you
 
---- 
+---
 > ####  Hello Everybody! Why XCode 14 is deprecating the use of bitcode? Is it will be enabled automatically?
 
 
@@ -1478,7 +1479,7 @@ Bitcode stripping happens on the client side with Xcode 14.  If you are submitti
 |U03HVE965FY|:
 Thank you for that clarification
 
---- 
+---
 > ####  Hello. I am trying to build with both ASAN and UBSAN turned on, but when I do that I can't launch my app. Turning on only one or the other works fine. Any ideas?
 
 
@@ -1650,7 +1651,7 @@ Thanks so much for your help. Have a great week!
 |U03HL55GTQU|:
 Thank you Michael, your intuition was correct from the start! :male-detective:
 
---- 
+---
 > ####  Hello, does using optimization  level (e.g. [-Oz]) generate any negative impact on the performance of the app?
 
 
@@ -1675,7 +1676,7 @@ This question might be better suited for the Interface Builder Lab (Jun 10, 9am)
 |U03JMF1GFV0|:
 Thank you,
 
---- 
+---
 > ####  Hey all, congrats on shipping and thanks for all the great code and features! I'm working to compile clang PCMs in a remote build system and consume them in Xcode tooling. Do you have any pro tops for how to compile PCMS for the Apple SDKs in Xcode? Currently seems like the dependency graph needs to be generated for these SDKs. Any suggestions here would be appreciated
 
 
@@ -1691,7 +1692,7 @@ Making the paths the same everywhere is going to work much better, there are lot
 |U03J7LBB9DM|:
 Ok cool, thanks for the tip! I'll give it a try
 
---- 
+---
 > ####  Is there a way to disable/workaround the need for public qualifiers on classes/funcs in the Source folder? Often I pull a swift class out of an existing project to experiment against it, and end up having to change this.
 
 
@@ -1700,7 +1701,7 @@ It is not possible to disable <https://docs.swift.org/swift-book/LanguageGuide/A
 
 Swift Playgrounds supports creating app projects, which you can do by creating a new "app" instead of a new "playground" using the button at the bottom-left of the document browser. In an app project, by default all sources are part of a single module, so you don't need to use `public` to make things visible. App projects are also great for experimentation thanks to the live SwiftUI previews!
 
---- 
+---
 > ####  Hi y’all! First of all, thanks so much for your work on Swift Playgrounds, especially the latest ability to make apps!  Are there recommendations for being able to sync user data across different devices from within an app? Like a Swift Playgrounds app creating a list of objects that would automatically go to Mac, iPad, and iPhone
 
 
@@ -1710,7 +1711,7 @@ Some services (like CloudKit) are not supported in app projects at this time. Bu
 |U03J2004PGT|:
 Oooo, really cool idea
 
---- 
+---
 > ####  Hello! Question about how to build “guided instructional content”. Where is that done: Swift Playgrounds, or Xcode? Thanks!
 
 
@@ -1747,7 +1748,7 @@ It also sounds like you might be running into issues with the comments being par
 |U03J21EKNSE|:
 Thank you! I will try and see where things go. Have a good afternoon!
 
---- 
+---
 > ####  In previous versions of Playgrounds, touching the “Advanced” menu would take you to a menu to access “View Auxiliary Source Files”. From there you had access to the *.playgroundbook file, and the Chapters/UserModules. Is there anything similar in these educational content files? Thanks.
 
 
@@ -1757,7 +1758,7 @@ Unlike Playground books, app projects show all their files in the source directo
 |U03J21EKNSE|:
 Thank you for replying, and explaining the difference. Keeping track of the “original” and “edited” versions could get confusing! Even more so when we had to do some of the work in Xcode (Playgrounds could not see/work with lists).
 
---- 
+---
 > ####  Side note: if possible, please say hi to Jonathan P. He was very helpful in previous years when I asked questions about Swift Playgrounds 3!
 
 
@@ -1773,14 +1774,14 @@ Ooooo, that sounds awesome!
 |U03J21EKNSE|:
 I always hated the old paper strip/electric discharge experiments to calculate speed and acceleration. It would be good to build something to show how classical mechanics work. But I have to learn to crawl before running! Have a good afternoon.
 
---- 
+---
 > ####  The Swift Playground for Mac does not totally work for SwiftUI. Even if I just create a basic template or open a tutorial like "Keep Going with Apps," it will show errors that shouldn't exist for the playground, like:  Could not build Objective-C module 'SwiftUl'  NSEvent Could not build module 'ApplicationServices' module Umbrella for module 'ApplicationServices.ATSUl' already covers this directory Inferred submodules require a module with an umbrella SwiftUl Could not build module 'UlKit' NSToolbar+UlKitAdditions Could not build module 'AppKit'  Please fix it since these playgrounds play perfectly on my iPad :sob:
 
 
 |U03HL551ATW|:
 Thanks for reporting! We have heard some rare reports of this happening to a small number of users. If you uninstall Swift Playgrounds and then reinstall from the Mac App Store, everything should be working great!
 
---- 
+---
 > ####  Do you have any tips or recommendations for improving the reliability &amp; performance of LLDB? Anything in particular to watch out for? In my project, it sometimes takes up to 30-40 seconds (on M1 Max!) between pausing on a breakpoint and LLDB becoming responsive.
 
 
@@ -1808,7 +1809,7 @@ Note, there's also a WWDC session (it's up on the Sessions page, but will be pos
 |U03JRN827HN|:
 Already bookmarked! Thanks, I’ll make sure to watch it as well.
 
---- 
+---
 > ####  I have some questions regarding virtualization. Not sure where to ask.
 
 
@@ -1869,7 +1870,7 @@ I do have another question if I may about the API.
 |U03J8GR73HT|:
 It seems we only have access to <https://developer.apple.com/documentation/virtualization/vzmacosrestoreimage/3835970-mostfeaturefulsupportedconfigura|t>he `fetchLatestSupported` is there a way to access previous versions of macOS and their respective restore images/`ipsw` files.
 
---- 
+---
 > ####  I have (or rather a dependency has) an Obj-C type which has a core definition and many categories spread amongst many files. Xcode's new build visualizer shows this type can take many seconds to compile (at least when integrated through SPM). Is there any way to speed it up? (<https://github.com/google/promises/tree/master/Sources/FBLPromises)|https://github.com/google/promises/tree/master/Sources/FBLPromises)>
 
 
@@ -1986,7 +1987,7 @@ At this point, it's not easy to manage local Swift packages referencing to binar
 
 If it's possible, I'd like to talk about the local binary package issue with some dev, hopefully I'll catch a proper session here. :smile:
 
---- 
+---
 > ####  What if the build timeline shows unusually long compile times for a source file when building an app target containing the subtarget, but building the subtarget alone is appropriately fast?
 
 
@@ -2090,7 +2091,7 @@ thanks again
 |U03HL5A4YA0|:
 Correct, `-fobjc-arc` will affect how the PCH is built, so it needs to build it twice
 
---- 
+---
 > ####  We Are working which is quite old. It has combination of objective c , c ++, Swift and even Swift ui now. It  had good compile time on Xcode 12. But performance has really degraded with Xcode 13. I have actually stopped indexing of project. I have using m1 MacBook Pro with 16 G-Block memory. It there something u can suggest which will help us in reducing our compile time.  We also use git for version control.
 
 
@@ -2147,7 +2148,7 @@ Any labs u can recommend?
 |U03HWCZES3T|:
 there’s “Xcode build performance lab” on Thursday
 
---- 
+---
 > ####  Are this year's linking improvements related to Swift-only codebases or should we see observe reduced linking time in mixed codebases (including objc++/c++) as well?
 
 
@@ -2158,7 +2159,7 @@ The runtime dynamic linker improvements this year focus on Swift, but if you bui
 
 For more info please check out this years talk: <https://developer.apple.com/wwdc22/110362>
 
---- 
+---
 > ####  Are there any improvements to PCH generation/use? It kind of looks like the clang pch don’t quite instantiate templates when generating them, so adding templates code to pch tends to pessimise build times. The performance profile is quite different compared to $COMPILER.  Is the build time visualiser based on -ftime-report, or is it “just” the build system timings?
 
 
@@ -2191,7 +2192,7 @@ Thank you! :slightly_smiling_face:
 |U03HTE8C8G7|:
 Bah, someone pointed out to me `-fpch-instantiate-templates`, which would then instantiate the templates in pch, time to experiment!
 
---- 
+---
 > ####  We have a large project written in C++ and Objective-C++ (and Kotlin and Typescript for Android and Web) and the artifacts we produce are XCFrameworks. We use CMake to generate the project (it’s the tool our C++ devs are using). We would like to embed some Swift inside to provide a more modern API to our Swift customers. With CMake we were not able to do that. Do you recommend any other tool for generating the Xcode project? Or do you have tips for CMake? Do you guys at Apple have an xcodeproj file in your fit repo? :smile: 
 
 
@@ -2207,7 +2208,7 @@ We (and Saleem in open source) are very interested in making that a seamless exp
 |U03JA49DP9R|:
 Thank you. I'll check that out!
 
---- 
+---
 > ####  What is the state of `std::filesystem` on Apple platforms? Do you have any recommendations for integrating with system-level file coordination mechanism AND doing so from c++?
 
 
@@ -2237,7 +2238,7 @@ NSFileCoordinator is a strictly Foundation-level concept, so at this time there 
 |U03JM92AMJ5|:
 Good to know! I always thought `NSFileCoordinator` in `Foundation` only provides a wrapper to some file system level functionality. But now I have no idea how `NSFileCoordinator` achieves coordination across processes :smile:
 
---- 
+---
 > ####  Nice work with the build timeline! :tada:  I see it shows file level details, is it possible to zoom out or change the view to show a summary timeline by target instead? Thanks :pray: 
 
 
@@ -2249,7 +2250,7 @@ Meant zoom out a detail level from file to target (but I see now that is an over
 
 Will file a feedback with the suggestion, thanks!
 
---- 
+---
 > ####  How do I activate the Build Timeline view? I can't seem to find it anywhere on Xcode 14. I see an option for "Recent Build Timeline" but it doesn't do anything.
 
 
@@ -2286,7 +2287,7 @@ there’s an “Xcode build performance lab” tomorrow, I would highly recommen
 |U03HZ2VBE21|:
 Ok cool, thanks!
 
---- 
+---
 > ####  We have a bug that occurs sometimes and it can be narrowed down to the fact that this code fails sometimes when running on the iOS 15 simulator:  long double r = 1.0; long double x = 100.0; assert(!std::isnan(r * x));  Can somebody help with this?
 
 
@@ -2308,7 +2309,7 @@ Done, thanks
 |U03HHQ7T15Y|:
 Can we get the feedback number?
 
---- 
+---
 > ####  Can the "any" extential types be deployed to earlier OS versions, or does it require the 5.7 runtime? Thanks!
 
 
@@ -2350,7 +2351,7 @@ That seems to contradict. So if I build on Swift 5.7, I’ll bundle the 5.7 runt
 |U03JTPM78E7|:
 What I’d love to know is if my team can use `any Collection&lt;any P&gt;` in public API when targeting iOS 13. We already know we can use `some Collection` in the iOS 13 runtime
 
---- 
+---
 > ####  I have two, possibly obscure questions: 1) is the --disassembler-options=no-aliases not supported for objdump? and 2) Is there comprehensive documentation for the as assembler anywhere?
 
 
@@ -2441,7 +2442,7 @@ Glad to help. I'm going to sign off now. If you have any issues you can also fil
 |U03J4CWFAN8|:
 Thank you for your time!
 
---- 
+---
 > ####  Our system has a well defined data model with data structures and algorithms that are intuitive to understand and reason about for our business logic. I'm a bit dismayed at the prospect of being forced to carve these structures into other units (actors) to satisfy language requirements while undertaking the migration of our algorithms and processes to utilize Swift concurrency. This seems to impact readability, concise modeling, and ultimately maintainability. I'd like to maintain an open mind about this, though, since I've used async/await syntax so effectively in single-threaded languages. And so I'm wondering if you have any best practices or guidelines to share in adding this new dimension to our data modeling. Should actors be long-lived objects? Are monolithic singletons as actors discouraged or should we model after MainActor? Should we be as granular as possible?
 
 
@@ -2454,7 +2455,7 @@ As a guide for granularity: you can carve out things which should be executed co
 
 The <https://developer.apple.com/videos/play/wwdc2022/110351/|Eliminate data races using Swift Concurrency> session from today is a good resource to get into this mindset.
 
---- 
+---
 > ####  Hello,  You wrote that `AsyncChannel and AsyncThrowingChannel was heavily inspired from [Combine] Subject` But is it possible to have multiple subscription to a single AsyncChannel ? It seems not. Why not?
 
 
@@ -2480,7 +2481,7 @@ now there is evolution of the swift-async-algorithms package and that is an ongo
 |U03H36UD5QX|:
 because sharing is something folks want and need (rightfully so)
 
---- 
+---
 > ####  Is there any way to guarantee that a Task will run not on the main thread?
 
 
@@ -2539,14 +2540,14 @@ Cool, thanks!
 |U03J21F2PQS|:
 Thank you!
 
---- 
+---
 > ####  Are Actors intended to be long lived objects? Do they have a lifecycle?
 
 
 |U03H36YQ5GX|:
 You can define and use the actor type like other types in the language. An actor instance is inexpensive to create and use for coordination in a concurrent program. You can define an `init` and `deinit` for an actor's lifecycle management.
 
---- 
+---
 > ####  Given all of the recent changes and additions to swift concurrency through async/await, async sequence and now async algorithms, and given that combine has not changed in obvious ways, should those of us that have leveraged combine as the basis of our concurrency models within our apps be looking at migrating these towards the async await styles or are these likely to remain true siblings within Swift ecosystem?
 
 
@@ -2574,7 +2575,7 @@ I dont think that modifying `@StateObject` in non `@MainActor` contexts is safe
 |U03H36UD5QX|:
 `@State` however from my understanding is actually one of the few things that is safe from any queue (but perhaps someone more attuned to the inner workings of SwiftUI might have a more definitive answer)
 
---- 
+---
 > ####  Is there a decent guide how to mix Core Data and structured concurrency? I find some 3rd party guides but nothing that would be written by Apple
 
 
@@ -2593,7 +2594,7 @@ Robert, But you have to make sure that none of the NSManagedObjects are used out
 |U03J2019QTV|:
 <@U03JL18FUHH> Correct, you need to be very careful about where you use the `NSManagedObjects`. I have been using structs to pass the data around my app — which is a new approach for me. I’m actually quite liking how that's working.
 
---- 
+---
 > ####  About Minimal Strict Concurrency Checking, do we need to add Sendable conformance to struct and enum even though they are implicitly Sendable if we want to check Sendability?
 
 
@@ -2612,7 +2613,7 @@ No, it will not. If you place an explicit `Sendable` conformance on your struct 
 |U03JJUHHF7W|:
 I see. Thank you very much!
 
---- 
+---
 > ####  In Xcode 14, some of the UIKit structs like `UIEdgeInsets` have their `Sendable` conformances marked explicitly as unavailable. That's a bit surprising, given that they are trivial data types. Why is that, and what's the purpose of conforming to `Sendable` and marking this as unavailable?
 
 
@@ -2631,7 +2632,7 @@ Got it, thanks!
 |U03JRN827HN|:
 The feedback number is FB10112675.
 
---- 
+---
 > ####  I’ve recently started a new project using Core Data. Should I endeavor to avoid DispatchQueues and NSManagedObjectContext.perform and instead model all concurrency via async/await and Tasks? Is there a downside to mixing the two approaches?
 
 
@@ -2653,7 +2654,7 @@ Thanks, <@U03HHQ7T15Y> . I will do that.
 |U03HHQ7T15Y|:
 Thank you!
 
---- 
+---
 > ####  In trying to test code that used an AsyncSequence recently, I discovered that for NotificationCenter.Notifications the underlying subscription isn't established before the sequence value is returned to the caller, which results in test failures due to race conditions.  My expectation would be that a sequence value should not be returned for an AsyncSequence until it is ready to respond to the events in question—but the AsyncSequence protocol does not specific this per se. Do you think that is a reasonable expectation?
 
 
@@ -2721,7 +2722,7 @@ Well dang, it looks like the conclusion in that thread and my pointing at Notifi
 |U03H36UD5QX|:
 that is a bit much to really get into on slack - id have to really pull it apart; make sure to file a feedback with any repro case like that
 
---- 
+---
 > ####  Hi! Thank you for taking the time to answer our questions. I was wondering what is a recommended approach for serializing a series of async functions with Swift concurrency, so that they run one at a time, and run in order so one must complete before the next? My current attempt involves an `AsyncStream` within an actor, but it seems complex and I'm unsure it is correct:  ``` final class Repository {     func _request(_ requestMethod: RequestMethod) async throws - RequestResult {       // Execute an async request against a remote or local source (perhaps both)...     } }  actor AsyncUserRepositoryWithStream {     private let repository: AsyncUserRepository      struct StreamElement {         let continuation: CheckedContinuation&lt;AsyncUserRepository.RequestResult, Error         let action: () async throws - AsyncUserRepository.RequestResult     }      var task: Task&lt;Void, Error!     var stream: AsyncStream&lt;StreamElement!     var streamContinuation: AsyncStream&lt;StreamElement.Continuation!      init(urlSession: URLSession, baseUrl: URL, persistentContainer: NSPersistentContainer) {         self.repository = .init(urlSession: urlSession, baseUrl: baseUrl, persistentContainer: persistentContainer)          var streamContinuation: AsyncStream&lt;StreamElement.Continuation!          stream = AsyncStream {             streamContinuation = $0         }          self.streamContinuation = streamContinuation     }      func request(_ requestMethod: RequestMethod) async throws - AsyncUserRepository.RequestResult {         if task == nil {             task = Task {                 for await element in stream {                     do {                         let result = try await element.action()                         element.continuation.resume(returning: result)                     } catch {                         element.continuation.resume(throwing: error)                     }                 }             }         }          let result = try await withCheckedThrowingContinuation { (continuation: CheckedContinuation&lt;AsyncUserRepository.RequestResult, Error) in             streamContinuation.yield(                 .init(                     continuation: continuation,                     action: {                         try await self.repository._request(requestMethod)                     }                 )             )         }          return result     } } ```  Do you have a recommended approach?
 
 
@@ -2742,7 +2743,7 @@ It’s definitely something we’re thinking about.  Understanding what the code
 |U03JSG77YDA|:
 Thanks, I have a larger code sample with unit tests I’ll be sure to submit!
 
---- 
+---
 > ####  How can the Reader/Writer problem solved efficiently with Swift concurrency? Write operations should have exclusive access (serialized), readers can perform in parallel. Actors serialize everything, which is not optimal from a performance perspective.
 
 
@@ -2781,7 +2782,7 @@ It would be really great to have more control over the execution order of tasks 
 |U03HB5WSFRC|:
 Thanks for the reply! It would be great to get a feedback report from you about what you're trying to accomplish, if you have a moment to write up more. We're looking into adding more facilities to control execution order and having examples of what people are doing in practice will help inform our design. In the meantime, it may help to think about managing execution order within a single task, rather than trying to coordinate execution order across different tasks—for instance, you could have an actor that holds onto a queue of work items that other tasks can send work items to, and a single task that drains the queue in order.
 
---- 
+---
 > ####  If `Task {` is called from a MainActor, does that mean the Task will always run on the main thread?
 
 
@@ -2797,7 +2798,7 @@ So an `async` function inside a `MainActor` makes an `await` call. That await wi
 |U03HHQ7T15Y|:
 If it’s calling an `async` function that isn’t `MainActor`-isolated, yes
 
---- 
+---
 > ####  I have a question about structured concurrency cancelation. In particular best practice for sharing responsibilities when canceling.  Given the code snipet: ``` ... task = Task {     let longRunningWorker = LongRunningWorker(inputURL: fileURL)     fileURL = try await longRunningWorker!.doAsyncWork()      let image = try await ImageService.i.generateImage()     let modifiedImage = try await doSomeMoreAsyncWork(image)     let andMore = try await andSomeMore(modifiedImage) } ... ```  At some point I might call `task.cancel()`. How that should be handled?  After reading all of the tutorials I see two paths and I'm not sure which one is better: 1) Add `try Task.checkCancellation()` after each line in the code snippet above 2) Those async methods should handle cancellation in-them which would result in some boilerplate code in each of them.
 
 
@@ -2820,7 +2821,7 @@ most likely, but keep in mind what semantics you want from it all :slightly_smil
 |U03JL18FUHH|:
 Thank you
 
---- 
+---
 > ####  If MainActor func is called from MainActor context is there a way to execute it synchronously without scheduling for the next loop?
 
 
@@ -2848,7 +2849,7 @@ Okay.  The code inside `Task {}` does not run synchronously, and no, there’s c
 |U03JM1PJE9G|:
 okay. Thank you for the answer
 
---- 
+---
 > ####  Hi, with the new Async Algorithms for AsyncSequence, how would you use `.debounce` for example, on a SwiftUI TextField text change? (i.e how would you convert a text change to  a an AsyncSequence) I know how to do it with Combine (or RxSwift) but can't grab my head around how to do this with AsyncSequence
 
 
@@ -2912,14 +2913,14 @@ Got it, does SwiftUI has an AsyncSequence alternative to `@Published` which is u
 |U03JK6RTGSJ|:
 Got it, thank you so much for the follow up questions!
 
---- 
+---
 > ####  Do you have any recommendations for debugging race conditions when the repo uses a mix of completion handlers, combine pipelines, and async?
 
 
 |U03HL5AMFCL|:
 For debugging data races and other memory safety issues in an App, sanitizers are a good general purpose tool and a great starting place (TSAN, ASAN, UBSan). If you're interested in specifically analyzing Swift Tasks/Actors, the new Swift Concurrency Template in Instruments 14 (<https://developer.apple.com/videos/play/wwdc2022/110350/|Visualize and optimize Swift Concurrency>) can provide a lot of additional insight and may help debugging these types of race conditions.
 
---- 
+---
 > ####  How do we opt out of clang-tidy checks in the analyzer? (i.e. bugprone-move-forwarding-reference)
 
 
@@ -2939,7 +2940,7 @@ Hi, I just found your question! There are build settings to control individual s
 |U03KDARQ0QY|:
 Thank you <@U03H36EUL95> for getting back to me on this! There are no real problems with the check, we just have a large codebase and want to light up static analysis overall but don't want to wait for every check to be green. We want to do it incrementally.
 
---- 
+---
 > ####  I am using NSProgress to handle task cancellation because it is used by some low level code.  Is it sendable?  What do I need to do to use NSProgress with tasks and Swift concurrency?
 
 
@@ -2968,7 +2969,7 @@ long story short: thread local based apis won't work in combination with async/a
 |U03KC4LFL64|:
 Yeah, it took a lot to get it "reliable” in the current release which immediately broke in iOS 16.
 
---- 
+---
 > ####  What's `functional programming` alternative to `for await value in values`? i.e what's the `foreach()` for AsyncSequence
 
 
@@ -2978,7 +2979,7 @@ Discussion about this in the community is ongoing, you can follow along here on 
 |U03JK6RTGSJ|:
 Thanks, i’ll check it out
 
---- 
+---
 > ####  I'm seeing a concurrency warning in my `UIViewController.deinit` in which I'm calling `NotificationCenter.default.removeObserver(observer)`. This is the documented &amp; recommended technique in UIKit. The warning says: "cannot access property 'observer' with a non-sendable type '(any NSObjectProtocol')?." How I can keep using this old-school UIKit pattern while also satisfying strict concurrency checks? I've seen some recent discussions around concurrency + (de)initializers but I don't fully understand them.
 
 
@@ -3002,7 +3003,7 @@ I thought that NotificationCenter observers are automatically removed when the o
 |U03JRN827HN|:
 Only targer/selector ones.
 
---- 
+---
 > ####  I’ve noticed that when creating new files inside SPM packages source directories, there’s no prompt for filename, and it instantly creates a `File.swift`.  Also (in SPM file creation), I cannot choose custom templates, and file headers aren’t generated with copyright and such. I’ve noticed this hasn’t been fixed in xcode 14 beta, and it’s a real pain, especially when creating new SwiftUI files because you have to rename so much stuff there. Any plans on fixing it or a workaround?
 
 
@@ -3018,14 +3019,14 @@ Thanks for the reply, I actually did: FB10015071
 |U03JK6RTGSJ|:
 <https://feedbackassistant.apple.com/feedback/10015071>
 
---- 
+---
 > ####  Any chance Xcode 15 could continue to support macOS Monterey given that macOS Ventura does not support the 2015 MacBook Pro?
 
 
 |U03HL553PNG|:
 That's always a tough decision for us each year and we weigh those trade-offs very carefully.  Please file a feedback for us at <http://feedbackassistant.apple.com|feedbackassistant.apple.com> so we can track that.
 
---- 
+---
 > ####  I’ve always wondered what is the use case for the option to change Xcode Project format version. It doesn’t seem to change anything in my project file. What it is useful for?
 
 
@@ -3053,7 +3054,7 @@ It's always open to discussion :thinking_face: but shortly from our perspective:
 
 I remember some articles about Airbnb or Uber having hundreds of modules :sweat_smile: that was a bit too much, but we're around 30 and it really helped us significantly.
 
---- 
+---
 > ####  I would like the ability to import a swift playground app (.swiftpm) into Xcode and provide the functionality to have Xcode convert it to an Xcode project. I know we can already open a Swift Playgrounds app (.swiftpm) in Xcode, but it opens as a playground and not an Xcode project. Currently, I have had to manually create a new Xcode project and copy in the playground (.swiftpm) file content. Can Xcode import and convert (.swiftpm) into an Xcode project with Xcode 13 and Swift Playgrounds 4.1 or with Xcode 14 and Swift Playgrounds 4.1?  If not I’ve created a feedback request: FB10080022
 
 
@@ -3074,7 +3075,7 @@ Also, I'd like to use source control from Xcode so I'm not keeping app up to dat
 |U03J4EJ0CVA|:
 I was waiting on WWDC22 to see if any new API functionality was introduced for Swift Playgrounds for Core Data, CloudKit and source control. Thanks for clarifying for me. :+1::skin-tone-2:
 
---- 
+---
 > ####  Might be more of a SPM question, but with Xcode 14 I see about 30 times every time that "Resolve Packages" runs:   Showing Recent Messages Usage of /Users/me/Library/org.swift.swiftpm/collections.json has been deprecated. Please delete it and use the new /Users/me/Library/org.swift.swiftpm/configuration/collections.json instead.  I don't mind deleting that file, but will it mess up my Xcode 13 builds?
 
 
@@ -3087,7 +3088,7 @@ The message showing up multiple times is a known issue in Xcode 14 beta 1. This 
 |U03J7H4LJ5N|:
 Yes, that is correct. This is part of a one-time reorganization of these configuration files.
 
---- 
+---
 > ####  With this gorgeous Build Timeline I'm really curious if there are any advices on how to display the dependency graph for a Swift Package. The idea can be described as a diagram with displays how targets depend on one another. I've been working on a pet-project tool to display it with some solutions that do not look quite right since the Package is a struct and it has `targets` property and SPM does package resolution anyway. Sooo, I've been wondering maybe there is some approach that I do not know about? :sweat_smile: What would be your general advices to achieve such a behaviour?  (And once again, Build Timeline is magnificent, many thanks for that, basically a piece of art)
 
 
@@ -3103,7 +3104,7 @@ Thank you, I’ll file a feedback then :raised_hands:
 |U03H36R5MST|:
 Hey <@U03J22AU6DQ>, sorry just got in. Awesome that the build timeline is helping you, that's really great to see! For the target dependency graph of a Swift package, that actually exists: `swift package show-dependencies --format json`. Does that miss anything you're looking for?
 
---- 
+---
 > ####  Is it possible to build an iOS app with SPM only without xcworkspace / xcproject and without falling back to generating one?
 
 
@@ -3132,7 +3133,7 @@ Playground App format is a good first step for replacing a heavy xcodeproj files
 |U03J7H5DD2L|:
 Wow, lots of replies! I would recommend asking new questions via the :workflowbolt: workflow rather than in this thread so you can get more eyes on it!
 
---- 
+---
 > ####  In Xcode, is it possible to see what updates are available for SPM packages without actually updating them? Would be nice if there was a visual indication of out of date packages in the Packages section
 
 
@@ -3142,7 +3143,7 @@ This is a great idea — please file feedback at <http://feedbackassistant.apple
 |U03JUCK9B16|:
 Sometimes features seem so obvious I assume its already on some Jira board somewhere :grinning:
 
---- 
+---
 > ####  Should it be up to the consumer or producer of a package to decide how it should be linked and why? As of today, SPM looks like missing a way to say "I want this to be linked in ... way" without forking a third-party package and modifying `Package.swift`.
 
 
@@ -3154,7 +3155,7 @@ Would you mind please filing a bug report at <http://feedbackassistant.appe.com|
 |U03JGEZM5K5|:
 I will. However, I dream of solution where I do not need to know what is static and dynamic and making any of such decisions :slightly_smiling_face:
 
---- 
+---
 > ####  Can you help me with a crash with XcodePreview ? When I try to load an asset that is located in another package it crashes. Will it be possible to load assets from other local package ?  <https://forums.swift.org/t/xcode-previews-swiftpm-resources-xcpreviewagent-crashed/51680|https://forums.swift.org/t/xcode-previews-swiftpm-resources-xcpreviewagent-crashed/51680> <https://stackoverflow.com/q/64540082|https://stackoverflow.com/q/64540082> <https://feedbackassistant.apple.com/feedback/10102512|https://feedbackassistant.apple.com/feedback/10102512> <https://feedbackassistant.apple.com/feedback/10104291|https://feedbackassistant.apple.com/feedback/10104291>
 
 
@@ -3179,14 +3180,14 @@ Right, the SwiftUI folks staffing that lab from 3–5PM (California time) tomorr
 |U03J4DF6D6G|:
 Thanks I did ask for a lab session.
 
---- 
+---
 > ####  When trying to compile our app with Xcode 14b1, we have a build failure due to ibtoold/AssetCatalogSimulatorAgent crashing when compiling the asset catalog. This did not happen with Xcode 13.x.  Except submitting a feedback, is there any known workaround?  :point_right: <https://feedbackassistant.apple.com/feedback/10104592|https://feedbackassistant.apple.com/feedback/10104592>
 
 
 |U03HB5P8SB0|:
 Thank you for reporting this! We are looking into issues with the asset catalog compiler and will provide updates through your feedback.
 
---- 
+---
 > ####  What is your advice for handling teams where some developers are on Intel machines and some on Apple Silicon?  We run Xcode through Rosetta consistently, but wondering if you had best practices.
 
 
@@ -3288,7 +3289,7 @@ There is a lot of work in that repo and setting up the XCFrameworks you need is 
 |U03J20E7UBV|:
 Thanks, <@U03J4D1FEP6>!  I appreciate the vote of confidence and will be checking that out now!  I am going to get to the bottom of it!
 
---- 
+---
 > ####  I’ve been re-creating SwiftLint SPM Plugin from the recent session and while I did manage to do that the experience was not ideal. I had to to a clean build of my target to re-build the plugin and moreover errors and warnings were not displayed. I’m assuming that has to something to do with my setup. Setup was: Plugin was created as a plugin target only, re-building the target it connected to for changes. So, targets are in the same Package and there are no libraries for the plugin. I do recall that there are going to be sessions on this topic tomorrow, but maybe any advice while we’re in Q&amp;A space? :sweat_smile:
 
 
@@ -3325,7 +3326,7 @@ If you do have time to sign up for a slot in the Xcode Open Hours Lab from 1pm-4
 |U03J22AU6DQ|:
 Got it, thank you <@U03HES8111T>!
 
---- 
+---
 > ####  Hi! In preparation for WWDC, we updated all our app release branches to build with Xcode 13.4! This went fine for most of our apps' branches, but one of those branches (with `IPHONEOS_DEPLOYMENT_TARGET = 14.0`) started producing archive builds which fail to upload to App Store Connect. The error we're getting is:  ``` ITMS-90427: Invalid Swift Support  …  We identified one or more issues with a recent delivery for your app, "OmniFocus 3 Enterprise" 3.13 (151.23.24). Please correct the following issues, then upload again.  ITMS-90427: Invalid Swift Support - The expected dylibs are missing from the app’s Framework location, such as /Payload/OmniFocus.app/Frameworks. ```  Going back through builds of Xcode, it looks like this error started with Xcode 13.3, and seems to be associated with its bundling of:  ``` SwiftSupport/iphoneos/libswift_Concurrency.dylib ```  We don't actually reference `libswift_Concurrency.dylib` in this release branch at all, so as far as we know we shouldn't need that `dylib`. But is there something we can do to make App Store Connect accept our upload (other than reverting to Xcode 13.2 or earlier)?
 
 
@@ -3360,14 +3361,14 @@ With 13.2 I'm not able sign but it is only related to the concurrency library.
 ‘error: Couldn't codesign /Users/xxxxx/Library/Developer/Xcode/DerivedData/xxxxxxx-bdejxonpdwrjtwgwgskakzwsmprg/Build/Intermediates.noindex/ArchiveIntermediates/xxxxxx/InstallationBuildProductsLocation/Applications/xxxxxx.app/Frameworks/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.5/iphoneos/libswift_Concurrency.dylib: codesign failed with exit code 1
 Command PhaseScriptExecution failed with a nonzero exit code’
 
---- 
+---
 > ####  I can understand newest versions of Xcode being picky about the minimum macOS version required to run, but why recent macOS version can’t run older versions of Xcode?
 
 
 |U03H36RCYJK|:
 We want to ensure the best experience for our developers. We explicitly qualify each version of Xcode with the two most recent versions macOS. We don't qualify older Xcode's with newer versions of macOS, and want to ensure you don't run into problems using an unsupported configuration.
 
---- 
+---
 > ####  We’re having an issue with SPM packages on Xcode 13, where our local packages fail to load when switching branches, giving us Missing Package Product errors. The only workaround we’ve found is to reset package cache and restart Xcode. Is this a known issue?
 
 
@@ -3439,7 +3440,7 @@ Feedback submitted: FB10116194
 |U03HZ6C9S21|:
 We had the same issue and got fixed when we stopped using strings to declare targets and packages and used the respective .package and .product and relative path for local packages like ../../dependencyProduct
 
---- 
+---
 > ####  I'm working on an app right now that I anticipate releasing before fall. I know that the new Xcode can make things for TestFlight, but what about for the app store?  I'm not sure I want to use beta Xcode for a released app. Can I even do so?
 
 
@@ -3449,7 +3450,7 @@ You can submit apps to TestFlight using Xcode 14 beta. However you won't be able
 |U03JF7VN2SE|:
 roger, thanks!
 
---- 
+---
 > ####  Can you advise if there have been any changes from Xcode 13.4.1 to Xcode 14.0 that would perpetuate a new;  ``` Undefined symbols for architecture x86_64:   "_OBJC_CLASS_$_ADBMobile", referenced from:       objc-class-ref in OmnitureWrapper.o ld: symbol(s) not found for architecture x86_64 ```  I know that's overly specifically, but just curious what might have changed under the hood that would make building on Xcode 14 hit a build error!
 
 
@@ -3459,7 +3460,7 @@ Hi Brandon! Looks like a missing symbol in your build - Please file feedback at 
 |U03J20E7UBV|:
 Thank you, <@U03HL5H29CL>!  Will do!
 
---- 
+---
 > ####  Deleting ~/Library/Developer/Xcode/DerivedData is a common workaround for various Xcode problems, at least according to community wisdom. Does this make Xcode engineers grit their teeth, and if so, what should we be doing instead?
 
 
@@ -3469,7 +3470,7 @@ When deleting your derived data fixes a problem, it means that there's a depende
 |U03HMD22287|:
 Thank you, I will do that!
 
---- 
+---
 > ####  I usually like my assistant editor to the right, but I prefer the new build timeline below. Is there a way to save per-assistant position preferences?
 
 
@@ -3491,21 +3492,21 @@ Kinda related: I had a very hard time finding the Build Timeline. Not sure if it
 |U03JRPTG8BS|:
 I searched this Slack for “Build Timeline” because I was trying to find this feature in Xcode and failed. Definitely not obvious that it is hidden in the Assistant.
 
---- 
+---
 > ####  I recall it used to be you could not use a beta macOS version and the current public version of Xcode to distribute an app on the App Store. Is that still the case? Recognizing the current macOS beta doesn't support the public Xcode, it's not super relevant right now, but still curious if this remains true.
 
 
 |U03HB5P2UTY|:
 Xcode 13 will not run on macOS Ventura, There is no restriction on distributing apps to the App Store that were built with released tools on a beta macOS. However, we recommend using a released macOS whenever you build software that you intend to distribute.
 
---- 
+---
 > ####  I am using gRPC is there a way to monitor all the active gRPC connections? Not sure how accurate is the Active connection in the network report is.
 
 
 |U03HES8U8FP|:
 The network gauge in the debug navigator shows a list of all the active connections. You can see the local and remote addresses and ports, state and the traffic for each connection. The data you see there should be accurate, if that’s not the case, please send us a feedback!
 
---- 
+---
 > ####  Running a macOS catalyst app in Xcode in release mode creates two builds even though only one build is needed. This doubles the compile time. Any chance this could be fixed without affecting archive release builds?
 
 
@@ -3521,7 +3522,7 @@ Thanks for the feedback! If you could file feedback at <http://feedbackassistant
 |U03HZ5CEBKP|:
 Done. <https://feedbackassistant.apple.com/feedback/10116446>
 
---- 
+---
 > ####  This came up in a lab today with Anders and he said to post here:  Tickets:  FB10107786 FB10107712  Is there currently any way to flip on the “this is extension safe” bit when building a Dylib entirely in SPM?
 
 
@@ -3530,7 +3531,7 @@ There is currently no way to set the "extension safe" bit when building dynamic 
 
 Thank you very much for providing the FB number here for that issue and for the bug with the conditional dependencies so that we can track them.
 
---- 
+---
 > ####  What plans to improvement Xcode Plugins? Can we see something like in VSCode Extensions or Jetbrains Plugins?
 
 
@@ -3549,7 +3550,7 @@ I wonder to see same extensions API like in Safari where I can write SwiftUI ext
 |U03J7H5DD2L|:
 Ooh, those are cool ideas! Since this Digital Lounge will be shutting down pretty soon, a bug report might be the best place to write down these use case!
 
---- 
+---
 > ####  My project compile in Xcode 13.4.1 and in Xcode 14b1 it doesn't I have "The compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions"  error in two different SwiftUI files that compile in Xcode 13.4.1.
 
 
@@ -3575,7 +3576,7 @@ I hope it help
 |U03J7H5DD2L|:
 Thank you!!
 
---- 
+---
 > ####  I didn't want to derail another thread about differences between Xcode running on Apple Silicon vs. Intel: the main problem we face are snapshot tests that produce slightly different results when executed on simulators running on AS vs. Intel. (These tend to be sub-pixel differences in the rendered output). Are you aware of any way we can launch simulators to mitigate these differences?
 
 
@@ -3620,21 +3621,21 @@ Sure. At the moment anyone with an M1 asks someone on an Intel mac to update the
 |U03K840U3L1|:
 Thanks for discussing this, we also are facing this issue in a team with mixed machines.
 
---- 
+---
 > ####  With TestFlight being an iOS 13+ app, how can I distribute my beta builds to users on iOS 12 which we are still supporting?
 
 
 |U03HB5P2UTY|:
 You can submit an app with an iOS 12 deployment target to TestFlight. In order to install the TestFlight client on devices with an older OS, you'll need to install a previous version from the Purchased list available in the App Store client.
 
---- 
+---
 > ####  I've heard mixed reports about bitcode being deprecated for all platforms vs just watchOS and tvOS. Could you clarify which platforms bitcode has been deprecated for? Also, is it right that a target will just need BITCODE_ENABLED set to NO.
 
 
 |U03HB5P2UTY|:
 Bitcode is deprecated for all platforms. You can set BITCODE_ENABLED to NO in your projects to disable building with it. Xcode will also automatically compile bitcode into machine code when you upload your app to App Store Connect.
 
---- 
+---
 > ####  In the enterprise setup for an iOS app where there is heavy use of unit tests, linters, code generation, etc is it possible to drive all of it with SPM, or fall back to the existing built-in Xcode build orchestration with xcproject and xcworkspace? There was a recommendation to use playground templates, can you confirm that it is solution for all the cases above?
 
 
@@ -3650,7 +3651,7 @@ It seems like SPM package for any other platform but iOS is first class citizen 
 |U03JGEZM5K5|:
 ps but I am sure this is known :slightly_smiling_face:
 
---- 
+---
 > ####  Hi Guys, hopefully a simple question. In 13+ many times when I debug and try to see the values in variables it since they have been optimized out. Is there a way that this will not be done while debugging? I can t figure out what causes it and or iof there is a switch to stop this behaviour.
 
 
@@ -3666,7 +3667,7 @@ Ill make sure that is set, I think I did this a while ago. I am going to start u
 |U03HT20UKFZ|:
 Thanks!
 
---- 
+---
 > ####  We have a large project that seems to crash Xcode frequently when switching branches. Is there anything in the project file that might cause this? We use SPM for dependencies, and it seems to possibly be correlated to when we switched from Cocoapods
 
 
@@ -3706,7 +3707,7 @@ which might be fixed by rebuilding it
 |U03J7H4LJ5N|:
 It’s a pretty rare issue, so I wouldn’t think it’s the most likely explanation. But from a cursory look at the crash log, I also wouldn’t entirely rule out that possibility.
 
---- 
+---
 > ####  Our "Create build description" step on a clean build takes 145 seconds, is there a way to speed that up?
 
 
@@ -3718,7 +3719,7 @@ Also, please consider signing up for a Build Performance Lab to speak directly w
 Link to the next lab:
 <https://developer.apple.com/wwdc22/labs-and-lounges/dashboard/44T86K56S9/dashboard>
 
---- 
+---
 > ####  Not a question, but a thank you for making previous errors in the build navigator turn grey while doing a new build to make it clear that they may be stale
 
 
@@ -3728,7 +3729,7 @@ Thanks! As you get to know the feature, if you have any suggestions for improvin
 |U03HMD22287|:
 Yes, thank you, this feature is wonderful! :heart_eyes:
 
---- 
+---
 > ####  I use VIM on a daily basis, and I find frustrating the lack of functionality on XCode. Are there plans to improve VIM support on Xcode 14 or later?
 
 
@@ -3738,7 +3739,7 @@ Hi Juan, I'm sorry to hear that you are having issues. Could you file a feature 
 |U03HX9ZTNQ7|:
 OK, I'll do it. Thanks for the quick answer.
 
---- 
+---
 > ####  Is it normal to see multiple "Resolve Packages" tasks in the Report navigator when opening a project with lots of SPM dependencies? If so, why?
 
 
@@ -3764,7 +3765,7 @@ Thank you for the additional information.  I think a bug report with as much inf
 |U03HES8111T|:
 There is provision for avoiding such a feedback loop, but it definitely sounds as if there is a bug here.
 
---- 
+---
 > ####  Whats the recommended way to package up internal dependencies (ex: model-layer code, etc) in Xcode? Is it SPM or Frameworks?
 
 
@@ -3787,7 +3788,7 @@ Maybe this isn’t what you were asking… but just in case it was.
 
 My use case was because I needed to include a helper class in Objective-C to call an iOS API that currently cannot be called from Swift, only from Objective-C. (Weird.)
 
---- 
+---
 > ####  We've got an app that's split up into many frameworks. There's a single project that contains all the targets. I've seen examples of apps that make multiple single-target projects in a workspace. Other than organization, is there any difference between those two approaches or are they functionally the same.
 
 
@@ -3796,7 +3797,7 @@ The two arrangements support the same features. If you'd like to open subsets of
 
 For example, if you later have two top level apps that use different subsets of the targets, they can each have a more focused workspace with the many projects approach.
 
---- 
+---
 > ####  I keep getting "Could not resolve package dependencies error" for Xcode Cloud last 2 days. I am pretty sure I have Package.resolved checked in to the repo. anything I can do to resolve this issue? everything build fine on my Xcode
 
 
@@ -3809,14 +3810,14 @@ Alternatively, feel free to submit a bug report at <https://feedbackassistant.ap
 |U03JQ7PU1L1|:
 I got a provision error when running locally saying provision  doesn't include the currently selected device
 
---- 
+---
 > ####  Monterey does not allow Xcode 12.x to run. Is it safe to assume that like 12, no prior versions of Xcode before 12 run on Monterey?
 
 
 |U03HHPY6YQ2|:
 Yes, I believe that is correct
 
---- 
+---
 > ####  Why do we keep getting code signing warning when validating a project in Xcode, if we have the settings applied at the project (not target) level?
 
 
@@ -3829,7 +3830,7 @@ This is most likely a bug. Could you file a bug report about this and provide th
 |U03HB5P2UTY|:
 Thank you, we'll take a look. From your description, it sounds like an Xcode bug and not a project configuration issue.
 
---- 
+---
 > ####  Are planning to add support “Signing and Run locally” to iOS targets?
 
 
@@ -3842,7 +3843,7 @@ Ok, mac can run app without trusted cert? what about generating one day cert? Or
 |U03HB5P2UTY|:
 The macOS runtime environment differs substantially from iOS. However, if this is something that would benefit your work we'd welcome a feedback report with more details.
 
---- 
+---
 > ####  The new primary associated types are really cool. I immediately tried it with `Publisher` eg: `some Publisher&lt;String, Never` but found this protocol does not support this. I've read SE-0358 but I'm still not clear on why this protocol shouldn't or couldn't use this new feature?
 
 
@@ -3863,14 +3864,14 @@ extension Just: _Publisher {}
 ```
 It's a bit tedious but each conformance should take no code outside of the extension.
 
---- 
+---
 > ####  If our framework uses Objective-C code, and users of the framework (customers) are asking us for a Swift package, can we give them what they want by bundling the framework as a binary wrapped in a Swift package?
 
 
 |U03HES8111T|:
 Swift Packages can contain targets that are comprised of C or Objective-C code and that are compiled with the Clang compiler.  If the Objective-C target has modularized headers and does not require special compiler options that are not supported by Swift Package, then a good solution would be to build the library as a Swift Package with an Objective-C target.
 
---- 
+---
 > ####  We’re building a location tracking app that collects user locations in background and periodically sends them to our backend for further processing. It’s important for us that the app is as power efficient as possible. Which means 1. optimizing location data collecting 2. network usage optimization (choosing the right network protocol/time intervals and so on).   The question is what’s the best way to test different location/network settings for power consumption? Is there a way to measure device power consumption in mA or watts?  We tried using xCode’s energy impact gauge, but it doesn’t give enough precision to distinguish between different CLLocationManager settings. We also tried running tests on a physical device and see what battery drainage per hour is. But it’s terribly inefficient and the results are not as precise as we would like them to be. 
 
 
@@ -3885,7 +3886,7 @@ Instruments has a Location Energy Model tool in the library that you can use to 
 
 Measuring actual power drain is much more complicated, as there are a myriad of factors — device model, network conditions, other device services, temperature, etc. and it's hard to measure precisely in live debugging conditions or predict/extrapolate to what users will experience when they're out and about in different conditions. MetricKit can help with the aggregate statistics though to show you usage trends over time,
 
---- 
+---
 > ####  When managing workflow for Xcode Cloud the scheme I selected have a yellow exclamation mark saying "The scheme may only exist locally". I am pretty sure this scheme have shared checked and the xcsharedata folder is in the repo. I am wondering is because of the having this exclamation mark my xcode cloud build always failed with message "An internal error has occurred. This operation will be retried on another build worker"
 
 
@@ -3914,7 +3915,7 @@ Okay I just double check I think it didn't get checked in. Thanks for the help
 |U03J7H8QABS|:
 Glad that helped!
 
---- 
+---
 > ####  I'm interested in introducing Xcode Cloud for a public sector project. Any suggested pathways towards having it approved for government use? Or insight into FISMA rating?
 
 
@@ -3924,7 +3925,7 @@ Hi Clint!  We're all engineers here and this is more of a question for WWDR or p
 |U03JKEKF1TP|:
 ok thanks
 
---- 
+---
 > ####  Xcode Cloud: is it possible to build and export a notarized Mac app on Xcode Cloud?
 
 
@@ -3937,7 +3938,7 @@ Sure thing! FB9961116
 |U03HB5P2UTY|:
 Thank you!
 
---- 
+---
 > ####  When adding [ci skip] in my commit for Xcode Cloud, will this string also appear in our GitHub repository?
 
 
@@ -3950,7 +3951,7 @@ Xcode Cloud reads the content of the commit message, but it cannot filter or mod
 |U03JHQDJ31C|:
 I see, makes sense. Thanks for answering.
 
---- 
+---
 > ####  Can i make only adhoc ipa with Xcode cloud? All types of ipa in develop/adhoc/store are output to the deliverables. In the Scheme specified in the workflow, adhoc is set in Archive. Want to reduce build time.
 
 
@@ -3971,7 +3972,7 @@ I can't comment on future plans, but we always give a lot of weight to the reque
 Thank you for taking the time to help me.
 It was very helpful.
 
---- 
+---
 > ####  Hello! My team is very interested in switching to Xcode Cloud for CI/CD. However, we're currently using Azure DevOps for both SCM and CI/CD, and I don't see that Azure DevOps is a supported SCM provider. Is there a way to use Xcode Cloud with AzDO as the SCM provider? We would not likely be able to use another SCM provider.
 
 
@@ -3981,7 +3982,7 @@ We don't support Azure DevOps. Xcode Cloud only supports Bitbucket, Github, and 
 |U03HMD22287|:
 Thank you, I'll do that.
 
---- 
+---
 > ####  What's a reasonable expectation on the backwards compatibility for `xctestrun`? I'm creating mostly macOS apps, and I need to keep a couple of versions of macOS supported to keep with my users. Right now (Xcode 13.4), I can use build_for_testing and test_without_building to test under macOS 11 and macOS 12, but not macOS 10.15 (our oldest supported version. Going forward, what can we expect for backwards testing compatibility?
 
 
@@ -4003,7 +4004,7 @@ It would be helpful to have test-without-building support os versions that repre
 |U03J7H4CG6L|:
 The use case of testing older macOS versions is definitely valid, and it's awesome that you are focused on expanding your test coverage across various OS versions. Your feedback here will help us prioritize our offerings in this area for the future!
 
---- 
+---
 > ####  Using Xcode Cloud, is there any way to test with physical devices as well as simulators?
 
 
@@ -4016,14 +4017,14 @@ Gotcha. There's some notable differences between simulators and real devices wit
 |U03J01RLBBR|:
 Yes, we experience this as well. We build a framework that id heavily dependent on the various CoreMotion sensors which are unavailable in the Simulators, so on device testing even for simple unit tests is necessary.
 
---- 
+---
 > ####  How do Xcode Cloud and Xcode Server "relate to" and "work with" each other? Would it make sense to have an Xcode Server setup for small/PoC projects/teams and an Xcode Cloud setup for bigger/productive projects/teams? Would it be easy to move projects and configuration files between Xcode Cloud and (on premise) Xcode Server? In case this would indeed be an option, is there any documentation how to best practice such a dual CI/CD setup approach?
 
 
 |U03HWD8L36V|:
 Xcode Server has been deprecated this year, see <https://developer.apple.com/documentation/xcode-release-notes/xcode-14-release-notes>. We encourage developers to try out Xcode Cloud. If you find functionality missing from Xcode Cloud that was present in Xcode Server, please file a feedback.
 
---- 
+---
 > ####  Is Xcode Cloud available for enterprise apps?
 
 
@@ -4039,14 +4040,14 @@ Also I should mention that *cloud signing*, which is available in both Xcode Clo
 |U03HB5P2UTY|:
 You can learn more about that in <https://developer.apple.com/videos/play/wwdc2021/10204|Distribute apps in Xcode with cloud signing> from WWDC21.
 
---- 
+---
 > ####  Will/does Xcode Cloud have the ability to auto-update signing certificates when they will expire?
 
 
 |U03HB5P2UTY|:
 Xcode Cloud uses cloud signing certificates that it automatically manages on your behalf. It will renew certificates a few months before they expire so that your builds have valid signatures while you test and distribute them.
 
---- 
+---
 > ####  I have a problem with xcode cloud. In certain cases, branches are not recognized and workflow cannot be started. Problems occur when trying to start a workflow directly from AppStoreConnect and Xcode using the "Start Build" button. If the workflow is initiated by a StartConditions decision, the problem does not occur. We use bitbucket.`master` branch is fine. `develop_xxx` branch is fine too. Problems occur with `develop/xxx`, `release/xxx` . If the branch name (path) contains `/`, it may cause problems.
 
 
@@ -4076,7 +4077,7 @@ Thanks for the advice. I'll do that when I file the feedback assistant.
 <@U03J7H4CG6L>
 I filed feedback assistant. Number is 10145252.
 
---- 
+---
 > ####  If I used Xcode Cloud to build the app, do I still need to adjust the build number in the future? Or just leave it as 1 is fine?
 
 
@@ -4086,7 +4087,7 @@ Xcode Cloud can manage your build number for you. For a new app, you can leave t
 |U03HVCK66P8|:
 Sure. No problem
 
---- 
+---
 > ####  Hello. The Xcode cloud is not so stable and always 'down'. After committed the files, it takes a while to show-up, but just queuing. 🫠
 
 
@@ -4102,14 +4103,14 @@ Okay!
 |U03J7H4CG6L|:
 Thank you!
 
---- 
+---
 > ####  Does Xcode Cloud integrate with other CI/CD workflows like Jenkins or is it considered standalone?
 
 
 |U03HB5RVBQW|:
 You can connect Xcode Cloud to other services using webhooks directly (<https://developer.apple.com/documentation/xcode/configuring-webhooks-in-xcode-cloud>), and Xcode Cloud is also part of the App Store Connect API (<https://developer.apple.com/documentation/appstoreconnectapi/xcode_cloud_workflows_and_builds>)
 
---- 
+---
 > ####  Can you integrate Xcode cloud with Fastlane?
 
 
@@ -4124,7 +4125,7 @@ Xcode Cloud is also part of the App Store Connect API (<https://developer.apple.
 |U03HB5RVBQW|:
 Alternatively, if you're trying to call Fastlane from Xcode Cloud, check out "Writing custom build scripts": <https://developer.apple.com/documentation/xcode/writing-custom-build-scripts>
 
---- 
+---
 > ####  Is Xcode Cloud possible to cache a specific directory for next build? I want to cache libraries built by Carthage and software installed with brew such as aws cli. Our Workflow takes a long time to build an environment and I want to solve this problem. We are still in need of a library that only supports carthage. There are plans to use SPM, but we still need more time.
 
 
@@ -4141,7 +4142,7 @@ This is something my team would love to see too! Submitted FB10135438 :thumbsup:
 Thank you, understood.
 We will file a feedback assistant, stating the status of use.
 
---- 
+---
 > ####  We have a large development organization with many apps and teams.  I have two Xcode Cloud subscription questions:  1. What happens if we exceed 1000 hours of compute time a month?  2. Would it be possible to have multiple subscriptions, each for  specific apps/teams?
 
 
@@ -4152,7 +4153,7 @@ Any builds in flight will complete, however no new builds will kick-off until th
 &gt; 2. Would it be possible to have multiple subscriptions, each for  specific apps/teams?
 Subscriptions are per Developer team.
 
---- 
+---
 > ####  Does Xcode Cloud offer a choice between Intel or Apple Silicon hardware?
 
 
@@ -4165,21 +4166,21 @@ Does that mean Xcode Cloud runs on Intel?
 |U03HL5G4QFN|:
 At this time Xcode Cloud provides a x86_64 environment
 
---- 
+---
 > ####  Can Xcode Cloud support ssh package urls to GitHub package repos?
 
 
 |U03J7H8QABS|:
 Yes, both https and ssh URLs are supported for cloning both the primary repo and package dependencies.
 
---- 
+---
 > ####  I am getting started with Xcode Cloud, but can't get build caching to work. All builds take the same time as the first, "clean" build, and the `DerivedData` folder is empty at the start of each build. In addition, I tried caching my CocoaPods by symlinking them into `DerivedData` as suggested at <https://developer.apple.com/forums/thread/695634,|https://developer.apple.com/forums/thread/695634,> but that doesn't seem to work, either.
 
 
 |U03HL5G4QFN|:
 Please <http://feedbackassistant.apple.com|file a feedback> describing what you are seeing so the team can take a look
 
---- 
+---
 > ####  This is perhaps not a question for the engineering team but I'm wondering how build hours are billed beyond 1000 a month. Doing some napkin math, I think my team might be in that ballpark.
 
 
@@ -4189,7 +4190,7 @@ We do not currently offer plans beyond 1000 hours. If you need more than 1000 ho
 |U03HMD22287|:
 Yes, measuring in the real world is good! Thank you.
 
---- 
+---
 > ####  To build my project, I need to first build some tools using Mint (<https://github.com/yonaskolb/Mint)|https://github.com/yonaskolb/Mint)> such as swift-format and XcodeGen. This dramatically increases job times because the extra tools need to be rebuilt each run. Do you have any recommendations on how to reduce the time needed for this? Is there a way to cache custom directories created during the job such as ~/.mint (where Mint puts the built products) to re-use on subsequent jobs?
 
 
@@ -4216,7 +4217,7 @@ I’ll also try to play around with Package plugins to see if they’d fit what 
 
 Thanks!
 
---- 
+---
 > ####  On the iOS 16 beta, we noticed a new _UIWindowSystemOverlayWindow, which interfered with some of our UI tests. Could it be related to the new Stage Manager?
 
 
@@ -4232,14 +4233,14 @@ Interesting! Could you file a Feedback Report a <http://feedbackassistant.apple.
 |U03J4EW62N8|:
 Will do. Thanks
 
---- 
+---
 > ####  Does Xcode Cloud run on Intel or Apple Silicon or a somewhat-random hybrid (you don't know what you'll build on each time)?
 
 
 |U03HL5G4QFN|:
 At this time Xcode Cloud provides a x86_64 environment. If you require Apple Silicon machines please <http://feedbackassistant.apple.com|file a feedback>
 
---- 
+---
 > ####  For xcode Cloud when i add my github it take forevet to get access  to github why is this?
 
 
@@ -4307,7 +4308,7 @@ You're welcome!
 |U03HVBSNM6J|:
 :slightly_smiling_face:
 
---- 
+---
 > ####  Is there a workflow that allows for manually building a build off of a specific branch?  More specifically, if I had a feature branch and wanted to generate a build for a non-developer to test through TestFlight, is this possible?
 
 
@@ -4323,7 +4324,7 @@ No problem. I hope you have a great rest of your day!
 |U03J20E7UBV|:
 You as well!
 
---- 
+---
 > ####  In Xcode cloud workflow there is an option to select Deployment preparation for internal or App Store. and In Post-Action it's also separate between internal and app store. My question is from my understand in Appstore connect dashboard there is only one place showing Testflight how is internal and appstore build being differentiate? or how can I tell which one is for internal or which one is for app store
 
 
@@ -4336,7 +4337,7 @@ Thanks. curious did this ever get mentioned in any document or session ?
 |U03HB5P2UTY|:
 Deploying to internal testers was covered in <https://developer.apple.com/wwdc21/10268|Explore Xcode Cloud workflows>
 
---- 
+---
 > ####  I have a lot of extensions in our app so updating them for a new build requires going in to each one to update the version number and build number. Is there a way to automate this? using custom script?
 
 
@@ -4346,7 +4347,7 @@ When distributing your app from either Xcode or Xcode Cloud, the build numbers i
 |U03JQ7PU1L1|:
 Thanks Itai
 
---- 
+---
 > ####  Does Xcode Cloud support custom release notes during a build step? I could be missing a toggle somewhere but feels like a great feature to include, e.g. branch names or commit msg.
 
 
@@ -4356,21 +4357,21 @@ Xcode Cloud doesn’t have any kind of release notes support, but it sounds like
 |U03K9D00WLR|:
 :+1: 
 
---- 
+---
 > ####  Is it possible to disable `precondition` checks when running XCTests? where should I pass the compile flag?
 
 
 |U03J7H8KC8Y|:
 This is possible by adding `-Ounchecked` to the Other Swift Flags build setting, however this would not be specific to running tests, and is not generally recommended.
 
---- 
+---
 > ####  I am working at an app agency, building apps for 50+ customers, all with their own developer accounts. What is the recommended way of managing Xcode Cloud setups &amp; builds across multiple developer accounts or teams?
 
 
 |U03HL5G4QFN|:
 Xcode Cloud is per WWDR team. You would have to onboard your apps in Xcode for each respective app/team. We don't really have advice for the managing multiple WWDR teams.
 
---- 
+---
 > ####  When trying to set up Xcode Cloud for our iOS app containing private Swift packages, we see the error  GitLab installation was incomplete. Repository was not found. Either the repository does not exist or you do not have permission to access it.  Is there something special to do for Xcode Cloud to get access to private Swift packages hosted on GitLab?
 
 
@@ -4387,14 +4388,14 @@ Thanks <@U03HWD8L36V>, I will double check!
 |U03HWD8L36V|:
 You can also try to remove the connection and start over. For the removal, see <https://developer.apple.com/documentation/xcode/removing-your-project-from-xcode-cloud#Disconnect-your-Git-repository-in-Xcode-Cloud>
 
---- 
+---
 > ####  Any chance to get Xcode Cloud enabled for Enterprise/In-House builds? That would be our main use-case.
 
 
 |U03HB5P2UTY|:
 Thank you for your question! This was answered above in <https://wwdc22.slack.com/archives/C03H0JN431U/p1654792281999369>
 
---- 
+---
 > ####  Is there a tool to help track Hangs with Enterprise Apps ?
 
 
@@ -4404,7 +4405,7 @@ Hi - thanks for the question! You should be able to use MetricKit to collect han
 |U03HVD5FL1L|:
 Thanks !
 
---- 
+---
 > ####  Hi! I hope this is the right room for this question. When releasing an app on the App Store, we can conveniently receive symbolicated crash reports via the App Store itself. Instead, when releasing apps by any other mean, like enterprise, I currently rely on Firebase Crashlytics, but it's not as convenient because since lately (a year or more) it's always missing dSYMs. Is there any official way that maybe I don't know to get crash reports from enterprise apps? Thank you!
 
 
@@ -4441,7 +4442,7 @@ Thats correct. MetricKit will provide you the logs themselves as objects defined
 |U03HMBPKU0P|:
 Perfect, thank you very much!!
 
---- 
+---
 > ####  We release builds with a roughly 2-3 week cadence. App Store Connect opt-in metrics show many active devices + sessions each week. When I open the Xcode 13 organizer, I see crash reports but all the metrics views are marked "Insufficient Metrics Data." Is there a way to tell what the internal threshold is? Any tips on getting performance data from the wild? It seems like a very useful feature we've never been able to take advantage of
 
 
@@ -4461,7 +4462,7 @@ Thanks <@U03HHPU5NLS>! Here's my Feedback with bundle ID: FB10140258
 |U03JLV0E8RJ|:
 And here’s mine: FB10148972
 
---- 
+---
 > ####  This is probably very basic, but I have an app that hangs after a few minutes of use and I’m having trouble tracking down the problem. It seems to have some kind of memory leak where some objects aren’t being deallocated as I would expect, but I’m not sure how to resolve that or even if that is the reason for the hang (the app isn’t crashing).
 
 
@@ -4491,7 +4492,7 @@ Excellent. Thanks. To get the new version of instruments do I need the new XCode
 Yes, exactly, Instruments is bundled with Xcode.
 To get the Hang detection (both the one that shows up in Instruments as well as the on-device hang detection), you'll also need to run your app on the new operating systems (macOS Ventura, iOS 16, etc. depending on where your app lives), as only those have the corresponding instrumentation.
 
---- 
+---
 > ####  Hey all, I saw that `Contents/SharedFrameworks/DVTFoundation.framework/Versions/A/Resources/symbolicatecrash` is deprecated and I was wondering if there is a convenient alternative that can symbolicate a whole .crash file in a single command?
 
 
@@ -4523,7 +4524,7 @@ If you do, feel free to post the feedback ID here and we'll make sure it gets in
 |U03K840U3L1|:
 Thanks <@U03HHP75UJF>, <@U03JE7PBQPP> &amp; <@U03HB5HL8NS>, That is super helpful
 
---- 
+---
 > ####  Hey all. Is there a tool for parsing .crash files into JSON (or some other format) that's easy to put into a database? We're trying to do some analysis over .crash files we've received in the organiser.
 
 
@@ -4547,7 +4548,7 @@ Please file a feedback report requesting access to JSON crash logs in organizer 
 |U03K840U3L1|:
 Thanks <@U03HES3E8DT>, I've filled FB10139088 requesting them in Xcode / AppStoreConnect API.
 
---- 
+---
 > ####  What makes for a great bug report about a hang or performance issues found in beta Apple OSes and apps? What information should be attached to them?
 
 
@@ -4560,7 +4561,7 @@ Another option that works for all our operating systems is Instruments. If you h
 The hang should show up in the relevant process' track.
 Then save the Instruments document and attach the resulting `.trace` file to your Feedback report.
 
---- 
+---
 > ####  Is there a good way to simulate or trigger an app termination due to memory pressure?  We're trying to clean up issues with static c++ variables being used after destruction in our app, called by a 3rd party sdk which appears to make use of atexit().  Architectural problems aside, it'd be nice to be able to reproduce the issue reliably.
 
 
@@ -4573,21 +4574,21 @@ It is also worth noting that when the OS chooses to terminate your process for e
 
 The best way to debug any issues you may suspect in your `atexit` handler in non-fatal termination situations is to call `exit` at an opportune time.
 
---- 
+---
 > ####  My manager wants our apps to use Firebase Crashlytics because it means they can see crashes and get notified through email and slack. But I want to ditch Firebase Crashlytics in all our apps for various reasons.   So is there a way to get the crashes that are displayed in the organizer through command line or some kind of API?  I'm aware of being able to do my own implementation with MetricKit, but we don't want to manage a server where the crashes are collected.
 
 
 |U03HB5HAZKQ|:
 Thanks for the question Rens! This is not something we currently support but please file a feedback with <https://developer.apple.com/bug-reporting/|Feedback Assistant> for us to hear your thoughts! In the meantime, you can go through the file system in the Crashes Organizer to get logs by right-clicking the crash and selecting "Show in Finder". Also feel free sign up for a 1-1 lab tomorrow from 9 AM to 1 PM PST to discuss your use case in depth with us!
 
---- 
+---
 > ####  Is Instruments data collection still memory bound? I've had long running tests crash because Instruments ran out of memory and didn't cache to disk.
 
 
 |U03HHP75UJF|:
 Hi, Sara. Thanks for asking — that’s definitely unexpected. Could you please file a feedback with issue description and sysdiagnose from target and host devices attached. To collect sysdiagnoses please reproduce the issue and follow instruction from <https://developer.apple.com/bug-reporting/profiles-and-logs/>.
 
---- 
+---
 > ####  Quick question: What does IPS stand for? Is there any official documentation of the format?
 
 
@@ -4611,7 +4612,7 @@ The IPS format is a wrapper around a crash log. It adds a JSON header that is no
 |U03HB5P2UTY|:
 I accidentally dropped the link on that, you can file feedback at <https://feedbackassistant.apple.com>
 
---- 
+---
 > ####  Is there a way to obtain power draw (like powermetrics does on macOS) on iPadOS when profiling an application?
 
 
@@ -4631,7 +4632,7 @@ Thank you for sharing that use case. Please file a feedback report requesting a 
 |U03J07WJLRK|:
 FB10138914
 
---- 
+---
 > ####  Wild shot in the dark - I have a SwiftUI app for iPad and Mac Catalyst. It performs no networking or file operations, though it has a simple Core Data store (it's essentially a local card game). It's always performant on iPad. On Mac, most of the time there's a multiple-second beachball hang on launch before it becomes responsive, and animations are laggy. But here's the weird thing - after any OS update, or rebooting in Safe Mode, it becomes performant again for usually about 1-2 days or so. I've profiled it in Instruments and can clearly see the hang, but the deepest stack trace is all SwiftUI system calls, so I have no idea how further to debug. Any ideas for a SwiftUI performance issue that temporarily goes away on macOS after an OS update or Safe Mode reboot?
 
 
@@ -4655,14 +4656,14 @@ However, your question suggests that updating the OS would make the issue go awa
 |U03J1UAEU4B|:
 Hi, thank you! Yes, because updating the OS would make the issue go away, and I do not have a second device, I will only have my current MacBook Pro running Monterey 12.4, and which the issue is currently happening on. I attached a trace to the Lab request - hope you were able to get it, but I should also be able to regenerate it in the Lab if necessary.
 
---- 
+---
 > ####  :workflowbolt: When debugging Swift, is there anything I could do to fix the following error: error: virtual filesystem overlay file ‘…/iOS-ReferenceData/DerivedData/Build/Intermediates.noindex/ArchiveIntermediates/ReferenceData/IntermediateBuildFilesPath/ReferenceData.build/Release-iphonesimulator/ReferenceData.build/all-product-headers.yaml’ not found. error: couldn’t IRGen expression. Please check the above error messages for possible root causes.
 
 
 |U03HERYFK6H|:
 LLDB's Swift expression evaluator wants to import the Swift module of the current context. Swift modules can depend on Clang modules. In this case it looks like a temporary build product cannot be found during debugging. If you built the code on a different machine, one way to work around this is to turn off search path serialization when building Swift modules. Please check out <https://developer.apple.com/wwdc22/110370> for more details on how to do this!
 
---- 
+---
 > ####  Hi team! A recurring problem for many people with diverse code bases seems to be a symptom in which lldb running under Xcode just "hangs". What can we do to gather pertinent debug information in this scenario and help either the open source lldb teams, or Apple, to address the issues that are affecting us?
 
 
@@ -4672,7 +4673,7 @@ The first thing to determine is whether this is indeed a hang or a (very) slow o
 |U03HZ39CGAH|:
 Thank you!
 
---- 
+---
 > ####  In a modular project setup that has subprojects that generate frameworks, are there any recommendations/suggestions around a number of these subprojects that generate dylibs might be? I’ve heard of suggestions of staying near 6 (pre-dyld3) but am curious if there is still a suggested ceiling with all of the recent improvements over the past few years?
 
 
@@ -4688,7 +4689,7 @@ This was a fantastic video and lead me to ask the question! I always cautiously 
 
 Thanks for the answer. Where my thought pattern was headed (too much variability involved) but the confirmation is helpful.
 
---- 
+---
 > ####  Hey there! I am looking to understand what kinds of things I can do with lldb in terms of  stack trace recording, demangling, and making things human readable. This is a long, wild shot in the dark: is it at all possible to 'record' the execution of a running application, persist it to a file or series of files somewhere, and then use it as a backing store to piece through the execution trace? There are tools like <https://github.com/johnno1962/SwiftTrace|https://github.com/johnno1962/SwiftTrace> that are extremely powerful, but a bit difficult to clear up data and get specific information ordering, timing, etc. Very curious what tools might already exist for this use case, as I'm sure this isn't a new idea, haha!
 
 
@@ -4714,7 +4715,7 @@ That’s fantastic, I’ll give the CLI a good scouring tonight. I appreciate th
 |U03HES2QKGV|:
 Good luck I hope you get the data you're looking for!
 
---- 
+---
 > ####  We're starting to see some app hangs already come in from the Xcode Organizer!  Do we know how far back has the system been tracking this information?
 
 
@@ -4726,7 +4727,7 @@ Also in case you want more information about investigating hangs in your app, pl
 |U03JGKAB4AE|:
 Thanks!
 
---- 
+---
 > ####  I've found at time that pausing at a breakpoint in Xcode is really slow to update the variables views, etc. (10-60 secs at times), which makes debugging difficult and breaks the workflow. Has there been improvements to Xcode on that front?
 
 
@@ -4756,7 +4757,7 @@ would be sufficient.
 |U03HERYFK6H|:
 If you put this module map next to `MyHeader.h` you will be able to import it into Swift via `import MyModule`.
 
---- 
+---
 > ####  I’ve been SO busy this week!  Is there a plan for capturing all of the Q&amp;A across all of the Digital Lounges so I can read through them after WWDC closes?
 
 
@@ -4769,7 +4770,7 @@ Someone did a nice thing and captured last year's, recent repo history suggests 
 |U03J201SFAP|:
 BUMP!!!
 
---- 
+---
 > ####  When writing concurrent swift, I find methods and variables tend to get sucked into @MainActor  I mark one @Published variable as @MainActor, then any function which writes to that needs to be @MainActor and so on  However - this even includes functions which only _read_ from my @Published variable.  I feel like there should be a pattern where I can read various state from different threads - and only need to constrain my writing to @MainThread.  Is there an idiomatic way to approach this so as to minimise the functions which have to be @MainActor ?
 
 
@@ -4781,7 +4782,7 @@ It's more that I mark something as @MainActor because it needs to be written on 
 However if those functions are only reading the attribute, then they could (probably??) do that safely on any thread.
 Is there a way to split out the all or nothing nature of @MainActor into read/write ?
 
---- 
+---
 > ####  I just wrote the following code:      private func monitorCoordinatorUntilWeCanConnect() {         coordinatorMonitor = appCoordinator.objectWillChange             .receive(on: DispatchQueue.main)             .sink(receiveValue: { [weak self] _ in                 DispatchQueue.main.async {                     self?.checkOnboarding()                 }         })     }  checkOnboarding() is marked as @MainActor, so the compiler insists that I call it from DispatchQueue.main  However I have already asked combine to deliver any notifications on the main thread   .receive(on: DispatchQueue.main)  so the DispatchQueue.main is actually not needed  Is there any way to say  //Hey - I promise I'm on the main thread already!  More generally, when writing a function which always calls a block on the main thread, is there any way to annotate it so that the compiler knows that it can stop stressing?  e.g. I have a WeakTimer class which works much like Timer except that it automatically invalidates when released, and always calls the block on the main thread.  It would be great if I could tell the compiler that          let timer = WeakTimer.scheduledTimer(withTimeInterval: 1, repeats: true) { timer in             //This is guaranteed to be on the main thread already         }   something like   public class func scheduledTimer(withTimeInterval interval: TimeInterval,                                      repeats: Bool,                                      block: @escaping @GuaranteedMainActor (Timer) - Void) - WeakTimer   is there anything like that available, or is DispatchQueue.main just special-cased in the compiler?
 
 
@@ -4812,7 +4813,7 @@ with some further experimentation, it seems I can do the following:
 &gt;   `}`
 &gt; `}`
 
---- 
+---
 > ####  I need to access an async property in a synchronous delegate method. Example: I have an async Bool I need to access to determine what to return in application(_:shouldRestoreApplicationState:) - Bool. How can I do so?
 
 
@@ -4876,7 +4877,7 @@ I bet that some 1:1 time at a lab would help — if you want to go a little deep
 |U03HMDG985D|:
 If I end up failing miserably with this approach, I’ll definitely book some time. Thank you for your time right now, <@U03HWDD6RED> :smile:
 
---- 
+---
 > ####  Is there a way to tell URLSession/ background processing that a set of uploads are critical and shouldn't be killed across force quit?
 
 
@@ -4895,7 +4896,7 @@ Hope you liked it
 |U03JHE95K7C|:
 yeah, going to start experimenting with concurrency, so the video was a great starting point, looking forward to cutting my 1200 line objective-c file in half or better
 
---- 
+---
 > ####  What is the preferred way to set a basic auth header in a URLSession request? I have been setting the 'Authorization' header of the URLRequest, but according to the docs this is reserved header and should not be set (<https://developer.apple.com/documentation/foundation/nsurlrequest#1776617).|https://developer.apple.com/documentation/foundation/nsurlrequest#1776617).>  ``` extension URLRequest {     mutating func setBasicAuth(username: String, password: String) {         guard let basicAuthData = "\(username):\(password)".data(using: .utf8)?.base64EncodedString() else { return }         setValue("Basic \(basicAuthData)", forHTTPHeaderField: "Authorization")     } } ```
 
 
@@ -4904,7 +4905,7 @@ URLSession supports HTTP authentication. If you implement `didReceiveChallenge` 
 
 However, if you want to manually handle authentication, adding an `Authorization` header to the request is allowed.
 
---- 
+---
 > ####  Are there built in facilities for parsing user-generated URLs? I've found URL and URLComponents are both generally too strict for user-provided content when it comes to expecting the string inputs to be perfectly spec-compliant. Right now I'm using a (wonderful) 3rd party Swift package that implements the WHATWG standard (which is significantly more forgiving), but it seems like something that's common enough that it should be builtin.
 
 
@@ -4954,7 +4955,7 @@ Note that the host name has been automatically Punycode encoded while the path h
 |U03J4DRK4SY|:
 :heart_eyes: That is fantastic!
 
---- 
+---
 > ####  With combine, when do subscribers' closures get called? and in what order are the subscribers called with respect to each other?  suppose i have a publisher that sends values on main. will the subscriber's closures get called before `Publisher.send()` returns? or does `send` just schedule the subscribers to receive events on the same queue as the sender?
 
 
@@ -4999,7 +5000,7 @@ Right
 |U03HWEGHRKR|:
 makes sense. thank you both :smile:
 
---- 
+---
 > ####  Taking off Tony's question, is there actually a replacement for the Virtual Keyboard enum in Carbon? (`kVK_Escape`...)
 
 
@@ -5033,7 +5034,7 @@ which I definitely wasn’t googling around for while you were reading my previo
 |U03HZ4PT2ER|:
 I still use `kVK...` , old habit
 
---- 
+---
 > ####  Do you have any favorite, oft-overlooked features of Foundation?
 
 
@@ -5088,7 +5089,7 @@ A lot of great advances in parsing strings this year with swift RegEx, but happy
 |U03H3NETJ7R|:
 I think all of our formatters, even the more obscure ones, are really cool! Especially the format styles that allow you to receive an `AttributedString` as output
 
---- 
+---
 > ####  Should I use Foundation in SPM package for non Darwin platforms?
 
 
@@ -5104,7 +5105,7 @@ Correct! Check out <http://github.com/apple/swift-corelibs-foundation|github.com
 |U03JSFUKL2U|:
 Thank you a lot!
 
---- 
+---
 > ####  The session on creating a Swift package plugin mentions no network access for plugins. Is this functionality coming in a future release by chance, or should I create a feature request? I'd love to move our theming code into a package, but we utilize a JSON payload from a web service call in order to do our code generation.
 
 
@@ -5140,7 +5141,7 @@ I do have a good majority of our generated theme code in a local package already
 |U03HES8111T|:
 Thanks for the additional information.  I think the balance here that will be interesting to find will be to allow only as much network access as you need while keeping the rest of the sandbox in place.
 
---- 
+---
 > ####  Hi! During the Meet Swift Package Plugins session yesterday, in the code section of the Apple Developer App, there seemed to be a code example showing how to add support for an XcodeBuildToolPlugin, but that protocol doesn't seem to be available in the Xcode 14 beta.  Does this mean there will be support for Build Tool Plugins (not Command) to be run as part of an Xcode build? If so, how would we define the build step?
 
 
@@ -5150,7 +5151,7 @@ Thanks for the report.  The absence of this protocol in Beta 1 is a known issue 
 |U03HZ4JN7D3|:
 Awesome! Thanks <@U03HES8111T> :raised_hands: Am I right in thinking we’ll be able to use build tool plugins in Xcode projects? As in, just run them as a build phase or something similar? 
 
---- 
+---
 > ####  When using swift package manager for local packages, where is the best place to put them? Inside the project? Inside the workspace? Somewhere else?
 
 
@@ -5166,14 +5167,14 @@ I believe this is an Xcode limitation, and unfortunately I don't know of a way a
 |U03K1K31P8Q|:
 Thanks!
 
---- 
+---
 > ####  Hi,  In a xcworkspace that have client and backend code. Most of client and backend code live in SPM modules. Why when I compile only the client xcode build the server executable too ? Knowing that the App depend only the client code. The project is available in this feedback FB10115879.  Thanks,
 
 
 |U03H36Q9X3R|:
 Building the client should not also build the server code, unless there is a dependency defined between the client and the server modules. Thank you for filing the FB10115879, we will provide additional details there.
 
---- 
+---
 > ####  Hi! I'd like to start using SPM in a bigger project for app development. Right now we cannot use a Package.swift for this purpose and instead need to rely on Xcodes SPM version. This becomes problematic in code reviews where it would be beneficial to have a clearly readable Package.swift update for dependencies instead of some XML file. Is there any way to handle this differently? E.g. adding a separate project inside the same workspace which is using a Package.swift and contains all dependencies. Then using that package within the actual project?
 
 
@@ -5182,7 +5183,7 @@ Hi Roland! Generally I would recommend using using local Swift package dependenc
 
 There’s some documentation on <https://developer.apple.com/documentation/xcode/organizing-your-code-with-local-packages|that workflow here>.
 
---- 
+---
 > ####  Can build plugins run on Xcode projects?  I have seen the following code in material for WWDC session "Meet Swift Package plugins" but the code does not compile because  `XcodeBuildToolPlugin ` does not exist  ```swift #if canImport(XcodeProjectPlugin) import XcodeProjectPlugin  extension MyPlugin: XcodeBuildToolPlugin {      /// This entry point is called when operating on an Xcode project.     func createBuildCommands(context: XcodePluginContext, target: XcodeTarget) throws - [Command]         debugPrint(context)         return []     } } #endif ```  Same question raised in Developer forum: <https://developer.apple.com/forums/thread/707813|https://developer.apple.com/forums/thread/707813>
 
 
@@ -5198,7 +5199,7 @@ Answer
 |U03HES7M40M|:
 Awesome!
 
---- 
+---
 > ####  Adoption of `XcodeProjectPlugin` in Swift package plugins is needed so that command plugins (and build plugins in future betas) can run on Xcode projects? Existing command plugin(s), used in a Swift package (!!!), can be triggered interactively in Xcode 14 out-of-the-box. Is that right?
 
 
@@ -5208,7 +5209,7 @@ Yes, that is correct:  existing command and build tool package plugins can be in
 |U03HES8111T|:
 This is described in a little more detail here:  <https://github.com/apple/swift-package-manager/blob/main/Documentation/Plugins.md>
 
---- 
+---
 > ####  Hi! Many thanks for creating Swift Package plugins API, it seems to be very powerful, looking forward to using those integrations for dev tools. I was wondering if it's possible to use Swift Package plugins in ordinary .xcodeproj (non-SPM) projects too?
 
 
@@ -5218,7 +5219,7 @@ Yes, there’s a separate XcodeProjectPlugin module for this in Xcode 14. Using 
 |U03JRQGTPB2|:
 Sounds great, thank you very much for the answer!
 
---- 
+---
 > ####  I've seen references of folks online moving almost all their app code into a Swift Package, and then having the App module/top level Xcode project just contain a little configuration (build phase scripts, etc). The AppDelegate lives in said Xcode project and just calls into this jumbo swift package where most of the app lives. As most files aren't in the xcodeproj file they avoid merge conflicts here. What do y'all think of this approach/does anything jump out around launch time/linking or SPM gotchas?
 
 
@@ -5230,7 +5231,7 @@ Does this approach have any implications for code reuse between an iMessage app 
 
 Also, as an old-timer, :smiling_face_with_tear: at seeing the dogcow avatar.
 
---- 
+---
 > ####  After that the great talk around linking static and dynamic libraries, how does SPM decide on how package products are built? If our 3rd party libraries don't explicitly specify dynamic or static in their package manifest, will it just "work it out" (like building them dynamically if a lib is used by two packages Or statically if it's only used by one or just the app target)?
 
 
@@ -5243,7 +5244,7 @@ Is there any way to have more direct control of this? Or visibility into why the
 |U03J7H4LJ5N|:
 There’s no way to control it from the client side, only the `type` parameter on the package product itself.
 
---- 
+---
 > ####  I have another question for Xcode Q&amp;A. I have a simple iOS app with one heavy SPM dependency — Firebase.  When I switch between branches/commits, Xcode starts to “Resolving package graph” and use 100% CPU, next “Preparing editor functionality” and use 750% CPU. It freezes my Mac for about 10-15 seconds and I can’t do anything.  So, I have 3 questions: 1. Why Xcode starts to “Resolving package graph” when I switch git branch/commit? Is it a bug? 2. Why Xcode uses 750% CPU when doing “Preparing editor functionality”? Is it a bug? 3. It seems that Xcode rebuilding SymbolCache when I change git branch/commit. Is it a bug?  I’ve found two issues posted of the developer forum that describe my issue: <https://developer.apple.com/forums/thread/699112|https://developer.apple.com/forums/thread/699112> <https://developer.apple.com/forums/thread/694058|https://developer.apple.com/forums/thread/694058>
 
 
@@ -5273,7 +5274,7 @@ Thanks for the additional reports.  If you have already filed feedback tickets, 
 |U03HES8111T|:
 Thank you very much!  The attached project and sysdiagnose are really helpful!  I'll make sure this gets routed to the right team, and will reach out through the feedback system if there is anything else that would be helpful.  Much appreciated!
 
---- 
+---
 > ####  Pre-compiled version of module(s) in Swift package are often preferred by consumers. Are there out-of-the-box capabilities by Apple SPM or other tooling which help with that?
 
 
@@ -5300,7 +5301,7 @@ I created FB10160671. Please change category (Swift compiler) if necessary.
 
 <@U03JGH0JLMQ> please create a feedback as well as it bumps up visibility :)
 
---- 
+---
 > ####  I see in the Package Plugins session that in case it needs disk access it will show a pop up to the user. Can this be managed programatically? (Thinking of running some of these tools in the CI) Does disabling the sandbox automatically enable write access to the disk too?
 
 
@@ -5325,7 +5326,7 @@ Thanks a bunch Fabian
 |U03JE2LACMS|:
 really looking forward to migrating to plugins
 
---- 
+---
 > ####  Xcode SPM Question:   I am trying to run server side app in the `Release` build configuration, and I have test cases in which I am importing the app using  `@testable import App`  When I try to run it is giving   `Module 'App' was not compiled for testing`. Is this a bug or I am missing some configurations? 
 
 
@@ -5354,7 +5355,7 @@ I would use two different xcode schemes to toggle between unit and performance t
 |U03JRQ81NEL|:
 Thanks :bow:. I will try this.
 
---- 
+---
 > ####  Am I missing something? I have a Swift package with some SwiftUI views that load assets from an asset catalog... but when I add that package to a project the images can't be found...
 
 
@@ -5386,7 +5387,7 @@ Got it. Excellent. Thanks!
 |U03HVC6M81L|:
 Oh man, you’ve saved me so so so much time. Thanks a million.
 
---- 
+---
 > ####  Is a package registry service for Swift Package Manager still moving forward? This was proposed and accepted in SE-0292 but it doesn't seem like there has been any more concrete implementation in the tooling.
 
 
@@ -5408,7 +5409,7 @@ The blog post mentions binary :crossed_fingers:
 |U03JRP6568Y|:
 Thank you. This will make our devops team super happy.
 
---- 
+---
 > ####  Trying to make an XcodeCommandPlugin for my iOS app. The plugin has a dependency on swift format that has a platform requirement for `.macOS(.v10_11)`. This is causing the build plugin to be compiled into inaccessible build folder in derived data. Any thoughts on how I can avoid this?
 
 
@@ -5456,7 +5457,7 @@ Demo project attached
 |U03HES8111T|:
 Thank you very much!
 
---- 
+---
 > ####  Could you clarify what the Package.resolved is used for by SPM?   I keep thinking it's like a .lock file used by other package managers, but SPM seems to use it more like a record of what was installed rather than specifying the exact versions to install.
 
 
@@ -5468,7 +5469,7 @@ You can read more about the detailed design of the Package.resolved file in this
 
 By default the version in the Package.resolved is used as a base when resolving existing dependencies but if you want to enforce the usage of the Package.resolved file as a true lock, you can pass the `--only-use-versions-from-resolved-file` to SwiftPM or the `-onlyUsePackageVersionsFromResolvedFile` flag to `xcodebuild`.
 
---- 
+---
 > ####  We distribute a large number of binary Swift frameworks, and would love to be able to distribute them using SPM. How would you recommend constructing our package definitions so that our packages can correctly declare dependencies on each other?
 
 
@@ -5478,7 +5479,7 @@ I am assuming you are talking about the fact that a binary target cannot declare
 |U03JGH0JLMQ|:
 Thanks for the reply! I was, though hadn’t found that page. Was wondering if there was a better workaround, but glad I hadn’t missed anything obvious
 
---- 
+---
 > ####  Can image assets that are part of a package be used in storyboards and nibs outside of that package? They display fine in IB, but when running in the simulator or device I always get an error that the resource can't be found.
 
 
@@ -5502,7 +5503,7 @@ Yes, I can do that!
 |U03HES8111T|:
 Thank you!
 
---- 
+---
 > ####  Is there any modern guidance on when to use Swift Packages vs. dynamically linked frameworks when sharing code *internally* across multiple targets? Say I have an iOS app, a Siri intent, and a widget - I've always relied on making a MyCoolKit framework with shared code and importing that framework into each user-facing target. Should I migrate to a Swift package instead? Are there pros and cons or tradeoffs to consider?
 
 
@@ -5529,7 +5530,7 @@ I'd love to know more about this ^ as well. I'm using a Swift package for my app
 |U03J1UAEU4B|:
 If your framework links the package, does the app target need to link it too? You could just import your framework anytime you need the stuff from the package.
 
---- 
+---
 > ####  Hi! I'm in large scale apps we want to optimize as aggressively as possible to have a smaller app size. We'd like to switch to SPM to manage our dependencies but there are a few restrictions in flexibility that impeded us from doing so: * We need to use the -Oz optimization flag, without using unsafeFlags (for release builds) * We need to be able to produce LLVM BC instead of Mach-O files, as we have additional size optimization steps at that level. Are these things something that can be done now with the new announcements or is in the roadmap for SPM?
 
 
@@ -5538,7 +5539,7 @@ This customization isn't currently possible with Swift Packages, so for now stay
 
 To help shape the future of Swift Packages  customization, the best way is to get involved in the package-specific forums at <https://forums.swift.org>.  That would be a great way to discuss what kinds of customization you need and suggestions for how you would like to express that customization.
 
---- 
+---
 > ####  Is there a way to set "Valid Archs"/"Excluded Architectures" for a SPM target or the whole library for simulator builds?
 
 
@@ -5548,7 +5549,7 @@ There is no way to currently do this, but we consider it a known issue that pack
 |U03J22AU6DQ|:
 Got it, thank you!
 
---- 
+---
 > ####  Swift package plugins might rely on executables which may or may not exist on the local machine, e.g SwiftLint. Can those be bundled as part of the package (if not locally available) ?
 
 
@@ -5557,14 +5558,14 @@ Yes they can.  Our recommendation is to have a dependency on a source package if
 
 For more information see <https://github.com/apple/swift-package-manager/blob/main/Documentation/Plugins.md>
 
---- 
+---
 > ####  Does Apple provide a set of own, open-source Swift package plugins to the community?
 
 
 |U03HL5FTVHS|:
 Apple routinely provides Swift open source libraries, and some of them could include plugins. For example, Apple recently opened sourced a <https://github.com/apple/swift-docc-plugin|Swift-DocC plugin> as part of Swift 5.6. The plugin provides an easy way to generate documentation for Swift Package libraries and executables from the command-line.
 
---- 
+---
 > ####  I work on a complex enterprise app that uses many SPM dependencies under the hood (over 100 packages). Since we've onboarded to building our app with SPM, our engineers are complaining about slow and error prone package resolution times which require multiple cycles of   File  Packages  Reset Package Caches / Resolve Package Versions  Should we expect Xcode 14 to resolve many of these issues? We are currently using Xcode 13.3 and 13.4.
 
 
@@ -5574,21 +5575,21 @@ Thanks for reporting. We would need to work together with you to collect additio
 |U03H36Q9X3R|:
 Please post the feedback ID here once filed so we can follow up on it
 
---- 
+---
 > ####  Is it possible to use Xcode's Package Collections UI for a Swift Package without an xcodeproj? The only way I managed to find is manually adding a dependency in code.
 
 
 |U03H36Q9X3R|:
 Package manifests are code, and could be arbitrarily complex, so there is currently no way to programmatically modify the package manifest. As such the collection UI only offers a copy-to-clipboard helper and the manifest changes have to be done manually
 
---- 
+---
 > ####  How can SPM subcommands like diagnose-api-breaking-changes be used for Swift packages which require xcodebuild for compilation (example: a package targeting iOS only with heavy use of UIKit) ?
 
 
 |U03HES7M40M|:
 The SwiftPM cli tools are currently not supported for iOS projects. `xcodebuild` is the CLI tool for iOS projects. `xcodebuild` does not provide the diagnose-api-breaking-changes feature. If you would like to use such a feature for iOS projects, we recommend you to open a feedback.
 
---- 
+---
 > ####  Hey there! :wave: In our company we have a project basically split between a bunch of Swift packages, including a top-level one wrapping all of these into an app target, also delivering some external packages by providing wrapping protocols to have it properly abstracted.  The issue we have is that basically most of our packages are resolved automatically (products with no explicit `type` setting) so that these can be linked either statically or dynamically, yet a couple of these packages needs to be kept explicitly as `.dynamic` due to an issue with tests. Building the app for running compiles perfectly, with all our packages being linked statically to the app binary, keeping only a few 3rd-party frameworks aside in the Frameworks folder. Once there are some specific Test targets involved, we're getting a “Swift package product 'OrbitStatic' is linked as a static library by 'SnapshotTests' and 'App'. This will result in duplication of library code.” – The mentioned package is being `@_exported import`ed and statically linked by our wrapping UI package (SharedUI) so that it bundles our external package with basic UI kit (Orbit), another package with SwiftUI (SharedSwiftUI) views and basic legacy code with UIKit (SharedUI, the wrapping one). This SharedUI package is linked both by the App target and SnapshotTests, I'd say the problem is being in the build list by both targets while requiring different linking type for each one of them. Could you suggest anything related to this specific error message? Possible solutions? Thanks! :raised_hands:
 
 
@@ -5613,7 +5614,7 @@ So during test execution the test bundle will be loaded into the app’s address
 |U03JPFQNX5K|:
 Ah, I see, different setting of Host App unlike Target App in UI tests, that makes total sense then :thinking_face: I'll definitely try more shuffling with configuration, maybe some workaround will be possible. Not sure whether we're just doing something unique, or just can't figure out how to put stuff together correctly, as the linker expects. :smile: Anyways, thanks very much for your precious help and insight during these two days :raised_hands: Have a nice rest of the Dub Dub!
 
---- 
+---
 > ####  Are you planing to add support for importing custom modules to Package.swift manifest file? <http://tuist.io|tuist.io> can handle PackageDescriptionHelpers where user can write complicated scenario and in the end import to manifest file and call smth like "<http://Project.app|Project.app>(liOS], named: "MyGreatApp")  The reason is to avoid massive files with manifests. Some manifest can contains more than 1000 loc (Firebase/AppCenter and etc)!
 
 
@@ -5625,7 +5626,7 @@ Any developments in this area would go through the Swift Evolution Process, and 
 |U03JSFUKL2U|:
 Ok, I will!
 
---- 
+---
 > ####  Can I add a new platform support and contribute it to SPM? Or new features in SPM can be added only by SPM Workgroup member?
 
 
@@ -5635,7 +5636,7 @@ SwiftPM, and more broadly the Swift project, are open source projects, and folks
 |U03JSFUKL2U|:
 Great! Thanks a lot!
 
---- 
+---
 > ####  Does the iOS simulator run in x86_64?  I notice that I get one set of build errors when building to a Simulator but not to a practical device?  If it helps, I’m on Apple Silicon running Xcode natively.
 
 
@@ -5648,7 +5649,7 @@ Thank you!!!
 |U03J22A0C4S|:
 Aren't older sims (&lt;=iOS 13) x86 only?
 
---- 
+---
 > ####  Hey there! We have automated the process of creating VM images of macOS to use in our CI/CD pipeline. This includes multiple Xcode versions being installed using cli tools like xcode-install or xcodes.   Since Xcode 14 doesn't ship with all simulator runtimes by default (watchOS/tvOS), is there a easy way to download the missing runtimes using a command?  :)
 
 
@@ -5664,7 +5665,7 @@ Yes! You can use the `xcrun simctl runtime delete` command to do so.
 |U03HB5P2UTY|:
 Or you can delete them via the Platforms preference pane in Xcode.
 
---- 
+---
 > ####  Using codesign to extract the entitlements plist from an app is broken on Monterey, we are getting a weird dictionary like this. Is there an alternative to codesign for this workflow? Is this expected to fix in Ventura?  Command used: `/usr/bin/codesign -d --entitlements - &lt;appName.app`  ``` [Dict] 	[Key] application-identifier 	[Value] 		[String] &lt;appID 	[Key] com.apple.developer.team-identifier 	[Value] 		[String] &lt;teamID 	[Key] get-task-allow 	[Value] 		[Bool] true 	[Key] keychain-access-groups 	[Value] 		[Array] 			[String] &lt;appID ```
 
 
@@ -5680,7 +5681,7 @@ There is an issue we're tracking where the output contains a NUL character at th
 |U03K8US1GD7|:
 Ok. `SecStaticCode` won’t work for our workflow. Looks like removing the final Nul character is working. Maybe we can work that into our script to get a valid plist.
 
---- 
+---
 > ####  I see there's now a way to submit builds for notarization from non-Macs (the new REST api). That's super awesome &amp; will definitely unblock some work I've been doing on our distribution process. Is there a way to staple the notarization ticket to our binary on Linux/non-Macs in general?   If not, notarization workflows still need to find a cloud-based Mac somewhere.
 
 
@@ -5693,7 +5694,7 @@ Thank you! Feedback: FB10162550 -- apologies for the poor title, I hit submit to
 |U03HB5P2UTY|:
 Thank you!
 
---- 
+---
 > ####  I'm looking to add testing to my SwiftUI multiplatform app. What's the best approach. Is it XCTest? XCode Cloud? Or something else?
 
 
@@ -5706,7 +5707,7 @@ Remember writing tests is a process that never ends, so do it incrementally, her
 |U03JRPWSDJ4|:
 Perfect. Thank you
 
---- 
+---
 > ####  Does Apple have a supported mechanism for re-signing already archived and signed Ad Hoc IPA apps? For example, if we archive an (ad hoc) IPA, can it be re-signed by someone else if they have an Enterprise Distribution Certificate?
 
 
@@ -5716,7 +5717,7 @@ We don't provide a supported mechanism for accomplishing this, but we'd welcome 
 |U03JEEUJPMJ|:
 (Ahmed– forgive me if you already knew this, but: an IPA file is a zip archive, with the .app directory nested inside. Unless I’m missing something– when we’ve needed to do something similar: the .ipa can be extracted, Apple’s `codesign` program could be run on the .app directory, and the .ipa re-created by zipping back up the directory)
 
---- 
+---
 > ####  I am writing an iOS app using SwiftUI and was wondering what framework do you recommend to call Rest APIs from AWS? sample code would be good
 
 
@@ -5726,7 +5727,7 @@ You should take a look at <https://developer.apple.com/documentation/foundation/
 |U03JSPSLWG3|:
 Thanks!
 
---- 
+---
 > ####  Hello! I'm really excited to use the new features in Swift 5.7 that improve the usability of existential types. Do these features require increasing my deployment target to iOS 16, or are they all at the compiler level?
 
 
@@ -5749,7 +5750,7 @@ But something that requires a deployment target bump:
 let fail = Array&lt;any Collection&lt;String&gt;&gt;() // Requires runtime support to know the layout of `any Collection&lt;String&gt;`
 ```
 
---- 
+---
 > ####  I have a question for Xcode Q&amp;A. I want to reset permission status for booted simulator. When I call `xcrun simctl privacy` commands, nothing happens. Example commands: `xcrun simctl privacy booted reset contacts MY_APP_ID` `xcrun simctl privacy booted reset all` This issue happens for all types of permissions: contacts, notifications, reminders etc. I submitted a bug report last year FB9737211 but the issue is not fixed in Xcode 14. When the issue will be fixed?
 
 
@@ -5765,7 +5766,7 @@ Yes, I will do it within several hours.
 |U03H36PM1BR|:
 Thanks Daniil. To clarify, did you attach the output of `xcrun simctl diagnose`  or a regular `sysdiagnose` output? The 2 are different things and the former gives us a bit more information from the Simulator side of things. Both are important here. :slightly_smiling_face:
 
---- 
+---
 > ####  I was just flicking through the Xcode14 release notes and spotted this :  Deprecations Building iOS projects with deployment targets for the armv7, armv7s, and i386 architectures is no longer supported. (92831716)  So once Apple require submissions to use Xcode14 (any idea when this might be?) will that mean we won't be able to deploy to devices older than iPhone 5s (the first arm8 phone) eg 5c, 5, 4s etc (that were all arm7) are excluded?
 
 
@@ -5814,14 +5815,14 @@ I don't know about you, but I love data-driven decisions.  So if I was your clie
 Believe me I have plenty of pie charts and infographics!
 Every little bit of extra ammo helps :+1:
 
---- 
+---
 > ####  We've been having issues when adding new files to local Swift packages that's embedded into an Xcode project. Xcode crashes for the most part, and it's quite difficult to modify local Swift Packages this way. Was this issue addressed in Xcode 14?  We filed a Radar ticket and posted about the issue on the dev forum as well; please find it here: <https://developer.apple.com/forums/thread/704568?login=true|https://developer.apple.com/forums/thread/704568?login=true>  Thank you!
 
 
 |U03HES8111T|:
 It looks like this issue was reported against 13.3, and it should already be addressed in Xcode 13.4.  If you are still seeing it in 13.4 or later, we would very much appreciate it if you could add the crash report to the feedback ticket you filed and send back as not fixed, or to file a new feedback ticket if the feedback system doesn't let you add to the original report.
 
---- 
+---
 > ####  In Xcode 14 running on macOS Ventura, when I try to launch an app that uses CloudKit in Simulator, I get the following error:   ------------------ dyld[6296]: Library not loaded: /usr/lib/swift/libswiftCloudKit.dylib   Referenced from: &lt;18DE50F3-6EE7-3075-AB2F-BFADE7C3496E /Users/testuser/Library/Developer/CoreSimulator/Devices/33CB0140-D129-46AE-8D54-D3372393031B/data/Containers/Bundle/Application/3BD45E5E-19D4-4716-84A8-E0247CDCBF98/FSTestApp.app/FSTestApp   Reason: tried: '/Users/testuser/Library/Developer/Xcode/DerivedData/FSTestApp-drxbwyfqohpnyqfrmpspvebmsjkp/Build/Products/Debug-iphonesimulator/libswiftCloudKit.dylib' (no such file), '/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/system/introspection/libswiftCloudKit.dylib' (no such file), '/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/swift/libswiftCloudKit.dylib' (no such file), '/usr/lib/swift/libswiftCloudKit.dylib' (no such file, not in dyld cache), '/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libswiftCloudKit.dylib' (no such file) ------------------  The app runs without any problem on the actual device running iOS 16. Could this be a known issue?
 
 
@@ -5833,7 +5834,7 @@ Workaround: Set your app's minimum deployment target to iOS 16, tvOS 16, or watc
 ```
 Hope that helps!!
 
---- 
+---
 > ####  Xcode question. First beta of Xcode 14 seems to include SDK and simulator only for iOS 16. It doesn’t seem to be possible to install and use previous SDK-s and simulators? Can we expect this to be added in a future seed?
 
 
@@ -5842,7 +5843,7 @@ Previously released simulators are available by clicking on the '+' button in th
 
 While you can install previously released simulators, you cannot install older SDKs. Instead you should set the "Minimum Deployment" target for each of your app's platforms (in the General section of your app's target) to control the minimum OSes your app can run on and use availability macros to control usage of APIs that are only available on newer OS versions.
 
---- 
+---
 > ####  I have a workspace with two projects, and each project contains the same shared framework sub-project:  Workspace - Project: app A for macOS –– Project: shared code B - Project: app A for iOS –– Project: shared code B  What would you recommend for handling source control / git in this scenario; with shared frameworks? (git submodule for for the framework, no source control over the whole workspace etc?)  (We've blissfully-ignorantly not used source control properly so far. :skull:)
 
 
@@ -5871,7 +5872,7 @@ B) Ah, is the `xcshareddata` directory where those (shared schemes, breakpoints,
 |U03HES8U8FP|:
 Yes and yes :smiley:
 
---- 
+---
 > ####  My project has a dependency on an older framework I have imported. XCode builds the project locally just fine, however XCode Cloud fails at 'xcodebuild archive', issuing a 'Precompile bridging header' error, due to a .h file I'm referring to, that's located in the framework bundle. The framework bundle is present in the Git repo. Am I overlooking something? Would there be a workaround to solve such an issue? Thank you!
 
 
@@ -5890,7 +5891,7 @@ Indeed, the scheme has Find Implicit Dependencies enabled and the framework is u
 |U03J1U2G8PM|:
 Quick update: I just solved the issue.. I removed, then added back again the framework to the project. Not 100% certain but I suspect a path issue… Anyway, Wohooo! My very first Xcode Cloud build works! :partying_face:
 
---- 
+---
 > ####  hi, I am working on a big project and the building and run function work well on Xcode 12, but 2 months ago, we moved toward Xcode 13 and the nightmare began across almost of all members in teams. Even a small change in source file will lead to Xcode to indexing and pre-build which always take 30G memory on our MBP. We can do nothing at all. Each time the indexing and pre-building would take 2 ~3 hour to finish. Such insane, so we all disabled the indexing function by `defaults write com.apple.dt.XCode IDEIndexDisable 1`. Eventually, the Xcode would not freeze Mac, we can write code and easily build and run. through we lost the support of auto-complete from Xcode.   Any advises to avoid consuming 30 G mem and freezing Mac and I still get auto-complete support meanwhile? Thanks.
 
 
@@ -5907,7 +5908,7 @@ In your bug report, you can also mention that you brought this up in the Friday 
 |U03J7H72X5W|:
 Sorry, I made a typo above. Step (2) should have `2&gt;&amp;1 | tee index.log` instead of `&amp;&gt; index.log`
 
---- 
+---
 > ####  Hi, I saw this MXAppLaunchDiagnostic in the API diffs and was wondering if there was any more detail on what it's for? Does it give you a trace of app launches in production by including time spent for nodes within `callStackTree`?
 
 
@@ -5968,7 +5969,7 @@ Oh, OK. So it’d be for a case like, “I’m doing this one-time db migration 
 |U03HHPU5NLS|:
 Correct - the logic here is that launch diagnostics are designed to help you catch the unexpectedly slow launches, not the ones you expect :slightly_smiling_face:
 
---- 
+---
 > ####  I got an unexpected error on Xcode 14. Anyone know the reason?  Stored properties cannot be marked potentially unavailable with '@available'
 
 
@@ -6011,7 +6012,7 @@ Will give it a try :slightly_smiling_face:
 |U03HVCK66P8|:
 Works again :tada:
 
---- 
+---
 > ####  The compiler doesn't seem to be looking for the correct specialization overload when there's at least one generic indirection: <https://github.com/apple/swift/issues/59333|https://github.com/apple/swift/issues/59333> Is this expected?
 
 
@@ -6069,7 +6070,7 @@ thank you for answer and the follow up Rintaro :wave: nice talking to you.
 |U03HWD526QH|:
 Thank you! Have a good weekend!
 
---- 
+---
 > ####  Our project has multiple framework targets. Each one has a build phase that runs swiftlint on its source code. It's setup so it only runs if needed using   input file: .swiftlint.yml file  input file lists: xcfilelist with all swift files in the framework output files: ${DERIVED_FILE_DIR}/ran-swiftlint that is touched by the script.  This works correctly most of the time, but if the `.swiftlint.yml` is changed, it seems each target runs sequentially instead of in parallel. Any tips for what to look at that could be causing it?
 
 
@@ -6079,7 +6080,7 @@ It is a known issue that incremental builds may unnecessarily serialize build ta
 |U03J22A0C4S|:
 I submitted FB10143230 asking for better build script integration. In @Craig's case it probably be fine to unconditionally run the swiftlint scripts at the start of an overall build or the build of the target, but we can't express that dependency right now.
 
---- 
+---
 > ####  I'm not sure the best place to ask this question, since using scripting of all kinds is so relevant to so many workflows. But, I am curious about the future of shells being included in macOS, specifically /bin/bash. In Catalina, it was announced that 3rd party scripting environments are being deprecated. The specific language was "Scripting language runtimes such as Python, Ruby, and Perl are included in macOS for compatibility with legacy software." That "such as" leaves some ambiguity in regards to shells like bash, which could be considered a 3rd party scripting language runtime, but it could also be argued that shells fall under a different category.  Can you share any insight on the future of bash in macOS? I don't expect it to be updated beyond version 3.2.57, but should we be preparing for a future in which /bin/bash does not exist at all on macOS?  As a follow up question, should there be any concern for the future or 1st party scripting environments like AppleScript and JavaScript for Automation (JXA) such as being deprecated or removed from macOS?
 
 
@@ -6148,7 +6149,7 @@ I think that Swift changes too fast to ever be outside of devtools
 |U03HZ4PT2ER|:
 <@U03J07WJLRK> You can actually specify the version in the interpreter line, I think
 
---- 
+---
 > ####  With SPM time-slot and this year dub-dub coming to an end I'd like to take this opportunity to thank everyone involved in Swift Package Manager development!  I used SPM in my pet-projects since Xcode 11 and played around with CLI apps before that, and during the last year SPM made a tremendous impact for my client project allowing to do things unimaginable before and iterate on the project with lightning speed. Taking into account the fact that it is a huge 12-years old app, it is mind-blowing how well SPM fit into this puzzle. :blush:
 
 
@@ -6164,7 +6165,7 @@ This team really took a brave challenge to replace long-running stable parts of 
 |U03J22AU6DQ|:
 <@U03JPFQNX5K>, but it is totally possible to mix Swift and Objective-C in a single *package*! The limitation is only for targets. Does the approach of having SwiftTarget and ObjcTarget not work for you? If so, I’d really love to know about your setup since it is extremely easy to create targets with SPM. :thinking_face:
 
---- 
+---
 > ####  We are developing a brand new SwiftUI app. Among other things, this includes 3 Swift packages, which were integrated via "Add local...". When developing, this works great for all developers, because these packages are all in the same place in the filesystem (outside the actual project). The repositories of these 3 packages are private GitHub repos.  How do we need to set up both Xcode and Xcode Cloud with these 3 private repo packages to make it work? How can Xcode Cloud access these 3 packages if they were only added locally to the project?
 
 
@@ -6214,7 +6215,7 @@ Thank you very much for the write-up of the problem and solution here!  If you f
 |U03HES8111T|:
 I'm glad that you did arrive at a setup that works for you in the end, however!
 
---- 
+---
 > ####  For a workspace setup with multiple projects, is there a way to define a remote Swift package at the workspace level rather than within each project? It seems possible for local packages (drag it to the workspace) but wonder if it’s also possible for remote ones too.   Thank you. 
 
 
@@ -6228,7 +6229,7 @@ That said, there is definitely a compelling reason to be able to share dependenc
 |U03J4D51VC4|:
 Thank you for your reply Anders and for clarifying some of the rationale behind this. 
 
---- 
+---
 > ####  I know some of my XCTests are fast enough, but some are slow, and I could probably change that. I saw in one session there is a method for profiling individual tests but I wonder if there is something broader. Is there something akin to a table I could get at the end of running all my tests that listed each test with its run time, so I can sort by execution time and then know which individual tests to zero in on first?
 
 
@@ -6241,14 +6242,14 @@ Wat.
 |U03J4D1FEP6|:
 This has been there all along?? 🫣🥹:laughing:
 
---- 
+---
 > ####  Question for a friend: They've been building toolchains from source for some custom work, but have noticed some source releases have slowed. Specifically LD64 hasn't seen a source release on Github in 15 months. Will we see more regular source drops for the open source components to Xcodes tooling?
 
 
 |U03HL553PNG|:
 Thanks for the note, Colin.  Those drops are indeed a bit behind.  The team is aware of that and working on it but I don't have an ETA for you.  You can also reach out to <mailto:opensource@apple.com|opensource@apple.com> to express your support and interest.
 
---- 
+---
 > ####  We are trying to build some libraries for iOS that will be used by other projects within our organization.  We are finding that you cannot `lipo` binaries built for the Intel x64 catalyst target together in a single package as contains an x64 iOS Simulator target.  Are there plans to be able to do that at some point in the future, or should we just build separate "iOS device/Simulator" binaries and "arm/intel catalyst" binaries?
 
 
@@ -6257,7 +6258,7 @@ Thanks for the note, Colin.  Those drops are indeed a bit behind.  The team is a
 
 XCFrameworks fill this role. You can learn about using them at these links: <https://developer.apple.com/documentation/xcode/distributing-binary-frameworks-as-swift-packages> and <https://help.apple.com/xcode/mac/11.4/#/dev544efab96>
 
---- 
+---
 > ####  This is probably a feedback request, but is there a way to get testing comments in Xcode to avoiud having to go to the developer portal prior to releasing to testers?
 
 
@@ -6276,7 +6277,7 @@ If you wouldn't mind, could you share the FB number with me?
 |U03HT20UKFZ|:
 FB10163784
 
---- 
+---
 > ####  Are the rules for how Xcode links swift package product dependencies documented?   For cases when package products don’t define a linkage type (i.e auto) it looks like Xcode favours static unless it encounters a dynamic target in the dependency graph of a target. That seems sensible but curious if this behaviour is stable and if it can be controlled?  Thank you :pray: 
 
 
@@ -6285,14 +6286,14 @@ If a product does use automatic linkage, Xcode will built it dynamically dependi
 
 There isn't currently any way for a client of a library to control whether to build an automatic library as static or dynamic.
 
---- 
+---
 > ####  s it possible to define a key binding in Xcode to trigger a command plugin more conveniently? Same is possible for Xcode Extensions today.  Same question asked here: <https://developer.apple.com/forums/thread/707866|https://developer.apple.com/forums/thread/707866>
 
 
 |U03HES8SVM3|:
 Currently, there isn’t a way to do that. We’d welcome <https://feedbackassistant.apple.com/|feedback> from you requesting it!
 
---- 
+---
 > ####  Are there plans to add Behaviors in Xcode that switch to the Debug Gauges? (Or am I the only one using Behaviors?)
 
 
@@ -6305,7 +6306,7 @@ Feedback was closed Aug 14, 2018.
 |U03HRR4JA31|:
 FB5713916
 
---- 
+---
 > ####  Is there a way to have some code in my project participate in the preview mechanism outside of SwiftUI. In particular, I'm creating drawing (and rendering) code - one produces images, another produces 3D meshes with textures (SceneKit - I'm slowing adding RealityKit support, but not there yet) - and I'd like to be able to preview the output of a bit of sample to enable the quick-iteration/verify loop for how the code I'm writing is working.  So far I've been doing this with images by dropping the image into a SwiftUI view that only shows an image, which mostly works - but it gets notably more complicated and prone to failure when I'm looking at the resulting 3D object (through a hosting view currently).
 
 
@@ -6320,14 +6321,14 @@ The biggest issue that I was hitting was breaking the preview mechanism (usually
 |U03HVD5Q8DC|:
 I’ll continue to use a SwiftUI View to front my visualizations for this iteration use case - sounds like the preferred means of getting these these days.
 
---- 
+---
 > ####  I have been using the workaround from this thread [<https://forums.swift.org/t/how-to-link-a-swift-package-as-dynamic/32062|https://forums.swift.org/t/how-to-link-a-swift-package-as-dynamic/32062>] for a long time due to issues if a package is used by multiple frameworks/targets. tl;dr: Create a framework that links all SPM packages I use and then all of my other frameworks/extensions dynamically load that single framework. It seems like there have been some Xcode improvements such that it isn't as necessary anymore, but is there a downside to sticking with it? I think if I stopped most of those packages would have to be dynamic and thus couldn't be dead-code-stripped, right?
 
 
 |U03HES8111T|:
 The approach you are currently using seems like the best approach also in Xcode 14.  I believe you are correct that you would lose dead-code-stripping if you switched to using purely dynamic libraries.
 
---- 
+---
 > ####  When I previously used CocoaPods for my dependencies I would commit the local pods directory into my git repo. I realise there are varying views on this but I wanted to be able to roll my project back to a specific point in the past and know that I was able to build the exact same binary when I needed to. This also protects against an upstream author unpublishing their code etc.   With SPM I have given this up, but wonder if there is a way to achieve the same thing: is it possible to specify the local checkout location of a remote package, so I could have those files committed as part of my git repo again, if I chose to?
 
 
@@ -6339,7 +6340,7 @@ An alternative would be to fork the repositories for the dependencies, though it
 |U03J4D1FEP6|:
 Will definitely file a feedback. I think this is quite straightforward to implement, if Xcode was willing.
 
---- 
+---
 > ####  Is XCUITest supported on Xcode cloud?
 
 
@@ -6349,14 +6350,14 @@ Yes! You can use XCUITest in Xcode Cloud
 |U03J4EW62N8|:
 Thanks!
 
---- 
+---
 > ####  Not a question, but wanted to pass my thanks :pray: for the scheme selector pop up (from Xcode 13?) when running tests :ok_hand:. It works wonders in large workspaces with several hundred schemes!
 
 
 |U03HES8CXHB|:
 Thank you for your great feedback, Kassem. We’re glad it has been helpful!
 
---- 
+---
 > ####  Is there a way with package plugins to make linters / formatters run automatically in some cases? Maybe by users setting up a behavior or when a file is saved etc?
 
 
@@ -6438,7 +6439,7 @@ This ^^^
 |U03HN9FSVT9|:
 Totally agree - best SPM feature
 
---- 
+---
 > ####  I’m currently migrating an “old” ObjC codebase from a Xcode Framework to SPM. As I understand it, I need an include folder in my target which includes all the public headers (in my case a subfolder MyFrameworkKit) and the umbrella header (if I need a special umbrella header). I can also provide a (public and private) module map (which I have to in my case).   I have difficulties providing a proper #include/#import  for all my private and internal headers when trying to create tests for those classes in my test target (as they are not part of the umbrella header which they rightfully shouldn’t). But how do I then access the internal/private classes in the framework from the test target?  Additionally it seems like the private module header isn’t removed from the release build - shouldn’t it be removed or?
 
 
@@ -6457,7 +6458,7 @@ Thanks a lot for your answer <@U03HES8111T> - I’ll have to look more into the 
 |U03HN9FSVT9|:
 I’ll have to be 100% sure that I understand the private module map and how it affects the   produced artifact before I file a bug (and avoid you wasting  time chasing ghosts) :slightly_smiling_face:
 
---- 
+---
 > ####  To make apps, built in Xcode on Apple silicon, run on older versions of macOS; in this post (<https://developer.apple.com/forums/thread/673323)|https://developer.apple.com/forums/thread/673323)> 'eskimo' says to add `--digest-algorithm=sha1,sha256` to `codesign`  Is there somewhere in Xcode that I can add this, so that I can archive and export &amp; have `codesign` use these behind the scenes?
 
 
@@ -6470,7 +6471,7 @@ Ah, so - just to clarify - I could archive, and then hit `Distribute App`, and:
 • but not any of the other options that involve re-signing? (Developer ID / upload to App Store Connect etc)
 &amp; so, to ‘Developer ID’ sign: I’d archive, export via `Copy App`, then need to use the `codesign` program?
 
---- 
+---
 > ####  For a build phase that modifies a file in derived data (`$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)`), what should the input and output files be set to so Xcode knows to run the phase correctly.  Currently we just set the input files to the plist path which causes it to run for all builds since there's no output file. It's not a big deal cause the scripts are fast, but it's just extra work that isn't needed. Setting the output file to the plist path as well causes warnigns and errors.  warning: unexpected mutating task ('PhaseScriptExecution ...') with no relation to prior mutator ('PhaseScriptExecution ...') error: invalid task ('PhaseScriptExecution ...') with mutable output but no other virtual output node
 
 
@@ -6490,7 +6491,7 @@ That’s an interesting idea about changing `INFO_PLIST_FILE`. So the script bui
 
 I think part if our issue is we have multiple build phase changing the plist when they should probably be combined into one since only one can work on the file at a time.
 
---- 
+---
 > ####  Tried to build this code as Apple engineer in Xcode 14 beta 1. It seems not able to build, did i miss something?  ``` // this will be back deployable struct AnyP&lt;T {   var value: any P&lt;T } ```  And since it is able to backport but couldn't use a type without Swift 5.7 runtime.  So does it mean if we are using it as a type argument and run app on iOS 15 (no 5.7 runtime). We will have a runtime crash or do we get compiler warning?
 
 
@@ -6514,7 +6515,7 @@ foo(any Collection&lt;Int&gt;) // can I run this on iOS 15 with built on Swift 5
 ```
 
 
---- 
+---
 > ####  I have a SwiftPM package I'm using both in other SwiftPM packages &amp; in an iOS project. Unfortunately I've had to use CocoaPods to import it into my iOS app's Xcode project so far because the binary targets get super confused when using Xcode's SwiftPM integration.  Any way to debug SwiftPM packages that work fine from the commandline (Linux + macOS) but not when imported into an Xcode project?  An example of the sort of error I see: NSObjCRuntime.h:523:1: Expected identifier or '('  ^ happens while #including a header from the binary target &amp; says it can't build a completely separate module in my app.
 
 
@@ -6524,7 +6525,7 @@ It's possible that your package is being built with a different set of flags whe
 |U03J1UX2CQK|:
 Thank you! Will do.
 
---- 
+---
 > ####  Weird question - why did the defaults command get quietly (in the man page) deprecated in favor of plistbuddy and then silently un-deprecated later?
 
 
@@ -6540,7 +6541,7 @@ Interesting!  That's very possible but we just didn't hear about it here in Dev 
 |U03HESHGASH|:
 In general, the rule of thumb to follow is use `defaults` for user defaults, and use other tools (plistbuddy is fine) for non-defaults plists.
 
---- 
+---
 > ####  In deinit, the removal of an observer object reports an error for an actor.  Is there a better solution available?
 
 
@@ -6572,14 +6573,14 @@ Really, `deinit` isn't the best place to cleanup, especially if you need guarant
 |U03KC4LFL64|:
 That is my plan I believe.  It was always just a fail safe in most cases.
 
---- 
+---
 > ####  Are there any plans to make SwiftUI code accessible from Unit Tests (like the 3rd party lib ViewInspector does)?
 
 
 |U03H36U6JHM|:
 Thanks for the question! We're always working to improve the tools our developers use. If there's something that isn't working for you, please let us know using the <http://feedbackassistant.apple.com|Feedback Assistant>.
 
---- 
+---
 > ####  I am working on a project where all functionality is distributed across SPM packages, including SwiftUI views. All works great, except I cannot figure out how to have ‘Preview Assets’ in packages, so that SwiftUI view previews in those packages could include resources like images for previews. Is there a way to use Preview Assets with SPM packages and SwiftUI previews?
 
 
@@ -6589,7 +6590,7 @@ It looks like this is not currently supported as best as we can tell.  Can you p
 |U03J30J1S3D|:
 This workaround was recently discussed in <#C03HX19UNCQ|>. It has served us well too for several months now. <https://dev.jeremygale.com/swiftui-how-to-use-custom-fonts-and-images-in-a-swift-package-cl0k9bv52013h6bnvhw76alid|https://dev.jeremygale.com/swiftui-how-to-use-custom-fonts-and-images-in-a-swift-package-cl0k9bv52013h6bnvhw76alid>
 
---- 
+---
 > ####  Not a question but just wanted to say thanks... I've been developing Mac applications since 2007 and iOS from day one... Xcode has continues to improve over the years and I am very excited about the updates to Xcode 14. Thank you!
 
 
@@ -6599,14 +6600,14 @@ Thank you so much for the nice note, Ryan!  We all work really hard on Xcode so 
 |U03J01RLBBR|:
 The only other thing that made me happier was the addition (and improvements this year) of DocC. :rolling_on_the_floor_laughing:
 
---- 
+---
 > ####  What's the proper way to separate keywords when uploading an app? The help tooltip says to "separate keywords with an English comma, Chinese comma, or a mix of both" but can you please give an example of a properly delineated string of keywords?  "termA, termB, termC, … "   or "termA,termB,termC,…" with no spaces in between?  What about for foreign characters like "キーワードA、キーワードB、…"   Do we use the local comma character:  、 ?
 
 
 |U03HB5P2UTY|:
 Hi <@U03J07GGVDK>, spaces are optional when including keywords so both of the examples you provided would work. As indicated in the tooltip, Chinese commas are also supported so those commas (and the spaces after them) would be accepted. More information on keywords and other App Store metadata can be found here: <https://help.apple.com/app-store-connect/#/devf29afbb74>
 
---- 
+---
 > ####  Hi,  I know Swift is designed mostly to build apps on Apple ecosystem. I would like to ask if there is initiative to make it more algorithm problem solving language. What I mean is, as a being as an enthusiastic problem solver, many talented competitive programmer or skilled Leetcoder suggest that to not use Swift. Especially in String manipulation while solving problem, is not so straightforward as Java or Phyton and there is no big community support. Do you guys have any plan to make Swift more algorithm problem solver friendly in the future?   Or any plan to expand Swift Problem solver community?   Thanks.
 
 
@@ -6621,7 +6622,7 @@ and the new Regular Expression features announced this week may help with String
 |U03KWLVQP96|:
 Thank you for answer!
 
---- 
+---
 > ####  I wish Swift cross platform, not just a Apple language, Why not support Windows,Linux as well.  Dart lang, Rust lang, Golang can even support both platform, but currently Swift lang is just ugly to support with windows, linux. that's should not be ...
 
 
@@ -6673,14 +6674,14 @@ We use Swift for some of our utility libraries - and actually sometimes do our C
 |U03H36U6JHM|:
 If that'd be useful to it, raise it on the Swift forums! I am sure the folks working on Android support would be interested in discussing it.
 
---- 
+---
 > ####  When building SwiftPM Library for iPhone Simulator there are now issue, but when trying to preview a view in the target I see the following issue: error build: multiple configured targets of 'MyPackageName_MyTargetName' are being created for watchOS Simulator  What might be the reason of such a behaviour?
 
 
 |U03HL553PNG|:
 The rest of the team is off in 1:1 labs right now so they asked me to pass along that this doesn't look intended.  Would you mind <https://feedbackassistant.apple.com/|filing a feedback report> for that issue so we can take a look?  You may also want to post on the <http://developer.apple.com/forums/|Developer Forums> to see if someone else is having the same issue.
 
---- 
+---
 > ####  I maintain a popular project that integrates with a vendor swift framework. We'd like to call some and debug some swift functions in the framework. Unfortunately there is no .swiftinterface for it. Is there any tools or improvements in this Xcode release to go from stable ABI - .swiftinerface?
 
 
@@ -6690,7 +6691,7 @@ There's no official tool for this. It would be very fun to build it yourself - i
 |U03HWDCSCHX|:
 Also note that swiftinterface files are entirely human readable, so you can write one yourself too!
 
---- 
+---
 > ####  We have an iOS app that has some SPM dependencies which in turn have SPM subdependencies. Some of these are shared: ie  App - FrameworkA - FrameworkB, FrameworkC          -FrameworkD - FrameworkB, FrameworkC  The app builds find locally and on CI but during archive and submission we see errors where the bundle has duplicates of FrameworkB and FrameworkC. We had to add a Post Build Action on release like so: ``` #!/bin/bash  # Source: <https://forums.swift.org/t/swift-packages-in-multiple-targets-results-in-this-will-result-in-duplication-of-library-code-errors/34892/67|https://forums.swift.org/t/swift-packages-in-multiple-targets-results-in-this-will-result-in-duplication-of-library-code-errors/34892/67>  APP_PATH="$ARCHIVE_PATH/Products/Applications/$<http://PRODUCT_NAME.app|PRODUCT_NAME.app>"  # Nested Frameworks in Frameworks cd "${APP_PATH}/Frameworks/" for framework in *; do     if [ -d "$framework" ]; then         if [ -d "${framework}/Frameworks" ]; then             echo "Delete nested frameworks from ${framework}/Frameworks/"             rm -rf "${framework}/Frameworks"         fi     fi done ```
 
 
@@ -6703,7 +6704,7 @@ Hey <@U03J7H4LJ5N>! (We met at the event on Monday :smile:). Let me try again wi
 |U03JETJ7UU9|:
 Hmm that's weird... I just tried with 13.3.1 and I don't see any of our in house frameworks in the `Framework` folder after archiving? Maybe they were all statically linked? Downloading 13.2 to try again
 
---- 
+---
 > ####  I had a great lab yesterday (thank you, Apple!) for trying to resolve an issue in Xcode 14 beta 1 that my project gets when trying to build; `Undefined symbols for architecture arm64:`.  I went back and confirmed that I can build with no issue on Xcode 13.4.1, so I'm wondering if there are any docs outside of the release notes that might help me in figuring out why I'm getting such an error only in Xcode 14.
 
 

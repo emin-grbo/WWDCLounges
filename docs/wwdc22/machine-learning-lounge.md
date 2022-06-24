@@ -4,9 +4,10 @@
 #### [emin@github](https://github.com/roblack) / [emin@twitter](https://twitter.com/emin_ui)
 #### [shirblc](https://github.com/shirblc)
 #### [tikimcfee](https://github.com/tikimcfee)
----
 
---- 
+
+
+---
 > ####  When training an Object Detection Model in Create ML, is there a way to take automatic snapshots to ensure that there is a record of how the model is performing throughout iterations as opposed to having to take manual snapshots to do so?
 
 
@@ -18,7 +19,7 @@ You do have the option to use the Create ML framework directly in Swift and set 
 |U03JA6H3Z38|:
 Thanks for the info!
 
---- 
+---
 > ####  When training a video activity classifier model in Create ML, is it best to have only one person's poses in the frame (and crop out others)?
 
 
@@ -39,7 +40,7 @@ check out the video from WWDC 2020 :
 |U03JELQLESV|:
 Thanks for the answers, and for including the relevant part of the session!
 
---- 
+---
 > ####  This may be a more general Machine Learning question. I am interested in the ability to extract text from images and video.  The Vision framework does a great job of extracting the text.  One thing I would like to do is determine whether each piece of text is in a particular category of typeface, largely looking to tell a source code / monospace font from a sans serif font.  Which machine learning technologies available on Apple platforms would be best suited for that? And a high level of how you might approach that?
 
 
@@ -64,7 +65,7 @@ James, I created a serif/sans-serif model with CreateML. You can find it here: <
 |U03JDNSUW78|:
 Thank you! This is all very helpful! And thank you <@U03JENH943V> I will take a look at that model. It may be just what I need!
 
---- 
+---
 > ####  In the "What's new in Create ML" talk, near the end Repetition Counting was mentioned, and a reference to the "linked article and sample code", yet the WWDC22 Sample Code list does not include this, nor does the documentation, I believe.  Can you point me to the Sample Repetition Count code and Documentation?
 
 
@@ -107,7 +108,7 @@ Great!
 |U03HVD99L14|:
 Thanks for your help!
 
---- 
+---
 > ####  When making activity classification predictions on video frames, are there ways or considerations for improving speed aside from skipping frames (cadence)? Is prediction window size a factor?
 
 
@@ -148,7 +149,7 @@ We have a great session on understanding the performance of apps with machine le
 
 <https://developer.apple.com/videos/play/wwdc2022/10027/>
 
---- 
+---
 > ####  How would you recommend to approach the classification of various fine-grained subclasses of the same class? Specifically talking about different types of something made of paper.  For example: "a postcard with something written on it", vs "an empty postcard" vs "just some piece of paper" vs "another object"?  With classifier model we were able to obtain very accurate results to distinguish "paper vs some other object". However we couldn't get accurate enough results (I think ~60% accuracy) regarding the more fine-grained decisions: "postcard vs some piece of paper" and "postcard with text vs empty postcard". The mistakes were usually into false-positive side (identifying some piece of paper as a postcard in my example).   So how would you setup the training samples for this sort of goal? Or are we looking in the wrong option, and should be considering some other method, or a combination of methods instead?  Thanks.
 
 
@@ -176,14 +177,14 @@ Thank you, guys
 |U03HB4V9Q5V|:
 Thank you!
 
---- 
+---
 > ####  Does an `MLModel` need to be adapted in any way to support predicting into buffers given with `MLPredictionOptions.outputBackings`?
 
 
 |U03HB4VBDGX|:
 `MLModel` does *not* need to be adapted in any way to accept output backings. `MLPredictionOptions.outputBackings` can be used to provide either a `CVPixelBuffer` or `MLMultiArray` depending on the output feature value type. When a `CVPixelBuffer` is provided as output backing for prediction, please ensure that the base address is not locked for read / write. Please check out <https://developer.apple.com/videos/play/wwdc2022/10027/|Optimize your Core ML usage> session tomorrow. If you have more questions, please bring your questions to the Q&amp;A Core ML session at 9am on 6/8.
 
---- 
+---
 > ####  The object extraction from images ("copy the dog out of the image into iMessage") is very impressive! Can we get access to that feature via some API?
 
 
@@ -193,7 +194,7 @@ Thanks! This might be a question better suited to the Vision API Q/A on Thursday
 |U03HMD6FP9V|:
 I was able to get around this by copying it into Notes app and saving the image in notes <@U03HVD5TM7G>
 
---- 
+---
 > ####  I‘m trying to get into Machine learning. What’s the best way to get to know all the methods for integrating CreateML into an app?
 
 
@@ -258,7 +259,7 @@ If it's more like terms and you want to include additional context such as price
 |U03J9R7MVJ7|:
 Thanks again for the helpful knowledge!
 
---- 
+---
 > ####  Create ML Components looks amazing!! Have you experimented recreating popular architectures, like GANs and Autoencoders, with Create ML components?
 
 
@@ -277,7 +278,7 @@ It's closer to something like scikit-learn
 |U03JVEMS83B|:
 Great! Thank you for the clarification! For iOS developers who code for ML, it looks way more welcoming than scikit-learn with python. I’m very excited to try it out!
 
---- 
+---
 > ####  I utilize the drawing classifier from Turi Create in my app which has been working well. I previously tried an image classifier with Create ML but it took very significantly longer to train (about 55 hours vs 3.5 hours). Is Turi Create still the way to go until a drawing classifier gets added to Create ML? :D Bonus q: any Turi Create updates to share?
 
 
@@ -296,7 +297,7 @@ Note: The updatable drawing classifier available on <https://developer.apple.com
 |U03HRMWNP4J|:
 Please consider filing feature requests or feedback on drawing classifiers via <https://feedbackassistant.apple.com>
 
---- 
+---
 > ####  Hello everybody! I’ll follow your suggestion: what are some ways to apply Create ML and CoreML to everyday tasks? What are the best tasks for CoreML models?
 
 
@@ -316,7 +317,7 @@ Excellent! Good luck – the key way to take advantate of ML is identifying prob
 |U03JRQ9ADA4|:
 Thank you again! That’s an incredible technology - and I’m sure it’ll help me solve challenging problems. Thank you for your precious advices! :smile:
 
---- 
+---
 > ####  Can a GAN solution be made from ML Components?
 
 
@@ -368,7 +369,7 @@ I’d suggest starting from checking these models (where they are published) tha
 |U03HB4T0CA3|:
 Did you come to WWDC before, Glen?  I feel like maybe you showed me a whole lot of hummingbird photos in San Jose a few years ago. I love those little guys - we get them in the the Bay Area.
 
---- 
+---
 > ####  There was a great WWDC video back in 2018 titled Vision with Core ML. The example app used live video capture to feed an image through the model using scene stability. There is sample code out there for UIKit, but always wanted to try and re-make using SwiftUI as a starting point. Any tips or pointers on making an image recognition app with live video capture using SwiftUI as a starting point ?
 
 
@@ -421,7 +422,7 @@ In case it helps <@U03K7TYHFHN> though (maybe ignore where the Coordinator is a 
 |U03JLPLTZ4M|:
 Great Q. - I’ve been grappling with the same question of converting to Swift UI
 
---- 
+---
 > ####  When will CreateML support Neural Networks?
 
 
@@ -431,7 +432,7 @@ Just to clarify, it does support neural networks. For instance `FullyConnectedNe
 |U03J4CASP0R|:
 But if you wanted to create a custom network you would need to use Metal or Accelerate.
 
---- 
+---
 > ####  We can separate people and background on photo, for example to create stickers, using VNGeneratePersonSegmentationRequest.  What about animals, objects and etc like you did it in iOS 16? I mean feature that I can longpress at any object on photo to copy/paste it. Do we have ready API for that?
 
 
@@ -443,7 +444,7 @@ Yes, you can use VNGeneratePersonSegmentationRequest for people. There currently
 
 Please consider filing a feature request or feedback via <https://feedbackassistant.apple.com> or bringing more questions to the Q&amp;A Vision digital lounge from 2-3pm on Thursday
 
---- 
+---
 > ####  I've created a small image classification model using Create ML with around 350 image labels. However, for the iOS app I'm making that could scale to over 100,000 labels (and likely much more) - each with over a hundred images for training/testing. Is there any way to scale to that level using Create ML? I've started teaching myself TensorFlow and researching various cloud services like Google Colab for the training because I think I'll need to go that route... and then convert that to Core ML. I'd appreciate any thoughts / recommendations.
 
 
@@ -470,7 +471,7 @@ Unfortunately there is no hierarchy. Each image is completely different but easi
 |U03HY66772A|:
 You may want to check out algorithms behind similar image search, where you calculate an embedding for an image, then find N nearest embedding from the known images, and derive your class/object from them.
 
---- 
+---
 > ####  Is there the ability in CreateML to make text generation models, GPT-3 type applications? Haven’t seen it but wanted to double check
 
 
@@ -483,14 +484,14 @@ The things I'm interested in are things like, generating writing prompts, autoco
 |U03HRMABBDZ|:
 Great use cases!  CreateML or CreateMLComponents meant to allow you to create custom ML models fitted to your training data. If you want to use such model, it makes sense to get that converted-to-CoreML model to try it out.
 
---- 
+---
 > ####  I'm new to ML. I would like to implement some sort of color matching with two photos (i.e. when superimposing a person on a different background, adjusting color, contrast, etc. to match the background better). Is something like that suited for CoreML (and if so, do you have any suggestions on how to approach that?), or would a simple algorithm be a better solution for those kinds of tasks?
 
 
 |U03J4CASP0R|:
 Doesn't sound like something you can do with Core ML or Create ML. Try the Vision API Q/A on Thursday from 2-3 PM PT.
 
---- 
+---
 > ####  Hi, so trying to do on device learning. If I do    Import CoreML … Let model = try MLLinearRegressor(…)  XCode alerts something like  “can’t find MLLinear regressor in scope”  How can I fix this, thanks
 
 
@@ -546,7 +547,7 @@ just to clarify, CreateML is NOT available on iOS simulator, so you build an app
 |U03HRMABBDZ|:
 if you want to try with a Playground, please use macOS playground, since iOS playground uses iOS simulator as well.
 
---- 
+---
 > ####  - Given an image, I'm wondering about the best approach to identify &amp; classify an object but also determine its color - could this be done by using separate components?  - and how would you recommend handling multi-colored objects
 
 
@@ -574,7 +575,7 @@ You could combine it with VNGenerateObjectnessBasedSaliencyImageRequest to get a
 |U03JLPLTZ4M|:
 thanks <@U03JFF1S5U0> this is v. helpful
 
---- 
+---
 > ####  Would Create ML/Components/Core ML be capable of dealing with music data? Specifically I want to train a model that can predict the tempo (BPM) of a song.
 
 
@@ -602,7 +603,7 @@ That's exactly what the existing app (Tempi, on the app store) uses now. It work
 |U03J1RX038W|:
 I never thought of combining them though. Interesting…
 
---- 
+---
 > ####  How to ball park run time for linear regressor predictions func? What I really want to know, how often I can call this?
 
 
@@ -616,7 +617,7 @@ In _Optimize your Core ML usage_ you can see how you can open a model in xcode, 
 |U03HUQAAWEB|:
 I’ll check it out and come back with any questions ,comments, concerns. Thanks
 
---- 
+---
 > ####  Why do older devices use more memory when loading MLModel? A model used about 600MB of memory on the iPhone 12 Pro, but on the iPhone 11 Pro the app crashed over 1.2GB of memory. ``` let model = try await SomeModel.load()  // load a model ```
 
 
@@ -641,7 +642,7 @@ You can also request a 1:1 lab so that we can investigate together.
 |U03JHAD6E3T|:
 Oh, lab! I’ll refer the lab to a more knowledgeable colleague! Thank you.
 
---- 
+---
 > ####  What if my data is exponential, would that need a quadratic regressor? In one of the videos the data was parabolic and you normalized it. What’s going on here
 
 
@@ -657,7 +658,7 @@ I think in general it can be helpful in data preparation as one tool that's avai
 |U03HUQAAWEB|:
 Ok <@U03HB4V9Q5V> I appreciate your responses. Thanks
 
---- 
+---
 > ####  I've noticed you have a new way to store model weights in sparse form (which is a great addition) and am wondering it there's some fundamental blocker to using sparse operations at inference time too?
 
 
@@ -670,7 +671,7 @@ interesting, would that be the case for any model which contains sparse matrices
 |U03HRMWNP4J|:
 That is not generally the case. It is best to use the sparse encoding explicitly.
 
---- 
+---
 > ####  We're facing some challenges on converting our AI models to CoreML, some operations 'state-of-the-art' aren't fully supported and we're considering running it in a different approach. Would it be feasable to have a model in C++ and leverage the GPU power of the devices, if yes... how?
 
 
@@ -688,7 +689,7 @@ Are the FFT operations in the beginning / pre processing stage of the model? If 
 Would be interested to know more of your use case, so if you can request for a lab session on this topic (mentioning my name), would be happy discuss more.
 In any case, submitting a feedback request with your use case would be great.
 
---- 
+---
 > ####  Are there any updates planned for coremltools, notably supporting complex numbers. I'm looking to convert a TensorFlow model, but even after implementing missing operations like Fast Fourier Transform, I'm blocked by the fact there is no complex number support.
 
 
@@ -696,7 +697,7 @@ In any case, submitting a feedback request with your use case would be great.
 Yes, you are right. There isn’t a complex number data type in the <https://coremltools.readme.io/docs/model-intermediate-language|CoreML MIL spec>
 The best way to use them is by treating complex numbers as 2D vectors of real and imaginary numbers
 
---- 
+---
 > ####  Hi, can a ML model extract certain values off a json such as “VideoType” and URLs then return those values to make a network request?  I’m looking a making a video recommendation system with ML but not sure the best way to do it. 
 
 
@@ -706,7 +707,7 @@ Have you tried the MLRecommender in Create ML? That is a great place to start fo
 |U03HZ3L98TF|:
 Didn't know MLRecommender existed! Thank you for that tip I'll have a look into it and use TabularData as well. Thanks again 
 
---- 
+---
 > ####  Can num features vary. Say I wanna guess catAge given numWhiskers, furDensity, and numLegs. But sometimes I may only have numWhiskers and numLegs and not furDensity. Would that require its own, separately trained, MLModel?  Similarly, (same question different example)   Tic tac toe…  trainingData.csv position0,p1,p2…p8, didWin 0,1,1…1,1 0,0,1…1,1 1,0,0…1,0 …  Then at next move prediction time Can I use this same model when the game is 2,3, or 4 moves in?  Effectively   nil,0,1, nil,nil,nil,nil,nil,nil,nil,nil nil,0,1, nil,nil,nil,1,nil,nil,nil,nil … 1,0,0, nil,nil,nil,0,1,1,1,nil
 
 
@@ -725,7 +726,7 @@ I mainly wanted to know if it was possible, and it looks like you’re saying it
 |U03HUQAAWEB|:
 Follow up…With linear regression models, if Im interested in predicting more than one target, do I need a model for each target I’m interested in?
 
---- 
+---
 > ####  I want to start learning ML and CoreML, and I have thought of a problem space that may be interesting that could use further exploration. I know NLP depends on extraordinarily large data sets, but I'm wondering about the utility of training a model on a constructed language with a much smaller data set. The one I have in mind has a very small official dictionary (slightly more than 100 official words), and rather simple grammar rules. Are there resources you would recommend for exploring this specific application of ML, or any pitfalls I might want to keep in mind?
 
 
@@ -735,7 +736,7 @@ This depends somewhat on what sort of tasks and models you are interested in. Fo
 |U03JN80PFRQ|:
 I am exploring non-ML tokenizing and parsing as well, because the grammar rules are rather straightforward and the word set is small. The language has recently been given an ISO identifier, but there is little support for it in general. I’ll take a closer look at traditional parsing tools, thank you!
 
---- 
+---
 > ####  We converted a Tensorflow image segmentation model to CoreML. We notice that we get different results when running this CoreML model on macOS (with Python3 and coremltools) versus on iOS. Predictions are way less accurate on iOS and we cannot explain why (even when setting computeUnits parameter to .cpuOnly).
 
 
@@ -746,7 +747,7 @@ That  said, for the CPU compute unit I would expect the predictions to match bet
 |U03J7ETMDHU|:
 Thank you for your reply. We actually did use the `compute_units=ct.precision.FLOAT32` setting when converting the Tensorflow model to CoreML. It did not change anything in our results. We also tried using the new MLPrograms but the results were unchanged.
 
---- 
+---
 > ####  - What would be the best way to figure out which objects go together - say you have 10 groups of three and a pool of 100 ungrouped objects &amp; you want to group them similarly?
 
 
@@ -767,7 +768,7 @@ Thanks - I need to learn my way around CoreImage a bit more….this has been rea
 |U03DJTBMHFF|:
 There are some Core Image lab appointments available on Friday if you want to dive into this 1:1 with engineering
 
---- 
+---
 > ####  Do you know if it is possible to have a layer-wise execution time profiling with XCode14 for the operations that run on the Neural Engine or GPU?
 
 
@@ -791,14 +792,14 @@ Thanks for taking care <@U03HB4VBDGX>
 
 If you can make an exception to register for tomorrow's 1:1 lab, it would be great if not, no worries! We will sync via FeedbackAssistant and figure out next steps.
 
---- 
+---
 > ####  Do you have some method to share with us to benefit from sparse weight features (very nice features) without sacrificing the applicative performances?
 
 
 |U03J4CNMT6D|:
 The sparsity weight feature will be useful for models that have been trained with “weight pruning” techniques
 
---- 
+---
 > ####  CoreML Performance Report is great, but I can't find per-layer performance stats to find bottlenecks in our model.
 
 
@@ -817,7 +818,7 @@ FB10165684 — list of layers supported by ANE
 FB10165713 — more articles on ANE optimizations
 FB10165760 — specific flag to let developers know if model running only on ANE
 
---- 
+---
 > ####  Is there a way to run performance report on older verions of iOS? I suspect new compiler runs model differently that the Xcode 13 one.
 
 
@@ -827,7 +828,7 @@ Performance reports require iOS 16
 |U03HRMWNP4J|:
 Older iOS version unfortunately cannot provide the same information.
 
---- 
+---
 > ####  What is a good approach in case of Image classification problem. I am trying to classify two similar shapes lets say Circle and Oval, in some case the confidence for the Ovel is very high for the circle input. 
 
 
@@ -837,7 +838,7 @@ Have you looked at VNDetectContourDetection? Using this traditional computer Vis
 |U03JRQ81NEL|:
 Thanks, will look into it
 
---- 
+---
 > ####  Vision question: does a VNRectangleObservation contain information about the shape's full outline?  For example: a document scanner that needs to fully extract a page from its background.  VNDetectRectanglesRequest will provide the position of each corner of the page, which allows us to clip the shape assuming the page is flat.  But if the paper is curled, we can end up with bits of background in our cropped image.  Is there a way to trace an accurate outline for imperfect rectangles?
 
 
@@ -864,7 +865,7 @@ It's not clear to me which region of the image this pixel buffer would contain.
 |U03JFF1S5U0|:
 It is a low res pixel buffer that represents the shape of the detected document. Where each pixel represents a confidence of being or not being part of the document
 
---- 
+---
 > ####  There are a lot of CoreMLCompiler versions throughout the Xcode history. Some break inference (e.g. some of the Xcode 13 coremlcompilers broke iOS 14 runtime). Is there a way to diagnose these errors without compiling under every compiler and running on all iOS devices?) And is there a known stable version of a compiler?
 
 
@@ -914,7 +915,7 @@ Thanks for sharing this! Let's continue discussion on this.
 |U03HY66772A|:
 <@U03HB4VBDGX> I’ve requested a contact, btw
 
---- 
+---
 > ####  Is `VideoReader` a `CoreML` component, or is this a custom component, as referenced in #wwdc2022-10020, built on top of the new async `AVImageGenerator`?
 
 
@@ -946,7 +947,7 @@ That can take a `CMTime` or array of `CMTime`s and asynchronously return a `CGIm
 |U03HB4T0CA3|:
 Thanks for the recommendation Brandon, I will enjoy watching that.
 
---- 
+---
 > ####  Hi @David! Congratulations on a fine presentation. May I ask if there is some functionality to enable to recognise the direction (arrow) of time in a video?
 
 
@@ -973,7 +974,7 @@ As I wrote, it is still a pretty recent research question (for example, this is 
 <https://cordis.europa.eu/project/id/950086>
 ) but it has important practical implications that it would be very nice to see any such functionality implemented in Create ML, to be able to working with temporal (agnostic) data.
 
---- 
+---
 > ####  Hi! I was surprised that the session video did not discuss (unless I missed it, which is definitely possible) how to write custom components. Let's say I want to write my own PoseSelector component. For example to pick the person closest to the center of the frame, and to keep the selection consistent across frames in a video.  Can I? And if yes, how?
 
 
@@ -1004,14 +1005,14 @@ search for `Required` on the page
 |U03JRPTG8BS|:
 Perfect!
 
---- 
+---
 > ####  Just wanted to say thank you for such thorough content and for building a solution that makes machine learning easy to implement in our apps.  This is incredibly powerful, and so many solutions can have such a steep learning curve.  CreateML and CoreML are truly amazing; great job to you all!
 
 
 |U03JFGMTU8G|:
 Thank you for your positive feedback! :smile:
 
---- 
+---
 > ####  In addition to the built-in classifiers and regressors, is it possible to specify a neural network with a custom structure (by specifying the layers) and use that for training and inference?
 
 
@@ -1042,14 +1043,14 @@ no, it’s not configurable, only ReLu
 |U03J4CASP0R|:
 If you have a use case please file a ticket in Feedback Assistant
 
---- 
+---
 > ####  Does training (using the fitted or update methods) take advantage of the Neural Engine, for example when training a fully connected classifier?
 
 
 |U03HRMABBDZ|:
 Not on neural engine, but training of fully connected network is  optimized on best possible compute unit
 
---- 
+---
 > ####  Whats the meaning of the error below when calling model.predict()?  RuntimeError: {     NSLocalizedDescription = "Error in declaring network."; }
 
 
@@ -1059,14 +1060,14 @@ This indicates that there is an error setting up the model. Can you please file 
 |U03J6AKH19V|:
 <@U03JFGMUPCY> is there a workaround for `torch.stft` and `torch.istft` (which are unsupported)?
 
---- 
+---
 > ####  Great updates. How do I go about training a dance classifier with with video files? Are there any components for audio, video to get started with?
 
 
 |U03JFGMTU8G|:
 Thank you! You can definitely build a dance classifier using the action classifier in Create ML <https://developer.apple.com/videos/play/wwdc2020/10043/>
 
---- 
+---
 > ####  With the initializers for MLImageClassifier.ModelParameters being deprecated, what is the easiest way of increasing the iterations being performed?
 
 
@@ -1097,7 +1098,7 @@ Yeah because the initializer that I am suggesting has no default value for `augm
 
 If you do not specify `augmentation` in the init at all, one of the old initializers will be used and hence you will get the deprecated warning.
 
---- 
+---
 > ####  Is there a way to use one IOSurface for moth ANE and GPU work? Or access ANE iosurface directly, and map it to MTLTexture by hand?
 
 
@@ -1171,7 +1172,7 @@ Sorry, I do not have a definitive answer. I would suggest to test it with the la
 |U03J52T5J22|:
 You are welcome, Andrew and Viacheslav! Enjoy the rest of WWDC 2022!!
 
---- 
+---
 > ####  Hi! As far as I understand, extracting text from images is not possible for Arabic language, would it be possible to use CreateML to achieve the same effect that is built in to extract Arabic text from images and documents? thanks
 
 
@@ -1187,14 +1188,14 @@ To build your own system would require solving multiple ML problems, including l
 
 Building a complete solution like this is beyond what CreateML is designed for today.
 
---- 
+---
 > ####  Is there any guidance on using CreateML for creating segmentation models (great for use in ARKit to segment unique types of objects as detected in the camera feed)?  Or would this be a case for building a custom Turi/other model and converting to CoreML?
 
 
 |U03JFGMTU8G|:
 Thanks for you question! The first thing I would try is the DeepLabV3 model!  <https://developer.apple.com/machine-learning/models> You can also convert your custom model using coremltools. <https://coremltools.readme.io/docs>
 
---- 
+---
 > ####  In the "Get to know Create ML Components" session around the 14m mark the presenter mentioned that the augmentation applied is only used during training, not validation. Is that really true, given that it was just applied using flatMap() to the combined dataset in the code shown? It is not what I would expect based on reading the code.
 
 
@@ -1220,7 +1221,7 @@ I mean that the outputs of the augmentations would be different for each epoch.
 |U03J4CASP0R|:
 Yes. Please share your feedback through Feedback Assistant.
 
---- 
+---
 > ####  Is there a way create a federated learning/training solution. I'm planning to create on-device training and since the data is private I'd want to update the model while respecting user privacy and have all users benefit from a new model I can redistribute in updates. Is there a way to achieve this? Especially while respecting user data privacy.
 
 
@@ -1231,7 +1232,7 @@ Apple doesn't offer an out-of-box solution for federated learning at the moment.
 
 I would recommend scheduling a 1:1 lab with us so we can discuss your use case and provide specific feedback.
 
---- 
+---
 > ####  When building an Object Detection model, do you have any specific tools or recommendations on how to best annotate objects?  There are a lot of tools out there, but they often feel cumbersome to use in comparison to the ease of CreateML.
 
 
@@ -1259,7 +1260,7 @@ Thanks, <@U03K67T11G8>!  Also not familiar with that one, either!
 |U03JZAYNMMJ|:
 <@U03J20E7UBV> We're using CVAT at my research institution. There is a hosted, free version available at <http://cvat.org|cvat.org>, but I'd recommend going with the self-hosted option since it allows you to integrate ML models to assist with the labeling effort: <https://github.com/openvinotoolkit/cvat>
 
---- 
+---
 > ####  Do you have any code snippets showing how to load a stereo audio file into MLMultiArray object?
 
 
@@ -1341,7 +1342,7 @@ OMG! Probably our best experience in WWDC, you're a <@U03J52T5J22> rockstar!
 |U03HB4VBDGX|:
 This is awesome <@U03J52T5J22> :slightly_smiling_face:
 
---- 
+---
 > ####  Can we take compiled and encrypted models from the bundle, and host them in our own cloud? Do you see any issues with it?
 
 
@@ -1453,7 +1454,7 @@ No worries. Thanks!
 |U03HB4VBDGX|:
 The only way I can think of is to encrypt the model with two different encryption keys (with different team IDs) and include both encrypted models in the app / make it available for download. App would pick the right model based on the variant.
 
---- 
+---
 > ####  What image-sharpening torch model did you use in the "Optimize your Core ML usage" talk?
 
 
@@ -1463,7 +1464,7 @@ Hi <@U03K67T11G8>, we got a similar question here <https://developer.apple.com/f
 |U03K67T11G8|:
 Thanks <@U03JFGMUPCY>, that answers my question!
 
---- 
+---
 > ####  I'd like to classify larger article-sized bodies of text. One of the ways I'm working on doing this is by doing text classification. Given 5 categories of diary entry (eg family, health, spiritual, work, recreational), would it be preferred to use a single model that labels text with one of the 5? Or should I follow the SentimentClassifier example and use 5 separate models that each classify a string in 3 ways (notFamily, neutralFamily, isFamily)? If the latter, is this a use case for components?
 
 
@@ -1473,14 +1474,14 @@ Usually what I would tend to try first would be a single classifier model that l
 |U03J4DR9GDS|:
 Thanks for your great response. This definitely gives me a good direction
 
---- 
+---
 > ####  are there any limitations on number of iosurface-backed in a model?
 
 
 |U03J52T5J22|:
 Hi Andrew, no, CoreML doesn’t put the limitations.
 
---- 
+---
 > ####  Can the live text selected automatically (in an designated area/ simply select all) without user highlight? <https://developer.apple.com/videos/play/wwdc2022/10026/|https://developer.apple.com/videos/play/wwdc2022/10026/>
 
 
@@ -1505,28 +1506,28 @@ Can we use Core ML to recognize objects such as dog in a live camera feed and th
 |U03HB4KUYH5|:
 The subject lifting feature does not have an API in iOS 16. We do have a Shortcuts workflow if that helps.
 
---- 
+---
 > ####  Is it appropriate to try to use word embeddings to match long-form text up to single worded categories? For example, figuring out the distance between `"exercise"` and `"Today I decided to ride my bike to the store. I needed to get a workout in."` I'd like to match sentences and paragraphs up to to tags.
 
 
 |U03HRM0UK8B|:
 The most robust approach to this sort of categorization would be to pick a set of categories in advance, collect training data, and train a classifier to classify sentences according to these categories. If you need to handle words outside the originally chosen set of categories, you could then use word embeddings to find an existing category similar to the entered word. If you aren't able to train a model, things get a bit trickier. You can use tools such as part-of-speech tagging to identify relevant words in a sentence, e.g. nouns in the example you give, and determine how similar those are to the word you are trying to match. You would then need to figure out some way to take scores for individual words and form a score for an entire sentence. Overall I think you would get better results by training a classifier, although it would require more work in advance for training.
 
---- 
+---
 > ####  is it possible to have flexible shape (enumaratedly) inputs (and therefore outputs) to be compatible with outputBackings and IOSurface-backed MultiArray?
 
 
 |U03JFGMUPCY|:
 Yes this will work as long as the output backing buffer is the correct size corresponding to the size of the input. One note is that being able to avoid data copies during inference for models with flexible shapes will vary depending on circumstances. You can use the Core ML Instrument and look in the Data lane to see if data copies are occurring.
 
---- 
+---
 > ####  Does CoreML have everything necessary to perform keyword extraction? How would you go about extracting keywords from articles of text?
 
 
 |U03HRM0UK8B|:
 Natural Language has a number of tools that can be useful in keyword extraction: tokenization, part-of-speech tagging, named entity recognition, gazetteers that could be used to identify stop words, and so on. We don't provide an implementation of a specific keyword or keyphrase extraction algorithm, but there are algorithms that are sometimes used that take into account features such as frequency, co-occurrence statistics, TF-IDF, etc. that can be calculated from text that has been tokenized and processed using some of these tools. Doing this fully unsupervised is a difficult task, though. You might be able to do better if you have some advance knowledge of the vocabulary that is relevant to the sort of text you will be working with.
 
---- 
+---
 > ####  can optical flow be used in situations where more than one object is moving at the same time?
 
 
@@ -1539,7 +1540,7 @@ Yes, motion information will be returned for all parts of the image, and therefo
 |U03JRPP4S3A|:
 Thank You
 
---- 
+---
 > ####  Is there a document from that talks about how ML development works with Apple products and what is needed to get started?
 
 
@@ -1550,21 +1551,21 @@ There are also some past WWDC videos which show you an example journey from idea
 
 I highly recommend checking out this session on Friday: <https://developer.apple.com/videos/play/wwdc2022/10017/|Explore the machine learning development experience>
 
---- 
+---
 > ####  how to handle situations where older ANE versions might not support certain layers and it will result in cpuAndNeuralEngine config being extremely slower on some devices?
 
 
 |U03JFGMUPCY|:
 `MLComputeUnits.all` is the default option and we recommend using that in most of the cases. CoreML tries to optimize for latency while utilizing all the available compute units. `MLComputeUnits.cpuAndNeuralEngine` is helpful when your app is using GPU for pre or post processing and would like CoreML to not dispatch the model on GPU. Other than that `MLComputeUnits.cpuAndNeuralEngine` behaves very similar to `MLComputeUnits.all`. If you have a model that is running much slower on certain devices, we recommend filing some feedback at <http://feedbackassistant.apple.com> with the model and specific device(s) included.
 
---- 
+---
 > ####  What is the difference between MLTrainingSessionParameters and MLObjectDetector.ModelParameters?
 
 
 |U03HRMABBDZ|:
 `MLTrainingSessionParameters` for async training API, e.g., `.train()`, to specify training related parameters, such as checkpointing saving location, whereas `MLObjectDetector.ModelParameters` is for both sync and asyn ctraining to specify model-specific parameters
 
---- 
+---
 > ####  We can use Shipment Tracking Number, URL as a source for live text. Can we define our own source for the live text ? Let’s say I wanna add detection of new couriers other than FedEx or UPS. 
 
 
@@ -1589,7 +1590,7 @@ Exactly. Currently live text can find the FedEx tracking number because it's 12 
 |U03J1TN6WBD|:
 ^ This may be useful for detecting car license plates aswell imo (different patterns depending on countries though)
 
---- 
+---
 > ####  With VNDocumentCameraViewController, is it possible to limit it to just one scan, so that the user doesn't have to press "Save" at the end?
 
 
@@ -1599,7 +1600,7 @@ No, sorry. Would appreciate a Feedback for an enhancement request, though
 |U03HZ2VBE21|:
 Done: FB10140507
 
---- 
+---
 > ####  I am looking to detect or classify a jersey number from a sporting event such as hockey in a video,  I have tried VNRecongnizeTextRequest but do not get good results is there a better way to do such a task? Would I be better off creating my own model for this?
 
 
@@ -1624,14 +1625,14 @@ When text gets deformed on fabric or obscured it gets very difficult to read.
 |U03JRPP4S3A|:
 Is there any way that VNRecognizeTextRequest can be restrained to only numbers?
 
---- 
+---
 > ####  Clarifying question on what's new in vision. I think v3 brings improved face recognition &amp; barcode recognition &amp; previews for those. Optical flow is entirely new, and the UI for text recognition through video is entirely new. Do I have this right? Anything else new in Vision?
 
 
 |U03J98R7N5A|:
 Optical flow is not entirely new, there was already a prior revision 1 for optical flow. You are correct about barcode, but face recognition is not offered by Vision. You are also correct that the UI for text recognition is new. Other things new in Vision are a new text recognition revision, and the new functionality in Xcode for Quick Look Preview support. We also deprecated older face detection and face landmarks revisions.
 
---- 
+---
 > ####  Up until iOS15, the rectangle tracking VNTrackRectangleRequest returned precise corners of tracked rectangle. Since iOS15, it seems to only return the bounding box. This is present even in the original detection/tracking demos.  What is the suggested way to get tracked rectangles (and also support the original vision framework to support iOS11+)?
 
 
@@ -1646,7 +1647,7 @@ It seemed like an intentional change in iOS15, as I remember the documentation w
 |U03HZ3RCQLV|:
 What would be the suggested workaround for iOS15 - is there any other vision API that could be used for rectangle corners tracking? (ideally similar to what the native scanner in Notes nad Files offers)
 
---- 
+---
 > ####  What's the best way to create a "silhouette" video as opposed to a silhouette photo? Would Optical flow be best for this or sampling every frame for a silhoette or... Thank you.
 
 
@@ -1657,7 +1658,7 @@ It depends! The two key considerations are:
 • on the other hand, optical flow can help in frame-to-frame stability.
 It’s really going to depend on surrounding context and performance requirements (both latency and accuracy).
 
---- 
+---
 > ####  What is your recommendation for using DataScannerViewController to detect money/currency values? DataScannerViewController.TextContentType does not appear to support money, currencies, or generic numbers (see FB10139138). The iOS Camera app supports money/currency detection in iOS 16. What is the best practice for me to implement a similar feature in my app? Should I recognize all text and then parse each recognized text item myself to determine if the string value contains number or currency amount?
 
 
@@ -1686,7 +1687,7 @@ Although I will give Eric’s suggestion a shot to see if that works.
 I also just filed FB10140834
 Determine bounds of substring of text from DataScannerViewController RecognizedItem
 
---- 
+---
 > ####  What is the difference between optical flow and a VNTrajectoryRequest? Would tracking a trajectory of an object benefit from a work flow that used both?
 
 
@@ -1702,7 +1703,7 @@ If you want to see if something moved in for instance security camera footage th
 |U03JRPP4S3A|:
 understood thank you <@U03JFF1S5U0>
 
---- 
+---
 > ####  v3 extends VNRecognizeTextRequest with automaticallyDetectsLanguage - If I turn this on, how do I discover what language it decided to use?
 
 
@@ -1718,7 +1719,7 @@ Usually a sentence is sufficient to identify language. You can pass in as much a
 |U03HRM0UK8B|:
 If you have some prior information as to what the language might be, you can also pass hints and/or constraints to NLLanguageRecognizer.
 
---- 
+---
 > ####  How different are VNRecognizedTextObservations (returned by VNRecognizeTextRequest) to the RecognizedItem array returned by DataScannerViewController? Do they have the same information in them? Also, is the DataScannerViewController using the same VNRecognizeTextRequest (with revision3) in the background to process the results?
 
 
@@ -1731,7 +1732,7 @@ I cannot state which revision it uses, if any (sorry to be vague). But DataScann
 |U03HZ2VBE21|:
 Thank you!
 
---- 
+---
 > ####  Can VNRecongnizeTextRequest be used to perform text recognition on images with handwritten content or should it only be used for typed text (or very close to typed)?
 
 
@@ -1820,14 +1821,14 @@ Thanks a lot <@U03JQRD5KQS>!
 |U03JQRD5KQS|:
 Happy to help
 
---- 
+---
 > ####  Last year you introduced the VNGeneratePersonSegmentationRequest. I know you can't comment on future plans, but it would be amazing if the new pet / object segmentation of iOS 16 was available to developers
 
 
 |U03JFF1S5U0|:
 It is always good to file feedback and explain what you are looking for.
 
---- 
+---
 > ####  Live Text seems to be added to UIImageView via `.addInteraction(&lt;ImageAnalysisInteraction)`. Is there a way to add this interaction to SwiftUI's `Image`?
 
 
@@ -1848,7 +1849,7 @@ at 1:06:32 in the SOTU Video, it shows how to add the Interaction to a UIView.
 |U03JRR42L48|:
 nice, thanks <@U03HB4T0CA3>! Bundling it all in a UIView and then wrapping that seems cleaner :+1:
 
---- 
+---
 > ####  Im part of a team that is building an app that is wishing to identify and recognise faces in a collection of photos. At the moment Ive had success with Photos/Vision framework to find faces in photos and isolate them, but we're currently then sending those faces to AWS Amazon Rekognition service to help compare the face to a set of others and associate them to an existing face, or create a new face model.  If I wanted to move this type of modelling onto the device itself (rather going through a network request to a 3rd party service), could you possibly guide me where to start? Im assuming I could do the same thing locally on device using Apple frameworks?
 
 
@@ -1865,7 +1866,7 @@ You may file a Feedback Assistant request if you'd like Apple to offer face reco
 |U03K0BHRMNC|:
 Haha that would be a dream feature indeed. So I shall contribute a feedback request! :blush: thanks!
 
---- 
+---
 > ####  We currently use a CoreML model with a C+ framework to handle initialization parameters in our processing queue (how long to hold an object, time an object should be in frame etc) and then run the ML model on the image captured with those parameters. Is Vision a better alternative than running our own initializers like that? Can we specify with Vision the retention time of images for processing images asyncronously? What is best practice there? Thank you!
 
 
@@ -1875,14 +1876,14 @@ Not sure about C+ in terms of its retention. But as long as you hold a VNImageRe
 |U03HZ5ALQ5T|:
 Awesome! Thank you Frank
 
---- 
+---
 > ####  My app iterates over the user's entire photo library using VNDetectHumanRectanglesRequest and VNRecognizeAnimalsRequest, in order to find all the photos containing humans and pets. For performance reasons, I'm only loading a small version of the photo. I've noticed that this (obviously) affects the results. Is there a recommended image size when using these requests? I'd also appreciate any other ideas on how to optimize the performance for such a task.
 
 
 |U03JFF1S5U0|:
 There is no hard and fast size that works for everything. The reason is that is limited by the ratio of the dog or human in respect to the image to be detected. So it depends on your use case if you for instance want to find a small dog in the background in a large panorama.
 
---- 
+---
 > ####  Is it possible to have player (end-user) enabled Machine Learning? For example in my game Follow the White Rabbit it would be helpful to adjust the model. For example supporting different hand sizes, skin tones, as well as support hands that had more/less than the standard number of fingers.
 
 
@@ -1892,7 +1893,7 @@ Hi <@U03JE2RJ2DA>. Yes, you can adapt a model on-device using any one of our ML 
 |U03J9GM2ESE|:
 sample code for human action repetition counting? 
 
---- 
+---
 > ####  sample code for human action repetition counting available?
 
 
@@ -1927,7 +1928,7 @@ Hi <@U03J9GM2ESE> , see my comments below:
 |U03HRNBHZEX|:
 2. For your 2nd bullet, this model is a separate model for counting actions (not action classifier back to WWDC20). It is class-agnostic, exposed via our API and does not need to be trained. It was trained with 30fps videos, and window size is 90 frames. But this is a completely different model, the window size 90 isn’t the same concept with action classifier’s window size. Within these 90 frames, multiple completed actions are OK (e.g., best with 2~4 action repetitions captured within the window). If you have videos or camera feed other than 30fps, you could choose to downsample, using `Downsampler`  transformer. If your targeted actions are 30fps, but quite slower, such as push-ups, you could choose to do downsampling too.
 
---- 
+---
 > ####  Is it possible to train the model generated by MLRecommender on device when new data is available?
 
 
@@ -1938,7 +1939,7 @@ MLRecommender does not support on-device training/updating. However, I suggest y
 |U03JM1PJE9G|:
 thanks
 
---- 
+---
 > ####  Great presentation! Thank you! The MetalFX team has presented a very nice (classical) method for video upscaling. What is the potential of using MSP to achieve machine learning upscaling?
 
 
@@ -1953,7 +1954,7 @@ Thank you Teemu for the extended answer. Pretty impressive job and wonderful int
 <@U03JFGKK1C0>
 (sorry I didn't include the ref in my previous message) :slightly_smiling_face:
 
---- 
+---
 > ####  I’ve tried to run a resnet50 on PyTorch MPS backend, while running Mac Pro with 6900XT, and achieved 23% utilization, while 3090 was running 10 times as fast on the same code. Do you have ideas on why is this happening, and how to further optimize things on Radeon GPU’s?
 
 
@@ -1980,7 +1981,7 @@ Do file an issue on PyTorch on GitHub and to us through FeedbackAssistant.
 |U03HJ4J1BMG|:
 Your perf concern is noted and the feedback is appreciated. Do file the issue on the Pytorch Github page and tag it with "module:mps" and also send it to Apple through FeedbackAssistant. Thank you for sharing this info!
 
---- 
+---
 > ####  Is it possible to convert a PyTorch Text-Image  model such a vqgan , to CoreML?
 
 
@@ -1993,7 +1994,7 @@ thanks <@U03HK4YQZ0W>, I used this for  Pix2Pix, but does coreml tools support t
 |U03HK4YQZ0W|:
 I was trying to find something more specific for you, but couldn’t. Personally I haven’t tried VQGAN, but it seems like CLIP model can be converted. Here’s an issue that has been resolved regarding CLIP: <https://github.com/apple/coremltools/issues/1418>
 
---- 
+---
 > ####  GPU acceleration and federated learning are two very appealing approaches for large scale training (or even training over the edge using multiple mobile devices). Is there some special provision in the MPSGraphs framework to enable/enhance such functionality?
 
 
@@ -2007,7 +2008,7 @@ Thank you again Teemu for the a quite detailed reply! Exactly, it requires some 
 <@U03JFGKK1C0>
 (sorry I didn't include the ref in my previous message) :slightly_smiling_face:
 
---- 
+---
 > ####  In "Accelerate machine learning with Metal" Drhuva referenced a new sample code for NeRFs at 14:08. But I can't find it anywhere:( P.S. Yaaay, NeRFs!:)
 
 
@@ -2018,28 +2019,28 @@ Hi, here is the link:
 |U03HY66772A|:
 Thanks a lot! I’ll sure will test it out and share the results:)
 
---- 
+---
 > ####  While using MPS backend in PyTorch, I've found out that there is no way to select a GPU. This feature would be really beneficial while running Mac Pro with multiple GPU's.
 
 
 |U03J605V2BF|:
 We currently don’t have multi-GPU support.
 
---- 
+---
 > ####  Great talk Geppy, and very well explained. I can see that the code of the slides is available, but what about the demo app? could we have it as other sample apps, just to see how are all the pieces glued together? Thanks!!!
 
 
 |U03HK3KNMDL|:
 The demo app is not available at the moment, but I am glad that you like it.
 
---- 
+---
 > ####  Great session on image colorization @Geppy P (Apple) . Do you have any examples of user-customizable hand tracking? Think magic spells.
 
 
 |U03HRMWNP4J|:
 Interestingly, Geppy is a super hero as well. You can watch him demonstrate his powers with hand pose and action classification at the end of this session from last year: <https://developer.apple.com/videos/play/wwdc2021/10039/>
 
---- 
+---
 > ####  Does coremltools support converison of PYTorch Text- Image models like CLIP?VQGAN?
 
 
@@ -2063,7 +2064,7 @@ I’d say just give the converter a try, and please take a look at some of the e
 |U03JZNY81L0|:
 Pre-processing of the text usually involves looking up a vector for a given word. The python code for CLIP is here <https://github.com/openai/CLIP/blob/main/clip/simple_tokenizer.py> (btw hi thanks for fixing my issue #1418, really appreciate it)
 
---- 
+---
 > ####  Hello! You mention searching for models in various "specialized" websites and such... do you have favorite places you've gone to find models? Thank you.
 
 
@@ -2110,7 +2111,7 @@ Thank you so much! I’ll have so much fun exploring these :slightly_smiling_fac
 |U03K19A2324|:
 You're welcome <@U03JPBUSHLZ>! :slightly_smiling_face:
 
---- 
+---
 > ####  You mentioned re-training a few candidate replacement models before model integration. What's your process for deciding how many to try?
 
 
@@ -2126,14 +2127,14 @@ That makes sense, thank you!!
 |U03JTGZ04HX|:
 Amazing session!!!
 
---- 
+---
 > ####  Will the source code for this project be available? It would be helpful to be able to dig in and change some things up to really understand the flow.
 
 
 |U03HRMWNP4J|:
 The code is not available at this time. Your interest and requested is appreciated and noted :slightly_smiling_face:
 
---- 
+---
 > ####  Is it possible to dispatch a CoreML evaluation as part of a display or compute shader pipeline.   Or do I need to wait for the cpu to be informed the frame has been rendered before dispatching from the cpu.
 
 
@@ -2160,7 +2161,7 @@ If the output of GPU is in a IOSurface (in Float16 format), you can feed that to
 |U03J52T5J22|:
 Nothing much. CoreML doesn’t support `MTLSharedEvent`, if that’s what’s implied here.
 
---- 
+---
 > ####  Hi, I'm excited to see more information about optimizing recent models for CoreML including the `ane_transformers` repo. If I wanted to optimize eg CLIP for ANE, should I use code from that repo, or just try to take recommendations from the case study?
 
 
@@ -2190,7 +2191,7 @@ very cool!
 |U03J98R7N5A|:
 There are more details to be found in the following article as well, hope this helps: <https://machinelearning.apple.com/research/on-device-scene-analysis>
 
---- 
+---
 > ####  In the "Optimize your CoreML usage" session, the presenter Ben explains that he got a latency of 22ms using the new performance metrics and that gives him a running frame rate of 45 frames per second. How did he come to that conclusion and how can I look at my performance metrics to determine our frames per second as well?
 
 
@@ -2200,7 +2201,7 @@ In 1 second there is 1000ms, so if your model runs at 22ms, you can run it 1000/
 |U03JFGMUPCY|:
 The number is just an upper bound estimate based on 1s / 22ms = ~45 prediction per seconds. Such estimates often help us to understand the amount of headroom we can use for other operations while meeting the real time requirement (30 fps, etc).
 
---- 
+---
 > ####  Is it possible to run a CoreML model in the cloud/on Linux?   We are using a CoreML model to power privacy-preserving, on-device features. But we want to offer a web-based demo to potential users, since downloading an app can be higher friction than just using a website.
 
 
@@ -2210,7 +2211,7 @@ No, it is not supported. It is an interesting use case. A feedback assistant rep
 |U03J1UX2CQK|:
 Thanks for your consideration! Filed a feedback: FB10162636
 
---- 
+---
 > ####  As far as I know, multi-label image classification is not possible with Create ML. Is it possible with Create ML Components to create a multi-label classifier?
 
 
@@ -2218,7 +2219,7 @@ Thanks for your consideration! Filed a feedback: FB10162636
 Hi Matthew, one option is to implement your own custom estimator using a framework like MPSGraph. To simplify the task (and data required), you may want to explore training the classifier on the features produced by a feature extractor, such as &lt;https://developer.apple.com/documentation/createmlcomponents/imagefeatureprint
 |ImageFeaturePrint&gt;.
 
---- 
+---
 > ####  Is there custom operation support for PyTorch?
 
 
@@ -2249,7 +2250,7 @@ Hi <@U03JZNY81L0>, to learn more about GPU acceleration for Pytorch and Tensorfl
 
 Specifically, Pytorch is open sourced, so you can leverage this to implement custom operations in Metal. Custom ops are also supported for TensorFlow as outlined in the session.
 
---- 
+---
 > ####  Do you have an example of how the ML image style transfer was created from an earlier session?
 
 
@@ -2277,7 +2278,7 @@ Do the resources above help?
 |U03HRMWNP4J|:
 I believe the app is  streaming data from an AVCaptureSession and running each frame through the Core ML model and outputting the result properly scaled back to the original image size
 
---- 
+---
 > ####  Does CoreML benefit from two ANE's in M1 Ultra?
 
 

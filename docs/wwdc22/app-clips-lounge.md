@@ -4,16 +4,17 @@
 #### [emin@github](https://github.com/roblack) / [emin@twitter](https://twitter.com/emin_ui)
 #### [shirblc](https://github.com/shirblc)
 #### [tikimcfee](https://github.com/tikimcfee)
----
 
---- 
+
+
+---
 > ####  Due to its size I believe an App Clip should have a limited/basic functionality. How many screens/use-cases/actions should an App Clip provide?
 
 
 |U03HELJ7A5T|:
 Generally App Clips should be focused towards a single purpose, but can have as many screens as needed to accomplish that purpose. An App Clip binary can also provide many App Clip experiences each focused on the specific task it was launched for.
 
---- 
+---
 > ####  Will a link in an IAB (In App Browser) open an App Clip?
 
 
@@ -71,7 +72,7 @@ Thanks James — one last clarifying question. If my app is installed, and I hav
 |U03HELJ7A5T|:
 Followed links will not prompt in many cases for installed apps, but there are some cases where iOS will still show the App Clip card, such as if your device is locked and you scan a physical code that has an App Clip experience.
 
---- 
+---
 > ####  Can an app have multiple App Clips? (max 15MB each)
 
 
@@ -81,7 +82,7 @@ No, but you can have multiple App Clip experiences in your single App Clip binar
 |U03H310CVQX|:
 Each App Clip experience should be focused on a single user purpose, but the experiences in your App Clip don't need to overlap or all focus on the same purpose.
 
---- 
+---
 > ####  Is there a recommended way to create an App Clip that can request data from private/protected api (i.e. with an auth token) or should app clips only access public apis and display public information?
 
 
@@ -97,7 +98,7 @@ You’ll also want to ensure that you’re using something like `ASWebAuthentica
 |U03JXD1AQRE|:
 That makes sense, Thank you for your response.
 
---- 
+---
 > ####  Here is a different scenario.  Say I want an app clip that a user can only use once, once they've used it they can't use it again for 24 hours or so. Is it possible to get some kind of identifier from the user's device to check against inside of an App Clip?
 
 
@@ -115,14 +116,14 @@ I see.  So persisting it to defaults would work but isn't fool proof.
 |U03HKV56AMS|:
 Yeah. The crux of the issue is simply that when an app clip gets deleted we promise to erase all traces of it from the device. I doubt most people proactively delete them, but depending on your requirements it’s just not a guarantee.
 
---- 
+---
 > ####  Is the new size limit limited only to iOS 16 or also available for AppClips supporting older OS versions?
 
 
 |U03HELJ7A5T|:
 The new size limit is only available for devices running iOS 16 and later. For more details, we have a brief discussion about this in <https://developer.apple.com/videos/play/wwdc2022/10097/|our session>.
 
---- 
+---
 > ####  Do App Clips support URL invocations? For example, following a link in Safari or clicking a button on a website to bring up the App Clip card.
 
 
@@ -138,7 +139,7 @@ yes, that is the correct page!
 |U03J1US1SR1|:
 Thanks!
 
---- 
+---
 > ####  We want to showcase features in the App clip that are available after the subscription.  But these features are generated on our backend service, which is why we don't want to hardcode that access in the app to avoid reverse engineering of that capability.  Does Apple have experience of having App Clips, that contain content that is available only after subscription? And did you ever consider letting users activate a Free Trial right in the App Clip?
 
 
@@ -156,7 +157,7 @@ Has the App Clips team ever considered combining the Free Trial period in the Ap
 |U03HKV5GJLC|:
 <@U03JER2C7MX>, please file a feedback. We would love to know the details of your use case.
 
---- 
+---
 > ####  Are App Clips supported when using the new "Unlisted App Distribution" method in App Sore Connect?
 
 
@@ -169,7 +170,7 @@ That's great to hear. Now I just need my request approved :grin:
 |U03K6K2J79P|:
 Great question <@U03JEM7CE2D>! Love this answer <@U03HELJ7A5T>! :slightly_smiling_face:
 
---- 
+---
 > ####  What are your thoughts on using App Clips as a way to demo functionality for prospective users on the web? Is this a good use case for App Clips?  If so, has there been any thought re. supporting demos on the App Store via App Clips? (FB9875858)
 
 
@@ -182,14 +183,14 @@ No worries — I wouldn't expect comments on future plans! Glad to hear that dem
 |U03J1UX2CQK|:
 Thanks!
 
---- 
+---
 > ####  Not really a question, more a conclusion from yesterday's 1on1 lab I had. My App Clip opened with the wrong URL in messages.  E.g. <https://www.stock-analyzer.app/stock/?symbol=NET|https://www.stock-analyzer.app/stock/?symbol=NET> opened as  <https://www.stock-analyzer.app|https://www.stock-analyzer.app>  I just want to let you know that Messages opens the og:url from the domain which in my case was set to fixed: <https://www.stock-analyzer.app|https://www.stock-analyzer.app>  Removing the og:url solved the issue! :tada:
 
 
 |U03HELJ7A5T|:
 That’s great to hear! We saw that after your lab concluded but happy that you were able to fix it!
 
---- 
+---
 > ####  I’d love to hear about marketing strategies for using App Clips  - have any teams have success driving paid campaigns to app clips?  - any recommendations to best utilize App Clips in marketing?  - any concerns with tracking performance or A/B testing?
 
 
@@ -209,7 +210,7 @@ Hah, all right :smile:
 
 Thanks anyway )
 
---- 
+---
 > ####  How do updates work for app clips specifically do all new versions immediately replace any cached versions?   Also what happens if we dropped iOS 14, would they receive an older version of the app clip or would it revert to web ?
 
 
@@ -219,7 +220,7 @@ If there is new version in App Store, next time when user invokes the App Clip f
 |U03HKV5GJLC|:
 If you drop iOS 14, it will not revert to an older version of the App Clip in iOS 14 devices.
 
---- 
+---
 > ####  Hi there, is there a JS SDK to trigger the App Clip launch card on the web programmatically?  This is crucial for supporting lead pages that educate people on a use case / service, and using a CTA button on the page to prompt the launch of the App Clip.  Otherwise the showing of an App Clip interstitial implicitly on page launch can feel like an ad interstitial that users immediately want to discard, rather than facilitating an action they explicitly want to perform.
 
 
@@ -248,7 +249,7 @@ Where exactly do I submit the “FB” from? Is this within the Developer app, a
 |U03HELJ0CAH|:
 There is a Feedback Assistant app where you can submit feedback to us with logs and specific details about your issue(s).
 
---- 
+---
 > ####  How can we launch App Clips from non-Safari browsers or from embedded browsers within other apps (ie: social media apps, messaging apps etc.)?  The industry best practice / status quo for viewing any web pages from an existing app (ie: social media apps) is to show an embedded browser, not switch apps into Safari
 
 
@@ -270,7 +271,7 @@ We want to have App Clips adopted everywhere users are browsing/reading the web 
 |U03HELJ7A5T|:
 We’re thrilled and share your excitement for App Clips! This enhancement would be good to file as a FB as well <@U03J4D45DEY>!
 
---- 
+---
 > ####  Since App Clips can be installed by a URL and the clip receives the URL on launch, we're thinking about using them for sharing invite/referral codes between users. We're thinking the app clip would them show detail about the invite or referral and either a simplified sign up flow or a prompt to install the app. Would this be an acceptable use case for an App Clip? Or is there another way data could be passed through an app install?
 
 
@@ -285,7 +286,7 @@ That’s something we’ll have to think about. We’ve got a financial services
 |U03HELJ0CAH|:
 I would recommend checking out this article about <https://developer.apple.com/documentation/app_clips/sharing_data_between_your_app_clip_and_your_full_app|sharing data between your app clip and app>. You could give them a rich experience that would transition into the full app.
 
---- 
+---
 > ####  Following up on my question about using App Clips for demos from earlier: is it possible to open App Clips directly from a link, or do we always need to link to a page that shows the interstitial? Use-case would  be a "click here to try out this cool content in our app" advertisement.
 
 
@@ -295,7 +296,7 @@ Yes, you will need to link to a page that shows the App Clips card. Here is the 
 |U03J1UX2CQK|:
 Thanks! I was kind of hoping I had missed an announcement. I can definitely make some sort of something with the app clip cards though, which I don't think I knew about when I filed my feedback about this (FB9875847).
 
---- 
+---
 > ####  We are a mobile ordering app that has support for both credit cards and Apple Pay, our payment provider recently increased their framework size which pushed us beyond the 10mb limit but provided a separate Apple Pay framework.  Would you suggest in this case to direct card users to our app or website ?   Is there any reasoning behind the 15mb limit not coming to iOS 14 and iOS 15? We still have a large portion of users on iOS 14 alone who haven't upgraded.
 
 
@@ -304,7 +305,7 @@ You could direct card users to your app or website, however this could be a non-
 
 We understand that some users have not upgraded, however there are changes in iOS 16 needed to support 15 MB App Clips.
 
---- 
+---
 > ####  Hello. Can App Clip connect bluetooth device such as POS printer?
 
 
@@ -317,7 +318,7 @@ For App Clip capabilities, please refer to this <https://developer.apple.com/doc
 |U03HVCK66P8|:
 Wow! Thanks :slightly_smiling_face:
 
---- 
+---
 > ####  To reduce file size is there any way within Xcode to see a compiled file size of other frameworks in the App Clip ?  The thinning report doesn’t directly break down what is taking up the size.  Is there anything else that could be done to reduce size for example: Does turning off bitcode help, do you need the app icon to be included or is it inferred from the parent app? We have no assets, purely using all SF Symbols outside of the App Icon.
 
 

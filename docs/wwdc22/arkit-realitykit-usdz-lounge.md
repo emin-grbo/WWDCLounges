@@ -4,9 +4,10 @@
 #### [emin@github](https://github.com/roblack) / [emin@twitter](https://twitter.com/emin_ui)
 #### [shirblc](https://github.com/shirblc)
 #### [tikimcfee](https://github.com/tikimcfee)
----
 
---- 
+
+
+---
 > ####  Hello! I am pretty new to Reality Composer. I would like to know how (if it is possible) to add textures to custom USD objects.
 
 
@@ -41,7 +42,7 @@ Yes, check out the link above.
 |U03J97X79CL|:
 I use #b3d and avoid exporting to .usd because the upAxis of Blender and Apple are incompatible. Export to .fbx or .glb instead and use RealiytConverter (link above) to convert these to proper Apple compatible .usdz
 
---- 
+---
 > ####  The recent update of XCode made scenes in RealityComposer look much darker. Is this caused by a change in RealityKit?
 
 
@@ -57,7 +58,7 @@ Same problem with &lt;model&gt; on iPadOS16beta
 |U03HHPAD0MQ|:
 I don’t think the priority would change if we get more reports since it is already a high priority issue that’s been assigned to an engineer to investigate.
 
---- 
+---
 > ####  Trying to understand how this works via Slack..., should we be able to see what everyone else is posting, what the questions are from others? Or, do you select certain questions, craft a response, then post both? Thanks.
 
 
@@ -67,7 +68,7 @@ We select certain questions, craft a response, then post both :slightly_smiling_
 |U03K75823EU|:
 Thanks very much!
 
---- 
+---
 > ####  Am trying to use LiDAR scanner to create a 3d model from capturing an object. But couldn't get enough resources for that. Any references/resources please?
 
 
@@ -80,7 +81,7 @@ For Object Capture specific questions, there will be a Q&amp;A tomorrow from 3:0
 |U03HHPAHQ3C|:
 Apologies, I meant later today at 3pm!
 
---- 
+---
 > ####  Is there a way of exporting a Reality Composer scene to a .usdz, rather than a .reality or .rcproject?  If not, what are your suggested ways of leveraging Reality Composer for building animations but sharing to other devices/platforms so they can see those animations baked into the 3D model?
 
 
@@ -138,7 +139,7 @@ let me see, but we don’t really have much to share regarding RC. We’re aware
 |U03J2DUEV0X|:
 thank you
 
---- 
+---
 > ####  Are there any plans (or is there any way?) to bring post-process effects and lights into Reality Composer?  I'm making a short animated musical film in AR. I love how RC does so much automatically (spatial audio, object occlusion...). I just wish it was possible to amp up the cinematic-ness a little with effects.
 
 
@@ -148,7 +149,7 @@ Post processing effects are not supported in RC right now, only in a RealityKit 
 |U03J4E0D87N|:
 Ok, thank you!
 
---- 
+---
 > ####  The LookToCamera Action works different on ARQL than while testing in RealityComposer. Will this be fixed with XCode14?
 
 
@@ -165,14 +166,14 @@ Could you provide the Feedback ID?
 Cannot find it in <http://Feedback.app|Feedback.app>, must have used user support channel instead - my bad.
 If RC update does not fix this, I’ll add a feedback - finally.
 
---- 
+---
 > ####  Are there guidelines or best practices for exporting a RealityKit scene to a USDZ? Is this possible? I’ve seen just a little about the ModelIO framework. Is this the tool we should be using?
 
 
 |U03HHPAD0MQ|:
 I don’t think we have any guidelines about this, since exporting/saving a scene is not supported by the current APIs. ModelIO seems like a reasonable solution to me, but you might also want to file a feature request for this on Feedback Assistant.
 
---- 
+---
 > ####  Hello there, I am someone who is still fairly novice with Reality / AR Kit. And I want to ask what is the best way to implement Multiuser AR experiences. I’ve been thinking on creating an AR app that would use this feature to allow multiple users to view a single AR view (e.g., multiple users seeing the same rendered model from their own perspectives).
 
 
@@ -196,7 +197,7 @@ Are there any examples using SwiftUI? All of the code seems to be using Storyboa
 The view that contains the `ARView` will still need to be a UIKit view but that can easily be bridged to other SwiftUI views using a `UIViewRepresentable`: <https://developer.apple.com/documentation/swiftui/uiviewrepresentable>
 Most of the AR collaboration code in the sample here is just Swift code that can easily be abstracted out and used in your app: <https://developer.apple.com/documentation/arkit/creating_a_collaborative_session>
 
---- 
+---
 > ####  In the keynote, there's a mention about Background API in Metal. Please share documentation/resources link
 
 
@@ -207,7 +208,7 @@ Are you referring to
 |U03K86126E4|:
 Yes, Thanks
 
---- 
+---
 > ####  iOS 15.4 includes the builtInLiDARDepthCamera type in AVFoundation.  Is there any advantage in implementing this camera type when doing Object Capture for better depth calculation, or does that not change the outcome of the rendered 3D model?
 
 
@@ -220,14 +221,14 @@ Thank you, <@U03HHPAHQ3C>.  Was this also the case prior to iOS 15.4?  I recall 
 |U03J7GGBZDW|:
 Hi Brandon, yes we already supported depth in last years version of object capture. It does not have to come from LiDAR. There are different ways to capture depth on Apple devices. Please take a look at our sample code for the recommended way how to capture high quality RGB images with depth <https://developer.apple.com/documentation/realitykit/taking_pictures_for_3d_object_capture>
 
---- 
+---
 > ####  Is there a method to implement scans from RoomPlan with Reality Composer? Thank you!
 
 
 |U03HHPAD0MQ|:
 Hi, can you clarify what integration you are looking for?
 
---- 
+---
 > ####  What are some ideal non-product examples of good USDZs
 
 
@@ -241,7 +242,7 @@ Scientific stuff!
 |U03HL4ZB05S|:
 We've also added new documentation to help you generate better USD assets here: <https://developer.apple.com/documentation/realitykit/creating-usd-files-for-apple-devices>
 
---- 
+---
 > ####  Is there a way to access system instances for a scene or must system updates (e.g., change the culling distance of a system) always route through a component?
 
 
@@ -260,7 +261,7 @@ There’s more information on System’s in last years WWDC session and on the d
 |U03JENH943V|:
 Ok, that' what I thought, but wanted to make sure I didn't miss anything. Thanks!
 
---- 
+---
 > ####  When do you think we will see new versions of Reality Composer and Reality Converter apps? I'm a college professor - Graduate Industrial Design, and use these as an intro to AR tools. Better, more capable versions might be nice? Thanks.
 
 
@@ -304,7 +305,7 @@ I would also love to see a visual or graphical shader editor similar to Shader G
 |U03HMCNEGVD|:
 I’d really, really like to see material importing and placement options, so that we can at least apply a simple texture to a simple object in Reality Composer, rather than having to dive into a more complex 3D app. Right now, we can only change the color and the material type. (Unless I’ve missed something?
 
---- 
+---
 > ####  We are seeing some memory leaks when adding ModelEntities to an anchor, pausing the ARSession and starting it again and adding ModelEntities again....We see memory growing in the re::SyncObject section.  Does anyone have experience troubleshooting memory leaks that have happened in a similar way?
 
 
@@ -313,7 +314,7 @@ Hey thanks for the question. I’d recommend this year’s WWDC Xcode session fo
 
 That said if you believe it may be RealityKit or another system framework responsible for leaking the entities we’d ask you to file a Feedback Item on <http://feedbackassistant.apple.com> if you haven’t done so already.
 
---- 
+---
 > ####  Any plans for instant AR tracking on devices without LiDAR? This could be helpful for translation apps and other apps that overlay 2D  text/images on 3D landmarks.
 
 
@@ -323,7 +324,7 @@ You might want to ask this to the ARKit team, but I’m not aware of any plans.
 |U03HHPAD0MQ|:
 A feedback item would be good though!
 
---- 
+---
 > ####  Is there a way to localize against a scanned room from the Room Plan API (via ARKit) so that it could be used for example to setup a game in your room and share that with other people?
 
 
@@ -333,7 +334,7 @@ No there is no re-localization in RoomPlan. But we expose the ARSession so you c
 |U03J4BFKZV2|:
 Gotcha, thanks! I think this would be a nice addition though.
 
---- 
+---
 > ####  Is there a suggested manner of writing ARKit/RealityKit experiences to a video file?  I'm current using RealityKit 2's post-processing to convert the source `MTLTexture` to a `CVPixelBuffer`, and writing that to an `AVAssetWriter`, but this occasionally ends up leading to dropped frames or random flickers in the video.
 
 
@@ -346,7 +347,7 @@ That said your method should in theory work and we’d also love to see feedback
 
 <https://developer.apple.com/bug-reporting/>
 
---- 
+---
 > ####  Is there a way to use video textures in Reality Composer?
 
 
@@ -358,7 +359,7 @@ Video textures are currently not supported through Reality Composer UI. However,
 |U03J97X79CL|:
 For short flipbooks, I prepare several instances of the same mesh with separate textures (one per frame) and either animate their .opacity in USD or show/hide them in RComposer
 
---- 
+---
 > ####  Is there currently a built-in way or example of a way transform a RoomCapture from RoomPlan into a ModelEntity or other type of RealityKit entity? Instead of only the exported USDZ file?
 
 
@@ -368,7 +369,7 @@ I don’t believe there is a built in way, but loading a USDZ into a RealityKit 
 |U03J2004PGT|:
 Gotcha. What I would love to do is mark edges with measurements and such. So I think I would need to build up a ModelEntity piece by piece with the RoomCaptureData to do that
 
---- 
+---
 > ####  Hi there! I noticed the new beta class "ImageRenderer" for SwiftUI, allowing SwiftUI views to be rendered into a static image and be used as a texture in ARKit.  Will there be an interactive version of displaying SwiftUI views in ARKit?   I am currently achieving the same effect using UIHostingViewController, but it feels hacky and creates a GLES2/Metal Rendering Issue in Simulator currently.  Thanks!
 
 
@@ -381,14 +382,14 @@ Okay thanks! I’ll take that to mean that no such functionality currently exist
 |U03H3628BL7|:
 Definitely file a Feedback item with us - we’d love to hear your use cases for any new features.
 
---- 
+---
 > ####  In the State of the Union, there is reference to `ScanKit` alongside the mention of `RoomPlan`.  Is `ScanKit` a SDK, or if that the same thing as `RoomPlan`?
 
 
 |U03HHPAD0MQ|:
 RoomPlan is the name of the SDK. You’ll want to refer to those APIs as RoomPlan instead of ScanKit.
 
---- 
+---
 > ####  At last years WWDC 2021 RealityKit 2.0 got new changes to make programming with Entity Component System (ECS) easier and simpler!  The current RealityKit ECS code seems too cumbersome and hard to program.   Will ease of programming with ECS be a focus in the future?
 
 
@@ -399,7 +400,7 @@ We’d ask you to post your issues and/or suggestions to <https://developer.appl
 
 I’d love to find out more about what you find too cumbersome. Thanks!
 
---- 
+---
 > ####  Collaboration frameworks for AR are important. Is Apple considering features related to remote participation in AR experiences? Unity has this capability to some extent.
 
 
@@ -410,7 +411,7 @@ While we don't discuss future plans, we always hope to gather this sort of feedb
 We do support Collaborative sessions over the same network, more details and sample code can be found here: <https://developer.apple.com/documentation/arkit/creating_a_collaborative_session>
 Is this what you were looking for ?
 
---- 
+---
 > ####  Hi, I am trying to make a Battle Royal in Augmented Reality, how can I make a storm/game bounds that is visible from far away and is occluded by buildings
 
 
@@ -420,7 +421,7 @@ There are challenges using ARKit outdoors, you should sign up for an ARKit lab t
 |U03J22UJ3T4|:
 ok, thank you
 
---- 
+---
 > ####  This question may be better suited for tomorrow's #object-and-room-capture-lounge, but is the output `CapturedRoom` type able to be modified prior to export to USDZ?  For example, could I remove all `[.objects]` types, and leave just walls/doors, or change the texture of a surface?
 
 
@@ -438,7 +439,7 @@ Yes, all those things should technically be possible. You would need to use the 
 |U03J20E7UBV|:
 Thanks very much!  Appreciate the replies!  :slightly_smiling_face:
 
---- 
+---
 > ####  I've noticed that when occlusion is enabled on Lidar devices, far away objects are automatically being clipped after a certain distance like 10m or so (even if there is no physically occluding them). I've tried to adjust the far parameters of the PerspectiveCameraComponent – <https://developer.apple.com/documentation/realitykit/perspectivecameracomponent/far|https://developer.apple.com/documentation/realitykit/perspectivecameracomponent/far> But unfortunately that didn't help. Only disabling occlusion removes the clipping. Is there a workaround for this behavior?
 
 
@@ -473,7 +474,7 @@ yeah, that one hasn’t been fixed yet
 |U03J4BFKZV2|:
 Alright, thanks!
 
---- 
+---
 > ####  I need SwiftUI Views in my RK experience...please and ASAP.
 
 
@@ -503,7 +504,7 @@ Oh that’s a great idea. Please do file a feedback item.
 |U03J2DUEV0X|:
 we filed a FA for this feature quite some time ago. no reply, will look it up.
 
---- 
+---
 > ####  I’d love to have SF Symbols renderable in AR! it actually works with RK on macOS by copy and pasting the symbols, but not available in the system font on iOS.
 
 
@@ -529,7 +530,7 @@ it sounds like the reason it doesn't automatically work does come down to the sf
 |U03HHPAD0MQ|:
 it looks like the bug is actually in RealityKit, so it’s on the proper team right now. We’ll discuss this bug internally with the team.
 
---- 
+---
 > ####  Hi. I’m Pururaj. I have been really interested in RealityKit and ARKit for the past couple of years. Where can I learn more about it? I’m currently into Designing, Writing, Editing, and Management and would love to work on futuristic tech. 
 
 
@@ -553,7 +554,7 @@ You can also always ask questions on <https://developer.apple.com/forums/|Develo
 |U03J2DUEV0X|:
 <https://www.youtube.com/c/realityschool>
 
---- 
+---
 > ####  Our app uses RealityKit and starts multiple ARSessions throughout a user session. We’re seeing an issue where the memory after the first ARSession never gets freed (which is a pretty large chunk around 200MB). We set everything to nil when the session terminates, but we can see in the memory graph that an ARSession object is still being retained. Subsequent ARSessions leak a few megabytes of memory but at the end of each session there is always only one ARSession being retained in the memory graph. Are you aware of any memory cleanup bugs either in RealityKit or ARKit that could be causing this? Or is there a way to completely free all memory from an ARSession? Here’s a Feedback Assistant number for reference to a sample app 9950277
 
 
@@ -566,21 +567,21 @@ Awesome thanks! Let me know if you need anything additional info
 |U03H3628BL7|:
 Thank you.
 
---- 
+---
 > ####  Hello everyone! Many of you know .glb file format (android's scene-viewer) support compression like draco. Any planning update for compress .usdz files?
 
 
 |U03HHPAD0MQ|:
 I would suggest filing an enhancement request on feedback assistant for this
 
---- 
+---
 > ####  Is there a lab to ask questions about SceneKit this year?
 
 
 |U03HHPAD0MQ|:
 You’ll probably want to ask SceneKit questions on the developer forums if no lab or lounge is available
 
---- 
+---
 > ####  What is the recommended way to add live stream or capture capabilities with RealityKit? Do we need to build frame capture and video writers with AVFoundation? A higher level API would be a better fit for RealityKit.
 
 
@@ -590,7 +591,7 @@ I would recommend using ReplayKit or ScreenCaptureKit to record your app screen 
 <https://developer.apple.com/documentation/replaykit>
 <https://developer.apple.com/documentation/screencapturekit>
 
---- 
+---
 > ####  I'd just like to say that RealityKit and ARKit are amazing.  It feels early in the world of AR, but it's amazing how easy it is to bring 3D objects into AR, and I'm excited and grateful, as a developer, to be on this journey.  Thank you for these tools and your hard work!
 
 
@@ -599,7 +600,7 @@ Thank you for the kind words, Brandon :pray:
 
 We appreciate you taking the time to join our digital lounges and engage with our engineers and designers!
 
---- 
+---
 > ####  QuickLook is currently very dark (much darker than would be expected). Clients are complaining about washed-out colors, and we need to overcorrect via emission (not ideal, breaks dark rooms). (Easy to test: make a pure white material and display it in QuickLook in a bright room, it will never get white.) Are there plans to fix this?
 
 
@@ -612,7 +613,7 @@ We are releasing new lighting to ARQL which is brighter with enhanced contrast a
 |U03JA5TGENQ|:
 Thanks! Especially curious about the "how to implement it" part - as a QuickLook user I'd think there's nothing to implement :slightly_smiling_face:
 
---- 
+---
 > ####  I'm super excited about the &lt;model HTML tag taking shape. The examples currently list camera and animation control; that seems to be lacking examples for general interactivity / scripted access to the model similar to what three.js scenes allow for. Is this intentional, or are the examples just missing?
 
 
@@ -636,7 +637,7 @@ Thanks <@U03JA5TGENQ>! Are you on Twitter at all? Always good to connect with ot
 |U03JA5TGENQ|:
 <@U03HMDX5C95> sure, I'm @hybridherbst
 
---- 
+---
 > ####  I have a model that is a .reality file, that opens in ARQL. When the user taps the model, it shrinks to show the same light in a different size. However, it's not very clear to the user that this is a possibility. If they don't tap for a while, ARQL encourages them to "Tap the object to activate" is there a way I can customise this message?
 
 
@@ -650,7 +651,7 @@ That's unfortunate. Should I file feedback or is this working as intended?
 |U03HERS88UD|:
 Yes, please file a feedback report :pray:
 
---- 
+---
 > ####  It seems a bit weird that there's currently three different implementations of USD at use across iOS / Mac. Are there plans to consolidate those into one to make testing and verification of assets across platforms easier?  The shared feature subset is pretty small, resulting in less-than-ideal products for clients.
 
 
@@ -666,7 +667,7 @@ I'm (painfully!) aware of these differences, that's why I'm asking :slightly_smi
 |U03HB56DJTG|:
 Gotcha, that's good feedback we can relay to the team on a more unified USD renderer :slightly_smiling_face:
 
---- 
+---
 > ####  Is it possible to support more than one image anchor in a scene with ARQL? Feedback: FB7818339
 
 
@@ -676,7 +677,7 @@ This is not supported at this point. The team is still investigating and we'll u
 |U03HMDX5C95|:
 Thanks. This would be really useful to have.
 
---- 
+---
 > ####  I'm creating pendant lights for viewing in in ARQL, is it possible to anchor these to the ceiling of a room?
 
 
@@ -699,7 +700,7 @@ One way to let users know that they can move objects to the ceiling is to includ
 |U03HMDX5C95|:
 Sure, but that experience is less than ideal I think. It would be great having these land directly on the ceiling. Is it worth me filing feedback?
 
---- 
+---
 > ####  Using ARQL, how might I add a colour picker to change between colours of a model? For example, the iMac ARQL on <http://apple.com|apple.com> requires users to jump in and out of ARQL to try different colours. Is there a way to have colour pickers in ARQL to try different materials or change different scenes in a .reality file?
 
 
@@ -715,7 +716,7 @@ Yes this needs to be done in 3D. There’s a previous [session](<https://develop
 |U03HMDX5C95|:
 Thanks for clarifying. It would be really useful if we could provide a 2D/Card UI over the ARQL experience to do this (and it would be great for Apple to be able to show different colours of devices without jumping in and out of ARQL, too). We can already embed html in ARQL, if this could link to different scenes in a .reality file it would be amazing and make the experience so much better for users. I would file feedback for this but feel as if my other feedback requests have gone unnoticed – is there a better way to get ideas noticed? Does a prototype of what we are looking for help?
 
---- 
+---
 > ####  Hi y’all! Any thoughts about making USD/USDZ files with particle effects? Things on fire/sparking etc?
 
 
@@ -733,7 +734,7 @@ In many cases you can also create a pretty convincing effect just by scaling/rot
 |U03J2004PGT|:
 Thanks <@U03JA5TGENQ> nice idea!
 
---- 
+---
 > ####  Is there a simple way to create a 3D object with a custom image as a texture? Reality Composer only allows a material and a color, and without that, I'll have to dip into a far more complex 3D app. I'd really, really like to use USDZ more in Motion, for pre-viz and prototyping, but without texture editing it's quite limited. Have I missed something? :)
 
 
@@ -783,7 +784,7 @@ Here's how to make a plane with a custom image and export that as USDZ:
 |U03HMCNEGVD|:
 Just checking — can I import USDZ into Reality Converter, just to change the texture, or should I use some intermediate format?
 
---- 
+---
 > ####  Reality Composer is great, but our team of 3D asset modelers has found it easier to sculpt characters in Zbrush.   Do ARKit and RealityKit accept models created in Zbrush, or are there intermediate steps best for preparing a model for Apple platforms? (KeyShot, etc.)
 
 
@@ -793,7 +794,7 @@ Yes, if you can export your assets to FBX, glTF or OBJ, you can convert them to 
 |U03K75823EU|:
 We’ve run into problems with materials and textures when exporting them in various formats to USDZ. It seems that the pipeline from some 3d modeling applications (our use is primarily for product and transportation design) - Maya, Rhino 3d, Solidworks, isn’t really smooth. Exporting files to Keyshot to assign textures seems to help in some cases. In many though the materials and textures don’t really work to our satisfaction. Perhaps newer versions of Reality Converter will be more successful?
 
---- 
+---
 > ####  Are there tools that can be used to Rig skeletons for USD characters?   I have not found anything that works?
 
 
@@ -808,7 +809,7 @@ and Blender
 
 Are some example Digital Content Creation tools that can help you create rigged skeletons for characters exported to USD.
 
---- 
+---
 > ####  Is Reality Composer appropriate for end-users on macOS? We'd like to export "raw"/unfinished USD from our app then have users use Reality Composer to put something together with multimedia.
 
 
@@ -817,14 +818,14 @@ Hi Steven, what do you mean by "raw/unfinished" USD and multimedia?
 
 You can assemble different USDZ assets together to build out a larger scene in Reality Composer and add triggers and actions to individual assets within the project
 
---- 
+---
 > ####  Getting late here, checking out for today - thanks for patiently answering so many hard questions! All the best :)
 
 
 |U03HL4ZB05S|:
 Thanks for all the great questions, feedback and ideas from everyone and we have 15 more minutes time in this session today!
 
---- 
+---
 > ####  Is there a way to modify ModelEntities loaded from an .usdz file on a node basis? E.g. show/hide specific nodes?
 
 
@@ -846,14 +847,14 @@ A prim and entity are not 1 to 1 necessarily
 |U03KF984WHW|:
 Ok <@U03HHPAHQ3C>, I will look into your suggestion. Thank you!
 
---- 
+---
 > ####  will there be an async await (concurrency) api to detect when entities are added to an arview? right now i'm working off combine anchors .... it's not super documented
 
 
 |U03H3628BL7|:
 Hey there, we don’t discuss future releases of Apple products. But we’d love to hear your feedback and suggestions. Please file your feedback here to get it into our system. <https://developer.apple.com/bug-reporting/>
 
---- 
+---
 > ####  What’s the easiest way to add user interactions (pinch to scale, rotation, transform) to an Entity loaded from a local USDZ file in RealityKit?  I’ve added an Entity as a child to an AnchorEntity, added the AnchorEntity to the scene, but how do I easily add gestures?
 
 
@@ -878,14 +879,14 @@ You can use `.loadModel/.loadModelAsync`, which will flatten the USDZ into a sin
 |U03J20E7UBV|:
 Got it!  Thank you so much for the follow-up, <@U03HHPAHQ3C>.  This has been super helpful!
 
---- 
+---
 > ####  Why are ARGeoAnchors not available in other regions? It should be usable with just gps without the localization imagery.
 
 
 |U03H3628BL7|:
 Hey there, this session is focused on RealityKit and Reality Composer. There’s an ARKit Q&amp;A on Thursday @ 3:00PM and another on Friday @ 9:00AM. I’m sure an ARKit engineer will be able to assist you.
 
---- 
+---
 > ####  Is there any updated to Reality Composer this year?
 
 
@@ -900,21 +901,21 @@ We don't discuss details about unreleased updates, but one of the things that’
 
 Please continue to submit ideas or suggestions in <https://feedbackassistant.apple.com|Feedback Assistant>  :slightly_smiling_face:
 
---- 
+---
 > ####  What AR features/updates are you most excited for/proud of this year?
 
 
 |U03HB4ZP5NJ|:
 Personally, I'm super excited about <https://developer.apple.com/augmented-reality/roomplan/|RoomPlan>. I have friends and family that work in real estate and interior design. This is going to make their lives a lot easier :slightly_smiling_face:
 
---- 
+---
 > ####  Is there a way to have light sources in AR Quick Look files hosted on the web? For example, a client would like to have lamps in AR Quick Look. It would be awesome if we could use RC to turn off/on light sources. Is there any way to do this?
 
 
 |U03J7GN26C8|:
 I don't think that it's possible. But you should submit the idea for supporting virtual lights on <https://feedbackassistant.apple.com>.
 
---- 
+---
 > ####  Can I render a snapshot of only the virtual content in RealityKit? Something similar like the snapshot functionality in SceneKit?
 
 
@@ -931,7 +932,7 @@ You can change the background of the ARView there: <https://developer.apple.com/
 |U03KF984WHW|:
 Perfect. Thank you <@U03J7GN26C8>!
 
---- 
+---
 > ####  I am interested in implementing something similar to what you see in the "Measure" App where a 3D object tap "transforms" it with animation to a 2D view, any directions/hints regarding that?
 
 
@@ -946,7 +947,7 @@ But based on what you’re describing you can snapshot your RealityKit scene wit
 |U03J1TN6WBD|:
 totally agree, i'll sign up for the labs. Ty!
 
---- 
+---
 > ####  Is it possible to instance meshes in RealityKit (similar to SceneKit's clone method)?
 
 
@@ -956,14 +957,14 @@ If you call <https://developer.apple.com/documentation/realitykit/entity/clone(r
 |U03JENH943V|:
 Good to know. I saw the draw call increase when cloning so assumed the mesh wasn't instanced. I guess "instance" in this case means sharing the same geometry memory
 
---- 
+---
 > ####  Many aspects of USD are open source. Could Reality Composer also be Open-Sourced so that members of the community could work on features?
 
 
 |U03H3628BL7|:
 Hey there, we’d definitely be interested in hearing more about your idea. I’d suggest submitting the suggestion at <https://developer.apple.com/bug-reporting/>.
 
---- 
+---
 > ####  In SceneKit there were shader modifiers? Is there something similar in RealityKit? We need PBR shaders but have to discard certain fragments.
 
 
@@ -976,7 +977,7 @@ From the metal side you can call `discard_fragment();`
 |U03KF984WHW|:
 Thank you <@U03HHPAHQ3C>!
 
---- 
+---
 > ####  Hi! Reality composer objects on top of each other, such as a vase on a table cast shadow only to the ground plane and not to one another. If baked AO textures aren't an option since the vase may be moved by the user what would you suggest in order to achieve an equally good result to the default grounding shadow given that the quality of shadows is critical for an AR experience? 
 
 
@@ -991,7 +992,7 @@ We’re always looking to improve RealityKit, so would appreciate if you submitt
 |U03JDT24WKV|:
 I’ve been implementing the 1st approach and agree on your comment. I’ll definitely submit a request. Thanks!
 
---- 
+---
 > ####  Is it possible to take a snapshot of only the virtual content and a snapshot of only the real content like in SceneKit?
 
 
@@ -1023,7 +1024,7 @@ You certainly could try setting the Environment background color to something wi
 |U03H3628BL7|:
 And if it doesn’t work a bug report with just that would certainly be useful.
 
---- 
+---
 > ####  What is the best way with USDZ content to link to external website or take them to a product landing page?
 
 
@@ -1036,7 +1037,7 @@ Thx, appreciate the answer.  So it must be wrapped in a web experience.  So this
 |U03JF4D4BU5|:
 As far as I know there isn’t currently a way to do such a thing directly from a USDZ sent from iMessage, but I can pass that request along
 
---- 
+---
 > ####  Is there a way to capture a snapshot of only the virtual content rendered on-screen, but not the background (having the background be transparent) while continuing the on-screen experience for the user where they still see the virtual content and camera feed?  The use case here is that mixing Vision's person segmentation and ARFaceTrackingConfiguration (trying to overlay 3D content on a tracked face while putting fun backgrounds behind the person in the frame) results in the 3D content typically being cut off due to the segmentation mask.  It'd be great to be able to render the 3D content back on top of the composited segmented image.
 
 
@@ -1048,7 +1049,7 @@ If you take a look at that question/answer - maybe it help. I don’t think we c
 |U03J20E7UBV|:
 Just saw that!  Thanks, <@U03H3628BL7>!!!
 
---- 
+---
 > ####  Can Reality Composer be made available as a macOS app in the App Store?
 
 
@@ -1066,7 +1067,7 @@ yes it would be relaly cool especially when working with executives who aren't e
 |U03HMDX5C95|:
 Yes please!! Sucks to have to download 10gb of Xcode just for RC
 
---- 
+---
 > ####  is there a capture video for ARView the way there is a take snapshot() ? i see there is 4k video being hyped - will this include the ability to let users take video recordings? I'm fuzzy on this.
 
 
@@ -1084,7 +1085,7 @@ ya i've seen screen capturekit but i will file feedback and explore it too
 |U03H3628BL7|:
 Thank you!
 
---- 
+---
 > ####  Hello, for artist/designer only experienced with Reality Composer with no code, is there any suggestion and resources on getting started with RealityKit to make more advanced AR experiences?
 
 
@@ -1107,7 +1108,7 @@ Hi! We have a number of WWDC sessions covering RealityKit and Reality Composer w
 There’s also a great guide on building a ‘SwiftStrike’ game: &lt;https://developer.apple.com/documentation/realitykit/swiftstrike_creating_a_game_with_realitykit
 |SwiftStrike: Creating a Game with RealityKit&gt;
 
---- 
+---
 > ####  Are world map archives something that can reasonably be  used as an app asset and loaded for all users of the app? In this case, I'm thinking of scanning a room and creating an AR experience that is anchored to the specific areas of room geometry - parts of the architecture and fixtures.
 
 
@@ -1119,7 +1120,7 @@ I think you’d probably want to talk directly to an ARKit engineer…
 |U03HMCSQ9EK|:
 Thank you!
 
---- 
+---
 > ####  Is there a way to get access to more advanced materials rendering on RealityKit models? I want to "skin" a plane with a UIView, currently I need to fall back to ARKit and SceneKit in order to do this
 
 
@@ -1132,7 +1133,7 @@ Saw you answer a similar question with that API, am having a look. Thanks so muc
 |U03HERKMSER|:
 There is also a great resource on <https://developer.apple.com/metal/Metal-RealityKit-APIs.pdf|Custom Shader API> that gives more details on the APIs available in Metal.
 
---- 
+---
 > ####  Is there a means of exporting a USDZ file (either from Reality Composer, Cinema 4D, etc., or programmatically), with a video texture already applied?
 
 
@@ -1144,7 +1145,7 @@ There’s also no method to export USDZ from RealityKit and again feature reques
 |U03J20E7UBV|:
 Thanks, <@U03H3628BL7>!  Much appreciated!
 
---- 
+---
 > ####  Is it possible to show or hide only a single child node from a model entity dynamically?
 
 
@@ -1169,7 +1170,7 @@ hope that helps.
 |U03JLNNFUSD|:
 Thanks, I‘ll try this ;)
 
---- 
+---
 > ####  Can I place a model in a target, such as a cover of a book or a QR, so that it doesn't move from that position by just using usdz? and how could I achieve this?
 
 
@@ -1182,7 +1183,7 @@ You can use Reality Composer to create a scene attached to an image anchor. You 
 |U03J49M826T|:
 Thanks a lot!
 
---- 
+---
 > ####  Is taking the output MTLTexture from RealityKit 2's `postProcessing` pipeline suitable for writing to an AVAssetWriter, streaming via RTMP, etc?
 
 
@@ -1201,7 +1202,7 @@ Thank you, <@U03H3628BL7>!  I have done this and it does work pretty well (albei
 |U03H3628BL7|:
 i’d still recommend filing a feedback item. Thank you!
 
---- 
+---
 > ####  What's the best way to connect with Apple designers to talk about AR? The Design Labs?
 
 
@@ -1226,7 +1227,7 @@ Hey <@U03HMDX5C95>! When you request a design lab, be specific about your intere
 |U03HMDX5C95|:
 Awesome will do. Thanks <@U03H3628BL7> <@U03EBH4MA8Y>
 
---- 
+---
 > ####  From an AR design perspective, what is best for knocking down objects? Say in a game where you knock down blocks, is it better to have the user run the device through the blocks, tap the blocks, or press a button to trigger something to hit the blocks?
 
 
@@ -1242,7 +1243,7 @@ Swiftstrike and Swiftshot are great example apps that use similar techniques:
 <https://developer.apple.com/documentation/arkit/swiftshot_creating_a_game_for_augmented_reality>
 <https://developer.apple.com/documentation/realitykit/swiftstrike_creating_a_game_with_realitykit>
 
---- 
+---
 > ####  Is it possible to control audio media in USDZ (i.e. pause, skip, load new audio file) with a scene / behavior (using Reality Composer or other tool)?  I know it’s possible to trigger the start of audio.
 
 
@@ -1252,7 +1253,7 @@ Currently Reality Composer does not support this. This sounds like a great featu
 If you are willing to jump into code…
 You can use the <https://developer.apple.com/documentation/realitykit/audioplaybackcontroller|AudioPlaybackController> returned from the <https://developer.apple.com/documentation/realitykit/entity/playaudio(_:)|playAudio> API to play, pause, etc. You can also use <https://developer.apple.com/documentation/realitykit/audiofileresource|AudioFileResource> to to add / replace audio on entities.
 
---- 
+---
 > ####  How am I able to access attributes (wall dimensions, numbers of objects such as chairs for example) of the USDZ that RoomPlan creates from within Swift? Do I need SceneKit or something else to access and modify that data?
 
 
@@ -1266,7 +1267,7 @@ And there are ARKit lounges tomorrow at 3pm and Friday at 9am
 |U03H3628BL7|:
 Also the documentation is up on the developer website for the RoomPlan framework itself - I’d also suggest starting there: <https://developer.apple.com/documentation/roomplan/>
 
---- 
+---
 > ####  Regarding optimisations: is there support for level of detail and instancing in RealityKit?
 
 
@@ -1283,7 +1284,7 @@ That said you _can_ implement Level of Detail yourself (probably using custom Sy
 |U03KF984WHW|:
 Thank you <@U03H3628BL7>!
 
---- 
+---
 > ####  Is there a plan to have custom render passes like in SceneKit with SCNTechnique in RealityKit?
 
 
@@ -1293,7 +1294,7 @@ While we do not currently support custom render passes, we have support for <htt
 |U03KF984WHW|:
 Thank you <@U03HHPAHQ3C>
 
---- 
+---
 > ####  Does RealityKit support light sources in objects – for example, if you wanted a light bulb. If so, is there documentation for this?
 
 
@@ -1317,14 +1318,14 @@ Sounds like we don’t support lighting in Reality Composer unfortunately so I�
 |U03JLNNFUSD|:
 I think it is a usdz thing, not Reality Composer.
 
---- 
+---
 > ####  Not a question, but the RealityKit and Reality Composer teams deserve such huge kudos for giving us non-designers the ability to create 3D and AR experiences that are incredibly powerful.  These are great apps and tools and make me feel very prepared for the future in learning them.
 
 
 |U03H3628BL7|:
 I pasted your comment where the rest of the team can see it. Thank you for the kind words.
 
---- 
+---
 > ####  In Reality Composer, a force was applied to an object.  Then I wanted to animate it into another scene, starting from the post force location.  Is there a way to apply a new scene using its last known position?  I hacked the position by guessing the ending location and starting the next scene close to that position but it results in a slight motion jitter.
 
 
@@ -1341,7 +1342,7 @@ Perhaps there’s a way to get the post force position in Reality Composer?  I h
 This may be achievable if embedded in Xcode with some code. I recommend signing up for a Reality Composer lab if you would like to explore that further.
 But yes, being able to observe live parameters sounds like a great feature in Reality Composer. Please file a feature request using <https://developer.apple.com/bug-reporting/|Feedback Assistant> with your use case :slightly_smiling_face:
 
---- 
+---
 > ####  is there a way to add gestures to an entire reality composer scene? i can add it to an individual entity it would be cool to let users place the entire scene (otherwise i lose all the reality composer behaviors when i just target the entity)
 
 
@@ -1370,7 +1371,7 @@ arView.installGestures(for: collisionAnchor)
 ```
 This is also a great question for our RealityKit and Reality Composer lab, which is happening tomorrow @9:00 - 11:00AM.
 
---- 
+---
 > ####  How does RoomPlan handle multiple floors? Can you extend a scan? What if room edges are not parallel, e.g. a lightly sloped roof?
 
 
@@ -1379,7 +1380,7 @@ Hey Alex, that’s probably a question a RoomPlan engineer would be better suite
 
 There’s a RoomPlan Lounge that started almost an hour ago. Check the Developer app to find it.
 
---- 
+---
 > ####  Is VisionKit / Data Scanner available in AR?
 
 
@@ -1391,7 +1392,7 @@ However, the result will be two-dimensional. If the use-case is to bring the det
 |U03HZ4ZFESH|:
 When you say custom anchoring, do you mean taking the screen coordinate, doing a hit test, and placing anchor?
 
---- 
+---
 > ####  Can we get the lidar camera position while doing a mesh in ARKit?
 
 
@@ -1401,7 +1402,7 @@ When you say custom anchoring, do you mean taking the screen coordinate, doing a
 |U03J98VF2K1|:
 Thanks :slightly_smiling_face:
 
---- 
+---
 > ####  Is the mesh from an ARSession available through the delegate methods?
 
 
@@ -1422,7 +1423,7 @@ sceneReconstruction:
 |U03J98VF2K1|:
 Thanks :slightly_smiling_face:
 
---- 
+---
 > ####  I tried to set 4k capture based on these instructions:  if let hiResCaptureVideoFormat = ARWorldTrackingConfiguration.recommendedVideoFormatForHighResolutionFrameCapturing {     // Assign the video format that supports hi-res capturing. config.videoFormat = hiResCaptureVideoFormat } // Run the session. session.run(config)  But it still seems to be at HD:  device: &lt;AVCaptureFigVideoDevice: 0x15283be00 [Back LiDAR Depth Camera][com.apple.avfoundation.avcapturedevice.built-in_video:9] hiResCaptureVideoFormat: &lt;ARVideoFormat: 0x2823b00a0 imageResolution=(1920, 1440) pixelFormat=(420f) framesPerSecond=(60) captureDeviceType=AVCaptureDeviceTypeBuiltInWideAngleCamera captureDevicePosition=(1) videoFormat.imageResolution: (1920.0, 1440.0)  I am using 11-in iPad Pro at iOS16, and xcode 14 beta
 
 
@@ -1445,7 +1446,7 @@ I figured it out. The video itself shows ARWorldTrackingConfiguration.recommende
 Right, `recommendedVideoFormatForHighResolutionFrameCapturing` is used for capturing high resolution still images while the session is running.
 For 4K video, you should use `recommendedVideoFormatFor4KResolution`
 
---- 
+---
 > ####  We are making a game called Follow the White Rabbit. About a magician whose magic suddenly works. What are some tips/best practices to prevent AR objects from shifting? We're finding a bit of drift that's most noticeable with larger virtual objects. :sparkles: :rabbit: :tophat: :sparkles:
 
 
@@ -1459,7 +1460,7 @@ This should help prevent drifting.
 |U03JE2RJ2DA|:
 <@U03HERF817F> Thank you!
 
---- 
+---
 > ####  Hi, I’ve had some experience with Reality Composer, but for coding, I only know SwiftUI. Is it possible to create an AR App with AR Kit only with SwiftUI？if so, could you share some suggestions or links on getting started?
 
 
@@ -1478,7 +1479,7 @@ RealityKit -
 |U03HMCH9D5M|:
 Thanks!
 
---- 
+---
 > ####  Does adding anchors everywhere force ARKit to keep a good understanding and reduce drift everywhere? If yes, will this affect the tracking quality?
 
 
@@ -1489,14 +1490,14 @@ ARKit offers functionality to add custom anchors which is the preferred and reco
 
 Custom anchors are used internally for drift correction. We cannot guarantee absolutely no drift. However, using your own anchors will use the system's best knowledge to correct for any drift.
 
---- 
+---
 > ####  I am working on an app that uses ARKit to guide the user around an object while semi-automatically capturing images for later (server side) 3D reconstruction. I very much appreciate the ability to control the capture session and the ability to capture high resolution images that you added in iOS 16.  I believe currently we do not have much control over the high resolution image capture? It would be great if we could configure the AVCapturePhotoSettings used for the capture.  For photogrammetric reconstruction purposes it would be amazing if we could for example capture a Pro RAW image during the ARKit session.
 
 
 |U03H35XE3N3|:
 Hey Hendrik! We really appreciate the feedback and are glad that you are already starting to put these API changes to good use! At the moment, we do not expose the ability to pass in `AVCapturePhotoSettings` through our API, but this would be a great feature request to submit via <http://developer.apple.com/bug-reporting/>
 
---- 
+---
 > ####  We want to play with the depth map. Is it possible to get the lidar camera position with the depth map?  We've tried using the wide camera position and it doesn't work, because the wide camera position is not the same as the depth map's camera position.
 
 
@@ -1513,7 +1514,7 @@ If you still see some issues, I recommend filing a bug through the feedback assi
 |U03J98VF2K1|:
 Thank you :slightly_smiling_face:
 
---- 
+---
 > ####  Does ARKit track which version of USDZ Is in use?  I’m interested in using tools from multiple providers in my pipeline and I want to verify the format is consistent through workflow.
 
 
@@ -1532,7 +1533,7 @@ Pixar provides USDZ Python and looking at the spec here I see no recent updates.
 
 But I would very much like to learn how to use it efficiently both client and server side
 
---- 
+---
 > ####  When I read the exif data that ARKit now provide I get:  "SubjectArea": : ( 2013, 1511, 2116, 1270 ) "LensSpecification": ( 4.2, 4.2, 1.6, 1.6 )  What is SubjectArea? Why does LensSpecification has twice  the 4.2 (the focal I think) and twice 1.6 (the aperture I think)?
 
 
@@ -1541,7 +1542,7 @@ The subject area is defined as rectangle with center coordinate and its dimensio
 
 For more details, you may refer to Exif standard tags.
 
---- 
+---
 > ####  Do modifications made to configurableCaptureDeviceForPrimaryCamera while an ARSession is running change the output of captureHighResolutionFrame? What about modifications before running a new ARConfiguration?
 
 
@@ -1566,7 +1567,7 @@ No, its not possible to change it, ARSession always adds the required inputs and
 |U03J95D4WG7|:
 Thanks Arsalan!
 
---- 
+---
 > ####  Are there resources on how to generate a texture for the mesh generated by ARKit ?
 
 
@@ -1577,7 +1578,7 @@ You should be able to use the wide angle camera and camera transform to generate
 We do have this sample code showing how to generate colored point clouds using the scene depth  API, hope it is of some help.
 <https://developer.apple.com/documentation/arkit/environmental_analysis/displaying_a_point_cloud_using_scene_depth>
 
---- 
+---
 > ####  Any tips for getting started in AR development with 0 coding knowledge? A mentor would also be appreciated!
 
 
@@ -1594,7 +1595,7 @@ Apple’s documentation is great.
 I also found the site RayWenderlich to be super helpful. They even have a book specifically for AR: <https://www.raywenderlich.com/books/apple-augmented-reality-by-tutorials>
 As well as a lot of great entry level tutorials and books.
 
---- 
+---
 > ####  Do any of the AR frameworks have hand tracking, and the ability to register a pinch between the thumb and pointer finger?
 
 
@@ -1608,7 +1609,7 @@ You may find the camera's captured images on the `ARFrame` and can inject this i
 |U03JH3TKE3V|:
 Awesome Thank you,
 
---- 
+---
 > ####  In an ARKit game, I’m detecting collisions between the real user and walls that I build out of SCNBoxes. I have a cylinder that follows the device’s pointOfView to accomplish that. I use both physicsWorld didBegin and didEnd contact delegate methods because I need to know both when collisions start and when they end. Most of the time this works fine, however, sometimes the didBegin method runs last, even though I clearly moved away and there are no more collisions so my app still thinks that we’re in a collision state. Any idea why this could happen?  Thanks!
 
 
@@ -1623,14 +1624,14 @@ What I ask can only happen in AR where the actual user moves in the world and in
 I will definitely ask the question in the Developer Forums.
 Thanks!
 
---- 
+---
 > ####  Does triangles vs quads matter for ARKit 
 
 
 |U03J7GC2A2C|:
 Hey Adrien, I’m not sure of the context of this question, would you mind reformulating it / adding more context and post it again?
 
---- 
+---
 > ####  Does ARKit give any confidence score for each camera position it estimates during camera tracking? If any camera position is not estimated correctly do you suggest any option to improve it?
 
 
@@ -1648,7 +1649,7 @@ Can you explain a little more about the confidence score and what the physical m
 You can find details at <https://developer.apple.com/documentation/arkit/managing_session_life_cycle_and_tracking_quality>
 Basically, ARKit provides discrete tracking states only.
 
---- 
+---
 > ####  Is it possible to do body tracking while being in an ARWorldTrackingConfiguration? I believe it isn’t possible but to make sure.
 
 
@@ -1662,7 +1663,7 @@ In order to check which configuration supports this you may use the `supportsFra
 |U03HMCKHFBR|:
 Thanks! I didn’t know that 2D tracking was supported on ARWorldTrackingConfiguration
 
---- 
+---
 > ####  Is there a way to select wish rear camera to use for ARView? (Wide, ultrawide, panoramic)
 
 
@@ -1686,7 +1687,7 @@ Is it possible to use the front facing camera with ARKit?
 The face tracking configuration does use the front facing camera
 <https://developer.apple.com/documentation/arkit/arfacetrackingconfiguration>
 
---- 
+---
 > ####  Can I use the MapKit 3d model of a city, and anchor it as a child of an anchor using lidar geotracking? For long distance occlusion and collision purposes?
 
 
@@ -1705,7 +1706,7 @@ So what I meant is if you know the four corners of that building you can create 
 |U03J22UJ3T4|:
 Wow, thank you for the help. I didn't think about pushing it that far with geoanchors 
 
---- 
+---
 > ####  I've been trying to build the Hydra sample, will it always require CMake?
 
 
@@ -1714,7 +1715,7 @@ Hi Steven. In this lounge we are focused on questions to ARKit, it looks like yo
 Feedback Assistant: <https://feedbackassistant.apple.com>
 Developer Forums: <https://developer.apple.com/forums/>
 
---- 
+---
 > ####  What’s the maximum dimensions RoomPlan support ?
 
 
@@ -1724,7 +1725,7 @@ The recommended maximum size of the room is 30 x 30 feet.
 |U03J1MVSDBP|:
 Thank you 
 
---- 
+---
 > ####  One we have a RoomPlan scan, can we use it next time as a anchor so we can always Paint Model in same place ?
 
 
@@ -1740,14 +1741,14 @@ Thank you
 |U03J1MVSDBP|:
 Thank you 
 
---- 
+---
 > ####  Does setting ARKit to use 4K resolution affect the battery longevity ? Does it increase the risk to get the device too hot, even if the fps is limited at 30 fps instead of 60 fps ? Is there a way to get 60 fps at 4K resolution ?
 
 
 |U03H35XE3N3|:
 Hey Gaetan! Yes, using 4k resolution may result in more power being consumed. It may also result in thermal mitigation engaging to keep the device from getting too hot, which may impact performance. At the moment, we are only supporting 4k @ 30hz.
 
---- 
+---
 > ####  Hi, ARSession has the getGeoLocation(forPoint: … method. Is there also a way to obtain the heading relative to north given a directional vector within the scene or for the device (point of view)?
 
 
@@ -1761,7 +1762,7 @@ Do you think this would be worth a feature requests to avoid the additional anch
 |U03J7GC2A2C|:
 Anything you need is important to us :heart:, please file it.
 
---- 
+---
 > ####  Might there be more example projects showcasing pure Metal with ARKit? SceneKit is cool, but admittedly, I'd love to see more low-level examples.  :) Alternatively, is anyone working on some open source projects showcasing something like this? I think it would be a big win for Apple-platform development to build-up a lot more examples.
 
 
@@ -1780,7 +1781,7 @@ Here are some existing  sample code that uses Metal with ARKit:
 |U03JWBY2PH8|:
 Hello, and thanks!
 
---- 
+---
 > ####  Is the "new lighting" capability only in AR Quick Look or is it also available in RealityKit and SceneKit renderers?
 
 
@@ -1789,7 +1790,7 @@ Hi George. In this lounge we are focused on questions to ARKit, it looks like yo
 Feedback Assistant: <https://feedbackassistant.apple.com>
 Developer Forums: <https://developer.apple.com/forums/>
 
---- 
+---
 > ####  Do any of the AR frameworks accept location or hand position from Apple Watch?
 
 
@@ -1799,7 +1800,7 @@ No, ARKit runs standalone on iPhone and iPad devices only and does not take any 
 |U03K1M9UD32|:
 <@U03HWCBGUBT> thanks for doing the legwork.  I see the other response regarding Vision and World tracking.  I'll work with that.
 
---- 
+---
 > ####  I have a strange ARKit+SceneKit rendering bug and wanted to see if any of the engineers ARKit engineers participating here might have an idea as to what might be causing this and how to fix it? I am rendering a semi-transparent object using SceneKit. The material uses the constant lighting model, a texture controls transparency.  If the scene is fairly bright, then the transparent material will initially show less transparent than it should. If the camera gets pointed at something less bright (or the bright part is blocked as in the example video linked below) then the rendering suddenly switches to be more transparent. This switch is permanent, it does not switch back again.  See example video here:  <https://www.dropbox.com/s/8wpo83loxg51o43/ARKit_rendering_bug.mov?dl=0|https://www.dropbox.com/s/8wpo83loxg51o43/ARKit_rendering_bug.mov?dl=0> Any idea what might be causing this?
 
 
@@ -1821,7 +1822,7 @@ Where by ‘scene’ I am referring to the real world surrounding..
 |U03HWCBGUBT|:
 You can try setting `automaticallyUpdatesLighting`to `false` in `ARSCNView` to disable the behavior.
 
---- 
+---
 > ####  We can capture session events (namely anchors add/remove) by implementing ARSessionDelegate (not RealityKit), is it possible get similar or part of this events with RealityKit? (To avoid converting a from ARAnchor to AnchorEntity)
 
 
@@ -1835,7 +1836,7 @@ You can set the delegate on it to listen to ARKit delegate events
 |U03J1MVSDBP|:
 Thank you 
 
---- 
+---
 > ####  I have an ARKit app that uses SceneKit and PBR. Is there a simple process to migrate ~70K lines of Swift to use RealityKit? I need to resolve the rendering differences between my ARKit app that uses the SceneKit renderer and the renders that come from AR Quick Look's use of the RealityKit renderer.
 
 
@@ -1844,7 +1845,7 @@ Hi George. In this lounge we are focused on questions to ARKit, it looks like yo
 Feedback Assistant: <https://feedbackassistant.apple.com>
 Developer Forums: <https://developer.apple.com/forums/>
 
---- 
+---
 > ####  Is there a talk that goes into any detail about using the new Spatial framework - <https://developer.apple.com/documentation/spatial|https://developer.apple.com/documentation/spatial> - and how it works with ARKit, SceneKit, and/or RealityKit?
 
 
@@ -1854,7 +1855,7 @@ There is no dedicated talk about Spatial framework. It provides core functions t
 |U03HVD5Q8DC|:
 Thank you
 
---- 
+---
 > ####  When using the new 4K resolution in ARKit for a post-production (film/television) workflow, what is the suggested way to take the AR experience and output to a video file?
 
 
@@ -1885,7 +1886,7 @@ Yeah, the output from `ARKit` is just the camera frame without virtual content. 
 |U03J20E7UBV|:
 Got it, thanks, <@U03J7GC2A2C> <@U03H35XE3N3>.  I thought that was the case!  I appreciate your replies!
 
---- 
+---
 > ####  If I create a USDZ with SCNScene.write(...usdzURL...) will it use the "new lighting" and contrast adjustment in AR Quick Look?
 
 
@@ -1894,7 +1895,7 @@ Hi George. In this lounge we are focused on questions to ARKit, it looks like yo
 Feedback Assistant: <https://feedbackassistant.apple.com>
 Developer Forums: <https://developer.apple.com/forums/>
 
---- 
+---
 > ####  Is there a way to get notified when ARKit relocate itself when it finds out that it has drifted ? From my experience, the tracking status does not change when this happens. Also is there a way to ask ARKit to not try to relocate itself after a drift ?
 
 
@@ -1903,7 +1904,7 @@ Hi Gaetan,
 
 We recommend adding ARAnchors and associating your virtual content with ARAnchors. In case there is a drift, the anchor delegate `didUpdateAnchor` would update the anchor such that the virtual content stays in the same location in the real world.
 
---- 
+---
 > ####  In recent years I read and partially experimented with the latest "graphics" frameworks - but somehow I got lost over a cohesive developer experience when to use which framework (and how to integrate them into a good product). The are amazing "vertical" solutions in these frameworks but I see only few strong stories/app/solutions around them. Does Apple has a "big picture" guide when to use which framework, how to interact between them?
 
 
@@ -1942,7 +1943,7 @@ Knowing the basic data flow helps here because taking a photo means a photo file
 |U03HZ4PT2ER|:
 Then that has to go to the GPU, usually as a texture
 
---- 
+---
 > ####  Any guidance on how to build a bridge between ARKit and Spatial Audio?  Say you're viewing an object and the audio evolves as you change the object's perspective
 
 
@@ -1952,7 +1953,7 @@ We do not have a sample code that uses ARKit together with spatial audio (PHASE)
 |U03J8GWEFU7|:
 <@U03HWCBGUBT> yes, will do! thank you
 
---- 
+---
 > ####  I'm continuing to have issues with the performance of adding interactivity to an entity added via RealityKit (`Entity.loadAsync(named: "MyEntity")`).  - I create a ModelEntity. - I added my async loaded Entity as a child to the ModelEntity. - I add the ModelEntity as a child to the AnchorEntity. - I add the AnchorEntity to the ARView's scenes. - I get the bounds of the entity using `entity.visualBounds(relativeTo: parentEntity)` - I add Collision to the ParentEntity with `parentEntity.collision = CollisionComponent(shapes: [ShapeResource.generateBox(size: entityBounds.extents).offsetBy(translation: entityBounds.center)])` - I install gestures `.all` on the ARView.  This results in an Entity I can pinch and scale, but no manner to rotate or transform its position.  Am I doing something wrong?
 
 
@@ -1961,7 +1962,7 @@ Hi Brandon. In this lounge we are focused on questions to ARKit, it looks like y
 Feedback Assistant: <https://feedbackassistant.apple.com>
 Developer Forums: <https://developer.apple.com/forums/>
 
---- 
+---
 > ####  With body motion tracking, can a dev specify the sample rate of the sample(every few ms) and write out that sample in a continues manner. eg a basic motion recorder. Please ignore the question if this is the wrong place to ask
 
 
@@ -1975,7 +1976,7 @@ We do not offer a functionality to write the motion capture data to file. Howeve
 |U03JH3TKE3V|:
 GOLD! solid gold! thanks for the help
 
---- 
+---
 > ####  Have there been any changes to the light estimation APIs? For example, is directional light available with a world tracking config?
 
 
@@ -1985,7 +1986,7 @@ No, there haven’t been changes to light estimation in ARKit this year.
 |U03JW77GM9P|:
 Thank you!
 
---- 
+---
 > ####  Is there any way to protect usdz files so that they cannot be downloaded from the web, but still be seen in ar quick look?
 
 
@@ -1994,21 +1995,21 @@ Hi Jose Mariano. In this lounge we are focused on questions to ARKit, it looks l
 Feedback Assistant: <https://feedbackassistant.apple.com>
 Developer Forums: <https://developer.apple.com/forums/>
 
---- 
+---
 > ####  In "Discover ARKit 6" there's a cool demo of setting a point in AR where a picture was taken, and guiding the user there. Is sample code for this available somewhere?
 
 
 |U03J7GC2A2C|:
 Thanks for your excitement about that app idea. We do not have the sample code, but I recommend going to our ARKit 4 session where we explain how to pick a coordinate in Maps and create a GeoAnchor based on it. For alignment with the real world we have the example with the Ferry Building in SF. We followed that exact workflow with the focus square example.
 
---- 
+---
 > ####  Hi ! Does adding custom anchors for drift correction is pertinent on a lidar enable device ?
 
 
 |U03J7GC4DEC|:
 In general we recommend to use/add anchors independent from the device you are using.
 
---- 
+---
 > ####  Hello USD team, Thanks for the great demo USD and Hydra/Storm demo!  Is it possible to build an app with USD Hydra/Storm - SwiftUI interactions?  Ex: a car configurator that has: - A car as a USD file - USD PhysicsRigidBody joint applied on the door of the car USD file. - SwiftUI button to trigger opening the doors  - Everything rendered in Hydra/Storm. as the demo app
 
 
@@ -2021,7 +2022,7 @@ Developer Forums: <https://developer.apple.com/forums/>
 |U03JTDSCS86|:
 ok, thanks
 
---- 
+---
 > ####  I noticed that the built-in Camera app can detect very small QR codes compared to 4K AR. Why is that? Is there a workaround?
 
 
@@ -2030,7 +2031,7 @@ Hi Ivan, we don’t have QR code detection in ARKit. However, you can use the Vi
 <https://developer.apple.com/videos/play/wwdc2022/10025/>
 <https://developer.apple.com/documentation/visionkit/scanning_data_with_the_camera>
 
---- 
+---
 > ####  I am really struggling to build user interactions in RealityKit that are as “smooth” as AR QuickLook (in terms of a user placing, moving, rotating, or scaling a model).  I’m using “installGestures” on the ARView but it’s nowhere near as smooth as the AR QuickLook experience.  Is there any suggestions of how to get AR QuickLook style integrations?
 
 
@@ -2039,7 +2040,7 @@ Hi Brandon. In this lounge we are focused on questions to ARKit, it looks like y
 Feedback Assistant: <https://feedbackassistant.apple.com>
 Developer Forums: <https://developer.apple.com/forums/>
 
---- 
+---
 > ####  Regarding the new ARKit 6 api that takes a 4k photo of the AR scene, is there a limit to how many times it can be called? Can I take say 30 photos within a second?
 
 
@@ -2049,7 +2050,7 @@ You can take the next photo right after the completion handler of your previous 
 |U03J4CL2WMA|:
 Thank you <@U03HWCCTAKT>! Thats good to know. I ask that to see if I can use the same workflow to capture short videos as well if possible.
 
---- 
+---
 > ####  We'd like to use an object both as a source for a USDZ based on the PhotogrammetrySession and as an ARReferenceObject, so that we can overlay information at the same position on both the real object and the created model.  Is there any guidance on how to align these coordinate systems, e.g. by aligning the point clouds from the photogrammetry session and reference object? Or can we make assumptions on the origin of the resulting USDZ from the PhotogrammetrySession?
 
 
@@ -2063,7 +2064,7 @@ FB10160265
 |U03J97X79CL|:
 :100:
 
---- 
+---
 > ####  Is there a maximum number of 2D bodies that can be tracked in an ARWorldTrackingConfiguration?
 
 
@@ -2073,7 +2074,7 @@ Hi Brandon! ARKit detects one body at a time. If multiple people are in the scen
 |U03J20E7UBV|:
 Thank you, <@U03HWCCTAKT>!
 
---- 
+---
 > ####  Is it now possible to do AR with the ultra wide angle 0.5  camera?
 
 
@@ -2082,7 +2083,7 @@ Unfortunately not. ARKit consumes the UW camera internally for certain processin
 Though I encourage you to file a feature request.
 Feedback Assistant: <https://feedbackassistant.apple.com>
 
---- 
+---
 > ####  We're planning to integrate an AR distance measuring view into our app. Does ARKit now provide the necessary technology to achieve this, or is RealityKit a better match? Are there any useful docs to look at?
 
 
@@ -2098,7 +2099,7 @@ Developer Forums: <https://developer.apple.com/forums/>
 |U03HRKY23T9|:
 Thank you <@U03HB4VGW30>
 
---- 
+---
 > ####  Are there any good resources on getting started with estimated object dimensions?  Similar to the measurable app but to do height and width.
 
 
@@ -2110,7 +2111,7 @@ After getting a geometry that is good enough you still have to solve the task of
 |U03HV55RC2K|:
 Thanks <@U03J7GC2A2C> Would it be possible to get the dimension of small objects?  Ex. Ball, pillow, cup, etc.
 
---- 
+---
 > ####  Video feed is always overexposed using ARKit. Trying to enable HDR for ARSession doesn't seem to work. Setting videoHDRAllowed to true on ARWorldTrackingConfiguration does not change video rendering. Also when accessing the AVCaptureDevice with ARWorldTrackingConfiguration.configurableCaptureDeviceForPrimaryCamera, activeFormat.isVideoHDRSupported returns false (on iPhone 12 Pro Max) so I cannot set captureDevice.isVideoHDREnabled to true. Also when using setExposureModeCustom and setting iso to activeFormat.minISO, the image rendered by ARKit has always a way greater exposure than when running an AVCaptureSession. The use case is for using ARKit in a Basketball stadium: the pitch always appears totally white with ARKit so we cannot see any player while with AVCaptureSession (or just the iOS camera app) the pitch and players appear clearly thanks to HDR.
 
 
@@ -2125,7 +2126,7 @@ Thank you! I'll try it out!
 I just tried it, and it worked! Thanks :smile: This is a great addition to ARKit!
 A big thank you to the ARKit team for giving us access to those video options!
 
---- 
+---
 > ####  Does ARkit or RealityKit support rigid body physics defined in a USD file?
 
 
@@ -2139,7 +2140,7 @@ Hi Alexandre, ARKit doesn’t support physics but rather detects the surrounding
 This request is specific to the interaction between USD files and RealityKit, today we are focusing on ARKit question in our lounge. I encourage you to file a feature request through the feedback assistant.
 Feedback Assistant: <https://feedbackassistant.apple.com>
 
---- 
+---
 > ####  Hi, and thanks for your work! I’d like to ask what might be the possible causes for the ARSessionDelegate is retaining ARFrames console warning. I use the session:didUpdateframe: delegate method to just check whether the AnchorEntity(plane:) I’m looking for is in a sufficient distance from the camera. Thanks.
 
 
@@ -2149,14 +2150,14 @@ Hi Ioannis, we have a limited pool of resources for our ARFrames and in order to
 |U03JDT24WKV|:
 Makes sense. Thank you!
 
---- 
+---
 > ####  Hello, I would like to know if it's possible to use shareplay with a ARKit app? When i try there is no video on the facetime call if the back camera is started. Is it possible to have both camera at the same time (front for facetime and back for my AR app)? Thanks
 
 
 |U03HWCCTAKT|:
 Hi Gil! ARKit configures the cameras according to the selected configuration. Capturing from another camera while an ARKit session is running is not supported.
 
---- 
+---
 > ####  What can you share about this report FB9184883 ? Is it marked as a highest priority issue ? For those wondering, a post on the forum explains it : <https://developer.apple.com/forums/thread/705860|https://developer.apple.com/forums/thread/705860>
 
 
@@ -2168,7 +2169,7 @@ I did check with the request you filed and pinged the engineer assigned to it. I
 |U03HMCKHFBR|:
 Alright, thanks <@U03J7GC2A2C> !
 
---- 
+---
 > ####  Is there a native 3D processing tool coming the iOS/macOS any time soon? We needed to implement USDZ cropping on iOS, and the 3rd party tools don't deliver the quality we want.
 
 
@@ -2178,7 +2179,7 @@ In this lounge we are focused on questions to ARKit, it looks like your request 
 Feedback Assistant: <https://feedbackassistant.apple.com>
 Developer Forums: <https://developer.apple.com/forums/>
 
---- 
+---
 > ####  Is it possible to do perspective correction in ArKit using the captured depth map? like on the continuity camera "desk view" for ex
 
 
@@ -2186,7 +2187,7 @@ Developer Forums: <https://developer.apple.com/forums/>
 Glad you’re also a fan of the new desk view feature. There are potentially two solutions to this: You might just try to to a single perspective projections for the whole image The second solution is to use a per-pixel correction like you suggested. Both come with their own benefits and drawbacks. Please check out our documentation for implementing the second approach:
 <https://developer.apple.com/documentation/arkit/environmental_analysis/displaying_a_point_cloud_using_scene_depth>
 
---- 
+---
 > ####  Is there any plan to allow built-in hands and finger detection within ARKit to let the user interact with an object directly with his hands and not only though touch events on the device screen?
 
 
@@ -2197,7 +2198,7 @@ For ARKit feature requests, we encourage you to send us a report in Feedback Ass
 |U03J7ETMDHU|:
 Hi Andreas! Thank you for your reply and for these informations.
 
---- 
+---
 > ####  "So what I meant is if you know the four corners of that building you can create four Location Anchors at those lat/lon coordinates. If they are tracked in ARKit you get the local coordinates and can build an occlusion/collision mesh."  Hi Christian, did you mean I should build an occlusion mesh for every building I want occlusion/collision. I am kind of new to ARKit but I saw that I can create a metal renderer to work with ARKit. can I get depth information using a convolutional neural network from metal. sorry if this is off topic.
 
 
@@ -2210,7 +2211,7 @@ I will try Christian. I will have the code publicly hosted on GitHub<https://git
 |U03J22UJ3T4|:
 I have a lab scheduled for later today, I will present this solution, and ask for help on the implementation, Thank you ARKit team
 
---- 
+---
 > ####  Using additional cameras in ARKit - are there any resources to show how this iss setup?
 
 
@@ -2245,7 +2246,7 @@ Ok… that's ancient news.
 |U03JSM190KX|:
 Thanks for finding the source of my misconception! Great work guys!
 
---- 
+---
 > ####  Hi! We're working on an AR experience that allows user to put AR objects in their surroundings and replay it later. We're saving the data on an ARWorldMap and archive it on the filesystem to be retrieved later. Everything works great on smaller areas with small ARWorldMap file sizes. However as user adds more stuff, the ARWorldMap file gets bigger and at some point, it takes so long or even impossible to relocalize using the big ARWorldMap files. I'm seeing slower relocalization on ARWorldMap files with 10 mb size.   Question: Is there like a known cap of how big ARWorldMap files can be to retain effectivenes of relocalization and the AR experience?  What can impact performance for AR relocalization other than lighting condition and the object textures that we're rendering (maybe area size? camera motion? features in the area?) since we're seeing frame drops on bigger ARWorldMap files.  Thanks!
 
 
@@ -2254,7 +2255,7 @@ ARWorldMaps are optimized for room sized scenarios. If you exceed that limit the
 
 The frame drops sound related to the amount of content being displayed though. For that, feel free to provide more details through Feedback Assistant: <https://feedbackassistant.apple.com>
 
---- 
+---
 > ####  What’s the current upper limit on SKNode objects? Say you wanted to create several rows of image sprites/emoji for eg a virtual interactive bookshelf layout.  Also if you wanted to animate these sprites would that be feasible? 
 
 
@@ -2262,7 +2263,7 @@ The frame drops sound related to the amount of content being displayed though. F
 Hi <@U03J97X79CL>, In this lounge we are focused on questions to ARKit, it seems like your request is specific to SpriteKit. You might be able to find some answers in the SpriteKit performance documentation: <https://developer.apple.com/documentation/spritekit/nodes_for_scene_building/maximizing_node_drawing_performance>
 Otherwise, please use the developer forums or the feedback system to get connected to an engineer from SpriteKit.
 
---- 
+---
 > ####  Is there a way to force ARWorldMap to relocalize on our position instead of inferring from the features around us? For example, since ARWorldMap has its own root anchor, can we do something like "load this ARWorldMap using my current position/transform in the real world as the root anchor"?  From my understanding we can do this with a single/multiple ARObjects but haven't found any resources about collections of ARAnchors in an ARWorldMap
 
 

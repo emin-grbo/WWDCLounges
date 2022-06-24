@@ -4,9 +4,10 @@
 #### [emin@github](https://github.com/roblack) / [emin@twitter](https://twitter.com/emin_ui)
 #### [shirblc](https://github.com/shirblc)
 #### [tikimcfee](https://github.com/tikimcfee)
----
 
---- 
+
+
+---
 > ####  We’re also wondering if there’s any information you’re able to share at this stage about the coming updates to Schoolwork and Classroom apps?
 
 
@@ -17,14 +18,14 @@ You can read all about the latest and greatest for both here:
 <https://support.apple.com/en-us/HT206151>
 <https://support.apple.com/en-us/HT208894>
 
---- 
+---
 > ####  Now that macOS Ventura has added Launch Agent and Daemons to the Login Items pane of System Settings. Is there an MDM payload that can protect or hide certain items in System Settings? Some things you don't want messed with. For example: Jamf local agent, MS AutoUpdaer, Google Keystone, etc...
 
 
 |U03HJ7TE1GT|:
 We don’t have anything to share at this time, but we understand the concern. Nevertheless, please file feedback through <https://appleseed.apple.com/it|AppleSeed for IT>, if it’s something you’re interested in managing.
 
---- 
+---
 > ####  Hi! Can I ask about the data about the user, that can be accessed except the Name and E-mail fields (for grown-up users)? Is there an age field? Can I get the grade number or only the name of the class?
 
 
@@ -41,7 +42,7 @@ Also, the unique identifier in Sign In with Apple and Roster API will be the sam
 |U03JZEDFDNU|:
 Thanks!
 
---- 
+---
 > ####  Hey team! :wave::skin-tone-3: LJ from Procreate here. :art: We’re wondering if there are any demos available that we can watch that demonstrate iPad’s behaviour with multiple users to get a sense of how our product might behave, short of setting up our own testing environment? 
 
 
@@ -63,7 +64,7 @@ The shared iPad can be configured with storage quotas for users.
 There is some more explanation available in this WWDC video:
 <https://developer.apple.com/videos/play/wwdc2022/10045/>
 
---- 
+---
 > ####  With the new support for business and education, are there any remaining Apple ID account types that do not support Sign In With Apple?
 
 
@@ -75,7 +76,7 @@ If this doesn't answer your question, can you include more information about wha
 |U03JEM12TG9|:
 Thanks Jesse!  I can't think of any other account types; it's great everything is covered now. 
 
---- 
+---
 > ####  Can you give us an overview of ClassKit? :pray::skin-tone-3:
 
 
@@ -95,7 +96,7 @@ For some additional (non-Apple) info on ClassKit and Schoolwork, I gave a confer
 |U03JLA3RVPZ|:
 Here is another presentation from WWDC 2020: <https://developer.apple.com/videos/play/wwdc2020/10672/>
 
---- 
+---
 > ####  What are the best ways to leverage Apple Education in an app? Is it supporting specific Apple technologies? (Classkit, etc) If so, what are some examples?
 
 
@@ -116,7 +117,7 @@ If you don’t already, you could support Sign in with Apple which would allow a
 |U03J4BFE17W|:
 Thanks!
 
---- 
+---
 > ####  Seems that we should build a dedicated user flow created within our app for the IT Admin to grant initial OAuth 2 permission. Is that right?  Can you share any successful flows you’ve seen used, particularly in schools?  Once that first successful connection is confirmed - would we possibly ask the IT admin to choose certain classes to set up for using our apps? (For example: set up the math teachers with access to a math app)  OR: there is nothing beyond authentication needed from the IT Admin, and we could identify teachers at login (once they Sign In with Apple, we can look up their unique identifier and confirm their role as an instructor) then offer any “setup your class” options or “learn about our app in your classroom” information available to them  Any best practices you’ve seen around this initial setup would be greatly appreciated!
 
 
@@ -163,7 +164,7 @@ If you were to build some sort of functionality within your own app, that would 
 |U03K6K2J79P|:
 Thank you <@U03HRRAJQ0K>!
 
---- 
+---
 > ####  Do you see integration with directory services like Managed Apple IDs or Classroom/Roster directories with Declarative Device Management. It would be interesting to directly support group or user properties without having to abstract this through the MDM server (i.e. a device knows who is logging into it in the case of Shared iPad or macOS).
 
 
@@ -175,7 +176,7 @@ Also, in case you haven’t seen yet, this year we added a new declaration to al
 |U03JPJY6CTU|:
 Thanks, yeah! That's where the inspiration for this question came from — the arbitrary propery management declaration. But it got me to thinking what can DDM do for me (or rather, my MDM server) lately so I don't have to manage something like that on the MDM-side (since the device knows what it needs to know) :slightly_smiling_face:
 
---- 
+---
 > ####  Hi! The same question about usual user flows for student/teacher/IT manager inside the app. Is there any scheme, roughly describing their user paths?
 
 
@@ -201,7 +202,7 @@ Your app can start by integrating Sign In with Apple. When a user logs in, you c
 3. If the authenticated user is a student or teacher, you could display the classes from your your database/storage or tailor the users’ experience depending on your app’s needs.
 
 
---- 
+---
 > ####  We have an app that is capable of fixing multiple grammar errors, which supposed to be a great writing assistant for all people.  However, if I were a parent, or a teacher at school, I'd want my kids not using this app while they're having English classes, since then they may not learn anything and just automatically fix all errors by our app without even reading.   I wonder if there is some API related to education or screen time that should allow our app and app extensions apply some limitations for those kids who're using our app?  Let's say, it could be the teacher that will enable some "Exam mode" that won't allow students who're studying online using their iPad to check grammar in our app.   Another example is a parent who enables some "mode" in the Family settings that prevents user from accessing some features. You may think about limiting app usage, but we have a keyboard extension that is doing all the magic, so I wonder if we can apply similar limitations for it as well.
 
 
@@ -235,21 +236,21 @@ BTW Here is a Mac sample project showing how on macOS, you can enter assessment 
 |U03J8N6PBHV|:
 Thanks <@U03HRS3JX5Y>, I forgot that I implemented shouldAllowExtensionPointIdentifier, this discussion was a good input that it makes sense to make this configurable per test/exam.
 
---- 
+---
 > ####  No question, just that the intro skit in the video was really fun and engaging, it hooked me!
 
 
 |U03HRS3JX5Y|:
 Thanks Joel! We know everyone worked very hard on their sessions, so this feedback is much appreciated.
 
---- 
+---
 > ####  Also not a question, rather a thank you. We had great support from you and seamlessly connected students &amp; teachers to our app at schools.
 
 
 |U03HRRAJQ0K|:
 Hi <@U03J25N6SES>! Thank *YOU* for all you do on behalf of the teachers and students that you’ve connected - that is exactly what we love to hear!  It wouldn’t be possible without all of you here! I wish you many more of those connections and hope that we can continue to support you in your endeavors!
 
---- 
+---
 > ####  More of a general MDM question but, setting up new customers with our MDM is fairly complex for new users and requires us to walk them through getting several different tokens to connect to APNS, DEP, VPP, etc. Any possibility of consolidating this process or providing an API in the future?
 
 
@@ -261,14 +262,14 @@ The main one is definitely getting/renewing a APNS certificate. It's always supe
 
 I will submit the enhancement requests. Thanks!!
 
---- 
+---
 > ####  Most K12 systems (SIS) organize students and teachers within a school, will you be adding this in the future?
 
 
 |U03HK7VC59U|:
 Thank you for this feedback. With the current release, we only expose user and class information. Please file an enhancement request at <http://feedbackassistant.apple.com|feedbackassistant.apple.com> with the details about what you would like us to support.
 
---- 
+---
 > ####  Are Schoolwork and Classroom only available to traditional Schools, or is there a way to use them for Homeschooling / Home Educating groups.  By the way, thank you for keeping the Ask A Question open, it makes a big difference for devs in other timezones.
 
 
@@ -298,14 +299,14 @@ Apple School Manager uses the accreditation policies for each country. You can f
 |U03J8N6PBHV|:
 <@U03HU7ETA12> Done: FB10161823
 
---- 
+---
 > ####  We are a branch of a university that sometimes deliver workshops to different students or in schools using a custom iOS app and a very small fleet of devices. We aren't using managed Apple IDs and aren't registered for Apple School Manager or Business Manager.  Our fleet of devices (25 iPads) are managed manually through Apple Configurator with a couple of configuration profiles. However, using App Store Apps like Playgrounds is cumbersome, because we need to sign in with an Apple ID on each device. Are there any tools we could use during setup or during the workshops that could streamline this process?
 
 
 |U03HNU8UPPF|:
 If your University is signed up for Apple School Manager you can request a Content Manager account and use that to install the apps via Apple Configurator. If not, your institution can sign up. When you install apps to devices this way you won't be required to authenticate with a personal Apple ID on the device.
 
---- 
+---
 > ####  The Roster API seems like a great extension to ClassKit! If I understood everything right, I think particularly interesting is that an app could offer a teacher more information about classes and students in that class than they can see in Schoolwork. Is this correct?
 
 
@@ -349,7 +350,7 @@ Correct, Daniel. This would be one of the challenges with completing the OAuth f
 |U03J8N6PBHV|:
 I will file an enhancement request for direct access of Roster info via ClassKit Swift/ObjC as <@U03HK7Z8HC6> suggested.
 
---- 
+---
 > ####  Hi! I would like to share a suggestion I did to the design lounge with you as well guys.  As you know, AR and VR has a great potential in education with respect to elucidating higher dimensional mathematical concepts. On the one hand, Apple has already a quite expansive toolbox for generating and representing AR content and I know you are about to release its own VR hardware. On the other, Wolfram's Mathematica has a rather expansive collection of functions, readily expandable to VR, with which one can visualise, transform and in general represent higher dimensional content.  I believe, given the two companies' closeness and shared history (going back to the first Mac), there is a lot of potential for jointly introducing VR in the educational community, given especially how concept-focus learning has become the central theme among leading educators and organisations (like the IB).
 
 
@@ -367,7 +368,7 @@ This is were I believe there great opportunities for collaboration between the g
 <@U03HFB3HQ7P>
 (sorry I didn't include the ref in my previous message) :slightly_smiling_face:
 
---- 
+---
 > ####  Hello! I am interested in writing Playgrounds to discuss physics/math content. Would this be a candidate to be offered as Classroom content? Or do I need to talk to a school system to work through them? Thanks in advance, and have a good weekend.
 
 
@@ -383,7 +384,7 @@ They would also have the option to individually  subscribe manually to the URL b
 |U03J21EKNSE|:
 Thank you for the information!
 
---- 
+---
 > ####  Are Subscription enabled Apps supported in VPP for Education (not as in-app purchase) ?
 
 
@@ -407,7 +408,7 @@ Many developers in the education space distributing apps to institutions actuall
 |U03HFB3HQ7P|:
 Hi all, yes-- this feedback has been heard, and please feel free to file additional feedback at <http://feedbackassistant.apple.com|feedbackassistant.apple.com> to describe any features that would help your institutional business. Thank you! In the meantime, <@U03KCM8QTHP>, I have seen developers publish annual versions of their paid apps.
 
---- 
+---
 > ####  Hi, Thank you for hosting this Q&amp;A.  I have a few questions regarding interaction between an App and Schoolwork.  If our app has implemented AAC  - Is it possible for the teacher to put all the students in the Classroom to AppLock (using Schoolwork) to our app in AAC mode?   Is our App able to query/get notified that the Teacher has put the App in/out of  AppLock mode?  Is there any ability in Schoolwork to pass config data to the App when it is put in AppLock mode? For example if it's a test, then it should setup the app without any prior work.  Thank you!
 
 

@@ -4,13 +4,14 @@
 #### [emin@github](https://github.com/roblack) / [emin@twitter](https://twitter.com/emin_ui)
 #### [shirblc](https://github.com/shirblc)
 #### [tikimcfee](https://github.com/tikimcfee)
----
+#### 📓Notion variant 👉 [check it out](https://blog.timing.is/wwdc-22-digital-design-lounge-archive/)
 
---- 
+
+---
 > ####  what are the next challenges you're working on tackling for SF Symbols?
 
 
---- 
+---
 > ####  What design program do you prefer for creating the symbol paths...Sketch, Illustrator or something else?
 
 
@@ -32,7 +33,7 @@ Illustrator and Glyphs 3
 |U03JEKW67KJ|:
 I’ve used Glyphs3 (Glyphs App) same as Lance mentioned, but other popular font editors include RoboFont and FontLab. All have fairly good documentation (and forums) so you should be able to get up and running quickly
 
---- 
+---
 > ####  When would we be able to see variable fonts come to the SF Font Family? It would be awesome to have this along with SF Symbols.
 
 
@@ -57,7 +58,7 @@ Thanks, Paul!
 |U03JZNY81L0|:
 Fonts are live!
 
---- 
+---
 > ####  After creating a new custom symbol, how do we add it to our app? Is it like any other SF Symbol?
 
 
@@ -67,7 +68,7 @@ After you've made and annotated your symbol in the app, choose File &gt; Export 
 |U03JRP87THN|:
 Thank you very much!
 
---- 
+---
 > ####  Hi! Is there any limit of layers a symbol can have?
 
 
@@ -77,7 +78,7 @@ There's not a hard-set limit in the app.
 |U03HQSKKXR8|:
 There isn’t a limit for practical purposes in the template either.
 
---- 
+---
 > ####  Is there a way to transfer your own custom symbols with all the settings between different Mac's or pass it to other co-designers?
 
 
@@ -96,7 +97,7 @@ Awesome. Thanks a lot for! :pray::slightly_smiling_face:
 |U03HLJY8FRA|:
 We don't recommend editing the SVGs that come out of the `File &gt; Export Symbol...`  option, however, they're just intended for data delivery. The recommended workflow is to use `File &gt; Export Template...` if you want to edit the shape of the symbol, bring that template back into the SF Symbols app, do your annotation within the app, and then use `File &gt; Export Symbol...` for delivery.
 
---- 
+---
 > ####  Any tips for creating SVG files that will work well with this? E.g. should we avoid internal groups, etc...
 
 
@@ -112,7 +113,7 @@ Check out the section titled "Creating Custom Symbols"
 |U03J5P9M6R3|:
 will do, thank you!
 
---- 
+---
 > ####  Is it possible to assign colors dynamically to SF Symbols rendering in multicolor mode?
 
 
@@ -138,7 +139,7 @@ The API for AppKit/UIKit is `configurationWithPaletteColors:` which takes an arr
 And in SwiftUI what you want is the `.foregroundStyle` modifier:
 <https://developer.apple.com/documentation/swiftui/view/foregroundstyle(_:)>
 
---- 
+---
 > ####  When creating new symbols, what criteria is followed? I’ve wanted to make custom symbols before but want it to match with the rest of the rest of the SF Symbol catalog.
 
 
@@ -166,7 +167,7 @@ It's about looking at the context and iterating to get the best results. It's al
 |U03HA9EC4T1|:
 Matching the line weight within SF Symbols is a good metric to follow. Also, referencing the scale and alignment of SF Symbols for shapes that are similar to what you are trying to make is a good place to start. For example, if your custom symbol is circular, scale it similar to a circle in SF Symbols.
 
---- 
+---
 > ####  Are there any books you'd recommend reading regarding topics like typography, color theory, grid designs, and anything else regarding mobile UI design?
 
 
@@ -182,7 +183,7 @@ The 1923 ATF Catalog and Specimen book!
 |U03J814M5MW|:
 Interaction of Color if one of my fav books!
 
---- 
+---
 > ####  How would you convince a product team to adopt SF Symbols that already has a wide array of their own custom icons?
 
 
@@ -203,7 +204,7 @@ But really, the team has been working on SF Symbols as a way to help people make
 |U03HA9EC4T1|:
 Symbols offer many benefits: visual craft and integration with the system font, accessibility features including localized variants for many languages and scripts. Familiarity with users across the platforms. Smaller app footprint.
 
---- 
+---
 > ####  I think it was last year the .square and .circle modifier were added for some symbols. Is there a chance that will become and option for all symbols including custom symbols? :grimacing: I ended up creating square variants for a lot of our custom symbols last year and it was super tedious.
 
 
@@ -226,7 +227,7 @@ For these sorts of things we always encourage capturing your use case + request 
 |U03J211JCKU|:
 Will do.
 
---- 
+---
 > ####  Will there ever be a Clarus the DogCow SF Symbol? :D
 
 
@@ -292,7 +293,7 @@ I only get this because I was randomly watching this the other day (linked to th
 
 <https://youtu.be/2bewvHiWLYA?t=927>
 
---- 
+---
 > ####  Can we use SF or SF Symbols in other, non-Apple related projects or are we limited to Apple platforms? Thanks :blush: 
 
 
@@ -308,7 +309,7 @@ Great thanks! :grinning:
 |U03HQSKKXR8|:
 SF Symbols as you have seen are very dynamic. This functionality is implemented by Apple’s OSs. So besides the restriction, it isn’t practical.
 
---- 
+---
 > ####  Paul, what are some similarities between solving Rubik's Cubes and working on the SF Symbols app?
 
 
@@ -336,7 +337,7 @@ Wow Paul, real deep. :slightly_smiling_face:
 |Mike S - from Design Evangelism (Apple)|:
 That sounds like a nice way to bring this study hall to an end…
 
---- 
+---
 > ####  Not really related to the session, but are we allowed to export and use SF Symbols in a cross platform app (e.g. an app for Windows/Linux/Mac), or are the symbols only allowed for use on Apple platforms? 
 
 
@@ -346,7 +347,7 @@ SF Symbols are for Apple platforms only.
 |U03HMBY0SDV|:
 Okay, thanks
 
---- 
+---
 > ####  Hey! Thanks for the epic video! Is there anyway to use new symbols from iOS 16 in iOS 15 and below? Thanks :grinning:
 
 
@@ -356,7 +357,7 @@ It's possible to export a new symbol using `File &gt; Export Symbol...` and brin
 |U03J3FVDR97|:
 Note that you can still use the latest template format (4.0) with custom symbols even when deploying to earlier deployment targets as long as you are using Xcode 14 to compile your app.  Naturally, the new content features won't be present on those earlier releases, so you need to be careful about which template content features you use.  Safest of course is to just export with the older template versions as Paul recommends.
 
---- 
+---
 > ####  I’d love to hear more about what it was like working on this massive update to SF Symbols. How do you go about figuring out which symbols to choose? Is there a lot of collaboration across teams within Apple for such projects? Also: amazing work!
 
 
@@ -375,14 +376,14 @@ For adding new symbols: it’s a combination of supporting new platform features
 |U03JRQ62JQY|:
 Thanks so much for your replies, everyone! I _super_ appreciate all of your hard work! :heart:
 
---- 
+---
 > ####  SF Symbols are underrated, they really make designing an effective UI a lot easier. Great work with the new updates! It would be awesome to see collections expanded to an in app feature to allow users to pick from a set (like in the Reminders app). Unless this already exists and I am unaware :grin:
 
 
 |U03J3FV12KB|:
 Thank you. We don't offer that feature, but thanks for feedback!
 
---- 
+---
 > ####  Are there ways we can submit icons for consideration as additions to future updates of SF Symbols and/or is there a place we can share our custom icons with the wider developer community?
 
 
@@ -401,7 +402,7 @@ My Feedback Assistant request for a tennis ball from 2020 is still open, but I'm
 |U03J9D6803X|:
 I think a differentiated experience from Feedback Assistant for SF Symbols feedback would be helpful.  There would probably be a lot more involvement from the community.
 
---- 
+---
 > ####  I may have missed this in the SF Symbols video, but I was wondering: how do these new rendering modes interact with WidgetKit rendering using the new lock screen widget layouts like .accessoryCircular etc?
 
 
@@ -411,7 +412,7 @@ Great question. For consistency, we suggest using monochrome, hierarchical, or a
 |U03J3FV12KB|:
 We also welcome your feedback on WidgetKit and SF Symbols in general as you get a chance to use them together. We learn from you, too!
 
---- 
+---
 > ####  Not a question, just a thanks for adding symbols that represent HomeKit objects. Was hoping for those since SF Symbols was introduced.
 
 
@@ -421,7 +422,7 @@ YAY! :heart:
 |U03HMESB695|:
 Really means a lot to the HomeKit community as they mean most apps will end up using similar icons now.
 
---- 
+---
 > ####  Do variable colors animate automatically when changed?
 
 
@@ -443,7 +444,7 @@ Using variable colors does not automatically animate across the visual states. H
 |U03JBMMB10A|:
 Right, thank y’all!
 
---- 
+---
 > ####  Thank you for the new HIG! Especially appreciate that it starts from UI elements and themes and then mentions platform considerations, instead of being branched off into different platforms only.   Are there good examples that come to mind of intentionally breaking the HIG for good reason (after knowing it well)?
 
 
@@ -455,7 +456,7 @@ Think of the HIG as a great "base" for what you're doing, and tailor the guidanc
 |Linda D - Design Evangelist|:
 <@U03HJ86L1BL>’s also done a great job at wording the language of the HIG so we rarely ever say "don't" or "never" unless that's really true.
 
---- 
+---
 > ####  What are the key changes in the advice being given in the revised HIG, if any?
 
 
@@ -477,7 +478,7 @@ Another key change is in perspective: Rather than starting with guidance for an 
 |Mike S - from Design Evangelism (Apple)|:
 We added a lot of new information in the Patterns section for things like Searching or Sharing. That kind of content was spread out in component pages previously and missed a lot of important information and context when it was tied to specific controls
 
---- 
+---
 > ####  First off, congrats on the new HIG! I love how much more comprehensive it is. What are best practices when designing an app that is cross platform? Should the app design's adapt to the respective OS' design guidelines e.g. HIG on iOS, Material You on Android, and Fluent on Windows, or stick with one for a consistent user experience across different platforms (even though it might look slightly out of place depending on the OS)?
 
 
@@ -505,7 +506,7 @@ Thanks for the insight, <@U03HBJXV0TY> and <@U03DMQBFPH8>! They are really helpf
 |Linda D - Design Evangelist|:
 Look I love a good FAB but only when I've designed for Android in the past! Thanks for the question <@U03J20D4Q03> hope that helps because yes, you can be 80%-90% consistent where you can but those platform details matter
 
---- 
+---
 > ####  I'd love to know more about the process of evolving the HIG.  How do you identify things that feel out of date and less relevant, as well as spotting new design trends within Apple that you feel need documenting?
 
 
@@ -521,7 +522,7 @@ Another thing that influences the HIG is the work of our design and engineering 
 |U03H3HNAGSK|:
 I am resisting the urge to point out the various sections that are in need of work now, although I’d like to illustrate the point I’m making by doing so
 
---- 
+---
 > ####  What’s stayed the same in the HIG over the past decades?
 
 
@@ -531,7 +532,7 @@ Although many details have changed, I think it's the keen focus on keeping the u
 |Linda D - Design Evangelist|:
 Yes the earliest HIG (I believe from 1977???) continually emphasized the human nature of computers. How computer should conform to people and not the other way around. We are still very much firm believers of this, but with more nuance on what that means ergonomically, inclusively, as a holistic experience.
 
---- 
+---
 > ####  Were there any topics/areas that were completely, or mostly rewritten? Any specific portions that you are most proud of that you'd really like to call out?
 
 
@@ -557,7 +558,7 @@ The platform pages look great btw and I would imagine it's going to be super hel
 |U03HJ86L1BL|:
 Because we were working with content that ranged in age from months to more than a decade (in a few cases), I'm certain that there were places where in rewriting, we made significant changes to the guidance. But honestly, I'm not sure I can point to specific ones offhand! :face_with_monocle:
 
---- 
+---
 > ####  Hi, nice work on the redesign, I've been going through it this morning! I have a question about color.  On this page: <https://developer.apple.com/design/human-interface-guidelines/foundations/dark-mode|https://developer.apple.com/design/human-interface-guidelines/foundations/dark-mode> there's the advice "At a minimum, make sure the contrast ratio between colors is no lower than 4.5:1. For custom foreground and background colors, strive for a contrast ratio of 7:1, especially in small text."  I aim for high contrast as much as possible, but 4.5:1 is pretty limiting, and I don't think Apple always follows this rule themselves. Specifically I'm wondering about the systemColors such as systemOrange, systemMint etc, many of which have quite low contrast against white (i.e., in Light Mode). What is the intended purpose of these colours? Is it meant for text/SF Symbols? Because if so, systemMint comes in at 2.02:1 against white. Should we ever even use systemYellow? Or can we just rely on users turning on Increase Contrast if they need to? But maybe someone doesn't want to have to increase contrast for everything just so they can see that darn yellow text.  Any insight on the intended use of these systemColors would be greatly appreciated. Thanks!
 
 
@@ -611,14 +612,14 @@ or colour range
 |Mike S - from Design Evangelism (Apple)|:
 Hahahahah, yes <@U03J1EHL4KY> Providing high-contrast colors in the asset catalog is a good thing. :slightly_smiling_face: We do have some technical solutions after all. And of course the system colors provide high-contrast colors for free
 
---- 
+---
 > ####  When filing feedback related to the HIG in Feedback Assistant, should it be under the “documentation” category or “design resources”?
 
 
 |U03HJ86L1BL|:
 First of all, thank you SO much for filing feedback!! For the HIG, please use the "documentation" category; for issues or requests related to Apple Design Resources, please use the "design resources" category.
 
---- 
+---
 > ####  How do ADA-winning apps balance the best practices and standards in the HIG with the novelty that makes them...well...ADA-winning?
 
 
@@ -649,7 +650,7 @@ Ohhh I think I gotcha, like how Carrot Weather uses satire and the robotic voice
 |Linda D - Design Evangelist|:
 Yes there's being consistent with the platform experience, and then there's taking that to the next level by differentiating your app/game as a stellar example of one of our categories. That means you don't necessarily need a visually-heavy custom branded app but you offer something by way of your design/UX that sets you apart (I'm thinking Slopes here as a great example of this)
 
---- 
+---
 > ####  Could you elaborate on any user research (quantitive or qualitative) processes the team uses to shape HIG guidelines?
 
 
@@ -668,7 +669,7 @@ Does the team do any old school, Bruce Tognazzini-style quantitative experiments
 |Linda D - Design Evangelist|:
 <@U03JCS2C03Z> Depends on the team! We always nerded out about that and other things (catmull rom) on the Prototyping team, but other teams keep their process more intuitive/empathy-based vs. scientific
 
---- 
+---
 > ####  Is the latest version of the HIG the first time I've seen Apple adopt sentence case for headings?! :smile:
 
 
@@ -687,7 +688,7 @@ It’s the future!
 |U03HMCT187R|:
 I’m sure this is in the HIG if so :grin: but figured it may be worth asking, are yall changing recommendations for when to use title-case vs sentence-case? :eyes:
 
---- 
+---
 > ####  A web based HIG is great as documentation but right now—wanting to read the entire revised HIG—I want to reach for an ePUB that would keep track of where I’m up to, and lead me linearly from start to finish, to ensure I read the whole thing. Is an ePUB available, or is there another solution for this use case?
 
 
@@ -718,14 +719,14 @@ FB10108496: Provide a mechanism to keep track of progress in reading the whole H
 |U03J4D1FEP6|:
 <@U03HMCT187R> I included the superior search options in an ePub btw. Great point.
 
---- 
+---
 > ####  Not a question but I LOVE the new HIG redesign!!!
 
 
 |Linda D - Design Evangelist|:
 Not an answer but THANK YOU! - from all of us
 
---- 
+---
 > ####  Hi there! Amazing work on the design guidelines. How can I measure contrast in my apps?
 
 
@@ -789,7 +790,7 @@ Good article on it if anyone is a color nerd like me and wants to dig in more: <
 |U03J1EHL4KY|:
 not a color nerd but often feel like i should be :joy:
 
---- 
+---
 > ####  Hi, thank you for update for great HIG! Is there any design files or design system in Figma / Sketch?
 
 
@@ -816,7 +817,7 @@ We currently don't support Figma at this time but updates to the Sketch and XD l
 |U03HVQQMNCF|:
 Thank you Linda, I’m waiting for release new ones!
 
---- 
+---
 > ####  Hi all! The HIG for watchOS subscription paywall show buttons for T&amp;C and Privacy Policy. But we cannot open these in a website like on iOS. What is the recommended way to show these, potentially very large, text elements on the Apple Watch?
 
 
@@ -829,7 +830,7 @@ If you haven’t already, can you file feedback for this?
 |U03JMMN8659|:
 ok, thank you! :pray: will do
 
---- 
+---
 > ####  How long has the team been working on this huge HIG update?
 
 
@@ -839,7 +840,7 @@ The bulk of the work started late 2021 and ran to last Sunday or so! :sweat_smil
 |Linda D - Design Evangelist|:
 hahaha, yes we've been working on it consistently for about a year now!
 
---- 
+---
 > ####  Firstly, congrats on such a great update to the HIG! :clap: Throughout the OS, there's often times when a temporary sheet appears at the bottom of the screen. For example, when connecting your AirPods to the iPhone - I've made my way through the guidelines and can't find any write ups about that view. Is this view actually just a "Medium sheet" that is styled differently?  I'll thread a screenshot for context
 
 
@@ -849,7 +850,7 @@ Hm… not sure if my reply came through. Posting again “Hi Ryan, yep, a medium
 |U03JE2RK60J|:
 Thanks <@U03HBJXV0TY> :ok_hand:
 
---- 
+---
 > ####  Curious what your pov is on link buttons, specifically buttons embedded within text content on native.  There are some cases where this type of treatment can make sense and then others where it feels like we’re just pulling over from web.  Do you have any formalized process around when to use and not use this treatment?
 
 
@@ -865,7 +866,7 @@ Probably the biggest issue with link style buttons, especially when presented in
 |U03J1UU7HS7|:
 Thanks for the response.  Right, we’ve certainly argued from an accessibility perspective - tap targets and contrast.  The challenge is (as component devs/designers) to come up with a general alternative.  We’ve seen push back that there is an efficiency to associating an action with a verb in a sentence.  Pulling actions out to separate buttons can end up elevating them.  T&amp;C or legal section, for example.
 
---- 
+---
 > ####  I wanted to say that I really love the unified experience of the supported platform the updated HIG adopts.  I have recently come across a component that the native iOS Maps app uses to filter/refine searched results which I can't seem to find reference of in the HIG. I am not sure it if is a combination of a segmented controls and pull-down buttons.  Is this filtering component something that will be added to the guidelines in the near future?
 
 
@@ -911,7 +912,7 @@ Interestingly this has been changed in iOS 16 Beta 1 to a dropdown type control.
 |U03JF56NNBW|:
 Sorry correct screenshot.
 
---- 
+---
 > ####  Any design guidelines for EDR color on Apple platforms?
 
 
@@ -925,7 +926,7 @@ We don’t really have guidance specifically about EDR in the HIG. Might be some
 Color profile tagging is critical, esp for P3!
 AFAIK, images with EDR profiles don’t show up in EDR across the OS, though videos do. Photos does do EDR for photos, though, so it’s clearly something where thought has gone into it.
 
---- 
+---
 > ####  What prototyping app would you recommend?
 
 
@@ -965,7 +966,7 @@ Xcode and SwiftUI may also be great for prototyping.
 |Linda D - Design Evangelist|:
 <@U03JL795TE2> you bet! Some people love paper sketches first (me) others go straight to SwiftUI because they're lightning fast in it
 
---- 
+---
 > ####  In your guidance around colors, have you all started digging into color spaces like LCH and perceptual color contrast much yet? Maybe not something you can discuss yet but it's a super interesting area and trying to choose colors with a matching human perceptual contrast across the palette is super useful and something I'd love to see Apple push as well.
 
 
@@ -978,7 +979,7 @@ It really is fascinating stuff. And how it's looking to take into account type s
 |U03JELM0ZNV|:
 eg <https://blog.datawrapper.de/color-contrast-check-data-vis-wcag-apca/>
 
---- 
+---
 > ####  Do the HIG and Apple Style Guide influence each other?
 
 
@@ -994,7 +995,7 @@ If you’re interested in knowing more about writing for apps, we have this sess
 |U03HJ86L1BL|:
 LOL, thanks, <@U03HBJXV0TY>! Yes, definitely: Even though the use cases differ for these documents, both try to stay aligned with the other.
 
---- 
+---
 > ####  It’s a super fun detail that the Design page on <http://developer.apple.com|developer.apple.com> changes colour. How many different looks are there?
 
 
@@ -1016,7 +1017,7 @@ They’re meant to be read in order matching the old 6 colors logo. Tells a litt
 |U03J23RAFK4|:
 Love it!
 
---- 
+---
 > ####  Outline views are in the HIG as being macOS only but the need for a nested outline can still occur on iOS. The HIG just says _not supported_ but that's from a control aspect. I've implemented them by using different list cell layout to provide a nesting but would welcome other suggestions.  <https://developer.apple.com/design/human-interface-guidelines/components/layout-and-organization/outline-views|https://developer.apple.com/design/human-interface-guidelines/components/layout-and-organization/outline-views>
 
 
@@ -1029,7 +1030,7 @@ Here's an example of these home-grown outlines (note there's no collapsing, whic
 |U03HJ7LRK43|:
 Howdy! This is a great question — we're aware of the need for better guidance around outline views on platforms other than macOS, and it's on our radar for an update over the summer.
 
---- 
+---
 > ####  I’m a big believer in Human Interface Guidelines. However, I’d like to have some sincere feedback.   1. The all-new version seems dominated by texts. The older version contains a lot of illustrations and animation along with the content, and maybe it would be better to add more images and animation in the new version.   2. I’m so confused that even though this is an all-new version, there are still some images coming from macOS 10.x, with the design from Yosemite. Please update these images to the design after Big Sur.
 
 
@@ -1048,7 +1049,7 @@ It bothers us too. :slightly_smiling_face:
 |U03HMCH9D5M|:
 Appreciate it !!!
 
---- 
+---
 > ####  Do you follow an 8-point grid? For example, Table row padding would be 16 on either side, but 44 in height? I understand tap states need to be large enough, but why not 48?
 
 
@@ -1064,7 +1065,7 @@ IIRC, the decision about 44pt goes back further than the use of an 8pt grid for 
 |U03JK302NRH|:
 Thanks for the insight <@U03HBJXV0TY>!
 
---- 
+---
 > ####  With dynamic type is it expect that all text based content on the interface will scale? Is there a time where that's not appropriate such as in button containers?
 
 
@@ -1080,7 +1081,7 @@ Awesome, thanks for the clarification Mike :thumbsup:
 |Mike S - from Design Evangelism (Apple)|:
 Text in fixed height elements (like tab / toolbars) is tricker
 
---- 
+---
 > ####  I often struggle with trying to minimize the amount of submenus, while not making the interface look too bloated (especially since I work on photo editing apps that get somewhat complex). Do you maybe have some thoughts on how to balance those things (how many controls there should be visible at once, how many submenus deep you can go, etc)?
 
 
@@ -1099,7 +1100,7 @@ It gets especially difficult when you try to cater to both, making the app easy 
 |U03H3HNAGSK|:
 (2) The platform will dictate your heuristics around detail and density. Designing for Mac and iPad, I would push the density, and try to deliver sets of controls as completely as possible — i.e., i’d try to avoid submenus, and where I had them, I would try to make them “similar” or at least similarly labeled across controls
 
---- 
+---
 > ####  How do I know when a small button is ok? :smile: Do I just need to ensure they have appropriate clearance of 44px all the way around to meet the guidelines?
 
 
@@ -1112,7 +1113,7 @@ So, yes, padding can be a factor
 |Mike S - from Design Evangelism (Apple)|:
 In general though, a physical background height of 44pt is a good idea. Even if the tap target is taller, users don’t know that. So they’ll naturally slow down to aim accurately
 
---- 
+---
 > ####  Sparked by a previous thread, are yall changing any recommendations for when to use title-case vs sentence-case capitalization style?
 
 
@@ -1122,7 +1123,7 @@ Great question! Although the guidance is to use title case in components like bu
 |U03EBH4MA8Y|:
 100%, <@U03HJ86L1BL>! And when it comes to the content within your app, it — and your style guide — is going to evolve over time. As folks in this channel noted, we decided to move to sentence case in the HIG after many years. :slightly_smiling_face: The most important thing is to be consistent — if you’re going to use title case for your content headers, make sure you’re doing that everywhere in your app. If you change that style, make sure you’re adopting it across the board. And final tip: Even if you largely follow the paradigms of a guide like AP or Chicago Style, it’s super helpful to maintain a separate personal style guide for your content — that way, you have a great reference document.
 
---- 
+---
 > ####  Is there still guidance on designing the navigation graph for an app? I cannot find it in the new layout.
 
 
@@ -1138,7 +1139,7 @@ I will watch that video! I was referring to the explanation of the different sty
 |U03JQEX9MGS|:
 That page helped a lot a couple of weeks ago when trying to explain why app navigation should be treated different from websites.
 
---- 
+---
 > ####  More of an abstract question: Taking the Fitness app as an example, the calendar view tends to stick out as a completely separate design pattern. Are there any guidelines on when you would want to implement charting in a calendar as opposed to a tabbed interfaced that grouped by day/week/month etc.?
 
 
@@ -1160,14 +1161,14 @@ Yeah, it’s interesting to me that the calendar format is sort of perfect for t
 |U03K1SMSPUZ|:
 I would say the calendar is quick overview but the trends, such as in Health, is where the power of charts come in.
 
---- 
+---
 > ####  Is it possible to decide the number of decimals if the numbers on one of the axes are really close to each other, e.g. a range from 0 to 1 with 5 lines
 
 
 |U03H3193G3H|:
 A swift charts question I'm assuming! The framework can truncate labels for you to fit the space, but otherwise you could write in some logic to format the labels according to the space you have available.
 
---- 
+---
 > ####  What are the best practices for using color in charts (such as considering accessibility for color blindness)?
 
 
@@ -1185,14 +1186,14 @@ At a high level, here are some key concepts to think about when using color in c
 |U03HBGL2MJA|:
 You can also find general best practices around color in the Human Interface Guidelines: <https://developer.apple.com/design/human-interface-guidelines/foundations/color/>
 
---- 
+---
 > ####  Please tell me if I'm missing important nuance here but would it be fair to boil the different scales down to: Macro scale = highlighting all regions of all marks Medium scale = highlighting same region across all marks Micro = highlighting a specific region of a specific mark
 
 
 |U03J7U2NDSL|:
 That sounds right, as long as with Micro the highlight is about a single data point (since a chart mark could represent multiple data points).
 
---- 
+---
 > ####  Are there any samples or repositories we can look at?
 
 
@@ -1208,7 +1209,7 @@ It’s got our same beloved theme on pancakes :pancakes:
 |U03JDDPLMHD|:
 OMG YESSSS THANK YOUUUU
 
---- 
+---
 > ####  For apps that have multiple ways/formats to share, (say gif, video, images of selection, HTML) that have wildly different UI flows - how would you recommend exposing that in the UI? As far as I can tell the share button only really works for apps with single-format export
 
 
@@ -1221,14 +1222,14 @@ Innocent question: Is this about sharing a chart, or just sharing in general?
 |U03JB8S4SJ0|:
 Sharing in general. Sorry, are we only talking about charts right now?
 
---- 
+---
 > ####  What considerations should be made when designing a time-based chart like Safari's inspector timeline?
 
 
 |U03J7U2NDSL|:
 One of the most important considerations is that each mark has a start-time, and end-time and a duration. So it will be important to have a UI that reveals all of these pieces of data for each mark.
 
---- 
+---
 > ####  Hello! This may be considered off topic, apologies in advance: can anyone recommend an alternative to “flow charts” for SwiftUI code? It was great to show non-programmers how the code execution should work. But since SwiftUI depends on state, this goes out the window. And I’m not sure if UML is the way to go either. Any comments would be appreciated, thank you! 
 
 
@@ -1244,7 +1245,7 @@ Thanks, yeah. The folks in here are more focused on the design side of things, s
 |U03J21EKNSE|:
 Copy, understood! Thanks for your time, and have a good afternoon!
 
---- 
+---
 > ####  With Swift Charts, is it possible to reproduce the scrollable chart we find in Health App (where the chart is updated as we scroll the content)? I know we can use gestures on the chart to highlight some marks, but what about pan gesture?
 
 
@@ -1266,7 +1267,7 @@ I'll thanks!
 |U03H3193G3H|:
 you're welcome, thank you!
 
---- 
+---
 > ####  Will there be some samples on building good-looking Watch Fitness apps like in the WWCD21 Session? I would love some samples showing off the design techniques used in this years Watch Workout app.
 
 
@@ -1276,7 +1277,7 @@ Hi <@U03KJSLF04Q>. Very much agree that the new Workout app is quite inspiring. 
 |U03KJSLF04Q|:
 Would love that!
 
---- 
+---
 > ####  What's the best way to design crown rotation behavior in my app? I found it hard to replicate the smooth flipping between different pages for example as the API only gives a float. Are there any samples on well done crown rotation integrations?
 
 
@@ -1295,7 +1296,7 @@ Or WatchKit?
 |U03KJSLF04Q|:
 SwiftUI. Workouts is one example. Like selecting the currently highlighted metric (my implementation works but is not as "satifying" as the Workouts app), but also other views that might implement "pages" themselves.
 
---- 
+---
 > ####  Is it possible to zoom in on a SwiftUI chart? I.e., pinch and zoom to see details closer up? Could you tap on a bar (or other mark) to open a new view, for example, showing a list of the items presented in that bar?
 
 
@@ -1316,7 +1317,7 @@ okay awesome thank you!
 |U03H3193G3H|:
 you're welcome! thank you for the question
 
---- 
+---
 > ####  is there any sense in adding animations to Charts (w/o user interaction) or its a bad practice?
 
 
@@ -1326,7 +1327,7 @@ When used properly, animation can certainly enhance your chart… even when not 
 |U03HBGL2MJA|:
 Note that when adding animation, it’s also important to ensure they adapt as needed for a device’s “Reduce Motion” accessibility setting
 
---- 
+---
 > ####  Is there documentation about all the option types for open ended requests?  I was curious about `Person` in particular
 
 
@@ -1364,7 +1365,7 @@ Siri has built in, baseline NLU for many of these types. For example, for an int
 |U03HJ5M01M0|:
 Similarly, for IntentPerson, Siri has some baseline understanding of what is a first name, what is a last name, etc. Siri will attempt to construct an IntentPerson for you if you do an open ended value prompt for an IntentPerson type
 
---- 
+---
 > ####  Is it still posable to have user inputs in initial Siri request for media requests?
 
 
@@ -1374,7 +1375,7 @@ Good question <@U03JBMMB10A> … <@U03HJ506BGT> is on it
 |U03HJ506BGT|:
 Yes, you can do an open-ended request, disambiguation, or parameter confirmation before completing your intent.
 
---- 
+---
 > ####  I'm wondering what the maximum (sensible) number of values is for a parameter. In my app, users attach notes to people. It'd be great to have a shortcut for "New note for &lt;Person Name"... but an active user could easily have 1,000 or more people in the app that the note could be attached to... which it sounds like isn't the kind of "fixed list" you have in mind?  So... the 20 top favorite people, or similar?
 
 
@@ -1396,7 +1397,7 @@ Reading in the other thread about IntentPerson parameters. For an app that has a
 |U03HJ5M01M0|:
 right now you’ll need to match on name. Please file a feedback request! We’d like to hear about your use case and look into this more
 
---- 
+---
 > ####  Could I create an iOS app that once downloaded from the App Store is never really meant to be opened by the user?  Instead it would include App Intents, and primarily be accessed via Siri with just dialogs &amp; custom snippets?
 
 
@@ -1423,7 +1424,7 @@ You can build that, but if you want to manage your dynamic parameter and people 
 |U03J8GWEFU7|:
 Got it, that makes sense.   I’m just trying to get a mental model for what’s the `minimum viable app` to create for Siri!  This was so helpful
 
---- 
+---
 > ####  How to create a timer shortcut with shorter phrase for our app if the system already have one, for example, Set a timer for 5 mins, how can we tell the system to use our app to setup the timer instead of the system clock app.
 
 
@@ -1445,7 +1446,7 @@ There are a few different types of follow-up requests after the invocation phras
 |U03HJ5M1UV8|:
 But these are distinct from the dynamic parameter that you provide as part of your initial invocation
 
---- 
+---
 > ####  Working on the prototyping team seems like such an incredible thing to be a part of. Can you tell us about your journeys to becoming prototypers at Apple? And what do you look for in potential candidates for your team?
 
 
@@ -1482,7 +1483,7 @@ I was a fresh graduated from ECAL in Lausanne Switzerland, where I studied inter
 |U03JRQ62JQY|:
 Thank you <@U03JGA79CQZ>! That’s super inspiring to read!
 
---- 
+---
 > ####  Hey team! Im curious, when first designing a prototype of a new product, what would you say the ratio is of looks to functionality? Are looks secondary or are they the focus from the get go? Thanks :)
 
 
@@ -1500,7 +1501,7 @@ Do you guys have separate teams for functionality and then a team for looks, or 
 |U03J20E1BPD|:
 <@U03J52JBK0C> haha, sometimes when I’m prototyping/evaluating a feature, I’ll find some unrelated annoyances, and I HAVE TO FIX it.
 
---- 
+---
 > ####  The Fake it Till You Make It Talk from WWDC 2014 was incredibly influential in me becoming a designer (also now have fond memories of toast). What has inspired you to join the Prototyping Team / what continues to motivate you? 
 
 
@@ -1519,7 +1520,7 @@ You can get a set of templates for Keynote <https://keynotopia.com/> or the ones
 |U03J52JBK0C|:
 We’ve used SwiftUI a little bit, yes. We still use Keynote a lot though!
 
---- 
+---
 > ####  How does your team go about quickly prototyping advanced interactions? I have lots of ideas for interactions I want to test but I feel my momentum is burnt out by the time I get everything set up in, say, a SwiftUI project.
 
 
@@ -1529,7 +1530,7 @@ Finding a way to fake it! We talk about this in most of our old WWDC sessions, b
 |U03J52JBK0C|:
 There are ways to fake things with paper printouts, or with clever video capture. But often doing some simple Keynote animations can teach a lot too.
 
---- 
+---
 > ####  What types of products do you prototype, what's the process of making a design, and how many rough drafts do you usually have before finalizing anything?
 
 
@@ -1542,7 +1543,7 @@ Are there differences between the final product hardware and software, or are th
 |U03J52JBK0C|:
 The mindset of a customer, or a person using the product or feature. We collaborate closely with engineering teams that figure out feasibility. Our prototypes help them understand which use cases need to be supported.
 
---- 
+---
 > ####  When creating prototypes, how extensively do you test it? i.e. Is it used only within the direct team or do you take the prototype to broader teams to test as well?
 
 
@@ -1558,14 +1559,14 @@ We always build a prototype to answer questions, so what we're looking for will 
 |U03JE2RK60J|:
 Awesome, thanks for the insight :bulb:
 
---- 
+---
 > ####  What are some of the tools you use for prototyping?
 
 
 |U03HBKARTV4|:
 As far as digital tools I personally use Sketch and Keynote a lot for static/2D interfaces, After Effects for animation, and Swift/UIKit/Core Animation/Metal when I need to make things a bit more real/custom or interface with hardware. But everyone on our team uses different tools and has workflows that work for them.
 
---- 
+---
 > ####  The devs behind one of the ADA winners this year, Not Boring Habits, wrote a really interesting blog post (<https://www.andy.works/words/the-future-of-design-tools)|https://www.andy.works/words/the-future-of-design-tools)> about the future of prototyping/design tools, arguing for a shift from flat tools like Figma to rich, 3D-first tools like Unity and SceneKit. Do you see those tools becoming first-class citizens in a prototypers toolkit in the future?
 
 
@@ -1578,7 +1579,7 @@ If the end artifact is meant to be spatial, then making in 3D is essential too
 |U03J0DULM0V|:
 I'd say there's an underlying principle that the medium that one makes/prototypes in is also a very intentional choice, and should be chosen to best align with the desired end artifact
 
---- 
+---
 > ####  Do you have a shrine to Bill Buxton? More seriously, do you start with paper prototypes and, if so, do you use any tooling to go from them to something digital?
 
 
@@ -1603,7 +1604,7 @@ Thanks for the reminder - I didn't have an iPad capable of running it when first
 |U03J0DULM0V|:
 Ah! I'm excited for you!
 
---- 
+---
 > ####  How do you go about adding \(magic || whimsey || delight) to a prototype? I feel a lot of my designs lack that extra :sparkles: to make a great experience.
 
 
@@ -1613,7 +1614,7 @@ Give yourself time to _not_ worry so much about solving the problem. “What oth
 |Linda D - Design Evangelist|:
 well said :smiling_face_with_tear:
 
---- 
+---
 > ####  What tool would you suggest for rapid prototyping?
 
 
@@ -1623,7 +1624,7 @@ Whatever you're most comfortable with will be what lets you try things rapidly! 
 |U03JL795TE2|:
 Thanks for the feedback <@U03HBKARTV4> :raised_hands:
 
---- 
+---
 > ####  When testing with people, how often do you change the prototype in between sessions, or not at all? i.e picking up issues from the first session and adjusting it before the next session. Is this recommended or should we stick to one prototype throughout?
 
 
@@ -1639,7 +1640,7 @@ It’s usually very limited. We make it look like everything’s there, but only
 |U03J7HT7DBR|:
 Thanks Julian.
 
---- 
+---
 > ####  When you're prototyping new ideas that are likely to meet some resistance (touch bar or dropping headphone jack), what process, if any other than just gut, do you have to decide whether to ship it or kill it?
 
 
@@ -1652,7 +1653,7 @@ Very insightful thanks
 |U03JF56NNBW|:
 Cool
 
---- 
+---
 > ####  A question about tools: I'm a UX/UI designer who mostly use Sketch and Figma to prototype apps mockup, but recently I have discovered SwiftUI as an alternative to make high fidelity prototypes, do you think it's worth learning to program just enough to prototype better? Which tools your team use?
 
 
@@ -1665,7 +1666,7 @@ Alberto, you just described the founding philosophy of Meng To over at <https://
 |U03HBKARTV4|:
 Haha, the question of "should designers learn to code" is an eternal one... long answer short, I think code should be seen as one more tool in your toolbox. If you feel like it might let you make things you couldn't make otherwise, and you're drawn to it, then go for it! SwiftUI is the easiest to learn it's ever been :slightly_smiling_face: And Meng's website is great!
 
---- 
+---
 > ####  MagicMove in Keynote lets you prototype a lot of simple animations - do you have preferred animation prototyping tools?  One of my gripes about most "modern" tools is they stop short of helping with animation handover or code generation, if they have any animation at all.
 
 
@@ -1685,7 +1686,7 @@ I understand and commiserate with your gripes about modern animation tools thoug
 I'm a big fan of <https://createwithflow.com/> who generate code from visually-designed animations.
 Supernova Studio was another doing similar things but they pivoted off to _design system management_
 
---- 
+---
 > ####  How long does it usually take from the first in hand prototype to the final polished version?
 
 
@@ -1698,7 +1699,7 @@ Because we’re often working with new hardware features: Years! The shortest tu
 |Linda D - Design Evangelist|:
 I believe our official answer is "you may ask but Julian can't respond" :stuck_out_tongue:
 
---- 
+---
 > ####  Hi there! It's really nice to meet the prototyping team. Do you have any tips on prototyping? (best practices, stages of prototyping, and anything else you would consider important)
 
 
@@ -1725,7 +1726,7 @@ Yeah, thank you for this great advices!
 |U03JRP87THN|:
 I really appreciate it. Having the opportunity to talk to Apple’s Prototyping team is amazing!
 
---- 
+---
 > ####  Do your prototypes sometimes lead to product ideas that Apple pursues, or is the context of your prototyping often within the confines of product ideas that already exist?
 
 
@@ -1738,7 +1739,7 @@ Ah, that’s very interesting! And when prototyping new products, is that someth
 |U03J52JBK0C|:
 Both. We pursue things that we think might be interesting, but we’re also keeping tabs on the possibilities that interest partner teams that are asking for our help.
 
---- 
+---
 > ####  What is the collaboration dynamic between the prototyping team and Design / Eng partners?
 
 
@@ -1751,7 +1752,7 @@ If you're able to speak about it, I'd be interested to know if either of these r
 |U03EBH4MA8Y|:
 <@U03JENY84QH> Funny enough, this just got answered in the thread immediately above you! <https://wwdc22.slack.com/archives/C03H77GM1NW/p1654795791726889>
 
---- 
+---
 > ####  I often find that because there are so many considerations to make for a design to be truly great, that can hamper my creativity and almost block me from making progress. Do you deal with similar things, and if so, how do you manage to stay creative and keep going?
 
 
@@ -1767,7 +1768,7 @@ That’s both reassuring and inspiring to read. Thanks <@U03HBKARTV4>!
 |U03JRQ62JQY|:
 That’s a really great idea, <@U03J0DULM0V>! I suppose it’s also about sometimes just going with the flow and then reviewing and adapting the work to feedback and design principles afterwards.
 
---- 
+---
 > ####  Are there any good WWDC sessions on prototyping past or present you’d recommend?
 
 
@@ -1795,7 +1796,7 @@ And gasp! Here it is again: <https://developer.apple.com/wwdc14/223> cc <@U03J23
 |U03J23RAFK4|:
 Thanks! Added it to my bookmarks. :smile:
 
---- 
+---
 > ####  how does your design process look like? Do you take part in problem define, before you start work on some ideas? Thanks!
 
 
@@ -1808,7 +1809,7 @@ We can fit both types of process into the cycle we describe in our WWDC sessions
 |U03JKSQ9D7Z|:
 sounds great! thanks
 
---- 
+---
 > ####  Thanks for this Q/A and congrats on all the work being released this week. Part of my day to day work is taking prototypes and being able to communicate findings to groups and teams that may not have an interest in them (yet..). If you're able to share high level insight - I'm curious how the findings from your prototypes are communicated (format, findings, risks) to external teams or even execs. To some extent the prototype itself carries this weight, but in cases where not and in person communication is infrequent - I'm curious how your team tackles this :)
 
 
@@ -1821,7 +1822,7 @@ The nice thing about a prototype that _appears_ high-fidelity is that it lessens
 |U03JRUP5YP2|:
 Thank you - that's a nice answer and an excellent point on minimizing assumptions.
 
---- 
+---
 > ####  How do you come up with an idea of a product? For example, do you do brainstorming sessions? And how do you transform an idea into a prototype?
 
 
@@ -1834,7 +1835,7 @@ Thank you very much!
 |U03JRP87THN|:
 I really appreciate your advice.
 
---- 
+---
 > ####  How has your workflow &amp; design reviews changed in a WFH world? What have you found works well for collaborating remotely?
 
 
@@ -1853,7 +1854,7 @@ I like how it gives more opportunity to make real life situation prototypes, bec
 |U03JGA79CQZ|:
 It forces you to stay even more connected with your teammates, to make sure you share regularly about the work
 
---- 
+---
 > ####  How do you prototype Siri experiences?
 
 
@@ -1866,14 +1867,14 @@ Thanks <@U03J52JBK0C>!  Do you use human VO in place of Siri in prototypes? Or d
 |U03J52JBK0C|:
 For our purposes it is better if it sounds like Siri. Mac’s “Speak selection” is very useful for this.
 
---- 
+---
 > ####  Hey! Firstly, it’s truly an honour to speak with this team and thank you for making products that impact each and every one of us each day :D As for my question, I would love to get better at design User Interfaces. What are the benefits of Sketch/Figma/etc. and would you recommend their usage? Thanks!
 
 
 |U03HBKARTV4|:
 Sketch and Figma are two popular tools for UI design and prototyping, but ultimately they're just tools - they won't give you magical results on their own. If you'd like to get better at designing UIs and you're starting from scratch I'd encourage you to focus more on things like layout, type, color, interaction patterns (the Apple HIG is a great place to get started on those topics as they specifically pertain to Apple platforms! <https://developer.apple.com/design/human-interface-guidelines/>) than focusing on a specific tool.
 
---- 
+---
 > ####  I saw Julian mention the process of 'Make things, Show them to people, Learn from their feedback' and I was wondering if you've ever had a product that's had little to no changes after feedback? A product thats a hole in one? And how much does the product usually change after feedback?
 
 
@@ -1889,7 +1890,7 @@ Things change a lot between our first conception of it and what makes it out the
 |U03HMEA0C4X|:
 Thanks for this insight, and thanks for these amazing products!
 
---- 
+---
 > ####  What are some philosophies that the team adheres to when designing and prototyping things? :D
 
 
@@ -1923,7 +1924,7 @@ For example:
 |Linda D - Design Evangelist|:
 <@U03HVE4TV8E>!!! You will absolutely need to show this to us on Twitter when you do
 
---- 
+---
 > ####  Favorite books?
 
 
@@ -1936,7 +1937,7 @@ I always like The Humane Interface and The Design of Everyday Things. Been re-re
 |U03HUQAAWEB|:
 Interesting
 
---- 
+---
 > ####  How much individual work vs collaboration do you do? Do you work together within a document, or work independently and then present that work for feedback?
 
 
@@ -1949,7 +1950,7 @@ It helps us build a joint understanding of what a project is, even if it’s mos
 |U03J52JBK0C|:
 Some folks on the team prefer being in collaborative documents 100% of the time. Others will just bring their individual work to design review.
 
---- 
+---
 > ####  Is there ever a time where you have to stop and refocus the vision or design? Like, if too many new ideas have been added and the original focus has been lost?
 
 
@@ -1962,7 +1963,7 @@ Yes absolutely. When that happens we typically try to focus on what it was that 
 |U03J52JBK0C|:
 Yeah the latter part of Guillaume’s answer was the second part of what I was going to say. If we pause a project it’s because we feel we’ve thoroughly explored a space and we just haven’t hit on what feels great.
 
---- 
+---
 > ####  You mentioned not being too rigid on your team and often times working on things in the span of several years. Do you have any rituals as a team to stay connected and get into a "let’s make some awesome things!" mode?
 
 
@@ -1987,7 +1988,7 @@ We'll have smaller, more focused meetings for individual projects. The goal for 
 |U03JZNY81L0|:
 I with you on keeping things small… let’s just say that’s a rarity in my experience :unicorn_face:
 
---- 
+---
 > ####  Hello again, and thanks for your time! I am looking for general design guidelines on building out visuospatial metaphors in a 3D + AR environment. I have a project, <http://github.com/tikimcfee/LookAtThat|github.com/tikimcfee/LookAtThat>, that renders and visualizes an entire code base at once, but there's just so much to see, it gets cluttered and overwhelming! I would really appreciate some time to talk and think about what kinds of things can be presented, hidden, animated, and made otherwise visually appealing for users, such that the tool is less burdensome, and more useful. Cheers!!
 
 
@@ -2003,7 +2004,7 @@ Thank you once, twice, and thrice! I’ll make sure I’m signed up ASAP :smiley
 |Linda D - Design Evangelist|:
 cc <@U03HBHWCB4N> ^
 
---- 
+---
 > ####  What are some non-digital sources of inspiration for each of ya? Books, music, art, something that you aspire to perhaps.
 
 
@@ -2025,7 +2026,7 @@ To answer the last part, "something you aspire to perhaps" I aspire to make thin
 |U03JRUP5YP2|:
 Oof poetry is a good one and not often an answer to such a question - maybe applied to UI copywriting ha?
 
---- 
+---
 > ####  How accurately does the original design idea translate to the prototype? Are there many changes? I saw Jony Ive say that the best ideas come from conversation, does that continue through the prototype stage?
 
 
@@ -2035,7 +2036,7 @@ The purpose of prototypes is to help advance the conversation. Instead of going 
 |U03J52JBK0C|:
 Which is to say, we often find the things we think are interesting change dramatically once we have a few prototypes in front of us. And we have conversations about that!
 
---- 
+---
 > ####  Do you differentiate between designing user interfaces and prototyping? Are they related or separate focuses?
 
 
@@ -2060,7 +2061,7 @@ I’m not sure we’re necessarily doing _more_ — the final user interface des
 |U03J23RAFK4|:
 Thanks for the clarity!
 
---- 
+---
 > ####  Have you ever had to build a new tool in order to design a new experience? Do you ever use custom or internal prototyping tools that apple makes?
 
 
@@ -2070,7 +2071,7 @@ Yes! And yes! The “tools” are a lot rougher than you might have in mind, but
 |U03J52JBK0C|:
 We build what’s necessary to try the specific things we want to try. We try really hard to stay away from prematurely abstracting. It’s too easy to accidentally become a framework engineer or tools engineer when we really were just trying to try something out.
 
---- 
+---
 > ####  I noticed you said that a destructive action should be on the left and red text. I never knew that - where is this sort of thing in the HIG?
 
 
@@ -2080,7 +2081,7 @@ Ooops, should’ve responded with a reply. :wink:
 |Mike S - from Design Evangelism (Apple)|:
 Hey Dan, we have writing guidance sprinkled around the HIG in various locations. This guidance is on the Alerts page: <https://developer.apple.com/design/human-interface-guidelines/components/presentation/alerts>
 
---- 
+---
 > ####  Other than users and learners, any other suggestions for referring to the people using our apps?
 
 
@@ -2096,7 +2097,7 @@ We try to avoid the word “users” when we refer the people who use our apps, 
 |U03K6K2J79P|:
 Thank you! That is very helpful :relaxed:
 
---- 
+---
 > ####  Are there any examples of combining different tonalities within one app? Or should one just stick to one?
 
 
@@ -2121,7 +2122,7 @@ Hmmm - I guess I’m still struggling with tone vs voice - Carrot weather has in
 |U03JSLQRRP0|:
 I don't think these rules apply to Carrot Weather App :joy:
 
---- 
+---
 > ####  How do you see the different roles of the HIG's writing guidance, and the Apple Style Guide (<https://help.apple.com/applestyleguide/#/apsg1eef9171)?|https://help.apple.com/applestyleguide/#/apsg1eef9171)?> Is the style guide more for contexts outside of apps and long form writing?
 
 
@@ -2143,7 +2144,7 @@ Think about this balance for your app, too. How can your app have clarity and co
 |U03JELQLESV|:
 I think the ASG should be more visible! For some reason it's hidden from search engines.
 
---- 
+---
 > ####  Great session! So many useful tips I am 100% gonna apply to my apps. Just wondering though, would you recommend Onboarding for apps? I’ve heard before it interrupts the user’s usage of the app, but I’ve also heard that it makes users feel more welcome. What do you think? Thanks :grinning:
 
 
@@ -2185,7 +2186,7 @@ Oooh off the cuff it's hard to give specific feedback over Slack. If you have ti
 |U03HVE4TV8E|:
 Ooooh I didn’t know there was a lab happening tomorrow! Thanks :D
 
---- 
+---
 > ####  Thanks for amazing advice! I wonder what the arrangement for options in an alarm means. For example putting major option on the left or top. Is it recommended to change the order, e.g. from major-on-left to major-on-right, for languages using different reading order?
 
 
@@ -2198,7 +2199,7 @@ Also this video: <https://developer.apple.com/wwdc22/10034>
 |U03JERVQBFX|:
 Thank you for answering! Such fun designing for different cultures.
 
---- 
+---
 > ####  For full screen modals with no interaction, is Apple's preferred dismiss control an X in a circle in the top right corner (as is referenced in the Explore Navigation Design for iOS talk) as opposed to a grab style control at the top middle (indicating to pull down to close)?
 
 
@@ -2220,7 +2221,7 @@ Omg I LOVE that this is in the HIG now!! I literally have sent in at least 100 b
 |U03HMCT187R|:
 It is interesting however there seems to be a bit of conflict with close buttons moving to the right recently (Safari, sheets with X instead of Cancel) :thinking_face:
 
---- 
+---
 > ####  If you add a new feature to an app, is it a good idea to showcase that new feature when the user does a certain action (i.e. completes a task etc.) or is that bad user experience as you’re interrupting their session? Thanks :grin:
 
 
@@ -2230,7 +2231,7 @@ This goes back to context. If that feature is relevant or helpful at that moment
 |U03HVE4TV8E|:
 That’s great, thanks :blush: 
 
---- 
+---
 > ####  Seems common for interface copy to be too verbose before it's edited down. Are there examples that come to mind where the UI was the opposite, too terse and needed more explanation?
 
 
@@ -2243,7 +2244,7 @@ Think about when you tell a server at a restaurant that you want a certain dish,
 |U03HWQ6F9A5|:
 Love that metaphor <@U03HJ5LRUEN>. Another thing we do often is link out to support articles for people who want to learn more about a particular subject. That way the information is there if you need, but it's not in the way.
 
---- 
+---
 > ####  What would be the best way to dismiss a full screen modal that has content? Would it be a button along the lines of ‘Done’ at the bottom, or is it still a cross in the top right as mentioned earlier?
 
 
@@ -2265,7 +2266,7 @@ Yes Austin, generally not a good idea to position controls at the bottom of mac 
 |Mike S - from Design Evangelism (Apple)|:
 Also, check out: <https://developer.apple.com/videos/play/wwdc2022/10001/>
 
---- 
+---
 > ####  Any tips on how to position elements so as to help with functionality and design?
 
 
@@ -2278,7 +2279,7 @@ Keep other text brief and easy to read. Rather than a big block of text, can you
 |U03JRQAFUKA|:
 Oh okay, that makes sense. I just have a lot of trouble getting my designs to be both intuitive and aesthetic. I’ll keep that in mind, thank you!
 
---- 
+---
 > ####  Should I still add an ‘Add to Siri’ button to my app with the new SiriKit/shortcuts functionality, or is it completely obsolete?
 
 
@@ -2291,7 +2292,7 @@ I haven't fully looked into the new SiriKit interactions… Does it just mean th
 |U03H3HNAGSK|:
 I think you've essentially got it, but I would watch the App Intents video and the Design App Shortcuts video as well
 
---- 
+---
 > ####  What's the average number of times you edit your Slack messages?
 
 
@@ -2301,7 +2302,7 @@ Many times, sometimes.
 |U03HWQ6F9A5|:
 Too many times to count. :sweat_smile:
 
---- 
+---
 > ####  I’ve found a small mistake in the HIG, where should I report this?  The Feedback assistant doesn’t seem to have a appropriate category
 
 
@@ -2317,7 +2318,7 @@ Typos happen, but I don't think I'll ever in my lifetime see a HIG screenshot ac
 |Mike S - from Design Evangelism (Apple)|:
 Not as long as I’m here <@U03JELQLESV>!
 
---- 
+---
 > ####  Have you ever accidentally shipped out a typo with an OS release?
 
 
@@ -2332,11 +2333,11 @@ Apparently one of original iPhone's important demos to a cell carrier's boss acc
 
 Source: a Computer History Museum interview.
 
---- 
+---
 > ####  Is the Apple Pencil mightier than the sword?
 
 
---- 
+---
 > ####  Sorry for joining so late! I make a photo editing app and I often wonder how I should deal with technical terms. One example that comes to mind are blend modes (screen, overlay, multiply, etc.) as those things are foreign concepts to the average person. Do you recommend sticking to such technical terms and providing explanations via graphics, for example?
 
 
@@ -2358,7 +2359,7 @@ Since it's not aimed at professionals, show it to friends (or strangers) and see
 |U03J20RJQ2X|:
 Thanks a lot the replies! One area of iOS that just came to mind was the blur intensity adjustment in Portrait Mode. Even though it’s a feature that’s not necessarily aimed at pros, it’s using f-stops as an analogy to real life photography.
 
---- 
+---
 > ####  If I want to read the new HIG end-to-end, when should I plan to do that so everything will be in there? I know yall are working on more goodies.
 
 
@@ -2374,7 +2375,7 @@ I think it would be great if it was clearer when there's more minor updates, lik
 |Linda D - Design Evangelist|:
 We're already planning for changelogs in the HIG coming some time this summer!
 
---- 
+---
 > ####  The wonderful crusade against home tabs reminds me of the one you did for hamburger menus many years back. Are there other common app conventions that you see that you disagree with?
 
 
@@ -2426,7 +2427,7 @@ Another one I just thought of: close buttons on the right instead of the left?
 |U03J1UPA8UB|:
 That’s the one that always gets me. Where does one place close buttons?
 
---- 
+---
 > ####  In reference to not creating a "home" tab, what are your thoughts on having "cards" that are overviews of content from a different tab? Would you consider that a duplicate?
 
 
@@ -2439,7 +2440,7 @@ So, if you use cards or have a dashboard like view, try to keep the content rele
 |Adam H (no title)|:
 We’ve seen some apps that have a wide array of Widgets that can be configured like a dashboard. It can be very powerful, especially on iPad. But these widgets would take you to the corresponding tab in the app.
 
---- 
+---
 > ####  when do you recommend hiding the navigation bar when pushing a view? Ex: Apple News: When you open an article, the app pushes the article view and hides the main navigation.
 
 
@@ -2465,7 +2466,7 @@ This is pretty atypical for tabbed apps though
 |U03KA893DUY|:
 got it! Yes I was thinking it can be also be possible to use a modal instead of a push with hidden nav bar
 
---- 
+---
 > ####  I saw in Sarah M's session that there were Places cells with a ... button on their top right side. On what cases should we use such a button?
 
 
@@ -2486,7 +2487,7 @@ If an app must use more than 5 tabs, is an ellipsis the appropriate icon for the
 
 <https://wwdc22.slack.com/archives/C03H77GM1NW/p1654813779763509?thread_ts=1654812948.356689&amp;cid=C03H77GM1NW>
 
---- 
+---
 > ####  Are there resources we can share with more web-minded colleagues. It can be difficult to explain that apps and websites should not have the same navigation design.
 
 
@@ -2505,7 +2506,7 @@ Also more specifically all the content inside "Navigation and search" in the HIG
 |Linda D - Design Evangelist|:
 As well as modality: <https://developer.apple.com/design/human-interface-guidelines/patterns/modality>
 
---- 
+---
 > ####  I saw in the session that there are list section headers that are bold and bigger than normal section headers. In which cases should we use these? Thanks 
 
 
@@ -2515,7 +2516,7 @@ They’re a relative recent change to iOS (last year I think). It’s a matter o
 |Mike S - from Design Evangelism (Apple)|:
 If the list items are visually distinctive, larger section headers might not be needed. But, personally, I think they’re an improvement in all situations.
 
---- 
+---
 > ####  "Home" is such a lazy name for the app's first tab! But the argument that's often given in its favour is that people understand it because that's how the first page is often referred to in web and app design and changing it would mean forcing people to change their already established habits.  Would Spotify / Twitter doing away with the home tab be a risky UI move that could lose them followers or a much needed navigation cleanse?
 
 
@@ -2531,7 +2532,7 @@ I was just thinking that. Maybe instead of “Home” it should just be “Timel
 |Linda D - Design Evangelist|:
 And even web is starting to move away from the "home" concept. I have a feeling it will end up in the same category as having a floppy disk represent "save"
 
---- 
+---
 > ####  In the demo app shown, the Navigation Bar was hidden but the toolbar items was still showing. Is this new in iOS 16?! :blush:
 
 
@@ -2556,7 +2557,7 @@ The image goes behind the navigation bar and it’s optional to remove its backg
 |Sarah M - Design Evangelist|:
 Yes, the background translucency should not be changed or removed on the tab bar. On a navigation bar, it can be an aesthetic choice if it doesn’t hinder the user experience
 
---- 
+---
 > ####  I would love to hear the Design Teams thoughts on Kebab Menus and Floating Action Buttons! (I get a feeling they fall in the same boat as Hamburger Menus and Home Tab Bar Items :smile:)
 
 
@@ -2587,7 +2588,7 @@ btw: I consider SwiftUI more a design than a code challenge… (for the same rea
 |U03JELQLESV|:
 Agree Oliver. I'm not a designer but I've certainly tried to advocate for native look and feel when working with designers on iOS apps, <@U03HBJXV0TY>'s session Essential Design Principles from WWDC 2017 helped clarify my thinking around this.
 
---- 
+---
 > ####  Wondering where "featured" tabs would fall—are they just home tabs with a different name or could they actually be considered useful?
 
 
@@ -2609,7 +2610,7 @@ Recommended &amp; feature articles could be highlighted under the Articles tab, 
 |U03JRQAFUKA|:
 Ah okay, that makes sense! Thank you!
 
---- 
+---
 > ####  I hope it's still fine to ask an unrelated question. I missed the previous Q&amp;As here, there is just so much going on :exploding_head:  I would love to have the design templates available for Affinity Photo and Designer. Is this something you are considering? I guess I should probably file a feedback for that, just thought about it now :innocent:
 
 
@@ -2622,7 +2623,7 @@ Feedback Assistant would be a good next move.
 |U03J4CVE1U4|:
 Awesome, I'm glad to hear it! Actually just submitted one: FB10142299 :muscle:
 
---- 
+---
 > ####  I saw a tweet showing batch editing in the iOS 16 Photos app and apparently it uses a progress indicator at the bottom that reminds me of an Android-style snackbar/toast. Do you have any guidance on this UI element? <https://twitter.com/apollozac/status/1534903049373761537|https://twitter.com/apollozac/status/1534903049373761537>
 
 
@@ -2645,7 +2646,7 @@ So it's not disappearing automatically after the batch edit has completed? I nee
 |Linda D - Design Evangelist|:
 It is disappearing automatically after the batch edit completes, but the reason it appears in the first place is that batch edits take time so it's appropriate for this context
 
---- 
+---
 > ####  In the "Explore navigation design for iOS" session there is an example of a "Profile" Tab which I've seen several apps using, but others like f.e. the Appstore uses Profile as button in the top-right side. Does that depend on the importance of such a Profile screen ? in other words, What makes something to be a "tab-worthy" ?
 
 
@@ -2664,7 +2665,7 @@ Agree with <@U03HBHWCB4N>. Also, if the user needs to access the Profile content
 |U03HMCT187R|:
 Side note I wish the Updates tab were restored in App Store, I check for app updates multiple times a day and read the release notes. Def inefficient to open the profile screen. (Yes I might have a problem :laughing:)
 
---- 
+---
 > ####  Another "heated" topic: where to put the X/close/cancel button - top left or top right? Are there really no guidelines about it? Confuses the hell out me (as a user and developer)
 
 
@@ -2675,14 +2676,14 @@ I’d say that prioritization of the actions on screen are key here, once you ha
 |Linda D - Design Evangelist|:
 <@U03JRNE4KJL> a bit late but your question is answered here: <https://wwdc22.slack.com/archives/C03H77GM1NW/p1654807862947179>
 
---- 
+---
 > ####  It struck me that tab bars and navigation bars are, at least in principle, identical to the original iPhone interaction paradigm. I’m wondering what the biggest difference you’ve seen in navigation is, since that first iPhone?
 
 
 |Sarah M - Design Evangelist|:
 I love this question. I wish I had the time to answer more thoroughly. Here are some thoughts about tab bars and navigation bars: these components and interaction patterns clearly resonated with people. Maybe that was luck, maybe it’s a pattern that reflected our natural understanding of how things are organized and arranged already in the world around us. But they have evolved and modernized while staying true to what ‘just worked’ originally. As people’s comfort with apps grow, new patterns emerge to support new complexity such as sidebar being a solution specific to a new device and form factor
 
---- 
+---
 > ####  Thank you for such an amazing WWDC! I definitely learned a lot this week. One last question from me: what are some books/resources that you would recommend every designer to read for design guidance, creative inspiration, best practices, etc (besides Apple's HIG, of course)?
 
 
@@ -2693,21 +2694,21 @@ For me:
 • <https://www.goodreads.com/book/show/44735.The_Elements_of_Typographic_Style?from_search=true&amp;from_srp=true&amp;qid=Q1DklR77Li&amp;rank=1|The Elements of Typographic Style >– Great typography resource
 • <https://www.goodreads.com/book/show/34473.In_Praise_of_Shadows|In Praise of Shadows >– Lovely essay on aesthetic
 
---- 
+---
 > ####  I lost the description of Stickers and Sticker packs from HIG. Where can I find them?
 
 
 |Mike S - from Design Evangelism (Apple)|:
 <@U03HVBUV0KY> This will be coming back soon!
 
---- 
+---
 > ####  I have heavy use of swipe buttons on different rows of a "tree control". (TableView with lots of different cell types).  I've not found any recent writing on swipe button discoverability but watching people, _average users_ don't seem to explore to see if swipes are available on lists.   Any suggestions on affordances or onboarding approaches? I've thought about an initial animation of sliding things over enough for a button to _peek_ through.
 
 
 |Sarah M - Design Evangelist|:
 Since swipe actions are more for power users, we always recommend that they are _also_ exposed in the detail view. For example, if there’s a delete action on your table cell, make sure there’s a delete action in a toolbar, navigation bar or in-line within the secondary view.
 
---- 
+---
 > ####  Hi, I really enjoyed the session on the new iPad navigation bar for document-based apps. I just did a lab to explore this further - one of the suggestions was to adopt a layout/hierarchy similar to the Notes app.   I wanted to ask if there is any API for the file explorer (lists and grid view) that the Notes app uses. I would like to adopt this in a sidebar as well, and move my document-based app away from a tab controller. Thanks.
 
 

@@ -44,13 +44,23 @@ class ParsableChannel {
             .map { "#### \($0)" }
             .joined(separator: "\n")
             ?? "#### No contributors listed"
+        
+        let externalLinks = populateExternalLinks(for: channel.name)
+        
         return """
         # \(channel.name) QAs
         ### Lounge Contributors
         \(contributorList)
-        ---
-        
+        \(externalLinks)
+        \n
         """
+    }
+    
+    private func populateExternalLinks(for channel: String) -> String {
+        if channel == "swiftui-lounge" || channel == "design-lounge" {
+            return "#### 📓Notion variant 👉 [check it out](https://blog.timing.is/wwdc-22-digital-design-lounge-archive/)"
+        }
+        return ""
     }
 }
 

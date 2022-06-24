@@ -4,9 +4,10 @@
 #### [emin@github](https://github.com/roblack) / [emin@twitter](https://twitter.com/emin_ui)
 #### [shirblc](https://github.com/shirblc)
 #### [tikimcfee](https://github.com/tikimcfee)
----
 
---- 
+
+
+---
 > ####  Why is it not possible to attach a singular workout location or read the one provided by the Workouts app? Something like a Tennis workout. Of course you can add a Workout Route with a singular location, but that's not the same. Thanks
 
 
@@ -29,7 +30,7 @@ Yes. Single location. Try comparing a Run workout recorded with Workout vs a Ten
 |U03KJSLF04Q|:
 StackOverflow with Screenshot: <https://stackoverflow.com/questions/69775617>
 
---- 
+---
 > ####  Is it possible to use the new multi sport workout modes with other combinations than the ones in the Fitness app? For example if I'm building a Tennis app, I might want to add a Stretching segment for warmup, before actually starting the Tennis part. Thanks
 
 
@@ -45,7 +46,7 @@ Here's mine FB10113451 just filed.
 |U03JRQHF7T2|:
 FB10113501 :slightly_smiling_face:
 
---- 
+---
 > ####  Will there be an API to attach Weather to a workout? Some like the Fitness app does? Or is it something that we'd have to do ourselves using the new WeatherKit APIs? What are the metadata keys used?
 
 
@@ -64,14 +65,14 @@ Please file a request for this - you never know!
 |U03KJSLF04Q|:
 FB9724125 filed 26 Oct 2021
 
---- 
+---
 > ####  Is there a recommended way to add app-specific data inside a HKWorkoutConfiguration? I have an iOS app that’s passing a workout configuration to a watch app to start a HKWorkoutSession, but I would like to add some metadata to it that’s specific to my app’s domain (a workout title, a picture url, etc..)
 
 
 |U03HKJ5GQKY|:
 That’s not possible. To pass data from your iOS to your watchOS app you can use the Watch Connectivity framework: <https://developer.apple.com/documentation/watchconnectivity>
 
---- 
+---
 > ####  Will the Medication adherence data in iOS 16 be available to developers via HealthKit?
 
 
@@ -162,7 +163,7 @@ Awesome, thank you all!
 |U03JRQHF7T2|:
 FB10113501 is submitted :slightly_smiling_face:
 
---- 
+---
 > ####  Is there a way to find out how many workouts in total are stored in HealthKit without loading all HKWorkouts?
 
 
@@ -195,7 +196,7 @@ Will do that! Thanks <@U03HJ8YPPDY>
 |U03KJSLF04Q|:
 Here's mine: FB10112328 filed just now
 
---- 
+---
 > ####  will apple ever share its algorithms for calorie counting on various workouts? that would be really cool for app developers so it could be standardized
 
 
@@ -216,7 +217,7 @@ Interesting! Thanks for sharing, I hadn’t considered that.  We’d love a FB f
 |U03HJ8YPPDY|:
 If an app adopts Workout Builder API on watchOS, it will be able to take advantage of Apple’s calorie counting algorithm, and it will be consistent with the Workout app.
 
---- 
+---
 > ####  Is there a way to add Power (Watts) metadata to a workout? I can see it for workouts recorded with GymKit but I can’t find a corresponding HKObjectType
 
 
@@ -230,14 +231,14 @@ Is there anything related for other cardio activities (such as cycling or rowing
 |U03HUHRGN4U|:
 We added a few new data types for running workouts. We do not have anything new for cycling or rowing. If you have some specific metrics in mind for these type of workouts, please file a feedback assistant detailing them.
 
---- 
+---
 > ####  Are the new running stats (like .runningPower) collected and available in real-time to third-party apps that start an HKWorkoutSession with activityType = .running?
 
 
 |U03HUHRGN4U|:
 Yes, the new running metrics are also available for 3rd party applications. If you are using an `HKLiveWorkoutDataSource` attached to a `HKWorkoutBuilder` in your application, the new metrics would be collected by default.
 
---- 
+---
 > ####  Please could you add an api to detect the type of mindfulness session, either breath or reflect?
 
 
@@ -250,7 +251,7 @@ Mark, the FB is FB10112689. Thanks
 |U03HJ7X68HZ|:
 Thanks!
 
---- 
+---
 > ####  Sometimes by HKAnchoredObjectQuery execute later than the ones of other apps, sometimes both execute hours later than the workout. Is there something wrong with my implementation or can I do something to get my background delivery to be as fast as the other apps? How are they prioritised?
 
 
@@ -306,14 +307,14 @@ Thanks for your answer. How the other app is built, I don't know.
 
 I am using both `workoutPredicate` and `sourcePredicate`  so I should only be receiving my workouts from my app. I believe both use HKAnchoredObjectQuery since sometimes the notifications appear at the same time.
 
---- 
+---
 > ####  I'm curious what difference it makes (if any) when specifying that a workout session was indoor or outdoor, say for a tennis workout?
 
 
 |U03HKJ5GQKY|:
 You should make sure to pass in the appropriate location type for each workout, because it can make a difference in how Apple Watch calculates calories and other metrics for the workout.
 
---- 
+---
 > ####  Is there a way to record/get the altitude the workout in HealthKit?
 
 
@@ -335,7 +336,7 @@ This is more of a general request. HealthKit is all about interoperability, but 
 |U03KJSLF04Q|:
 Here's mine FB10113528 just filed.
 
---- 
+---
 > ####  Could you provide an api to access the high elevation environment property of blood oxygen samples ?
 
 
@@ -347,7 +348,7 @@ However, you can get the barometric pressure in the sample’s metadata with the
 |U03HMDLD01M|:
 Thanks Chris. I did already enter a FB the 15 of February 2022. The FB number is FB9907018
 
---- 
+---
 > ####  When an app is using the sync identifier to update an HKWorkout object and an other app is using HKAnchoredObjectQuery to listen for changes, is HKAnchoredQuery supposed to deliver a delete and an insert of the workout in the same update handler invocation ?
 
 
@@ -381,7 +382,7 @@ If you do both of these, you should be able to reliably track changes regardless
 |U03HMDLD01M|:
 Thanks Allan
 
---- 
+---
 > ####  Is there a way to get a list of HKSources sorted in the user's priority order?  There doesn't seem to be a way to provide a sort descriptor to HKSourceQuery or HKSourceQueryDescriptor, and the natural order of the results doesn't match the data source order shown in the Health app. Is there perhaps a less obvious way to get these sorted by priority?
 
 
@@ -399,7 +400,7 @@ That makes sense. Is your goal to compute something that can't be computed by `H
 |U03JJ2ZPFTK|:
 I think so. I just submitted FB10113910, will try to update with some notes on use cases.
 
---- 
+---
 > ####  The fitness app always shows a location for a workout even for indoor workouts. Could you provide an api to access this location ?
 
 
@@ -415,7 +416,7 @@ FB9724128 filed 26 Oct 2021
 |U03HMDLD01M|:
 Thanks Becky W.  The FB number is FB10113190
 
---- 
+---
 > ####  Let’s say I have an app with two separate Health features for which two separate set of reading/sharing permissions must be requested to the user via HKHealthStore.requestAuthorization. The first request asks for permission to only read runningWalkingDistance. The second request asks for permission to additionally write runningWalkingDistance. I experienced frequent cases in which HK gets “confused” by the second request and doesn’t include runningWalkingDistance amongst the requested HKObjectTypes.  Is this a supported scenario?
 
 
@@ -434,7 +435,7 @@ I should probably add that one feature is specific to my iOS app, the second fea
 I had a nice Health lab yesterday with <@U03HUHRGN4U> who suggested me to file a report about this issue and forward it to him. Here it is: `FB10158579`
 <@U03HUHRGN4U> thanks again for your assistance
 
---- 
+---
 > ####  Is there a way to have an HKWorkout + HKWorkoutRoute recorded via a third-party app show a "Splits" table within the Fitness app?
 
 
@@ -453,7 +454,7 @@ Yes, that is also what I was referring to. There is currently no mechanism for 3
 |U03HJ8YPPC2|:
 A feedback would be helpful for this Eric
 
---- 
+---
 > ####  For pool swimming workouts please could you provide an API to access the unit used to enter the pool length? The local of the device is not meaning full, there are pools of 25 yards or 25 meters in the US and there is no way to know which unit was used when starting the workout. Thanks !
 
 
@@ -474,7 +475,7 @@ Not only 33 1/3, I know some older pools here in Germany have less than 25m
 |U03HMDLD01M|:
 I enter a FB on the 20th of November 2017 ! The number is FB5664314. I just updated it now
 
---- 
+---
 > ####  The keynote mentioned that medications could be added to Health via label scanning. Is that built into the Health app? I'm not seeing it in the 'Add Medication' path in Health.  I'm curious if this is available to third party devs in some way.
 
 
@@ -484,7 +485,7 @@ It is built into the Health app, but is only available in the US currently, and 
 |U03J9H0P9MK|:
 Users outside of the US can add medications by typing the medication name, and can also choose to add information like strength and form.
 
---- 
+---
 > ####  Is there a `predicateForWorkouts` for the new multi-sports workouts to select a multi-sport workout?
 
 
@@ -497,7 +498,7 @@ Ah, I was under the impression that these were modelled as their individual spor
 |U03HUHRGN4U|:
 Multisport workout are actually represented by a single workout sample that contains `HKWorkoutActivity` objects inside it. For more information on this I suggest you take a look at our presentation: <https://developer.apple.com/wwdc22/10005>
 
---- 
+---
 > ####  Would it be possible to add a metadata for workouts to indicate that a route is attached to it? Since the sync of the route between the Apple Watch and the iPhone happens after the sync of the workout it would allow to know if we can expect a route for the workout ?
 
 
@@ -510,14 +511,14 @@ Sorry I didn't see the answer
 |U03HMDLD01M|:
 I posted again this question 
 
---- 
+---
 > ####  Would it be possible to enable 3rd party apps to trigger an HRV reading?  My app currently instructs users to use the Mindfulness App to take a morning HRV , but it's not great from a support standpoint having to explain to users that they have to use another app to be able to use mine.  I can file a Feedback as well.
 
 
 |U03HJ8YPPC2|:
 That is not currently possible, but yes, we’d love a Feedback.
 
---- 
+---
 > ####  Are there plans for HealthKit to be available on iPadOS?
 
 
@@ -544,7 +545,7 @@ All interesting ideas! Thank you so much for sharing.
 |U03JCC3UM6G|:
 I also filed a feedback: FB10160510
 
---- 
+---
 > ####  Hello. Is there a way we can import lab results or vaccinations results for organizations and labs that aren’t yet supported out of the box? i.e. those which are out of the US. Are there any standards which HealthKit is expecting?
 
 
@@ -566,14 +567,14 @@ In the US, Canada and the UK these labs would flow down to the phone via the Cli
 |U03JPJ277SQ|:
 Yeah I’m aware. I was trying to replicate a similar feature for another country.
 
---- 
+---
 > ####  What is a good way when you want to create an app that only adds a small but useful feature to the existing workout app? Extensions for this would be very useful. But what APIs could be used so that the user has the most similar as possible experience as when using the built in workout app
 
 
 |U03HJ8YPPDY|:
 That’s an interesting idea. We would love to get a Feedback ticket with a bit more details on what you’re trying to build.
 
---- 
+---
 > ####  Is it possible to store custom activities in health kit ? (e.g. sports / activities that are not currently listed )   Thank you for keeping the Ask A Question open, it makes a real difference to Devs in different timezones.
 
 
@@ -590,7 +591,7 @@ SwimBikeRun workouts can only contain activities of types Swimming, Cycling, Run
 |U03JG3QTSGL|:
 Thanks again will file a feedback for that too.  Keep up the great work with the changes to health+fitness :)
 
---- 
+---
 > ####  When the watchOS version does not match the iOS version, the workout data generated on the watch cannot be synced to iOS. Can this problem be improved？  Almost every time iOS and watchOS upgrade, I get a lot of user feedback.
 
 
@@ -599,7 +600,7 @@ Thanks for bringing this to our attention! We would like to understand more abou
 
 We don’t know of a situation where mismatched versions would cause sync failure, so we would definitely welcome a feedback assistant with logs from both devices, both with the Health Logging profile installed.
 
---- 
+---
 > ####  What are the requirements to handle health related data on the server? For example, if I want users to be able to upload their metrics like heart rate, blood pressure, etc. on the cloud so that data can be synced across devices, and to be able to send this information to other users (like physicians)?
 
 
@@ -620,7 +621,7 @@ What if i were to use AWS for example? Just a normal AWS Datastore
 |U03HLLFBYUD|:
 I’m afraid that is not something we can give advice on beyond what’s in the App Store guidelines.
 
---- 
+---
 > ####  Are there going to be updates for ResearchKit, especially getting it from Objective-C to Swift etc? We haven't seen a lot of updates, it has been challenging to customize!
 
 
@@ -629,7 +630,7 @@ ResearchKit is continuously under development and modernizing the framework for 
 
 Also, we definitely encourage you to file an enhancement request via Feedback Assistant (<https://feedbackassistant.apple.com/>).
 
---- 
+---
 > ####  Critical drug-drug interactions: Do you think it would make sense to implement a solution that does list pharmacokinetic interactions and how would you advise me to proceed to implement this e.g. with Health Records in HealthKit?  I understand from your WWDC22 keynote presentation that you already plan to implement critical drug-drug interactions (based on Elsevier data?). There is another highly trustworthy drug-drug interactions data source with an open API here in Zurich/Switzerland originating from the university hospital USZ and my idea would be to use this data in a native app on the iPhone/iPad for MDs (to check the risk of adverse drug events): <https://epha.health/docs/summary/en/|https://epha.health/docs/summary/en/>
 
 
@@ -643,7 +644,7 @@ In addition to API availability, I'd like to mention one thing based on your ide
 |U03JEAD3SQ7|:
 :pray: Great to know, thank you. My idea would then eventually better be tested/implemented in the context of CareKit. Questions: What would be my engineering point of view options/guidelines if I would start working on this with the crazy idea that part of my effort might eventually help making the above mentioned “USZ database” ending up in a Swiss based version for medication features (medication interactions) which is currently only available in the US? Or simply put: what can a local independent contributor (Indie) best do to help make an US only feature also available in Switzerland? Is there a formal process that non-employees can contribute to making US only features available outside the US, e.g. in Switzerland? (the US and the Swiss Health system have a lot in common, behind the US, Swiss is 2nd country in terms of health expenditures/capita and also, there are some large local hospitals which are in the process of implementing Epic).
 
---- 
+---
 > ####  How I can get into the Health app featured feed?
 
 
@@ -656,7 +657,7 @@ Follow our best practices in this link. There is also a “Contact Us” button 
 |U03HJ8YPPC2|:
 Please call our in your message to the team which Health datatypes you read or write to HealthKit.
 
---- 
+---
 > ####  The new Health feature to enter medications is very nice, but if a person has imported Medications from Health Records, does he/she have an option to also include those as Health medications with timing, alerts, etc?
 
 
@@ -675,14 +676,14 @@ My provider uses Epic but has not on-boarded for Health Records, so this is diff
 |U03HLLFBYUD|:
 Yes, the sample organizations in the Simulator have medication data, you can test with these.
 
---- 
+---
 > ####  Related to the location for indoor workouts from earlier today, I also filed a feedback (it was also mentioned I should in the session I had today).  Here is the number: FB10141594 I also found my old feedback with the same topic: FB9810882
 
 
 |U03HJ8YPPC2|:
 Thank you!!
 
---- 
+---
 > ####  Is there a recommended way to fill simulators with test workout data?
 
 
@@ -698,14 +699,14 @@ Hope that helps!
 I wrote a small app to transfer real workouts I recorded with my device to the simulator.
 It uses a custom file format. Maybe it helps you: <https://github.com/andre0707/WorkoutTransferer>
 
---- 
+---
 > ####  Is it possible to open Health from my app using a deep link to a specific item, e.g. Steps?  If my app uses Steps (and other) as a health measure, I don't want to have to duplicate Health trends and graphics, but link into Health for detail.
 
 
 |U03J27DJHA5|:
 It’s not currently possible, but please file an enhancement request in <https://feedbackassistant.apple.com|Feedback Assistant>!
 
---- 
+---
 > ####  Do you have recommendations for how to best communicate with the user about cases where they may have denied the app read permission to HealthKit? I'm concerned that my users might be confused if they deny read permission in error and no data is shown, but since apps can't determine if a user has granted or denied read access, I can't really detect that to help them out.
 
 
@@ -726,7 +727,7 @@ Yeah, it’s a good question.  I think if there is an opportunity to show the us
 |U03J1TRADJ7|:
 Related to that, is there a way to deep-link into the health privacy section of the Settings app? For other settings I’d use ``UIApplication.openSettingsURLString`` but since health permissions aren’t shown there I’ve been looking for another way.
 
---- 
+---
 > ####  I didn’t see where and how you can customize the heart rate zones? Is there an api to access the settings of the heart rate zones?
 
 
@@ -772,21 +773,21 @@ FB10160673
 |U03HMDLD01M|:
 <@U03H90WC03Z> we trust you for providing this feature request ?
 
---- 
+---
 > ####  Hello the sync of a workout between the Apple Watch and the iPhone is not atomic. Would it be possible to have a metadata in the workout which indicates if a route is or will be attached to it?
 
 
 |U03HS66Q399|:
 Thanks for bringing this to our attention! Would you be able to file a feedback assistant for this enhancement request? We are interested in how you would use this information, so please do highlight that in the feedback assistant as well.
 
---- 
+---
 > ####  My fitness app supports most of the Apple Health workout types.  It appears that the HKLiveDataSource will automatically generate the samples that make sense for the workout type (e.g. distance samples for running workouts). Is that always the case or should I always specifically enable collection of samples I'm want for the workout type?
 
 
 |U03HUHRGN4U|:
 When initializing an HKLiveDataSource, it will always automatically be configured with the default data types the watch will generate during that workout session. You can then customize the data source by adding or removing types, but that is not necessary if you just want the default behavior.
 
---- 
+---
 > ####  Using the new HKWorkoutActivity, is it possible to have a walk/run workout where some HKWorkoutActivity have an activity type of running and others have an activity type of walking?
 
 
@@ -799,7 +800,7 @@ Feedback: FB10138636
 |U03H90WC03Z|:
 Great! Thank you!
 
---- 
+---
 > ####  Is it possible to deep link to the Apple Health permissions for my app? Right now I need to direct users to it with a somewhat complicated set of instructions.
 
 
@@ -812,7 +813,7 @@ FB10160130. A common support request resolution requires a user to navigate to t
 |U03J27DKK97|:
 Makes sense.  Thanks so much for the feedback!
 
---- 
+---
 > ####  Currently, 3rd party sleep trackers can write "In Bed" and "Asleep" data but can't write data for sleep stages (REM, Deep, Light). "Will 3rd party apps be able to write sleep stage data in iOS 16?
 
 
@@ -821,7 +822,7 @@ Yes, more granular sleep stages will be available to read and write in iOS 16! P
 
 <https://developer.apple.com/videos/play/wwdc2022/10005/>
 
---- 
+---
 > ####  I tried several time to query for vo2Max samples in my watch application but all my queries yield no result. The same query on iPhone returns the expected samples. Is this an intended behaviour?
 
 
@@ -838,7 +839,7 @@ Is there any way to know how much this subset spans, programmatically?
 You want the earliestSampleDate API on HKHealthStore
 <https://developer.apple.com/documentation/healthkit/hkhealthstore/1614166-earliestpermittedsampledate>
 
---- 
+---
 > ####  Is there a way to read any current respiratory data during workout?
 
 
@@ -848,7 +849,7 @@ That isn't currently possible. Apple Watch can measure respiratory rate during s
 |U03JH7SG139|:
 <@U03J9H0P9MK> thank you)
 
---- 
+---
 > ####  Hi! I'm trying to implement HealthKit background delivery on my app and I'm getting an error where the HKObserverQuery updateHandler is getting fired twice in a row: <https://developer.apple.com/forums/thread/707869|https://developer.apple.com/forums/thread/707869>
 
 
@@ -869,21 +870,21 @@ We would love to make the experience better for you; please do file feedbacks wi
 |U03JPC7UH9D|:
 Thanks! I’ll file a feedback :hugging_face:
 
---- 
+---
 > ####  Is there going to be a mapping or property of HKWorkout to the new fitness SFSymbols?
 
 
 |U03HJ8YPPC2|:
 Great idea! Could you file a <http://feedbackassistant.apple.com|Feedback> for such an API?
 
---- 
+---
 > ####  When using HKLiveWorkoutBuilder, does the heartRateRecoveryOneMinute sample get attached to the workout when automatically generated? If so, how can I later retrieve it?
 
 
 |U03H90WC03Z|:
 They are not associated with the workout since it’s generated post workout. The best way to get it is to query for heart rate recovery samples later and match based on timestamps.
 
---- 
+---
 > ####  Hi! I have a question about heart rate variability and respiratory rate. Is it possible to collect current or live values of this types of measurements on Apple Watch, maybe during Workout? Or is there a way to initiate this data collection sessions by a specific schedule and get this data later from HealthKit?
 
 
@@ -902,14 +903,14 @@ your app can read Respiratory Rate that was written to HealthKit after a sleep s
 |U03HVD9QKHU|:
 Thanks! There are more and more devices doing something during sleep to improve it.Would be perfect to get data when you actually can impact sleep and not the next morning. I know, FB.....
 
---- 
+---
 > ####  Hello again! I had asked earlier about the dark backgrounds used in the workout maps, and the possibility to choose a light background (easier to read!). The change happened after Dark Mode was introduced, and users don’t have options to go light/dark; just dark/satellite view. I asked the same question in the Maps lounge area, and Maryna S (Apple) thought it would be best suited for this discussion area. Still hoping someone in this area will be able to suggest a path forward! Have a good day/weekend.
 
 
 |U03KCE3N7EV|:
 Since the entire app is effectively dark mode all the time, Maps inherits that behavior. We always welcome feedback, so please file a request to have a light mode for the Map.
 
---- 
+---
 > ####  Hello! A few years back, the maps shown with outdoor workouts were placed in a light background. Once Dark Mode was available, the background went dark, and the only other option is to see a satellite view. Is there a way to give the user the option of using a light background? Thanks for your time!
 
 
@@ -922,7 +923,7 @@ THANK YOU! I was not aware of this area! It’s great to be able to actually see
 |U03J21EKNSE|:
 I hope you won’t mind, but I think I will send a feedback mentioning it would be good to add a “light background” to the “dark background/satellite” options. It would be good to have it as an option, and not have to hunt for a separate display.
 
---- 
+---
 > ####  What are the requirements to display the distance in the Fitness app for a recorded workout? Are there only specific workout types showing the distance?
 
 
@@ -933,7 +934,7 @@ Even if the `HKWorkout` has associated distance samples, only certain workout ty
 
 <https://developer.apple.com/documentation/healthkit/hkworkoutbuilder>
 
---- 
+---
 > ####  What types of live data can you get during workout besides .heartRate?
 
 
@@ -946,7 +947,7 @@ Thank you
 |U03J21EKNSE|:
 Can this be used to gather information in apps that are not directly related to Workouts? Thanks for your time.
 
---- 
+---
 > ####  Hi, is it possible to retrieve (evaluate) the CMDeviceMotion as a non-health app while the Watch display is off or the Watch app is in the background? If not, are there any plans to make this possible?
 
 
@@ -965,21 +966,21 @@ Yeah, that makes sense. I can’t think of a way to do that currently.  This wou
 |U03JEMUM2DP|:
 Thanks :heart: I’ll file a feedback
 
---- 
+---
 > ####  Any chance HKLiveWorkoutBuilder would make it to iPhone? It would be great for distance tracking, active calories, etc.
 
 
 |U03HJ8YPPC2|:
 We’d love to hear more about your use case, and file a <http://feedbackassistant.apple.com>
 
---- 
+---
 > ####  Is there any trick to getting `HKWorkoutEventType.segment` events generated by our app to show up in the Fitness app? It appears only Apple-generated events appear there.
 
 
 |U03JW9X1AAE|:
 Currently, Fitness will only display segments recorded via the Workout app. However, this is a good idea; please <http://feedbackassistant.apple.com/|file a feedback>
 
---- 
+---
 > ####  If I open the Health app, go to the "Browse" tab and select activity and for example Workouts, it lists a couple of third party apps there. How are these listed apps picked?
 
 
@@ -990,7 +991,7 @@ Follow our best practices in this link. There is also a “Contact Us” button 
 
 Please call out, in your message to the team, which Health datatypes you read or write to HealthKit.
 
---- 
+---
 > ####  In the Health App, Cycle tracking, Factors section, is it possible to add additional factors to the list ?
 
 
@@ -1011,7 +1012,7 @@ If you can put this in a FB that would be helpful <http://feedbackassistant.appl
 |U03JG3QTSGL|:
 Will do Chris, thank you.
 
---- 
+---
 > ####  Will a third party Apple Watch running app generate a v02 max sample automatically if the user does a long enough run? Does the app need to configure anything?
 
 
@@ -1022,7 +1023,7 @@ It can take at least 24 hours wearing Apple Watch, followed by several workouts 
 
 Health uses the following information to estimate cardio fitness, which users can enter through Health Details in the Health app: Sex, Date of Birth, Height, Weight, and medications that might affect heart rate.
 
---- 
+---
 > ####  I noticed that some apps are able to plot elevation over distance charts from HealthKit location data. I've tried to do this but when I access a workout route I get access to the underlying locations which contain a date. This makes it possible to do elevation over time but not revelation over distance.  Do you have any tips on how this can be achieved?
 
 
@@ -1041,7 +1042,7 @@ Ahh I’ve seen they’re wrapping up questions atm so mine might still get answ
 |U03JW9X1AAE|:
 <@U03JRP69BC0> the elevation gain question was answered here <https://wwdc22.slack.com/archives/C03H4A4BM4M/p1654882657603589>
 
---- 
+---
 > ####  If I want the complete distance of the swimBikeRun workout, what's the best way to get it?  Something like this?  ``` var distance: Double = 0                 for workoutActivity in workout.workoutActivities {                     distance += workoutActivity.allStatistics[HKQuantityType.quantityType(forIdentifier: .distanceSwimming)!]?.sumQuantity()?.doubleValue(for: .meter()) ?? 0                     distance += workoutActivity.allStatistics[HKQuantityType.quantityType(forIdentifier: .distanceCycling)!]?.sumQuantity()?.doubleValue(for: .meter()) ?? 0                     distance += workoutActivity.allStatistics[HKQuantityType.quantityType(forIdentifier: .distanceWalkingRunning)!]?.sumQuantity()?.doubleValue(for: .meter()) ?? 0                 } ```
 
 
@@ -1055,7 +1056,7 @@ distance += workout.statistics(for: .distanceWalkingRunning)?.sumQuantity()?.dou
 ```
 
 
---- 
+---
 > ####  How is live running pace calculated? Is there any way to calculate it and display as accurately as on the workout app? Mine seems to jump around a huge amount!
 
 
@@ -1067,7 +1068,7 @@ Also in iOS 16/watchOS 9, we now have a running speed data type. So that may be 
 |U03HJ8YPPC2|:
 <@U03JA19544B> we saw you had a similar question where this answer may help.
 
---- 
+---
 > ####  How is elevation gain calculated in the Apple Watch please? When I try and compute this myself (taking any positive differences in elevation) the number is ~100x higher than Apple's workout app. It would be nice if this was a metric that was provided
 
 

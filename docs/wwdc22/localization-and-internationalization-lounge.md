@@ -4,9 +4,10 @@
 #### [emin@github](https://github.com/roblack) / [emin@twitter](https://twitter.com/emin_ui)
 #### [shirblc](https://github.com/shirblc)
 #### [tikimcfee](https://github.com/tikimcfee)
----
 
---- 
+
+
+---
 > ####  Sometimes there is a difference in font size(width/height) between LTR and RTL , how can we make this better?
 
 
@@ -45,7 +46,7 @@ Thank you!
 |U03HW7PE3SM|:
 To be clear, Hebrew does _not_ use a different line height compared to English. It does, however, use a different UI font, which is why you're seeing this difference, as it is difficult to perfectly match up metrics between two independent fonts.
 
---- 
+---
 > ####  Our app includes multiple tutorials. Each tutorial is in its own directory with tutorial data, images and Localizable.strings files for localized text for just this tutorial. This makes it easy for us to add new localized tutorials without having to modify the app's main Localizable.strings file.  Is there a way to include these Localizable.strings files for the many tutorials in the output when we use Export for Localization in Xcode?  Or are we going about this wrong?
 
 
@@ -97,7 +98,7 @@ Ok. Thanks!
 |U03HJA9JVGA|:
 Give it a try and if you run into issues, please feel free to file a report with Feedback Assistant!
 
---- 
+---
 > ####  Hi all! When editing an .xloc file in XCode, I'm missing one key feature: filtering or sorting the list of keys by whether or not they were translated into the second language. I seem to only be able to sort alphabetically. Am I missing something?
 
 
@@ -113,7 +114,7 @@ Thank you <@U03H3NEH4CX>, submitted at FB10114561
 |U03H3NEH4CX|:
 Perfect, thank you!
 
---- 
+---
 > ####  Hi! Is there a built-in workflow in Xcode to localize settings bundles? In a way that Xcode would export all the relevant strings to .string files and the Export Localizations menu command would include those automatically into the exported .xliff files?
 
 
@@ -132,7 +133,7 @@ Ahh, glad you were able to find the problem!
 |U03J8N6PBHV|:
 Yes, thanks again!
 
---- 
+---
 > ####  How would you handle the case where you want to provide variations in a language? For example I want to provide localization for the word colour. UK people would see colour, but US people would see color. Is there a way so all other text is shared but I could localize that one word?
 
 
@@ -157,7 +158,7 @@ Yeah, it would be wonderful to have a feedback!
 |U03JJQ3BMB7|:
 Thanks! Created FB10115590 :blush:
 
---- 
+---
 > ####  How do we format and sort time values in a localized way? for example, if i'm showing a list of hours of operation for the week, the time strings will be different (24 hr vs 12 hr), and the order of the week days will be different (starting on monday vs sunday).
 
 
@@ -205,7 +206,7 @@ You can then make a `DateInterval` from two Dates for the range (e.g. "9 AM - 5 
 |U03J83F72HW|:
 One more note: when using `Calendar` to convert `DateComponents` to `Date`, set the time zone to GMT to avoid Daylight Time issues. Same with `.formatted()`
 
---- 
+---
 > ####  We have an app that has English only features. Let's imagine that's as an advanced assistant for editing English texts and our assistant doesn't support other languages.  If we localize our app, would it improve user experience for people who use English as a second language, or would it only confuse them on why their main language is not supported, since we only expect English texts for now?
 
 
@@ -265,7 +266,7 @@ I would suggest looking at your app’s usage and tackling one market as an init
 |U03HW7PE3SM|:
 Personally, I don't know that the app being localized in a given language would necessarily imply that I can input text in that language (though obviously it's ideal!). Taking for example our own products, we localize all features of the OS into all languages completely, including things like Apple Pay Later that might only be available in some regions.
 
---- 
+---
 > ####  There's probably no right way to do this, but when working with localized strings in code, do you recommend using the new string initializer (which looks great btw!) directly throughout the app, or creating, for example, a file with enums that return those localized strings?
 
 
@@ -294,7 +295,7 @@ As long as you’re using this setup, in general, you’re golden — if you’r
 |U03HWDD6RED|:
 In general, using enums may complicate your patches a little and interact weirdly with SwiftUI if you try to pass `String`s to SwiftUI initializers that expect localized keys.
 
---- 
+---
 > ####  Hello. Can the Localizable.strings updates itself? The first time export and import is okay. However, when the project contains a  Localizable.strings file then the next export will not contain new strings added.
 
 
@@ -326,7 +327,7 @@ However, please feel free to file a feedback request if you think we should chan
 |U03HVCK66P8|:
 I just re-export and seems it works this time! Thanks, <@U03H3NEH4CX> <@U03HBMCRX0E>
 
---- 
+---
 > ####  Hello. How can we make sure the system and VoiceOver identify a certain text’s language correctly. Is there a tag we can set somewhere? I’m asking for both web and apps. It happens from time to time where the system falsely identifies Urdu for Arabic, or recently on iOS 16, Persian for Arabic. How can we improve this?
 
 
@@ -361,7 +362,7 @@ It fails on everything. Here are some example texts:
 |U03HW7PE3SM|:
 Thanks! We’ll be sure to pass this along.
 
---- 
+---
 > ####  What’s the best way to use two custom fonts (non SF Pro for marketing reasons) for Arabic and Latin scripts? The most challenging part is that the text could be bilingual and it may come from the server. For instance, “به WWDC خوش آمدید”. I want two fonts to be used for this snippet.
 
 
@@ -380,14 +381,14 @@ The thing is I mostly don’t have access to the text beforehand. Let’s say it
 |U03J83F72HW|:
 Then the font fallback list (as above) is best. Note that in addition to the CoreText version above, there's also <https://developer.apple.com/documentation/uikit/uifontdescriptorcascadelistattribute/|UIFontDescriptorCascadeListAttribute> and <https://developer.apple.com/documentation/appkit/nsfontcascadelistattribute/|NSFontCascadeListAttribute>, if you're using higher-level text APIs.
 
---- 
+---
 > ####  Is there a non-hacky way to force a single language for an app? Let’s say the app only supports “ar-SA” and the user’s device language is set to “en-US”. I used to set a value for a certain in key in UserDefaults at launch to make it work.
 
 
 |U03HW7PE3SM|:
 You should not need to set any user defaults. Simply make sure that the `developmentRegion` in your project.pbxproj is set to the correct language and that all your localizable files are in the correct lproj. If your app does not have an lproj folder, you will need to be on iOS 16, macOS 13, tvOS 16, and watchOS 9 to get correct behavior.
 
---- 
+---
 > ####  Is there a way to force the numeral system for an app? For instance, the user may have chosen ‘۱۲۳’ as their numbering system of choice where it only make sense in our app to show numbers as ‘123’. One thing that’s still missing and I’d already filed a report as I remember, is choosing the numeral system when changing the language for a specific app. Now you can only change the numeral system when you change the device language as a whole.
 
 
@@ -406,7 +407,7 @@ Whereas in iMessage on the same device it’s in `۱۲۳‍` form.
 |U03JPJ277SQ|:
 <@U03J83G0WQG> Here it is: FB9647599. I believe we already discussed this on Twitter as well.
 
---- 
+---
 > ####  When I release my apps I can usually find some people to help me translate the initial release. But over time it makes it difficult for me to create updates which require new translation strings. Any best practices you would have there for indie developers that don't have a lot of resources to pay 20+ translators for each release?
 
 
@@ -431,7 +432,7 @@ in other words, using the Xcode import/export workflow, you _should_ be able to 
 |U03JC9AHBFE|:
 There are third-party services that offer (human) translation as a service for your localizable strings. But you'll have to document your strings well, or they may get the context wrong and mistranslate.
 
---- 
+---
 > ####  We saw that this year you're adding punctuation to Hebrew (Thank you for that! תודה רבה) Besides the obvious addition to the Hebrew Keyboard is there anything else we should know about that?
 
 
@@ -443,7 +444,7 @@ There’s nothing else new for Hebrew this year per se, but it’s worth mention
 |U03J1TN6WBD|:
 Thank you! a dank
 
---- 
+---
 > ####  Maybe a slightly tangential question, but are there learnings or strategies used during RTL localization that could be beneficial for adapting a UI with significant lateral elements for left handed use? Does “handedness” come into play when considering the design of RTL UIs?
 
 
@@ -505,7 +506,7 @@ Interesting to see places where steps were taken to counteract reachability issu
 You’re always welcome <@U03JCRFMPHV>
 Nice questions :D
 
---- 
+---
 > ####  Hi there! Didn't have time to check out the new resources yet (but will do in the future for sure!). Could you tell me what are the main key points that we should take into account when designing apps targeting an international audience?
 
 
@@ -524,7 +525,7 @@ Thank you!
 |U03JRP87THN|:
 Will look into the resources.
 
---- 
+---
 > ####  Should RTL (specifically Arabic) text work out of the box using SwiftUI on watchOS 8? Are there any configurations or SwiftUI properties that might break it? I have a Watch app and RTL seem to work fine (I can’t read them but they look okay) but I’ve gotten feedback that they fail for some users — Arabic text is “backwards” and the characters aren’t joined like they should be. I’m just using Text so I can’t see why this would happen. I can provide screenshots in the thread if possible.
 
 
@@ -600,7 +601,7 @@ Good spot! I was also wondering why the Arabic text was shaped like this on the 
 |U03HW7PE3SM|:
 Please do post the feedback number once you have that filed back in this thread. Thanks again!
 
---- 
+---
 > ####  How can I right align Arabic text in push notifications efficiently when only the app language is Arabic not the entire device.
 
 
@@ -616,7 +617,7 @@ Thanks <@U03J6B7G2QN>, that is a great description.  If you don’t mind reporti
 |U03J6B7G2QN|:
 Here FB10161536
 
---- 
+---
 > ####  Hi. Is the generated xcloc file will fetch all strings update in every export?
 
 
@@ -634,7 +635,7 @@ I can follow up in your other thread
 |U03HVCK66P8|:
 ok thx
 
---- 
+---
 > ####  So if I have a SwiftUI or UIKit notes app that’s not localized in any RTL languages but a user enters RTL text, am I correct that the expected behavior is that the text itself will appear RTL but will be left-aligned? Is there an easy way to get this to appear right-aligned, or would I have to analyze the language myself? Or is this undesirable behavior in an otherwise left-aligned app?
 
 
@@ -647,7 +648,7 @@ If that text is _then_ displayed in a UILabel, for example, the alignment would 
 |U03HVF46TEJ|:
 Okay thanks 
 
---- 
+---
 > ####  Hello Devs,  We have localization Strings being delivered by Middle ware and get updated and stored in Application Directory on each app launch. Where we used to load them using ‘Localizable. nocache’ as mentioned on Apple Docs. However this slow down the Ul performance way too much. As it seems it would load whole strings map for each call to NSLocalizationString. Can you suggest a work around?  Thanks Fahied
 
 
@@ -685,7 +686,7 @@ Ah.. sorry I didn't ask about your environment first. Unfortunately I don't thin
 |U03JBLYMHSS|:
 I thought may be you guys holding on to something :smile:
 
---- 
+---
 > ####  Not sure it's a bug bug if my development lanugage is english but if I don't add English in my Localization it going to display other language. The work around I did now is add empty english localization file for each file?
 
 

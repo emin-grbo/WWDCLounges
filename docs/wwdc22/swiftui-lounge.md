@@ -4,16 +4,17 @@
 #### [emin@github](https://github.com/roblack) / [emin@twitter](https://twitter.com/emin_ui)
 #### [shirblc](https://github.com/shirblc)
 #### [tikimcfee](https://github.com/tikimcfee)
----
+#### 📓Notion variant 👉 [check it out](https://blog.timing.is/wwdc-22-digital-design-lounge-archive/)
 
---- 
+
+---
 > ####  Great session and thank you for all the new features! But, most importantly, was the cake as nice as it looked!?!?!?!? :D
 
 
 |U03HL00QL68|:
 Yup! It was chocolate, and delicious. We had some deleted scenes with the sliced cake, but we don't release WWDC Bloopers and Deleted Scenes unfortunately
 
---- 
+---
 > ####  Thanks for so many great improvements!  Are any of these changes back-deployable to previous OSes (e.g., like the new Section initialisers were last year)
 
 
@@ -21,7 +22,7 @@ Yup! It was chocolate, and delicious. We had some deleted scenes with the sliced
 Not this year!
 Last year we had some nice syntactic refinements that we were able to back deploy, but many of the features this year require fundamental new support in the OS.
 
---- 
+---
 > ####  What is the best venue to ask SwiftUI questions during the year? Swift Forums is amazingly useful for Swift language and library questions, with many of the implementers frequenting it, but it is focussed solely on the Swift language itself. Is there any comparable place where y'all converse during the year?
 
 
@@ -58,7 +59,7 @@ Not sure I've ever seen a good answer on the Apple Developer Forums but I've see
 |U03H96N55U5|:
 You’ll never get an answer if you don’t ask. :slightly_smiling_face:
 
---- 
+---
 > ####  With graphics and custom layouts being added, when should we use native elements vs custom styling? How far should custom designs go?
 
 
@@ -67,7 +68,7 @@ It entirely depends on your use case! We ultimately trust your sense of design o
 
 One quick disclaimer: It can be easy to drop to custom layouts prematurely. Stacks and Grids are incredibly powerful already, so be sure you can’t get what you need with them before you use the new layout protocol. (edited)
 
---- 
+---
 > ####  I saw that VStack and HStack conform to Layout. Does that mean using an if-else to switch between the two with the same content will now animate the change?
 
 
@@ -97,7 +98,7 @@ This sounds great!  Looking forward to getting rid of some UIStackViews
 |U03HL00QL68|:
 These kinds of examples will be in the code snippets soon too! Both that table layout code, and the grid morphing to a scattered layout will be included
 
---- 
+---
 > ####  Hi great stuff so far. Thank you! I was wondering if there are any updates, or opinionated best practices when it comes to large scaled applications using SwiftUI in terms of state management and dependency management/injection. Thanks :v:
 
 
@@ -123,7 +124,7 @@ It would be great to capture your use case in Feedback Assistant before the labs
 |U03HPNHKJFR|:
 I was hoping to have some type of lab each day. Having requested that one and then denied, precluded me from requesting any other lab for the day. It's frustrating. I don't know whether I'll get a single lab in this week at this rate. I'll try and use Feedback Assistant like you said, but I don't know about using it in this way... I've only ever used it to send bug reports and feature suggestions. This would be entirely different. I'm new to WWDC this year, and so far this has been a soured experience
 
---- 
+---
 > ####  Thanks for the great session! Talking about Charts, will it be possible to add a gradient color filling the area underneath the line in a line chart?
 
 
@@ -145,7 +146,7 @@ I have to say, it's extremely fun to see how quickly you can make custom-rolled 
 |U03HHJK2FJ6|:
 There are several sessions about SwiftCharts as well! Definitely check them out.
 
---- 
+---
 > ####  Where's this SwiftUI party at? And don't tell me the cake is a lie..
 
 
@@ -171,7 +172,7 @@ Is it an Apple cake?
 |U03HL00QL68|:
 The cake will be sold in exactly 0 Apple Stores
 
---- 
+---
 > ####  Does Grid replace VGrid?
 
 
@@ -184,7 +185,7 @@ The cake will be sold in exactly 0 Apple Stores
 |U03HELSV45B|:
 Yeah, check out the Composing custom layouts with SwiftUI talk tomorrow for more info
 
---- 
+---
 > ####  Is there any new control in SwiftUI like the NSSegmentedControl used under tables to add / delete a row? This is a common pattern in macOS applications and the current SwiftUI segmented control does not fit to this use case.
 
 
@@ -197,7 +198,7 @@ You can create one with Buttons, Toggles, and more!
 |U03JFG79MTN|:
 Nice, didn’t know about this one. Will try it out. Thanks! :thumbsup:
 
---- 
+---
 > ####  What is the difference between .onChange and .onReceive modifier.? ".onReceive is like a combination of .onAppear and .onChange", is this the complete and accurate picture?
 
 
@@ -212,14 +213,14 @@ Okay, thank you for the explanation! If I use both .onReceive and .onChange on a
 |U03HELS8GHK|:
 It really depends on your use case: Is the value equatable? Is it a lightweight event? Does your view have constraints to adhere to, such as de-duping, debouncing, exponential backoff, etc.
 
---- 
+---
 > ####  Curious if there's updates related to UI testing in SwiftUI apps? Or should I be thinking more in terms of testing the model layer that drives the declarative UI?
 
 
 |U03HKVDCL7N|:
 Our recommendation is still to thoroughly test your model layer. In my experience, the best SwiftUI apps move their logic into model code, using SwiftUI as a declarative mapping from that model state to views. Then your tests of the model layer are effectively tests of the resulting UI as well :slightly_smiling_face:
 
---- 
+---
 > ####  Is it possible enumerate a NavigationPath or replace certain elements?
 
 
@@ -244,14 +245,14 @@ Sounds like that could work better and might fit nicely with some form of Coordi
 |U03J1UFC1QB|:
 Thanks!
 
---- 
+---
 > ####  Terrific updates all around! When animating the `Font` on a Text, when can we expect the font to smoothly interpolate instead of crossfade?
 
 
 |U03HELTEP9T|:
 Generally changing weights and sizes of the same font will interpolate, but not changing fonts
 
---- 
+---
 > ####  Is it possible to set default focus on TextField when it appeared first time? Without workarounds with delay?
 
 
@@ -259,7 +260,7 @@ Generally changing weights and sizes of the same font will interpolate, but not 
 Yeah, checkout the new `defaultFocus` modifier!  :smile:
 <https://developer.apple.com/documentation/swiftui/view/defaultfocus(_:_:priority:)>
 
---- 
+---
 > ####  Does the new NavigationSplitView preserve state when we switch to a new navigation destination like tab bar in UIKit, or do we need to roll our state restoration, like what we had to deal with using the old TabView?
 
 
@@ -269,21 +270,21 @@ If you want to switch to a TabView in narrow size classes, you’ll want to desi
 |U03HW7P0HQR|:
 I’d love Feedback with specific use cases. I’m very interested in making this easier.
 
---- 
+---
 > ####  Does Transferable also support asynchronous behavior like NSFilePromiseProvider, e.g. if you do not have an file URL yet (e.g. cause a file first needs to be downloaded from a web server, but only when the drag operation ends)
 
 
 |U03HW7NMP6D|:
 Definitely, the `FileRepresentation` transfer representation does what you’re describing. <@U03HW7P2WTB>’s amazing talk “Meet Transferable” will be out with more detail tomorrow ( June 8 ) :smile:
 
---- 
+---
 > ####  What is the correct way to implement invalidation when conforming some type to `DynamicProperty`? Should hosting another builtin `DynamicProperty` enough? Are these wrapped properties like @State or @ObservedObject guaranteed to work as expected in `DynamicProperty`?
 
 
 |U03HKVDCL7N|:
 Dynamic properties are fully composable, so any other dynamic properties you use inside of their declarations will be picked up on and invalidated properly. That means supporting invalidation as you would expect is often just a matter of utilizing the support already built into other dynamic properties, like `@State`
 
---- 
+---
 > ####  How can I hide the disclosure indicator for a NavigationLink within a List? For example, if I was wanting to implement the built-in Reminders app with the grid icons in the List header.
 
 
@@ -305,7 +306,7 @@ Yep, I think appending the path is the best solution. Thanks <@U03HW7P0HQR>. Thi
 |U03J3BK549Y|:
 Submitted as `FB10082608`
 
---- 
+---
 > ####  Hello everyone! I'm amazed by the new text animations, can we animate text with any font? Does the font need to respect some criteria? Thank you!
 
 
@@ -333,7 +334,7 @@ I mean if I use static fonts (that have one file for bold, one for medium etc…
 |U03HL00QL68|:
 Correct, I wouldn't expect that to ~work~ animate
 
---- 
+---
 > ####  Hi, is there anything different visually, to the user, between a NavigationView and a NavigationStack? 
 
 
@@ -352,7 +353,7 @@ Can you elaborate in what way they behave differently?
 |U03HZ3L98TF|:
 Gotcha, thanks for the clarification :) 
 
---- 
+---
 > ####  When opening the Control Center via the Menu Bar Extra, the button remains highlighted while the Control Center is visible. Is there a way to replicate this using the new MenuBarExtra API?
 
 
@@ -368,7 +369,7 @@ Excellent, thanks!
 |U03JDNMQDKN|:
 <@U03HHJH9C66> FB10086096
 
---- 
+---
 > ####  Is it possible to reorder items and insert into an outline group?
 
 
@@ -391,7 +392,7 @@ Yeah, I think biggest trick there is figuring out that “offset 20” is actual
 
 Thanks for your input. It's not the first time I've read this solution, and since there's nothing new in this area for 2022, I think I may need to take the plunge and go for it.
 
---- 
+---
 > ####  Pages and Numbers are both document-based apps which have a beautiful onboarding experience. How do I build such an onboarding experience for my document-based app using SwiftUI?
 
 
@@ -401,7 +402,7 @@ Hi - this is a great question! While we do not currently have a high-level conce
 |U03HMD2BP55|:
 Thanks for the idea. I'll try!
 
---- 
+---
 > ####  I currently use NavigationView in my app with NavigationLink to go from parent view to child destination view. It works fine for what I want. Do I need to migrate to using NavigationStack in my case, especially if I’m just linking to destination views and not needing to link by value?
 
 
@@ -414,7 +415,7 @@ Ok. So `NavigationStack` with a `NavigationLink` to a destination view will work
 |U03HKVDCL7N|:
 Yup!
 
---- 
+---
 > ####  ViewThatFits has some strange effects when the size is animated.  Is it intended to work with animation or should it be avoided?
 
 
@@ -433,7 +434,7 @@ Hi Christian!
 |U03JLPYRCFK|:
 FB10082380
 
---- 
+---
 > ####  On iPadOS in a NavigationView, Is it possible to switch between two column and three column layout depending on what is selected in my sidebar?
 
 
@@ -452,7 +453,7 @@ Great, that's exactly what I'm doing now. It's working fine, just a little extra
 |U03HW7P0HQR|:
 Awesome! I’m glad you found a solution.
 
---- 
+---
 > ####  Is there a better way to prevent DynamicProperty from invalidating a view’s body based on different criteria? I am currently doing this with a private ObservableObject backing that manages its objectWillSend calls, which seems to works well but also feels like I am doing some backflips (the context is being able to scope in on specific changes on an ObservableObject model for performance reasons).
 
 
@@ -465,7 +466,7 @@ Keep in mind that you can also implement your own `objectWillChange` Publisher.
 |U03J0QXPYA3|:
 Makes sense. Thanks!
 
---- 
+---
 > ####  Previously in NavigationView on iPad, the detail view would be displayed with the ForEach list being collapsed in a sidebar. With the new NavigationSplitView, can I use a modifier to not collapse the ForEach list?
 
 
@@ -475,7 +476,7 @@ Thanks for the question. `NavigationSplitView` takes a `columnVisibility` bindin
 |U03J21FSV5G|:
 Great, thank you!
 
---- 
+---
 > ####  Is it possible to use SwiftUI Navigation for iOS 15? How can we transition to it on the existing project?
 
 
@@ -485,7 +486,7 @@ To learn how to transition your existing projects to the new navigation types, s
 |U03J4EZ3ZHA|:
 Annnnd add to reading list. Thanks!
 
---- 
+---
 > ####  Hi Curt, in your talk you used objectWillChangeSequence but I can't find it in the new Xcode beta, where is it? Thanks
 
 
@@ -542,7 +543,7 @@ Yep. That approach will work too.
 |U03HW7P0HQR|:
 I used `task` in the talk so the restore and save code was in one block, but splitting them into separate `onAppear` and `onChange` should also work.
 
---- 
+---
 > ####  How does ViewThatFits decide if a view fits? I find it a bit strange that Text with a line limit of 1 still "fits" even if it's truncated for example.
 
 
@@ -561,7 +562,7 @@ FB10082577
 |U03HL00QL68|:
 2 for Ryan :slightly_smiling_face:
 
---- 
+---
 > ####  Does Swift Charts have a way to highlight values on a line chart  for a specific X position?
 
 
@@ -610,7 +611,7 @@ I am sorry for not being clear. What I want is having a vertical line when I tap
 |U03HW7NSMFT|:
 You would decompose the problem into 1) using a chart proxy to get the x position for a tap and 2) highlighting the data points at that x. The lollipop tooltip we have in the Swift Charts sample app may be a starting point to look at.
 
---- 
+---
 > ####  Is there a way to access DragSession from DropDelegate (like UIKit)?
 
 
@@ -628,7 +629,7 @@ This could be semi-related, but at the moment if a drag begins and ends without 
 |U03HELS8GHK|:
 Yes, I think both of these use cases should be captured as feedback. Providing context like this is very helpful in prioritizing new features. Thank you, both
 
---- 
+---
 > ####  how can i get simething similar to autolayout priorities, of being able to have 2 views in a stack equal but only up to a certain width
 
 
@@ -671,7 +672,7 @@ i was thinking something more like breaking "constraints" due to certain conditi
 |U03HZ6BSPGV|:
 Is there something similar for simple Views? E.g. a view which calculates its required height based on the available width. What's the best practice to solve something like this?
 
---- 
+---
 > ####  What's the intended use for `DynamicProperty`'s `update()` method? It seems most of the time the `DynamicProperty`'s members are `@State`ful objects managing their own state and using `update()` with them requires a dispatch async (to the next runloop cycle).
 
 
@@ -690,14 +691,14 @@ That’s a neat trick! Thanks for sharing and for the answer!
 |U03HKVDCL7N|:
 Of course! Thanks for the question!
 
---- 
+---
 > ####  Can we set the NavigationPath from onContinueUserActivity and onOpenURL?
 
 
 |U03HHJH9C66|:
 Hi - great question! This is certainly something you can do, and is a good example of how you can support something like deep linking, for example, by parsing the URL provided to onOpenURL and using it to construct your navigation path.
 
---- 
+---
 > ####  Is there a way to show a preview of a view when the user taps and holds on a NavigationLink (similar to how a website is previewed when holding on a link in Safari)? I tried using the contextMenu modifier, but it only seems to render Button views.  NavigationLink( ... )     .contextMenu {         ViewIWantToPreview() // is not previewed         Button { ... } // other options show correctly     }
 
 
@@ -732,7 +733,7 @@ No, it's not currently supported— please file a feedback request.
 Alright, done! FB10083104
 Thanks for the SwiftUI improvements this year by the way, they've been great!
 
---- 
+---
 > ####  Hello! Thank you for amazing sessions! I am curious is it possible to navigate from SwiftUI view to UIViewController.   Is it possible to pop out from the SwiftUI view  back to UIViewController? 
 
 
@@ -744,7 +745,7 @@ You can push a `UIViewRepresentable` onto a `NavigationStack`, and use that to w
 |U03HW7P0HQR|:
 That works with the view-destination `NavigationLink`s inside a `NavigationView` as well for previous releases.
 
---- 
+---
 > ####  Hello all, i believe this is the channel for this question. I’m wanting to get your take on how SwiftUI’s data flow can change how we architect our apps? It seems as if, with EnvironmentObjects, ObservableObjects and possibly more, they change where you get your data from, which could cause variations in, let’s say MVVM. What do you guys think is a good way to make use of these property wrappers and could it change how we architect things? Thanks!
 
 
@@ -774,7 +775,7 @@ There is the SwiftUI Lab which i think would be best fit for any SwiftUI in dept
 |U03JCHKCDB4|:
 Fingers crossed it gets accepted, i have a lot of feedback IDs and doubts :slightly_smiling_face:
 
---- 
+---
 > ####  What is the best way to resign (text field) focus from some distant view in the view hierarchy. `scrollDismissesKeyboard` is a great step in the direction I need, but I'd like to programmatically trigger that same behavior, for example, on some button tap.
 
 
@@ -805,7 +806,7 @@ Making the action available to distant views is a matter of arranging your app's
 |U03J3BK549Y|:
 Preferences is an interesting idea. Trying to make the focusstate “globally accessible” was challenging. I’ll give these suggestions a shot! Thanks.
 
---- 
+---
 > ####  Not sure if this was already asked before since it's such a common question. But, what's the recommended way to use a `@ViewBuilder` for custom components: calling it right away in the `init()` and storing the view, or calling it later inside the `body` and storing the view builder itself?
 
 
@@ -866,7 +867,7 @@ Talking about this, can you confirm it’s best for performance to have the @Vie
 |U03JRP2D5NC|:
 BTW there is a 3rd-party article explains why the view is preferable than the closure <https://rensbr.eu/blog/swiftui-escaping-closures/> (If you don’t mind posting 3rd-party article)
 
---- 
+---
 > ####  When using the Layout protocol, is it possible to resolve an alignment guide for the layout container, not a subview, to align the subviews relative to the container correctly? For instance, a Layout that proposes size (100, 50) would resolve HorizontalAlignment.center to 50 (if unmodified). If not, what is the correct way to do this?
 
 
@@ -887,7 +888,7 @@ You can also set explicit alignment guides for the layout container by implement
 |U03JLRZJHQR|:
 Ok, thank you. I also thought maybe using the largest subviews’ guides as the base, then it would work with custom AlignmentIDs
 
---- 
+---
 > ####  What happens to a subview if you don't call .place() on it in placeSubviews in a Layout? What happens if you call it twice?
 
 
@@ -903,7 +904,7 @@ Actually, one more follow-up. Is there a way to simply not place a view or have 
 |U03HELSV45B|:
 You interact with the subviews from within the layout protocol via the subview proxies that you get as input. This lets you do things like propose a size or place the view, but not perform arbitrary operations on the view, or apply arbitrary modifiers. If there’s something specific that you’d like to do but can’t, please do file a feedback with your use case.
 
---- 
+---
 > ####  When is onAppear/onDisappear called? How do they compare to the UIKit equivalents of did/willAppear?
 
 
@@ -916,7 +917,7 @@ We have recently updated the documentation for these methods online to clarify t
 |U03HW7PE3SM|:
 in terms of a comparison to UIKit, there is not a direct parallel. The UIKit methods are invoked specifically around when views become visible/not visible to the user, whereas the SwiftUI calls are tied more to when the views are constructed/torn down, rather than visually presented.
 
---- 
+---
 > ####  Love the new `toolbarBackground(_:in:)` and `toolbarColorScheme(_:in:)` modifiers in iOS 16! Is there any way to have them take effect always? They seem to only make a difference when content scrolls up beneath the navigation toolbar and using something like `.toolbar(.visible, in: .navigationBar)` doesn't seem to make a difference.  (My basic goal here is to control the navigation bar background color and the status bar style, so if there's a better way to do that please let me know!).
 
 
@@ -929,7 +930,7 @@ Okay! Once I file the feedback I'll drop the # here
 |U03JL6EGGG1|:
 `FB10084072`
 
---- 
+---
 > ####  Is it possible to have a presented view that switches between the popover/sheet presentation styles depending on the size class (i.e., sheet in compact, popover in regular)?
 
 
@@ -945,7 +946,7 @@ We have an example of this use case in the <https://developer.apple.com/document
 |U03J4DRK4SY|:
 Doing it this way, the popover/sheet disappears when the size class changes from regular to compact (though not the other way around) due to window resizing on iPad. Does this seem like a framework bug or something I've overlooked?
 
---- 
+---
 > ####  FWIK it's a good practice to have state changes the deeper in the view hierarchy as you can get, in order to avoid redundant redraws. Are there any best practices to achieve that besides breaking views down to tiny elements and composing them together?
 
 
@@ -969,7 +970,7 @@ SwiftUI does diff your view and will only re-render if it detects that something
 • Everything suggested in the Demystify SwiftUI Session from a year or two back is definitely useful
 • Keeping `Identifier`s separate from values is recommended generally (but not a hard and fast rule), especially in Navigation APIs.
 
---- 
+---
 > ####  Are there any types of macos apps or interfaces where you would still recommend using appkit rather than swiftui?  I'm yet to invest the considerable amount of time learning swiftui and I keep reading mentions of people saying it's still a mixed bag for macos development, so I don't want to potentially waste time.  Thanks!
 
 
@@ -983,7 +984,7 @@ But in the end, I’d recommend starting with a part you’re comfortable with a
 |U03J4DWQLPN|:
 Great answer.  Thanks.
 
---- 
+---
 > ####  When using the new MenuBarExtra in window style is it possible to control the width and maximum height of the content window?
 
 
@@ -993,7 +994,7 @@ Hi - great question. The window size should be derived from the content provided
 |U03JPP3EWQ3|:
 I experience a pretty large minimum width and a pretty small maximum height. I'll file a feedback with a project. 
 
---- 
+---
 > ####  Can text animate fluidly when using matchedGeometryEffect and one is set to a fixedSize(horizontal: true) and the other is not?
 
 
@@ -1013,7 +1014,7 @@ I think that feedback is a different one you've filed. That one looks Text Avoid
 |U03J23B9J58|:
 Whoops! FB10101271
 
---- 
+---
 > ####  Hello, is it possible to present a popover as popover on iPhone, like it's the case with iOS?
 
 
@@ -1034,7 +1035,7 @@ Please file a feedback with your request!
 |U03HVCSF7B8|:
 If a 3rd party solution is ok, I made a library: <https://github.com/aheze/Popovers>
 
---- 
+---
 > ####  Hello! Talking about the Date Picker with multiple dates, can they allow to choose date ranges (like when you book a flight), so with just two dates possible and the highlight spanning over all of the days in between?
 
 
@@ -1054,7 +1055,7 @@ Yes please do! We'd highly appreciate that
 &gt; Speaking of booking flights... <https://developer.apple.com/documentation/weatherkit/fetching_weather_forecasts_with_weatherkit|FlightPlanner> sample app now available.
 Great! I’m downloading it, thanks!
 
---- 
+---
 > ####  When creating a `MenuBarExtra`, is it possible to create something that runs on its own, separate from the parent app? I have an app that users can save data to by means of various app extensions. If the app is closed, however, those changes don't get synced to CloudKit. I was thinking of having a menu bar app that would essentially be my workaround: always listening, always active. Can a MenuBarExtra do that for me?
 
 
@@ -1085,7 +1086,7 @@ That’s alright. I had to ask anyway.
 |U03HMDG985D|:
 Do MenuBarExtra’s support other SwiftUI features, like keyboard shortcuts, so I could invoke it or an action it has via a (global?) shortcut?
 
---- 
+---
 > ####  Are Deep Links possible in SwiftUI?  If so, does it work well?  Are there any limitations vs what is possible in UIKit?
 
 
@@ -1098,7 +1099,7 @@ They are indeed possible, and we think they work pretty well :wink: Of course, t
 |U03HL00QL68|:
 The general idea is that a deep link is certain destinations presented — in order — on a navigation stack, and with this years' new APIs you can have full control over what is on the navigation stack.
 
---- 
+---
 > ####  What architecture is recommended for Enterprise apps when using SwiftUI?  For instance: Coordinator Pattern, Dependency Injection Containers, etc.
 
 
@@ -1119,14 +1120,14 @@ One challenge I’ve come across is that the coordinator pattern doesn’t trans
 
 But this years `NavigationStack` is going to make new coordinator-like patterns *much* easier to implement. I’m curious to experiment with that this week.
 
---- 
+---
 > ####  Is it possible in general to use TimelineView as a "global clock" that can be synced by all the devices (that use the app) in order to display/show something at the same exact time? (if so, what precision should be expect?)
 
 
 |U03HKVDCL7N|:
 While `TimelineView` can be used to update views at a specific point in time, it isn’t designed specifically for cross-device synchronization. You may be able to use it for that kind of use case, but it wouldn’t provide any better precision than using a `Timer` or other scheduling mechanism
 
---- 
+---
 > ####  That presentation was simply beautiful. I am awestruck at how SwiftUI has accelerated this year. Congrats to the team that built it, and thank you.
 
 
@@ -1136,7 +1137,7 @@ Thanks so much! We listen closely to community feedback. We may not always respo
 |U03HW7P0HQR|:
 We love seeing all the great things you all are building!
 
---- 
+---
 > ####  S0 - AnyLayout could be user selectable (if selection changed @State)?
 
 
@@ -1146,7 +1147,7 @@ Yes! As Paul showed in the video any State or property can drive conditional log
 |U03HPFYBRRD|:
 That is very powerful! Gets rid of all sorts of Case and If views :grinning:
 
---- 
+---
 > ####  Can a column span partial columns in Grid? i.e. If I have 8 items in a three column Grid, I want the last row to have two cells that are 1½ columns each.
 
 
@@ -1159,7 +1160,7 @@ Hmm… that could work, thanks!
 |U03JLPYRCFK|:
 Using integer multiples works really well. If you want one view to be 3/5 of the width and the other 2/5 you just use 3 and 2 on each (assuming they each take all available space)
 
---- 
+---
 > ####  Can I use custom layout to create a hierarchical tree map/view of rectangular boxes of data items connected with lines?
 
 
@@ -1197,7 +1198,7 @@ Maybe alternate row of boxes &amp; row of custom Paths? Use the layout info from
 In fact you can do it using SwiftUI 2021. <http://objc.io|objc.io> made a series of video to demo how to draw tree image using pure SwiftUI (sorry for 3rd-party resource)
 <https://talk.objc.io/episodes/S01E293-advanced-alignment-part-3>
 
---- 
+---
 > ####  Do LayoutValueKey values travel up through nested Layouts? Also, how are they different from PreferenceKey?
 
 
@@ -1210,7 +1211,7 @@ OK, good to know
 |U03HELTEP9T|:
 One reason for this is for Layout to facilitate building of encapsulations that can be composed without having unanticipated effects on the other views that surround it
 
---- 
+---
 > ####  Do all system stacks implement the Layout protocol for use in AnyLayout? Is this documented anywhere?
 
 
@@ -1226,7 +1227,7 @@ Yup, scroll down on this page: <https://developer.apple.com/documentation/swiftu
 |U03KDARQ0QY|:
 Thanks!
 
---- 
+---
 > ####  What examples of custom layouts do you think a new layout protocol is a best choice for?
 
 
@@ -1262,7 +1263,7 @@ Thanks <@U03HKVDCL7N>, that's great! Yea I saw that, I just hope we can let user
 |U03JMMN8659|:
 that talk is what got me going on the idea :slightly_smiling_face:
 
---- 
+---
 > ####  Is there a way to build a Layout that would effect each child view with ViewModifiers? Let's say I always want to style the first view one way and the second another.
 
 
@@ -1274,7 +1275,7 @@ The information is passed through to layout through layout proxies, so the origi
 |U03JLPYRCFK|:
 I guess what I’m looking for is a way to apply modifiers to a Group that would only apply to specific subview indexes. It would only need to apply in one direction. I guess it’s time to write another Feedback.
 
---- 
+---
 > ####  Are all the new layout features available on non-iOS platforms? watchOS, macOS, tvOS...
 
 
@@ -1290,7 +1291,7 @@ And just for reference, you can always check the availability of a bit of API ri
 |U03JMMN8659|:
 Thank you <@U03HELSV45B>! I didn't know the new stuff was already documented and 'out there' :blush:
 
---- 
+---
 > ####  I'm noticing a huge hit to scrolling performance when I add a contextMenu to cells in my lazyvstack. When I profiled the app, it showed that buttons in the contextMenu was what was taking so long to render. Does a context menu have to render on creation of a view? Is there any way to create a lazy context menu?
 
 
@@ -1306,7 +1307,7 @@ Also <@U03HHJH9C66> what is the best category for SwiftUI feedback? Developer to
 |U03J20KFJG3|:
 <@U03HHJH9C66> i noticed that contextMenu on rows are not updated when the row is updated (for example update the text or symbol based on an action taken). Is this fixed now?
 
---- 
+---
 > ####  Why would anyone use observable object instead of state object?
 
 
@@ -1321,14 +1322,14 @@ Also @Published properties in ObservableObjects use Combine publishers, which ca
 |U03J7BQQNPJ|:
 Also, in general you want to use `@StateObject` in a parent view, and if you pass the same `ObservableObject` instance to child views you can use just `@ObservedObject`.
 
---- 
+---
 > ####  ViewModifier question: What’s the difference between a custom ViewModifier (without DynamicProperty) that uses some built-in modifiers in body(content:), and a custom View extension func that just use those built-in modifiers?  Similarly, what’s the difference between a custom ViewModifier with some DynamicProperty and a custom View with some DynamicProperty (also has a @ViewBuilder content property to receive content to modify) ? I think two have the same render result and behavior.
 
 
 |U03HELTEP9T|:
 Because of the way a ViewModifier is expressed, the engine knows it's not changing the `content` passed in and can apply performance optimizations (compared to just an extension on View)
 
---- 
+---
 > ####  A bit off topic to Grids / Layouts but not to Customization - Is there any way in SwiftUI to create multiple Windows (or Window like things) on Mac (and maybe iPad) or Pages on iOS?
 
 
@@ -1345,7 +1346,7 @@ I have the same question as well, what would be the recommended way to do what <
 |U03HHJH9C66|:
 Something like what is in that blog post is likely worth a feedback for an enhancement request. Thanks!
 
---- 
+---
 > ####  Hi there! This is not really related to the Layouts video we just watched, but rather a question that I had a while ago. The video was really clear. Thanks for the amazing explanations!  Moving on to the question, dan we use SwiftUI to create a numeric text field? I was looking for something that allows typing Int numbers.   In my case, I had to work to with 4 digit numbers, and a stepper wasn't the best choice. Instead, I went for a TextField that checks if it can convert the input string to an Int when a button is clicked. Is there a better way to achieve this?
 
 
@@ -1367,14 +1368,14 @@ If this is for iOS see also the `keyboardType(_:)` modifier.
 |U03JRP87THN|:
 This was for the Swift Student Challenge, and I ran my app both in the iPad Simulator and as a Mac app using Mac Catalyst. Thanks!
 
---- 
+---
 > ####  Is there a way to use a capacity `Gauge` outside of the lock screen?
 
 
 |U03HKVDCL7N|:
 Yes! Gauge is usable outside of the Lock Screen, and also has a whole host of new styles! I would take a look at the linearCapacity, accessoryLinearCapacity, and accessoryCircularCapacity styles. Please note though that gauge styles prefixed with “accessory” are really intended to appear in contexts like the Lock Screen / widgets, or some similar design context within your app proper, so please give careful consideration to where you use them.
 
---- 
+---
 > ####  I implemented the new searchable APIS yesterday. One issue I have is that when suggestions are presented, it completely blocks out the entire search view. I'm wanting to implement something similar to the Photos search feature where you can see a small box at the top with search suggestions, while also display existing results. Is there a way to accomplish this with searchable?
 
 
@@ -1383,7 +1384,7 @@ If you’d like search suggestions to be rendered inline your results, you shoul
 
 Note though that in iOS 16.0, for a regular width size class, a search bar that is displayed in the trailing navigation bar will display suggestions in a menu rather than over the main content like on macOS. Take a look at the SearchSuggestionsPlacement type and searchSuggestions(_:in:) modifier for customizing your UI around this behavior.
 
---- 
+---
 > ####  I am using three pickers in a row to allow me to enter hours/minutes/seconds. However, the tap targets for the pickers are all off by some factor, such that if I try to scroll to the right of the middle of a picker, it actually scrolls the picker to the right instead. Is this a known issue? Is there a workaround?
 
 
@@ -1397,14 +1398,14 @@ Will do - thank you! :grinning:
 |U03JMMN8659|:
 Is this a wheel picker? If so, been there, done that, it's a known bug, but we found a workaround. Lemme know
 
---- 
+---
 > ####  ViewThatFits feels very convenient but I'm concerned about making copies of the same content for each layout option. I assume a custom layout would be required to achieve this?
 
 
 |U03HELSV45B|:
 ViewThatFits is a convenience that might not be appropriate if you need something with animated transitions, or in general something with more complex behavior.
 
---- 
+---
 > ####  Can the new Charts API allow for scrolling? similar to the health app's charts
 
 
@@ -1417,7 +1418,7 @@ We just couldn’t wait till the next Q&amp;A, Ok I promise we are done now!!! :
 |U03HL00QL68|:
 Hey <@U03J21CNQ1G> I just realized the health app chart does scrolling that keeps the y-axis stationary, that specifically isn't supported, but we've received a few requests about this, but few feedbacks. So if you file a feedback for the Charts team, we'd appreciate it
 
---- 
+---
 > ####  Hey! Is it possible to customise the font on pickers and menu this release? I’ve had to create my own menu (quite a workload) to workaround this styling limitation.
 
 
@@ -1430,7 +1431,7 @@ Yep, it’s on iOS that I’m referring to. I will, okay! The use case is basica
 |U03HW7PE3SM|:
 i see. yes, please do file a feedback with a sample app if you can, and feel free to paste the number here once you do so that we can send it along to the right place!
 
---- 
+---
 > ####  How does Layout interact with other view modifiers or constructs that can provide layout data, like offset, geometry reader, anchor preferences, etc? (For context I've got a card game-type view that currently lays out cards in columns all powered by GeometryReader and anchor preferences, because I need specific frame data when a user performs a drag gesture to drag a card over a region of the screen to perform logic. I'm wondering if it's possible to re-implement it in Layout, but I'm unclear about if it's possible to get at the anchor preference frame data.)
 
 
@@ -1447,7 +1448,7 @@ A Layout that contained and positioned all of my card subviews would therefore k
 |U03J1UAEU4B|:
 More generally - can a Layout relay its layout information externally in some way? Or is that not possible?
 
---- 
+---
 > ####  What is recommended way to style navigation bar in SwiftUI?
 
 
@@ -1483,7 +1484,7 @@ Finally, you can use a toolbar item in the `principal` placement to replace the 
 |U03J1V9U7U3|:
 Does it apply to both large style and inline style?
 
---- 
+---
 > ####  How do I actually apply Variable Color to an SF Symbol along with the percentage I want highlighted vs dimmed? Is there a SwiftUI modifier for this?
 
 
@@ -1497,7 +1498,7 @@ It’s part of initializing the image, not a separate modifier you apply.
 |U03HVDDBP0W|:
 Thanks Jacob!!
 
---- 
+---
 > ####  Hello! I am trying to create a new custom Layout. I would like to know how to access LayoutValueKeys from within a Layout.
 
 
@@ -1512,7 +1513,7 @@ Thanks!
 |U03JRP87THN|:
 Yeah, it definitely is fantastically written! Amazing work!
 
---- 
+---
 > ####  Fairly new to Swift &amp; SwiftUI.  Curious if there are any changes to Core Data/SwiftUI integration this year. Using ManagedObjects with SwiftUI seems to results in View that know a lot about Models or Models that have a mix of business logic and view logic which can be confusing.  Any suggested best practices for using Managed Objects with SwiftUI?  I tried writing value type wrappers to do MVVM but that breaks down with relationships.
 
 
@@ -1554,7 +1555,7 @@ To clarify, the Earthquakes sample uses private contexts to perform its batch in
 |U03J20KFJG3|:
 Thanks. I explored a lot these sample projects and took some inspiration. But they don't really cover UI edits made by a user. I'll fill some FB.
 
---- 
+---
 > ####  Heya! I have a macOS app where I am attempting to 'tear off' certain SwiftUI views as floating free form windows. I've looked into some of the WindowGroup API, but it doesn't seem like it supports what I'm looking for. Essentially, I have N views of various sizes that can either be docked into a main window, or float above it. I'm running in to issues like sharing state between the docked version and the windowed one, as there seems to be a difference in the relationship between how a standard SwiftUI update bindings works for windows or views. Given that, what would be some ways that I could go about this method of 'docking / undocking' SwiftUI views, and keeping their state in tact?  Thank you!
 
 
@@ -1590,7 +1591,7 @@ Yep, there should be an app called Feedback Assistant that you can use. Any info
 |U03JRPTDF6U|:
 <@U03HHJH9C66> Done! I have a fancy-pants ID too : FB10112377
 
---- 
+---
 > ####  Why does NavigationLink pre-render the destination when it's being rendered? I am loading Heart Rate data in my destination View and this slows down rendering significantly. What's a better pattern to prevent accidental pre-loading of data?
 
 
@@ -1617,7 +1618,7 @@ Starting loading of data in `onAppear`  causes some time the user has to wait fo
 |U03HW7P0HQR|:
 Check out the new `NavigationStack`. Inside that `NavigationLink`s can present values instead of views. The resulting view can then do work in `onAppear` or using `task`.
 
---- 
+---
 > ####  When using UIHostingController, is it better to add it to the view controller hierarchy (with addChildViewController), or could we use its rootView and simply add it as a subView ?
 
 
@@ -1644,21 +1645,21 @@ It depends on exactly what you are trying to build, but potentially you could ma
 |U03J1V9U7U3|:
 Ah got it, thanks for clarifying. It is a little bit overhead to ask the teams to add a child view controller just for a button from the design system. :sweat_smile: And it’s extra challenging if they are adding it to a `UIView` subclass down in the view hierarchy where they don’t have access to any view controller for example.
 
---- 
+---
 > ####  Should Layout work fine with UIKit-representable views?
 
 
 |U03HELTEP9T|:
 Yes! To get more control over how UIViewControllerRepresentables size themselves in SwiftUI layout you may want to implement their new `sizeThatFits` method: <https://developer.apple.com/documentation/swiftui/uiviewcontrollerrepresentable/sizethatfits(_:uiviewcontroller:context:)-35p75>
 
---- 
+---
 > ####  With the new MenuBarExtra. Is it possible to get a callback when the content window appears or disappears. I’ve tried onAppear but it’s only called on first appearance. OnDisappear is never called.
 
 
 |U03HHJH9C66|:
 Hi - thanks for the question. This sounds like it is probably a bug. Could you please file a feedback for this?
 
---- 
+---
 > ####  While I was working with Canvas and rendering images, shapes, and text, I was trying to sort out if there was a way to get the offset for the baseline value from a ResolvedText. I wanted to align the text baseline to a visual element that I was drawing in canvas, and the only path I found to getting sizes of discrete elements was to resolve them and measure them - something akin to: ``` let captionedTextSampleSize: CGSize = context.resolve(Text(label).font(.caption)).measure(in: size) ```  This hands back CGSize, which mostly worked for what I needed, but I'd really like to align to that baseline - and for that I need to determine an offset. Is there any public API to help me do that, or a technique I could use to get said offset that uses other frameworks or libraries?
 
 
@@ -1671,7 +1672,7 @@ let baseline = context.resolve(myText).firstBaseline(in: size)
 |U03HVD5Q8DC|:
 :face_palm: I totally missed that. Thank you Jacob!!!!
 
---- 
+---
 > ####  SwiftUI Mac specific question: When using .contextMenu on a List , how can I find out what was actually selected? When looking at Finder, the selected (=item on which the action should be performed on) is either the selection (1 or more) OR it is the item that has been right clicked on directly. How can I replicate this behavior using SwiftUI?
 
 
@@ -1695,7 +1696,7 @@ Be sure to match the type of your lists selection to the type you provide to the
 That is awesome, thank you!
 Are there any plans to back port "smaller" API changes like this into macOS Monterey and earlier?
 
---- 
+---
 > ####  I’m a teacher but also write iOS/iPadOS apps. I watched Curt’s Cooking/Recipe section and am trying to understand state restoration. I thought Curt said adding SceneStorage and the Task to check if navigationDetail was nil would do it but it doesn’t seem to work. Do you still need to use the onContinueUserActivity and then have each view in the stack hierarchy have a .userActivity to create/describe a NSUserActivity for that view?
 
 
@@ -1754,7 +1755,7 @@ in the ContentView it has @SceneStorage(“ContentView.selectedProduct) as an op
 |U03JV21RJ7K|:
 but still uses .onContinueUserActivity
 
---- 
+---
 > ####  Just starting out with SwiftUI. One of the things that is hard to get my head around is the following. In UIKit, I have a label that pulses (grows and shrinks) based on certain events, so I'd typically have an outlet to the label and a method 'pulse'.  In SwiftUI, I accomplished the same by having a binding labelState which I change in the containing View. So while UIKit would have an outlet for multiple labels, in SwiftUI I'd have a binding state for each label. Is that typically the correct pattern?
 
 
@@ -1768,7 +1769,7 @@ That said, the sources of truth you provide for your state should mirror your UI
 |U03HZ55TA69|:
 ok thanks. A bit of looking at the problem from a different axis.
 
---- 
+---
 > ####  Using `.buttonStyle(MyCustonStyle())` instead of `MyCustomButton(...)` is more SwiftUI-y. But why should I prefer one over the other (considering `MyCustomButton` uses `MyCustonStyle` under the hood)?
 
 
@@ -1788,14 +1789,14 @@ In the meantime, do you have any suggestions on how to do this without having to
 Moved out here :smile:
 <https://wwdc22.slack.com/archives/C03HX19UNCQ/p1654722720194909>
 
---- 
+---
 > ####  My question is about some code in the SwiftUI Cookbook for Navigation session. Around 23 minutes in, Curt uses the `task` modifier to run an async `for` loop over the model's `objectWillChange` publisher. In the loop, he then accesses an `@Published` property of the model. But a `@Published` property fires the `objectWillChange` property *before* it updates its `wrappedValue`. Doesn't that mean that when the code accesses `navModel.jsonData`, it will get the out-of-date model values? Or is there some async magic that guarantees the loop body will not run until later after the `objectWillChange` publisher has finished publishing and the `@Published` property has updated its `wrappedValue`?
 
 
 |U03HW7P0HQR|:
 Great question! Task schedules its body on the main actor, which is also where the view update happens. So objectWillChange enqueues the body of the for loop, but it’s enqueued behind the update of the data model.
 
---- 
+---
 > ####  What is the advantage of using custom Symbols rather than SVG with `template` rendering mode?  The ability to programmatically change the colors of several layers? Any other reason?
 
 
@@ -1814,7 +1815,7 @@ I have, also submitted a question here about it FB10001506
 |U03J7BP0URW|:
 Thank you!
 
---- 
+---
 > ####  Would it be possible to create an “infinite” paged collection view in SwiftUI? Similar to the week view in the calendar app where you can swipe through weeks endlessly. Thanks!
 
 
@@ -1845,7 +1846,7 @@ Like in the calendar example, I’d probably want to be able to scroll in both d
 |U03JEMNCV18|:
 I think ideally a way to detect when scrolling was finished for that TabView case would be great, because the onChange fires before it’s done scrolling
 
---- 
+---
 > ####  SwiftUI on macOS question: Is there a way to position the windows when they are opened? In my app, the position of the next window always depend on the last, offset a bit to the right and down. So they are slowly crawling down the screen, which is not nice.
 
 
@@ -1865,7 +1866,7 @@ So I have currently a `DocumentGroup` and a `WindowGroup` . The `WindowGroup`  i
 |U03HHJH9C66|:
 Ok. Please include those details in the feedback, its definitely helpful when we are designing APIs
 
---- 
+---
 > ####  Hi! Hope non-standard behavior out of SwiftUI is your cup of tea, because I have a really “interesting” question. This happens using SwiftUI in Xcode 13.4 on an iMac running macOS 12.4. When using .datePickerStyle(.compact), and I touch the date to bring up the calendar, the final displayed date changes format depending on the chosen date. “June 19, 2022” looks ok, but then I get “6/20/22” when I move to the next day. It gets better: after going left to right in the month, and seeing “6/22/22”, when I start moving right to left from June 24, 2022, the output for the 22nd comes out as “June 22, 2022”. Any ideas would be welcome! Apologies for the weird problem!
 
 
@@ -1885,7 +1886,7 @@ Hooray! Thank you. Will this be in Xcode 14?
 |U03J21EKNSE|:
 Oops… sorry, can’t comment on future work…
 
---- 
+---
 > ####  What are good tells that I should use implicit vs explicit animations in SwiftUI?
 
 
@@ -1899,7 +1900,7 @@ Thank you for your reply Jacob I’ve been having some difficulties deciding on 
 This might be stretching it, but this is a gist that lays out my problem: <https://gist.github.com/kanevP/a9d54f5c60eddabca000b1a45a59e70b>
 Would love to hear your thoughts on the different animation usages.
 
---- 
+---
 > ####  I have some custom multicolor symbols that I want to inline with `Text`, e.g.  `Text(“Look at my pretty symbol \(Image(“mySymbol).symbolRenderingMode(.multicolor))”`  But they don’t render as multi color, is this an expected limitation? Can you think of any work arounds that still provide all of the benefits of inlining? It works great for system provided multicolor symbols…    FB10001506 has a sample project.
 
 
@@ -1924,7 +1925,7 @@ Even duplicating a system/apple provided multicolor symbol has the same result, 
 |U03J3FPKF7B|:
 if the symbol is working correctly in other contexts, that sounds like it could just be a bug on our side let me look into it further
 
---- 
+---
 > ####  In a WWDC20 session "Data Essentials in SwiftUI" there's a point in the video where the presenter touches on using a single data model that can have multiple ObservableObject projections to target SwiftUI updates to specific views. How can I achieve this?
 
 
@@ -1936,7 +1937,7 @@ What we wanted to get across was that you want and you can scope your `Observabl
 |U03HVD1SCKY|:
 I think I understand, thank you <@U03J7BQQNPJ>!
 
---- 
+---
 > ####  In our app, we can push a view containing a custom view above the navigation bar. We achieved it by using a NavigationView inside a NavigationView (displaying a custom view with the back button hidden).  Is it possible to have a custom view above the navigation bar with NavigationStack? Is it possible to use a similar workaround?
 
 
@@ -1955,7 +1956,7 @@ Thanks for the follow-up! You can find the use case, a video and a sample projec
 
 I would love to achieve the same effect with NavigationStack
 
---- 
+---
 > ####  Forgive me if this question has the same answer as the scrolling chart question, but could we utilize a scrollview and a chart to display a live chart? So new data added is always visible to the user, instead of having to manually scroll it into view.
 
 
@@ -1983,7 +1984,7 @@ Thank you for the sample project. Definitely a bug!
 |U03JCHKCDB4|:
 <@U03HL00QL68> thanks a ton!! for confirming that, hope it gets fixed
 
---- 
+---
 > ####  Question regarding the SwiftUI Instrument: Is there a value of avg. duration that no View's body should go above when rendering for avoiding performance issues/hitches ?
 
 
@@ -1998,7 +1999,7 @@ If you’re using Swift concurrency to move work off the main thread, consider w
 
 This is all mostly related to scrolling performance. Other kinds of things like app launch or navigation pushes will typically take longer than multiple frames to render, but those situations have different expectations around frame deadlines.
 
---- 
+---
 > ####  We can now use .foregroundColor(.white.shadow(…)) on SFSymbols. Will this work with custom PNGs/SVGs as well?
 
 
@@ -2014,7 +2015,7 @@ Excellent, thank you! :pray:
 |U03HL00QL68|:
 Thanks Mirko! and thanks for the great question Jan
 
---- 
+---
 > ####  Is it possible to have a customizable toolbar with SwiftUI on iPad?
 
 
@@ -2026,7 +2027,7 @@ And make sure to tune in for the "SwiftUI on iPad: Add toolbars, and documents, 
 
 Note that the same APIs will work on macOS too.
 
---- 
+---
 > ####  SwiftUI Mac specific question: When using NavigationView, is there a way to start the app with a the sidebar already collapsed (or do it programmatically)? I saw this in on of the videos. Bonus question: Can this also be done on macOS Monterey?
 
 
@@ -2040,7 +2041,7 @@ There is an example in the documentation here:
 |U03HVEFUP70|:
 Thank you!
 
---- 
+---
 > ####  Hi there, is there any way to get my offscreen nested StateObjects to not be deallocated when scrolled offscreen within a Lazy*Stack? The only solution I've found is to "hoist" them to the top level of the Lazy*Stack, e.g. within the Content of a ForEach, but that feels kinda clunky to have to do in every scenario—wondering if there's another option.
 
 
@@ -2065,7 +2066,7 @@ Thanks! Yes in this scenario it's effectively a `State` , just incidentally mode
 |U03HELTEP9T|:
 <@U03JX6SFGMS> ya State would be expected to behave the same as StateObject here since the motivation is to limit memory growth by avoiding preserving state for an unbounded number of (offscreen) views
 
---- 
+---
 > ####  Is there a way on watchOS for SwiftUI to present a modal where the stays bar is hidden? For example, how the keyboard menu in the phone app hides the time. The entered phone number is displayed in the status bar area instead. Thank you!
 
 
@@ -2111,7 +2112,7 @@ no problem! feel free to check in back here and `@` me to say whether it works o
 |U03HHHXDL03|:
 That is so cool! I'm happy to hear!
 
---- 
+---
 > ####  Is there a way to have an `onChange(of:perform:)` Modifier but only call the closure, when the state was changed by the user and not programmatically?
 
 
@@ -2126,7 +2127,7 @@ We have the same use case and we’re hooking into the action closure of a butto
 |U03J1V9U7U3|:
 I’d love to have a way similar to `.valueChanged` events from UIKit though. :sweat_smile:
 
---- 
+---
 > ####  Are there any Xcode build settings that might cause SwiftUI previews in a large/existing project to render text incorrectly?   I've noticed that `Text("\(doubleValue) \(floatValue)")` will incorrectly render doubles as `-NaN` in previews/simulators. Doubles renders correctly on device, and floats don't have the issue.
 
 
@@ -2151,7 +2152,7 @@ Thank you :man-bowing::skin-tone-3:
 |U03JCQQ5CRJ|:
 <@U03J7BQQNPJ> LOL right after I submitted the FB, I found the source of the issue. It was the Xcode scheme's "Localization debugging: Show non-localized strings" setting that was apparently clobbering the SwiftUI strings. Unexpected nevertheless—I'll update the FB now.
 
---- 
+---
 > ####  There has been a lot of controversy regarding the ObservedObject(wrappedValue: ) initializer. Is it safe (and encouraged) to use it, or do we have an alternative for it this year?
 
 
@@ -2234,7 +2235,7 @@ But maybe I shouldn't be creating the FetchRequest wrapper that way either?
 |U03J1V9TNLT|:
 That wrappedValue trick is taken from the SectionedFetchRequest header comments.
 
---- 
+---
 > ####  Is using `@EnvironmentObject` for dependency injection of entities not directly related to the view state, like a Service (to fetch values from network) or a telemetry logger, considered bad practice? Thinking on a MVVM architecture context.
 
 
@@ -2262,7 +2263,7 @@ I wish I could use `@Environment` and `@EnvironmentObject` directly in the view 
 |U03J1V9U7U3|:
 For simple use cases, yes, I agree. I do exactly this in my own app, but it doesn’t scale in a larger team working on a complex project. Especially as we’re adopting SwiftUI incrementally.
 
---- 
+---
 > ####  I have a UIKit app on iOS. I am at the point of needing to decide—do I ship it for macOS with Catalyst, or given I’m doing a major redesign anyway, do I migrate it to be a SwiftUI app.  I am wondering—are any of the features/capabilities that I would have in a Catalyst app to make the app more "Mac like" that are not available on macOS using a native SwiftUI app? e.g., the "Bring your iOS app to the Mac" session showed the ability in Catalyst to enable/disable the traffic light buttons when they were not appropriate for that window. Is this kind of control also available in SwiftUI on macOS?
 
 
@@ -2280,7 +2281,7 @@ Enabling/disabling of full screen behavior is also related to the maximum size o
 |U03HHJH9C66|:
 If there are other aspects that you would like to customize here, a feedback would be appreciated as well.
 
---- 
+---
 > ####  What is the best way to debug issues with the Live Preview when an error isn't thrown / the build doesn't actually fail and the "Diagnostic" button isn't available? In some instances when I resume the Preview, a "Build for Previews" is launched and then stops shortly after, pausing the preview again
 
 
@@ -2289,7 +2290,7 @@ In the new Xcode the diagnostic button is now always available in Xcode's menu E
 
 Hard to say without the diagnostics (and potentially your project) what the root cause is, but from the symptoms it sounds like maybe your project has a script phase that modifies some of the source as part of the build? If you file a feedback with the diagnostic we might be able to help narrow down where things are going wrong.
 
---- 
+---
 > ####  I noticed a month ago on one of my Views that any TextField I add to my Form (within a VStack) extends the space below the Form. I only noticed as the view contains the Form in question and then an HStack with buttons. The space between the Form and HStack increases with each TextField I add to the Form. I created a stackoverflow question (linked at end) but couldn't figure it out. I got around this by surrounding it in a ScrollView (realized my other forms were fine and that's why) so I continued on. Figured I'd ask here though. :) <https://stackoverflow.com/questions/72293879/the-textfields-on-my-swiftui-macos-project-are-making-my-window-height-too-tall|https://stackoverflow.com/questions/72293879/the-textfields-on-my-swiftui-macos-project-are-making-my-window-height-too-tall>
 
 
@@ -2314,14 +2315,14 @@ Just created it (through XCode). FB10112924
 |U03JRPWSDJ4|:
 It's uploading the attachments right now
 
---- 
+---
 > ####  on watchOS is it possible to call the keyboard from swiftUI straight from a complication? i think we still have to do a wkinterfacecontrol or go through a textfield.
 
 
 |U03HHHXDL03|:
 <@U03J7JKA23F> no, unfortunately not with TextField or TextFieldLink. Could you please file a feedback requeset?
 
---- 
+---
 > ####  Is there a recommended best practice for managing `StateObjects`/`ObservableObjects` in a primary-detail type setup? I've been commonly using `StateObject(wrappedValue:)` to inject a stateobject into a detail view, but of course because wrappedValue is an autoclosure it doesn't get updates to the data value that may occur from the primary view. Passing the entire primary `StateObject` to the detail view can expose more data to the detail view than necessary. And creating and managing an `ObservableObject` owned by the primary `StateObject` can be boilerplatey and messy to manage. Any approaches I've overlooked, or tips on how to approach those tradeoffs?
 
 
@@ -2356,7 +2357,7 @@ Thanks. That was my instinct too... I just don't want to manage it. :stuck_out_t
 |U03JMMN8659|:
 If you wanna take the pro route :sunglasses: you will rely on protocols, and inject instances as needed using a custom property wrapper. The instances will be stored using a custom class (or save yourself trouble and use something like Resolver)
 
---- 
+---
 > ####  With NavigationPath, I've already felt the need to pass it down to child views as a @Binding or @EnvironmentObject so that they can influence the stack programatically. Is that a reasonable approach or am I overlooking something?
 
 
@@ -2377,7 +2378,7 @@ So, a ViewModel (probably observableobject) that dictates navigation?
 |U03HW7P0HQR|:
 Yeah. That works for the way I think about navigation.
 
---- 
+---
 > ####  Could a WindowGroup value that has no stored dependencies be recreated along the lifecycle of an app?
 
 
@@ -2405,7 +2406,7 @@ I don't think it's being overzealous, if that is what you are concerned about.
 |U03HZ4XRUKF|:
 Thanks!
 
---- 
+---
 > ####  Is it possible to use `@State`, et. al from within a custom `Layout`? Or is there a different way we should parameterize our layouts? I noticed that the protocol doesn't inherit from `View`, so I wasn't sure if using the property wrappers would work.
 
 
@@ -2421,7 +2422,7 @@ Yes
 |U03JEG77FNF|:
 Makes sense, thanks!
 
---- 
+---
 > ####  Is there a newer way to debug a view while it's in preview?
 
 
@@ -2436,21 +2437,21 @@ OMG! That is amazing.
 |U03J1V9U7U3|:
 Awesome thanks!
 
---- 
+---
 > ####  I would like to migrate my (very complex) iMessage app extension to SwiftUI. How do I deal with the MSMessagesAppViewController? Do I need to use some mix of UIHostingController and UIViewRepresentable?
 
 
 |U03HELTEP9T|:
 You should use the UIHostingController as a child of the MSMessagesAppViewController
 
---- 
+---
 > ####  When implementing `path(in: CGRect)` of a Shape, are dynamic Property Wrappers  assumed offer the correct values, or is this only valid for `bodies`?
 
 
 |U03HKVDCL7N|:
 Shapes don’t have the same data flow primitives as views do, so things like state, environment, etc. won’t work, but don’t despair! You can still get the results that I think you might want. Since you’ll eventually be showing your shapes somewhere in a SwiftUI `View`, you can hoist your data flow up to the SwiftUI `View` level, then pass down that information about state, environment, etc. down to the shapes.
 
---- 
+---
 > ####  What is the best way to make a TextField wrap? I noticed some new API regarding lineLimits and axes, and wondering if those provide some functionality in this area.
 
 
@@ -2465,7 +2466,7 @@ Awesome, thanks!
 |U03HW7QCHK3|:
 These text fields will also respect the line limit modifier. So specifying a `lineLimit(3)` will let the text field grow vertically up to 3 lines and then it will stop growing and scroll instead.
 
---- 
+---
 > ####  As we get more and more familiar with SwiftUI we use `GeometryReader` less and less, but what are some tells that there's no way around it?
 
 
@@ -2499,7 +2500,7 @@ For `SpatialTapGesture` the event in `onEnded` now provides the tap location.
 |U03J4E9HNF6|:
 Ah, `SpatialTapGesture` only seems to have `onEnded`... `FB9489089` and `FB9488452` remain!
 
---- 
+---
 > ####  Would you recommend to use @State/@ObservedObject for any cases where where we don't expect the object to mutate?
 
 
@@ -2522,7 +2523,7 @@ Petar, I wouldn’t ever be concerned that your view gets thrown away and recrea
 Thank you <@U03HKVDCL7N>, and just to hammer to point:
 Don’t worry not just that the views are getting recreated, but also what instances get recreated with them.
 
---- 
+---
 > ####  Is there a way to enable interaction with the new device variants in previews?
 
 
@@ -2535,7 +2536,7 @@ Is there a way to make the `Live` mode preview landscape?
 |U03H32HKZ0F|:
 yes, use the `Device Settings` button to change the orientation to be landscape
 
---- 
+---
 > ####  with the new `any` keyword, will we still need `AnyView` to type erase views, or can we declare a collection with `any View` now? will this also have the same performance implications of using type erased views?
 
 
@@ -2586,7 +2587,7 @@ It really depends on your use case. But most of the time, if you're in the situa
 |U03HELS8GHK|:
 In Łukasz case, you could introduce generics into  `MainView` (e.g., `MainView&lt;ChannelsView: View&gt;: View`) and then create a container view above `MainView` to encapsulate the generic constraint(s).
 
---- 
+---
 > ####  We can now use preview to instantly see different dynamic type sizes and schemes all at once when using SwiftUI in XCode. Can we also see different devices at the same time? e.g. all iPhones that support iOS16
 
 
@@ -2596,7 +2597,7 @@ We do not currently have variations on devices/device types available. We are ac
 |U03JMMN8659|:
 Thank you <@U03H32HKZ0F>! Previewing the app live on all iPhones (or Apple Watches, or whatever) at once would be absolutely smashing! :zap:
 
---- 
+---
 > ####  String input on WatchOS is quite limiting, because it happens in a non-customizable modal. Are there any tips or guides on how to achieve autofill of a textField on watchOS?
 
 
@@ -2687,7 +2688,7 @@ ha! no problem at all.
 |U03HHHXDL03|:
 maybe I'll find a new species!
 
---- 
+---
 > ####  My app’s design uses kerning on most of its buttons, but I can’t put that inside of my ButtonStyle because kerning is only available on Text, not ButtonStyleConfiguration.Label. I have a feedback open suggesting passing kerning through the environment (FB10020695).  In the meantime, do you have any suggestions on how to do this without using .kerning() separately on *every* button label nor making a custom button View?
 
 
@@ -2715,7 +2716,7 @@ and then the ButtonStyle would set kerning in the environment for `MyAppText` to
 
 Still means our team needs to remember to use `MyAppText` instead of `Text`, but maybe that’ll be easier to remember than peppering `.kerning` everywhere :smile:
 
---- 
+---
 > ####  How would one go about creating a Bubble Chart with Swift Charts?
 
 
@@ -2739,7 +2740,7 @@ Chart(data) {
 |U03JS0U9127|:
 great, thanks
 
---- 
+---
 > ####  SwiftUI macOS: How can I control how the focus moves around the controls of my view when I press "tab"? Currently it jumps from top left to right, then down. But I have two columns in my window and would prefer it go down first on the left side and then again up to the right.  Is there some functionality to pre-define the order of the controls?
 
 
@@ -2777,7 +2778,7 @@ Also, a plug for my colleague Tanu's WWDC21 talk: Direct and reflect focus in Sw
 
 It goes over some tvOS use cases for `View.focusSection()`, and also describes how to work with focus programmatically using focus state bindings.
 
---- 
+---
 > ####  With the new MenuBarExtra API on the Mac, if I want the menu item to be persistent after my app quits, do I need to do any extra work (e.g. adding a login item) or does the system automagically make sure it appears after reboot/logout?
 
 
@@ -2795,14 +2796,14 @@ Got it, that combined with the new login item APIs this year should make this so
 |U03J1V9TNLT|:
 <@U03HHJH9C66> Please make MenuBarExtra available in Catalyst so we can use it with HomeKit which is Catalyst only on Mac at present.
 
---- 
+---
 > ####  Is there any specific style guide for SwiftUI ?  There are some cases in SwiftUI that I'm not sure what's the best. f.e. var body: some View {      myAmazingView }  (More readable)  or   var body: some View { my AmazingView }  (A one-liner!)
 
 
 |U03HKVDCL7N|:
 We don’t have any specific style guide! Use whatever you and your team think feels best. Personally, I’m never opposed to writing one liners on one line in Swift though :slightly_smiling_face: The language is so beautifully concise, so I like to embrace that.
 
---- 
+---
 > ####  If your app is always behind an authentication session what is a good approach for blocking the app's content when authentication is required? In UIKit apps it was common to display a separate UIWindow atop your app's main window. Is this still a good way of handling it in a SwiftUI app?
 
 
@@ -2860,7 +2861,7 @@ e.g. when another sheet or fullScreenCover from a subview is already shown, and 
 |U03JHARHUTD|:
 This is actually still a problem with the above approach. So sadly I tend to avoid using sheets and fullScreenCovers for that reason.
 
---- 
+---
 > ####  is it recommended to use switch-case views for e.g. showing different view types in a list or grid instead of using specific types via generics etc.?. are there any better ways? like: `List(items) { item      switch item.type {      case ...:             SomeView(item)      case : ...      } }`
 
 
@@ -2872,7 +2873,7 @@ In general, using `switch` in view builders is a great tool! The best approach r
 |U03H318N6T1|:
 Are there any specific alternatives to a `switch` you were considering?
 
---- 
+---
 > ####  Is there a preferred method to allow user interaction with data points in a chart imbedded in a scrollview?
 
 
@@ -2897,7 +2898,7 @@ I think that would be orthogonal to the question of embedding the chart in a scr
 |U03JEJJ52V8|:
 It is an iPhone app so I don’t have lots of space.
 
---- 
+---
 > ####  Does branching in a views body (via `if-else` or `switch`) cause the creation of each branch's views?
 
 
@@ -2916,7 +2917,7 @@ I’ve watched it … way too many times. :sweat_smile:
 |U03JMMN8659|:
 This topic actually deserves a small section of a sample app. We should be shown how to use ViewState enums, rather than if-else statements within View! :zap:
 
---- 
+---
 > ####  What is the best way to pass down data managers, specifically a media player to subviews?
 
 
@@ -2932,7 +2933,7 @@ The documentation for `EnvironmentKey` has code example for it <https://develope
 |U03JBMMB10A|:
 Wonderful, thank you!
 
---- 
+---
 > ####  Is it a known problem that using a custom Layout with multiple subviews doesn't compile? For example, this minor change to the CustomLayoutSample project, adding a second subview to the use of MyEqualWidthHStack, won't compile:  struct ButtonStack: View {     var body: some View {         ViewThatFits { // Choose the first view that fits.             MyEqualWidthHStack { // Arrange horizontally if it fits...                 Buttons()                 Text("hello")             }             MyEqualWidthVStack { // ...or vertically, otherwise.                 Buttons()             }         }     } }  Or am I just doing it wrong?  FB10113527
 
 
@@ -2941,7 +2942,7 @@ That’s a known issue. See the iOS and iPadOS release notes here: <https://deve
 
 You can search for “custom Layout”
 
---- 
+---
 > ####  How can I change the (text) color of the scales at the sides in a Swift Charts?
 
 
@@ -2979,7 +2980,7 @@ Because I just tried the following code and it applied the colors on the grid li
 |U03HHJH7RJN|:
 Yes, looks like this is a bug in the beta. Feel free to file a bug via Feedback Assistant.
 
---- 
+---
 > ####  As we are incrementally adopting SwiftUI in a UIKit app, are there guidelines for replacing the patterns that we are used to in a UIKit app, like delegate pattern, notifications, target-actions etc? Some of these are obvious but I kind of feel I'm doing something wrong whenever I pass a closure into a view to get a feedback to replicate delegate pattern for example. :sweat_smile:
 
 
@@ -2991,7 +2992,7 @@ I’d highly recommend you book a lab appointment so we can chat more about what
 |U03J1V9U7U3|:
 Awesome, will definitely do that. Can you please touch on using Combine for such feedback mechanisms? I also explored passing a subject into a view to observe a feedback but that also felt a bit wrong.
 
---- 
+---
 > ####  I'm working with CoreImage filters, and currently using the CIContext to create a CGImage, which is turned into a UIImage, which initializes a SwiftUI Image. Is there a better or more efficient way?
 
 
@@ -3001,7 +3002,7 @@ You should be able to avoid the intermediate UIImage and initialize a SwiftUI Im
 |U03J4E9HNF6|:
 omg, how did I not see this? Thank you!!
 
---- 
+---
 > ####  How can I add use an SVG in my SwiftUI app?
 
 
@@ -3019,7 +3020,7 @@ Is there any way to load SVG image from file system?
 |U03JMMN8659|:
 Also, an important tip that should be more known: SVG foreground color can be changed dynamically! So you don't need different color versions of your SVG image if you want to change color while your app is running
 
---- 
+---
 > ####  I noticed that when a subview uses a binding to published variable from an ObservableObject, the subview's body will re-execute any time *any* of the other published variables in the ObservableObject are modified. Even if this modified variable isn't used by the subview at all. Is this a bug or a performance concern?
 
 
@@ -3043,7 +3044,7 @@ And generally avoid side effects in your view’s initializer. Generally, IMO, I
 |U03J1V9TNLT|:
 Yeh pass properties of the object into subviews and then only the views that were given different values should have their body called. However if a view has a FetchRequest its body is called every time because of a long term bug!
 
---- 
+---
 > ####  I currently have a large data set (over 10k datapoints) that I'm working with. Are there any tips on how to improve the graph performance when working with creating line graphs from data sets of that size or larger?  Context is cycling related data in a macOS app that is presenting 6 or more in a LazyVGrid.
 
 
@@ -3059,7 +3060,7 @@ Thank you for the pointer <@U03JKLW88TZ>.
 |U03HW7NSMFT|:
 Another useful resource are the number and date bins we released this year: <https://developer.apple.com/documentation/charts/datebins> and <https://developer.apple.com/documentation/charts/numberbins>.
 
---- 
+---
 > ####  Is there a way to get `AreaMark` to work with `.chartYScale(domain: .automatic(includesZero: false))`? As soon as I add an AreaMark it seems to always include 0 in the scale.
 
 
@@ -3105,7 +3106,7 @@ Chart(data) {
 |U03HMDT7AET|:
 That works
 
---- 
+---
 > ####  Can Swift Charts be adapted for non-discrete data, like curves, etc today?
 
 
@@ -3124,7 +3125,7 @@ Examples
 |U03HW7NSMFT|:
 There is not but you could sample a few points and then render the line.
 
---- 
+---
 > ####  Is there any sample code or documentation on how to display vector fields with Swift Charts?:upside_down_face:
 
 
@@ -3191,7 +3192,7 @@ It is quite delightful to use this framework and the performance is great. Many 
 
 Though, documentation seems to be out of sync with reality a bit. For example, this snippet from `PointMark` does not compile. I’m assuming that the functionality with KeyPaths is not in the first beta yet since I recall similar syntax from the sessions
 
---- 
+---
 > ####  How are large datasets handled, is there automatic sampling or some kind of recommended limit?
 
 
@@ -3249,7 +3250,7 @@ For large data sets scrolling is inevitable. I guess we have to embed some Chart
 |U03HZ4PT2ER|:
 <@U03JRNE4KJL> you might be able to do that with the chartOverlay and manual drawing with the axis objects, then handle gestures for scrolling
 
---- 
+---
 > ####  How easy is it to support interactions like pan-to-move and pinch-to-zoom?
 
 
@@ -3270,7 +3271,7 @@ Feel free to file a feedback to SwiftUI for providing location information to ge
 
 For now I think you can try implement a `UIView` with `UIPinchGestureRecognizer` and then wrap the view with `UIViewRepresentable` so it can be used in SwiftUI.
 
---- 
+---
 > ####  Can we highlight specific data points and dim the rest; similar to what <http://Health.app|Health.app> does when selecting “min/max”, “latest”, etc in Heart Rate and other charts?
 
 
@@ -3284,7 +3285,7 @@ ForEach(data) { value in
 }
 ```
 
---- 
+---
 > ####  Is it possible to use a Chart to display a large amount of data? For example, display a waveform.
 
 
@@ -3297,7 +3298,7 @@ We generally recommend aggregating very large datasets since there are only so m
 |U03J21F2PQS|:
 Thank you!
 
---- 
+---
 > ####  Is there multiple axis support? Logarithmic axis support?
 
 
@@ -3327,7 +3328,7 @@ Can you put those different sets of marks on opposite sides of the chart?
 |U03HW7NSMFT|:
 In <https://wwdc22.slack.com/archives/C03HX19UNCQ/p1654799167892029> I talked about ways to show multiple metrics as separate charts.
 
---- 
+---
 > ####  Swift Charts is really fun! Thanks for adding this, I'm having a blast! :)  I have one question about the axis labels on charts. When I use the `chartXAxis` modifier to show custom `AxisMarks` with an array of values (dates in my case), the chart doesn't show the last value on that axis (the last date). Is it possible to turn that on?  ``` //  Simple Chart .chartXAxis {   // data contains two data points with a date. The entire chart only has these two data points   AxisMarks(preset: .extended, values: data.map(\.date)) } ```
 
 
@@ -3343,21 +3344,21 @@ does that help?
 |U03J21TPWPM|:
 Yes, thanks :slightly_smiling_face:
 
---- 
+---
 > ####  Is there a way to have multiple scales per chart? Let's say I'm doing weather and I want one line with cloud cover (a 0-100% scale) and rainfall per hour (in, say, mm). The x axis on both of those would be time, but the y axes are different.
 
 
 |U03HW7NSMFT|:
 An axis always has one scale. So x and y have one scale. You can have multiple axes to display e.g. temperature in C and F. If you want to show multiple measures, I would recommend multiple charts with aligned x-axes. You can even hide the axis of the upper chart to create a more compact view.
 
---- 
+---
 > ####  Hey Richard, I'm in love with the Swift Charts framework. I like how we can customise the charts to fit our needs. I noticed some layout issues with the Legend, when there are a lot of items to display, or when the names are long. Do you plan to make the legend Layout automatically wrap/use multiple rows when there is not enough space? I noticed the iCloud design on iOS switches from a HStack to a VStack when the device accessibility is set to true. My feedback with more infos: FB10125848
 
 
 |U03J7BR0RKJ|:
 Thank you for your feedback!
 
---- 
+---
 > ####  Adding data to charts and the modifiers always requires this `.value(_:)` function that requires a label key. What exactly is the purpose of that label key? Is it some kind of identifier? Does the label key in a `foregroundStyle` have to match one in a `LineMark`, for example (if referencing the same data)?  Thanks! :)
 
 
@@ -3368,7 +3369,7 @@ The label key in `foregroundStyle` doesn't necessarily need to match `LineMark`,
 |U03J21TPWPM|:
 Awesome, thanks for the explanation! :slightly_smiling_face:
 
---- 
+---
 > ####  Are there any limitations to the result builder syntax used to add marks?
 
 
@@ -3381,7 +3382,7 @@ How many entries can we put in there? View builders are typically limited to 10.
 |U03H3193G3H|:
 Got it! Right now it's 10. Grouping into ForEach's etc would help! If you have a use case that requires more, please file feedback~
 
---- 
+---
 > ####  Swift Charts looks very cool and well designed. What were the inspirations for its API design? It feels very similar in many aspects to ggplot2 which itself is apparently based on "The Grammar of Graphics" book. Was that an inspiration?
 
 
@@ -3390,7 +3391,7 @@ Thank you. Its’ great to hear that you enjoy the API.
 
 Swift Charts is a grammar based visualization language, which means charts are composed of building blocks (marks and mark properties) instead of picked from a list of chart types (vertical bar chart, bubble chart, waterfall chart etc). The Grammar of Graphics was hugely influential for many visualization APIs like ggplot, D3, Vega and also Swift Charts.
 
---- 
+---
 > ####  Hi, How can we remove or configure the space between the bars (BarMark) ? Is it possible to define the bar width ? Thanks.
 
 
@@ -3602,7 +3603,7 @@ It's a rendering artifact that happens when the bars doesn't align with pixel bo
 |U03JSSE35GQ|:
 Thanks ! :+1:
 
---- 
+---
 > ####  Do you have any suggestions for displaying "goal progress" data? Saw in earlier Q&amp;A that radial/rings charts are not supported, but other types could be used.  Looking for visualization similar to Health activity rings.  Thinking about 3 bars normalized to % of progress toward goal.
 
 
@@ -3621,7 +3622,7 @@ Since you may show different metrics (e.g. steps and distance), you may want to 
 |U03HZ49EE1K|:
 Thanks again, I'll give this a whirl!
 
---- 
+---
 > ####  Hi everyone! Is there a suggested "update rate" that you'd recommend for real-time charts? When trying this out on a simulated iPhone, I quickly approach 90%+ CPU usage if I try to update a line graph more than 40 times/second (For example, when trying to visualize a simulated accelerometer).
 
 
@@ -3646,7 +3647,7 @@ You would need to write a small framework, but SceneKit (or even SpriteKit?) cou
 |U03HZ4PT2ER|:
 But I think you need to isolate your fast-updating surfaces and not drag all of UIKit/SwiftUI into it otherwise the performance will crash
 
---- 
+---
 > ####  We have data that doesn't necessarily progress linearly from one point to the next, for example the x and y values could either increase or decrease from one point to the next. Would those points be linked as if they were points on a path or would it upset the system?
 
 
@@ -3662,7 +3663,7 @@ Ahh. The answer is yes. Use a `LineMark` .
 |U03J21ZK802|:
 Thanks
 
---- 
+---
 > ####  I am wondering why Pie Charts are visible in promotional material or in the sessions but don't seem to be supported with Swift Charts. I know that Pie Charts can be misleading, but they are still ideal for some cases.
 
 
@@ -3681,7 +3682,7 @@ FB10138491
 |U03H3193G3H|:
 thanks <@U03HUM5PDHV>!
 
---- 
+---
 > ####  I have a horizontal bar chart with two Text overlay annotations on each bar, one aligned leading and one aligned trailing. When the bars are short the annotations overlap and eventually truncate. Is there an easy way to hide overlayed annotations when the bars are too short to accommodate their intrinsic widths or should I explore other layout configurations (e.g. one annotation with an HStack containing two Text views spanning the context target region width)?
 
 
@@ -3693,7 +3694,7 @@ In this situation, you can explore other layout options as you mentioned. For ex
 |U03HZ32UWBX|:
 Thanks.
 
---- 
+---
 > ####  Is there a way for external developers to extend Swift Charts and add new chart types that aren't supported out of the box, for example pie charts, or charts with 3D styling?
 
 
@@ -3706,7 +3707,7 @@ Thank you. So I would assume a 2D bar graph with a fake 3D effect for the bar ma
 |U03HW7NSMFT|:
 Yes, I would agree with that.
 
---- 
+---
 > ####  Is there a method to modify or specify the label style of a chart? For instance, my chart includes price averages for home heating oil. I want to clearly display on the label that the Double is in dollar format on the Y axis.   At this time, when I attempted a brief demo app it simply made the Y axis label as an Int.
 
 
@@ -3725,7 +3726,7 @@ At this time I'm tracking price averages per month over the last 12 months, the 
 |U03H3193G3H|:
 the former is likely enough then, makes sense!
 
---- 
+---
 > ####  Can charts be used in the new Preview option to see a live chart in the preview without needing to go to that screen? Such as current screen allows new data entry and the preview shows the updated chart? Also, can previews be used from widgets to preview the chart without loading the app?
 
 
@@ -3754,7 +3755,7 @@ I’m not familiar with the contextMenu preview but it looks like it might work.
 |U03JEDKRZJ6|:
 Okay, thanks Dominik
 
---- 
+---
 > ####  Does Charts support polar coordinates?
 
 
@@ -3764,7 +3765,7 @@ It does not, but feedback is appreciated!!
 |U03HZ32UWBX|:
 Will do. This is a great start!
 
---- 
+---
 > ####  Hi, Sorry if this was already asked, but how can I add a text or SF Symbol at the top of a vertical BarMark ?  (I did not found the information at <https://developer.apple.com/documentation/charts/|https://developer.apple.com/documentation/charts/> ) ? Thanks.
 
 
@@ -3781,7 +3782,7 @@ Note that you can also use `Text` or other views as the content of the annotatio
 |U03JSSE35GQ|:
 Parfect ! This is amazing how configurable the Charts are. It will save me a lot of time in my application! Thanks.
 
---- 
+---
 > ####  The charts are amazing! I saw the example for the Interval Bar Chart in the docs and it got me thinking I could represent a simple weekly view of a student's course schedule if I flipped the axis. I made a proof of concept and it worked really well! I calculate the duration of a meeting in minutes to create the size of the BarMark using yStart and yEnd. Is this a good way to do this or can it be achieved with just the start date time and end date time? I also had to reverse the chartYScale to get the AM meetings to apear first, not sure if that is expected or not.  struct Series: Identifiable {     let courseName: String     let meetings: [Meeting]     var id: String { courseName } } struct Meeting {     let startDate: Date     let endDate: Date     let startMinute: Double //Minutes since 7am     let endMinute: Double }   Chart(data) { series in 	ForEach(series.meetings, id: \.startDate) { element in 		BarMark( 			x: .value("Course", element.startDate, unit: .day), 			yStart: .value("Start Time", element.startMinute), 			yEnd: .value("End Time", element.endMinute) 		).annotation(position: .overlay, alignment: .top) { 			VStack { 				Text(series.courseName).font(.caption) 				Text(element.startDate.stringValue(dateFormat: .time)).font(.caption) 			} 		} 	} 	.cornerRadius(8.0) 	.foregroundStyle(by: .value("Course", series.courseName)) } .chartYAxis { 	AxisMarks(position: .leading, values: .stride(by: 60)) { axis in 		AxisTick() 		AxisGridLine() 		AxisValueLabel(centered: false) { 			if axis.index+7 &lt; 13 { 				Text("\(axis.index+7) AM") 			} else { 				Text("\((axis.index+7)-12) PM") 			} 		} 	} }.chartXAxis { 	AxisMarks(position: .top, values: daysOfTheWeek) { _ in 		AxisGridLine() 		AxisTick() 		AxisValueLabel(centered: true) 	} }.chartYScale(domain: .automatic(reversed: true))
 
 
@@ -3873,7 +3874,7 @@ Filed mine as FB10139144 <@U03H3193G3H> :slightly_smiling_face: Thanks for every
 
 btw <@U03JDV4PQR0> I have to agree, this is a really cool use of the new charts! I really like it :smile:
 
---- 
+---
 > ####  Can we transform a mark when the user presses and releases it, like we could do with a `ButtonStyle`. If not, we can probably use an overlay, but can we change the size of marks without changing their values (for example with a scale effect)?
 
 
@@ -3883,7 +3884,7 @@ Currently we don't have a `scaleEffect` modifier. You can use something like `wi
 |U03HZ4XRUKF|:
 Thanks, I think I can make it work then!
 
---- 
+---
 > ####  Hi, I'm curious on how Charts handles time based data e.g. temperature over a day when data can be received at any point of the day, not a set interval apart? Some chart libraries that have previously existed did not handle this and just spaced out data incorrectly.
 
 
@@ -3893,7 +3894,7 @@ Hi <@U03HMESB695>! Charts handles `Date` as a continuous variable, so this shoul
 |U03HMESB695|:
 Thanks! I definitely don’t want it spaced evenly. Great to hear it just handles it approriately.
 
---- 
+---
 > ####  Hi,  I've got a set of data I wish to chart that is discrete states over time, for example on/off states of a light, or an enumeration a door lock's state. (example: <https://twitter.com/aaron_pearce/status/1527452719027728384?s=21&amp;t=ux-SjhyOSmO89k0u4Lf_jA).|https://twitter.com/aaron_pearce/status/1527452719027728384?s=21&amp;t=ux-SjhyOSmO89k0u4Lf_jA).>  How would you recommend tackling this chart? RectangleMarks?
 
 
@@ -3909,7 +3910,7 @@ I suppose you have some kind of start/end time already, no? You can pass those t
 |U03HMESB695|:
 Yeah, I can work those out so its doable! Thanks
 
---- 
+---
 > ####  What's the best way to use ChartRenderer to draw to a CGContext with slightly different styles (e.g. draw shapes as hollow, or dashed lines, etc)?
 
 
@@ -3934,7 +3935,7 @@ No, currently there isn't a way to configure styling of the renderer itself. You
 |U03HZ4PT2ER|:
 ok, thank you
 
---- 
+---
 > ####  Is it possible to assign a gradient between specific LineMarks? E.g. to show a change in value in temperature from cold to hot?
 
 
@@ -3968,14 +3969,14 @@ That’s perfect!
 |U03HMESB695|:
 thanks
 
---- 
+---
 > ####  Hi again, Are Charts planned to be available also on iOS 15 ? Thanks.
 
 
 |U03HW7NSMFT|:
 Swift Charts is iOS 16 only since Swift Charts relies on features that are not available in earlier versions.
 
---- 
+---
 > ####  What's the best way to that we can use Swift Charts in a predominately UIKit app?
 
 
@@ -3993,7 +3994,7 @@ Yes the new `UIHostingConfiguration` lets you use SwiftUI in cells and `UIHostin
 |U03K1BXG8RG|:
 <@U03HL05BUJG> <@U03H3193G3H> thank you all super excited about this :100:
 
---- 
+---
 > ####  Except the WWDC22 Videos and <https://developer.apple.com/documentation/charts|https://developer.apple.com/documentation/charts> , which documentation do you recommend ?
 
 
@@ -4005,14 +4006,14 @@ In the documentation you will also find a sample app that could be quite useful
 |U03JSSE35GQ|:
 Thanks.
 
---- 
+---
 > ####  Is it possible to share one of the axis between 2 charts or have 2 subcharts on the same axis, eg share x-axis have have 2 different y-axies on either side with their own independent domain range.   Or have a plot when another plot to its right that shares the y-axis but has its own x-axis (commonly used when drawing a heatmap to show a histogram attached on the side)
 
 
 |U03H3193G3H|:
 <@U03HMDSQ9JB> Hope I'm understanding your question correctly. You can set specify two charts to have the same `chartScale` and `chartAxis` using the appropriate modifiers, but we don't support dual scales on the same chart
 
---- 
+---
 > ####  When using Swift Package Manager modules, Xcode Previews will crash when you try to Preview  resources that are contained within another module. e.g. `FeatureModule` is trying to preview a SwiftUI `LogoView()` contained in a `DesignSystem` module that loads an image from that module. (It works fine when the app is built and run). Is this a known issue that will be fixed?
 
 
@@ -4037,7 +4038,7 @@ Very interesting post, I read it this morning :slightly_smiling_face:
 |U03HMELQWLX|:
 For anyone else running into this limitation, my blog post above has a workaround for how to keep your previews working until it gets properly fixed in Xcode :slightly_smiling_face:
 
---- 
+---
 > ####  With SwiftUI previews, I get this error specifically for my macOS target (the same view works fine for iOS):  LaunchExternalToolError: Failed to build ImportCSVContactsPreviewPage.swift Failed to launch swiftc. ================================== |  HumanReadableNSError: NSInvalidArgumentException |  |  com.apple.dt.PreviewsFoundation.ExceptionError (0): |  ==NSLocalizedFailureReason: too many arguments (4170) -- limit is 4096   What does this mean? BTW, I filed FB10004742 already.
 
 
@@ -4047,7 +4048,7 @@ Thanks for filing the feedback! This is a known issue we're investigating.
 |U03HZ2VBE21|:
 Thanks!
 
---- 
+---
 > ####  Is there a way to export/save a screenshot directly from Previews?  I use screenshots (CMD+SHIFT+4) now and share them with product owners/designers but it'd be super handy to have a button that saves the preview with the bezel.
 
 
@@ -4095,7 +4096,7 @@ These sounds great. Please file feedback!
 |U03K00ZTUTB|:
 I just added the System Share to my Feedback that I filed.
 
---- 
+---
 > ####  Is there a way to add a "Custom variants" to Xcode Previews?  f.e. I think it'd be a good idea to add RTL/LTR variants
 
 
@@ -4108,7 +4109,7 @@ Please also file individual feedbacks for any variants group (like our existing 
 |U03J1TN6WBD|:
 Done! :rocket: FB10139550
 
---- 
+---
 > ####  My Previews take generally a long time to render, often failing (timeout) and sometimes it's quicker to just launch a run on the simulator. Also, it takes some huge place on disk (40GB+). Any hint to optimise all this and make the Previews quick, light and reactive?
 
 
@@ -4137,7 +4138,7 @@ Yup, packages would be fine, too. It's even easier to use them in Xcode now. The
 
 Of course you might find other bugs on our end that slow things down. Please file feedback reports with sysdiagnosen! :)
 
---- 
+---
 > ####  As of Xcode 13, there are some gotchas with SwiftUI Previews and custom build configurations not named Debug or Release.  • SwiftUI Previews are not compiled-out unless the active build configuration is exactly named Release. • Source files under the Preview Content directory are compiled-out for non-debug builds (whether this is looking for the active build configuration to not-be-named “Debug” or whether it’s based on code optimization levels, I do not know)  So, what this means is…  • If you have a custom build configuration, say a “Staging” or “Beta” or whatever, which is essentially a variant of “Release”…. • And if you have SwiftUI Previews in your app… • And if those previews are not wrapped in #if DEBUG directives… • And if you have source code to support SwiftUI Previews stashed under the “Preview Content” directory…  Then your project will likely fail to build, as the previews will not be compiled out, but they will depend upon development asset code in “Preview Content” that is compiled out.  Do you know if this is resolved in Xcode 14?
 
 
@@ -4219,7 +4220,7 @@ It’s not _*unsupported*_ ( :slightly_smiling_face: ) to put code in Preview Co
 |U03HMELQWLX|:
 Thanks for the reply <@U03HW8Y0RFB>
 
---- 
+---
 > ####  Are there any new SwiftUI Preview tools for previewing views on devices of varying os versions? For example viewing how a view would look on an iOS 16 device vs iOS 15 that uses the compiler checks
 
 
@@ -4240,7 +4241,7 @@ Any of those is fine, it will make it to us, but Xcode is the fast track :slight
 |U03JEMNCV18|:
 Cool, I picked the right one
 
---- 
+---
 > ####  What's the best practice for working with Core Data and SwiftUI previews, such that we don't end up interacting with the actual store data?
 
 
@@ -4249,7 +4250,7 @@ Core Data supports pointing to in-memory storage which won't need the file syste
 
 <https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/CoreData/PersistentStoreFeatures.html>
 
---- 
+---
 > ####  As preview utilizes some generated code (for dynamically updating values etc), I have faced naming clashes a few times in a rather crowded file. And it wasn't obvious at first, I had to dig through logs to figure out some helper types I had were clashing. What would be suggestions to avoid such cases? Is there a guideline that we can refer to?
 
 
@@ -4259,7 +4260,7 @@ That's interesting. In order to be able to help we'd have to take a look at a co
 |U03J1V9U7U3|:
 <@U03HL18CEEQ> thanks for answering, I don’t have any such project at the moment but I’ll sure keep in mind to file a feedback next time.
 
---- 
+---
 > ####  Sometimes the Xcode previews stop working for no apparent reason. The last example of this was it said "connection interrupted" or something like that. So, I question is what are some tips for fixing broken previews? BTW: The new previews are great! Love not having to create multiple previews for landscape and portrait.
 
 
@@ -4272,7 +4273,7 @@ Thanks for the question. We know there are cases where previews don’t work and
 |U03HW8Y0RFB|:
 Thanks for the feedback <@U03JSSE35GQ>, that’s a great idea. We’ve been tracking a number of issues related to type checking, so we’re on it! :slightly_smiling_face:
 
---- 
+---
 > ####  Views within an extension aren't always exposed to Previews. This will create a compile issue:  ``` enum MyNameSpace { } extension MyNameSpace {     struct MyContainerView: View {         var body: some View { MyChildView() }     }     struct MyChildView: View {         var body: some View {Text("MyView") }     } }   struct ContentView_Previews: PreviewProvider {     static var previews: some View {         MyNameSpace.MyContainerView()     } } ```  Is this a known issue? I'm hoping it's not expected. :upside_down_face:
 
 
@@ -4281,7 +4282,7 @@ Thanks for the question! Ha, yes, definitely not expected :slightly_smiling_face
 
 This is a known issue that we are actively looking at. In the meantime, a workaround is to add a `typealias` inside of the `struct` that references the other view. For example in your example I added `typealias MyChildView = MyNameSpace.MyChildView` inside of `MyContainerView` and the preview renders.
 
---- 
+---
 > ####  Question re the layout inspector inspecting swiftui - curious if there are public/sanctioned ways to introspect a swiftui view for details, similar to what is presented in the details panel (on the right when selecting a view).
 
 
@@ -4317,7 +4318,7 @@ Gotcha. To answer your question, I don’t believe that level of introspection i
 |U03J1UU7HS7|:
 Absolutely!  Thanks.
 
---- 
+---
 > ####  Adding border to views when developing helps debugging/developing your code. Adding borders to every view in the screen can be tiring.  Is there a way currently to automatically add borders to all the views in the screen with the press of a button/setting?
 
 
@@ -4327,7 +4328,7 @@ If you'd like to see the borders of each view in the preview you can use the non
 |U03J1TN6WBD|:
 Thank you! :heart:
 
---- 
+---
 > ####  Currently Xcode Previews fail to find the `.module` bundle (and associated resources) for views in SPM modules. This has a workaround (manually locating the bundle), but adds additional boilerplate code.  I'd like to know it's a known issue. I've seen that Previews got a substantial update in Xcode 14 and I was surprised to see this was not addressed.
 
 
@@ -4340,7 +4341,7 @@ as far as i rememeber, `.module` is only generated when a Swift package target h
 |U03JEMDRZDX|:
 :crossed_fingers::skin-tone-3:Thank you for the answer!
 
---- 
+---
 > ####  Is there a way to have the preview window size to be automatically  the same as the device used for the preview ? It usually opens wider than necessary on my small screen ;-)
 
 
@@ -4350,7 +4351,7 @@ There is not currently a way to have the preview canvas match the size of the de
 |U03JSSE35GQ|:
 OK, Thanks.
 
---- 
+---
 > ####  Not a Question: Thank you for the feature to provide multiple variations, it'll simplify my code dramatically, as I was constantly boiler-plate extending views for light/dark + multiple accessibility sizes to see how it worked out. Huge benefit, mucho gracias!!!
 
 
@@ -4366,7 +4367,7 @@ Haven't had a chance to test it out yet
 |U03HMELQWLX|:
 Just in general, I wanted to say that Xcode Previews are life-changing. I honestly feel that I’m about 10x more productive with the combination of SwiftUI + Xcode Previews. Being able to rapidly iterate on a view to get it just how I want completely changes my approach to things. Now I just dive in, and start coding, and continually refine until it’s perfect. With .xibs, I would give up far before the point of perfection.
 
---- 
+---
 > ####  Is it possible to print to the console while in SwiftUI previews?
 
 
@@ -4382,7 +4383,7 @@ This is a known issue we're actively investigating. :slightly_smiling_face:
 |U03H32HJQEB|:
 FWIW, `os_log` and `Logger` do work fine in previews and then you can look for those with the Console app like any other syslog output.
 
---- 
+---
 > ####  First, I love that the interactive mode is default — I think it makes the entire preview much more useful. It seems that the selectable mode no longer works the way I would expect. Is there an explanation somewhere of what I can do in that mode?
 
 

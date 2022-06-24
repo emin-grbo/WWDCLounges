@@ -4,9 +4,10 @@
 #### [emin@github](https://github.com/roblack) / [emin@twitter](https://twitter.com/emin_ui)
 #### [shirblc](https://github.com/shirblc)
 #### [tikimcfee](https://github.com/tikimcfee)
----
 
---- 
+
+
+---
 > ####  Was something changed on UIDragInteraction? When I tried doing local drag and drop (move) in my app, the drop gets cancelled if my finger is not perfectly still when I lift it. Bug?
 
 
@@ -25,7 +26,7 @@ Any chance we can lower the duration of the lift gesture (without doing some ugl
 |U03J20E1BPD|:
 I know the duration is reduced if it’s dragged with a pointer.
 
---- 
+---
 > ####  Does the browser-style navigation bar/controller manage the forward navigation stack automatically, and if so, is it accessible for, say, a custom swipe forward gesture a la Safari?
 
 
@@ -62,14 +63,14 @@ so to sum up, to get File’s style, set 2 items with `chevron.backward` &amp; `
 |U03J4DRK4SY|:
 Awesome, thank you!
 
---- 
+---
 > ####  Thanks for the great session! Love UIKit so much. In a UIKit app if you enable Mac Catalyst with the Mac idiom, is it possible to opt into native macOS SwiftUI? By default it uses the iOS style for Form for example which isn't ideal when you're building UI that'll only be used in your Mac app. Thanks!
 
 
 |U03HB0D5W22|:
 No, you can either use SwiftUI in native macOS (AppKit) mode, or Catalyst (UIKit) mode, but not both.
 
---- 
+---
 > ####  Thank you for such a great improvments! As of iOS 15, when you`re using .estimated() size of NSCollectionLayoutSection`s boundarySupplementaryItems you can`t simultaneously use its visibleItemsInvalidationHandler properly. Does that fixed in iOS 16?
 
 
@@ -82,7 +83,7 @@ Probably a 1-1 lab might be better for this question.
 |U03J223TNSE|:
 Thank you! 1-1 lab sounds good
 
---- 
+---
 > ####  Will multiple windows be supported in iOS? Right now we need to use UIKit lifecycle if we want to show HUD that overlays the entire app. For example: <https://www.fivestars.blog/articles/swiftui-windows/|https://www.fivestars.blog/articles/swiftui-windows/>
 
 
@@ -92,7 +93,7 @@ Hi there, do you mean supported in _SwiftUI_? I think this might be a better que
 |U03JMMN8659|:
 Hi <@U03HELXCTGV>, thank you, yes you're right
 
---- 
+---
 > ####  We'd like to improve our app &amp; framework to have a better desktop-class experience. For that, we'd like to utilize `UIContextMenuInteraction` and the new `UIEditMenuInteraction`. How should we decide where to use one or the other? Can context menus on iPadOS be presented "in place", like on macOS, without a targeted preview?
 
 
@@ -117,7 +118,7 @@ We do not allow for programmatic activation of context menus, and only for the l
 |U03JRN827HN|:
 Got it. Thank you for clarifying this!
 
---- 
+---
 > ####  In iOS 15, compositional layout with orthogonal scrolling behaviour with a single section in non-full screen size also scrolls vertically, what is the correct way to prevent vertical scrolling for single horizontal section?
 
 
@@ -127,7 +128,7 @@ If it is the outer (collection) view that is scrolling, you can set `alwaysBounc
 |U03JRQ81NEL|:
 Thanks, other solution we tried to go back with the flow layout but we then loose the nice things about the declarative relation as in compositional layout.
 
---- 
+---
 > ####  In new UICalendarView, is it possible to change the layout? Like in the iOS Calender app?
 
 
@@ -137,7 +138,7 @@ That isn’t possible at the moment. Please file a feedback for us if this is so
 |U03JRQ81NEL|:
 Sure, thanks.
 
---- 
+---
 > ####  Since setValue:forKey: on UIDevice is not longer supported to force orientation. Is there are step by step explanation of how to force landscape orientation for 1 UIViewController only?
 
 
@@ -159,7 +160,7 @@ Hey <@U03JRR4R3CY> we have also such a button and the same problem now. After th
 
 I started making a prototype here. Maybe it's useful for you too.
 
---- 
+---
 > ####  Is there a way to customize the colors of the chevron that’s shown in the UINavigationBar when returning a UIMenu in the new titleMenuProvider function on UINavigationItem?
 
 
@@ -169,7 +170,7 @@ The chevron will adapt automatically for light/dark mode, but there's no way to 
 |U03HZ4EJJ05|:
 Ouch, that’s unfortunate! But thanks for answering my question :pray:
 
---- 
+---
 > ####  The session mentioned NSWindow.collectionBehavior, but how will Stage Manager interact with NSWindow.level? More specifically, if I have a window in my app that I globally float above all other windows by setting the level to NSWindow.Level.screenSaver, will that window still appear in Stage Manager?
 
 
@@ -179,7 +180,7 @@ Window levels still work the same way in Stage Manager, in that they’ll impact
 |U03JHTBKY59|:
 Thank you Jeff!
 
---- 
+---
 > ####  I'd really love to learn some more about ExtensionKit/ExtensionFramework and extension UIs. Are there any sessions that cover these, and if not, what would be a good lounge/lab to ask?
 
 
@@ -219,7 +220,7 @@ There is some additional extension point configuration required. The "Host" app 
 |U03JKSLQ7J6|:
 <@U03JNQ1ABFC> oh wow this is incredibly helpful, I’m really excited to check this out!
 
---- 
+---
 > ####  If I have an app that's primarily written in AppKit, is there any way to use SwiftUI to define toolbar items from within an AppKit window? Or does the window itself need to be created by SwiftUI too for that to work?
 
 
@@ -232,7 +233,7 @@ It is correct that the SwiftUI `.toolbar()` modifier only works with windows tha
 |U03HMDFMVNK|:
 Got it, thanks!
 
---- 
+---
 > ####  Assuming I am not doing anything custom or low-level involving Metal, are there any AppKit-specific APIs to be aware of to fully support ProMotion displays?
 
 
@@ -278,7 +279,7 @@ If you are managing your own refresh timer, these can be helpful.
 |U03HHJAKKA7|:
 But if you’re just doing normal AppKit stuff, you don’t need to take any action. NSAnimation functionality, for example, will “do the right thing.”
 
---- 
+---
 > ####  In Jeff’s AppKit session, he mentioned heightOfRow  timing will be different in Ventura for dynamic row heights. Does it still work with auto-layout auto-resized row heights? I don’t implement heightOfRow.
 
 
@@ -288,7 +289,7 @@ Row height estimation as discussed in the session only apply to NSTableViews who
 |U03JENQA0TB|:
 Excellent. Thanks. Sorry for the double post.
 
---- 
+---
 > ####  Hi again! Another question that Myke said would be best for this venue. Still working with SwiftUI, Xcode 13.4 under macOS Monterey: tried to restrict orientation for deployed app to iPhone/portrait orientation by using the check box in GeneralDeployment orientation, but it still tries to work when going to landscape left/right. In the process, it refuses to scroll in those orientations, and when I return to portrait the headers/UI elements are “scrunched.” This is not solved until I send the app to background, and open the app again. Any ideas on how to tackle this would be appreciated, thanks!
 
 
@@ -354,7 +355,7 @@ And for Feedback, there's a handy page here: <https://developer.apple.com/bug-re
 |U03J21EKNSE|:
 Thank you: incentive to dare use a beta version of Xcode (another first time!)
 
---- 
+---
 > ####  Does NSTableView support dynamic row heights for multi-column tables? When I tried that, if I had multiple columns, it didn't resize the row to the tallest cell's content.
 
 
@@ -364,14 +365,14 @@ Automatic row height rows should size to fit the tallest cell's content. If that
 |U03JENQA0TB|:
 Ok will do. Thanks.
 
---- 
+---
 > ####  How can NSWindow.collectionBehavior be set in a SwiftUI app? And if it can be, does that apply to the entire app or only a specific WindowGroup/DocumentGroup?
 
 
 |U03HB0LK3FY|:
 There isn’t currently a way to request different collection behaviors from SwiftUI — so that would be an excellent enhancement request in Feedback Assistant!
 
---- 
+---
 > ####  Is there a way to present the menu of a UIEditMenuInteraction that’s associated with an instance of UITextInput? I’m working on a text editor where I’m programmatically showing the menu. Previously I could use `UIMenuController.shared.showMenu(from:rect:)`. What’s the equivalent with UIEditMenuInteraction to show a menu with all the standard editing actions?
 
 
@@ -397,7 +398,7 @@ You should install your own UIEditMenuInteraction; if nothing is showing when yo
 |U03HB0D4JLE|:
 Also, if you _just_ want to add/remove/change some menu items for the edit menu that comes up on a `UITextInput` like text view etc., you can override `buildMenuWithBuilder:` on any suitable view controller in your hierarchy and use `UIMenuBuilder` to change the menu.
 
---- 
+---
 > ####  Xcode 13.4.1 / M1 Max MacBook Pro / macOS 12.4 a pure SwiftUI app run on "My Mac (Mac Catalyst)"   choosing a SignInWithAppleButton() added in a view crashes the app with:  _AuthenticationServices_SwiftUI/SignInWithAppleButton.swift:303: Fatal error: Attempting to present ASAuthorizationController from a SwiftUI view not in a hierarchy. This should not be possible, please file feedback.  Anyone ware of this and what might be done to fix this?
 
 
@@ -452,7 +453,7 @@ Based on the crash backtrace, this does seem to be a bug with the SignInWithAppl
 Thank you.
 I am happy you were able to reproduce the bug so i am sure it’s not something i am doing wrong. Looking forward for a fix / updates.
 
---- 
+---
 > ####  Does "UIFrameworks" mean not Swift UI? Is this code for non-SwiftUI UIFrameworks?
 
 
@@ -464,7 +465,7 @@ K. Point I am making is general, that maybe using "UIFrameworks" as a way of say
 
 Apple is probably going to be making this distinction for a while so maybe think about what you call "UIFrameworks but not SwiftUI"
 
---- 
+---
 > ####  Starting from iOS 16, buttons on the screen don’t receive touches when a UIMenuController (nay, a menu of a UIEditMenuInteraction) is presented. When attempting to select a button on the screen that’s outside of the menu, the menu will be dismissed but the selected button will not receive the touches. This is a change from iOS 15. Is this intentional or a bug in beta 1?  The behavior in iOS 16 poses a problem in my app that lets users select some text, in which case the UIMenuController may be shown, and act on that selected text by selecting a button on the screen.
 
 
@@ -483,7 +484,7 @@ Filing feedback on issues like this is very helpful!
 |U03HZ4EJJ05|:
 It’s filed as FB10080311
 
---- 
+---
 > ####  Is the new `UIHostingConfiguration` bound only to collection and table view cells? Or is this API designed to be used in other places where I might "inject" SwiftUI views in the middle of custom UIKit view hierarchies?
 
 
@@ -499,7 +500,7 @@ Thank you! So if I’m vending a mostly UIKit-based framework and I want my user
 |U03JRN827HN|:
 Noted, I’ll be sure to do so. Thanks again for answering my questions!
 
---- 
+---
 > ####  Most SF Symbols appear to have transparent background colours. In AppKit, is there a way to get a white background colour so that coloured symbols look good on NSPopupButtons? Right now when the selection is hovering over an NSMenuItem with a coloured SF Symbol for the image, the symbol colour doesn't change to make it viewable. For example, if your accent colour is yellow and the NSMenuItem's image is yellow, it basically disappears from view (yellow on yellow).
 
 
@@ -517,7 +518,7 @@ Here’s my popup button example with SF Symbols.
 |U03HEM646TX|:
 `NSMenu` does have a delegation mechanism that can tell you when an item has been highlighted. Try implementing `-menu:willHighlightItem:`, and altering the highlighted item. Since these are symbols, you could use `-[NSImage imageWithSymbolConfiguration:]` to get a new image with a different configuration, and set that to the highlighted item’s `image` property. Just be sure to restore the original image back to the previously-highlighted menu item and when the menu closes (`-menuDidClose:`).
 
---- 
+---
 > ####  Is it possible to access swiftui environment/modifiers inside UIViewRepresentables?
 
 
@@ -533,7 +534,7 @@ Or you can use `@Environment` in your representable struct.
 |U03JRQ81NEL|:
 Thanks :blush: 
 
---- 
+---
 > ####  Is there a known issue with keyboard shortcuts in UITextView where if you type command-B then press ‘B’ straight after, the ‘B’ key press is not registered? (It’s when the keystroke is the same letter as the previous command key combination.)  I thought it was our bug originally, but haven’t made any headway into what’s causing it.
 
 
@@ -554,7 +555,7 @@ Unfortunately I’m not able to reproduce this in a UITextView with allowsEditin
 |U03HELXATD3|:
 If you’re able to reproduce this in a sample app, and file a bug report with the report attached (and post the report here), that would help us investigate the issue further!
 
---- 
+---
 > ####  What should I do when I encounter performance issue when I have hundreds of CAShapeLayers (ink strokes) inside a huge UIScrollView content view? Should I consider rasterization solutions such as CATiledLayer?
 
 
@@ -658,7 +659,7 @@ I’m afraid not. A forum post is the best way to communicate with the Core Anim
 |U03HELXCTGV|:
 Yes, we have labs on Thursday and Friday. Make sure to sign up!
 
---- 
+---
 > ####  What's the simplest way to edit the AirDropped file's thumbnail and filename for the iOS sharesheet?  Is there an updated or modern best practice version of the sample code: <https://developer.apple.com/library/archive/samplecode/sc2273/Introduction/Intro.html#//apple_ref/doc/uid/DTS40013842|https://developer.apple.com/library/archive/samplecode/sc2273/Introduction/Intro.html#//apple_ref/doc/uid/DTS40013842>
 
 
@@ -684,7 +685,7 @@ let avc = UIActivityViewController(activityItemsConfiguration: aic)
 // present avc
 ```
 
---- 
+---
 > ####  Hi, how can I change some properties of NSWindow (such as the titlebar color) when using Catalyst?
 
 
@@ -709,7 +710,7 @@ It’s totally OK to go for something custom (we love creative designs!) but if 
 |U03HZ81AHCN|:
 <@U03HB0LK3FY> Thanks for the suggestion! In fact, I was trying to keep the titlebar in order to give the Catalyst app a more “macOS” feel, but without simulating the default appearance with custom labels, since it almost never looks quite the same as the system
 
---- 
+---
 > ####  I saw an app that shows the multitasking dots at the top of the screen, but still hides the reset of the status area. I could not figure out how to do that. Do you have a suggestion on how best to do this?
 
 
@@ -719,7 +720,7 @@ I think returning `true` from an override of `prefersStatusBarHidden` on a view 
 |U03J22P9WKH|:
 Ah, yes, that does it. Thank you!
 
---- 
+---
 > ####  UIHostingConfiguration question - I was expecting onAppear calls to be made on the hosted Views as cells move on screen, but it seems that they line up with (I assume?) the reused cell population.  If I adjust your UseSwiftUIWithUIKit demo to increase the cell counts and add a print on onAppear I see fewer logs than I would expect to see.  And no logging once I scroll through all of the content.  Curious if this expected behavior before, or a function of this being beta?
 
 
@@ -729,7 +730,7 @@ Great question, the intent is for `onAppear` used inside UIHostingConfiguration 
 |U03J1UU7HS7|:
 Fantastic, thank you!
 
---- 
+---
 > ####  I would like to allow users to configure command keys for menus in my app. However, I have not found a way to change the command keys (or add / remove  menus) after the initial builder phase occurs (via the AppDelegate). As a test, I built my menus, and then used a Dispatch after to remove the View menu after 4 seconds. I'm reusing the same builder that was passed in. However, nothing happens. Is the expected? Is there a way to update the command keys after launch?
 
 
@@ -744,7 +745,7 @@ Also note that on macOS / Catalyst, it is best to avoid a dynamically changing m
 All items should be in the same location at all times, so they're easy to discover and their location is easy to remember.
 Instead of adding/removing items, use validation to disable items when they are not applicable.
 
---- 
+---
 > ####  Catalyst question: I would like create a custom cursor that is dependent on settings in the UI that only works inside a specific view (e.g., a tool). Normally on Mac, that would be done with an NSTrackingArea. Since UIPointerInteraction is not supported on Mac, how should I go about doing this?
 
 
@@ -777,7 +778,7 @@ This is definitely at least something we’d like to take a look at, so please f
 |U03J22P9WKH|:
 FB10082348 submitted.
 
---- 
+---
 > ####  Is it now possible to create custom app-specific extensions that are not pre-defined by Apple or am I misreading the ExtensionKit docs? If this is possible, is there a good session to watch this week?
 
 
@@ -799,7 +800,7 @@ Are these extensions App Store compatible?
 |U03JNQ1ABFC|:
 Yes.
 
---- 
+---
 > ####  Probably it is more core services but I can't find anything like that, so: We have a case where iPad is the heart of a system. Or rather iPads. In the aircraft cockpit it is one of the most powerful and flexible units. Now - we need two or more devices to communicate (pilot, co-pilot, cabin crew...). Yet regulators have very specific need that one device is a master and manages synchronization with others.  We found that iPad is not providing things like services (e.g. http/soap/rest/socket server) that would be running no matter if app is open or closed (pilots are using many apps for different purposes) - is that achievable in any way?  Clients would love to see iPad-only solution but we are limited now to use windows machine acting as server and iPad devices are just clients (with quite similar functionality).
 
 
@@ -825,7 +826,7 @@ This is _not_ a recommendation for your application. Please contact developer re
 |U03JELM0ZNV|:
 In case you're still checking your thread - talk to the folks at ditto.live who are ex-Realm engineers doing a *lot* of work with in-plane communications.
 
---- 
+---
 > ####  Looks great! I assume apps that already have a More (overflow) menu should migrate the items to additionalOverflowItems. Is that correct?
 
 
@@ -856,7 +857,7 @@ always helpful!
 |U03K11CE03T|:
 Will do. Excellent presentation, David. Thank you.
 
---- 
+---
 > ####  This may not be a question with a straightforward answer, but... A degree of consensus in the developer community prior to the current beta releases has been that using SwiftUI inside Catalyst is the most difficult path, and it would be better to target macOS natively directly with SwiftUI. In trying to give the best desktop-class experience on iPad, would it be your recommendation to using a native SwiftUI app, if that is an option, or a Catalyst app with SwiftUI components?
 
 
@@ -885,7 +886,7 @@ What stood out for me in the What's New in SwiftUI session was the advances in F
 |U03J4D1FEP6|:
 Late to the party to see these additional replies. :slightly_smiling_face: My app code base is currently all UIKit, pretty tidy, ready to be modular and move to the next ideal UI architecture.
 
---- 
+---
 > ####  Are there any particular reasons (that you can reveal) for why there’s no general UIHostingView, only UIHostingController, whereas AppKit has NSHostingView available?
 
 
@@ -898,7 +899,7 @@ This is partially touched on in Use SwiftUI with UIKit as well! <https://develop
 |U03J1UAEU4B|:
 Thank you!
 
---- 
+---
 > ####  Will SwiftUI slowly replace UIKit? I'm surprised that there is still a lot of content focused on UIKit this year. This video is mostly about UIKit code and I was wondering how I can implement them in SwiftUI, like the editor style toolbar?
 
 
@@ -916,7 +917,7 @@ For the last bit of your question, there will be a couple SwiftUI talks later in
 <https://developer.apple.com/videos/play/wwdc2022/110343/>
 <https://developer.apple.com/videos/play/wwdc2022/10058>
 
---- 
+---
 > ####  Is there any reason why Live Text feature is not supported in iOS Keyboard extensions?  Using the API either crashes the extension or just prints error logs, depending on the iOS version.
 
 
@@ -936,21 +937,21 @@ There's no system diagnose, but you won't need it, cz there's a test project att
 
 Thanks in advance.
 
---- 
+---
 > ####  For UIEditMenuInteraction, all the examples in the sessions showed APPPENDING items to the menu. Is it possible to have our custom items at the beginning or even mixed in with the 'suggested' ones if we appropriately shuffle them into the returned menu?
 
 
 |U03HELXCTGV|:
 You can! `suggestedActions` is just an array, so you can prepend to it, append to it, or just return a UIMenu with an entirely different set of children if you want.
 
---- 
+---
 > ####  What sessions can we watch to start learning more about Live Activities for the iOS home screen?
 
 
 |U03HW7TNB5F|:
 Please schedule a 1-1 lab and we will probably be able to better answer this question. Or come to our QA again tomorrow.
 
---- 
+---
 > ####  When an iPad is connected to a low dpi external monitor, will apps run at a 1x scale factor with 1x assets used? Or will they stay at 2x with some sort of downscaling?
 
 
@@ -966,7 +967,7 @@ Thanks!
 |U03HHJNTFM0|:
 Np!
 
---- 
+---
 > ####  For UIMenuElements, if I change the UIMenuElementAttributesHidden attribute while it's visible, will it disappear?
 
 
@@ -979,7 +980,7 @@ No, it won't. The only way to update a visible menu is using `UIContextMenuInter
 |U03JFCP39T4|:
 (off to Feedback Assistant)
 
---- 
+---
 > ####  Not sure if this is the right time for this, but... In iOS 16 UIDevice.name has changed to only return the model name (E.g "iPhone" instead of "Matt's internet communicator"). I think in one of the sessions I heard that there is an entitlement to get the old behaviour, but I can't find any reference to it anywhere.
 
 
@@ -992,7 +993,7 @@ There are some restrictions around what you can do with it (more in that video).
 |U03JUCK9B16|:
 In my case it would be on supervised devices, so hopefully not too restrictive
 
---- 
+---
 > ####  What is the behavior of `UIDevice.name`? Would it return iPhone 13 Pro or just iPhone if you don't have the entitlement to get the device's name? Thanks!
 
 
@@ -1039,7 +1040,7 @@ Seems its via `utsname` and `uname`:
 |U03JUCK9B16|:
 (Assuming that code still works in iOS 16)
 
---- 
+---
 > ####  Navigation item center groups: does it make sense to swap them completely based on some factor, like object selection state? If so, should one change `UINavigationItem.customizationIdentifier` then? Any other considerations?
 
 
@@ -1067,14 +1068,14 @@ I don’t think we’ve really thought that much about it actually, usually you 
 |U03JM92AMJ5|:
 So, another thing to chat about on labs. Thank you David :slightly_smiling_face:
 
---- 
+---
 > ####  Do you think it's a good idea trying to convert modals to use structured concurrency on iOS? So instead of usual callback the caller would await on result property.
 
 
 |U03HB0D5W22|:
 Yes! For modal flows that return a result via a delegate, I think using structured concurrency to await the result instead is an interesting approach to try.
 
---- 
+---
 > ####  Do UIMenuElementAttributesKeepsMenuPresented and UIMenuElementSize translate to same/similar behaviour in Mac Catalyst?
 
 
@@ -1087,7 +1088,7 @@ I thought so, but was worth asking :slightly_smiling_face: Not having  `UIMenuEl
 |U03J7BUNTDW|:
 Yeah, that's totally understandable. It's just incompatible with how Mac menus work currently.
 
---- 
+---
 > ####  I am wondering how many of these API are available in a native SwiftUI app?   I am taking my iOS app to both iPadOS and macOS in a current redesign, which will require iOS 16/can require macOS 13, but I need to decide between using Catalyst vs. going SwiftUI native.
 
 
@@ -1114,7 +1115,7 @@ OK
 |U03HHJP6N3C|:
 If you already have a UIKit app that’s working well, proceeding with a Catalyst app would definitely be the quickest path to Mac, and you can always start to mix and match SwiftUI alongside at the same time if you aren’t ready to commit fully. As far as how these properties are exposed in SwiftUI, I’m not sure off the top of my head, but there are additional SwiftUI Q&amp;As that should be able to provide a concrete answer for you
 
---- 
+---
 > ####  We have a CallKit VOIP app that supports iPad (along with iPhone) and we want to use it as a Mac app for Apple silicon Macs. We have two issues:  1) On Mac there is no request for microphone access. The microphone request as it is on iOS/iPadOS is not compatible on macOS? We should add different permission requests according the available platform (iOS vs macOS)?  2) On Mac there is no CallKit UI for the incoming calls? The expectation here is to just run our app and make the app's windows the front window without any CallKit UI view or status bar indicator?  Thank you!!
 
 
@@ -1144,7 +1145,7 @@ There are two upcoming AVAudioSession labs: June 9th from 11-2 PDT and June 10th
 |U03J217TL5R|:
 Thank you guys, <@U03HB0DARPG>  and <@U03HB0DC1PY> I'll check the labs and I'll be prepared with the exact microphone request code that we use! :wave:
 
---- 
+---
 > ####  I'm trying to hide my UINavigationBar bar with .slide. However, the hiding animation is broken, it disappears in one go. The show animation slides in correctly though. Is this a known issue?
 
 
@@ -1160,7 +1161,7 @@ I'm hiding the status bar simultaneously to get a full screen experience. When I
 |U03HELWFGKF|:
 I pulled up the sample from that issue, it seems to be working in iOS 16, have you tried it there? (I haven’t checked on anything older at the moment, so not sure if this is a new change or not)
 
---- 
+---
 > ####  Are there any ways to support bulleted lists (unordered and ordered) via the UITextView? Or what is the preferred approached here. Thanks
 
 
@@ -1173,7 +1174,7 @@ Check out this video tomorrow for more: <https://developer.apple.com/wwdc22/1009
 |U03HZ52HR8V|:
 This is great! Thank you!
 
---- 
+---
 > ####  I'm currently trying to use a UICellAccessory with a custom view in a UICollectionViewListCell, but I get a degenerate layout feedback loop when expanding a list section. Is there something I need to be doing differently?
 
 
@@ -1207,7 +1208,7 @@ Just also reproduced on a test device. Since I'd bet it's not encouraged to post
 |U03JU8F54C8|:
 Ok. Just attached that file to the feedback. Thanks so much again for taking a look.
 
---- 
+---
 > ####  macOS ExtensionKit question. Does an extension have to be delivered within an app bundle? Is it possible to build a standalone `.appex` and have it be discoverable by an hosting application?
 
 
@@ -1368,7 +1369,7 @@ I understand. Thank you so much for your time, you’ve been immensely helpful. 
 |U03JNQ1ABFC|:
 Glad to help. I'm excited to see what people do with these APIs. 
 
---- 
+---
 > ####  The new self-sizing UITableView and UICollectionView cells look fantastic. Is there anything similar for table view headers and footers? Is there a recommended technique to have headers and footers resize to accomodate dynamic type for example?
 
 
@@ -1381,7 +1382,7 @@ The new `selfSizingInvalidation` functionality, including manually calling `inva
 |U03J22HDMSN|:
 Thank you, that’s great news!
 
---- 
+---
 > ####  I saw that the San Francisco font has new compressed, condensed and expanded style widths. However I do I access these styles with UIFont or UIFontDescriptor?
 
 
@@ -1403,7 +1404,7 @@ Great, thanks. Are the float values for the width described anywhere?
 &gt; The valid value range is from `-1.0` to `1.0`. The value of `0.0` corresponds to the regular glyph spacing.
 
 
---- 
+---
 > ####  Would you be able to share some insight on how the various Collection Views are implemented within the Calendar app? The paging that goes on endlessly is something I have been trying to recreate for a while but it's tricky. Any hints would be greatly appreciated :)
 
 
@@ -1413,7 +1414,7 @@ You can achieve endless scrolling by essentially adding and removing sections wh
 |U03JEMNCV18|:
 Thanks, i’ll try applying for a lab again :crossed_fingers:
 
---- 
+---
 > ####  iOS 16 offers a great new API addition in the way of UIHostingConfiguration for rendering SwiftUI views in List CollectionView cells, however we’d love to support this type of interop on iOS 15 too.  When using UIHostingControllers in UICollectionView list cells, is there any specific considerations that should be taken into account in addition to managing cell reuse issues?
 
 
@@ -1459,7 +1460,7 @@ Feedback requests are greatly appreciated :pray:
 |U03HW7U6QF3|:
 Be sure to check out the video “Use SwiftUI with UIKit” when it goes live tomorrow as well! <https://developer.apple.com/videos/play/wwdc2022/10072/>
 
---- 
+---
 > ####  What happens to the display scale when connecting to external displays of different resolutions? Thanks!
 
 
@@ -1508,7 +1509,7 @@ thanks!
 |U03HHJNTFM0|:
 np!
 
---- 
+---
 > ####  Is there a way to make a palette window in a Catalyst app (like a Photoshop palette - it gets events, but it's not a true document window), and it has a smaller title bar / HUD appearance?
 
 
@@ -1518,7 +1519,7 @@ This is not currently possible. We would appreciate a feedback request detailing
 |U03J22P9WKH|:
 Here it is:FB10114581
 
---- 
+---
 > ####  In the past I’ve tried incorporating UITableView / UICollectionView into a SwiftUI app using UIViewRepresentable (for the advanced drag and drop features). After experiencing some bugginess with the table’s cell reuse, I was advised by an Apple engineer to build a UIKit or AppKit app. A year later, with this latest iteration of SwiftUI, do Apple engineers stand by that guidance or has SwiftUI become more hospitable to complex UIKit elements like UITableView and UICollectionView? For Apple’s apps that are comprised mostly of SwiftUI (like Shortcuts), I’m curious if you could share which framework is used for the life cycle (foundation). Thanks for all the great work!
 
 
@@ -1529,7 +1530,7 @@ Hi, we have a couple of sessions coming out tomorrow that will talk about this i
 |U03J286S5LP|:
 Will do, thank you!!
 
---- 
+---
 > ####  Documentation mentions `UITextView` in iOS16 uses TextKit 2. I’ve managed to disable word wrap via `textContainer.widthTracksTextView = false` and setting the `textContainer.size` to a value wider than the view’s bounds, but looks like `UITextView` still doesn’t support horizontal scrolling, nor it tracks the cursor. Is that something that’s expected to work, or not yet?
 
 
@@ -1578,7 +1579,7 @@ I will return to my ‘non-scrollable text view inside a scroll view’ suggesti
 |U03HELXN8CV|:
 Thanks for filing the feedback!
 
---- 
+---
 > ####  Like 'func playerViewController(_ playerViewController: AVPlayerViewController, willTransitionToVisibilityOfTransportBar visible: Bool, with coordinator: AVPlayerViewControllerAnimationCoordinator)` there is no callback methods to track info-pannel visibility. Whats the best way to identify when info-pannel appears and disappears?
 
 
@@ -1593,7 +1594,7 @@ Noted thanks!
 |U03HHJNTFM0|:
 np!
 
---- 
+---
 > ####  I have a view controller that has multiple UITextFields. When I’m in one of those text fields and press tab on an iPad, it focuses on subsequent text fields. However, when I run via Catalyst on macOS, tabbing while in a text field inserts a tab character instead of focusing on the next text field. Do you know how to enable tabbing to focus on the next text field?
 
 
@@ -1612,7 +1613,7 @@ unfortunately there is not but you should check on latest betas.
 |U03J1UX2CQK|:
 Thanks!
 
---- 
+---
 > ####  Does Continuity Camera support a file promise? Previously only the data itself was returned with `kPasteboardTypeFilePromiseContent`.
 
 
@@ -1646,7 +1647,7 @@ Try it out with NSFilePromiseReceiver. If it's still failing, file a feedback re
 |U03HZ4PT2ER|:
 ok
 
---- 
+---
 > ####  Hi,  I’m currently trying to update my Apple Watch app to support watchOS 9 however the VideoPlayer in SwiftUI is crashing when playing a video and Xcode prints something to do with volume HUD class name changing and just wondering if this is something that’s changed with watchOS 9 or it’s something that I need to update in my code somewhere. 
 
 
@@ -1660,7 +1661,7 @@ Also, if you’re able to provide them the crash log, that’ll help investigate
 Yep I can do both, I'll make sure to be on my Mac too so I can get the log for them.
 Thanks both :) 
 
---- 
+---
 > ####  Hi, In my CarPlay app, In `templateApplicationScene(_:didConnect:)` I get the provided `interfaceController` and store a reference to it, but most of the times when I try to access `interfaceController.carTraitCollection` The app crashes because `carTraitCollection` is `Uninitialized`, so it makes creating image for different display scale (2x, 3x) or different display styles (dark, light) impossible. I tried to make sure that I always access it from main thread but still have the same problem.
 
 
@@ -1673,7 +1674,7 @@ Also, probably worth filing a feedback on it in case it isn't being tracked anyw
 |U03HHJNTFM0|:
 Looks like we do have feedback tracking this and the CarPlay team is looking into it.
 
---- 
+---
 > ####  With UIActivityViewController, is it possible to provide multiple representations of the same object (a URL and text, e.g., through an NSItemProvider) as well as LPLinkMetadata?   UIActivityItemsConfigurationReading is the only way I've gotten the NSItemProvider to work, but that doesn't support link metadata. And UIActivityItemSource supports the metadata, but not the item provider.
 
 
@@ -1695,7 +1696,7 @@ Strike that, the metadataProvider closure is never even called with the linkPres
 |U03H31CQZ0F|:
 Thank you. I’ll take a look.
 
---- 
+---
 > ####  In Catalyst, is there a way to only show the preview for a link when dragging a link in a UITextView instead of the whole view? The associated UIDragInteractionDelegate methods don't seem to work.
 
 
@@ -1717,7 +1718,7 @@ Is there a reason you couldn't rely on the text view's built in drag interaction
 |U03JEEU1MF1|:
 I think it's because my text view has isEditable and isSelectable set to false. But also using the UITextDragDelegate methods doesn't work either.
 
---- 
+---
 > ####  With the new self-sizing cells, is there a way to run an animation alongside a cell resize animation (or at least, adding a custom completion handler to the system-provided resize animation)?
 
 
@@ -1769,7 +1770,7 @@ Thanks Tyler!
 |U03HW7U6QF3|:
 (Don’t forget about the `reconfigure` API introduced in iOS 15 to update cells without replacing them, too!)
 
---- 
+---
 > ####  Is there a way to get a notification when a new item (e.g. image) is added to UIPasteboard remotely (e.g. through Universal Clipboard). Currently I can poll `changeCount` to detect changes, but I receive no `changedNotification` unless the copy originated from the app itself. I'm trying to implement a feature where the app conveniently offers a paste button when there's something on the UIPasteboard.
 
 
@@ -1834,7 +1835,7 @@ You can check if the data is an image _and_ the change count is incremented.
 |U03J20E1BPD|:
 You’re right! I have a bug in my code :man-facepalming:. Thanks!
 
---- 
+---
 > ####  Does SwiftUI support the new toolbar modes for iPad or do you need to use UIKit?
 
 
@@ -1852,7 +1853,7 @@ For more information, I go into these APIs in the 2 part of SwiftUI on iPad seri
 |U03J22FSUUS|:
 Thank you so much!
 
---- 
+---
 > ####  Hello, should we approach SwiftUI views as data models for real views? Where should we place data formatting logic? If SwiftUI view is a data model we can data formatting logic there? How can we test our data formatting logic in this case?
 
 
@@ -1879,7 +1880,7 @@ I think the concerns are more pragmatic: how easy is it to assert against the Sw
 |U03J0GP5L6R|:
 Thanks Kyle for your answers :raised_hands:
 
---- 
+---
 > ####  Does this new APIs are backward comaptible with UIKit project or just only iOS 16?
 
 
@@ -1895,7 +1896,7 @@ That, unfortunately, is a technical limitation. These features are implemented i
 |U03HPFD1GG7|:
 Ok got it thanks, I think we might need to wait until next two years lol :smile:
 
---- 
+---
 > ####  What’s the naming convention you’d recommend using for a SwiftUI view - with or without `View` suffix? I think I’ve seen both in Apple examples.
 
 
@@ -1916,7 +1917,7 @@ Clint – click the + in the bottom left and select “Ask a question”:
 |U03JKEKF1TP|:
 Thanks for clarifying--the message next to that plus button says "only certain people can post" so that threw me off
 
---- 
+---
 > ####  Once again, here goes the question about SwiftUI views in Table/Collection cell. :grin: If we'd like to tinker with our own UIHostingConfiguration to support older OS versions, what would be the recommended way to update cell's height when used with DiffableDataSource? Currently, the most common scenario I see is a pair of  tableView.beginUpdates() tableView.endUpdates()  It would be nice to recap on our available options.
 
 
@@ -1929,14 +1930,14 @@ On iOS 15 and earlier, you request an update to the size of self-sizing cells in
 |U03J22AU6DQ|:
 Got it, thanks!
 
---- 
+---
 > ####  Is there a proper way to implement dynamic menu items on macOS with CommandMenu? (Menu items that change with keyboard modifier keys.) I'm currently polling on a timer, but that is... unsatisfying. In AppKit, this was done using the isAlternate property.  (FB9406583)
 
 
 |U03HW7PE3SM|:
 There is not a way to do this at the moment. Thanks for filing (and referencing) the feedback, we will route it to the appropriate component!
 
---- 
+---
 > ####  We've experiencing a watchdog termination in the background due to a function inside UIKit sleeping. Please see the following backtrace:  ``` Thread 0 Crashed: 0   libsystem_kernel.dylib        	0x00000002065bba2c __semwait_signal + 8 1   libsystem_c.dylib             	0x00000001d9c700e4 nanosleep + 220 (nanosleep.c:104) 2   libsystem_c.dylib             	0x00000001d9c70e14 usleep + 68 (usleep.c:52) 3   QuartzCore                    	0x00000001d292bc84 CABackingStoreCollectBlocking + 264 (x-misc.cpp:186) 4   UIKitCore                     	0x00000001d1184778 __35-[UIWindowScene _prepareForSuspend]_block_invoke + 60 (UIWindowScene.m:1273) 5   UIKitCore                     	0x00000001d1243b90 -[_UIContextBinder purgeContextsWithPurgeAction:afterPurgeAction:] + 472 (_UIContextBinder.m:221) 6   UIKitCore                     	0x00000001d12874ec -[UIWindowScene _prepareForSuspend] + 88 (UIWindowScene.m:1271) 7   UIKitCore                     	0x00000001d1ec935c __130-[UIApplication _updateStateRestorationArchiveForBackgroundEvent:saveState:exitIfCouldNotRestoreState:updateSnapshot:windowScene:]_block_invoke_2 + 228 (UIApplication.m:11237) 8   UIKitCore                     	0x00000001d128e4dc -[_UIAfterCACommitBlock run] + 72 (_UIAfterCACommitQueue.m:137) 9   UIKitCore                     	0x00000001d11a1864 -[_UIAfterCACommitQueue flush] + 192 (_UIAfterCACommitQueue.m:228) 10  libdispatch.dylib             	0x00000001ce7eae6c _dispatch_call_block_and_release + 32 (init.c:1517) 11  libdispatch.dylib             	0x00000001ce7eca30 _dispatch_client_callout + 20 (object.m:560) 12  libdispatch.dylib             	0x00000001ce7faf48 _dispatch_main_queue_drain + 928 (inline_internal.h:2622) 13  libdispatch.dylib             	0x00000001ce7fab98 _dispatch_main_queue_callback_4CF + 44 (queue.c:7770) 14  CoreFoundation                	0x00000001ceb3d800 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__ + 16 (CFRunLoop.c:1795) 15  CoreFoundation                	0x00000001ceaf7704 __CFRunLoopRun + 2532 (CFRunLoop.c:3144) 16  CoreFoundation                	0x00000001ceb0abc8 CFRunLoopRunSpecific + 600 (CFRunLoop.c:3268) 17  GraphicsServices              	0x00000001eac3e374 GSEventRunModal + 164 (GSEvent.c:2200) 18  UIKitCore                     	0x00000001d147a648 -[UIApplication _run] + 1100 (UIApplication.m:3511) 19  UIKitCore                     	0x00000001d11fbd90 UIApplicationMain + 364 (UIApplication.m:5064) 20  [REDACTED]                   	0x0000000104e87460 main + 112 (main.m:27) 21  dyld                          	0x00000001055e5ce4 start + 520 (dyldMain.cpp:879) ```
 
 
@@ -1964,7 +1965,7 @@ Thanks for reading my novel.
 |U03J20RJQ2X|:
 <@U03HELXN8CV> That's super interesting! I never considered how much work goes into creating screenshots for the app switcher
 
---- 
+---
 > ####  My doubt is regarding drag and drop on SwiftUI I think there are 2 approaches but I am stuck with both the approaches  WWDC22 - When using the new `draggable`, `dropDestination`, `Transferable` API, I am only able to drag single items. I am unable to drag multiple items in a list. I have filed a feedback FB10128110  WWDC21 - I have faced a couple of issues for drag and drop introduced in WWDC21 (onDrag, onDrop, itemIdentifier), the Feedback ids are FB9854301, FB9854569, FB9855245, FB9855532, FB9855567, FB9855575.  Note: All feedbacks include a sample project with detail steps and some even have screenshots and videos  Please let me know me if my approach is wrong or if I am missing something. Unfortunately I didn't manage to get a SwiftUI lab session (got declined), so any assistance on the above would be much appreciated
 
 
@@ -2019,7 +2020,7 @@ Thanks <@U03JCHKCDB4>, it seems I have a lot of work ahead to update both the ap
 |U03HW7P2WTB|:
 Sure! Thank you as well for filing the feedback and asking great questions! It was nice meeting you today.
 
---- 
+---
 > ####  Are there any major limitations to be aware of with the new UIHostingConfiguration for collection view cells using SwiftUI, that may not be addressed in the session video?
 
 
@@ -2030,7 +2031,7 @@ We do try to address the majority of the limitations in the video! Theres a spot
 |U03JEMNCV18|:
 Ok, still waiting for the session to become available. Thanks :grin:
 
---- 
+---
 > ####  I was wondering if we can use the SwiftUI View protocol with the new 'any' keyword? And if it'll be helpful or a good solution in some example use-case?
 
 
@@ -2048,7 +2049,7 @@ You are welcome! Was your question based on a concrete problem you are trying to
 |U03HMDKEWJK|:
 No, I just watched the Embrace Generics session today and this question immediately popped to mind :slightly_smiling_face:
 
---- 
+---
 > ####  We have compositional layout with CollectionView and content is coming from remote including image so based on the image height we adjust the height of the cells, so until we determine the height of the image we have ideal height, but the problem is user can keep scrolling down while images are getting downloaded cells are drawn with ideal height but when image get downloaded we fix the height for the cell during which we see collection view jitters/jump up down due to content size changes Any ways to improve this?
 
 
@@ -2140,7 +2141,7 @@ Fair. Feel free to file a feedback if you run into issues, perhaps even try to g
 |U03HPFD1GG7|:
 Yes i got one for tomorrow but will give a shot on this, thanks
 
---- 
+---
 > ####  Hello! How can I get started with UIKit? I currently know SwiftUI only (which, in my opinion, is amazing btw!), but I'd like to learn a little bit of UIKit too, because I might use it in some cases too in the future.
 
 
@@ -2165,7 +2166,7 @@ Aside from that there are also tons of other resources on the internet that have
 |U03JRP87THN|:
 I must say that the tutorials are amazing. I followed some of them to learn Swift and SwiftUI. Thank you for this great tutorials and documentation!
 
---- 
+---
 > ####  Using ShareLink in SwiftUI and Transferable, we will now be able to share custom types between users. How does this compare to sharing Core Data entities using a .shared CloudKit database? As I understand, the main difference is that sharing using Transferable copies the item from User A and pastes it for User B, so in the end there will be 2 instances of this item, with no synchronization. Any subsequent changes to any of the items will remain local for that user. In contrast, sharing using .shared CloudKit database means a single entity will be synchronized for both users. Am I on the right track? Are there some other key differences to be aware of?
 
 
@@ -2192,7 +2193,7 @@ I wouldn’t say *discouraged*, it just has different purpose. `ShareLink` allow
 |U03JMMN8659|:
 Yes I think so - in this case, the recipe would have to be converted to something Messages/Notes can understand, like String or Image. Right?
 
---- 
+---
 > ####  Good morning! Thank you for a wonderful WWDC! I was trying to play around with the new PhotoPicker. I’m able to initiate the picker but I’m not quite sure how to assign the selected photo to an image in my SwiftUI view. Would you please provide a code sample? I was trying to look into the documentation but I couldn’t find anything that would resolve my problem. 
 
 
@@ -2215,7 +2216,7 @@ It's a bug. Check my thread here for a fix. <https://twitter.com/xmcgraw/status/
 |U03J20KFJG3|:
 You can access the Data of the image (Transferable).
 
---- 
+---
 > ####  Having implemented several SwiftUI apps, I still consider its constraints concerning custom designs a challenge to communicate to designers. Apart from HIG or trying out, do you know any resources/tooling which helps to implement good design? Like are their Sketch export tools to generate code for components/symbols?
 
 
@@ -2238,7 +2239,7 @@ Yeah, stock components are well supported and I know it’s in Apples interest t
 |U03JRNE4KJL|:
 I wish PaintCode would be updated to export to SwiftUI…
 
---- 
+---
 > ####  Is there a way to coordinate between SwiftUI DragGesture with their UIKit counterparts in the UIGestureRecognizerDelegate like `shouldBegin` or `shouldRequireFailure`?
 
 
@@ -2268,7 +2269,7 @@ It's not supported. Please file a feedback request for this.
 |U03JELT4UC9|:
 Will do, thanks <@U03HHJNTFM0>  <@U03HELT4EG5> 
 
---- 
+---
 > ####  About SwiftUI’s Layout: When creating a custom Layout, is it OK to use another Layout within the func like sizeThatFits or placeSubviews, including the built-in Layout (like HStack)?  More specifically, is it possible to compose some HStack and VStack within my custom Layout? In that case I have to create a LayoutSubview by myself, is it possible?
 
 
@@ -2296,7 +2297,7 @@ I’ve made one that works but doesn’t yet deal with cache completely. <https:
 |U03JRP2D5NC|:
 For example, I’m implementing the (Vertical) Flow Layout. After doing some calculation and chunked the `subviews`, firstly I use those chunked subviews to make some `HStack`s, then I should embed these `HStack` into a `VStack` but I cannot convert these `HStack`s to `LayoutSubviews` that I can pass to `VStack`’s `subviews`parameter, right?
 
---- 
+---
 > ####  Hi there! What's the recommended way to repeatedly fetch data in a SwiftUI app, (so that we don't push updates from a different thread)?
 
 
@@ -2323,7 +2324,7 @@ Yeah, I understood that the conformance to ObservableObject is not the problem, 
 |U03JRP87THN|:
 Here’s a link about Swift Actors that i just found: <https://developer.apple.com/videos/play/wwdc2021/10133/>
 
---- 
+---
 > ####  Would you use SwiftUI or UIKit to implement a list that can change layout between a table and grid layouts? I currently have a UICollectionView with different layouts but I can't animate between the layout change.
 
 
@@ -2345,7 +2346,7 @@ If there is time available I'll try to grab one :sweat_smile: I forget if I was 
 |U03HL03H7QC|:
 Right, UICollectionView can’t currently animate changes to the layout stemming from an invalidation. If you require an animation, I would call `setCollectionViewLayout(_:animated:completion:)`
 
---- 
+---
 > ####  Assume that I keep the whole app state in the state object in my app struct? This way I can make sure that all the views are in a consistent state and have a single source of truth. How can I tune performance because in this case, SwiftUI starts diffing the whole app view hierarchy on every single change of the app state?
 
 
@@ -2360,7 +2361,7 @@ You’re completely right that with a single observable object, you’ll end up 
 |U03J0GP5L6R|:
 Thanks Sam :+1:
 
---- 
+---
 > ####  What is correct way to specify file type that allowed for Drag&amp;Drop from Finder. I mean if I use ```UTType.fileURL``` it allows to Drop any type of files, but if I specify ```UTType.image``` that not allow Drop at all. What is correct approach if I want allow Drop only images from Finder?
 
 
@@ -2410,7 +2411,7 @@ NSImage from NSImageProvider
 ```
 Thank you Julia!
 
---- 
+---
 > ####  I'm trying to mimic the 3-view layout in Xcode, Pages, Numbers, etc.  using SwiftUI.  Sidebar | Document | Inspector  I can use the NavigationSplitView for the Sidebar and Document, but I can't find a way to animate the Inspector in a right sidebar. The SwiftUI animation usually animates all the child views in the Inspector's view. Is there a way to do this in SwiftUI on the Mac?
 
 
@@ -2453,7 +2454,7 @@ That feels like a good expression of this structure, yes
 |U03KAP7FKPB|:
 Thanks.
 
---- 
+---
 > ####  Is there a way to allow duplicate CommandMenu item .keyboardShortcuts? In AppKit macOS menus, this works, but not in SwiftUI.  The duplicate shortcuts are never active at the same time - they depend on the type of the selection focus. (FB9931615)
 
 
@@ -2481,7 +2482,7 @@ I have rewritten 35 years of code in Swift and SwiftUI with the goal of maximum 
 |U03HB0N777G|:
 Ron, in your AppKit version, did you use the same selector for each item that had a matching command key? I’m asking just to understand the approach that worked for you in the old codebase.
 
---- 
+---
 > ####  SwiftUI Layout isn't possible for dynamic content, right? Since each subview need to be there at calculation time.
 
 
@@ -2521,7 +2522,7 @@ So, if the Layouts could’ve been lazy, that means that the views in the Layout
 |U03JRP87THN|:
 Thank you very much for the clarification!
 
---- 
+---
 > ####  When using SwiftUI with Core Data, should we setup the predicate and sort descriptors for a FetchRequest in the View init or in the onAppear of the View, when they’re based on object passed from the containing View? I noticed some issues when using the onAppear because items are displayed then removed (with animation).
 
 
@@ -2548,7 +2549,7 @@ Thanks <@U03J7BQQNPJ>. I'll fill a feedback.
 
 Do you confirm that the FetchRequest is reset when the containing View is redrawn? For example, if the SubView customises the predicate or sortDescriptor (in a context where the SubView apply some filters). The FetchRequest is not tied to the View lifecycle contrary to State or StateObject.
 
---- 
+---
 > ####  Is there a specific session this week that discusses App Extensions, and the new AppExtension API (<https://developer.apple.com/documentation/extensionfoundation/appextension)?|https://developer.apple.com/documentation/extensionfoundation/appextension)?> I tried searching and found nothing.
 
 
@@ -2561,7 +2562,7 @@ Just an introduction and overview. Is there some sample code. The docs are prett
 |U03JNQ1ABFC|:
 Currently we have no documentation beyond the  published API reference. 
 
---- 
+---
 > ####  In SwiftUI, is there a way to listen for navigation events or would that have to be custom from UIKit delegates?
 
 
@@ -2618,14 +2619,14 @@ Sure; I’ll see if I can extract out the sample cases.
 |U03HW7P0HQR|:
 Thank you!
 
---- 
+---
 > ####  Do ids in a ForEach just need to be unique within that ForEach or globally? For instance using the new Charts, all my data is keyed by date and there are several places where I have adjacent ForEaches that include mostly the same dates.
 
 
 |U03J7BPCWMN|:
 The IDs must be unique within the container, so for example if you have a List with two ForEach's inside it, they must generate unique IDs within that List.
 
---- 
+---
 > ####  I am new to SwiftUI, what is the best way to Switch between Views? For example, depending on the condition of a @State variable how can I switch between a HomeView, SignInView and SignUpView?
 
 
@@ -2679,7 +2680,7 @@ But if you just need to swap views in and out, a `switch` works just fine. For e
 |U03JHQDJ31C|:
 Thank you so much!
 
---- 
+---
 > ####  TextKit 2 question: just watching the video about how glyph APIs are no longer available.   I have code that capitalises characters at glyph rendering time, by finding the appropriate character range for the glyph range, converting to upper case, and re-generating glyphs for the new string.   It’s important to me to not change the contents of my text storage to have the upper case characters — this should behave like a display time attribute.   How would you go about doing this in TextKit 2?
 
 
@@ -2695,7 +2696,7 @@ I will ask there!
 |U03JB2WCEPL|:
 I'd love to know the answer to this too
 
---- 
+---
 > ####  SwiftUI: When using Self._printChanges() in the body of Views, what should we pay close attention to? Is @Self printed often harmful? What are the numbers @44 we see when using FetchRequest in the View.
 
 
@@ -2709,7 +2710,7 @@ If you see `@` followed by any number it means that we couldn’t find the field
 |U03J20KFJG3|:
 Thanks <@U03J7BQQNPJ> for the precisions! Helpful. I'm seeing lots of @Self printed when a View has an EnvironmentObject dependency (a Core Data object), and the object publishes a change. For example, a List of Core Data objects (owned) related to the EnvironmentObject (owner). If I update an owned object from the List, the relationship between the owner and the owned is updated, the owner EnvironmentObject publishes an update. This break the animation that should be displayed when updating the owned item in the List.
 
---- 
+---
 > ####  Hi ! I’m still having an issue with generic view models in SwiftUI. I’m having trouble to understand what should I choose between `@ObservableObject` or `@StateObject` when injecting a generic view model into a SwiftUI view.  I’m commonly doing this: ```swift protocol ViewModelProtocol { }  struct MyView&lt;ViewModel: ViewModelProtocol: View {     @ObservedObject var viewModel: ViewModel }  let myViewModel = MyViewModel() let myView = MyView(viewModel: myViewModel) ```  In this case, the `viewModel` property should be `@StateObject` or `@ObservableObject` ?
 
 
@@ -2739,7 +2740,7 @@ Thank you. It makes sense. With your solution, `@StateObject` allows me to mock 
 
 Edit : typo
 
---- 
+---
 > ####  Using SwiftUI cells in UIKit is a fantastic feature in iOS 16, however that will not work if my app is still supporting iOS prior to iOS 13. Right ?
 
 
@@ -2756,7 +2757,7 @@ Correct. That is the recommended way to do this.
 |U03JR3BQQJ2|:
 Thanks for confirming <@U03HELWUJN9> :pray::skin-tone-2:
 
---- 
+---
 > ####  Hi there! This might not be a UI-specific question (sorry for that), but I'd like to know the answer to use the new SwiftUI APIs.  How can I make sure I support older iOS versions, for example iOS 15 in my SwiftUI app, while still using the new features for iOS 16 users? Are there any macros for that?
 
 
@@ -2846,7 +2847,7 @@ struct MyOldView: View {
 ```
 
 
---- 
+---
 > ####  Is there a way of disabling scrolling on a List, or would the best option be to use UIHostingConfiguration inside of a UICollectionView that's wrapped in a UIViewRepresentable so that I can disable scrolling on the collection view itself?
 
 
@@ -2856,7 +2857,7 @@ Use the new `scrollDisabled` modifier. <https://developer.apple.com/documentatio
 |U03J4DRK4SY|:
 Ah, I completely missed that, nice!
 
---- 
+---
 > ####  Is there an analog to AppKit's flangsChanged notification, to change the appearance of SwiftUI controls based on keyboard modifiers? I'm currently polling on a timer to do this, but that is unsatisfying. (FB9601140)
 
 
@@ -2951,7 +2952,7 @@ Sorry, wrong number, juggling too many open issues. that should have been FB9406
 |U03HL05FX6Y|:
 Ah, yes. That radar covers it. Thanks!
 
---- 
+---
 > ####  UINavigationBarAppearances have different behavior between iOS 13 and iOS 15.  How can we get the behavior of iOS 13 in the current version of iOS (where the navigation bar doesn't disappear upon scrolling and can take a background color easily)?  And wouldn't it make sense if a breaking change is introduced to document the code necessary to restore the previous behavior?
 
 
@@ -3104,7 +3105,7 @@ Glad you guys were here this week!
 |U03HELWFGKF|:
 its definitely come up a few times that having that available in the appearance objects would be super helpful, just hasn’t been high enough priority to get it done yet. Feedback is definitely appreciated in this area though!
 
---- 
+---
 > ####  With MenuBarExtra, is it possible to have a primary action that's triggered when the menu bar item is clicked and then a separate menu that's shown when the item is option clicked?
 
 
@@ -3114,7 +3115,7 @@ Hi - thanks for the question. This isn't something we have support for at the mo
 |U03J4DRK4SY|:
 FB10134356!
 
---- 
+---
 > ####  SwiftUI and EnvironmentObject: do we have to pass the object every time we use a NavigationLink?  My app crashes when ViewA adds an EnvironmentObject Post when displaying ViewB, and ViewB navigates to ViewC where ViewC accesses the Post object. Cf: <https://developer.apple.com/forums/thread/707659|https://developer.apple.com/forums/thread/707659>
 
 
@@ -3182,7 +3183,7 @@ A view can’t have two parent environments. Consider the two ways we could prop
 |U03HW7P0HQR|:
 We chose the one on the left and leave it to developers to propagate any additional information as needed. This reduces the number of dependencies.
 
---- 
+---
 > ####  As of Monterey, `List` supports drag-and-drop reordering of items on macOS and iOS/iPadOS, but it seems that other types (e.g., `HStack`, `VStack`, etc.) support drag-and-drop reordering of items on macOS _only_ in Catalyst apps. In any other kind of macOS app, the same SwiftUI code that works as expected in iOS/iPadOS and Catalyst doesn't work (i.e., a drag cannot be started at all). The code compiles just fine, but it doesn't actually work.  How can I support drag-and-drop reordering of items (or sub-`View`s) in SwiftUI code in `HStack`s, `VStack`s, etc. in _non-Catalyst_ macOS apps?
 
 
@@ -3200,7 +3201,7 @@ Changing that line to this worked. Thanks!
 
 `*return* NSItemProvider(item: item *as* NSSecureCoding, typeIdentifier: "public.text")`
 
---- 
+---
 > ####  Hi, is there any recommended way of making controls inside a SwiftUI’s `Form` look more native on macOS in an app made with Catalyst? Would I have to have an AppKit bundle/plugin that renders those SwiftUI views?
 
 
@@ -3254,7 +3255,7 @@ Woooo I love that for us thanks!!
 |U03JEKM4LFK|:
 Awesome, thanks for your help!
 
---- 
+---
 > ####  Perhaps a bit of a simple question for such a space, but I am really wondering the best way to get started with SwiftUI. I have done the Apple App Dev course where I build scrumdinger, I've perused the documentation, and I'm very familiar with c, bash, and 6502 assembly (I build games for the NES). However, I'm having a bit of a hard time remembering the syntax. Mostly though, I guess I'm looking for a place to start my own development, for ideas of things to implement to get better at Swift. I have always wanted to at one point in my life work for Apple, like since I saw the iPhone come out in 2007, I'm 19 now. Sorry if this has been a bit all over the place, I'm just so excited to be here.
 
 
@@ -3281,7 +3282,7 @@ Ahhh gotcha, I read your response wrong, thank you.
 |U03JTH9NTGD|:
 I have a big problem with putting more effort into looking like I'm doing work rather than actually doing it, so it's refreshing to hear that I'm not really correct for that
 
---- 
+---
 > ####  Can onTapGesture be used more than once on a single view?  Like single-click to select, double-click to open in a window?  ItemView()   .onTapGesture(perform: selectItem)    .onTapGesture(count: 2, perform: openItemInWindow)
 
 
@@ -3302,7 +3303,7 @@ ItemView()
 |U03KAP7FKPB|:
 Thanks. I'll give it a try. 
 
---- 
+---
 > ####  What is the recommended way to conditionalize code for view modifiers that are only available on newer versions of iOS? For example, if I have a View, and previously was using the regular `onTapGesture` modifier on iOS 15, but when running on iOS 16, I want to instead use the new version that provides `location`?
 
 
@@ -3329,7 +3330,7 @@ Just filed FB10135113
 |U03HW7PE3SM|:
 thank you!
 
---- 
+---
 > ####  Hi, I asked this yesterday and was told to ask the SwiftUI team and include a log so here I am… I’m trying to update my watchOS app to support watchOS 9 however when trying to play a video using VideoPlayer the app crashes immediately and the console shows “Unable to find class NACVolumeController”. Is there any around this or should I file a feedback? 
 
 
@@ -3361,7 +3362,7 @@ its the sysdiagnose instructions from this page
 Yep that appears to have worked 
 Thank you right I'll get the log and finish the feedback 
 
---- 
+---
 > ####  When it comes to concurrency and SwiftUI, how are you managing creation/injections of your actor objects/business layer so that your views have access to them or do you have any specific recommendations based on the newer Swift concurrency model. I've been reviewing through some of the 2021 videos in conjunction with the new discussions this year and I tend to see `.shared` in the sample code, which would mean a singleton which I'd frankly rather avoid. We been injecting interactors through the @Environment or @Environment object but this has issues because using @StateObjects we don't necessarily have access to the @Environment object during init when we've been trying to binding subscriptions to our @Published vars. If we use .task {} would we have access to @Enviroment at the time the task closure is run? In this way we could probably set access to our common actors through the @Environment or @EnvironmentObject and then set up flows that just bind to @State via an async Sequence. Is there a way to know when @Environment is actual set for a view so we can respond to in within a @StateObject to set up subscription bindings either through publishers or async sequences?
 
 
@@ -3384,7 +3385,7 @@ I’ve found that because there is some unknown amount of time between init() of
 |U03J7BQQNPJ|:
 It’s only safe to access any of the property wrapper from within body
 
---- 
+---
 > ####  The `offerCodeRedemption(isPresented:onCompletion:)` modifier seems very specific and maybe should have been something exported from StoreKit.    Going forward will specialized UI like this always be added to core SwiftUI or will we start seeing other frameworks implement SwiftUI modifiers.
 
 
@@ -3400,7 +3401,7 @@ makes it look like it is part of core SwiftUI.  I don't see anything that indica
 |U03HELTEP9T|:
 Ya that is very subtle. Thanks for pointing that out
 
---- 
+---
 > ####  Is it possible with SwiftUIs new NavigationStack to hide the tabbar of a TabView when the destionation view appears. With the existing NavigationView it was possible but not so easy to handle the navigation title and buttons.
 
 
@@ -3413,7 +3414,7 @@ ContentView()
 ```
 See <https://developer.apple.com/documentation/swiftui/presentedwindowcontent/toolbar(_:in:)>
 
---- 
+---
 > ####  When using Charts to draw a line graph, is there a way to get the last point to be at the trailing edge of the chart view? I’m finding that it always has the trailing edge as a multiple of values used on the x axis. 
 
 
@@ -3431,7 +3432,7 @@ public static func automatic(
 |U03K9095Y7K|:
 Thank you. I'll have a look at using that. 
 
---- 
+---
 > ####  SwiftUI in UIKit: What is the recommended way of animating changes to SwiftUI view size when inside a UIHostingController? The problem I’m facing is that while the SwiftUI view itself will animate, and with the new sizing options the UIHostingController will do intrinsic content size invalidation automatically, the hosting view bounds change isn’t animated, it just jumps. This is a problem especially when other UIViews are constrained to the hosting view with Auto Layout. Is there any way to solve this other than manually tracking SwiftUI size changes and triggering a separate layout pass + animation of the hosting view superview?
 
 
@@ -3444,7 +3445,7 @@ Sure! Does that mean there's no solution to this at this time, or you just need 
 |U03HELT4EG5|:
 Both!
 
---- 
+---
 > ####  I wrote small testing NavigationStack ```struct ContentView: View {     var body: some View {         NavigationStack {             VStack {                 NavigationLink(value: 123) {                     Text("Click Me")                 }             }             .toolbar {                 ToolbarItem {                     Button {                      } label: {                         Text("Done")                     }                 }             }             .navigationTitle("Title")             .navigationDestination(for: Int.self) { value in                 DetailView()             }         } //        .toolbar(.hidden, in: .windowToolbar)     } }  struct DetailView: View {     var body: some View {         Text("Detail View")             .navigationTitle("Title")             .toolbar {                 ToolbarItem {                     Button {                                              } label: {                         Text("New Button")                     }                 }             }     } }```  But when I click on 'Click Me' button the back button automatically appear in the toolbar. How I can hide or customize this back button? PS: It's on macOS
 
 
@@ -3460,7 +3461,7 @@ Thank you! I will post a feedback report.
 |U03J21F2PQS|:
 Can I somehow show an alert or make some operation when a user clicks the back button in the toolbar? Or now it isn’t possible too? For example to stop a task or to warning a user that there is some unsave changes and wait for user response.
 
---- 
+---
 > ####  I'm trying to have .onDelete for delete and .swipeActions for other actions. It is not working this way. Any idea? The thing is I try to have delete as part of .swipeActions. However, I can't find the way to set up the delete animation like the one .onDelete has.
 
 
@@ -3489,7 +3490,7 @@ Button(role: .destructive) {
 |U03JCHKCDB4|:
 <@U03J7BQQNPJ> Regarding feedback `FB10026540` I have updated the project and added more details on my observation. Thanks a ton for the immediate response!!!
 
---- 
+---
 > ####  In SwiftUI when you had a List view with items that were continuously synced with a server and you displayed the details view of a selected item then the app jumps back to the main list. Are NavigationStacks solving this problem?
 
 
@@ -3527,7 +3528,7 @@ Explicit identifiers can be used to force an identity change, but not to prevent
 |U03HW7P0HQR|:
 In practice the identity of a view is a combination of its structural and explicit identity.
 
---- 
+---
 > ####  We're using an attributed string with the `labelColor` on a `NSStatusItem `s button. However, when displaying this on an inactive display the color isn't dimmed as expected. Is there a way to have the text appear dim when on an inactive display using this approach?
 
 
@@ -3573,7 +3574,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 } 
 ```
 
---- 
+---
 > ####  Is there a way to recreate the appearance of the widgets on the Lock Screen using UIVisualEffectView in an app using either SwiftUI or UIKit? I'm specifically interested in recreating the appearance of the circular widget.
 
 
@@ -3586,7 +3587,7 @@ A variety of the gauge styles used in circular complications on the Lock Screen 
 |U03HELWFGKF|:
 with `UIVisualEffectView` you can try the `UIVibrancyEffect`s created with a `UIBlurEffectStyleSystem*Material`, but I’m not sure that will necessarily match what the lock screen is doing
 
---- 
+---
 > ####  The documentation for makeCoordinator states: "Creates the custom instance that you use to communicate changes from your view to other parts of your SwiftUI interface." could you explain what that means? It doesn't make sense to me because normally the coordinator is an NSObject that is the delegate to a UIView. I have seen some examples of Coordinator classes that take in an @Binding, that was passed in to the UIViewRepresentable and then into the Coordinator. Is that what this means?
 
 
@@ -3607,7 +3608,7 @@ I think it would be useful if the documentation for makeCoordinator was updated 
 |U03HB1A8VRU|:
 Passing a binding works great as well, but doesn't scale as well if you have multiple pieces of state to pass through. You're welcome to do it either way!
 
---- 
+---
 > ####  There's no way of posting images on the question. But I ll add it once the question gets posted. Using SwiftUI, I m trying to use SwiftChart to add color underneath my line graph. I was wondering if there's a good resource on how I can do that?
 
 
@@ -3701,7 +3702,7 @@ You’re a genius sir. Almost there, just need to add the gradient!! <@U03HL00QL
 |U03JDDPLMHD|:
 One last question, how can I add the little circle dots for the data points? Do i need to create a new question for that? This is my code currently, Unbelievably short and easy
 
---- 
+---
 > ####  What's the recommended way of using a property wrapper such as `@FocusState` such that it will compile targeting iOS 14 for example? AFAIK you can't add an availability annotation
 
 
@@ -3716,7 +3717,7 @@ If you have a specific use case you’re okay with sharing, please file feedback
 |U03J4CGDGH2|:
 Thanks for the reply, would be helpful if it was possible to directly init a FocusState
 
---- 
+---
 > ####  SWIFT-UI question:  How to identify the visibility (in index or id) inside a TableColumn View for paginate remote content.
 
 
@@ -3732,7 +3733,7 @@ Yes, it does. We even using that technique in Photos in macOS Ventura :slightly_
 |U03JRQ81NEL|:
 :star-struck: awesome 
 
---- 
+---
 > ####  By default UIHostingController configures a navigation bar. What is the best way to hide it?  Overriding viewWillAppear to call setNavigationBarHidden does not always give the expected result.  The best result I got was by overriding viewWillAppear and NOT calling super.viewWillAppear.  Is there any risk with this method?
 
 
@@ -3758,7 +3759,7 @@ Subclassing UIHostingController is the solution for which I asked you advice.
 To prevent SwiftUI to set isNavigationBarHidden to true, we have to override viewWillAppear (and better yet: don't call super.viewWillAppear)
 Why do you say that it is not recommended?
 
---- 
+---
 > ####  Question about SwiftUI. We have background task that may generate errors and application shows alert when this error appears. If we use alert(…) modifier on parent view, it works. But when parent view displays some child view, parent view can’t show this alert and app shows warning in console “Attempt to present &lt;Alert on &lt;ParentView which is already presenting &lt;ChildView".  As workaround we can use identical alert(…) modifiers for parent and ALL child views (sheets, popovers, action sheets, etc.). But in this case we still have warning in console.  How can we display “global” alerts in SwiftUI without warnings in console? Or perhaps we can ignore these warnings?
 
 
@@ -3774,14 +3775,14 @@ Please attach it to the feedback report you create.
 |U03JYBU2FR7|:
 Thanks for the answer! It doesn’t look like a bug, more like a limitation. We need to show alert in unknown period of time. We may show it from .sheet or from the parent view. In parent view it will not be displayed if sheet is already on the screen.
 
---- 
+---
 > ####  Is there a way to know when a drop has been cancelled with `.onDrag` and the `DropDelegate`? While dragging I want to change the opacity of the view for the duration of the drag. I tried providing a preview view and using `onDisappear` but it isn't called either. There is `dropExited` but the user can still be dragging.
 
 
 |U03HB1A8VRU|:
 There is no API for this, and as you noted, the drop session state in DropDelegate is different than the drag session state. We'd love to hear your use case for this, so could you file a feedback report asking for this functionality?
 
---- 
+---
 > ####  How would I go about making a Grid where all the cells are the same size based on the cell that needs the largest size to appropriately display its content?
 
 
@@ -3794,7 +3795,7 @@ Though you might be able to to implement the custom Layout so that it calls into
 Hi, I’ve done something similar recently in iOS 15. For this I created a child size reader (you can search for that) and then keep track of the largest size. Lastly, simply apply the size to grid items using .frame.
 Not sure if you’re already doing that and simply wanted a neater solution for iOS 16…
 
---- 
+---
 > ####  The auto-magical conversion from UiNavigationBars to NSToolbar in Catalyst is an awesome addition, but I’m not sure how it works with multiple columns. I have an app with UISplitViewController and 3 columns. All of the view controllers in each columns have their own buttons, and the one in the secondary view controller has a search bar. Which of these should appear in the Mac toolbar? Ideally they would all appear in their own “section” of the toolbar, like they do on iPad. But in testing, only the buttons from the secondary VC appear — no buttons from the other columns and no search bar. Is that expected? Is there a way to separate toolbar like we can using NSToolbar?
 
 
@@ -3813,7 +3814,7 @@ Ah my appologies — I said “secondary” but meant “supplementary”. My su
 |U03HELWFGKF|:
 yea, I think we don’t translate search from anything other than the detail column currently. We may have bugs here as well, so please send your samples so we can make sure your translation is fantastic!
 
---- 
+---
 > ####  When we use UIHostingController, should we register it to responder chain? by presentation or adding as a child view controller. Otherwise what would be happening? for example just retaining UIHostingController and then just adding view to the parent view.
 
 
@@ -3841,14 +3842,14 @@ I wonder if I could create a UIView that supports rendering SwiftUI view like UI
 |U03KDARQ0QY|:
 Awesome talk <@U03HL05BUJG>! What would your recommended approach be for small leaf node SwiftUI views in UIKit, which would not usually be full VCs? Even given the pitfalls of separating the hosting view, we find that we need to do this in ui libraries where clients expect UIViews, not view controllers. Thanks! (FB10019256)
 
---- 
+---
 > ####  Is there a way in the SwiftUI document model to access updateChangeCount directly, in order to decouple document saving from the undo stack? (Certain operations don't make sense to undo, but do change the document's file state.) (FB9974481)
 
 
 |U03HW7P2WTB|:
 Hi Ron! For now, there is no API available in SwiftUI for `updateChangeCount`. But also I want to thank you for filing the feedback, it is important to know which functionality is anticipated.
 
---- 
+---
 > ####  How do i get points on my lineMark in swift charts? (See Image for comparison)
 
 
@@ -3901,14 +3902,14 @@ You are the best! Got it! Anywhere I can follow you on social media?
 |U03HL05BUJG|:
 Ahh sorry I don’t have any social media!
 
---- 
+---
 > ####  Is it possible in SwiftUI on Mac to use a modifier with a mouse click like ⌘-leftClick? I like to select non-adjacent items like in Photos and Finder.
 
 
 |U03HW7NMP6D|:
 Gestures have  `.modifiers(_:)` modifier, which allows restricting that gesture to only respond when the modifier is active. So in this case you could use a Tap gesture with `.modifiers(.command)`
 
---- 
+---
 > ####  For complex views, I often define subviews inside computed vars to keep my `body` block more readable.  Especially for components that don't need to be reused elsewhere in the app, so they don't seem to warrant a reusable struct. Example:  struct MyView: View {     var body: some View {         someText         someButton     }     private var someText: some View {         Text("Hello")     }     private var someButton: some View {         Button("Press") {}     } }  I've heard that this can be bad for performance - is that true? And does using @ViewBuilder on some computed vars have any impact?
 
 
@@ -3917,14 +3918,14 @@ SwiftUI’s traversal of your view tree isn’t impacted at all by whether you c
 
 The only thing that you should pay attention to is your mechanisms for invalidating your views will be a bit less fine-grained, as you’re making a larger part of your view hierarchy dependent on the sources of truth specified by `MyView` . Make sure you’re paying attention to what pieces of your view depend on which pieces of data, and when you see computed properties that have completely disparate dependencies from the rest of the view, you consider breaking those out.
 
---- 
+---
 > ####  Are the new navigation bar styles (<https://developer.apple.com/documentation/uikit/uinavigationitem/3987969-style)|https://developer.apple.com/documentation/uikit/uinavigationitem/3987969-style)> supported on SwiftUI? 
 
 
 |U03HW7QCHK3|:
 Howdy! You can find the answer to this in this slack thread: <https://wwdc22.slack.com/archives/C03H9K1JYJY/p1654786985779439>
 
---- 
+---
 > ####  Hi all, thanks for all the great work this year.   What approaches would you recommend to start integrating SwiftUI into existing codebases that support iOS 14/15?
 
 
@@ -3933,11 +3934,11 @@ I'd suggest trying to adopt it in a view controller first, and replace the exist
 
 A great place to start is a settings view, where you can use Form to put a list of fields, switches, sliders, and more.
 
---- 
+---
 > ####  In continuation of my question about NavigationStack <https://wwdc22.slack.com/archives/C03H9K1JYJY/p1654791464924449|https://wwdc22.slack.com/archives/C03H9K1JYJY/p1654791464924449>  Can I somehow show an alert or make some operation when a user clicks the back button in the toolbar? Or now it isn’t possible too? For example, stop a task or warn a user that there are some not saved changes and wait for the user’s response.
 
 
---- 
+---
 > ####  Is there a way to specify the tabbing order of text fields, akin to textView.nextKeyView (FB10020959). My app has a combination of SwiftUI TextField Views and NS/UITextView wrapping in NS/UIViewRepresentable, and I've seen some odd cases where the default tabbing order is quite unintuitive.
 
 
@@ -3955,7 +3956,7 @@ It does seem to be following leading to trailing, top to bottom in terms of the 
 |U03HW7NMP6D|:
 Ah, thanks for clarifying, and I see in the feedback that you provided a test flight — thank you! We’ll check that out and follow up if we have any more questions on that
 
---- 
+---
 > ####  Is it possible to have a self-sizing list in SwiftUI similar to how LazyVStack works? List has support for drag and drop through `onMove` while LazyVStack does not.
 
 
@@ -3964,7 +3965,7 @@ List doesn't size itself based on the height of the content like LazyVStack. You
 
 We'd love to hear about your use case in a feedback report. Specifically let us know what kind of experience you're trying to achieve, but can't.
 
---- 
+---
 > ####  I have a couple of apps written in SwiftUI in the past two years that are broken now because they rely on lists and the background color can’t be changed anymore using the UITableView.appearance() API.  How can we change the default background color for List in SwiftUI?
 
 
@@ -3977,14 +3978,14 @@ Awesome! Thanks for your reply and sorry for not paying attention :D I really ho
 |U03HW7PE3SM|:
 No worries :slightly_smiling_face:
 
---- 
+---
 > ####  Is there SwiftUI equivalent of new UINavigationItem.backAction?
 
 
 |U03HW7QCHK3|:
 There is no equivalent in SwiftUI, but a feedback would be appreciated!
 
---- 
+---
 > ####  How can I adjust the width or thickness of a linemark in swift charts? 
 
 
@@ -3992,7 +3993,7 @@ There is no equivalent in SwiftUI, but a feedback would be appreciated!
 you can use a LineStyle! <https://developer.apple.com/documentation/charts/chartcontent/linestyle(_:)>
 `.lineStyle(StrokeStyle(lineWidth: 3))`
 
---- 
+---
 > ####  We have an app that has a 50+ components built using UIKit. We are trying to use SwiftUI by reusing our existing components but we are facing multiple challenges. 1. It seems that UIViewRepresentable doesn't work out of the box with views that are built using auto-layout. We have a generic container (IntrinsicContentHeight&lt;View) that tries to calculate the size of the UIKit view and return it to the intrinsicContentSize. Is there a better solution?  2. We noticed performance issues using UIViewRepresentable views in SwiftUI Lists. It seems that Lists always re-create the UIViewRepresentable views and never recycle cells. Are we doing anything wrong?  3. Our design system slightly modifies the line-height of our texts. We have a solution using NSAttributedString that works well for UIKit but haven't found a solution for SwiftUI. Text supports line spacing but it can only increase the default line spacing, it cannot decrease it (passing negative values does nothing). Is there anything we can do to customize the line height of a Text in SwiftUI?
 
 
@@ -4008,7 +4009,7 @@ For your last question, can you please file a feedback with your request? In par
 |U03JRJWPYKB|:
 Value relative to the dynamic type size sounds like the thing that will work for me. I will make sure to file feedback to give more details. Thank you for answering, Paul!
 
---- 
+---
 > ####  Is there any thought to making UITextInteraction spell-checking API public? UITextInteraction respects the spellCheckingType property of UITextInputTraits. If the value is UITextSpellCheckingTypeDefault or UISpellCheckingTypeYes, spell checking occurs as expected. Unfortunately, UITextInteraction uses the private UITextReplacement class to handle spell checking. When it encounters a misspelled word, it correctly presents a menu with the spelling options. However, when you tap the correction, it attempts to call the private `replace:` method with a sender of private class UITextReplacement. The replacementText property of the sender contains the misspelling. The code works fine, but using this private method and property earns you a rejection from app review, so it isn’t possible to use the spell-checking features of UITextInteraction.
 
 
@@ -4021,7 +4022,7 @@ FB10136384
 |U03HELXCTGV|:
 Thanks. I think the expectation is that `replaceRange:withText:` should be invoked instead of the private `replace:` method. In the meantime, you should try implementing `shouldChangeTextInRange:replacementText:` and see if that gets called before/after the call to `replace` . That would be a way to get the replacement text without using private API.
 
---- 
+---
 > ####  Did anything change in UITextInteraction with respect to dictation? On iOS 16, dictation in a custom view that supports UITextInteraction always fails. The same (shipping) code works on iOS 15.
 
 
@@ -4031,21 +4032,21 @@ Changes were made to dictation to support the new "modeless" dictation feature. 
 |U03K11CE03T|:
 Will do. I notice that dictation seems to be failing in Pages too, but not Notes old this (old) iPad.
 
---- 
+---
 > ####  Is there a way to use app-specific UIActivities with SwiftUI’s new ShareLink?
 
 
 |U03HELXCTGV|:
 This might be a better question for the <#C03HX19UNCQ|>.
 
---- 
+---
 > ####  The new find stuff is great — it took 30 seconds to integrate with my UITextView. On Catalyst, the find panel seems to have some issues, namely that clicking on the buttons doesn’t work — the search field is focused and I can type it in, but clicking doesn’t do anything. Is that a known issue with beta 1 or is there something I should investigate on my end?
 
 
 |U03HELXCTGV|:
 This is a known issue (but feedback requests still appreciated). A workaround currently is to call `layoutSubviews` on the UITextView after the find panel appears.
 
---- 
+---
 > ####  A bit late to the party, due to a lab appointment, so still working my way through the video. Can you advise: is there an API to enable me to add custom data detectors in text editing in my app? For instance, I'd like to be able to have a data detector that adds text decoration or other features to any time someone inserts the name of a person in their text, from a list of names of people already in the app (say, several thousand people). Is there an API/mechanism for this?
 
 
@@ -4055,7 +4056,7 @@ Unfortunately, that is not something that is supported today. Please file a feed
 |U03HELXN8CV|:
 Obviously not as nice as a dedicated API , but you could do it very manually, by watching the delegate methods of `UITextView` for text changes, and then maybe overlaying things or editing the text to add links.
 
---- 
+---
 > ####  Honestly, it’s been a while since I last checked this, but is there an API in UIKit these days that I can query to check whether an external hardware keyboard is present?
 
 
@@ -4095,7 +4096,7 @@ Your hex editor needs to run in the background indefinitely? Why?
 |U03JDNMQDKN|:
 Let’s say you are moving around large chunks of data stored on a slow USB drive. If the OS decides to kill the app while the app is still busy writing data, data corruption occurs, I guess? Maybe this is not an issue with journaled file systems, but what about plain old FAT32?
 
---- 
+---
 > ####  The UIFindInteraction doesn't seem to fire off a new query on my session when the user removes all text from the search box. Is this intended? Is there another way of listening for this so we can clear our custom text highlights?
 
 
@@ -4108,7 +4109,7 @@ Thank you for answering the last minute Q! I totally thought `invalidateFoundRes
 |U03HELXCTGV|:
 Ah, indeed, the documentation is wrong. Thanks for pointing that out!
 
---- 
+---
 > ####  Hi, In my CarPlay app, In `templateApplicationScene(_:didConnect:)` I get the provided `interfaceController` and store a reference to it, but most of the times when I try to access `interfaceController.carTraitCollection` The app crashes because `carTraitCollection` is `Uninitialized`, so it makes creating image for different display scale (2x, 3x) or different display styles (dark, light) impossible. I tried to make sure that I always access it from main thread but still have the same problem.  This code always crashes for me: ``` // CarPlay connected     func templateApplicationScene(         _ templateApplicationScene: CPTemplateApplicationScene,         didConnect interfaceController: CPInterfaceController     ) {         self.interfaceController = interfaceController;         self.interfaceController?.delegate = self;           print(interfaceController.carTraitCollection) } ```
 
 
@@ -4163,7 +4164,7 @@ Thank you Kevin and Jonathan.
 another related question that I noticed, looking at another thread, <@U03HJA80GLS> When using UIImageAsset, the pickup of the correct asset also depends on the interfaceController.carTraitCollection which is nil at some point, so if we use an image asset to create the template when the carTraitCollection is nil we will get the wrong asset, or no asset at all.
 Is there any workaround for this?
 
---- 
+---
 > ####  Hi, I've a question about the Car Play simulator . I added arm64 in the excluded architecture to run in the iPhone simulator for my M1 mac.  Now I get this error in  carplay simulator “Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: 'Unsupported object &lt;CPTabBarTemplate: …. “ , I think it crashes because of arm64 in the excluded architecture. Can you please help ?
 
 
@@ -4176,7 +4177,7 @@ You might also try running your app on-device with the new CarPlay Simulator app
 |U03J8ND0AH2|:
 Thank you so much. I downloaded that tool and planning to use the CarPlay simulator.
 
---- 
+---
 > ####  When your CarPlay app is running but your screen on your device is locked, is your app considered "in the foreground?"  For example, can I run something like a Timer if I'm just within the CarPlay UI?
 
 
@@ -4186,7 +4187,7 @@ When an app is launched in CarPlay and visible on the CarPlay display, the corre
 |U03HQMRPRTR|:
 Thanks!
 
---- 
+---
 > ####  Do push notifications (non-time sensitive) work like normal when in the CarPlay UI? As in, can I process them and do everything I would expect to do just like when my app is open on my device?
 
 
@@ -4223,7 +4224,7 @@ Definitely file feedback too if you think it could be useful for your app!
 |U03HQMRPRTR|:
 Will do. Although this may be an entire project killer at this point.
 
---- 
+---
 > ####  Does the new CarPlay Simulator app only function with devices running iOS 16? – I couldn't get it to actually display CarPlay visuals from my plugged-in iOS 15.5 iPhone (No error messages; just …nothing happening)
 
 
@@ -4260,7 +4261,7 @@ It's also worth trying the latest beta of iOS 15 - 15.6 beta 2, it includes a fi
 |U03JEEUJPMJ|:
 (FYI: CarPlay Simulator just kicked into life for me once I’d turned off Personal Hotspot :+1::skin-tone-3:)
 
---- 
+---
 > ####  I've been snapshotting a SwiftUI View (`UIHostingController` = `UIImage`) to create Point of Interest images. This works in the iOS Simulator (with CarPlay external display), but I've found on a real car head-unit that: - when my app is launched from CarPlay (and hasn't been launched on the device), - or the device is locked, I just get an empty image rendered when run via CarPlay.  This seems to be related to the 'on-device app' being inactive, despite the CarPlay app being active. I'm hitting walls in my knowledge of iOS app activation states–– is there there some way (API) you can think of that I could call in my CarPlay side of things, to 'wake up' (:man-shrugging::skin-tone-3:) the 'on-device app'?
 
 
@@ -4284,7 +4285,7 @@ Noted, thanks :relaxed:
 |U03HWUTHA1X|:
 And, to answer your question about 'waking up' the app on the phone, there is no means of doing this. Apps are only launched (given scenes) by the system (generally this is because the user launched the app in that environment)
 
---- 
+---
 > ####  For a generic notification that shows up when your app is not in the foreground...are those just time-sensitive notifications or are those restricted to only certain types of entitlements?
 
 
@@ -4297,7 +4298,7 @@ When requesting notifications authorization for user notifications, include the 
 <https://developer.apple.com/documentation/usernotifications/unnotificationcategoryoptions/1649281-allowincarplay>
 And make sure to post the notification with that category. Separate out notifications intended for CarPlay into their own category to avoid other notifications your app might post that aren’t relevant while driving from appearing in CarPlay.
 
---- 
+---
 > ####  Is there any way to have two different icons for each tab? one for when the tab is selected and one for when the tab is not selected? I have tried to change the tab icon when the template appears/disappears, but it does not work.
 
 
@@ -4307,7 +4308,7 @@ You should get a `CPTabBarTemplateDelegate` callback when the active tab changes
 |U03JBFATXM2|:
 Thank, I will file a feedback
 
---- 
+---
 > ####  Can a CarPlay app run in the background, for location updates, and trigger a local notification? (i.e. location services background mode)  (Or do CarPlay apps not have access to the same functionality when 'closed'?)  Use case = an EV charging app, which launches Maps to navigate to a charging station, but monitors location updates in the background, and – when the user is a few miles from the charging station location – checks the station's availability again; to notify the user if the station is no longer available.
 
 
@@ -4317,7 +4318,7 @@ Background app activity policies are the same in CarPlay. If your app already su
 |U03JEEUJPMJ|:
 Yay! :partying_face:
 
---- 
+---
 > ####  Do I have any access to car information through carplay?
 
 
@@ -4330,7 +4331,7 @@ I was hoping for mileage information, for trip durations, and just noting this m
 |U03HLM4KG7N|:
 Unfortunately that information isn't passed over, no.
 
---- 
+---
 > ####  What is the expected image size for the section header button (introduced in iOS 15)?
 
 
@@ -4393,7 +4394,7 @@ Thank you for the answers <@U03HBMB6TPG>. Is there any estimate for when this wi
 No problem <@U03JBFATXM2>, thank you for developing with us!
 We’re investigating the issue, but can't share a timeframe at this time
 
---- 
+---
 > ####  In iOS Simulator, with the additional CarPlay external display options enabled via `defaults`, there's `Load` and `Save` functionality for simulation config (screen dimensions, scale, etc)  Are there any `defaults` that can be set to enable load/save functionality in the new CarPlay Simulator app? (Use case: swapping between different 'cars' for testing)
 
 
@@ -4405,7 +4406,7 @@ Noted :+1::skin-tone-3:
 
 `FB10165659 (Support loading+saving of CarPlay Simulator configuration)`
 
---- 
+---
 > ####  When it comes to color of icons and images, it seems as those need to already be the color you want them to be for displaying.  It doesn't seem that I can tint them when displaying them in the CarPlay UI. Is that correct or am I doing something wrong?
 
 
@@ -4436,7 +4437,7 @@ Is there any workaround for this?
 |U03HJA80GLS|:
 Thanks! That’s worth a separate feedback for sure. I don’t think we have any workaround to share right now, but it’s under investigation.
 
---- 
+---
 > ####  For testing CarPlay with iOS Simulator, it appears that the CarPlay window shown with iOS Simulator is not responding to external inputs on Apple silicon. Is that a known issue?
 
 
@@ -4449,7 +4450,7 @@ Cool thanks ^^
 |U03HZ462JCV|:
 Just want to make sure I didn’t do something dumb :sweat_smile:
 
---- 
+---
 > ####  Any chance for an answer previous question regarding the ability to share text from one CarPlay app to another?
 
 

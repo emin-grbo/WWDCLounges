@@ -4,9 +4,10 @@
 #### [emin@github](https://github.com/roblack) / [emin@twitter](https://twitter.com/emin_ui)
 #### [shirblc](https://github.com/shirblc)
 #### [tikimcfee](https://github.com/tikimcfee)
----
 
---- 
+
+
+---
 > ####  There any main tradeoffs between tessellation and mesh shading for vertex creation?
 
 
@@ -22,7 +23,7 @@ The new <https://developer.apple.com/documentation/metal/metal_sample_code_libra
 |U03J7T89SQG|:
 The sample code generates Bezier patches and uses mesh shaders to control the level of detail. While the patches are generated on the CPU, you will see that it would not be a huge leap to do that in the object stage or mesh stage.
 
---- 
+---
 > ####  Not much of a question because I'm just starting to move towards rendering but I'd like to say thanks to everyone involved with this. The documentation, tooling and APIs seems better than ever and the MetalFX Upscaling seems a game changer. I can see some foveated rendering hacks being used with this API and using different LOD with the fast resource. Cheers lads, awesome work.
 
 
@@ -45,7 +46,7 @@ Thanks <@U03HHP77WUB>, there’s not even the need for hacks then. Cheers.
 |U03J76T9WG6|:
 I’ll keep an eye on it. Cheers <@U03HW8Y0RFB>.
 
---- 
+---
 > ####  What are the package size considerations when shipping with offline compiled metal shaders?  Do these need to be updated over time to keep up with any driver or software updates for a particular piece of hardware?
 
 
@@ -54,7 +55,7 @@ Hi <@U03J9S1L38W>,
 1. Regarding package size considerations, optimizing for your particular deployment platform and particular set of supported devices is what make most sense.
 2. Please refer to the video “Target and optimize GPU binaries with Metal 3”  available tomorrow for information on this.
 
---- 
+---
 > ####  How do I start creating anything in Metal 3? Can you please show me code for a "Hello, World!" type Metal 3; maybe a box with a shaded gradient of color inside.
 
 
@@ -76,7 +77,7 @@ Awesome! :tada: If you have any questions throughout the week please let us know
 |U03HJ3X1HK5|:
 I also recommend checking out <https://developer.apple.com/documentation/metal/debugging_tools> to help you debug any issues you encounter
 
---- 
+---
 > ####  Hi, are Metal 3 features exclusive to Apple Silicon or do they also work on other processors (e.g A-series on iOS, or the GPUs in Intel-based Macs)?
 
 
@@ -87,7 +88,7 @@ That information is in the video at approx 12m 45s
 |U03HZ81AHCN|:
 Thank you very much!
 
---- 
+---
 > ####  What's the best way to get started with Metal as a beginner in the graphics field?
 
 
@@ -100,7 +101,7 @@ The samples under "Metal Fundamentals" are a great place to get started.
 |U03JRP87THN|:
 Thank you very much! Will look into it.
 
---- 
+---
 > ####  I’m learning graphics (coming from Swift) and am really interested in Ray tracing. What should I learn first to learn how to make a hybrid renderer in Metal?
 
 
@@ -113,7 +114,7 @@ This sample is also great for beginners <https://developer.apple.com/documentati
 |U03HMEDQX55|:
 Thanks! Metal makes Ray tracing really exciting since you can now pair it with MetalFX. Going to be interesting!
 
---- 
+---
 > ####  Are there any memory and texture format considerations when using MetalFX?  I'm guessing the historical frames need to be stored in some way, though the trade off would be smaller intermediate render targets.
 
 
@@ -126,7 +127,7 @@ Thanks!  Will be sure to check it out.  Also will be interesting if this could b
 |U03HJ4HULBC|:
 If you have any further questions, join us in the digital lounge for the session 1PM-2PM PST. We'd be happy to answer any further questions.
 
---- 
+---
 > ####  Since the shaders are compiled at project build time and compilation speed is no longer as critical, is that extra headroom used to allow the compiler to try to optimize the shaders further? Or is does it produce identical machine code as when building it at runtime?
 
 
@@ -139,14 +140,14 @@ Understood, thanks!
 |U03HJ3XEC75|:
 Also, be sure to check out “Target and optimize GPU binaries with Metal 3” available tomorrow for more information!
 
---- 
+---
 > ####  Hi! Great wwdc session, question: do you have a hello world example for making shaders using Apple technologies? Thank you!
 
 
 |U03J7T89SQG|:
 Please see the article "<https://developer.apple.com/documentation/metal/developing_and_debugging_metal_shaders?language=objc|Developing and Debugging Metal Shaders>" that will introduce you to the Xcode's excellent shader debugger. Then you can try out the Game Template if you want to get a Metal app running. And you can check out our <https://developer.apple.com/documentation/metal/metal_sample_code_library|sample code library> that have many kinds of Metal samples (and shaders) you can learn from.
 
---- 
+---
 > ####  Can you explain how to use triple buffering for complicated scene with 2d (overlay/ui) and 3d? What kind of data I should store in buffers? In Vulkan examples they use framebuffer, but metal dont have any similar entity.
 
 
@@ -198,7 +199,7 @@ If you are not using the CPU to modify textures/buffers on the fly then there is
 |U03JSFUKL2U|:
 Thanks! I will watch linked examples asap. 
 
---- 
+---
 > ####  Didn't see it earlier, new to Slack:  "Not sure if this is the right place to ask, but I am still looking through the plugins. But would it be able to use Bluetooth or related tech to share say an item with another player that also has the game/app. Like if there is a Unity plugin from apple that does this. "
 
 
@@ -211,7 +212,7 @@ Can you tell me more about what you're trying to do. Are you looking for somethi
 |U03JGTHPP7D|:
 It's more of a thought experiment at this point, but I kind of want to create a fantasy/rpg game and want to incentivize working together in real life to defeat certain bosses or challenges. My goal is to not rely on having any servers if possible. I think having bluetooth access might be a way for people to create a party, like in a typical 4 player rpg game like final fantasy. For example, if you are a healer. You can only heal or buff other people most of the time. In this case to beat certain challenges you would need to meet up with other people to be able to progress.
 
---- 
+---
 > ####  What's the earliest iOS you can use this with?
 
 
@@ -227,7 +228,7 @@ Thanks. (My current game supports iPad 2 still, iOS 9… But for new projects, t
 |U03HBFMJ81L|:
 Keep in mind the plug-ins are open-source, so feel free to make modifications if needed to help with your specific backwards compatibility goals.
 
---- 
+---
 > ####  If we're making feature requests: I really like the ability to email bug reports from my game with `MFMailComposeViewController`!
 
 
@@ -243,7 +244,7 @@ Yeah, we'll have to investigate how we might surface the functionality. It's cer
 |U03HMCT0BTR|:
 We did it in Kobold2D (Cocos2D) years ago, too. Email is nice for indies because you don’t need to worry about a back end.
 
---- 
+---
 > ####  A question on the Accessability plugin for Unity. Is it only available for Apple devices or can it also be used for Windows, Xbox etc. Reason for asking is that it would be great to see a cross platform plugin to increase the reach of accessability (making it easier to prioritize for stakeholders)
 
 
@@ -253,7 +254,7 @@ Hi Denny, thanks for the perspective. Currently this plug-in is only available f
 |U03HWMPTAUX|:
 Ok! I did miss to say it in the question--it's really great to see the accessibility plugin :-)
 
---- 
+---
 > ####  What is the recommended framework for connecting to another player stably for a multiplayer match? Not the old turn-based games, but a modern approach to having a 5-10 minute connection for PvP. (Would ARKit, RealityKit be better today than multipeer connectivity, which can be flaky with frequent disconnects?)
 
 
@@ -267,7 +268,7 @@ Besides that, GameKit provides a few way for our users to play with each other:
 • Or play with nearby friends.
 You will be able to see some games in Apple Arcade utilizing the multiplayer functionality provided by gamekit.
 
---- 
+---
 > ####  Hi! It looks like the documentation for the unity plugins has not been submitted to the GitHub repo -- all the documentation links are broken.
 
 
@@ -277,7 +278,7 @@ Thanks for the report! We’ll look into this.
 |U03HJ3XG351|:
 Hi, thanks for pointing out! Documentation links should now work again.
 
---- 
+---
 > ####  I've had a quick browse of the Accessibility Unity plugin and noticed that it's only supporting iOS and tvOS. Is macOS planned as well? There are also some performance concerns with the code that I'd love to see resolved, will GitHub PR's be considered?
 
 
@@ -302,7 +303,7 @@ That is a great feedback! Currently no, but we will add this to our feedback lis
 |U03HMCT0BTR|:
 I haven’t looked at the Accessibility plugin yet but it’s the one I’m most excited about. My games are playable via VoiceOver, and I definitely override `-accessibilityElements` to do things like give a consistent navigation order when the visuals are mirrored.
 
---- 
+---
 > ####  I look into unity plugins and have a relative question: Why you using swift instead of objc in AppleCore module? Why Swift with all Unmanaged things better, than ObjC?   But thanks for that bridging! I grab information how to use _cdecl :)
 
 
@@ -312,14 +313,14 @@ Thanks for asking Vladislav! We used Swift because it is the best language for A
 |U03JSFUKL2U|:
 Yey! That is very great answer for me!  Thanks Brett
 
---- 
+---
 > ####  Is wheel support only on Mac? The API seems to be available on all platforms except Apple Watch, but I’ve only seen it mentioned with regard to Mac. Am I misreading something?
 
 
 |U03J3UW6LSD|:
 Yes, racing wheels are only supported on macOS at this time. If you’re interested in supporting racing wheels in your game on other platforms, please file feedback to let us know!
 
---- 
+---
 > ####  Could mesh shaders be used for procedural terrain generation with continuous LOD? Currently I use a tessellation compute shader (which also does some basic culling) followed by a vertex/fragment shader.
 
 
@@ -380,7 +381,7 @@ If you wanna have more of an in-depth discussion, we still have a few Lab openin
 <https://developer.apple.com/wwdc22/labs/>
 These are in-depth 1:1 discussions :)
 
---- 
+---
 > ####  How should we approach issues like Shader Debugger crashes and GPU faults? We don't know where to look for hints
 
 
@@ -587,7 +588,7 @@ Thanks for the feedback
 |U03J3RYQ9V1|:
 Definitely thanks for the feedback. Somebody will be investigating the GPU hang soon hopefully
 
---- 
+---
 > ####  Can we somehow cancel work committed to GPU? For example we commitеed some neural net processing (example of huge work) and we received memory warning from the system, can we somehow stop execution?
 
 
@@ -596,7 +597,7 @@ Hi Pavel, unfortunately no facility exists to cancel committed GPU work. You can
 
 (Also we'd appreciate it if you can file a feedback request with this scenario for us to evaluate.)
 
---- 
+---
 > ####  What is the best way to denoise the Ray traced frame in metal? Is MPSSVGFDenoiser recommended for this purpose?
 
 
@@ -615,14 +616,14 @@ Those are new topics for me, so sorry if it is a silly question, but what is the
 |U03HJ3XCFGT|:
 Not a silly question at all! Accumulating light from multiple bounces will result in an approximation to global illumination and will likely be noisy depending on how you define the rays for each bounce.  Typically for later bounces you could accept something more diffuse for your global illumination representation - there's more diffuse representations such as <https://jcgt.org/published/0008/02/01/|Dynamic Diffuse Global Illumination>
 
---- 
+---
 > ####  Does `MFXSpatialScalingEffect` support PQ encoded HDR color? Specifically, pixel format `MTLPixelFormatBGR10A2Unorm` and colorspace `kCGColorSpaceITUR_2100_PQ`? If so, which `colorProcessingMode` should be used?
 
 
 |U03HJ4HULBC|:
 HDR colorProcessingMode should be used in that case.
 
---- 
+---
 > ####  Are there any demos using the `MTLParallelRenderCommandEncoder`? Is there a possibility of supporting a parallel compute encoder in the future?
 
 
@@ -638,7 +639,7 @@ I suppose I don't have a use case in mind :sweat_smile: but since Metal compute 
 |U03HJ4HULBC|:
 Typically what we've seen of GPU compute is that encoding is quite light weight while the GPU work is heavy. Encoding is just feeding pointers to GPU shader cores of where all the data lives and then GPU go on a massive parallel data processing/computing spree. :smile:
 
---- 
+---
 > ####  Is there a limit to the scale factor (outputWidth / inputWidth) that MFXSpatialScalingEffect can apply?
 
 
@@ -651,7 +652,7 @@ Just an FYI, we have a digital lounge session dedicated to MetalFX from 1PM-2PM 
 |U03JEMU3125|:
 Alright, thanks. I'll try to check in later. :slightly_smiling_face:
 
---- 
+---
 > ####  What's the most performant way to copy a CALayer into a MTLTexture on iOS?
 
 
@@ -699,7 +700,7 @@ Thanks, I’ll take another look!
 |U03J3UW6LSD|:
 Good luck! If neither approach works for you, please file Feedback so the teams involved can understand more about your use case.
 
---- 
+---
 > ####  The new EDR support in Metal for iOS looks really exciting, but on what current devices can we test this on?
 
 
@@ -715,7 +716,7 @@ I haven't tested it, but I think you should get a large EDR headroom on iPhone 1
 |U03H3GTMSR5|:
 We also recommend to poll the value of `UIScreen.currentEDRHeadroom` (for iOS) or `NSScreen.maximumExtendedDynamicRangeColorComponentValue` (for macOS) to accommodate for possible display brightness changes that might affect available headroom. Those can be caused for ex. by the user interaction - changing the screen brightness or by the system if auto-brightness setting is enabled or as a result of thermal event when device has to throttle.
 
---- 
+---
 > ####  More out of curiosity, what are the potential use cases of quadgroup functions? I've only seen one video mentioning them ("Discovering advances in Metal for A15 Bionic") where they're used to reduce the number of texture reads per thread. Are there any other use "common" use cases?
 
 
@@ -737,7 +738,7 @@ The finer granularity you use, the more efficient it is.
 |U03HJ54DBT4|:
 If you are in compute, I would probably always use simdgroup, just to get the best bang for your buck. I believe quadgroups are interesting for fragment workloads; I'm not sure what the availability and details are by heart. (rasterization, helper threads etc)
 
---- 
+---
 > ####  I'm interested in the accelerated ray tracing features in Metal 3, but the specific session that would contain more details is tomorrow. Are these changes specifically designed for realtime raytracing in a rasterized renderer, or are they general enough to be used on their own to ray trace entire scenes? I see that there are general purpose ray tracing features in older versions of Metal, I'm specifically curious how these intersect with the Metal 3 ray tracing features.
 
 
@@ -748,14 +749,14 @@ Metal RT is intended for use in both pure ray traced renderers and hybrid render
 If anyone would like to have more of an in-depth/follow-up discussion, we still have a few Lab slots available!
 <https://developer.apple.com/wwdc22/labs/>
 
---- 
+---
 > ####  As far as I can tell iOS devices still run OpenGLES apps just fine. Is there a hard deadline when this will not be the case any more?
 
 
 |U03J7T89SQG|:
 We can't comment on future plans, but we recommend porting existing OpenGL-based applications to Metal to take advantage of the latest features available on our devices.
 
---- 
+---
 > ####  Are there any recommended formats or workflows for dealing with 3D textures in Metal?
 
 
@@ -789,7 +790,7 @@ Right.  Are there any gotchas using sparse textures for 3D textures?
 |U03HJ54DBT4|:
 I don't believe so - it should effectively work the same.
 
---- 
+---
 > ####  Are all of the Metal 3 features available on all GPUs?  Do Vega GPUs and UHD 630 get mesh shaders with Metal 3?
 
 
@@ -797,7 +798,7 @@ I don't believe so - it should effectively work the same.
 • Metal 3 hardware support can be found in `Discover Metal 3` <https://developer.apple.com/videos/play/wwdc2022/10066/>
 • Specific features (Mesh Shaders, Metal FX) may have a different hardware support. For example, Mesh Shaders should be supported on MTLGPUFamilyApple7 and MTLGPUFamilyMac2. Please refer to their associated session for more information. ie, for Mesh Shaders : <https://developer.apple.com/videos/play/wwdc2022/10162/>
 
---- 
+---
 > ####  Quick question: What happened to the Metal Language Version build setting? Seemed it disappeared one year...
 
 
@@ -819,7 +820,7 @@ For macOS, it is `-std=macos-metalX.Y`  until MSL 3.0 where we have unified lang
 |U03HZ4PT2ER|:
 thank you
 
---- 
+---
 > ####  Hey there! I have been working with a highly programmatic SceneKit nodes and geometries (I know, I know, old hat), and I have been suggested by some friendly helpful developers at the WWDC Apple Park event (Hello again, Rintaro!) that a pathway to help some of my performance problems would be to 'rewrite' some of my core components with ARKit primitives, or perhaps Metal. Unfortunately, I don't really know where I would begin that conversion, or even if doing the work would net the performance benefits I'm seeking. The context of this question is my AR/VR visualization project which uses 10's of thousands of small geometries and nodes (shared as much possible) to render individual text glyphs like a sheet of paper (<http://github.com/tikimcfee/LookAtThat|github.com/tikimcfee/LookAtThat>). A good, solid first step would be: What would be a suggested migration pattern from SCNNode/SCNPlane/UIImage to similar Metal/ARKit patterns?
 
 
@@ -856,7 +857,7 @@ Just to quickly reply to your question, I do agree that you probably want to do 
 
 I would suggest putting your question up in the Labs and indicate this is a SceneKit question - I think those folks will be better equipped to point out the best path :)
 
---- 
+---
 > ####  With MetalFX are there any concerns or issues when dealing with transparency/volumetrics when doing temporal upscaling?  Would it sometimes be better to use Spatial upscaling and MSAA in some cases with a lot of transparency?
 
 
@@ -872,7 +873,7 @@ That makes sense, thanks.  Would the upscalers also work for targets other than 
 |U03H3GQDUP9|:
 Yes, you can do that. Just allocate separate scaling effect instances for those.
 
---- 
+---
 > ####  Can ScreenCaptureKit be used by two apps at once, each capturing all or parts of the screen?
 
 
@@ -882,7 +883,7 @@ Hi Matt! Fantastic question! ScreenCaptureKit allows for any number of active st
 |U03JUCK9B16|:
 Great thanks.
 
---- 
+---
 > ####  Is system-level permission required even if an app only wants to capture /itself/ (i.e. only its own window(s)), and not anything external?
 
 
@@ -892,7 +893,7 @@ Hi Michael! Yes, system level permission (one time) is required for the initial 
 |U03JEEUJPMJ|:
 Gotcha, gracias!
 
---- 
+---
 > ####  Our video conferencing app offers screen sharing functionality, but we want the screen share video to exclude certain windows (e.g., A/V controls and floating participant videos). This is easily solvable with content filtering in ScreenCaptureKit, but what is the recommended way to get this behavior with older versions of macOS that do not support ScreenCaptureKit?
 
 
@@ -902,7 +903,7 @@ You can use the screen capture portion of ScreenCaptureKit as of 12.3, and send 
 |U03HVC012J2|:
 Specifically, CGWindowListCreate() and CGWindowListCreateImage(). They’re *much* slower than the other APIs, but available back to earlier MacOS versions.
 
---- 
+---
 > ####  If you want to display the interactions with menu at the top of macOS, does that constrain you to just capturing a display (vs. application or window) in order to show that?
 
 
@@ -912,7 +913,7 @@ You can use `init(display:including:exceptingWindows:)`, but this will capture t
 |U03HVD5Q8DC|:
 Ah, brilliant! Thank you!
 
---- 
+---
 > ####  I make media /playback/ systems, but haven't really yet played with /producing/ media– could you give me an idea of what the next steps would be (in terms of macOS frameworks/API usage), to go from ScreenCaptureKit's sample buffers, to, say, a 'playback-ready' H264/HEVC+AAC HLS output?
 
 
@@ -939,7 +940,7 @@ Correct!
 |U03HF6TL5L5|:
 I think it's technically ABR (instead of VBR), but I'm no encoding expert, so grain of salt.
 
---- 
+---
 > ####  When capturing windows only, is the window's drop shadow captured, or only the actual frame of the windows?
 
 
@@ -955,7 +956,7 @@ This is definitely a lesser-used feature in the existing CGWindowList API, but i
 |U03HF6TL5L5|:
 Please submit a feedback request for this! Sounds like a good idea.
 
---- 
+---
 > ####  Would be great to be able to make screen captures (either screenshots or screen recordings) in HDR!
 
 
@@ -965,7 +966,7 @@ Thanks Chris! Please file a feedback in the feedback assistant for new features 
 |U03JN1D5XNJ|:
 Will do; thanks!
 
---- 
+---
 > ####  One thing that wasn't totally clear to me from the videos: Obviously, audio-capture is per-application, since audio is not associated with a window. If I exclude only *some* windows of an application from capture, does that mean I don't get any audio?
 
 
@@ -979,7 +980,7 @@ Thanks. I think this is fine for my typical use-case, but might be problematic f
 Another suggestion is to have a separate stream with the audio you want.
 If you have a particular use case or scenario you think we could address better, please file a feedback request!
 
---- 
+---
 > ####  If I'm capturing all windows from a single application, will I also get XPC-hosted dialogs? I'm thinking of Open/Save panels, and the like, which were not easily captured with the CGWindowList API, since they are associated with a different PID than the application windows.
 
 
@@ -989,7 +990,7 @@ It should capture things like the Open/Save dialog. If it doesn't, make sure to 
 |U03HVC012J2|:
 I’ll check, and let y’all know.
 
---- 
+---
 > ####  Just to reiterate my pledge - please please push mip bias as a part of the sampler for next metal releases. I think even GL had it :)
 
 
@@ -999,7 +1000,7 @@ Please submit your request via Feedback Assistant.
 |U03JEF2NVQV|:
 Sure!
 
---- 
+---
 > ####  Why use a constant jitter offset for a set of pixels instead of a random one that would probably make the result more smoother?
 
 
@@ -1009,7 +1010,7 @@ Using a fixed set of low-discrepancy jitter offsets ensures that the space of po
 |U03K19A2324|:
 Thank you <@U03HJ4DLF7D> for your answer! Oh I see... You get a good representation of jitter space, even under this coupling between neighbouring offsets? Interesting...
 
---- 
+---
 > ####  Wonderful presentation @Kevin! Thank you very much! The technology works beautifully with slow moving scenes. Could you comment on the impact of using temporal information on quick moving scenes or quick changing content? Should there be some adaptive setting with respect to the amount of previous pixels used based on the richness/rate of change of the scene's content?
 
 
@@ -1019,7 +1020,7 @@ Thanks. If the scene is truly moving super quick, where there's very little temp
 |U03K19A2324|:
 Thank you <@U03HJ4HULBC> for your answer. Yes, I guess this is expected! Fast moving content is always a challenge with these technologies... Once again, thank you for a wonderful, easy to watch and beautifully prepared presentation. (Really nice and illustrative clips! :slightly_smiling_face: )
 
---- 
+---
 > ####  Machine learning has shown great results with respect to upscaling both in terms of quality as well as performance. Do you see implementing such a functionality in MetalFX over the near future?
 
 
@@ -1035,7 +1036,7 @@ Note that the answer is yeah, machine learning is used. you can see the models a
 |U03K19A2324|:
 Hi <@U03J07WJLRK>! Thank you very much for the reference. I will check it out! :slightly_smiling_face:
 
---- 
+---
 > ####  I couldn't help noticing watching the No Man's Sky clip that there was quite a bit of smearing and things looked fairly low quality on the big camera move.  Are these kind of camera moves a big concern with this technique.  I understand TAA can have issues with smearing and ghosting.
 
 
@@ -1051,7 +1052,7 @@ Are you maybe referring to 21:35 timestamp? The session video is 22:11 in length
 |U03J9S1L38W|:
 Yes, so sorry
 
---- 
+---
 > ####  What lab is best for asking SceneKit questions this year?
 
 
@@ -1061,7 +1062,7 @@ I think Games technologies Q&amp;A would be the best fit. Please look in the sch
 |U03J1US1SR1|:
 Thank you!
 
---- 
+---
 > ####  What is the best way to render biplanar EDR cvpixelbuffer from avfoundation in Metal? Is better to convert pixelbuffer into mtltexture via compute, or sample from 2 mtltextures created from each plane?
 
 
@@ -1083,7 +1084,7 @@ I can’t predict that to be honest :slightly_smiling_face: It might completely 
 |U03HY66772A|:
 Ok, thanks!) I’ve thought there was a well known best practice:)
 
---- 
+---
 > ####  What's the best way to build a full screen game experience on the Mac? Should we still be using CGDisplayCapture? Or the AppKit full screen window support? Both seem to have pros and cons. For example: AppKit allows the menu bar to pop and for easy access. But CGDisplayCapture can use the area around the notch.
 
 
@@ -1110,7 +1111,7 @@ You can always draw within the full size of your window. The safe area insets ar
 |U03JRP6568Y|:
 Thanks. It's possible I've configured my layout to be constrained into the safe area. I'll check it out!
 
---- 
+---
 > ####  Hello everybody! Is there any sample or instructions how to make offscreen render using Metal? For example: I have a scene and I want to save it as png file. How can I do it? Can I control resolution of saved file?
 
 
@@ -1125,7 +1126,7 @@ Then there are a few different ways to get a CGImage from the MTLTexture: A quic
 |U03J21F2PQS|:
 Oh, thank you so much for the answer!!!
 
---- 
+---
 > ####  Can you leverage the screen capture API to cast data that is being rendered off screen? eg two cameras in a scene, one camera view is your ipad screen, another camera view would be streamed to apple TV. each camera are viewing different location but in the same scene.
 
 
@@ -1155,14 +1156,14 @@ it makes sense if you were trying to show say, ‘behind me’ or maybe a compan
 
 Its an interesting use case, feel free to log a Feedback requesting an answer for the high level problem so we can take a look !
 
---- 
+---
 > ####  I'm sorry, I wasn't able to watch the video, so just wanted to confirm: with ScreenCaptureKit we're able to capture the mixed system sound, or filter in or out the applications that we want or don't want to include, right? For example capture sounds from my own application + Zoom call already mixed for us, basically replacing things like Blackhole + Multi-Output/Device etc?
 
 
 |U03HF6TL5L5|:
 Yes, absolutely! In this case, you might want to use `init(display:excludingApplications:exceptingWindows:)`, where you can capture all audio, excluding the applications that you don't want in the audio.
 
---- 
+---
 > ####  CARenderer was not previously available on iOS (only macOS). But Xcode 14 and docs on the web now show it as available since iOS 2.0!  <https://developer.apple.com/documentation/quartzcore/carenderer?changes=latest_minor|https://developer.apple.com/documentation/quartzcore/carenderer?changes=latest_minor>  Is this a mistake, or is it now available to older devices if built with the iOS 16 SDK?
 
 
@@ -1180,7 +1181,7 @@ Does the *Overview* need a bit of editing then?
 |U03J3UW6LSD|:
 Good catch! Please file Feedback about the documentation :slightly_smiling_face:
 
---- 
+---
 > ####  what is the fastest way to get something on screen with Metal? is there way to draw directly to screen instead of metal layer contents and then wait for frame composing?
 
 
@@ -1190,7 +1191,7 @@ The fastest way to get your drawing on-screen is to create a full-screen CAMetal
 |U03HJ3XEC75|:
 Be sure to take advantage of a ProMotion display if the user has it, too! You can set a minimum and maximum CADisplayLink callback rate using a CAFrameRateRange, for instance.
 
---- 
+---
 > ####  Might anyone be able to speak to whether it makes sense to combine indirect command buffers (<https://developer.apple.com/documentation/metal/indirect_command_encoding/encoding_indirect_command_buffers_on_the_gpu?language=objc|https://developer.apple.com/documentation/metal/indirect_command_encoding/encoding_indirect_command_buffers_on_the_gpu?language=objc> ) with bindless rendering *and* dynamic data? Specifically, I am trying to avoid a lot of draw calls. With the SOC architecture, it seems passing data is not really expensive, so I figure per-frame I could just specify some parameters and generate draw calls on the GPU, as in the example.  -broad question, I realize, but I'd appreciate some thoughts on how to reduce draw calls for rapidly-updated and/or deleted vertex data.  I also checked mesh shaders, but I think those are overkill for my use case.
 
 
@@ -1209,14 +1210,14 @@ However, I suspect that ICBs and bindless are orthogonal.
 
 Thanks again for your time!
 
---- 
+---
 > ####  When will the activity feed be available?
 
 
 |U03H3GTJF0F|:
 The activity feed is available today in iOS/iPadOS/tvOS 16 beta and macOS Ventura beta. :video_game::star2:
 
---- 
+---
 > ####  Hello! :wave: Playing around with the new ScreenCaptureKit I'm experiencing problems with TCC, revoking access to Screen Recording while the app's running  (domain: com.apple.ScreenCaptureKit.SCStreamErrorDomain, code -3801 message: "The user declined TCCs for application, window, display capture"). Confusingly, when my app launched it did have the proper access.  Anyone around knowing under which special circumstances the system may suddenly revoke access to Screen Recording for an already running app?
 
 
@@ -1235,7 +1236,7 @@ I see, well then I'll file the bug report, thank you. Amazing new API by the way
 |U03HF6TK2J1|:
 Glad you like the new framework!
 
---- 
+---
 > ####  Hey all! Question is related to SceneKit + UIView / SwiftUI view layers. There has been some historical functionality allowing the layers of views *not* presented in a typical hierarchy to be presented as the material contents of geometries like SCNPlanes. One example is this repo here: <https://github.com/sarangborude/SwiftUIARView|https://github.com/sarangborude/SwiftUIARView> . Unfortunately, the technique here doesn't seem to work anymore a couple of years later. I'm wondering what might be possible to bring this back to usage, as I have a TON of use cases I'd love to explore with this! Thank you so much as always!
 
 
@@ -1255,7 +1256,7 @@ thank you!
 |U03JRPTDF6U|:
 Of course. And hey, in the mean time, might you know of any docs that might be related to this? I’m thinking of giving this another go soon, hehe. Happy to sit back and relax though to hear from the Feedback side :smiley:
 
---- 
+---
 > ####  For a relatively simple game (low poly graphics, simple textures, no AI), which framework would you suggest I use to develop in Swift? All logic would be custom, so no need for scripts library or similar features. SceneKit seems like an obvious choice as it has the functionality I need, but I'm not sure how actively it is still being maintained and supported?
 
 
@@ -1313,7 +1314,7 @@ am very active on Twitter as @andydentperth
 |U03JELM0ZNV|:
 I have yet to get into SwiftUI as my app is iOS12+ so all UIKit but am just on the cusp. Thanks to feedback this WWDC will be trying to host SpriteKit for _some_ screens. Just got a demo going with SwiftUI working inside an iMessage app extension at <https://github.com/AndyDentFree/im-plausibilities/tree/master/imUrlDataAppSUI>
 
---- 
+---
 > ####  Is there a way to send a raw MTLTexture or a specific view to ScreenCaptureKit, or some lower-level API related to it? For example, let's say I have a real-time graphics application written using Metal, and I want to stream content containing only audience-relevant elements in my scene, rendered to one texture.  I broadcast that texture. In another renderpass, I composite some diagnostic info only relevant to me locally that I don't want to share with others.  How might this be achieved? It's a use case I keep running into (asymmetric views and perspectives.)  Going even further, maybe I am developing a game and I want to render a completely different perspective in my scene from a different camera. I send that texture to the stream, but maybe I render from a different perspective locally.
 
 
@@ -1343,7 +1344,7 @@ Will do!
 |U03HWP445CH|:
 Thanks! We've got it
 
---- 
+---
 > ####  Would ScreenCaptureKit be appropriate for a remote desktop/screen sharing application?
 
 
@@ -1472,7 +1473,7 @@ Yeah. I think Meng talks about this a bit in the "Take ScreenCaptureKit to the n
 |U03K0FHV4M8|:
 Will definitely do
 
---- 
+---
 > ####  I have a classic "dumb question" - is ScreenCaptureKit the macOS equivalent of ReplayKit? I want people to be able to create _reaction videos_ of them playing touchgrams, which is running on SpriteKit.
 
 
@@ -1591,7 +1592,7 @@ you are most welcome!!
 |U03H3GXFRSB|:
 <@U03K0FHV4M8> yay! Im sooo happy you were able to figure it out after our talk!!
 
---- 
+---
 > ####  I want to record the whole screen but I keep getting the microphone active orange dot in the recording. How can I make a recording of a screen using ScreenCaptureKit without the orange dot?
 
 
@@ -1601,7 +1602,7 @@ We are aware of feedback around the orange dot. ScreenCaptureKit adheres to the 
 |U03JEMGKNDP|:
 OK thank you!
 
---- 
+---
 > ####  Can ScreenCaptureKit capture an 'off-screen' window?– as in, if I wanted to capture some visuals that normally show in a window (1920x1080) in my app, but there's no need to show the user (because they just care about the /resulting/ captured output)  &amp; if so: does that seemingly /make sense/ as a use of SCK, or are there more 'direct' methods for 'app-internal' view capture you'd suggest instead?
 
 
@@ -1628,14 +1629,14 @@ Yep, it was! Thanks
 |U03HWP445CH|:
 Your own app should have access to its own content without TCC permissions
 
---- 
+---
 > ####  When I use `SCContentFilter.init(desktopIndependentWindow:)` in ScreenCaptureKit, the popup buttons, contextual menus, sheets that appear on the window are not captured. Is there any way to capture them in ScreenCaptureKit?  Previously, I implemented using `CGWindowListCopyWindowInfo([.optionIncludingWindow, .optionOnScreenAboveWindow], windowID)` and `CGImage.init?(windowListFromArrayScreenBounds:, windowArray:, imageOption:)` API, but I would like to know how it is possible in ScreenCaptureKit.
 
 
 |U03HF6TL5L5|:
 Additional pop-over items like these will not be shown with `init(desktopIndependentWindow:)`. If you would like to capture these, you should use an application-based capture. However, please submit a feedback request for this enhancement if you would like to see these inside of `init(desktopIndependentWindow:)`. How would you prefer the capture handle things like context menus that exceed the bounds of the window?
 
---- 
+---
 > ####  I'd like to use Reality Composer (in the new Xcode) to generate simple USDZ shapes, then use the new Reality Converter to re-texture these shapes (because Reality Composer cannot add custom textures). In Reality Composer, you have to enable USDZ export in Preferences, but when I export a simple box to USDZ, Reality Converter cannot open it (Conversion failed: 1 error, which is unexpected/unknown). Is there a secret way to make this work?  (Thanks for leaving questions open — I'm in Australia. I realise this not quite the right forum for this, but the right forum hasn't left questions open, and it's open around 2-3am my time.)
 
 
@@ -1647,7 +1648,7 @@ Hi, I tried to reproduce the error as you described. This was the order of steps
 • Open a Finder window and double-click the exported USDZ file.
 If this does not work, would you file a Feedback Assistant?
 
---- 
+---
 > ####  In HLSL Texture2d and Texture2d_array are treated almost the same i.e. texture2d can be used instead of array one. However in metal the type is much more strict. Does it mean that the only way in Metal is to create respected texture view to convert types? The texture view looks to be performance hit :(
 
 
@@ -1844,21 +1845,21 @@ but indeed hard crashes are so much better analysed on Apple Socs
 |U03JEF2NVQV|:
 and yeah I think eGPU with Apple Soc is a good idea :wink:
 
---- 
+---
 > ####  I've just moved from my old and hot Intel iMac, to an M1 Max MacBook Pro, which I'm loving! One snag - our games still run on OpenGL ES, but the iOS Simulator on Apple Silicon seems to crash when executing OpenGL ES commands. Is it Game Over? Do I finally need to move to Metal?
 
 
 |U03HLFHLASY|:
 Hi David! This is not expected. Please submit a report using the Feedback Assistant app and we’ll take a look. Thank you!
 
---- 
+---
 > ####  First, thanks for all your hard work and cool new APIs!  I watched "Meet distributed actors in Swift", and I'm curious if there's currently a way to use distributed actors in a peer-to-peer GKMatch?
 
 
 |U03J3UW6LSD|:
 Hi <@U03HMD2BP55>! I believe using distributed actors with GKMatch will have to wait until Swift actors support custom executors. But I encourage you to ask the friendly folks in the Swift lounge for a more authoritative answer!
 
---- 
+---
 > ####  Hey there! Here's a basic one, with some context: I'm a mobile developer working for about a decade in the space, and I have very little experience with high-fidelity graphics and their libraries. I am highly interested in learning C++, especially to interact with the new metal-cpp tools. My question is, would the metal-cpp examples shared here in this lounge be a good starting point into learning enough C++ to be productive with Metal? Or, is there a better starting point that may be a more gradual or helpful introduction to the tools? I don't mind hitting the ground running so to speak, just curious to see what paths are most suggested for this! Thank you!
 
 
@@ -1920,7 +1921,7 @@ I would recommend you to take a look at the LearnMetalCPP samples(<https://devel
 
 <@U03HJ4DKQRY> You got it - this was the original reason I had the thought to try it, in that it seemed like it had that gradual build up of domain knowledge, through the lens of a different language. This might be a weekend project, haha.
 
---- 
+---
 > ####  Question re Core Media IO Extension. How the host app can communicate with the extension? Can host/extension exchange IOSurface for example?
 
 
@@ -1930,7 +1931,7 @@ What kind of information are you hoping to communicate? There might be a better 
 |U03J3UW6LSD|:
 If you're trying to send video frames, the supported way to do that is `CMIOExtensionStream`.
 
---- 
+---
 > ####  Just want to say HUUUGE thank you to all XCode GPU dev.team. You guys rock. I was testing first metal gpu capture and since that time it's miraculous improvements.  Still ;)  Pixel history - please make it happen And if this is possible can Apple team work at least a bit with RenderDoc author so we can replay DX11/12 traces on Mac? It's a very big task/very complex but it's super big pain to need a Windows with RenderDoc to check stuff. If only RenderDoc can run on Mac. Of course I'd be happy if it can replay Metal as well, but it's a different story!
 
 
@@ -1940,7 +1941,7 @@ Hi - thanks for feedback. We'll definitely chat with the tools team about your i
 |U03JRP6568Y|:
 I'm porting a game that happens to work when in a Windows virtual machine, so on my Mac Pro I keep Direct3D tooling/tracing in a VM running side by side with the Metal debugger. Really missing that workflow on Apple Silicon, but I also know there are no easy answers there. :slightly_frowning_face: Considering just Boot Camping my Mac Pro and keeping it as a remote Windows debug box when the time comes.
 
---- 
+---
 > ####  Is there any documentation for the new Metal Pipeline Script JSON format?   Mentioned in the "Target and optimize GPU binaries with Metal 3" session.
 
 
@@ -1981,14 +1982,14 @@ Not sure if this is suppose to work yet on MacOS 13 beta/XCode 14 beta...
 |U03J07WJLRK|:
 also, I see that the workflow doesn't work at all without having a Metal pipeline JSON (applegpu-nt: note: [AGX] Plugin interface not implemented: AIRNTEmitExecutableImage error)
 
---- 
+---
 > ####  Is there a way to opt out of QoS to avoid priority decay on the render thread if we are writing our application in Swift?
 
 
 |U03J3UW6LSD|:
 The techniques we recommend in our tech talk on <https://developer.apple.com/videos/play/tech-talks/110147/|tuning CPU job scheduling for Apple silicon games> are also applicable to games written in Swift. The pthread APIs might not be the nicest to work with from Swift, but it should be possible to use them.
 
---- 
+---
 > ####  Rendering the Mandelbrot set is an "embarrassingly parallel" :smile: task, so it seems perfect for the GPU. I wrote a Metal fragment shader to do this, but you can't zoom into the set too far because Metal only supports `float`, not `double`. I am a novice GPU programmer, so bear with me, but is there any way to do increased precision math on the GPU with Metal? I understand that GPUs are generally much slower with double-precision, if they even support it, but it seems like it would be useful for scientific computing at least. Thank you!
 
 
@@ -2004,7 +2005,7 @@ Also, I want to add to my answer that you could also experiment with the "fast-m
 |U03HMD22287|:
 Thanks <@U03J7T89SQG> , I didn't know about that option!
 
---- 
+---
 > ####  Is there a way to reference templated compute functions from a compute pipeline descriptor such that the templated type inherits the bound texture's pixel format?
 
 
@@ -2082,21 +2083,21 @@ If you know that you will need to use all possible ones, then you should do it o
 |U03JENH943V|:
 Great, thanks for your responses, very informative!
 
---- 
+---
 > ####  Is generating the new JSON Pipelines Script suppose to work on MacOS 13 Beta and XCode 14 Beta? Mentioned in the "Target and optimize GPU binaries with Metal 3" session.  Trying the sample terminal commands in the session, on a harvested metallib (super simply draw a point, with a vertex/fragment shader), errored out with `metal-source: error: unsupported binary format`.
 
 
 |U03HJ3XEC75|:
 Thanks for the feedback! The team is looking into this issue.
 
---- 
+---
 > ####  Is there a possibility to render 3D objects with SceneKit on the new Map? e.g. a Car driving down the road...
 
 
 |U03HJ3XEC75|:
 Unfortunately this is not possible to do, but please file Feedback on this request. It seems like a great idea with lots of possibilities!
 
---- 
+---
 > ####  The new object/mesh shader pipelines are pure genius. When will we get a chance to see an updated Metal Shading Language Spec so we can dig into the details?
 
 
@@ -2112,7 +2113,7 @@ Do you have any interesting plans <@U03JK18HNR2>? We had some interesting discus
 |U03JK18HNR2|:
 I will definitely check that out! I don't have any specific ideas just yet. Still digesting everything, but I was properly blown away by the potential. This + MetalFX is an absolute game changer. 
 
---- 
+---
 > ####  In the new object and mesh shader stage, it looks like culling techniques can be refined greatly. But I didn’t quite grasp the meshlet concept discussed on the presentation. Is there some external theory on this you could point us to for more on the concept? Or is this something that we will be able to do in the new pipeline stage? (Ie carve up a mesh into smaller chunks on the fly)
 
 
@@ -2150,7 +2151,7 @@ There is no particular input formats or intermediate data formats that the pipel
 |U03JK18HNR2|:
 <@U03HJ3X8V43> <@U03JLQ9J0LB> <@U03HJ54DBT4>  great resources! Thank you :)
 
---- 
+---
 > ####  Why apple choose USDZ instead of GLTF?
 
 
@@ -2169,7 +2170,7 @@ Also another great thing about usd is the ability to convert to usda to get some
 |U03JSFUKL2U|:
 Thanks guys!
 
---- 
+---
 > ####  Is there sample code which uses a `MTLSharedEvent`? I'm looking to test one of my compute pipelines which uses a shared event against a sample pipeline which uses the shared event correctly as I'm running into unexpected behavior
 
 
@@ -2181,7 +2182,7 @@ We also mention shared event specifically here:
 <https://developer.apple.com/documentation/metal/resource_synchronization/synchronizing_events_between_a_gpu_and_the_cpu?language=objc>
 <https://developer.apple.com/documentation/metal/resource_synchronization/synchronizing_events_across_multiple_devices_or_processes?language=objc>
 
---- 
+---
 > ####  If I render a scene to a MTLTexture with large resolution can I split scene to a small pieces and async render them or I need to render a whole scene al once?
 
 
@@ -2217,7 +2218,7 @@ It appears that anything newer than Apple2 will support 16K (iPhone7+)
 |U03J21F2PQS|:
 <@U03HJ54DBT4> Thank you so much!
 
---- 
+---
 > ####  How would you break down a scene into acceleration structures? I'm working on a small raytracing side project and I'm a bit stuck determining how a scene should be broken down. I'm using Model I/O to load some assets and then I'm planning to represent the scene with an instance acceleration structure, with each `MDLMesh` mapping to a primitive acceleration structure. Does this sound like an appropriate breakdown?
 
 
@@ -2230,7 +2231,7 @@ Yeah that's pretty close to what I was planning actually
 |U03HLFDFS20|:
 then you would use the transformations for each mesh and put together a transformation buffer for `MTLInstanceAccelerationStructureDescriptor`
 
---- 
+---
 > ####  Hello, are there any plans of supporting page faulting in Metal for the future?   The purpose is to have an 1:1 CPU:GPU VA mapping, with even file mmap() being accessible from the GPU side, to be able to layer more high-level programming models on top.
 
 
@@ -2253,7 +2254,7 @@ yeah pinned memory is useful - but is not what I'm after in this scenario :sligh
 |U03J07WJLRK|:
 FB10133608
 
---- 
+---
 > ####  Will GPU Shader debugging for Mesh Shaders be ready for the Xcode 14 release?  I tried debugging the sample code "Adjusting the level of detail using Metal mesh shaders" (<https://developer.apple.com/documentation/metal/metal_sample_code_library/adjusting_the_level_of_detail_using_metal_mesh_shaders)|https://developer.apple.com/documentation/metal/metal_sample_code_library/adjusting_the_level_of_detail_using_metal_mesh_shaders)> and 2 observations: 1. There didn't seem to be a way to select object or mesh shader to debug. 2. Attempting to debug the fragment shader, hung XCode.
 
 
@@ -2263,7 +2264,7 @@ Many new and exciting features are always being planned to enable a better devel
 |U03HWP3Q65P|:
 Additionally, feel free to provide the case number here if you have filed feedback already. Thank you!
 
---- 
+---
 > ####  Hey - Really love all the innovative Metal 3 features! I may be a little early asking, but I was curious about what’s happening with MTLArgumentEncoders. Are they being deprecated across the board in Metal 3 such that we can take advantage of the streamlined API for most of our Metal 2 code? It also looks like some, but not all, of the methods are deprecated. For example, the versions that can set multiple buffers at once in a range. Is that correct?
 
 
@@ -2274,7 +2275,7 @@ MTLArgumentEncoders are indeed deprecated, however if you are targeting Tier 1 d
 
 We'd also really appreciate it if you could file feedback for this use-case.
 
---- 
+---
 > ####  Are there any cases we'd need to interact with MTLGPUHandle and MTLResourceID properties? I see them added in a bunch of places, but unsure where or by whom they'd be consumed.
 
 
@@ -2285,7 +2286,7 @@ We use them in the bindless workflow for argument buffers. Instead of using the 
 
 Please refer to <https://developer.apple.com/wwdc22/10101> for more usage examples.
 
---- 
+---
 > ####  Is there a way to have the equivalent of work_group_barrier (CLK_GLOBAL_MEM_FENCE, memory_scope_device) in Metal?   (all threads on a device barriers, _not_ threadgroup local, also a part of the Vulkan memory model)
 
 
@@ -2330,7 +2331,7 @@ FB10166471
 |U03J3RYQ9V1|:
 Thanks!
 
---- 
+---
 > ####  I've never used MTLRenderPipelineReflection before. What sort of use cases is it meant for? Could it be used to replace shared source/shader constants defining binding indices?
 
 
@@ -2346,7 +2347,7 @@ It's also very handy if you have a lot of shaders you are constantly editing. By
 |U03JENH943V|:
 Sounds so nice!
 
---- 
+---
 > ####  Heya! Quick shared post from the study-hall section, thank you much!  I think I have a lot to learn with Metal now. I’ll likely start with basic triangle patterns and moving those around with a compute kernel (which sounds so darn fun), and then start ‘upgrading’ to the mesh shader feature.   Now that I’ve said that, I wonder if it’s a better idea to maybe start with mesh shaders? I.e., starting from the new-tool instead of building up to it? The context being I'm brand new to Metal, and am looking to do some fairly simple direct interactions with geometry positions, and eventually texture manipulations for things like highlighting areas.
 
 
@@ -2390,7 +2391,7 @@ I would suggest using Swift if possible, since that interfaces much nices with s
 |U03JRPTDF6U|:
 Wooooooooo! No square brackets for ME this weekend! :confetti_ball: :man_dancing: :dancer: :dancers: :confetti_ball:
 
---- 
+---
 > ####  I'm trying to track down a rare Metal crash in our app. We're seeing this in two completely independent subsystems when deallocating Metal buffers, invariably vertex or index buffers.
 
 
@@ -2608,7 +2609,7 @@ Not sure where that is
 |U03J3RYQ9V1|:
 <https://developer.apple.com/bug-reporting/>
 
---- 
+---
 > ####  Have there been any changes to resource limits with Metal 3? Specifically the maximum number of buffers inside an argument buffer. Thank you!
 
 
@@ -2619,7 +2620,7 @@ Please note though, that you still need to actually allocate an argument buffer 
 
 The same applies to texture references stored in an argument buffer (use the `MTLResourceID` property instead when populating the buffer on the CPU).
 
---- 
+---
 > ####  Is there any list where I can find which devices support Metal 3?
 
 
@@ -2634,7 +2635,7 @@ The same applies to texture references stored in an argument buffer (use the `MT
 |U03HWP3Q65P|:
 No problem! Looking forward to seeing what y'all make with Metal 3 :raised_hands:
 
---- 
+---
 > ####  I've noticed that in compute shader access to a 2d texture is faster, than access to a buffer. (Due to a lot more of a cache missed). How does caching strategy work for textures vs buffers in compute? Can we specify one (as i've pretty good idea what parts of the buffer will be accessed from which thread)
 
 
@@ -2688,7 +2689,7 @@ Sounds good! Good luck :slightly_smiling_face:
 |U03HJ54DBT4|:
 Just wanted to add: a colleague of mine reminded me that textures often use a separate cache, so you could definitely see some performance difference between the two. Hope it helps :)
 
---- 
+---
 > ####  Does ScreenCaptureKit support pulling audio from different processes than the video? There are some use cases where audio comes from one process but the window and graphics come from another process, this is common in situations like CrossOver and Wine. This feature if not supported would be very useful.
 
 

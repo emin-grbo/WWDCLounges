@@ -2996,7 +2996,6 @@
 <h4 id="shirblc"><a href="https://github.com/shirblc">shirblc</a></h4>
 <h4 id="tikimcfee"><a href="https://github.com/tikimcfee">tikimcfee</a></h4>
 <hr />
-<hr />
 <blockquote>
 <h4 id="was-something-changed-on-uidraginteraction-when-i-tried-doing-local-drag-and-drop-move-in-my-app-the-drop-gets-cancelled-if-my-finger-is-not-perfectly-still-when-i-lift-it-bug">Was something changed on UIDragInteraction? When I tried doing local drag and drop (move) in my app, the drop gets cancelled if my finger is not perfectly still when I lift it. Bug?</h4>
 </blockquote>
@@ -5536,7 +5535,7 @@ public static func automatic(
 |U03K9095Y7K|:
 Thank you. I'll have a look at using that. 
 
---- 
+---
 &gt; ####  SwiftUI in UIKit: What is the recommended way of animating changes to SwiftUI view size when inside a UIHostingController? The problem I’m facing is that while the SwiftUI view itself will animate, and with the new sizing options the UIHostingController will do intrinsic content size invalidation automatically, the hosting view bounds change isn’t animated, it just jumps. This is a problem especially when other UIViews are constrained to the hosting view with Auto Layout. Is there any way to solve this other than manually tracking SwiftUI size changes and triggering a separate layout pass + animation of the hosting view superview?
 
 
@@ -5549,7 +5548,7 @@ Sure! Does that mean there's no solution to this at this time, or you just need 
 |U03HELT4EG5|:
 Both!
 
---- 
+---
 &gt; ####  I wrote small testing NavigationStack ```struct ContentView: View {     var body: some View {         NavigationStack {             VStack {                 NavigationLink(value: 123) {                     Text(&quot;Click Me&quot;)                 }             }             .toolbar {                 ToolbarItem {                     Button {                      } label: {                         Text(&quot;Done&quot;)                     }                 }             }             .navigationTitle(&quot;Title&quot;)             .navigationDestination(for: Int.self) { value in                 DetailView()             }         } //        .toolbar(.hidden, in: .windowToolbar)     } }  struct DetailView: View {     var body: some View {         Text(&quot;Detail View&quot;)             .navigationTitle(&quot;Title&quot;)             .toolbar {                 ToolbarItem {                     Button {                                              } label: {                         Text(&quot;New Button&quot;)                     }                 }             }     } }```  But when I click on 'Click Me' button the back button automatically appear in the toolbar. How I can hide or customize this back button? PS: It's on macOS
 
 
@@ -5565,7 +5564,7 @@ Thank you! I will post a feedback report.
 |U03J21F2PQS|:
 Can I somehow show an alert or make some operation when a user clicks the back button in the toolbar? Or now it isn’t possible too? For example to stop a task or to warning a user that there is some unsave changes and wait for user response.
 
---- 
+---
 &gt; ####  I'm trying to have .onDelete for delete and .swipeActions for other actions. It is not working this way. Any idea? The thing is I try to have delete as part of .swipeActions. However, I can't find the way to set up the delete animation like the one .onDelete has.
 
 
@@ -5593,7 +5592,7 @@ You want to create a button with a destructive role to achieve the same result:
 |U03JCHKCDB4|:
 &lt;@U03J7BQQNPJ&gt; Regarding feedback `FB10026540` I have updated the project and added more details on my observation. Thanks a ton for the immediate response!!!
 
---- 
+---
 &gt; ####  In SwiftUI when you had a List view with items that were continuously synced with a server and you displayed the details view of a selected item then the app jumps back to the main list. Are NavigationStacks solving this problem?
 
 
@@ -5631,7 +5630,7 @@ Explicit identifiers can be used to force an identity change, but not to prevent
 |U03HW7P0HQR|:
 In practice the identity of a view is a combination of its structural and explicit identity.
 
---- 
+---
 &gt; ####  We're using an attributed string with the `labelColor` on a `NSStatusItem `s button. However, when displaying this on an inactive display the color isn't dimmed as expected. Is there a way to have the text appear dim when on an inactive display using this approach?
 
 
@@ -5675,7 +5674,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 </code></pre>
 <p>} </p>
 <pre><code>
---- 
+---
 &gt; ####  Is there a way to recreate the appearance of the widgets on the Lock Screen using UIVisualEffectView in an app using either SwiftUI or UIKit? I'm specifically interested in recreating the appearance of the circular widget.
 
 
@@ -5688,7 +5687,7 @@ A variety of the gauge styles used in circular complications on the Lock Screen 
 |U03HELWFGKF|:
 with `UIVisualEffectView` you can try the `UIVibrancyEffect`s created with a `UIBlurEffectStyleSystem*Material`, but I’m not sure that will necessarily match what the lock screen is doing
 
---- 
+---
 &gt; ####  The documentation for makeCoordinator states: &quot;Creates the custom instance that you use to communicate changes from your view to other parts of your SwiftUI interface.&quot; could you explain what that means? It doesn't make sense to me because normally the coordinator is an NSObject that is the delegate to a UIView. I have seen some examples of Coordinator classes that take in an @Binding, that was passed in to the UIViewRepresentable and then into the Coordinator. Is that what this means?
 
 
@@ -5709,7 +5708,7 @@ I think it would be useful if the documentation for makeCoordinator was updated 
 |U03HB1A8VRU|:
 Passing a binding works great as well, but doesn't scale as well if you have multiple pieces of state to pass through. You're welcome to do it either way!
 
---- 
+---
 &gt; ####  There's no way of posting images on the question. But I ll add it once the question gets posted. Using SwiftUI, I m trying to use SwiftChart to add color underneath my line graph. I was wondering if there's a good resource on how I can do that?
 
 
@@ -5803,7 +5802,7 @@ You’re a genius sir. Almost there, just need to add the gradient!! &lt;@U03HL0
 |U03JDDPLMHD|:
 One last question, how can I add the little circle dots for the data points? Do i need to create a new question for that? This is my code currently, Unbelievably short and easy
 
---- 
+---
 &gt; ####  What's the recommended way of using a property wrapper such as `@FocusState` such that it will compile targeting iOS 14 for example? AFAIK you can't add an availability annotation
 
 
@@ -5818,7 +5817,7 @@ If you have a specific use case you’re okay with sharing, please file feedback
 |U03J4CGDGH2|:
 Thanks for the reply, would be helpful if it was possible to directly init a FocusState
 
---- 
+---
 &gt; ####  SWIFT-UI question:  How to identify the visibility (in index or id) inside a TableColumn View for paginate remote content.
 
 
@@ -5834,7 +5833,7 @@ Yes, it does. We even using that technique in Photos in macOS Ventura :slightly_
 |U03JRQ81NEL|:
 :star-struck: awesome 
 
---- 
+---
 &gt; ####  By default UIHostingController configures a navigation bar. What is the best way to hide it?  Overriding viewWillAppear to call setNavigationBarHidden does not always give the expected result.  The best result I got was by overriding viewWillAppear and NOT calling super.viewWillAppear.  Is there any risk with this method?
 
 
@@ -5860,7 +5859,7 @@ Subclassing UIHostingController is the solution for which I asked you advice.
 To prevent SwiftUI to set isNavigationBarHidden to true, we have to override viewWillAppear (and better yet: don't call super.viewWillAppear)
 Why do you say that it is not recommended?
 
---- 
+---
 &gt; ####  Question about SwiftUI. We have background task that may generate errors and application shows alert when this error appears. If we use alert(…) modifier on parent view, it works. But when parent view displays some child view, parent view can’t show this alert and app shows warning in console “Attempt to present &amp;lt;Alert on &amp;lt;ParentView which is already presenting &amp;lt;ChildView&quot;.  As workaround we can use identical alert(…) modifiers for parent and ALL child views (sheets, popovers, action sheets, etc.). But in this case we still have warning in console.  How can we display “global” alerts in SwiftUI without warnings in console? Or perhaps we can ignore these warnings?
 
 
@@ -5876,14 +5875,14 @@ Please attach it to the feedback report you create.
 |U03JYBU2FR7|:
 Thanks for the answer! It doesn’t look like a bug, more like a limitation. We need to show alert in unknown period of time. We may show it from .sheet or from the parent view. In parent view it will not be displayed if sheet is already on the screen.
 
---- 
+---
 &gt; ####  Is there a way to know when a drop has been cancelled with `.onDrag` and the `DropDelegate`? While dragging I want to change the opacity of the view for the duration of the drag. I tried providing a preview view and using `onDisappear` but it isn't called either. There is `dropExited` but the user can still be dragging.
 
 
 |U03HB1A8VRU|:
 There is no API for this, and as you noted, the drop session state in DropDelegate is different than the drag session state. We'd love to hear your use case for this, so could you file a feedback report asking for this functionality?
 
---- 
+---
 &gt; ####  How would I go about making a Grid where all the cells are the same size based on the cell that needs the largest size to appropriately display its content?
 
 
@@ -5896,7 +5895,7 @@ Though you might be able to to implement the custom Layout so that it calls into
 Hi, I’ve done something similar recently in iOS 15. For this I created a child size reader (you can search for that) and then keep track of the largest size. Lastly, simply apply the size to grid items using .frame.
 Not sure if you’re already doing that and simply wanted a neater solution for iOS 16…
 
---- 
+---
 &gt; ####  The auto-magical conversion from UiNavigationBars to NSToolbar in Catalyst is an awesome addition, but I’m not sure how it works with multiple columns. I have an app with UISplitViewController and 3 columns. All of the view controllers in each columns have their own buttons, and the one in the secondary view controller has a search bar. Which of these should appear in the Mac toolbar? Ideally they would all appear in their own “section” of the toolbar, like they do on iPad. But in testing, only the buttons from the secondary VC appear — no buttons from the other columns and no search bar. Is that expected? Is there a way to separate toolbar like we can using NSToolbar?
 
 
@@ -5915,7 +5914,7 @@ Ah my appologies — I said “secondary” but meant “supplementary”. My su
 |U03HELWFGKF|:
 yea, I think we don’t translate search from anything other than the detail column currently. We may have bugs here as well, so please send your samples so we can make sure your translation is fantastic!
 
---- 
+---
 &gt; ####  When we use UIHostingController, should we register it to responder chain? by presentation or adding as a child view controller. Otherwise what would be happening? for example just retaining UIHostingController and then just adding view to the parent view.
 
 
@@ -5942,14 +5941,14 @@ I wonder if I could create a UIView that supports rendering SwiftUI view like UI
 |U03KDARQ0QY|:
 Awesome talk &lt;@U03HL05BUJG&gt;! What would your recommended approach be for small leaf node SwiftUI views in UIKit, which would not usually be full VCs? Even given the pitfalls of separating the hosting view, we find that we need to do this in ui libraries where clients expect UIViews, not view controllers. Thanks! (FB10019256)
 
---- 
+---
 &gt; ####  Is there a way in the SwiftUI document model to access updateChangeCount directly, in order to decouple document saving from the undo stack? (Certain operations don't make sense to undo, but do change the document's file state.) (FB9974481)
 
 
 |U03HW7P2WTB|:
 Hi Ron! For now, there is no API available in SwiftUI for `updateChangeCount`. But also I want to thank you for filing the feedback, it is important to know which functionality is anticipated.
 
---- 
+---
 &gt; ####  How do i get points on my lineMark in swift charts? (See Image for comparison)
 
 
