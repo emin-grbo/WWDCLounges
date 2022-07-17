@@ -11,84 +11,84 @@
 > ####  Do passkeys require a device passcode and biometrics to be enabled?
 
 
-|U03J2UQ5X8R|:
+|Garrett D |:
 They require iCloud Keychain to be turned on. In most cases, this requires at least a passcode. There’s a lot more detail in the article <https://support.apple.com/en-us/HT213305>
 
 ---
 > ####  How are passkeys protected if someone gets access to your iCloud account?
 
 
-|U03J2UQ5X8R|:
+|Garrett D |:
 There’s a brief explanation of the various protections in the article published earlier today <https://support.apple.com/en-us/HT213305>, with a more in depth explanation in the Apple Platform Security Guide
 
 ---
 > ####  Is there anything similar to android’s protected confirmation (<https://developer.android.com/training/articles/security-android-protected-confirmation),|https://developer.android.com/training/articles/security-android-protected-confirmation),> to provide a signed proof that a user has seen and agreed to a statement, for things like approving payments, or any plans to provide this in the future? 
 
 
-|U03H9N99AF9|:
+|Ricky M |:
 Not at this time! We’re open to feedback about this. Please send feedback via Feedback Assistant with a clear explanation of what you’d like to do with this ability. We’ll take this information to standards bodies to work on this, if we agree it’s important to do in the near term.
 
 ---
 > ####  Is there a way to mark a passkey as non-shareable, so it can’t be sent from one iCloud account to another?
 
 
-|U03H9N99AF9|:
+|Ricky M |:
 There is not.
 
 ---
 > ####  Can you use passkeys for forms of authentication other than sign in? For example, as additional authentication for a stock trade or money transfer in a financial app? 
 
 
-|U03H9N99AF9|:
+|Ricky M |:
 You can. However, there isn’t a way for your app or website to specify that intent such that it’s communicated in the system Passkeys UI to the user. If you’re interested in this, please send us feedback via Feedback Assistant. We’d be happy to think about this!
 
 ---
 > ####  Can passkeys be locked to a single device?
 
 
-|U03H9N99AF9|:
+|Ricky M |:
 No. A passkeys is saved to a user’s iCloud Keychain so that it’s backed up and available on all of their devices. We think this is a great thing, because it makes passkeys safe and easy-to-use. There’s a new document about Passkey and iCloud Keychain security available here: <https://support.apple.com/en-us/HT213305>
 
 ---
 > ####  Can you require biometric authentication for a passkey?
 
 
-|U03HQA65410|:
+|Eryn W |:
 You can, but we don’t recommend it. Check out the Meet passkeys video around 18:23.
 
 ---
 > ####  Passkeys look great, though as I understand it webauthn doesn’t support transaction text in the FIDO authentication, so presumably passkeys don’t provide this either, if it’s even possible to use a passkey to authenticate an action in this way, like a payment approval?
 
 
-|U03J2UQ5X8R|:
+|Garrett D |:
 We currently do not support this, but it sounds interesting! Please tell us your use case in Feedback Assistant, so that we can take a look at it :slightly_smiling_face:
 
 ---
 > ####  Is it possible to add passkeys as an additional way of signing in for an account that was created with "sign in with apple ID"
 
 
-|U03H9N99AF9|:
+|Ricky M |:
 It is not.
 
 ---
 > ####  Have you published documentation on how to parse and verify a passkey attestation on the server?
 
 
-|U03J2UQ5X8R|:
+|Garrett D |:
 Passkeys do not provide attestation statements. If you have a use case where attestation is required, we’d love to hear about it through Feedback Assistant :slightly_smiling_face:
 
 ---
 > ####  Is the private key for a passkey stored in the Secure Enclave?
 
 
-|U03H9N99AF9|:
+|Ricky M |:
 Passkeys use iCloud Keychain for their security. Their on-device security properties are identical to those of passwords saved to iCloud Keychain. <https://support.apple.com/en-us/HT213305>
 
 ---
 > ####  Hi there! I really like Passkeys and I think they are really necessary as the computational power increases (otherwise we would have to remember / store very long passwords), so I think this is a great alternative to old passwords.  Could you explain how it works, especially on the backend side, since they cannot be stolen from the server (from what I understood, there's nothing to steal)?
 
 
-|U03H9N99AF9|:
+|Ricky M |:
 Thanks for the kind words!
 
 There’s an explanation of how passkeys work in the video that was released this morning. Have you watched this? <https://developer.apple.com/videos/play/wwdc2022/10092/>
@@ -97,7 +97,7 @@ There’s an explanation of how passkeys work in the video that was released thi
 > ####  Can multiple passkeys for the same site be stored in iCloud? Can a sign-in fall back to a QR code if you don't want to use the iCloud passkey?
 
 
-|U03J2UQ8G0Z|:
+|Jay M |:
 Yes, multiple passkeys can be saved for the same site in iCloud Keychain.
 Yes, users will have an option to choose to instead sign in with a nearby device using a QR code.
 
@@ -105,14 +105,14 @@ Yes, users will have an option to choose to instead sign in with a nearby device
 > ####  Are there any recommendations for testing webauthn/passkey integrations locally, for example on the Simulator via a server running on localhost?
 
 
-|U03J2UQ5X8R|:
+|Garrett D |:
 Passkeys should fully work with locally hosted developer environments, though you’ll need to make sure your dev environment’s hostname matches your RPID. There is some support for testing in Simulator, but it’s limited as Simulator does not support iCloud Keychain
 
 ---
 > ####  If passkeys are stored in iCloud Keychain, is it right to assume that they sync between multiple (Apple) devices? What if a device including its stored keys are compromised? Would it be recommended to create a passkey per device for easier revocation?
 
 
-|U03H9N99AF9|:
+|Ricky M |:
 &gt; If passkeys are stored in iCloud Keychain, is it right to assume that they sync between multiple (Apple) devices?
 Yes, that’s exactly right.
 
@@ -128,38 +128,38 @@ No. Not only is this not possible with passkeys, but it would inconvenience the 
 > ####  Hello there, first of all, let me know that passkeys are mindblowing!! I'd like to know if to support passkeys you need to implement it only client side or is there some server to server logic for keys exchange and signing? Thank you
 
 
-|U03HQA65410|:
+|Eryn W |:
 Hey Christina! :wave: There is some server side work to do. Your backend needs to learn how to speak WebAuthn and FIDO.
 
 ---
 > ####  Is it possible to export generated passkeys? What file format are they using? (Is it a plain text format?)
 
 
-|U03H9N99AF9|:
+|Ricky M |:
 Not at this time. However, data portability in the way that you’re describing is extremely important. We understand why this is desired.
 
 ---
 > ####  What does an account recovery process look like for someone who only ever signed in with a passkey?
 
 
-|U03J2UQ5X8R|:
+|Garrett D |:
 The recovery method for an account is independent of the authentication mechanism. Websites are welcome to continue to use the same recovery methods they use today, such as sending a link in an email to create a new passkey
 
-|U03J2UQ5X8R|:
+|Garrett D |:
 Recovery will likely be a much less common scenario with passkeys though, as they’re guaranteed to be saved by the device and there’s nothing for a human to forget
 
 ---
 > ####  Is anyone going to work on a Rust based server side tooling that supports passkeys or webauth etc, that supports Apple Passkeys, or is there a library that already exists for this? I want to implement passkeys for authentication/authorization for my multiplayer server framework. Thanks :)
 
 
-|U03HFKH871D|:
+|John P |:
 There are open source libraries for server-side tooling. One such rust library is <https://github.com/kanidm/webauthn-rs|webauthn-rs>.
 
 ---
 > ####  Hey folks, love the passkeys work, thank you! I'm curious to know what the stance would be from your side on Sign in with Apple vs passkeys? Is it recommended to implement both? If not, what are the implications for the review guideline wrt other social sign in methods?
 
 
-|U03H9N99AF9|:
+|Ricky M |:
 &gt; Hey folks, love the passkeys work, thank you!
 Thank you! :green_heart:
 
@@ -176,57 +176,57 @@ This distinction might seem subtle at first, but it’s really key — Sign in w
 > ####  Can a single user have multiple passkeys for my app ? (one generated from a first device, and another from another one ?)
 
 
-|U03HQA65410|:
+|Eryn W |:
 Hey <@U03JJAEKX4H>:wave: Yep! You can have multiple credentials for a single app :slightly_smiling_face:
 
-|U03HQA65410|:
+|Eryn W |:
 <@U03JJAEKX4H> Curious about your :x:. Is that not what you’re seeing?
 
 ---
 > ####  Just curious, why usernames as the visible account identifier instead of an email address? Is it possible to use an email? (This would coexist with existing login UI much easier)
 
 
-|U03H9N99AF9|:
+|Ricky M |:
 Totally possible! We’ve used user name as an example in some places, and email in others. Nothing about account identifiers has to change. Passkeys are a replacement for _passwords_.
 
 ---
 > ####  Is there anything about the device that is being used that is passed along to the server during passkey authentication?
 
 
-|U03J2UQ5U57|:
+|Caleb D |:
 Nope! Any network traffic would be between your app and your server (fetching the authentication challenge, returning the assertion result to your server for verification). Anything you include in your traffic is entirely up to you. Everything else happens on device.
 
 ---
 > ####  If iCloud Keychain syncing is down, what happens if in the meantime two devices generated passkeys for the same username? Once iCloud is working again, do both passkeys end up in iCloud, or does one 'win' ?
 
 
-|U03H9N99AF9|:
+|Ricky M |:
 The “identity” for a passkey is actually a hash of the public key. So if you created two passkeys for the same user name, they’d have different public keys. You’d end up with two public keys.
 
 This is dissimilar to passwords in iCloud Keychain, whose “identity” is the literal username.
 
-|U03H9N99AF9|:
+|Ricky M |:
 This doesn’t mean that “changing” one’s passkey will make duplicated passkeys. I was just answering the specific question that was asked. :slightly_smiling_face:
 
 ---
 > ####  Do you anticipate that passkeys will be used in an enterprise setting, or are they purely for consumer use?
 
 
-|U03HQA65410|:
+|Eryn W |:
 Hey Jonathan! Passkeys are not just for consumer use. They are a replacement for passwords, and they’re intended to be used anywhere passwords are currently used.
 
 ---
 > ####  Will it be possible to login to an account protected by a passkey on, for example, an iPhone that will not support iOS 16?
 
 
-|U03J2UQ5X8R|:
+|Garrett D |:
 Great question! For devices that don’t support passkeys, you’ll likely want an alternate method of sign in, which may take the form of something like a magic link or a backup password/2FA method. This will become less common with time, as more devices and platforms support passkeys
 
 ---
 > ####  Can you describe the authentication flow when a passkey on an iPhone is being used to authenticate an application using Chrome on Windows?  Does all that work now?
 
 
-|U03H9N99AF9|:
+|Ricky M |:
 Yes we can! It’s actually super cool, and pretty important to understand.
 
 Check out 28:23 of <https://developer.apple.com/videos/play/wwdc2022/10092/> for a technical description of how the cross-device, cross-platform sign-in mechanism works. In the State of the Union, we demoed this capability working in Google Chrome.
@@ -235,35 +235,35 @@ Check out 28:23 of <https://developer.apple.com/videos/play/wwdc2022/10092/> for
 > ####  Can Passkeys be used with Managed Apple IDs?
 
 
-|U03H9N99AF9|:
+|Ricky M |:
 Not at this time, no.
 
 ---
 > ####  Eryn W (Apple)  1 minute ago @Jean-Christophe Curious about your :x:. Is that not what you’re seeing?  I can't answer in the thread. I wanted to send you a sign because it wasn't my initiale question.  I didn't mean can multiple user generate multiple passkey for my app, I mean't can a single user gets in a situation where it has multiple passkeys generated ? (maybe on different device).  This relate to how and when the private key is save on device. If the server deny the authentication because he already know another public key for this user, how can the user use the correct passkey ? (or maybe this can never happen, and I'm interesting to understand why we are protected against such a thing, as passkey may not be already shared between my iphone and ipad and/or mac)
 
 
-|U03J2UQ5X8R|:
+|Garrett D |:
 In WebAuthn with security keys, it is already expected that websites will have multiple valid credentials for an account (i.e. one per physical security key). This is also true when using passkeys, as a user may have one passkey for an account saved in their iCloud Keychain, and another passkey saved for the same account on another platform.
 
 ---
 > ####  If someone’s device is stolen, can they revoke the passkeys in their iCloud Keychain?
 
 
-|U03H9N99AF9|:
+|Ricky M |:
 This concern is addressed more comprehensively for Apple ID and iCloud: devices can be remotely wiped entirely.
 
 ---
 > ####  My interpretation of the FIDO2 spec was that syncing keys across devices is discouraged, and that multiple device support should be achieved through generating new keys which are derived from the same authenticator (e.g. Yubikey). Am I misunderstanding something in the spec?
 
 
-|U03H9N99AF9|:
+|Ricky M |:
 The thinking here from the FIDO Alliance itself has evolved. See <https://fidoalliance.org/multi-device-fido-credentials/> for more information.
 
 ---
 > ####  How can we help existing users using password migrating to passkey ?
 
 
-|U03H9N99AF9|:
+|Ricky M |:
 This is an awesome question!
 
 The first step what we’re all at now is to start supporting passkeys on websites and apps. If we start doing this, we can offer this capability to customers. User interface patterns will emerge, and we’ll all be able to ramp up how many folks are encouraged to switch to passkeys.
@@ -274,7 +274,7 @@ The first step is adopting the technology.
 > ####  Is there any way to achieve Sign in with Apple on a multi-tenant platform without publishing all the branded iOS apps on one account?
 
 
-|U03HB5SAPHC|:
+|David M |:
 This is a great question to bring to one of the Q&amp;A: Sign in with Apple activities in this lounge later in the week!
 
 There are two, both at 1pm PST on Thursday and Friday. Search for “Q&amp;A: Sign in with Apple”.
@@ -283,38 +283,38 @@ There are two, both at 1pm PST on Thursday and Friday. Search for “Q&amp;A: Si
 > ####  Is there support for setting a preference for which algorithm (IE; P-256 vs Ed25519) is used for making the passkeys?
 
 
-|U03J2UQ5X8R|:
+|Garrett D |:
 Passkeys on Apple devices only support the ES256 algorithm
 
 ---
 > ####  Ventura brings notifications when Login Items are added which are LaunchDaemons and LaunchAgents. Standard users appear to be able to disable these items in System Settings. This will break all macOS management tools. Will there be a way to manage the permissions for users to disable/enable Login Items?
 
 
-|U03HB5SAPHC|:
+|David M |:
 We’re focused on passkeys in this Q&amp;A. This is a great security question for a Security lab appointment to make sure that you talk to the right people. There are two later in the week: Wednesday and Friday.
 
 ---
 > ####  Will passkeys be usable to setup a new device? For example, if I buy a new iPhone?
 
 
-|U03H9N99AF9|:
+|Ricky M |:
 Passkeys aren’t currently used in this way. Setting up a new device securely and quickly is handled through the “Quick Start” mechanism. <https://support.apple.com/en-us/HT202033>
 
 ---
 > ####  Can the private key for a passkey be accessed by an application on the device?
 
 
-|U03H9N99AF9|:
+|Ricky M |:
 No.
 
 ---
 > ####  What options will people have to use FIDO2/passkeys on iOS if they aren't able to use iCloud Keychain for any reason?
 
 
-|U03J2UQ5X8R|:
+|Garrett D |:
 You can sign in to an account on a device running iOS 16 or iPadOS 16 using a passkey from another device, including devices on other platforms, even without iCloud Keychain. However, passkeys cannot be created on Apple devices without iCloud Keychain turned on
 
-|U03J2UQ5X8R|:
+|Garrett D |:
 Saying that another way:
 • You cannot create a passkey on an Apple device without iCloud Keychain setup. When attempting to register a passkey, the user will see a screen asking them to turn on iCloud Keychain.
 • You _can_ use cross-device passkey sign in to sign in to an account on an Apple device without iCloud Keychain. For example, if you have a shared iPad without iCloud Keychain, users can use the passkey from their iPhone to sign in to their respective accounts
@@ -323,7 +323,7 @@ Saying that another way:
 > ####  This really excites me – here’s to hoping we’ll see passkeys pop up everywhere soon!   My question: When already (password) authenticated users register a passkey, is it best practice to disable password-based logins for that user and delete their password hash, or should the user be able to keep the password login option, possibly degrading security for their account?
 
 
-|U03H9N99AF9|:
+|Ricky M |:
 That is a best _security practice_, yes. However, that might not be the right answer from a _usability_ perspective, especially at this time, during the transition.
 
 Disabling password-based logins will be safer in a world with more and more devices compatible with passkeys. To start, you might want the user to keep their password around for signing in on devices without passkey compatibility.
@@ -334,7 +334,7 @@ This is really a personal choice for you and your user.
 > ####  What advice do you have for people trying to get internal buy-in for passkeys/FIDO2? I'm facing skepticism that users will be willing to replace passwords, but I don't have any evidence to prove that they are.
 
 
-|U03H9N99AF9|:
+|Ricky M |:
 <https://www.apple.com/newsroom/2022/05/apple-google-and-microsoft-commit-to-expanded-support-for-fido-standard/>
 
 Passkeys are happening, across the industry. People have already used their devices to replace older ways of doings things, and now it’s happening with passwords. The wide industry support means that there’s a really great chance that this succeeds.
@@ -349,20 +349,20 @@ As you weigh this timing, make sure y’all are considering the user experience 
 > ####  Say <http://example-a.com|example-a.com> has to move to <http://eample-b.com|eample-b.com> – will all current passkeys for <http://example-a.com|example-a.com> become unusable on <http://example-b.com|example-b.com> after the transition?
 
 
-|U03J2UQ5U57|:
+|Caleb D |:
 This answer has 2 parts. For apps, you will need to make sure your app is associated with both <http://example-a.com|example-a.com> and <http://example-b.com|example-b.com>. This will let your app continue to generate passkey assertions against the original domain
 
-|U03J2UQ5U57|:
+|Caleb D |:
 One of my colleagues is going to follow up with how this affects passkeys flows on the web
 
-|U03HFKH871D|:
+|John P |:
 For websites, a cross-origin i-frame may be used for authentication across domains. More information about these can be found here: <https://www.w3.org/TR/webauthn-2/#sctn-iframe-guidance>
 
 ---
 > ####  After authenticating users with Sign in with Apple or passkeys, is the best way of authorising a user on your API using refresh &amp; access tokens?
 
 
-|U03H9N99AF9|:
+|Ricky M |:
 Passkeys are a replacement for passwords.
 
 Replacing passwords doesn’t necessitate changing your local auth token/cookie story.
@@ -371,58 +371,58 @@ Replacing passwords doesn’t necessitate changing your local auth token/cookie 
 > ####  Will this Q&amp;A be available after the session has concluded?
 
 
-|U03HB5SAPHC|:
+|David M |:
 The digital lounge content will be available for the duration of WWDC, and a period after that as long as the workspace is up.
 
 ---
 > ####  are passkeys created on a subdomain locked-in or would they apply to the whole domain? And inversely, do passkeys created on the primary domain apply to the subdomains?
 
 
-|U03HFKH871D|:
+|John P |:
 You can specify a `rpId` when creating a credential or performing an assertion. This is the rpId that will be associated with the credential or used for fetching credentials. This can be any registrable domain suffix of the the effective domain.
 
 <https://www.w3.org/TR/webauthn-2/#dom-publickeycredentialrequestoptions-rpid|Example from the spec>:
 &gt; For example, given a <https://www.w3.org/TR/webauthn-2/#relying-party|Relying Party> whose origin is `<https://login.example.com:1337>`, then the following <https://www.w3.org/TR/webauthn-2/#rp-id|RP ID>s are valid: `<http://login.example.com|login.example.com>` (default) and `<http://example.com|example.com>`, but not `<http://m.login.example.com|m.login.example.com>` and not `com`.
 
-|U03HFKH871D|:
+|John P |:
 Cross-origin assertions via iframes are also an option.
 
 ---
 > ####  Are passkeys supported with Managed Apple IDs? If not, why not, and is there any effort within Apple to support this for their enterprise customers?
 
 
-|U03J2UQ5X8R|:
+|Garrett D |:
 Managed Apple IDs do not currently support passkeys
 
 ---
 > ####  Why doesn’t Apple support WebAuthN in the MDM Automated Device Enrollment’s web auth (<http://developer.apple.com/documentation/|developer.apple.com/documentation/>…)?
 
 
-|U03HFKH871D|:
+|John P |:
 Hi. Your link got cut off, we'd love to hear more. Please send feedback via Feedback Assistant with an explanation of what you’d like to do with this ability.
 
-|U03HB5SAPHC|:
+|David M |:
 Thanks <@U03JFEFGUBY>, we got your FB#s!
 
 ---
 > ####  Do passkeys support the PRF webauthn extension?
 
 
-|U03HFKH871D|:
+|John P |:
 WebKit does not support the PRF extension at this time. We'd like to learn more. Please file a bug on <https://bugs.webkit.org> bug with your use case.
 
 ---
 > ####  Can we get an upto date repo of the Shiny demo? I couldn't get it to compile on the latest Xcode, thanks! Or if there is a Github link.
 
 
-|U03HB5SAPHC|:
+|David M |:
 I meant to answer this earlier today, but didn’t hit send. The repo has been updated: <https://developer.apple.com/documentation/authenticationservices/connecting_to_a_service_with_passkeys>
 
 ---
 > ####  If we don't currently utilize CAPTCHAs, is there a way to implement this and still be compatible with older browsers? I'm not sure what to do after the server sends the 401, but the browser can't respond.
 
 
-|U03J1T8TDHN|:
+|Tommy - Networking |:
 Yes, you can absolutely utilize Private Access Tokens even if you don't currently have CAPTCHAs. However, it is important to make sure you still support clients that can't respond to the 401 challenge.
 
 In general, you can send the 401 challenge to see if the client will respond with a valid token. That let's you know for sure that they're a legitimate client. Not getting a token doesn't mean for sure that they're not a valid client, though — even iOS 16 clients can get rate-limited and sometimes won't return a token.
@@ -433,14 +433,14 @@ If you do have a CAPTCHA system, you can fall back to it if you don't get a toke
 > ####  Passkeys question: 1. Introducing passkeys has replaced the traditional platform authenticator registration, which raise the question whether or not a developer could identify the type of a registered key being used (hardware bound vs passkey) 2. Is there a way to still enforce a key to be hardware bound? 3. Is there a plan to allow a migration option for existing hardware bound keys to become passkeys? 4. Does passkeys support discoverable credentials?  5. Is there an option to build the passkey QR code by ourselves?
 
 
-|U03HB5SAPHC|:
+|David M |:
 Hi <@U03JRF2U93L>, this is a Q&amp;A about Private Access Tokens. The passkeys Q&amp;A was earlier in the week. There’s still an _Authentication Services lab_ on Friday. You should apply for a slot there to ask these questions.
 
 ---
 > ####  In labs, we’ve gotten a common question: what's the best way to try these tokens out?
 
 
-|U03J1T8TDHN|:
+|Tommy - Networking |:
 As we announced, we support two token issuers right now, from Cloudflare and Fastly.
 
 For each, you need the token issuer name, and their public key. Here’s the info!
@@ -457,7 +457,7 @@ Fastly:
 > ####  I couldn't reply to the thread from my previous question. I'm still uncertain how to implement the fallback. The server sends the 401 and typically washes its hands of the request. So then is it on the browser to parse the 401 and initiate another request asking for the fallback option? That seems vulnerable to a replay. And, not that we do this, but if the initial request was not an AJAX request, the browser would just be sitting with a 401, right?
 
 
-|U03J1T8TDHN|:
+|Tommy - Networking |:
 Thanks for the follow-up!
 
 Your 401 challenge can either come from your main resource load — in which case you should also send a body with the response of the page to show — or it can be in response to separate connection request that you trigger using javascript, etc.
@@ -472,7 +472,7 @@ If this was a secondary load triggered by (for example) javascript, you could ha
 > ####  Another common question: Tokens are one-time use only, but how do I enforce that on my server?
 
 
-|U03J1T8TDHN|:
+|Tommy - Networking |:
 It’s important to prevent “replay attacks” when your server is receiving tokens. iOS and macOS won’t ever send a token multiple times, but your server still needs to prevent this behavior.
 
 There are two ways you can do this:
@@ -483,7 +483,7 @@ There are two ways you can do this:
 > ####  I've just watched the session video. Is documentation made available on <http://apple.com|apple.com> about Private Access Tokens (in terms of the actual technical implementation/usage), or is it entirely covered by IETF 'Privacy Pass' documentation, and the session video is to announced its introduction to Apple's OSs? (I don't see any associated links under the session video, so I'm not sure)
 
 
-|U03J1T8TDHN|:
+|Tommy - Networking |:
 Great question! As of today, we have a coding challenge that is linked to the video that provides some of the detailed specifics:
 
 <https://developer.apple.com/news/?id=huqjyh7k>
@@ -500,7 +500,7 @@ And the token type is "2", which is the publicly verifiable blind RSA signature 
 > ####  FAQ: How are these tokens private? Does Apple or the token issuer get to see the pages I’m accessing?
 
 
-|U03J1T8TDHN|:
+|Tommy - Networking |:
 Neither Apple nor your token issuer gets to see what the client is accessing! There are two cool ways this is made private:
 
 1. The token challenge includes the server name, but before the token request is sent to the Apple attester or the issuer, the RSA blinding operation obfuscates all of the content. When the token issuance completes, the client transforms it so the server can recognize the token, but the issuance flow cannot recognize it.
@@ -510,7 +510,7 @@ Neither Apple nor your token issuer gets to see what the client is accessing! Th
 > ####  Am I right that: sending a token challenge with a unique `redemption_context` prevents client-side caching (and a new token is always fetched)?
 
 
-|U03J1T8TDHN|:
+|Tommy - Networking |:
 That's right — a unique redemption context means that the client can't cache, and needs to fetch a new token.
 
 If you have an empty redemption context, the client will fetch batches of ~5 tokens at a time.
@@ -521,7 +521,7 @@ One subtlety here is that you _could_ use a redemption content for multiple chal
 > ####  FAQ: How do Private Access Tokens relate to the DeviceCheck attestation APIs?
 
 
-|U03J1T8TDHN|:
+|Tommy - Networking |:
 The attester for Private Access Tokens is checking a lot of the same things as DeviceCheck. There are a few key differences, however:
 
 • Private Access Tokens work both from an app and through web browsers, like Safari; DeviceCheck only works through your app.
@@ -533,7 +533,7 @@ The attester for Private Access Tokens is checking a lot of the same things as D
 > ####  FAQ: Can tokens be redeemed across multiple websites?
 
 
-|U03J1T8TDHN|:
+|Tommy - Networking |:
 Yes! This is up to how you send your token challenges.
 
 The “origin_info” field in the challenge defines which servers can receive tokens associated with this challenge. If it’s empty, then the client can cache tokens for the token issuer and use them across any website that leaves the origin info empty. The origin info can just include one hostname if you want it to only apply to your server, or it can include a list of hostnames to work with multiple.
@@ -544,7 +544,7 @@ Note that the actual server that sends the challenge _must_ be listed in the ori
 > ####  If we are using `WKWebView` in our applications, will there need to be changes to support passkeys (i.e. a new `URLAuthenticationChallenge.protectionSpace.authenticationMethod` to handle)? Or will it be handled natively within the WebView?
 
 
-|U03J1T8TDHN|:
+|Tommy - Networking |:
 For Passkeys (which is different from this Q&amp;A session on Private Access Tokens), please sign up for an Authentication Services lab for this Friday, or ask on the developer forums!
 
 From what I know, though, WKWebView doesn't support passkeys.
@@ -553,7 +553,7 @@ From what I know, though, WKWebView doesn't support passkeys.
 > ####  Should we replace `Sign up with Apple` with `Sign up with Passkey` on our Sign up flow, leaving `Sign in with Apple` only for the flow when the user says he has an account?  Are there human interface guidelines regarding how we should design `Sign up with Passkey` and which logo to choose?
 
 
-|U03J1T8TDHN|:
+|Tommy - Networking |:
 In general for Passkeys (which is different from this Q&amp;A session on Private Access Tokens), please sign up for an Authentication Services lab for this Friday, or ask on the developer forums.
 
 This particular question was addressed during the Q&amp;A for passkeys, too!
@@ -564,14 +564,14 @@ This particular question was addressed during the Q&amp;A for passkeys, too!
 > ####  Is it a known issue that the Sign In with Apple button is visually blank in a Mac Catalyst app on Ventura? I encountered this once but wasn't sure if it was an app issue or on Apple's end.
 
 
-|U03HJ9WSLCA|:
+|David M |:
 The team is aware of this issue, and we’re looking into it! Please file a bug report using <http://feedbackassistant.apple.com|Feedback Assistant> with additional context, and provide the Feedback ID for us to look into it further
 
 ---
 > ####  Is it possible to Sign in with Apple on Mac apps distributed outside the App Store? If not, how can I support users on Mac who have existing accounts with Sign in with Apple?
 
 
-|U03J832USAC|:
+|Alfonso T |:
 Hi!
 
 You cannot use the Native API for applications that will be distributed outside the AppStore as the entitlement is only available that way.
@@ -581,7 +581,7 @@ However the Rest API as well as the JS API are options that are available for al
 |U03J1US1SR1|:
 Thank you!
 
-|U03J832USAC|:
+|Alfonso T |:
 Important to note that an App in the App Store is also required for Sign in with Apple to work on that configuration.
 Even if the application is marked as "Not for Sale" in the developer portal.
 
@@ -595,7 +595,7 @@ He is 15
 |U03J4CWFAN8|:
 (And for Germany, the Apple Page also says 13. It would — at least — be a good thing the users got a useful message like “you are not old enough”)
 
-|U03J832USAC|:
+|Alfonso T |:
 Thank you for that feedback <@U03J4CWFAN8>!
 It is really useful to know that we have a string that might mislead users and developers.
 
@@ -607,21 +607,21 @@ I absolutely will. And also it would be good to understand what the age in my re
 |U03J4CWFAN8|:
 Here you go: FB10139982. Thanks!
 
-|U03J832USAC|:
+|Alfonso T |:
 No, Thank *you* <@U03J4CWFAN8>!
 
 ---
 > ####  Are we able to ask questions on sessions from other days that’s didn’t have a dedicated Q&amp;A (e.g. endpoint security)?
 
 
-|U03JEMHHH3J|:
+|D J C |:
 We're not necessarily staffed for all areas, but we're happy to try and forward questions here as they come in.  Feel free to submit them or reply here in later activities in the lounge. :slightly_smiling_face:
 
 ---
 > ####  In iOS 16, it seems some 2FA apps are appearing in the settings app. There doesn't seem to be an extension/api/entitlement to enable this for apps, how can we enable our 2FA app appear in this list?  <https://images.macrumors.com/t/8tEM1CCevYzR5sJGoJbBslBsvjU=/2500x0/filters:no_upscale()/article-new/2022/06/passwords-two-factor-third-party-ios-16.jpg|https://images.macrumors.com/t/8tEM1CCevYzR5sJGoJbBslBsvjU=/2500x0/filters:no_upscale()/article-new/2022/06/passwords-two-factor-third-party-ios-16.jpg>
 
 
-|U03HQA65410|:
+|Eryn W |:
 The list is populated with apps that register themselves as handlers of URLs with the `otpauth` scheme. This doc talks through how to do that for your app. <https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app|https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app>
 
 |U03JELM0ZNV|:
@@ -629,14 +629,14 @@ that doc links in turn _For information about the schemes supported by Apple_ to
 
 would be nice to have a non-legacy version including important schemes like `otpauth`
 
-|U03HQA65410|:
+|Eryn W |:
 <@U03JELM0ZNV> That’s a good bit of feedback, thanks. :slightly_smiling_face:
 
 ---
 > ####  I don't really have a question, I just want to say thanks for the amazing documentation!
 
 
-|U03HBM076LW|:
+|Ram S |:
 :slightly_smiling_face: Thank you for being part of this community. We're really excited to see what you build :rocket:  Enjoy the rest of WWDC22!
 
 |U03JRP87THN|:
@@ -646,10 +646,10 @@ Thank you! You too! Have a great rest of WWDC!
 > ####  For authentication, do I have it right that these are the two new capabilities? Are there others to notice?   - ASAuthorizationController (choose which account to login with) - Authentication Modification Extension (upgrade to Sign In with Apple or upgrade to strong passwords)
 
 
-|U03HJ9A35HR|:
+|Patrick H |:
 Hi Jaime, the `ASAuthorizationController` APIs have existed since iOS 13.0. New this year in iOS 16.0 is the ability to specify `preferImmediatelyAvailableCredentials` when calling `performRequests()`. On older releases `performRequests()` does not take any parameter.
 
-|U03HJ9A35HR|:
+|Patrick H |:
 The Account Authentication Modification Extension was introduced in iOS 14.0
 
 |U03JPBUSHLZ|:
@@ -659,7 +659,7 @@ Thank you, perhaps I
 > ####  I saw that the Local Authentication framework now has LARight, LARightStore for storing secrets. Can this be used for the OAuth access and refresh tokens? It's a nicer API than keychain, but saving it using the secure enclave seems a bit excessive.
 
 
-|U03JEMHHH3J|:
+|D J C |:
 We got a moment to catch up with the team responsible for this and they sent us back with an answer for you here:
 &gt; The new API of LocalAuthentication is perfect for protecting this type of refresh tokens. Under the hood this data gets stored in the keychain, and there aren’t any penalties (performance or otherwise) in using the SEP protection it affords; this simply binds the key and the data to a specific device.
 
@@ -667,5 +667,5 @@ We got a moment to catch up with the team responsible for this and they sent us 
 > ####  I have a question about the Secure Enclave, just trying my luck if anybody here can answer it: When my app creates a private key in the Secure Enclave, is it ensured that only my app can use that key to for example sign data with it? 
 
 
-|U03JEMHHH3J|:
+|D J C |:
 The secure enclave is technology behind a number of our APIs, some of which by design allow multiple components of the system to sign with a key, while others allow restricting a private key for use by solely the application that owns it.  Please refer to the API documentation for your specific usecase!

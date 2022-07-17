@@ -11,36 +11,36 @@
 > ####  Will this plug-in work well for fast-paced games (like FPS)?
 
 
-|U03HEKAJJBF|:
+|Eric L |:
 Certain aspects of this plugin are wellsuited to fast paced games like FPS.  Forexample, reacting to users settings forlarge text and dynamic text (e.g. in yourmenus or HUD).
 
 ---
 > ####  what would you say is the biggest challenge of adding accessibility to unity games?
 
 
-|U03HEKAJJBF|:
+|Eric L |:
 Depending on your game, it may be hard to find what could be made accessible to your players. I hope this plugin can enable you to do much more than previously available
 
-|U03HAU29NQ6|:
+|Chris F |:
 Certainly before this plugin it was making anything accessible to VoiceOver. I think now the challenge will be more in how you design your game to accommodate people of different abilities
 
 ---
 > ####  Awesome work on the Unity plugin - I can't wait to use it! While the session demo'd VoiceOver use with the plugin, is it safe to assume this will work with Voice Control as well? There's that old overlap of accessibility allowing convenience for those that want it and it'd be nice to allow players to do so with additional voice inputs etc.
 
 
-|U03HHHDSD2N|:
+|Aaron E |:
 If you expose accessibility elements via this plugin it will be available to all the accessibility technologies, including Voice Control.
 
 |U03JRUP5YP2|:
 <@U03HHHDSD2N> Thank you for the answer! That's great to hear - can we add the equivalent of accessibilityUserInputLabels modifier to elements using the plugin?
 
-|U03HEKAJJBF|:
+|Eric L |:
 For now we can't. We will incorporate this feedback so we could consider this in the future
 
 |U03JRUP5YP2|:
 No worries. This is fantastic and I'll be sure to give it a try soon this week
 
-|U03HEKAJJBF|:
+|Eric L |:
 If you'd like to provide more feedback, please use this link on GitHub
 <https://github.com/apple/unityplugins/blob/main/Documentation/Feedback.md>
 
@@ -48,14 +48,14 @@ If you'd like to provide more feedback, please use this link on GitHub
 > ####  Should SwiftUI .sortPriority modifier on Views work also for Views that dont share the same superview/ancestor?
 
 
-|U03HEKAJJBF|:
+|Eric L |:
 Yes it should. `accessibilitySortPriority`should work for any views within the same accessibility container, defined by `accessibilityElement(children: .contain)` modifier.
 
 ---
 > ####  What are some of the best tips and resources for designing and coding for large accessibility size fonts?  At the largest sizes, this seems to be very difficult to do well.
 
 
-|U03HHHJ0ATU|:
+|J L - Accessibility |:
 Hi Klayton, a lot of this likely starts at the design stage. The best high-level recommendation we tend to give is to allow for any given label in a design to grow significantly, both in content and in size. In many cases this involves making content scrollable, or adapting horizontal layouts to become vertical at a particular text size. For the latter, I highly recommend checking out ViewThatFits, which is a new view in SwiftUI this year that lets you specify variations of views, allowing the framework to pick the best one depending on the available size.
 
 I’ve also got some links that I highly recommend checking out if you haven’t already: an app challenge from last year, a couple WWDC sessions, as well as the “Text display” section in our Human Interface Guidelines.
@@ -67,7 +67,7 @@ If you have specific questions about making sure your app works great with Dynam
 <https://developer.apple.com/videos/play/wwdc2020/10020/>
 <https://developer.apple.com/design/human-interface-guidelines/foundations/accessibility#text-display>
 
-|U03HEKAJJBF|:
+|Eric L |:
 The upcoming talk on SwiftUI's new custom layout system will be helpful too.
 <https://developer.apple.com/videos/play/wwdc2022/10056>
 
@@ -76,20 +76,20 @@ Thanks.  That's helpful.  I really wish some of these new layout tools were avai
 
 For a single word that can't fit on one line, such as someone's name, does a streaming scroll (marquee) element seem better than breaking up that word into multiple lines?  Should it require an app-setting toggle to avoid motion issues for people sensitive to motion?
 
-|U03HHHJ0ATU|:
+|J L - Accessibility |:
 I would say multiple lines are much more preferable than implementing marquees
 
 ---
 > ####  Can SwiftUI support tab key switching to different UI components and use space key to trigger default actions of the UI compoments?
 
 
-|U03HEKAJJBF|:
+|Eric L |:
 Thanks for your question. Currently SwiftUI controls can be added to tab key loop with the `.focusable` modifier, thus also being able to be triggered by space key.
 
 |U03JH5ZBN67|:
 Hi Eric, do you have example code for this? I have tried .focusable() for my image button. However, when press space key for it,  the Button action didn’t get hit? Does it also work for Link. Toggle …
 
-|U03HEKAJJBF|:
+|Eric L |:
 We have a new sample project Food Truck this year
 <https://developer.apple.com/documentation/swiftui/food_truck_building_a_swiftui_multiplatform_app>
 
@@ -101,118 +101,118 @@ Button with .focusable modifier should be able to be activated with Space key. I
 > ####  What attracted you to working at Apple, and specifically on accessibility?
 
 
-|U03HEKAJJBF|:
+|Eric L |:
 For me personally, 1. I believe Apple is the best company to work for if you want to change the world and make it a better place with technologies 2. Solutions/products that help people with disabilities could be one of the most impactful things you could do with a known set of inputs/resources 3. Problems in accessibility are really really hard problems, and I get personal satisfaction solving them :slightly_smiling_face:
 
-|U03HW63MVRP|:
+|Daniel Golden |:
 I happened to meet someone who worked on this team when I was in school and managed to get an interview for an internship. I didn't get the internship, but I replied back a year later to see if they wanted interns for the next year, because I knew it'd be such a fit for me. The thought that someone was working on accessibility full time was so cool to me, and I knew it was something I wanted to do. I get to make stuff, basically for myself, I don't think I could find a cooler job :sunglasses:
 
-|U03HAU1SFFY|:
+|Bianca Y |:
 I've used Apple products since I was 10 years old and Steve Wozniak taught my 5th grade class how to use a Mac laptop. Having been born legally blind, accessibility has always been a passion of mine as it helps improve my quality of life. Since age 10, I've been all Apple, and I wanted to be a part of, and share with others, the amazing things that our technology has done to improve my life.
 
-|U03HHGBL8TV|:
+|Darren - Accessibility |:
 I joined pretty much right from university. I was interested in accessibility research at the time and Apple just happened to need help making a newish product accessible (the iPhone).
 
-|U03HHGBCX99|:
+|Ibrahim Y |:
 Testing and QA is what I already enjoyed doing. I’ve went most of my professional life searching for that missing additional element and I found it at Apple. I realized that found it more meaningful and fulfillment helping others by helping others by ensuring that our Accessibility features are always as expected. In addition, as a disabled person myself, I am able to provide quality feedback on how to improve or suggest new features that will make life easier for other physically challenged people like myself
 
-|U03J7A3A8L8|:
+|Ryan D |:
 I’ve been using a Mac in one form or another since the 80s, and at every step of my vision loss, the product was there to meet me where I was at. The opportunity to work side by side with the people who created a huge part of my personal independence was a powerful dream. I have had this goal since I was in the 8th grade. You know those assignments “What do you want to do when you grow up?” Well, I still have the paper from that 8th grade exit assignment, and it says in my handwriting that I wanted to work for Apple. Decades later I wouldn’t change a thing.
 
 ---
 > ####  What are some example scenarios of where you could tell a developer tried to meet your accessibility needs but missed something?  Are there patterns?
 
 
-|U03HAU1SFFY|:
+|Bianca Y |:
 Yeah, as a low vision user, the most common pattern I've noticed is in Large Text support. It often doesn't exist, or if support does happen, it is often not in a readable way.
 
-|U03HW63MVRP|:
+|Daniel Golden |:
 I think sometimes when developers make assumptions about what I need they can sometimes miss the mark. Just because I have low vision doesn't mean I need a totally separate design. When I see apps present a totally different design for VoiceOver users, I am always a bit disappointed. We have so many tools to make almost any design accessible, and people want to enjoy those experiences similarly to how their able bodied friends and peers are experiencing them. Implement APIs to support built in settings we've provided instead, and you'll be headed in the right direction
 
-|U03HHGBCX99|:
+|Ibrahim Y |:
 One thing I notice is when a developer uses custom UI with several elements on screen, they tend to forget about making  every single element accessible. For example, most of the important elements would be scannable with item mode and the ones at the bottom such as sorting items in a list buttons won’t be accessible
 
 ---
 > ####  Should Voiceover order be always top-left to bottom-right in LTR language?
 
 
-|U03HHHJ0ATU|:
+|J L - Accessibility |:
 Yes, unless a particular UIView has its `semanticContentAttribute` set to `.forceRightToLeft` or if a SwiftUI View has its `layoutDirection` environment set to RTL
 
-|U03JUND0CJE|:
+|Andres G |:
 In some specific cases like two columns content, navigating down the first  column before jumping to the second column may make more sense than a strict top-left-bottom-right.
 
 ---
 > ####  For third party apps that are clearly at least making an effort to be accessible, what are the most common accessibility omissions or errors do you see developers making?
 
 
-|U03HW63MVRP|:
+|Daniel Golden |:
 The most common issues I see when we do app audits are bad accessibility labels and improper groupings for VoiceOver users. Labels should be concise, and shouldn't include redundant information like the role (like the word button). And items should be grouped logically. The best advice I give developers is, think about how the information is "digested" visually. Is this group of labels/images conceptually one item when you look at it? Then it probably should be for VoiceOver users too. This isn't something we think about a lot, it's all implicit in the apps we use every day, but taking a step back to notice these things help a lot
 
-|U03HW63MVRP|:
+|Daniel Golden |:
 Here's a great talk on writing good accessibility labels: <https://developer.apple.com/wwdc19/254>
 
-|U03HAU1SFFY|:
+|Bianca Y |:
 Lack of support for Large Text sizes. I frequently see apps make an effort to be accessible with VoiceOver, but even apps that do a great job with that often do not have support for Large Text.
 
-|U03J7A3A8L8|:
+|Ryan D |:
 Making a choice to use a cross platform development package without first investigating how accessibility will be implemented with that package frequently results in a really bad situation. Your customer might report an accessibility problem, and you may be unable to fix it if the frameworks don’t support our accessibility features. This has been the case for countless apps I have encountered so far.
 
 ---
 > ####  For Andres: do you know if there is still a lack of assistive technology for reading scientific publications, or have things improved?  For everyone: are there any remaining challenges specific to your life that society or technology could do a better job of addressing? (how?)
 
 
-|U03JUND0CJE|:
+|Andres G |:
 Thanks Keith. There have been lots of improvements in accessibility of scientific materials . MathML for instance allows VoiceOver users to read mathematical expressions on the web and other documents. There is still a lot to do in making math and science more accessible to students and professionals with visual disabilities. In particular conveying graphical information such as diagrams, function graphs, etc. is still an area of research and development.
 
 ---
 > ####  How do header traits and levels work on macOS? I didn’t see a header rotor option available like on iOS. 
 
 
-|U03HKTXJ4KE|:
+|Tommy - Accessibility |:
 So in VoiceOver on macOS the headings rotor will be found using the VoiceOver modifier keyboard shortcut + the U key. This will pop open the available rotors and if you're on an element which has a headings rotor you can use the left and right arrow keys to find it in the rotor menu. The headings rotor will include the level of the heading when announcing each heading.
 
 ---
 > ####  Is it possible to emulate a switch control in either the Simulator or via an external Bluetooth Keyboard?
 
 
-|U03HEKAA4HK|:
+|Drew H |:
 Great question. Yes, Switch Control can be configured to respond to external Bluetooth keyboard events!
 
 Make sure your keyboard is paired to your iOS or iPadOS device, then head to Settings &gt; Accessibility &gt; Switch Control &gt; Switches &gt; Add New Switch. Here you get to choose the switch source, so tap External.
 
 Each key on your keyboard could be its own switch, but you have to add them one by one. When you activate a key on your keyboard, Switch Control will ask you to name it and then assign it to an action, this helps you keep track of all the switches you add.
 
-|U03HEKAA4HK|:
+|Drew H |:
 If you're able, I recommend setting up at least three switches if you're using a keyboard with Switch Control: Select Item, Move to Next Item, and Move to Previous Item. For these you could use the space bar and arrow keys respectively!
 
 |U03HZ3N1QFP|:
 Thanks Drew! This will make switch control development much easier
 
-|U03HEKAA4HK|:
+|Drew H |:
 Glad to hear it will help! :tada:
 
 ---
 > ####  Can you give any advice to making a text view with a maximum character limit more accessible, especially with VoiceOver? Visually it shows a counter (eg: 90/100) and highlights text over the limit red.
 
 
-|U03HAU29NQ6|:
+|Chris F |:
 You can override/set accessibilityValue on the text view to return the entire text.
 
-|U03HW63MVRP|:
+|Daniel Golden |:
 For the character limit, you could post an announcement notification when the user starts to go over the limit that says something like "character limit reached". You can also add a hint to the text field that conveys the max number of characters. Also make sure that your counter of 90/100 is an accessibility element, so that VO users can focus on it manually if they want to know the character count
 
 ---
 > ####  In SwiftUI &amp; macOS 12 How can I move the voice over focus to a presented view?
 
 
-|U03HKTXJ4KE|:
+|Tommy - Accessibility |:
 Accessibility Focus State is gonna be the way go here! You can change the state value to true on an element and it will update VoiceOver focus to that element! <https://developer.apple.com/documentation/swiftui/accessibilityfocusstate|https://developer.apple.com/documentation/swiftui/accessibilityfocusstate>
 
 |U03JB2UUT46|:
 Does it make sense to change the focus when showing a new view in place of the old one on macOS? We have a list layout, clicking one of the items "pushes" a new view similar to a navigation controller. Currently VO loses focus and moves elsewhere.
 
-|U03HKTXJ4KE|:
+|Tommy - Accessibility |:
 So if voiceover is really not going where you want in this instance I think you could do that. I would warn about using this too often though because jumping around the voiceover focus can be very distracting. If its a totally custom navigation system than in that instance you probably want to either do that or trying to post a layout change notification. Usually though we either let the system framework and voiceover to decide where best to go, or if your UI has a popup or an alert thats a great way to use focus state.
 
 |U03J8N6PBHV|:
@@ -222,10 +222,10 @@ I guess there’s a similar property as AccessibilityFocusState in NSAccessibili
 &gt; trying to post a layout change notification.
 Will posting a layout notification without passing in a view work? Or is there a way of doing this in SwiftUI?
 
-|U03HKTXJ4KE|:
+|Tommy - Accessibility |:
 So if you change keyboard focus you can send a notification with NSAccessibilityFocusedUIElementChangedNotification to let voiceover know the focus changed. If you want to change voiceover focus from non-keyboard focus changes you can use NSAccessibilityLayoutChangedNotification with a NSAccessibilityUIElementsKey <https://developer.apple.com/documentation/appkit/1534572-nsaccessibilitypostnotificationw?language=objc>
 
-|U03HKTXJ4KE|:
+|Tommy - Accessibility |:
 In that instance <@U03JB2UUT46> if you want to pass a specific element you would use focus state because there isn't really a view to pass it in SwiftUI
 
 |U03J8N6PBHV|:
@@ -238,12 +238,12 @@ I had a hard time to be able to access window elements in the title bar (if no N
 > ####  Joining a team without any real accessibility support, what would you all consider top priority support? I'd love to do it all but know that proper support takes time and, also, one thing cannot be more "impactful" than another, they are all equally important. How would you consider breaking down a project into incremental wins?
 
 
-|U03HAU29NQ6|:
+|Chris F |:
 I usually say
 1. Dynamic Type support will reach the largest audience
 2. Add App Accessibility support will be most impactful for users who need to use ATs (Assistive technologies) - like VoiceOver,Switch Control, Voice Control — because often if app accessibility is NOT provided - they will have no way to access your app
 
-|U03HAU29NQ6|:
+|Chris F |:
 Other areas like checking for contrast, transparency, motion will have large impacts IF your app has areas that might be problematic (aka - you have light grey text on white backgrounds) and are usually not that much work to implement
 
 |U03K1SMSPUZ|:
@@ -253,7 +253,7 @@ True true, I want to be sure our app is impactful for everyone so taking the sma
 > ####  How are swipe buttons on list items regarded from a general discoverability aspect and then more specifically for VoiceOver?  I have a list UI that's more of a fake "tree view" with different types of content on most rows. There are correspondingly different swipe buttons on leading &amp; trailing. Currently have no affordances hinting at them even for sighted users.  The lovely new HIG doesn't even mention them. As they got significant improvements in SwiftUI3 I assumed they are still "blessed" as a UI approach.
 
 
-|U03HHHDSD2N|:
+|Aaron E |:
 Swipe items are exposed to assistive technologies via 'custom actions'.  They typically should be exposed automatically if you are using system UI controls.
 
 
@@ -261,34 +261,34 @@ Swipe items are exposed to assistive technologies via 'custom actions'.  They ty
 
 <https://developer.apple.com/documentation/uikit/uiaccessibilitycustomaction>
 
-|U03HHHDSD2N|:
+|Aaron E |:
 For VoiceOver specifically, these swipable actions  are exposed in the 'Actions' rotor.
 
 ---
 > ####  Are there plans to expand the new eye gaze access in iPad OS to allow apps to directly access the high fidelity eye gaze data and opt out of translating eye gaze data into assistive touch events?
 
 
-|U03HAU29NQ6|:
+|Chris F |:
 Anything is possible. Are you able to explain your use cases in more detail? It may be useful to file a feedback as well so we can look into this in the future.
 
 ---
 > ####  When supporting dynamic type/large text sizes with custom fonts, is there a good way to limit the maximum size a font can be? Or is this just a bad idea in general?  Use case: While we are working on supporting dynamic type, we've noticed that we can support many of the larger sizes &amp; all the smaller sizes. But the biggest sizes cause some pretty serious layout breaks throughout &amp; it's going to take us a while to chase them all down + QA. I'd love to roll out support for most sizes so my customers can use it earlier &amp; those who need the largest type sizes can at least get partway there.
 
 
-|U03HAU29NQ6|:
+|Chris F |:
 I suspect you’d want to use UIFontMetrics to help here
 
 ```
 - (UIFont *)scaledFontForFont:(UIFont *)font maximumPointSize:(CGFloat)maximumPointSize;
 ```
 
-|U03HAU29NQ6|:
+|Chris F |:
 In general, we would like to NOT cap font sizes, however there are cases within the UI that are very hard to grow given constraints. In iOS and iPadOS we will often use UILargeContentViewer (UIKit/UILargeContentViewer.h) to allow a long press to show text that’s can’t grow well
 
-|U03HAU29NQ6|:
+|Chris F |:
 In your case, it sounds like it would be reasonable to roll out support for larger sizes and overtime work to adopt the largest sizes.
 
-|U03HW63MVRP|:
+|Daniel Golden |:
 I'd reiterate that it's really not recommended to cap text sizes, unless the UI literally cannot grow without being unreasonable (like nav bars and tab bars, in which case use large content viewer like Chris said). Limiting text sizes will significantly impede low vision users from using your app properly. Definitely support what you can for now, but I strongly encourage you to work towards supporting all the sizes rather than capping them to a specific value!
 
 |U03J1UX2CQK|:
@@ -298,13 +298,13 @@ Yes! Supporting all font sizes is absolutely the plan! Just trying to make it mo
 > ####  Hello. There are a few new languages added to VoiceOver. I'm talking specifically about Persian. The system falsely identifies Persian texts as Arabic or Urdu. Do we need to somehow tag the texts to make it work with Persian VoiceOver or is this a bug?
 
 
-|U03HHHJ0ATU|:
+|J L - Accessibility |:
 Hi Saeed, please file a bug using the <https://feedbackassistant.apple.com|Feedback Assistant>. Is this on macOS or iOS?
 
 |U03JPJ277SQ|:
 I’ll file it. I’m testing on iOS.
 
-|U03HHHJ0ATU|:
+|J L - Accessibility |:
 On iOS you can programmatically set the speech language (`UIAccessibilitySpeechAttributeLanguage` for attributed strings, or by setting `.environment(\.locale, …)` in SwiftUI Texts)
 
 …but I agree that you shouldn’t have to do this. Some more detailed steps will help us get to the bottom of this :slightly_smiling_face:
@@ -328,7 +328,7 @@ Yup! `canBecomeFocused`  is ultimately what the focus engine uses to decide what
 |U03JZ3FLX1R|:
 I was hesitant to use this boolean -- the wwdc '21 "Support Full Keyboard Access in your iOS app" session specifically calls out *not* to use `canBecomeFocused` as this has implications beyond accessibility in the app
 
-|U03HEKAJJBF|:
+|Eric L |:
 There was a WWDC 2021 talk that could be useful
 <https://developer.apple.com/videos/play/wwdc2021/10120>
 
@@ -341,32 +341,32 @@ we currently had an a11y audit on our app and this has come up. the team is havi
 > ####  UIKit apps depend on Dynamic Type to adjust their text size to be comfortable for different users. When these apps are brought to the Mac via Catalyst, is there a recommended approach to providing scalable UI text size given there isn't a "system text size" as with iOS and iPadOS?
 
 
-|U03HAU29NQ6|:
+|Chris F |:
 Short answer: not really.
 
 You could make your own text size slider in settings like Books that uses dynamic type under the hood.
 
-|U03HAU29NQ6|:
+|Chris F |:
 Users have a few AT options to help with this as well - Zoom, HoverText
 
 ---
 > ####  In the simulator, you can enable Full Keyboard Access in settings. However, I couldn't find a way to actually use it. Is it actually possible to test Full Keyboard Access in the simulator? And if so, how? Thank you!
 
 
-|U03HAU29NQ6|:
+|Chris F |:
 This looks like it works to me in Seed 1
 
 |U03J20KLXH9|:
 I see! I haven't tried in Xcode 14, but it is something that wasn't working for me in the iOS 15.5 simulator, for example. So you just turn that switch on and it should work right? No other steps needed. Thanks for your help!
 
-|U03HAU29NQ6|:
+|Chris F |:
 yep looks like it. and then pressing tab on your mac keyboard moves focus
 
 ---
 > ####  Currently on macOS keyboard accessibility for views like lazy grids is difficult to implement compared to views like NSCollectionView, where you can get it for free. Things like navigation (moving selection) and multi-selection have to be manually implemented, which is a very difficult and heavy task (and easy to deviate from native.)  Are there any recommendations for how we as developers can tackle this or plans to make this easier?
 
 
-|U03HEKAJJBF|:
+|Eric L |:
 Thanks for the feedback! We would love to hear difficulties that you encountered when implementing keyboard focus in lazy grids through Feedback Assistant.
 We also have a new SwiftUI sample app Food Truck that introduces new features and improvements that you could check out
 <https://developer.apple.com/documentation/swiftui/food_truck_building_a_swiftui_multiplatform_app>
@@ -379,14 +379,14 @@ Hi Eric! By “keyboard accessibility” here I’m not just referring to keyboa
 
 Hopefully that clarifies my question!
 
-|U03HEKAJJBF|:
+|Eric L |:
 I hope we can make this more easier. We’d love a Feedback!
 
 ---
 > ####  My goal is to get visibility into the accessibility elements of a view and it's children. With UIKit, I am able to walk the view hierarchy in code and log all the accessibility properties of a view and it's subviews. What would be the equivalent with SwiftUI? The goal, given a SwiftUI view, log all the accessible elements and their properties.
 
 
-|U03HEKAJJBF|:
+|Eric L |:
 Thanks for your question! In what context are you trying to get visibility into the accessibility elements? Specifically during debug or some of your app's functionalities rely on this?
 
 |U03JQFR7G65|:
@@ -395,7 +395,7 @@ Thanks for your question! In what context are you trying to get visibility into 
 2. identify elements that are missing a11y
 3. identify elements that are candidates to combine a11y
 
-|U03HEKAJJBF|:
+|Eric L |:
 Thanks for clarification! We currently don't support introspecting view hierarchies in SwiftUI views from within your process. The closest tools we have for now are Accessibility Inspector, Xcode Previews, and View Hierarchy Debug.
 We'd love a Feedback with your use case if you find you need more than what those tools currently offer :smiley:
 
@@ -406,14 +406,14 @@ Ok. Unfortunately, the lack of introspection is preventing me from adopting Swif
 > ####  Were there any updates to the Accessibility Inspector this year?
 
 
-|U03HEKAJJBF|:
+|Eric L |:
 We have some great improvements for accessibility audits on detecting non-accessible elements in Accessibility Inspector! Please try them and we are very happy to any feedback you have :smiley:
 
 ---
 > ####  How do all of the examples highlighted in this talk pertain to macOS Safari? Are the techniques all general enough to apply to web standard AX, or only to VoiceOver iOS, or only to VoiceOver on Apple platforms in general?
 
 
-|U03HAU5CG14|:
+|Tyler W |:
 Everything we went over today is supported on macOS Safari, too (along with other platforms like Watch and TV)!
 
 &gt; Are the techniques all general enough to apply to web standard AX, or only to VoiceOver iOS, or only to VoiceOver on Apple platforms in general?
@@ -431,7 +431,7 @@ To _increment_ with a slider on macOS, you can use unmodified arrow keys in most
 > ####  Are there any specific guidelines for making interfaces accessibility in the context of embedded web views in native apps? Does WebKit/WKWebView offer any mechanisms separate from web standards to interface with VO for example on an iOS or Mac device?
 
 
-|U03HAU5CG14|:
+|Tyler W |:
 There are not — accessibility in embedded webviews should, in general, work just as if you had the same HTML loaded in Safari. Just remember to use semantic HTML and / or ARIA attributes on the markup in your embedded HTML :slightly_smiling_face:
 
 |U03HZ39CGAH|:
@@ -441,22 +441,22 @@ Great, thanks. Good session, sorry you didn't have more Q&amp;A! Hope springs et
 > ####  We're now working on a cross-platfrom design system (including Web and Apple platforms). We want to use this project to elevate accessibility of our products and to maintain it at a high level in the long run. What accessibility standards/assistive technologies would you recommend to take into account while building a design system? Do you have any tips to make this project a success in terms of accessibility both on Web and on Apple platforms?
 
 
-|U03HAU29NQ6|:
+|Chris F |:
 Big question! If I'm reading this right, then I would start with making sure your design system is able to make all components accessible to the same level as the native platforms
 
-|U03HAU29NQ6|:
+|Chris F |:
 Then you need to transmute those paradigms in your system to the native platforms
 
-|U03HAU29NQ6|:
+|Chris F |:
 This is very similar to what we did with Unity accessibility plugins <https://developer.apple.com/wwdc22/10151|https://developer.apple.com/wwdc22/10151>
 
-|U03HAU29NQ6|:
+|Chris F |:
 So there are Unity methods for everything from custom actions to dynamic type. Those get translated to the native iOS 
 
 |U03HMEG5T7Z|:
 Thanks! :slightly_smiling_face:
 
-|U03HAU5CG14|:
+|Tyler W |:
 In addition to Chris' comments, I'll add:
 
 &gt; What accessibility standards/assistive technologies would you recommend to take into account while building a design system?
@@ -474,7 +474,7 @@ Thank you Tyler! I've just submitted another question precisely about automated 
 |U03HMEG5T7Z|:
 Tyler
 
-|U03HAU5CG14|:
+|Tyler W |:
 Great minds think alike :smile:
 
 |U03HHGFP5GB|:
@@ -488,7 +488,7 @@ Not all features exist on all platforms though, so be sure to account for all in
 > ####  Search bars now usually do not require hitting "Submit" to search, the results get updated automatically along with the user typing in their request.   Would you say it's a good practice to make VoiceOver announce the number of results as the user types in their search request? Like "5 items found" or "No items found"?
 
 
-|U03HAU29NQ6|:
+|Chris F |:
 Yes it should be announced but not immediately. There should be a period of quiescence so that your announcements are not interrupting typing feedback 
 
 |U03HMEG5T7Z|:
@@ -513,14 +513,14 @@ A little more here: <https://www.w3.org/TR/wai-aria/#attrs_liveregions>
 > ####  Are there any solutions for automated testing of accessibility? Would you recommend Apple UI testing framework for these purposes?
 
 
-|U03HAU5CG14|:
+|Tyler W |:
 I know Benjamin has read this in the thread above, but for posterity I'll post it here too:
 
 <https://github.com/dequelabs/axe-core>
 
 This tool (and others like it) can be used to automatically catch certain types of accessibility errors in your web apps, and can be run as CI pipelines to catch errors as early as possible.
 
-|U03HAU5CG14|:
+|Tyler W |:
 These tools don't catch every accessibility issue, so make sure to still test with actual assistive technologies like VoiceOver :slightly_smiling_face:
 
 |U03J4DPCXGC|:
@@ -535,27 +535,27 @@ Can't miss an opportunity to say thank you to you <@U03J4DPCXGC> for all your am
 > ####  When adding support for dynamic type, are there any guidelines or recommendations on when it’s best to respect the system settings vs offering a screen scoped font size control?  For example reader apps such as Safari and Books offer independent font size controls vs Podcasts and Mail do not.   The pattern I see is apps or features where reading content is the primary experience (which I personally have used vs changing the system wide setting) - but from my earlier example Mail could  also be classed a reader app :thinking_face:  Thank you!
 
 
-|U03HW63MVRP|:
+|Daniel Golden |:
 Good question! I think your intuition is right here. For longer form reading content, some people prefer to adjust font size on the fly, as lighting conditions change or their eyes tire. For apps that are not for long form reading content, these controls are really not recommended in my opinion. As of iOS 15, we have per app settings where users can set font sizes per app, and they can be adjusted quickly with our control center module. So users already have a way to quickly adjust text sizes on the fly should they require it. Users are expecting to open your app and see the text size they have set globally (or per app if they've adjusted it), so adding a second control to your app just introduces unnecessary complexity
 
 ---
 > ####  Is it possible to use attributed accessibility label features - language, spell out, phonetic notation, pitch etc - in SwiftUI? Thank you :)
 
 
-|U03HHHJ0ATU|:
+|J L - Accessibility |:
 Hi Rob, there are several `speech` modifiers available for use with Text in SwiftUI, like `speechAdjustedPitch`, `speechAlwaysIncludesPunctuation`, `speechAnnouncementsQueued`, and `speechSpellsOutCharacters`. For changing language, you can override the `locale` environment on a Text view and it should do the trick.
 
 |U03J4DPCXGC|:
 Sweet, I have never noticed these before. Thank you!
 
-|U03HEKAJJBF|:
+|Eric L |:
 Also note that since iOS 15, `Text` can natively support attributed string via both new markdown syntax "`Text("this is **bold **")` and `AttributedString` . So if you use those it should also work
 
 ---
 > ####  When we started adding accessibility modifiers to our SwiftUI views we noticed that our XCTest UI tests got broken. The tree of elements changed - some UI elements impacted by accessibility modifiers became unaccessible/non-hittable.   We didn't find a way to use accessibility modifiers and keep all the elements accessible for the purposes of UI tests. Is it expected?   We ended up creating custom modifiers that would not apply accessibility modifiers in the UI test environment. Is it the best solution at the moment?
 
 
-|U03HEKAJJBF|:
+|Eric L |:
 Thanks for your question! Accessibility modifiers do affect XCUITests because it may change accessibility elements tree. Currently your solution would be the best at this moment.
 We'd really love a Feedback from your specific case! If you would submit a Feedback and attach your example to us, we can see how we could do better!
 
@@ -566,7 +566,7 @@ Got it, thank you!
 > ####  is it possible to turn off the reading of MKMapView map POI in Voiceover?
 
 
-|U03J8BWAUKH|:
+|Allen W |:
 Hi Lior, thank you for your question! It is not possible with MKMapView; however if you subclass it, you might be able to by overriding accessibilityElements. Give that a try and let us know!
 
 |U03J1TN6WBD|:
@@ -579,7 +579,7 @@ There are several OOTB accessibility elements that I wish to disable (f.e. Legal
 > ####  After an amazing Accessibility Design Review am busy cringe-testing with Voice Over.  I *think* this is an Apple bug, not mine - the permission alert on accessing the camera doesn't read out the text explaining *why*  Should I worry/fix?
 
 
-|U03HW63MVRP|:
+|Daniel Golden |:
 Hi Andrew! If this alert is coming from the system, there shouldn't be anything you need to do to make it accessible. If you're finding it's not, please file a bug to us via Feedback Assistant. Note that the heading of the alert and the body are likely separate accessibility elements, and a user must move focus to the body in order to have it read, it won't all read automatically. This is by design
 
 |U03JELM0ZNV|:
@@ -587,7 +587,7 @@ After a solid half hour of testing, I *think* the problem may have been that it 
 
 (It's also really hard to reliably trigger the state of _Application has *not yet* been authorised for camera -_ if you reboot the device whilst the alert is in front, it defaults to being disabled, not left ambiguous!)
 
-|U03HW63MVRP|:
+|Daniel Golden |:
 Glad you were able to get more familiar with VoiceOver!
 
 |U03JELM0ZNV|:
@@ -603,10 +603,10 @@ Hmmmm
 I spoke too soon, maybe it's a thing about alerts.
 The _swipe right_ for _Select the next item_ doesn't work in them.
 
-|U03HW63MVRP|:
+|Daniel Golden |:
 what happens when you swipe right? It should be a quick swipe to the right (a flick) and that'll move to the next item
 
-|U03HW63MVRP|:
+|Daniel Golden |:
 flicks up/down will activate whatever the current rotor item is
 
 |U03JELM0ZNV|:
@@ -625,21 +625,21 @@ Words
 Speaking Rate
 Containers
 
-|U03HW63MVRP|:
+|Daniel Golden |:
 The rotor options are dynamic based on the type of control you're on, but you can also add a bunch more in VoiceOver settings  
 
 ---
 > ####  What is the recommended accessible way for infinite scroll in a feed?
 
 
-|U03HW63MVRP|:
+|Daniel Golden |:
 Hi Shahla! I don't think there's a ton of special considerations you need to make for infinite scroll views. Assistive Technology users can typically discover and interact with these similarly to mainstream users. Just make sure that the content inside your scroll view is accessible! VO users can navigate via swipe and tap exploration as well. If you have specific questions about your scroll view as it pertains to accessibility, feel free to clarify your question here. :slightly_smiling_face:
 
 ---
 > ####  How to fix the issue about SwiftUI Textfield with too small hit area? <https://developer.apple.com/forums/thread/703257|https://developer.apple.com/forums/thread/703257>
 
 
-|U03HEKAJJBF|:
+|Eric L |:
 This looks like a bug for Accessibility Inspector, I have reported this feedback to our engineers. Thanks for the question!
 
 |U03J20PQPEX|:
@@ -649,7 +649,7 @@ This looks like a bug for Accessibility Inspector, I have reported this feedback
 > ####  If I have a sectioned grid of items, what's the best way to expose those sections for easy navigation via Voiceover in SwiftUI?
 
 
-|U03HEKAJJBF|:
+|Eric L |:
 Thanks for the question!
 
 One thing you could do is to make sure the section headers have "header" accessibility traits via `accessibilityAddTraits(.isHeader)`
@@ -663,7 +663,7 @@ Thanks Eric!
 > ####  If this is a good place to ask implementation questions, I have identified what's happening with the screen that was called out in my accessibility review lab. I have a Page Background page with a segmented control at the top and a bunch of stuff that is hidden depending on choosing Photo or Color background.  The visibly hidden items are not hidden from VoiceOver and so it's selecting them as you move through page items. How do I hide them from VoiceOver?
 
 
-|U03HW63MVRP|:
+|Daniel Golden |:
 You can use `setAccessibilityElementsHidden` in UIKit or `.accessibilityHidden()` in SwiftUI
 <https://developer.apple.com/documentation/objectivec/nsobject/1615080-accessibilityelementshidden?language=objc>
 
@@ -681,10 +681,10 @@ UIScrollView
 |U03JELM0ZNV|:
 I'm just toggling `backgroundImage.isHidden` (etc) and relying on that to hide all the innermost controls
 
-|U03HW63MVRP|:
+|Daniel Golden |:
 what view contains the controls?
 
-|U03HW63MVRP|:
+|Daniel Golden |:
 you'd want to set accessibilityElementsHidden on the view that contains all the controls you don't want VoiceOver to see
 
 |U03JELM0ZNV|:
@@ -729,17 +729,17 @@ I'm loading these detail editor VCs with
 > ####  Is there a list of the upcoming languages supported by VoiceOver? Also, can we have a way to programmatically ask the accessibility framework what languages are currently supported? We're running into an issue where in visual text we support Vietnamese, but VoiceOver doesn't. We'd prefer VoiceOver to use a fallback like English in that case.
 
 
-|U03HKTXJ4KE|:
+|Tommy - Accessibility |:
 So for this year VoiceOver will add support for Arabic (World), Basque, Bengali (India), Bhojpuri (India), Bulgarian, Catalan, Croatian, Farsi, French (Belgium), Galician, Kannada, Malay, Mandarin (Liaoning, Shaanxi, Sichuan), Marathi, Shanghainese (China), Spanish (Chile), Slovenian, Tamil, Telugu, Ukrainian, Valencian, and Vietnamese!
 
-|U03HW63MVRP|:
+|Daniel Golden |:
 To query a list of languages, you can use the `speechVoices` property on `AVSpeechSynthesisVoice`
 <https://developer.apple.com/documentation/avfaudio/avspeechsynthesisvoice/1619697-speechvoices?language=objc>
 
-|U03HW63MVRP|:
+|Daniel Golden |:
 this will return you a list of all installed voices on disk. Note that a few of the new languages we are supporting do not have built in voices, so they will not show up in this list unless a user downloads them
 
-|U03HW63MVRP|:
+|Daniel Golden |:
 But you can basically iterate over this list and query the language property on the voice to figure out a list of languages that are available to the user
 
 |U03J207PP8S|:
@@ -752,7 +752,7 @@ But you can basically iterate over this list and query the language property on 
 > ####  What are best practices for creating a VoiceOver experience for audio recording? Especially if that page includes things like countdown timers or textual prompts for the user?
 
 
-|U03HW63MVRP|:
+|Daniel Golden |:
 I'd recommend you use announcement notifications for your prompts and countdowns. We do this in the "Hey Siri" training flow. Basically, whenever there is a prompt, we post an announcement notification, wait for the announcement to finish, and then start the recording session. When the next prompt is being read, we pause the recording. You can find out when an announcement is finished reading via this notification: <https://developer.apple.com/documentation/uikit/uiaccessibilityannouncementdidfinishnotification?language=objc>
 
 |U03J1UX2CQK|:
@@ -784,7 +784,7 @@ I think really short announcements giving feedback might work too. Just have to 
 > ####  Would the Assessment Mode entitlement be approved for an app that is not strictly administering an assessment, but where a valid use case can be made for programatically enabling Single App Mode for non-MDM devices? e.g., another use intended for teachers in a classroom to use with their students, or people to use in another public environment, that is not assessment-related?
 
 
-|U03HEKAA4HK|:
+|Drew H |:
 Hey Duncan! I encourage you to explore options of supervising the device yourself using Apple Configurator or other device management tools.
 
 If that doesn't work, I really like your use case and you should absolutely apply for an assessment entitlement. While I am not 100% positive on all of the requirements the review team goes though, I don't see harm in you applying!
@@ -803,7 +803,7 @@ The real reason for this is… gently… I think turning on Guided Access is a b
 |U03J4D1FEP6|:
 I’ve got to run to a lab appointment. Thanks for the great work your team does. Super appreciate it.
 
-|U03HEKAA4HK|:
+|Drew H |:
 Guided Access requires manual intervention so I agree it doesn't sound perfect for your use case. Autonomous Single App Mode seems more appropriate here. Thanks for hanging out in the lounge with us, enjoy your lab!
 
 ---
@@ -813,23 +813,23 @@ Guided Access requires manual intervention so I agree it doesn't sound perfect f
 |U03JPBUSHLZ|:
 (for autonomous single access mode, where guided access is entered by triple tap)
 
-|U03HEKAA4HK|:
+|Drew H |:
 Hello Jaime! :wave::skin-tone-3: When you triple-click to bring up the Guided Access "workspace", you can set the time limit in the options menu there.
 
 |U03JPBUSHLZ|:
 Got it! Thank you
 
-|U03HEKAA4HK|:
+|Drew H |:
 We have those options in the Guided Access workspace because you may want a different time limit depending on the app, and we want it to be easily accessible rather than making you head back to Settings. Thanks for your question! :smile:
 
 ---
 > ####  How do I find the "Work space" on my iPhone (so I can set a time limit)?
 
 
-|U03HEKAA4HK|:
+|Drew H |:
 Hey Thomas, first turn on Guided Access in Settings &gt; Accessibility &gt; Guided Access. Then open the app which you want to lock on to. Then triple-click to perform the accessibility shortcut. Depending on your device, it may be the home button if it has one, or the sleep/wake button. This is where you configure options for Guided Access before you begin, and Time Limit is an option in this menu.
 
-|U03HEKAA4HK|:
+|Drew H |:
 Here is more information about the Accessibility Shortcut in general if you'd like to know more <https://support.apple.com/en-us/HT204390>
 
 |U03JHV01DFC|:
@@ -842,30 +842,30 @@ Time-limit is pretty cool; :slightly_smiling_face:
 > ####  Do you have any favorite apps that use autonomous single app mode?
 
 
-|U03HAU29NQ6|:
+|Chris F |:
 I don’t know if I would call it a favorite, but we do see a organizations making testing apps use ASAM mode effectively. When the test time starts, the device locks down, then releases access at the end of test time. There’s an 8 hour limit on ASAM mode, so it can’t be run forever either
 
 |U03JPBUSHLZ|:
 I’m thinking more is there an app you think of that does well in guiding someone in using ASAM for the first time, or one that is clever in how it handles restrictions for guided access
 
-|U03HAU29NQ6|:
+|Chris F |:
 Ah, sorry. I do not know specific apps
 
 ---
 > ####  Is there a way to test more advanced accessibility features using XC UI tests? eg custom accessibility actions, custom accessibility content, custom rotors?
 
 
-|U03HW63MVRP|:
+|Daniel Golden |:
 Thanks for the question <@U03J4DPCXGC>! We don't have a great way to test this in XCUITests at the moment, but please file a request for this through Feedback Assistant!
 
 ---
 > ####  Who uses "Automatic Assessment Configuration"? Do teachers comfortably use it or is it only for IT?
 
 
-|U03HEKAA4HK|:
+|Drew H |:
 Apps that implement the Automatic Assessment Configuration frameworks can create easy-to-use UI to enter a testing session for folks like teachers to use. We also offer wide-scale solutions for teachers managing a classroom full of devices called Apple Classroom.
 
-|U03HEKAA4HK|:
+|Drew H |:
 There is a lot of information about this topic, more can be found at the link below and I recommend watching past WWDC sessions about assessment mode in particular if you are still interested.
 
 <https://support.apple.com/en-us/HT206151>
@@ -874,13 +874,13 @@ There is a lot of information about this topic, more can be found at the link be
 > ####  In an iOS app, I have a status label in the UI but it's too long and changes too quickly to be appropriate for VoiceOver. Instead I want to announce the beginning and end of a long process, e.g "Preparing ...", "Completed ..." to VoiceOver (triggered by a user action so not out of the blue). What would be the API to trigger such announcements?
 
 
-|U03HW63MVRP|:
+|Daniel Golden |:
 you can post an announcement notification using `<http://UIAccessibility.post|UIAccessibility.post>`, and passing in a notification type of announcement, and a string that you want to have spoken
 
-|U03HW63MVRP|:
+|Daniel Golden |:
 <https://developer.apple.com/documentation/uikit/1615194-uiaccessibilitypostnotification?language=objc>
 
-|U03HW63MVRP|:
+|Daniel Golden |:
 <https://developer.apple.com/documentation/uikit/uiaccessibilityannouncementnotification?language=objc>
 
 |U03HVD726JJ|:
@@ -890,5 +890,5 @@ Perfect. Thanks!
 > ####  I'm building a drawing app using PencilKit. What kinds of things can I do to make it accessible using technologies like VoiceOver? Is PencilKit going to do a bunch of heavy lifting for me in a situation like this?
 
 
-|U03HW63MVRP|:
+|Daniel Golden |:
 Any UI that you're getting from PencilKit should get AX for free, like the palette controls etc. As far as accessibility work for the canvas, you'll need to asses what your users are going to use your app for, and build in accommodations around those use cases. Maybe that's announcement notifications if you're doing some sort of guided drawing to tell people if they are on track. It's always good to talk to blind users of your app if you can, and see what feedback they have. If you have more specific questions, feel free to post a question on the developer forums and tag it with accessibility, as the lounge closes soon!
