@@ -1,0 +1,4297 @@
+{
+  "name": "focus",
+  "messages": [
+    {
+      "type": "message",
+      "user": "U03V30M0C1K",
+      "text": "This content can't be displayed.",
+      "ts": "1665433991.605819",
+      "pinned_to": [
+        "C042KJJ8J4F"
+      ],
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "header",
+          "text": {
+            "type": "plain_text",
+            "text": "Welcome to Ask Apple",
+            "emoji": true
+          },
+          "block_id": "M5j"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "We're excited to be hosting you in the Focus channel this week! You can find the full schedule of Q\u0026amp;As for Focus by visiting the \u003chttps://apps.apple.com/us/app/apple-developer/id640199958 | Apple Developer app\u003e and \u003chttps://developer.apple.com/events/ask-apple/questions-and-answers/ | website\u003e."
+          },
+          "block_id": "1t7O"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "If you haven’t already, please take a moment to familiarize yourself with \u003chttps://developer.apple.com/news/?id=vpbyzfg4 | how Q\u0026amp;As will work\u003e."
+          },
+          "block_id": "SXZL"
+        },
+        {
+          "type": "header",
+          "text": {
+            "type": "plain_text",
+            "text": "Attendance Policy",
+            "emoji": true
+          },
+          "block_id": "Xkg"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "We want to make sure these spaces are helpful and welcoming for everyone — developers and Apple employees alike. Please review and follow the \u003chttps://developer.apple.com/events/policy/online-event-attendance-policy/ | attendance policy\u003e."
+          },
+          "block_id": "YH9X"
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03V30M0C1K\u003e added a workflow to this channel: *Ask Apple - focus*.",
+      "ts": "1666019070.461709",
+      "subtype": "bot_message",
+      "bot_id": "B043H9MKQ3B",
+      "username": "Ask Apple - focus",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ekiWb",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03V30M0C1K"
+                },
+                {
+                  "type": "text",
+                  "text": " added a workflow to this channel: "
+                },
+                {
+                  "type": "text",
+                  "text": "Ask Apple - focus",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "eeb27e8a-0936-4463-bbc2-5bf59e5f8fc6",
+      "type": "message",
+      "user": "U0455R18DT2",
+      "text": "Hello everyone and welcome to the first day of Ask Apple! This series of interactive Q\u0026amp;As and one-on-one consultations is here to bring you insight, support, and feedback on your awesome apps — directly from Apple experts.\n\nIf you’re looking for *Q\u0026amp;A: Focus filters* then you’re in the right place! Focus filters are a way for your app to react when someone’s Focus changes. Your app can use Focus filters to modify its behavior, provide different user experiences, and more! Check out the following resources while we get setup to answers your questions:\n• \u003chttps://developer.apple.com/videos/play/wwdc2022/10121/|WWDC22 — Meet Focus filters\u003e \n• \u003chttps://developer.apple.com/documentation/appintents/focus/|Focus filters documentation\u003e\nWe’ll get started answering questions today at *10am PDT*. To ask your questions, select the:heavy_plus_sign: icon in the text field and use the “Ask a question” workflow. Apple experts will answer as many of your questions as they can during the scheduled Q\u0026amp;A activities.",
+      "ts": "1666023491.581079",
+      "attachments": [
+        {
+          "fallback": "Apple Developer: Meet Focus filters - WWDC22 - Videos - Apple Developer",
+          "id": 1,
+          "title": "Meet Focus filters - WWDC22 - Videos - Apple Developer",
+          "title_link": "https://developer.apple.com/videos/play/wwdc2022/10121/",
+          "text": "Discover how you can customize app behaviors based on someone's currently enabled Focus. We'll show you how to use App Intents to define...",
+          "image_url": "https://devimages-cdn.apple.com/wwdc-services/images/124/6617/6617_wide_250x141_2x.jpg",
+          "service_name": "Apple Developer",
+          "service_icon": "https://developer.apple.com/favicon.ico",
+          "from_url": "https://developer.apple.com/videos/play/wwdc2022/10121/",
+          "original_url": "https://developer.apple.com/videos/play/wwdc2022/10121/",
+          "blocks": null
+        }
+      ],
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "tada",
+          "count": 1,
+          "users": [
+            "U03V30M0C1K"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "KAtbL",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hello everyone and welcome to the first day of Ask Apple! This series of interactive Q\u0026As and one-on-one consultations is here to bring you insight, support, and feedback on your awesome apps — directly from Apple experts.\n\nIf you’re looking for "
+                },
+                {
+                  "type": "text",
+                  "text": "Q\u0026A: Focus filters",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " then you’re in the right place! Focus filters are a way for your app to react when someone’s Focus changes. Your app can use Focus filters to modify its behavior, provide different user experiences, and more! Check out the following resources while we get setup to answers your questions:\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_list",
+              "Raw": "{\"type\":\"rich_text_list\",\"elements\":[{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/videos\\/play\\/wwdc2022\\/10121\\/\",\"text\":\"WWDC22 \\u2014 Meet Focus filters\"},{\"type\":\"text\",\"text\":\" \"}]},{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/documentation\\/appintents\\/focus\\/\",\"text\":\"Focus filters documentation\"}]}],\"style\":\"bullet\",\"indent\":0,\"border\":0}"
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\nWe’ll get started answering questions today at "
+                },
+                {
+                  "type": "text",
+                  "text": "10am PDT",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ". To ask your questions, select the"
+                },
+                {
+                  "type": "emoji",
+                  "name": "heavy_plus_sign",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " icon in the text field and use the “Ask a question” workflow. Apple experts will answer as many of your questions as they can during the scheduled Q\u0026A activities."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "1d46ca05-9b86-430c-9266-75a33df2b57b",
+      "type": "message",
+      "user": "U0455R18DT2",
+      "text": "\u003c!here\u003e Welcome to *Q\u0026amp;A: Focus filters*! We’re excited to answer your questions about Focus and Focus filters. Select the :heavy_plus_sign: icon from the lower left, and use the “Ask a question” workflow to submit your question. We’ll answer as many questions as we can over the next 60 minutes.\n\nLet’s get started! :tada:",
+      "ts": "1666026015.364459",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "=vP",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "broadcast",
+                  "range": "here"
+                },
+                {
+                  "type": "text",
+                  "text": " Welcome to "
+                },
+                {
+                  "type": "text",
+                  "text": "Q\u0026A: Focus filters",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "! We’re excited to answer your questions about Focus and Focus filters. Select the "
+                },
+                {
+                  "type": "emoji",
+                  "name": "heavy_plus_sign",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " icon from the lower left, and use the “Ask a question” workflow to submit your question. We’ll answer as many questions as we can over the next 60 minutes.\n\nLet’s get started! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "tada",
+                  "skin_tone": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046AB7TE9Y\u003e asked\n\u0026gt; Our app provide several themes, like pure black \u0026amp; white or some fancy themes like animated 3D graphics. we'd like to provide a focus filter so that, our theme can change according to the current focus mode. If the user is working, applied the black \u0026amp; white theme to keep focus. If no focus mode is turned on, use whatever theme the user already selected. \n\u0026gt; \n\u0026gt; However, how can we know no focus mode is turned on? after provide a focus filter, we always get the default intent. it's hard to tell if the user applied a filter with default theme selected, or there is no filtered applied at all.",
+      "ts": "1666026518.366039",
+      "thread_ts": "1666026518.366039",
+      "subtype": "bot_message",
+      "bot_id": "B043H9MKQ3B",
+      "username": "Ask Apple - focus",
+      "reply_count": 1,
+      "latest_reply": "1666026746.861199",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "qA/B",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046AB7TE9Y"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Our app provide several themes, like pure black \u0026 white or some fancy themes like animated 3D graphics. we'd like to provide a focus filter so that, our theme can change according to the current focus mode. If the user is working, applied the black \u0026 white theme to keep focus. If no focus mode is turned on, use whatever theme the user already selected. \\n\\nHowever, how can we know no focus mode is turned on? after provide a focus filter, we always get the default intent. it's hard to tell if the user applied a filter with default theme selected, or there is no filtered applied at all.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "4083eda2-50b5-4f91-8c1f-f11ed11606ed",
+          "type": "message",
+          "user": "U044G1P1RNF",
+          "text": "For this case scenario, the Focus filter can have an optional AppEntity parameter for `selectedTheme` without a default value.\nWhen `perform()` is called, if `selectedTheme` is nil, the app's current theme may not be overridden.",
+          "ts": "1666026746.861199",
+          "thread_ts": "1666026518.366039",
+          "edited": {
+            "user": "U044G1P1RNF",
+            "ts": "1666026985.000000"
+          },
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U046AB7TE9Y"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "qtx",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "For this case scenario, the Focus filter can have an optional AppEntity parameter for "
+                    },
+                    {
+                      "type": "text",
+                      "text": "selectedTheme",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " without a default value.\nWhen "
+                    },
+                    {
+                      "type": "text",
+                      "text": "perform()",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " is called, if "
+                    },
+                    {
+                      "type": "text",
+                      "text": "selectedTheme",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " is nil, the app's current theme may not be overridden."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U04695X1JM9\u003e asked\n\u0026gt; Trying to get the current Focus filter always results in the error \"The operation couldn’t be completed. (AppIntents.AppIntentError error 1.)\". Is there something I can do to debug and fix this? It happens on both Xcode 14 and 14 beta 3, on iOS 16.1 beta 5.",
+      "ts": "1666026867.933679",
+      "thread_ts": "1666026867.933679",
+      "subtype": "bot_message",
+      "bot_id": "B043H9MKQ3B",
+      "username": "Ask Apple - focus",
+      "reply_count": 7,
+      "latest_reply": "1666028789.307549",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "TqQyc",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U04695X1JM9"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Trying to get the current Focus filter always results in the error \\\"The operation couldn\\u2019t be completed. (AppIntents.AppIntentError error 1.)\\\". Is there something I can do to debug and fix this? It happens on both Xcode 14 and 14 beta 3, on iOS 16.1 beta 5.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "6cc03159-b599-4e01-aedf-e94fbe741ad1",
+          "type": "message",
+          "user": "U0455R18DT2",
+          "text": "This is something we’d love to look into further. If you can, please file a Feedback and provide the Feedback ID here!\n\nFor tips on filing great Feedback, refer to the \u003chttps://developer.apple.com/bug-reporting/|Bug Reporting\u003e page and use \u003chttp://feedbackassistant.apple.com|feedbackassistant.apple.com\u003e to submit!",
+          "ts": "1666027776.876889",
+          "thread_ts": "1666026867.933679",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "50sk",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "This is something we’d love to look into further. If you can, please file a Feedback and provide the Feedback ID here!\n\nFor tips on filing great Feedback, refer to the "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/bug-reporting/",
+                      "text": "Bug Reporting"
+                    },
+                    {
+                      "type": "text",
+                      "text": " page and use "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://feedbackassistant.apple.com",
+                      "text": "feedbackassistant.apple.com"
+                    },
+                    {
+                      "type": "text",
+                      "text": " to submit!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "74bb1ca5-c9b7-4467-8c57-ae6e4ec5cf8c",
+          "type": "message",
+          "user": "U044G1P1RNF",
+          "text": "Please include the contents of the Focus filter object that causes the error.",
+          "ts": "1666027941.850909",
+          "thread_ts": "1666026867.933679",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U0455R18DT2"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "y=D",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Please include the contents of the Focus filter object that causes the error."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "8710add0-3a14-43fb-90bc-2f54a0391291",
+          "type": "message",
+          "user": "U0455R18DT2",
+          "text": "Sharing as much information as you can in a Feedback is super helpful for our engineering teams! Try to reproduce the issue right before taking the sysdiagnose for best results.",
+          "ts": "1666028048.883419",
+          "thread_ts": "1666026867.933679",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "20sc",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Sharing as much information as you can in a Feedback is super helpful for our engineering teams! Try to reproduce the issue right before taking the sysdiagnose for best results."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "e81e6c3f-eda1-4734-81f7-08a07b0729c2",
+          "type": "message",
+          "user": "U044G1P1RNF",
+          "text": "Yes, also include any queries, AppEntities and AppEnums used by this filter, so we can reproduce the same environment on our end.",
+          "ts": "1666028135.336059",
+          "thread_ts": "1666026867.933679",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "IZu",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yes, also include any queries, AppEntities and AppEnums used by this filter, so we can reproduce the same environment on our end."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "b9731b2c-6be2-41be-b177-e25dda8c61c1",
+          "type": "message",
+          "user": "U04695X1JM9",
+          "text": "Thanks! I was able to reproduce the issue in a sample project. Going to create the feedback now.",
+          "ts": "1666028464.833239",
+          "thread_ts": "1666026867.933679",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "oa6",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks! I was able to reproduce the issue in a sample project. Going to create the feedback now."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "4a7c28ac-376b-4403-9cc0-90a920ccc39c",
+          "type": "message",
+          "user": "U044G1P1RNF",
+          "text": "thank you!",
+          "ts": "1666028697.549239",
+          "thread_ts": "1666026867.933679",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "i3C",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "thank you!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "de6f2c24-c404-4ab8-b41a-e13133d9a8e2",
+          "type": "message",
+          "user": "U04695X1JM9",
+          "text": "Feedback ID: FB11698567",
+          "ts": "1666028789.307549",
+          "thread_ts": "1666026867.933679",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U044G1P1RNF"
+              ]
+            },
+            {
+              "name": "raised_hands",
+              "count": 1,
+              "users": [
+                "U0455R18DT2"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ROl",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Feedback ID: FB11698567"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046S70K9A4\u003e asked\n\u0026gt; Hello and thank you for being here!  I haven't explored Focus Filters too much yet. But looking to understand better at a high level.  When you adopt `SetFocusFilterIntent` - do you also define which Focus your Focus Filters should be exposed to?  Or is an app's focus filter(s) exposed in the config for every Focus (built-in \u0026amp; custom) on a user's device?",
+      "ts": "1666027045.043569",
+      "thread_ts": "1666027045.043569",
+      "subtype": "bot_message",
+      "bot_id": "B043H9MKQ3B",
+      "username": "Ask Apple - focus",
+      "reply_count": 2,
+      "latest_reply": "1666027474.796169",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ZUS",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046S70K9A4"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Hello and thank you for being here!  I haven't explored Focus Filters too much yet. But looking to understand better at a high level.  When you adopt `SetFocusFilterIntent` - do you also define which Focus your Focus Filters should be exposed to?  Or is an app's focus filter(s) exposed in the config for every Focus (built-in \u0026 custom) on a user's device?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "9ace3d29-97f8-4a55-9e56-49219584e5d6",
+          "type": "message",
+          "user": "U044D5JGPTP",
+          "text": "When you adopt SetFocusFilterIntent you are telling the system that certain properties relevant to your app can be customized per Focus. You are not suggesting any filter for any specific Focus.\n\nYour app's properties that can be configured will be surfaced to the user, who then can customize values for any Focus they have on their device.\n\nTo answer your question, yes, the Focus filter will be exposed as an option for every Focus.",
+          "ts": "1666027326.042279",
+          "thread_ts": "1666027045.043569",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "LE9",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "When you adopt SetFocusFilterIntent you are telling the system that certain properties relevant to your app can be customized per Focus. You are not suggesting any filter for any specific Focus.\n\nYour app's properties that can be configured will be surfaced to the user, who then can customize values for any Focus they have on their device.\n\nTo answer your question, yes, the Focus filter will be exposed as an option for every Focus."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "c2ed33c6-af7b-4184-86eb-186c1a4dbaa2",
+          "type": "message",
+          "user": "U046S70K9A4",
+          "text": "Thank you Teja!  that’s super helpful",
+          "ts": "1666027474.796169",
+          "thread_ts": "1666027045.043569",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "tada",
+              "count": 1,
+              "users": [
+                "U044D5JGPTP"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ERIu",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thank you Teja!  that’s super helpful"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U04695X1JM9\u003e asked\n\u0026gt; How to know when I turn off a Focus? Apparently, the system only calls my perform() method when I turn on a Focus. That's when I update the state of my app to reflect that. But when I turn off Focus, no method is called, so I can't update my app's state.",
+      "ts": "1666027816.996929",
+      "thread_ts": "1666027816.996929",
+      "subtype": "bot_message",
+      "bot_id": "B043H9MKQ3B",
+      "username": "Ask Apple - focus",
+      "reply_count": 4,
+      "latest_reply": "1666029503.561429",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "MRNK",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U04695X1JM9"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"How to know when I turn off a Focus? Apparently, the system only calls my perform() method when I turn on a Focus. That's when I update the state of my app to reflect that. But when I turn off Focus, no method is called, so I can't update my app's state.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "8a0529cd-277c-4509-b6aa-5769d116ca0f",
+          "type": "message",
+          "user": "U044D5JGPTP",
+          "text": "When a Focus ends with a configured Focus filter for your app, the default configuration for your Focus filter will be delivered.",
+          "ts": "1666027985.754859",
+          "thread_ts": "1666027816.996929",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "bBA",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "When a Focus ends with a configured Focus filter for your app, the default configuration for your Focus filter will be delivered."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "41b44487-8654-4ac4-8f90-b1ecd01d7c04",
+          "type": "message",
+          "user": "U044G1P1RNF",
+          "text": "If the perform() function is not being called when a configured Focus is turned Off, please file a Feedback and provide the Feedback ID here if you can.\nFor tips on filing great Feedback, refer to the \u003chttps://developer.apple.com/bug-reporting/|Bug Reporting\u003e page and use \u003chttp://feedbackassistant.apple.com|feedbackassistant.apple.com\u003e to submit!",
+          "ts": "1666028390.191879",
+          "thread_ts": "1666027816.996929",
+          "attachments": [
+            {
+              "fallback": "Apple Developer: Bug Reporting - Apple Developer",
+              "id": 1,
+              "title": "Bug Reporting - Apple Developer",
+              "title_link": "https://developer.apple.com/bug-reporting/",
+              "text": "Now with Feedback Assistant available on iPhone, iPad, Mac, and the web, it’s easier to submit effective bug reports and request enhancements to APIs and tools.",
+              "image_url": "https://developer.apple.com/news/images/og/bug-reporting-og.jpg",
+              "service_name": "Apple Developer",
+              "service_icon": "https://developer.apple.com/favicon.ico",
+              "from_url": "https://developer.apple.com/bug-reporting/",
+              "original_url": "https://developer.apple.com/bug-reporting/",
+              "blocks": null
+            }
+          ],
+          "edited": {
+            "user": "U044G1P1RNF",
+            "ts": "1666028404.000000"
+          },
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U044D5JGPTP"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "VqZ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "If the perform() function is not being called when a configured Focus is turned Off, please file a Feedback and provide the Feedback ID here if you can.\nFor tips on filing great Feedback, refer to the "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/bug-reporting/",
+                      "text": "Bug Reporting"
+                    },
+                    {
+                      "type": "text",
+                      "text": " page and use "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://feedbackassistant.apple.com",
+                      "text": "feedbackassistant.apple.com"
+                    },
+                    {
+                      "type": "text",
+                      "text": " to submit!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "b52361d4-50e4-441e-915d-4b34a0e7401c",
+          "type": "message",
+          "user": "U04695X1JM9",
+          "text": "Thanks for the response! The perform() function is not being called, so I opened feedback FB11698587.",
+          "ts": "1666029338.707479",
+          "thread_ts": "1666027816.996929",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "=Ohn",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for the response! The perform() function is not being called, so I opened feedback FB11698587."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "fb92cb7f-c643-42d0-a8b2-02b3f9f0b2b8",
+          "type": "message",
+          "user": "U044G1P1RNF",
+          "text": "thank you!",
+          "ts": "1666029503.561429",
+          "thread_ts": "1666027816.996929",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "RZbve",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "thank you!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "801e81ba-3670-4bdc-858e-8e18f065a44b",
+      "type": "message",
+      "user": "U0455R18DT2",
+      "text": "We’re about halfway through our Q\u0026amp;A activity now! Keep those great questions coming!",
+      "ts": "1666027881.749109",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "fjo",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "We’re about halfway through our Q\u0026A activity now! Keep those great questions coming!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "324a5108-efd5-4bbc-8d27-7c010b631f61",
+      "type": "message",
+      "user": "U0455R18DT2",
+      "text": ":thread: Use this thread to tell us about your favorite Focus you’ve configured on your devices, or about a time when Focus came in handy!",
+      "ts": "1666027907.750959",
+      "thread_ts": "1666027907.750959",
+      "reply_count": 9,
+      "latest_reply": "1666028683.641559",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "MnAx",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "emoji",
+                  "name": "thread",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " Use this thread to tell us about your favorite Focus you’ve configured on your devices, or about a time when Focus came in handy!"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "feace410-4bc3-492e-91c6-5fbc68a411c0",
+          "type": "message",
+          "user": "U0455R18DT2",
+          "text": "I always find myself forgetting to enable my “Presentation” Focus before I share my screen on WebEx :sweat_smile:",
+          "ts": "1666027934.265949",
+          "thread_ts": "1666027907.750959",
+          "parent_user_id": "U0455R18DT2",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "LIf",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I always find myself forgetting to enable my “Presentation” Focus before I share my screen on WebEx "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "sweat_smile",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "cd9d620e-8966-40b4-a3d8-cb93ce4742e4",
+          "type": "message",
+          "user": "U045VN0MS3Y",
+          "text": ":sweat_smile: Same. Let's hope WebEx/Zoom provides a Shortcut for that.",
+          "ts": "1666028054.311509",
+          "thread_ts": "1666027907.750959",
+          "parent_user_id": "U0455R18DT2",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "eyes",
+              "count": 1,
+              "users": [
+                "U0455R18DT2"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "4T10",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "sweat_smile",
+                      "skin_tone": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": " Same. Let's hope WebEx/Zoom provides a Shortcut for that."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "70482b6d-9a0d-43da-8dbd-06a2dc1992c6",
+          "type": "message",
+          "user": "U03V30M0C1K",
+          "text": "My Sleep Focus!!! The wallpaper changes to the calming photo of the moon and my widgets change out to  one that reflects Sleep and one that shows me my Home’s status. No one can contact me when Sleep is on. Not even my mom! :joy: My dog does a good enough job of waking me up when he tells me he has to go sniff things in the yard at 2:00am, he doesn’t need help.",
+          "ts": "1666028074.167589",
+          "thread_ts": "1666027907.750959",
+          "parent_user_id": "U0455R18DT2",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "sleeping",
+              "count": 1,
+              "users": [
+                "U0455R18DT2"
+              ]
+            },
+            {
+              "name": "dog",
+              "count": 3,
+              "users": [
+                "U0455R18DT2",
+                "U044D5JGPTP",
+                "U046JND8CKB"
+              ]
+            },
+            {
+              "name": "rolling_on_the_floor_laughing",
+              "count": 1,
+              "users": [
+                "U0467TW5ESE"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "8yaQ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "My Sleep Focus!!! The wallpaper changes to the calming photo of the moon and my widgets change out to  one that reflects Sleep and one that shows me my Home’s status. No one can contact me when Sleep is on. Not even my mom! "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "joy",
+                      "skin_tone": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": " My dog does a good enough job of waking me up when he tells me he has to go sniff things in the yard at 2:00am, he doesn’t need help."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "41130b07-9724-43c8-94e1-9d9597cf5ab4",
+          "type": "message",
+          "user": "U046JND8CKB",
+          "text": "I like my exercise Focus which brings my workout apps all on the home screen and hides most other apps at the start of my workout time.\nAnd my Coding focus which limits interruptions",
+          "ts": "1666028144.678419",
+          "thread_ts": "1666027907.750959",
+          "parent_user_id": "U0455R18DT2",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "star-struck",
+              "count": 1,
+              "users": [
+                "U0455R18DT2"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "aGP",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I like my exercise Focus which brings my workout apps all on the home screen and hides most other apps at the start of my workout time.\nAnd my Coding focus which limits interruptions"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "93e8d605-2039-4396-9637-72cc70b24cef",
+          "type": "message",
+          "user": "U0455R18DT2",
+          "text": "TIL that Betsy and I have very similar four-legged alarms LOL",
+          "ts": "1666028170.579169",
+          "thread_ts": "1666027907.750959",
+          "parent_user_id": "U0455R18DT2",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "joy",
+              "count": 3,
+              "users": [
+                "U045VN0MS3Y",
+                "U03V30M0C1K",
+                "U04625TR0R1"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "SDh5",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "TIL that Betsy and I have very similar four-legged alarms LOL"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "37e05ef7-82ca-41f1-8357-cc63bf1e8ddf",
+          "type": "message",
+          "user": "U0455R18DT2",
+          "text": "\u003c@U046JND8CKB\u003e that’s a great use of Focus for both of those! My Home Screen is always a mess, being able to rearrange app icons for a given Focus is super handy",
+          "ts": "1666028210.138009",
+          "thread_ts": "1666027907.750959",
+          "parent_user_id": "U0455R18DT2",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1::skin-tone-2",
+              "count": 1,
+              "users": [
+                "U046JND8CKB"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "iJk2T",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U046JND8CKB"
+                    },
+                    {
+                      "type": "text",
+                      "text": " that’s a great use of Focus for both of those! My Home Screen is always a mess, being able to rearrange app icons for a given Focus is super handy"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "31eaa1ce-59c9-4f4d-bde9-3f4a571ce17f",
+          "type": "message",
+          "user": "U044D5JGPTP",
+          "text": "I do a weekly virtual music class, and I have a music focus that shows only relevant apps. I have to set to turn on 30 min before my class, so I get into the mood of music, otherwise I'm all frazzled when I log in. :sweat_smile:",
+          "ts": "1666028271.546889",
+          "thread_ts": "1666027907.750959",
+          "parent_user_id": "U0455R18DT2",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "heart_eyes",
+              "count": 1,
+              "users": [
+                "U04625TR0R1"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "5kmPd",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I do a weekly virtual music class, and I have a music focus that shows only relevant apps. I have to set to turn on 30 min before my class, so I get into the mood of music, otherwise I'm all frazzled when I log in. "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "sweat_smile",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "9b8479d5-689a-43d8-b5d6-5706988777ef",
+          "type": "message",
+          "user": "U04625ZF30T",
+          "text": "I have a “Simple” focus mode that sets my wallpaper on lock screen and springboard to pure black.\n\nThere’s something nice with the simplicity of no background and only seeing pixels light up for information I want to see. Just like the first versions of iPhone OS :heart_eyes:\n\nIt probably extends my battery life too :smile:",
+          "ts": "1666028383.053539",
+          "thread_ts": "1666027907.750959",
+          "parent_user_id": "U0455R18DT2",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "heart",
+              "count": 2,
+              "users": [
+                "U03V30M0C1K",
+                "U044D5JGPTP"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "8/e",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I have a “Simple” focus mode that sets my wallpaper on lock screen and springboard to pure black.\n\nThere’s something nice with the simplicity of no background and only seeing pixels light up for information I want to see. Just like the first versions of iPhone OS "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "heart_eyes",
+                      "skin_tone": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nIt probably extends my battery life too "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "smile",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "9cac2f22-80bc-46ab-9ad0-71fc8225af7e",
+          "type": "message",
+          "user": "U0462658691",
+          "text": "\u003c@U04625ZF30T\u003e You should try setting the watch on the lock screen to a red hue to better keep your night vision and extend the battery life further :nerd_face:",
+          "ts": "1666028683.641559",
+          "thread_ts": "1666027907.750959",
+          "parent_user_id": "U0455R18DT2",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "exploding_head",
+              "count": 1,
+              "users": [
+                "U04625ZF30T"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "lI1jL",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U04625ZF30T"
+                    },
+                    {
+                      "type": "text",
+                      "text": " You should try setting the watch on the lock screen to a red hue to better keep your night vision and extend the battery life further "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "nerd_face",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U04695X1JM9\u003e asked\n\u0026gt; Does a @Parameter of a SetFocusFilterIntent struct always contain the parameters configured by the user, even when the Focus is off? Or does it change to a nil/empty value? If it always contains the configured values, how can I know when a Focus filter is off?",
+      "ts": "1666028427.705889",
+      "thread_ts": "1666028427.705889",
+      "subtype": "bot_message",
+      "bot_id": "B043H9MKQ3B",
+      "username": "Ask Apple - focus",
+      "reply_count": 3,
+      "latest_reply": "1666029407.496449",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Y68v",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U04695X1JM9"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Does a @Parameter of a SetFocusFilterIntent struct always contain the parameters configured by the user, even when the Focus is off? Or does it change to a nil\\/empty value? If it always contains the configured values, how can I know when a Focus filter is off?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "ea3bca58-e556-454e-8678-2cbbc5b875f7",
+          "type": "message",
+          "user": "U0455R18DT2",
+          "text": "There’s a `defaultValue` that can be supplied for non-optional parameters. You could specify a value here that indicates the default behavior to your app.",
+          "ts": "1666028495.096579",
+          "thread_ts": "1666028427.705889",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "AiF",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "There’s a "
+                    },
+                    {
+                      "type": "text",
+                      "text": "defaultValue",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " that can be supplied for non-optional parameters. You could specify a value here that indicates the default behavior to your app."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "3d2d91cc-a17e-4161-bdf2-db5894ccfabe",
+          "type": "message",
+          "user": "U0455R18DT2",
+          "text": "Alternatively, you could make the type of the parameter optional — `nil` will be provided in the default case when a Focus filter is exited / queried while off.",
+          "ts": "1666028510.620029",
+          "thread_ts": "1666028427.705889",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "=RlA3",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Alternatively, you could make the type of the parameter optional — "
+                    },
+                    {
+                      "type": "text",
+                      "text": "nil",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " will be provided in the default case when a Focus filter is exited / queried while off."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "e751bf15-20e1-4099-8b6a-8bae2967ac38",
+          "type": "message",
+          "user": "U04695X1JM9",
+          "text": "I think a `defaultValue` will work for my scenario. Thanks!",
+          "ts": "1666029407.496449",
+          "thread_ts": "1666028427.705889",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U0455R18DT2"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "/uaRy",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I think a "
+                    },
+                    {
+                      "type": "text",
+                      "text": "defaultValue",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " will work for my scenario. Thanks!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "4fa6a543-ffa1-44fa-a404-8911602f0ab4",
+      "type": "message",
+      "user": "U0455R18DT2",
+      "text": ":hourglass_flowing_sand: We’re approaching the end of our Q\u0026amp;A activity in about 15 minutes! Don’t forget to submit any remaining questions you may have!",
+      "ts": "1666028812.412049",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "wYw/R",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "emoji",
+                  "name": "hourglass_flowing_sand",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " We’re approaching the end of our Q\u0026A activity in about 15 minutes! Don’t forget to submit any remaining questions you may have!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U04695X1JM9\u003e asked\n\u0026gt; If a user changes Focus when my app is not running, what is the best strategy to update my views according to the current Focus when the user opens my app? For example, I'm using the SwiftUI App Lifecycle. Would the best place to check the current Focus be in the app's init()?",
+      "ts": "1666028922.223229",
+      "thread_ts": "1666028922.223229",
+      "subtype": "bot_message",
+      "bot_id": "B043H9MKQ3B",
+      "username": "Ask Apple - focus",
+      "reply_count": 2,
+      "latest_reply": "1666029433.089589",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "62eFa",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U04695X1JM9"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"If a user changes Focus when my app is not running, what is the best strategy to update my views according to the current Focus when the user opens my app? For example, I'm using the SwiftUI App Lifecycle. Would the best place to check the current Focus be in the app's init()?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "551ac04e-1fee-40f9-94df-537e28c7c7f1",
+          "type": "message",
+          "user": "U044D5JGPTP",
+          "text": "`init` would be a reasonable place to query for the ‘current’ configuration for your app’s Focus filter.\n\nAlternatively, you can add an extension to your app that can be called on change of your app’s Focus filter configuration without depending on whether or not your app is running.\n\nIt's appropriate to add an extension when you app may need to know that a Focus filter changed even when the app is not running, to update related widgets, badges, notifications, etc.",
+          "ts": "1666029006.530059",
+          "thread_ts": "1666028922.223229",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "bulb",
+              "count": 1,
+              "users": [
+                "U046S70K9A4"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "nDN",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "init",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " would be a reasonable place to query for the ‘current’ configuration for your app’s Focus filter.\n\nAlternatively, you can add an extension to your app that can be called on change of your app’s Focus filter configuration without depending on whether or not your app is running.\n\nIt's appropriate to add an extension when you app may need to know that a Focus filter changed even when the app is not running, to update related widgets, badges, notifications, etc."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "9d6df252-2dbf-473c-8a5e-5b88ed99dc7c",
+          "type": "message",
+          "user": "U044G1P1RNF",
+          "text": "The filter may also be retrieved when the scene phase switches background to active:\n`@Environment(\\.scenePhase) *private*` `*var* scenePhase`\n\nThen implement on views expecting this change:\n```.onChange(of: scenePhase) { newValue in\n            if newValue == .active {\n               // Retrieve Focus filter information\n            }\n        } ```\n",
+          "ts": "1666029433.089589",
+          "thread_ts": "1666028922.223229",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U044D5JGPTP"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "yzfZ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "The filter may also be retrieved when the scene phase switches background to active:\n"
+                    },
+                    {
+                      "type": "text",
+                      "text": "@Environment(\\.scenePhase) ",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "private",
+                      "style": {
+                        "bold": true,
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " ",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "var",
+                      "style": {
+                        "bold": true,
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " scenePhase",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nThen implement on views expecting this change:\n"
+                    }
+                  ]
+                },
+                {
+                  "Type": "rich_text_preformatted",
+                  "Raw": "{\"type\":\"rich_text_preformatted\",\"elements\":[{\"type\":\"text\",\"text\":\".onChange(of: scenePhase) { newValue in\\n            if newValue == .active {\\n               \\/\\/ Retrieve Focus filter information\\n            }\\n        } \"}],\"border\":0}"
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0462658691\u003e asked\n\u0026gt; Not a question per se, but I'd love to see Font Size added to System filters when setting up a Focus. It would really help with bigger ext when you need to read from the screen while doing something active like working out or cooking.",
+      "ts": "1666029377.713279",
+      "thread_ts": "1666029377.713279",
+      "subtype": "bot_message",
+      "bot_id": "B043H9MKQ3B",
+      "username": "Ask Apple - focus",
+      "reply_count": 4,
+      "latest_reply": "1666033142.356049",
+      "reactions": [
+        {
+          "name": "+1::skin-tone-2",
+          "count": 1,
+          "users": [
+            "U046JND8CKB"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "5Vs",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0462658691"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Not a question per se, but I'd love to see Font Size added to System filters when setting up a Focus. It would really help with bigger ext when you need to read from the screen while doing something active like working out or cooking.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "8ad08b91-a44a-40b3-aea4-5d31ed4fa676",
+          "type": "message",
+          "user": "U0455R18DT2",
+          "text": "This sounds super helpful! If you haven’t already, please let us know more about how you’d use this functionality in a Feedback.\n\nWe use \u003chttp://feedbackassistant.apple.com|feedbackassistant.apple.com\u003e for enhancement requests too, not just bug reports, and would love to hear from you there!",
+          "ts": "1666029468.863579",
+          "thread_ts": "1666029377.713279",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "WP=DT",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "This sounds super helpful! If you haven’t already, please let us know more about how you’d use this functionality in a Feedback.\n\nWe use "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://feedbackassistant.apple.com",
+                      "text": "feedbackassistant.apple.com"
+                    },
+                    {
+                      "type": "text",
+                      "text": " for enhancement requests too, not just bug reports, and would love to hear from you there!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "6df40cfc-dcc2-4ff4-9b2e-255d29ca9042",
+          "type": "message",
+          "user": "U0462658691",
+          "text": "Thank you Patrick, will do! :pray:",
+          "ts": "1666029654.399129",
+          "thread_ts": "1666029377.713279",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "qvN9",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thank you Patrick, will do! "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "pray",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "E8353CB1-25B7-4161-9160-C930CB20514F",
+          "type": "message",
+          "user": "U045VJUAUDC",
+          "text": "You could use a shortcut for this I think ",
+          "ts": "1666033006.461149",
+          "thread_ts": "1666029377.713279",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "e2iJ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "You could use a shortcut for this I think "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "577DEBD9-DC66-46A8-B3FA-5A032BAB1DC7",
+          "type": "message",
+          "user": "U045VJUAUDC",
+          "text": "Yeah you can create a personal automation which can run the text size action ",
+          "ts": "1666033142.356049",
+          "thread_ts": "1666029377.713279",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "LXHXJ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yeah you can create a personal automation which can run the text size action "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U045VN0MS3Y\u003e asked\n\u0026gt; Not a question: I just want to say thank you and I wish for more amazing events like this.",
+      "ts": "1666029554.565469",
+      "thread_ts": "1666029554.565469",
+      "subtype": "bot_message",
+      "bot_id": "B043H9MKQ3B",
+      "username": "Ask Apple - focus",
+      "reply_count": 1,
+      "latest_reply": "1666029600.092659",
+      "reactions": [
+        {
+          "name": "100",
+          "count": 7,
+          "users": [
+            "U046S70K9A4",
+            "U046WFN5UE4",
+            "U04695X1JM9",
+            "U0460BADXM3",
+            "U044JU11JLF",
+            "U0465MRJBFW",
+            "U046JDG2Q73"
+          ]
+        },
+        {
+          "name": "point_up",
+          "count": 3,
+          "users": [
+            "U04625ZF30T",
+            "U04654X9QCC",
+            "U044JU11JLF"
+          ]
+        },
+        {
+          "name": "+1::skin-tone-2",
+          "count": 1,
+          "users": [
+            "U046JND8CKB"
+          ]
+        },
+        {
+          "name": "+1",
+          "count": 3,
+          "users": [
+            "U046RU88B96",
+            "U044JU11JLF",
+            "U047VNWH0HW"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "AB5t",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U045VN0MS3Y"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Not a question: I just want to say thank you and I wish for more amazing events like this.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "bb1e7aed-2420-4770-a542-34b48c8e1c22",
+          "type": "message",
+          "user": "U0455R18DT2",
+          "text": "It’s our pleasure! Thank you for participating and working so hard on great apps! I think I speak for all of us when I say we love getting to hear your stories, answer questions, and learn about your apps.",
+          "ts": "1666029600.092659",
+          "thread_ts": "1666029554.565469",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "100",
+              "count": 2,
+              "users": [
+                "U03V30M0C1K",
+                "U045RJHG2EQ"
+              ]
+            },
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U045PGRV08K"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "BbX5Q",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "It’s our pleasure! Thank you for participating and working so hard on great apps! I think I speak for all of us when I say we love getting to hear your stories, answer questions, and learn about your apps."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "be2e8e4c-9a99-47d9-806d-66aa2d681d13",
+      "type": "message",
+      "user": "U0455R18DT2",
+      "text": "That does it for our *Q\u0026amp;A: Focus filters* activity this morning! :tada:  Thank you all for joining us and asking such great questions.\n\nDon’t miss any of the other awesome activities happening this week during Ask Apple! Tune back in here for another *Q\u0026amp;A: Focus filters* activity on *Wednesday, 10/19 at 10am PDT*.\n\nYou can also sign up for some one-on-one office hours with folks like the *Technology Evangelism*, *Design Evangelism*, and *Developer Technical Support* teams!\n\nSee you back here on Wednesday for more Focus questions! :sunglasses:",
+      "ts": "1666029682.252859",
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "clap",
+          "count": 3,
+          "users": [
+            "U04625ZF30T",
+            "U04695X1JM9",
+            "U0462538BS7"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "eIo",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "That does it for our "
+                },
+                {
+                  "type": "text",
+                  "text": "Q\u0026A: Focus filters",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " activity this morning! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "tada",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": "  Thank you all for joining us and asking such great questions.\n\nDon’t miss any of the other awesome activities happening this week during Ask Apple! Tune back in here for another "
+                },
+                {
+                  "type": "text",
+                  "text": "Q\u0026A: Focus filters",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " activity on "
+                },
+                {
+                  "type": "text",
+                  "text": "Wednesday, 10/19 at 10am PDT",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ".\n\nYou can also sign up for some one-on-one office hours with folks like the "
+                },
+                {
+                  "type": "text",
+                  "text": "Technology Evangelism",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ", "
+                },
+                {
+                  "type": "text",
+                  "text": "Design Evangelism",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ", and "
+                },
+                {
+                  "type": "text",
+                  "text": "Developer Technical Support",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " teams!\n\nSee you back here on Wednesday for more Focus questions! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "sunglasses",
+                  "skin_tone": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "3b0288ac-2261-47c1-a4dd-14519b881aef",
+      "type": "message",
+      "user": "U0455R18DT2",
+      "text": "Hey there folks! We’ll be hosting *Q\u0026amp;A: Focus filters* at *10am PDT* today. This will be our *last Q\u0026amp;A activity for the channel*, so don’t hold onto any lingering questions — ask away!\n\nFocus filters are an exciting new feature in iOS 16, providing a way for your app to react when Focus changes occur. Your app can use Focus filters to modify app behavior, provide a different user experience, and more! Check out the following resources while you wait for the Q\u0026amp;A to begin:\n• \u003chttps://developer.apple.com/videos/play/wwdc2022/10121/|WWDC22 — Meet Focus filters\u003e\n• \u003chttps://developer.apple.com/documentation/appintents/focus/|Focus filters documentation\u003e\nTo ask your questions, select the:heavy_plus_sign: icon in the text field and use the “Ask a question” workflow. Apple experts will answer as many of your questions as they can during the scheduled Q\u0026amp;A activities.",
+      "ts": "1666191600.964139",
+      "attachments": [
+        {
+          "fallback": "Apple Developer: Meet Focus filters - WWDC22 - Videos - Apple Developer",
+          "id": 1,
+          "title": "Meet Focus filters - WWDC22 - Videos - Apple Developer",
+          "title_link": "https://developer.apple.com/videos/play/wwdc2022/10121/",
+          "text": "Discover how you can customize app behaviors based on someone's currently enabled Focus. We'll show you how to use App Intents to define...",
+          "image_url": "https://devimages-cdn.apple.com/wwdc-services/images/124/6617/6617_wide_250x141_2x.jpg",
+          "service_name": "Apple Developer",
+          "service_icon": "https://developer.apple.com/favicon.ico",
+          "from_url": "https://developer.apple.com/videos/play/wwdc2022/10121/",
+          "original_url": "https://developer.apple.com/videos/play/wwdc2022/10121/",
+          "blocks": null
+        }
+      ],
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "gratitude-thank-you",
+          "count": 1,
+          "users": [
+            "U045LLLQHLM"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "AKWMJ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey there folks! We’ll be hosting "
+                },
+                {
+                  "type": "text",
+                  "text": "Q\u0026A: Focus filters",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " at "
+                },
+                {
+                  "type": "text",
+                  "text": "10am PDT ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "today. This will be our "
+                },
+                {
+                  "type": "text",
+                  "text": "last Q\u0026A activity for the channel",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ", so don’t hold onto any lingering questions — ask away!\n\nFocus filters are an exciting new feature in iOS 16, providing a way for your app to react when Focus changes occur. Your app can use Focus filters to modify app behavior, provide a different user experience, and more! Check out the following resources while you wait for the Q\u0026A to begin:\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_list",
+              "Raw": "{\"type\":\"rich_text_list\",\"elements\":[{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/videos\\/play\\/wwdc2022\\/10121\\/\",\"text\":\"WWDC22 \\u2014 Meet Focus filters\"}]},{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/documentation\\/appintents\\/focus\\/\",\"text\":\"Focus filters documentation\"}]}],\"style\":\"bullet\",\"indent\":0,\"border\":0}"
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\nTo ask your questions, select the"
+                },
+                {
+                  "type": "emoji",
+                  "name": "heavy_plus_sign",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " icon in the text field and use the “Ask a question” workflow. Apple experts will answer as many of your questions as they can during the scheduled Q\u0026A activities."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "e32ae80b-e39c-4131-9746-95b8d040ae7d",
+      "type": "message",
+      "user": "U0455R18DT2",
+      "text": "\u003c!here\u003e Welcome to *Q\u0026amp;A: Focus filters*! We’re excited to chat with you all about Focus and Focus filters, and answer any questions you may have. Select the :heavy_plus_sign: icon from the lower left, and use the “Ask a question” workflow to submit your question.\n\nWe’ve got 60 minutes to answer your questions, starting NOW! :tada:",
+      "ts": "1666198800.632109",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "wY0c",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "broadcast",
+                  "range": "here"
+                },
+                {
+                  "type": "text",
+                  "text": " Welcome to "
+                },
+                {
+                  "type": "text",
+                  "text": "Q\u0026A: Focus filters",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "! We’re excited to chat with you all about Focus and Focus filters, and answer any questions you may have. Select the "
+                },
+                {
+                  "type": "emoji",
+                  "name": "heavy_plus_sign",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " icon from the lower left, and use the “Ask a question” workflow to submit your question.\n\nWe’ve got 60 minutes to answer your questions, starting NOW! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "tada",
+                  "skin_tone": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046GNK9KL1\u003e asked\n\u0026gt; Hey! Is there a way to filter emails/calendars when there’s not active focus? I.e. work email/calendar hidden unless work focus is activated. ",
+      "ts": "1666199082.799529",
+      "thread_ts": "1666199082.799529",
+      "subtype": "bot_message",
+      "bot_id": "B043H9MKQ3B",
+      "username": "Ask Apple - focus",
+      "reply_count": 4,
+      "latest_reply": "1666199435.584549",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "9wrTH",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046GNK9KL1"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Hey! Is there a way to filter emails\\/calendars when there\\u2019s not active focus? I.e. work email\\/calendar hidden unless work focus is activated. \"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "42ee397e-c8d7-4222-8d26-ef9946c25b69",
+          "type": "message",
+          "user": "U0455R18DT2",
+          "text": "Great question Toni! Focus filters are super flexible in this way — you don’t have to use them only for _filtering_ content like the name implies",
+          "ts": "1666199107.962859",
+          "thread_ts": "1666199082.799529",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "vWr",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Great question Toni! Focus filters are super flexible in this way — you don’t have to use them only for "
+                    },
+                    {
+                      "type": "text",
+                      "text": "filtering",
+                      "style": {
+                        "italic": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " content like the name implies"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "0b91a368-2c46-46b9-8790-420c4636a801",
+          "type": "message",
+          "user": "U0455R18DT2",
+          "text": "You can totally have your app’s default behavior be “don’t show work content”, and then provide the option for someone to enable their work email/calendar content only during a specific Focus",
+          "ts": "1666199143.070949",
+          "thread_ts": "1666199082.799529",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "qBSk",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "You can totally have your app’s default behavior be “don’t show work content”, and then provide the option for someone to enable their work email/calendar content only during a specific Focus"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "60a21191-c760-43a5-a5be-c4a2912b03e1",
+          "type": "message",
+          "user": "U0455R18DT2",
+          "text": "We’d love to hear more about your app and brainstorm some ideas if you’re willing to share!",
+          "ts": "1666199164.974489",
+          "thread_ts": "1666199082.799529",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "7Wa",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "We’d love to hear more about your app and brainstorm some ideas if you’re willing to share!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "7d6c1387-722d-48ce-b9a5-9cd9bafe3b4e",
+          "type": "message",
+          "user": "U044D5JGPTP",
+          "text": "Expanding on what Patrick just said:\n\nWhen you are not in an active Focus you will receive the default Focus filter configuration. When you define the parameters that can be configured, you can set a default value. These are the values that will be delivered to you when the system transitions out of a focus.\n\nIn your example, if you had parameter that is a list of allowed calendars during a Focus, you can set the default to be a subset of calendars that you want to show when Focus is not active.",
+          "ts": "1666199435.584549",
+          "thread_ts": "1666199082.799529",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "star-struck",
+              "count": 1,
+              "users": [
+                "U0455R18DT2"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "PRmT2",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Expanding on what Patrick just said:\n\nWhen you are not in an active Focus you will receive the default Focus filter configuration. When you define the parameters that can be configured, you can set a default value. These are the values that will be delivered to you when the system transitions out of a focus.\n\nIn your example, if you had parameter that is a list of allowed calendars during a Focus, you can set the default to be a subset of calendars that you want to show when Focus is not active."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046YFT7V0A\u003e asked\n\u0026gt; Is there any system-provided UI component for the \"Filtered by Focus / Turn Off\" banner shown in the \u003chttp://Mail.app|Mail.app\u003e for iOS, for example? (I am sorry if this is a naive question, as I still didn't have time to dig into this subject).",
+      "ts": "1666199342.087269",
+      "thread_ts": "1666199342.087269",
+      "subtype": "bot_message",
+      "bot_id": "B043H9MKQ3B",
+      "username": "Ask Apple - focus",
+      "reply_count": 8,
+      "latest_reply": "1666206796.529909",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "4Wy",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046YFT7V0A"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Is there any system-provided UI component for the \\\"Filtered by Focus \\/ Turn Off\\\" banner shown in the Mail.app for iOS, for example? (I am sorry if this is a naive question, as I still didn't have time to dig into this subject).\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "e57aeafc-37a7-4c99-9593-22e6985ee664",
+          "type": "message",
+          "user": "U044G2FH611",
+          "text": "Not at the moment, but we would love a feedback about this!",
+          "ts": "1666199360.374619",
+          "thread_ts": "1666199342.087269",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "dTr",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Not at the moment, but we would love a feedback about this!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "B85E0478-99DC-4D08-A229-E614F2D64A35",
+          "type": "message",
+          "user": "U0455R18DT2",
+          "text": "You can use \u003chttp://feedbackassistant.apple.com|feedbackassistant\u003e\u003chttp://feedbackassistant.apple.com|.\u003e\u003chttp://feedbackassistant.apple.com|apple\u003e\u003chttp://feedbackassistant.apple.com|.\u003e\u003chttp://feedbackassistant.apple.com|com\u003e to file an enhancement request about this, as Michael said! Great question, though.",
+          "ts": "1666199712.472289",
+          "thread_ts": "1666199342.087269",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "NNoD+",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "You can use "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://feedbackassistant.apple.com",
+                      "text": "feedbackassistant"
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://feedbackassistant.apple.com",
+                      "text": "."
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://feedbackassistant.apple.com",
+                      "text": "apple"
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://feedbackassistant.apple.com",
+                      "text": "."
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://feedbackassistant.apple.com",
+                      "text": "com"
+                    },
+                    {
+                      "type": "text",
+                      "text": " to file an enhancement request about this, as Michael said! Great question, though"
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "449C67D3-673B-4F0A-A752-8533362F8F31",
+          "type": "message",
+          "user": "U0455R18DT2",
+          "text": "We’d love to hear more about your app and where you’d like to display some UI like this! ",
+          "ts": "1666199729.603919",
+          "thread_ts": "1666199342.087269",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "jL4",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "We’d love to hear more about your app and where "
+                    },
+                    {
+                      "type": "text",
+                      "text": "you’d"
+                    },
+                    {
+                      "type": "text",
+                      "text": " like to display some UI like this! "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "a4e7e5db-cb4a-4429-8950-d294711967ca",
+          "type": "message",
+          "user": "U046YFT7V0A",
+          "text": "Thank you, Michael and Patrick! I believe that a consistent user experience would benefit users, and such a system-provided UI would help achieve that.",
+          "ts": "1666200100.499349",
+          "thread_ts": "1666199342.087269",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U0455R18DT2"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "XwLee",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thank you, Michael and Patrick! I believe that a consistent user experience would benefit users, and such a system-provided UI would help achieve that."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "04010e5e-f027-4c96-87a9-0eb9d2cafead",
+          "type": "message",
+          "user": "U046YFT7V0A",
+          "text": "I am working on a new productivity app, and Focus could filter different working contexts (e.g., personal/work stuff). I think the \u003chttp://Mail.app|Mail.app\u003e for iOS would work perfectly for my app and possibly for many others.",
+          "ts": "1666200112.852669",
+          "thread_ts": "1666199342.087269",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "o81+",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I am working on a new productivity app, and Focus could filter different working contexts (e.g., personal/work stuff). I think the Mail.app for iOS would work perfectly for my app and possibly for many others."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "c8d42a9e-001d-42fa-b045-031d99998e75",
+          "type": "message",
+          "user": "U046YFT7V0A",
+          "text": "I will file an enhancement request about this, anyway. Thank you!",
+          "ts": "1666200313.164109",
+          "thread_ts": "1666199342.087269",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "fuojQ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I will file an enhancement request about this, anyway. Thank you!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "751abe9f-942c-4d28-b407-fa667be191dd",
+          "type": "message",
+          "user": "U0455R18DT2",
+          "text": "That would be great Nuno, the team would love to see that! Feel free to add the Feedback ID here when you have it!",
+          "ts": "1666200336.424359",
+          "thread_ts": "1666199342.087269",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U046YFT7V0A"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "QkK",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "That would be great Nuno, the team would love to see that! Feel free to add the Feedback ID here when you have it!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "34db0447-89f1-4bac-ba2d-7456b7b1fe12",
+          "type": "message",
+          "user": "U046YFT7V0A",
+          "text": "Here is the Feedback ID: FB11705317",
+          "ts": "1666206796.529909",
+          "thread_ts": "1666199342.087269",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "gratitude-thank-you",
+              "count": 1,
+              "users": [
+                "U0455R18DT2"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "T==",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Here is the Feedback ID: FB11705317"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0462A4CLP5\u003e asked\n\u0026gt; How to enable Focus support on macOS Ventura?\n\u0026gt; I have in the info.plist (not sure I need it?)\n\u0026gt; ```\n\u0026gt; \t\u0026lt;key\u0026gt;INIntentsSupported\u0026lt;/key\u0026gt;\n\u0026gt; \t\u0026lt;array\u0026gt;\n\u0026gt; \t\t\u0026lt;string\u0026gt;OpenInSetFocusFilterIntent\u0026lt;/string\u0026gt;\n\u0026gt; \t\u0026lt;/array\u0026gt;\n\u0026gt; ```\n\u0026gt; \n\u0026gt; Implemented something similar to\n\u0026gt; \n\u0026gt; ```\n\u0026gt; import Foundation\n\u0026gt; import AppIntents\n\u0026gt; \n\u0026gt; struct OpenInSetFocusFilterIntent: SetFocusFilterIntent {\n\u0026gt;     static var title: LocalizedStringResource = \"Set focus hint\"\n\u0026gt;     static var description: LocalizedStringResource? = \"Configure which focus hint will be sent to OpenIn to define which rules should be executed\"\n\u0026gt;     \n\u0026gt;     var displayRepresentation: DisplayRepresentation {\n\u0026gt;         DisplayRepresentation(title: \"TODO: something is et\")\n\u0026gt;     }\n\u0026gt;     \n\u0026gt;     @Parameter(title: \"Focus Hint\", default: false)\n\u0026gt;     var focusHint: Bool\n\u0026gt;     \n\u0026gt;     func perform() async throws -\u0026gt; some IntentResult {\n\u0026gt;         return .result()\n\u0026gt;     }\n\u0026gt; }\n\u0026gt; \n\u0026gt; struct FocusHintDynamicOptionsProvider: DynamicOptionsProvider {\n\u0026gt;     func results() async throws -\u0026gt; [Int] {\n\u0026gt;         [1, 2]\n\u0026gt;     }\n\u0026gt; }\n\u0026gt; ```\n\u0026gt; \n\u0026gt; Don't see my app in the focus filter at all :( \n\u0026gt; \n\u0026gt; Am I missing something?",
+      "ts": "1666199411.694559",
+      "thread_ts": "1666199411.694559",
+      "subtype": "bot_message",
+      "bot_id": "B043H9MKQ3B",
+      "username": "Ask Apple - focus",
+      "reply_count": 6,
+      "latest_reply": "1666200238.438759",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "rDvh",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0462A4CLP5"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"How to enable Focus support on macOS Ventura?\\nI have in the info.plist (not sure I need it?)\\n```\\n\\t\u003ckey\u003eINIntentsSupported\u003c\\/key\u003e\\n\\t\u003carray\u003e\\n\\t\\t\u003cstring\u003eOpenInSetFocusFilterIntent\u003c\\/string\u003e\\n\\t\u003c\\/array\u003e\\n```\\n\\nImplemented something similar to\\n\\n```\\nimport Foundation\\nimport AppIntents\\n\\nstruct OpenInSetFocusFilterIntent: SetFocusFilterIntent {\\n    static var title: LocalizedStringResource = \\\"Set focus hint\\\"\\n    static var description: LocalizedStringResource? = \\\"Configure which focus hint will be sent to OpenIn to define which rules should be executed\\\"\\n    \\n    var displayRepresentation: DisplayRepresentation {\\n        DisplayRepresentation(title: \\\"TODO: something is et\\\")\\n    }\\n    \\n    @Parameter(title: \\\"Focus Hint\\\", default: false)\\n    var focusHint: Bool\\n    \\n    func perform() async throws -\u003e some IntentResult {\\n        return .result()\\n    }\\n}\\n\\nstruct FocusHintDynamicOptionsProvider: DynamicOptionsProvider {\\n    func results() async throws -\u003e [Int] {\\n        [1, 2]\\n    }\\n}\\n```\\n\\nDon't see my app in the focus filter at all :( \\n\\nAm I missing something?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "2e57e51d-437e-4bc9-ad01-652b6591af4a",
+          "type": "message",
+          "user": "U044G1P1RNF",
+          "text": "Great question!. Here are a few steps that we can take to troubleshoot this issue:",
+          "ts": "1666199783.363399",
+          "thread_ts": "1666199411.694559",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "=Yni",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Great question!. Here are a few steps that we can take to troubleshoot this issue:"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "d7c20800-a369-47e2-9bfb-c638cbf7dd3b",
+          "type": "message",
+          "user": "U044G1P1RNF",
+          "text": "Info.plist entry is not required and can be removed.",
+          "ts": "1666199788.275489",
+          "thread_ts": "1666199411.694559",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ImNf",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Info.plist entry is not required and can be removed."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "472394f5-a925-45c9-afc3-33819f106c41",
+          "type": "message",
+          "user": "U044G1P1RNF",
+          "text": "Reboot the device and launch the app again to see if its Focus filter shows up in Settings.",
+          "ts": "1666199888.722149",
+          "thread_ts": "1666199411.694559",
+          "edited": {
+            "user": "U044G1P1RNF",
+            "ts": "1666199899.000000"
+          },
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "lJJ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Reboot the device and launch the app again to see if its Focus filter shows up in Settings."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "2a5799dc-c6c2-474a-a3ae-272bfb989c4d",
+          "type": "message",
+          "user": "U044G1P1RNF",
+          "text": "If the filter is not showing up still, please check that the AppIntents metadata was extracted: build the app, open its build folder (Product menu \u0026gt; Show Build Folder in Finder \u0026gt; Products \u0026gt; Debug), right click on .app and select Show Package Contents. There should be a folder with three files in Resources \u0026gt; Metadata.appintents. If this is missing, extraction failed, please file Feedback and post its ID here.",
+          "ts": "1666200133.299859",
+          "thread_ts": "1666199411.694559",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Ah+",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "If the filter is not showing up still, please check that the AppIntents metadata was extracted: build the app, open its build folder (Product menu \u003e Show Build Folder in Finder \u003e Products \u003e Debug), right click on .app and select Show Package Contents. There should be a folder with three files in Resources \u003e Metadata.appintents. If this is missing, extraction failed, please file Feedback and post its ID here."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "e02ce3a4-fe30-4478-881d-b9ff094cde2b",
+          "type": "message",
+          "user": "U044G1P1RNF",
+          "text": "If the metadata exists, try moving the .app file to the Applications folder, launch it and see if its Filter shows up.",
+          "ts": "1666200180.156809",
+          "thread_ts": "1666199411.694559",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ii1+V",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "If the metadata exists, try moving the .app file to the Applications folder, launch it and see if its Filter shows up."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "eeb5c2ae-d857-4052-8b49-55e91a393148",
+          "type": "message",
+          "user": "U044G1P1RNF",
+          "text": "If you can, please file a Feedback and provide the Feedback ID here for us to investigate further.\n\nFor tips on filing great Feedback, refer to the \u003chttps://developer.apple.com/bug-reporting/|Bug Reporting\u003e page and use \u003chttp://feedbackassistant.apple.com|feedbackassistant.apple.com\u003e to submit!",
+          "ts": "1666200238.438759",
+          "thread_ts": "1666199411.694559",
+          "attachments": [
+            {
+              "fallback": "Apple Developer: Bug Reporting - Apple Developer",
+              "id": 1,
+              "title": "Bug Reporting - Apple Developer",
+              "title_link": "https://developer.apple.com/bug-reporting/",
+              "text": "Now with Feedback Assistant available on iPhone, iPad, Mac, and the web, it’s easier to submit effective bug reports and request enhancements to APIs and tools.",
+              "image_url": "https://developer.apple.com/news/images/og/bug-reporting-og.jpg",
+              "service_name": "Apple Developer",
+              "service_icon": "https://developer.apple.com/favicon.ico",
+              "from_url": "https://developer.apple.com/bug-reporting/",
+              "original_url": "https://developer.apple.com/bug-reporting/",
+              "blocks": null
+            }
+          ],
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "VM2",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "If you can, please file a Feedback and provide the Feedback ID here for us to investigate further.\n\nFor tips on filing great Feedback, refer to the "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/bug-reporting/",
+                      "text": "Bug Reporting"
+                    },
+                    {
+                      "type": "text",
+                      "text": " page and use "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://feedbackassistant.apple.com",
+                      "text": "feedbackassistant.apple.com"
+                    },
+                    {
+                      "type": "text",
+                      "text": " to submit!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "74a1f68d-3234-48ff-860c-c428dd7198d2",
+      "type": "message",
+      "user": "U0455R18DT2",
+      "text": ":hourglass_flowing_sand: We’re about halfway through our activity, so keep the great questions coming!",
+      "ts": "1666200471.978299",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "DG9",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "emoji",
+                  "name": "hourglass_flowing_sand",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " We’re about halfway through our activity, so keep the great questions coming!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "859d46df-6c4d-4178-827d-898f7fa2032b",
+      "type": "message",
+      "user": "U0455R18DT2",
+      "text": ":thread: Focus filters are built on top of App Intents, a new framework that empowers your app to interact with Siri and invoke some awesome functionality on the system. What other sorts of Siri interactions are you considering for your app? Let us know in this thread!",
+      "ts": "1666200494.290899",
+      "thread_ts": "1666200494.290899",
+      "reply_count": 3,
+      "latest_reply": "1666201839.622079",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "F7cc",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "emoji",
+                  "name": "thread",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " Focus filters are built on top of App Intents, a new framework that empowers your app to interact with Siri and invoke some awesome functionality on the system. What other sorts of Siri interactions are you considering for your app? Let us know in this thread!"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "46f30d8d-0618-4961-8b8a-92c36b7a3132",
+          "type": "message",
+          "user": "U0455R18DT2",
+          "text": "I’m super excited to see what apps build support for App Shortcuts myself — invoking Shortcuts without any setup works like magic!",
+          "ts": "1666201302.275549",
+          "thread_ts": "1666200494.290899",
+          "parent_user_id": "U0455R18DT2",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "2tBY",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I’m super excited to see what apps build support for App Shortcuts myself — invoking Shortcuts without any setup works like magic!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "b74b0e8f-4085-4f20-9183-63a55ddf5100",
+          "type": "message",
+          "user": "U046S70K9A4",
+          "text": "It’s really neat that App Intents powers Focus filters and App Shortcuts.",
+          "ts": "1666201462.937979",
+          "thread_ts": "1666200494.290899",
+          "parent_user_id": "U0455R18DT2",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "star-struck",
+              "count": 1,
+              "users": [
+                "U0455R18DT2"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "4iES",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "It’s really neat that App Intents powers Focus filters and App Shortcuts."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "93f009ec-0bf2-45ab-9eac-6af02312602c",
+          "type": "message",
+          "user": "U0455R18DT2",
+          "text": "\u003c@U046S70K9A4\u003e totally — App Intents are super powerful. We can’t wait to see what you all build with the framework!",
+          "ts": "1666201839.622079",
+          "thread_ts": "1666200494.290899",
+          "parent_user_id": "U0455R18DT2",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "100",
+              "count": 1,
+              "users": [
+                "U046S70K9A4"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "RGWk",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U046S70K9A4"
+                    },
+                    {
+                      "type": "text",
+                      "text": " totally — App Intents are super powerful. We can’t wait to see what you all build with the framework!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046S70K9A4\u003e asked\n\u0026gt; I've been thinking about an app that could push relevant bits of sound to your AirPods (audio or text-to-speech).  A Focus Filter to control what audio gets through could make a ton of sense here. This may be more of an architecture question, but I don't have a clear mental model of how to use extensions.  Would I need an Intents App Extension to handle the perform() on the FocusFilterIntent?  Or is an Intents extension just for \"legacy\" SiriKit implementations?",
+      "ts": "1666201481.288639",
+      "thread_ts": "1666201481.288639",
+      "subtype": "bot_message",
+      "bot_id": "B043H9MKQ3B",
+      "username": "Ask Apple - focus",
+      "reply_count": 14,
+      "latest_reply": "1666202214.664249",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "1M+x",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046S70K9A4"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"I've been thinking about an app that could push relevant bits of sound to your AirPods (audio or text-to-speech).  A Focus Filter to control what audio gets through could make a ton of sense here. This may be more of an architecture question, but I don't have a clear mental model of how to use extensions.  Would I need an Intents App Extension to handle the perform() on the FocusFilterIntent?  Or is an Intents extension just for \\\"legacy\\\" SiriKit implementations?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "e7fa98c7-27e8-4fc9-a914-c25ae60c1989",
+          "type": "message",
+          "user": "U044G1P1RNF",
+          "text": "An AppIntents extension may be used so perform() can be called by the system while the app is in the background.",
+          "ts": "1666201513.693889",
+          "thread_ts": "1666201481.288639",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "K2T",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "An AppIntents extension may be used so perform() can be called by the system while the app is in the background."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "cf7b0c6e-b803-49fc-b6e7-5a100cdfee32",
+          "type": "message",
+          "user": "U044G1P1RNF",
+          "text": "If the SetFocusFilterIntent conforming object belongs to the app target only, the system does not call its perform() function unless the app is in the foreground.",
+          "ts": "1666201591.916249",
+          "thread_ts": "1666201481.288639",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "6dbU+",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "If the SetFocusFilterIntent conforming object belongs to the app target only, the system does not call its perform() function unless the app is in the foreground."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "502b0596-13c5-4a40-b413-9358db4aa80d",
+          "type": "message",
+          "user": "U044G1P1RNF",
+          "text": "For this case scenario, an AppIntents extension can be used, which is different than the Intents extension used by SiriKit",
+          "ts": "1666201677.301739",
+          "thread_ts": "1666201481.288639",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "RDbbo",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "For this case scenario, an AppIntents extension can be used, which is different than the Intents extension used by SiriKit"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "6ffca720-5022-4ecf-a8c8-413c2303bf38",
+          "type": "message",
+          "user": "U046S70K9A4",
+          "text": "got it!  so an AppIntents extension is it’s own thing, but not listed here? \u003chttps://developer.apple.com/app-extensions/\u003e",
+          "ts": "1666201718.526659",
+          "thread_ts": "1666201481.288639",
+          "attachments": [
+            {
+              "fallback": "Apple Developer: App Extensions - Apple Developer",
+              "id": 1,
+              "title": "App Extensions - Apple Developer",
+              "title_link": "https://developer.apple.com/app-extensions/",
+              "text": "App extensions let you extend custom functionality and content beyond your app and make it available to users while they’re interacting with other apps or the system.",
+              "image_url": "https://developer.apple.com/news/images/og/app-extensions-og.jpg",
+              "service_name": "Apple Developer",
+              "service_icon": "https://developer.apple.com/favicon.ico",
+              "from_url": "https://developer.apple.com/app-extensions/",
+              "original_url": "https://developer.apple.com/app-extensions/",
+              "blocks": null
+            }
+          ],
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "/mT",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "got it!  so an AppIntents extension is it’s own thing, but not listed here? "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/app-extensions/",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "8c16ab19-eb6a-47fc-8656-d81ab18470c0",
+          "type": "message",
+          "user": "U046S70K9A4",
+          "text": "ah i see it in xcode",
+          "ts": "1666201823.680439",
+          "thread_ts": "1666201481.288639",
+          "files": [
+            {
+              "id": "F047Y5U9P5E",
+              "created": 1666201821,
+              "timestamp": 1666201821,
+              "name": "image.png",
+              "title": "image.png",
+              "mimetype": "image/png",
+              "image_exif_rotation": 1,
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "U046S70K9A4",
+              "mode": "hosted",
+              "editable": false,
+              "is_external": false,
+              "external_type": "",
+              "size": 11635,
+              "url": "",
+              "url_download": "",
+              "url_private": "C042KJJ8J4F/F047Y5U9P5E-image.png",
+              "url_private_download": "C042KJJ8J4F/F047Y5U9P5E-image.png",
+              "original_h": 234,
+              "original_w": 242,
+              "thumb_64": "https://files.slack.com/files-tmb/T01PTBJ95PS-F047Y5U9P5E-b5a626a20f/image_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T01PTBJ95PS-F047Y5U9P5E-b5a626a20f/image_80.png",
+              "thumb_160": "https://files.slack.com/files-tmb/T01PTBJ95PS-F047Y5U9P5E-b5a626a20f/image_160.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T01PTBJ95PS-F047Y5U9P5E-b5a626a20f/image_360.png",
+              "thumb_360_gif": "",
+              "thumb_360_w": 242,
+              "thumb_360_h": 234,
+              "thumb_480": "",
+              "thumb_480_w": 0,
+              "thumb_480_h": 0,
+              "thumb_720": "",
+              "thumb_720_w": 0,
+              "thumb_720_h": 0,
+              "thumb_960": "",
+              "thumb_960_w": 0,
+              "thumb_960_h": 0,
+              "thumb_1024": "",
+              "thumb_1024_w": 0,
+              "thumb_1024_h": 0,
+              "permalink": "https://appleevents.enterprise.slack.com/files/U046S70K9A4/F047Y5U9P5E/image.png",
+              "permalink_public": "https://slack-files.com/T01PTBJ95PS-F047Y5U9P5E-07ff1a6f90",
+              "edit_link": "",
+              "preview": "",
+              "preview_highlight": "",
+              "lines": 0,
+              "lines_more": 0,
+              "is_public": false,
+              "public_url_shared": false,
+              "channels": null,
+              "groups": null,
+              "ims": null,
+              "initial_comment": {},
+              "comments_count": 0,
+              "num_stars": 0,
+              "is_starred": false,
+              "shares": {
+                "public": null,
+                "private": null
+              }
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 2,
+              "users": [
+                "U0455R18DT2",
+                "U044G1P1RNF"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "pUIi",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "ah i see it in xcode"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "a4348f45-394a-4f15-9a7c-f53e436aa2a2",
+          "type": "message",
+          "user": "U0455R18DT2",
+          "text": "\u003c@U046S70K9A4\u003e that’s a great callout — seems like it’s missing from that App Extensions page at the moment, woops!",
+          "ts": "1666201875.868059",
+          "thread_ts": "1666201481.288639",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "=BD1s",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U046S70K9A4"
+                    },
+                    {
+                      "type": "text",
+                      "text": " that’s a great callout — seems like it’s missing from that App Extensions page at the moment, woops!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "a689dfac-050f-4336-8215-00459463d19e",
+          "type": "message",
+          "user": "U046S70K9A4",
+          "text": "thanks!  i’ve never made an extension before so I’m putting the pieces together, thanks for helping me unpack that",
+          "ts": "1666201940.102349",
+          "thread_ts": "1666201481.288639",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "seGUq",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "thanks!  i’ve never made an extension before so I’m putting the pieces together, thanks for helping me unpack that"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "4e4bbae4-e3bb-4f97-b407-3ed0670b6463",
+          "type": "message",
+          "user": "U0455R18DT2",
+          "text": "Extensions are super handy — especially ones like the Notification Service Extension that can provide a little extra runtime in the background when you need to process APNs payloads before displaying them",
+          "ts": "1666201970.189999",
+          "thread_ts": "1666201481.288639",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Gac",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Extensions are super handy — especially ones like the Notification Service Extension that can provide a little extra runtime in the background when you need to process APNs payloads before displaying them"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "ef0ea687-ac83-4809-9d33-854761cf251d",
+          "type": "message",
+          "user": "U044G1P1RNF",
+          "text": "yes, thank you! If the SetFocusFilterIntent conforming object belongs to the AppIntents extension target only, the system calls its perform() function even if the app is in the background. Information may then be shared with the app using the App Groups capability or other services.",
+          "ts": "1666201986.086569",
+          "thread_ts": "1666201481.288639",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U0455R18DT2"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "WTdo",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "yes, thank you! If the SetFocusFilterIntent conforming object belongs to the AppIntents extension target only, the system calls its perform() function even if the app is in the background. Information may then be shared with the app using the App Groups capability or other services."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "a88d5a0a-5528-4e9a-ba4c-f5b0af289472",
+          "type": "message",
+          "user": "U0455R18DT2",
+          "text": "In general, an App Extension is a separate process that you have some control over and implements various functionality that can be called by the system when your app may not be running.",
+          "ts": "1666202043.640489",
+          "thread_ts": "1666201481.288639",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "qfQ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "In general, an App Extension is a separate process that you have some control over and implements various functionality that can be called by the system when your app may not be running."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "e41c89d5-e269-4e4c-a298-1662bb118928",
+          "type": "message",
+          "user": "U046S70K9A4",
+          "text": ":pray: so helpful",
+          "ts": "1666202060.351319",
+          "thread_ts": "1666201481.288639",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "partying_face",
+              "count": 2,
+              "users": [
+                "U0455R18DT2",
+                "U044G1P1RNF"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "JxkF",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "pray",
+                      "skin_tone": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": " so helpful"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "8ac73087-1e66-4c97-a21f-e44df723ef1f",
+          "type": "message",
+          "user": "U0455R18DT2",
+          "text": "And as \u003c@U044G1P1RNF\u003e mentioned, your app extensions can access shared app resources to make them even more powerful!",
+          "ts": "1666202075.616589",
+          "thread_ts": "1666201481.288639",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "zVj2",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "And as "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U044G1P1RNF"
+                    },
+                    {
+                      "type": "text",
+                      "text": " mentioned, your app extensions can access shared app resources to make them even more powerful!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "a9642b9b-b3fb-470d-8786-8b90203ddc27",
+          "type": "message",
+          "user": "U046S70K9A4",
+          "text": "i wasn’t familiar with App Groups either! thank you",
+          "ts": "1666202132.169929",
+          "thread_ts": "1666201481.288639",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U044G1P1RNF"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "T1k",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "i wasn’t familiar with App Groups either! thank you"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "ac2f46bb-0ac0-4da3-8ceb-7ec010f5d675",
+          "type": "message",
+          "user": "U044G1P1RNF",
+          "text": "App Extensions do have a few constraints as well. Work done within it must be quick and have a low memory footprint (handle small files or limited data).",
+          "ts": "1666202214.664249",
+          "thread_ts": "1666201481.288639",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 2,
+              "users": [
+                "U046S70K9A4",
+                "U0455R18DT2"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "pWAx",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "App Extensions do have a few constraints as well. Work done within it must be quick and have a low memory footprint (handle small files or limited data)."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U047AP3NB44\u003e asked\n\u0026gt; I am totally new to focus so please forgive my newbie question: Do focus filters require code changes? I have an app that receives VOIP calls - do I need to programmatically do anything to to honor a focus filter or do the focus filters prevent my app from getting VOIP notifications at all?",
+      "ts": "1666202231.985329",
+      "thread_ts": "1666202231.985329",
+      "subtype": "bot_message",
+      "bot_id": "B043H9MKQ3B",
+      "username": "Ask Apple - focus",
+      "reply_count": 8,
+      "latest_reply": "1666202959.546809",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "yV3",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U047AP3NB44"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"I am totally new to focus so please forgive my newbie question: Do focus filters require code changes? I have an app that receives VOIP calls - do I need to programmatically do anything to to honor a focus filter or do the focus filters prevent my app from getting VOIP notifications at all?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "83866ce6-23e9-4894-a43c-6a0cdd88a7af",
+          "type": "message",
+          "user": "U044G1P1RNF",
+          "text": "Great question! Here is how Focus handles VoIP calls:",
+          "ts": "1666202379.301549",
+          "thread_ts": "1666202231.985329",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "b++k",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Great question! Here is how Focus handles VoIP calls:"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "fc494015-12c0-42fc-b35e-8a3eea4b9a90",
+          "type": "message",
+          "user": "U044G1P1RNF",
+          "text": "If a Focus is enabled, the app's VoIP call notification will break through if the app is in the Allow Notifications From list, or if it is not in the Science Notification From list.",
+          "ts": "1666202527.179279",
+          "thread_ts": "1666202231.985329",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "CuuF",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "If a Focus is enabled, the app's VoIP call notification will break through if the app is in the Allow Notifications From list, or if it is not in the Science Notification From list."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "f756e959-ae4f-4590-91ee-1e2444531e2d",
+          "type": "message",
+          "user": "U047AP3NB44",
+          "text": "So the app will not require any focus-specific code in this case?",
+          "ts": "1666202559.868549",
+          "thread_ts": "1666202231.985329",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "BQV",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "So the app will not require any focus-specific code in this case?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "a8a128be-c3c6-41c0-8650-e4adce3574d4",
+          "type": "message",
+          "user": "U044G1P1RNF",
+          "text": "There are a few modifications that can be made to the app to allow certain people.\nFor example, the user may add a contact to the Focus Allow Notifications From list.",
+          "ts": "1666202620.507769",
+          "thread_ts": "1666202231.985329",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "8x6",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "There are a few modifications that can be made to the app to allow certain people.\nFor example, the user may add a contact to the Focus Allow Notifications From list."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "33c5d7e0-ab19-4b90-9b94-38db10b4a2cd",
+          "type": "message",
+          "user": "U047AP3NB44",
+          "text": "That's exactly what I needed to know - thank you!",
+          "ts": "1666202678.336609",
+          "thread_ts": "1666202231.985329",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "bRzRW",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "That's exactly what I needed to know - thank you!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "57303ee2-d62a-4688-9e86-2c7ecfaad9cb",
+          "type": "message",
+          "user": "U044G1P1RNF",
+          "text": "Happy to help. Here is the documentation covering how the app may be modified to let the system know when a particular person is calling: \u003chttps://developer.apple.com/documentation/usernotifications/implementing_communication_notifications/\u003e",
+          "ts": "1666202747.780549",
+          "thread_ts": "1666202231.985329",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "V0dS",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Happy to help. Here is the documentation covering how the app may be modified to let the system know when a particular person is calling: "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/usernotifications/implementing_communication_notifications/",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "cb0d2811-be0e-4001-9d1c-0386e0117cb2",
+          "type": "message",
+          "user": "U047AP3NB44",
+          "text": "Perfect!",
+          "ts": "1666202833.024999",
+          "thread_ts": "1666202231.985329",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "partying_face",
+              "count": 1,
+              "users": [
+                "U044G1P1RNF"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "AeuY",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Perfect!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "c23cac26-22b0-458c-8faf-b8c50596c44f",
+          "type": "message",
+          "user": "U044G1P1RNF",
+          "text": "See the section *Configure a Call Intent.* The app must donate an incoming `INStartCallIntent` whenever an incoming call is received. But it should also donate an outgoing `INStartCallIntent` or `INSendMessageIntent` whenever it calls or sends messages to other users. Outgoing intents let the system know if an incoming `INStartCallIntent` should be considered for break through.",
+          "ts": "1666202959.546809",
+          "thread_ts": "1666202231.985329",
+          "edited": {
+            "user": "U044G1P1RNF",
+            "ts": "1666203119.000000"
+          },
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "pgVlw",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "See the section "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Configure a Call Intent. ",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "The app must donate an incoming "
+                    },
+                    {
+                      "type": "text",
+                      "text": "INStartCallIntent",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " whenever an incoming call is received. But it should also donate an outgoing "
+                    },
+                    {
+                      "type": "text",
+                      "text": "INStartCallIntent",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " or "
+                    },
+                    {
+                      "type": "text",
+                      "text": "INSendMessageIntent",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " whenever it calls or sends messages to other users. Outgoing intents let the system know if an incoming "
+                    },
+                    {
+                      "type": "text",
+                      "text": "INStartCallIntent",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " should be considered for break through."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "66afe23f-d369-4ca5-b3df-9cc41b3d4200",
+      "type": "message",
+      "user": "U0455R18DT2",
+      "text": "That does it for our *Q\u0026amp;A: Focus filters* activities this week. Thank you all so much for taking the time to ask thoughtful questions, and chatting with us about your apps! If we weren’t able to get to your question or address a concern you had, here are some resources to look into next:\n• File Feedback using \u003chttp://feedbackassistant.apple.com/|Feedback Assistant\u003e for any behavior that you feel is unexpected, or even for enhancements you’d like to see in various frameworks and tools!\n• Get code-level support by submitting a \u003chttps://developer.apple.com/support/technical/|Technical Support Incident (TSI)\u003e and receiving support from members of the Developer Technical Support team directly.\n• Check out the \u003chttps://developer.apple.com/forums/|Apple Developer Forums\u003e to interact with other developers from the community, ask questions, or provide help on ones you know the answer to!\nWe’ll be closing this channel’s Q\u0026amp;A workflow now. Thanks again for all your questions, and we hope to hear from you again soon!",
+      "ts": "1666202412.189569",
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "v",
+          "count": 1,
+          "users": [
+            "U046S70K9A4"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "LtF",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "That does it for our "
+                },
+                {
+                  "type": "text",
+                  "text": "Q\u0026A: Focus filters",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " activities this week. Thank you all so much for taking the time to ask thoughtful questions, and chatting with us about your apps! If we weren’t able to get to your question or address a concern you had, here are some resources to look into next:\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_list",
+              "Raw": "{\"type\":\"rich_text_list\",\"elements\":[{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"File Feedback using \"},{\"type\":\"link\",\"url\":\"http:\\/\\/feedbackassistant.apple.com\\/\",\"text\":\"Feedback Assistant\"},{\"type\":\"text\",\"text\":\" for any behavior that you feel is unexpected, or even for enhancements you\\u2019d like to see in various frameworks and tools!\"}]},{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"Get code-level support by submitting a \"},{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/support\\/technical\\/\",\"text\":\"Technical Support Incident (TSI)\"},{\"type\":\"text\",\"text\":\" and receiving support from members of the Developer Technical Support team directly.\"}]},{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"Check out the \"},{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/forums\\/\",\"text\":\"Apple Developer Forums\"},{\"type\":\"text\",\"text\":\" to interact with other developers from the community, ask questions, or provide help on ones you know the answer to!\"}]}],\"style\":\"bullet\",\"indent\":0,\"border\":0}"
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\nWe’ll be closing this channel’s Q\u0026A workflow now. Thanks again for all your questions, and we hope to hear from you again soon!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "25216c06-fe6a-4997-8b24-ddb120d9f493",
+      "type": "message",
+      "user": "U0455R18DT2",
+      "text": "We’re going to keep the threads open for a bit to follow up with you all on your questions above, so stick around for a bit if you can to chat with us in those threads!",
+      "ts": "1666202471.893199",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Gck2X",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "We’re going to keep the threads open for a bit to follow up with you all on your questions above, so stick around for a bit if you can to chat with us in those threads!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "channel_id": "C042KJJ8J4F"
+}

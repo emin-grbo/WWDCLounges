@@ -1,0 +1,3607 @@
+{
+  "name": "carplay",
+  "messages": [
+    {
+      "type": "message",
+      "user": "U03V30M0C1K",
+      "text": "This content can't be displayed.",
+      "ts": "1665433077.853139",
+      "pinned_to": [
+        "C042KCM2Z8F"
+      ],
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "eyes",
+          "count": 2,
+          "users": [
+            "U046JAXFK3K",
+            "U04636Y7AEN"
+          ]
+        },
+        {
+          "name": "car",
+          "count": 1,
+          "users": [
+            "U045NKLC6SK"
+          ]
+        },
+        {
+          "name": "raised_hands",
+          "count": 1,
+          "users": [
+            "U045XHKGPU6"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "header",
+          "text": {
+            "type": "plain_text",
+            "text": "Welcome to Ask Apple",
+            "emoji": true
+          },
+          "block_id": "xU61"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "We're excited to be hosting you in the CarPlay channel this week! You can find the full schedule of Q\u0026amp;As for CarPlay by visiting the \u003chttps://apps.apple.com/us/app/apple-developer/id640199958 | Apple Developer app\u003e and \u003chttps://developer.apple.com/events/ask-apple/questions-and-answers/ | website\u003e."
+          },
+          "block_id": "nGovS"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "If you haven’t already, please take a moment to familiarize yourself with \u003chttps://developer.apple.com/news/?id=vpbyzfg4 | how Q\u0026amp;As will work\u003e."
+          },
+          "block_id": "JTmdv"
+        },
+        {
+          "type": "header",
+          "text": {
+            "type": "plain_text",
+            "text": "Attendance Policy",
+            "emoji": true
+          },
+          "block_id": "6irRW"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "We want to make sure these spaces are helpful and welcoming for everyone — developers and Apple employees alike. Please review and follow the \u003chttps://developer.apple.com/events/policy/online-event-attendance-policy/ | attendance policy\u003e."
+          },
+          "block_id": "P+P2R"
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03V30M0C1K\u003e added a workflow to this channel: *Ask Apple - carplay*.",
+      "ts": "1666018925.079299",
+      "subtype": "bot_message",
+      "bot_id": "B043H6X4KR7",
+      "username": "Ask Apple - carplay",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "WUkUR",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03V30M0C1K"
+                },
+                {
+                  "type": "text",
+                  "text": " added a workflow to this channel: "
+                },
+                {
+                  "type": "text",
+                  "text": "Ask Apple - carplay",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "dd46b3da-cc17-49f0-a41e-07f1c5994787",
+      "type": "message",
+      "user": "U04561L5UCQ",
+      "text": "Hey folks! :wave: Thank you for joining us for Ask Apple.\nWe’re excited to kick off a CarPlay Q\u0026amp;A, beginning at 11:00am PT on Wednesday. We hope you can join us live! You can begin sending in your CarPlay questions now. Select the:heavy_plus_sign:icon from the lower left, and find the _Ask A Question_ workflow. Type in your question and it will be delivered directly to the team. We’ll answer as many questions as we can during the 60 minute event on Wednesday.\nAlso, if you have some time before then, be sure to check out the CarPlay video from WWDC22, _Get more mileage out of your app with CarPlay_.\n\u003chttps://developer.apple.com/videos/play/wwdc2022/10016/\u003e",
+      "ts": "1666044190.921049",
+      "attachments": [
+        {
+          "fallback": "Apple Developer: Get more mileage out of your app with CarPlay - WWDC22 - Videos - Apple Developer",
+          "id": 1,
+          "title": "Get more mileage out of your app with CarPlay - WWDC22 - Videos - Apple Developer",
+          "title_link": "https://developer.apple.com/videos/play/wwdc2022/10016/",
+          "text": "CarPlay is a smarter, safer way to use your iPhone while you drive. Learn about the latest app types for CarPlay and discover how the...",
+          "image_url": "https://devimages-cdn.apple.com/wwdc-services/images/124/6508/6508_wide_250x141_2x.jpg",
+          "service_name": "Apple Developer",
+          "service_icon": "https://developer.apple.com/favicon.ico",
+          "from_url": "https://developer.apple.com/videos/play/wwdc2022/10016/",
+          "original_url": "https://developer.apple.com/videos/play/wwdc2022/10016/",
+          "blocks": null
+        }
+      ],
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "tada",
+          "count": 8,
+          "users": [
+            "U03V30M0C1K",
+            "U044GA91BM0",
+            "U046UGYR74G",
+            "U04678YRK98",
+            "U046JJACQ3H",
+            "U0465R7QB3N",
+            "U045BCE6HC6",
+            "U046L9V1ZKQ"
+          ]
+        },
+        {
+          "name": "car",
+          "count": 7,
+          "users": [
+            "U045WKSHZS5",
+            "U0471G9UNPJ",
+            "U045VJUSVCN",
+            "U04678YRK98",
+            "U046JJACQ3H",
+            "U0465R7QB3N",
+            "U045BCE6HC6"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "5UDx",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey folks! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "wave",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " Thank you for joining us for Ask Apple.\nWe’re excited to kick off a CarPlay Q\u0026A, beginning at 11:00am PT on Wednesday. We hope you can join us live! You can begin sending in your CarPlay questions now. Select the"
+                },
+                {
+                  "type": "emoji",
+                  "name": "heavy_plus_sign",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": "icon from the lower left, and find the "
+                },
+                {
+                  "type": "text",
+                  "text": "Ask A Question",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " workflow. Type in your question and it will be delivered directly to the team. We’ll answer as many questions as we can during the 60 minute event on Wednesday.\nAlso, if you have some time before then, be sure to check out the CarPlay video from WWDC22, "
+                },
+                {
+                  "type": "text",
+                  "text": "Get more mileage out of your app with CarPlay",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ".\n"
+                },
+                {
+                  "type": "link",
+                  "url": "https://developer.apple.com/videos/play/wwdc2022/10016/",
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "0ea48625-58a5-4af1-973f-99f526aad10f",
+      "type": "message",
+      "user": "U044GA91BM0",
+      "text": "Greetings CarPlay enthusiasts! :racing_car: We will begin answering you burning hot questions in 10 minutes! Some of you may have already submitted questions and we will be answering all the questions we can in the order they come so please be patient as we prepare the best possible answer to your amazing questions! We look forward to seeing what kind of questions you have for us but watch out! We might be asking some questions of our own too :wink:",
+      "ts": "1666201800.787709",
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "car",
+          "count": 6,
+          "users": [
+            "U03V30M0C1K",
+            "U046JJACQ3H",
+            "U045WKSHZS5",
+            "U045BCE6HC6",
+            "U045HTZNN2X",
+            "U044G4A966N"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "gwL",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Greetings CarPlay enthusiasts! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "racing_car",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " We will begin answering you burning hot questions in 10 minutes! Some of you may have already submitted questions and we will be answering all the questions we can in the order they come so please be patient as we prepare the best possible answer to your amazing questions! We look forward to seeing what kind of questions you have for us but watch out! We might be asking some questions of our own too "
+                },
+                {
+                  "type": "emoji",
+                  "name": "wink",
+                  "skin_tone": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "e7c6d416-42b5-472a-a748-a639b238ca82",
+      "type": "message",
+      "user": "U044GA91BM0",
+      "text": "Welcome to the CarPlay Q\u0026amp;A! We’re excited to answer your questions! Select the:heavy_plus_sign:icon from the lower left, and find the _Ask A Question_ workflow. Type in your question and it will be delivered directly to the team. We’ll answer as many questions as we can. While it’s unlikely we’ll be able to address every question, all your submissions are valuable; thank you for taking the time! :rocket:\n\nLet’s kick it off! :racing_car::dash:",
+      "ts": "1666202401.020619",
+      "edited": {
+        "user": "U044GA91BM0",
+        "ts": "1666202429.000000"
+      },
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "tH9Y",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Welcome to the CarPlay Q\u0026A! We’re excited to answer your questions! Select the"
+                },
+                {
+                  "type": "emoji",
+                  "name": "heavy_plus_sign",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": "icon from the lower left, and find the "
+                },
+                {
+                  "type": "text",
+                  "text": "Ask A Question",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " workflow. Type in your question and it will be delivered directly to the team. We’ll answer as many questions as we can. While it’s unlikely we’ll be able to address every question, all your submissions are valuable; thank you for taking the time! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "rocket",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": "\n\nLet’s kick it off! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "racing_car",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "emoji",
+                  "name": "dash",
+                  "skin_tone": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046JAXFK3K\u003e asked\n\u0026gt; Is it on purpose that the progress bar in the Now Playing Template is not interactive even if the `changePlaybackPositionCommand` is enabled?",
+      "ts": "1666202573.049539",
+      "thread_ts": "1666202573.049539",
+      "subtype": "bot_message",
+      "bot_id": "B043H6X4KR7",
+      "username": "Ask Apple - carplay",
+      "reply_count": 1,
+      "latest_reply": "1666202750.193149",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Ojw",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046JAXFK3K"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Is it on purpose that the progress bar in the Now Playing Template is not interactive even if the `changePlaybackPositionCommand` is enabled?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "e5f69fc0-0ee9-4940-9dd5-4bb55b6a3bcc",
+          "type": "message",
+          "user": "U04561L5UCQ",
+          "text": "That's correct, the progress bar is designed to be non-interactive in CarPlay so it is \"read only\" on the screen. If you have thoughts here definitely file a request via Feedback Assistant request.",
+          "ts": "1666202750.193149",
+          "thread_ts": "1666202573.049539",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "pfLP",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "That's correct, the progress bar is designed to be non-interactive in CarPlay so it is \"read only\" on the screen. If you have thoughts here definitely file a request via Feedback Assistant request."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0464Q0CQAX\u003e asked\n\u0026gt; How to display a spinner when using CarPlay framework? According to HiG, we should display a spinner instead of an empty screen, while loading content. However, the developer guidance points towards `UIActivityIndicatorView` which cannot be used when working with the CarPlay framework. For list templates, each list item will display a spinner, if the user presses item and the completion handler passed to the `handler` closure is not invoked after a grace period. Unfortunately, there seems to be no API to show a full page spinner while loading content for an entire page (such as the root template or one of the tab templates in a tab based CarPlay app)",
+      "ts": "1666202640.263319",
+      "thread_ts": "1666202640.263319",
+      "subtype": "bot_message",
+      "bot_id": "B043H6X4KR7",
+      "username": "Ask Apple - carplay",
+      "reply_count": 1,
+      "latest_reply": "1666202909.418439",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "6eRRq",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0464Q0CQAX"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"How to display a spinner when using CarPlay framework? According to HiG, we should display a spinner instead of an empty screen, while loading content. However, the developer guidance points towards `UIActivityIndicatorView` which cannot be used when working with the CarPlay framework. For list templates, each list item will display a spinner, if the user presses item and the completion handler passed to the `handler` closure is not invoked after a grace period. Unfortunately, there seems to be no API to show a full page spinner while loading content for an entire page (such as the root template or one of the tab templates in a tab based CarPlay app)\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "b23494be-34e7-40c4-a365-eac72aceb2e6",
+          "type": "message",
+          "user": "U045WKSHZS5",
+          "text": "This would be a great enhancement to file! Please file a feedback report for this. In the meantime, you could use the alert template (which can show buttons) or the voice control template (which can be configured with a simple animated image) to convey a “waiting” state to the user.",
+          "ts": "1666202909.418439",
+          "thread_ts": "1666202640.263319",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "DK4",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "This would be a great enhancement to file! Please file a feedback report for this. In the meantime, you could use the alert template (which can show buttons) or the voice control template (which can be configured with a simple animated image) to convey a “waiting” state to the user."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046VFZ8G72\u003e asked\n\u0026gt; Is there any way to check if a (audio) app is running with CarPlay (and/or to detect when CarPlay is activated)? Initialization can be slightly different depending on the context and knowing it could be useful.",
+      "ts": "1666202881.571129",
+      "thread_ts": "1666202881.571129",
+      "subtype": "bot_message",
+      "bot_id": "B043H6X4KR7",
+      "username": "Ask Apple - carplay",
+      "reply_count": 3,
+      "latest_reply": "1666203101.448779",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "5Q92",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046VFZ8G72"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Is there any way to check if a (audio) app is running with CarPlay (and\\/or to detect when CarPlay is activated)? Initialization can be slightly different depending on the context and knowing it could be useful.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "e98695d8-5f8f-4718-86a4-2c0cd1363420",
+          "type": "message",
+          "user": "U045WKSHZS5",
+          "text": "If your app is using templates, you can use the `CPInterfaceControllerDelegate` methods to be notified when your app is launched in CarPlay. And if you’re not using templates, now is a great time to migrate :slightly_smiling_face:",
+          "ts": "1666202949.514659",
+          "thread_ts": "1666202881.571129",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "gratitude-grazie",
+              "count": 1,
+              "users": [
+                "U046VFZ8G72"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "VJn",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "If your app is using templates, you can use the "
+                    },
+                    {
+                      "type": "text",
+                      "text": "CPInterfaceControllerDelegate",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " methods to be notified when your app is launched in CarPlay. And if you’re not using templates, now is a great time to migrate "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "f16c8780-5010-4d8b-af42-89cf35c91c02",
+          "type": "message",
+          "user": "U045LEBNATE",
+          "text": "Implementing `CPTemplateApplicationSceneDelegate` :\n\u003chttps://developer.apple.com/documentation/carplay/cptemplateapplicationscenedelegate\u003e\n… will let your app know when a CarPlay scene connects or disconnects. If your audio app is using `MPPlayableContentManager` instead of `CarPlay.framework`, adopting `CarPlay.framework` will let your app use `CPTemplateApplicationSceneDelegate` .",
+          "ts": "1666203018.193139",
+          "thread_ts": "1666202881.571129",
+          "edited": {
+            "user": "U045LEBNATE",
+            "ts": "1666203079.000000"
+          },
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "gratitude-grazie",
+              "count": 1,
+              "users": [
+                "U046VFZ8G72"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "u38",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Implementing "
+                    },
+                    {
+                      "type": "text",
+                      "text": "CPTemplateApplicationSceneDelegate",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " :\n"
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/carplay/cptemplateapplicationscenedelegate",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n… will let your app know when a CarPlay scene connects or disconnects. If your audio app is using "
+                    },
+                    {
+                      "type": "text",
+                      "text": "MPPlayableContentManager",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " instead of "
+                    },
+                    {
+                      "type": "text",
+                      "text": "CarPlay.framework",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ", adopting "
+                    },
+                    {
+                      "type": "text",
+                      "text": "CarPlay.framework",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " will let your app use "
+                    },
+                    {
+                      "type": "text",
+                      "text": "CPTemplateApplicationSceneDelegate",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " ."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "6374879a-c9ad-4a43-adfe-044bda0908b6",
+          "type": "message",
+          "user": "U045LEBNATE",
+          "text": "Which is similar to what Jonathan said above, but with more red text.",
+          "ts": "1666203101.448779",
+          "thread_ts": "1666202881.571129",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "raised_hands",
+              "count": 1,
+              "users": [
+                "U045HTUUN1Z"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "xvI8q",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Which is similar to what Jonathan said above, but with more red text."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046JAXFK3K\u003e asked\n\u0026gt; I am trying to use `trailingNavigationBarButtons` for a list template but if my template title is too long the button get squashed or is completely hidden. Can I force CarPlay to show my button? The same goes for using a text button (it's either just ... or completely gone). The template title label's seems to have a much higher priority",
+      "ts": "1666202981.323959",
+      "thread_ts": "1666202981.323959",
+      "subtype": "bot_message",
+      "bot_id": "B043H6X4KR7",
+      "username": "Ask Apple - carplay",
+      "reply_count": 1,
+      "latest_reply": "1666203024.433979",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "qiEj",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046JAXFK3K"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"I am trying to use `trailingNavigationBarButtons` for a list template but if my template title is too long the button get squashed or is completely hidden. Can I force CarPlay to show my button? The same goes for using a text button (it's either just ... or completely gone). The template title label's seems to have a much higher priority\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "f7b4302a-825c-4c1d-932e-aba94461f7a4",
+          "type": "message",
+          "user": "U045WKSHZS5",
+          "text": "The title is definitely taking priority here, and different car screens will have different amounts of real estate to show the title. It might be best to prefer a shorter title whenever possible, and this would also be a great topic for a feedback report! Please do file one for this.",
+          "ts": "1666203024.433979",
+          "thread_ts": "1666202981.323959",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "BPu",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "The title is definitely taking priority here, and different car screens will have different amounts of real estate to show the title. It might be best to prefer a shorter title whenever possible, and this would also be a great topic for a feedback report! Please do file one for this."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046G17N76V\u003e asked\n\u0026gt; Can you explain the interface between CarPlay 2.0 and ApplePay as it relates to the fuel purchase use case? \n\u0026gt; \n\u0026gt; Published reports indicate that CarPlay 2.0 will allow a user to pay for gasoline and start an Automated Fuel Dispenser (AFD).  How will that be accomplished in the absence of a near-field communication device or terminal, which only operates within 10 cm?  Is the communication through ApplePay’s payment processing system? Is there another communication device involved, which identifies the vehicle that is being refueled to and with an AFD, so as to minimize fraud? Will CarPlay 2.0 have its own modules for ensuring PCI DSS compliance?",
+      "ts": "1666203116.443299",
+      "thread_ts": "1666203116.443299",
+      "subtype": "bot_message",
+      "bot_id": "B043H6X4KR7",
+      "username": "Ask Apple - carplay",
+      "reply_count": 4,
+      "latest_reply": "1666205058.675869",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "3QgYv",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046G17N76V"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Can you explain the interface between CarPlay 2.0 and ApplePay as it relates to the fuel purchase use case? \\n\\nPublished reports indicate that CarPlay 2.0 will allow a user to pay for gasoline and start an Automated Fuel Dispenser (AFD).  How will that be accomplished in the absence of a near-field communication device or terminal, which only operates within 10 cm?  Is the communication through ApplePay\\u2019s payment processing system? Is there another communication device involved, which identifies the vehicle that is being refueled to and with an AFD, so as to minimize fraud? Will CarPlay 2.0 have its own modules for ensuring PCI DSS compliance?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "8294f151-b869-4945-8209-48aa7953f7ec",
+          "type": "message",
+          "user": "U04561L5UCQ",
+          "text": "In iOS 16 we introduced support for CarPlay fueling apps. CarPlay fueling apps can show information about nearby fueling stations and provide on-screen UI for more functions. CarPlay fueling apps are meant for features that need to appear on the vehicle screen. Actions that happen outside the car are best accomplished on iPhone itself.",
+          "ts": "1666203388.999019",
+          "thread_ts": "1666203116.443299",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "sNS87",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "In iOS 16 we introduced support for CarPlay fueling apps. CarPlay fueling apps can show information about nearby fueling stations and provide on-screen UI for more functions. CarPlay fueling apps are meant for features that need to appear on the vehicle screen. Actions that happen outside the car are best accomplished on iPhone itself."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "9c7359c1-6c37-4985-beed-eacb6fc61d88",
+          "type": "message",
+          "user": "U046G17N76V",
+          "text": "The WWDC2022 videos indicate that the user will be able to engage the fuel pump from CarPlay without leaving their car.  So, that implies that CarPlay will have functionality that communicates with the Automated Fuel Dispenser.\n\nDoes your answer imply that CarPlay only supplies an additional GUI and the fuel purchasing functionality is via a module operating on the iPhone?  If so, can you identify that module?",
+          "ts": "1666203708.498819",
+          "thread_ts": "1666203116.443299",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "K=vg",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "The WWDC2022 videos indicate that the user will be able to engage the fuel pump from CarPlay without leaving their car.  So, that implies that CarPlay will have functionality that communicates with the Automated Fuel Dispenser.\n\nDoes your answer imply that CarPlay only supplies an additional GUI and the fuel purchasing functionality is via a module operating on the iPhone?  If so, can you identify that module?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "5dbc9484-eb5d-4841-98c4-8cf4a9a9b4e9",
+          "type": "message",
+          "user": "U046G17N76V",
+          "text": "In addition, this report says “\u003chttps://hypebeast.com/tags/apple|Apple\u003e will be bringing a new update to \u003chttps://hypebeast.com/tags/apple-carplay|CarPlay\u003e that lets users pay for gas. The company originally teased the feature at \u003chttps://hypebeast.com/tags/wwdc|WWDC\u003e earlier this month. Now, energy company HF Sinclair has shared its plans to roll out the feature at gas stations across the United States.”\n\n\u003chttps://hypebeast.com/2022/7/apple-carplay-gas-payment-feature\u003e\n\nCan other developers have access to the same technical specifications to which HF Sinclair and its developers have access with regard to CarPlay?  It seems that spec was already available to some developers.",
+          "ts": "1666204801.122549",
+          "thread_ts": "1666203116.443299",
+          "attachments": [
+            {
+              "fallback": "HYPEBEAST: Apple Will Soon Let Drivers Pay for Gas From Inside Their Car",
+              "id": 1,
+              "title": "Apple Will Soon Let Drivers Pay for Gas From Inside Their Car",
+              "title_link": "https://hypebeast.com/2022/7/apple-carplay-gas-payment-feature",
+              "text": "Apple is working with an energy company to develop an app for the service.",
+              "image_url": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F07%2FApple-Will-Soon-Let-Drivers-Pay-for-Gas-From-Inside-Their-Car-tw.jpg?w=960\u0026cbr=1\u0026q=90\u0026fit=max",
+              "service_name": "HYPEBEAST",
+              "service_icon": "https://static.hypebeast.com/dist/hypebeast/favicon/apple-touch-icon-57x57.png?v4",
+              "from_url": "https://hypebeast.com/2022/7/apple-carplay-gas-payment-feature",
+              "original_url": "https://hypebeast.com/2022/7/apple-carplay-gas-payment-feature",
+              "blocks": null,
+              "ts": 1656946990
+            }
+          ],
+          "edited": {
+            "user": "U046G17N76V",
+            "ts": "1666204858.000000"
+          },
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "eznP",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "In addition, this report says “"
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hypebeast.com/tags/apple",
+                      "text": "Apple"
+                    },
+                    {
+                      "type": "text",
+                      "text": " will be bringing a new update to "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hypebeast.com/tags/apple-carplay",
+                      "text": "CarPlay"
+                    },
+                    {
+                      "type": "text",
+                      "text": " that lets users pay for gas. The company originally teased the feature at "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hypebeast.com/tags/wwdc",
+                      "text": "WWDC"
+                    },
+                    {
+                      "type": "text",
+                      "text": " earlier this month. Now, energy company HF Sinclair has shared its plans to roll out the feature at gas stations across the United States.”\n\n"
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://hypebeast.com/2022/7/apple-carplay-gas-payment-feature",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nCan other developers have access to the same technical specifications to which HF Sinclair and its developers have access with regard to CarPlay?  It seems that spec was already available to some developers."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "3dfad737-1a01-4710-b3b2-4fad7d408fc8",
+          "type": "message",
+          "user": "U04561L5UCQ",
+          "text": "Yes, CarPlay is the UI but the app is still running on iPhone and relies on iPhone hardware (e.g. Bluetooth, 5G, etc.). I'm not familiar with the details of the Sinclair case, but as examples, we have seen fueling apps on iPhone that communicate with infrastructure via cellular communication.",
+          "ts": "1666205058.675869",
+          "thread_ts": "1666203116.443299",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "qlBW",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yes, CarPlay is the UI but the app is still running on iPhone and relies on iPhone hardware (e.g. Bluetooth, 5G, etc.). I'm not familiar with the details of the Sinclair case, but as examples, we have seen fueling apps on iPhone that communicate with infrastructure via cellular communication."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046LCTKWKY\u003e asked\n\u0026gt; At WWDC 22 you presented a new CarPlay experience that will be available in cars end of next year. When can we as developers expect to get more informations and a simulator for it, in order to implement the new features and give the users the best possible experience from day one?",
+      "ts": "1666203126.404509",
+      "thread_ts": "1666203126.404509",
+      "subtype": "bot_message",
+      "bot_id": "B043H6X4KR7",
+      "username": "Ask Apple - carplay",
+      "reply_count": 2,
+      "latest_reply": "1666204090.475579",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "SVy9m",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046LCTKWKY"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"At WWDC 22 you presented a new CarPlay experience that will be available in cars end of next year. When can we as developers expect to get more informations and a simulator for it, in order to implement the new features and give the users the best possible experience from day one?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "ff99a38e-ccab-4cff-81a5-76a53c9b0ec4",
+          "type": "message",
+          "user": "U04561L5UCQ",
+          "text": "At WWDC 2022 we introduced a sneak peak of the next generation of CarPlay, a fully integrated, immersive experience. We're really excited it and look forward to sharing more information closer to the release date.",
+          "ts": "1666203637.985919",
+          "thread_ts": "1666203126.404509",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 2,
+              "users": [
+                "U046LCTKWKY",
+                "U046L9V1ZKQ"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "PNN",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "At WWDC 2022 we introduced a sneak peak of the next generation of CarPlay, a fully integrated, immersive experience. We're really excited it and look forward to sharing more information closer to the release date."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "f95147b4-0252-433f-97b5-f636a4d1d01f",
+          "type": "message",
+          "user": "U046LCTKWKY",
+          "text": "I’m looking forward to the release :racing_car:",
+          "ts": "1666204090.475579",
+          "thread_ts": "1666203126.404509",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U04561L5UCQ"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "J/bG",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I’m looking forward to the release "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "racing_car",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0463LANS4A\u003e asked\n\u0026gt; Is it possible to integrate with CarPlay from third party tools like Microsoft Xamarin/MAUI?  Also, is it possible to pass a predetermined route to the iPhone map, we can currently only pass the destination, which doesn't work for our use case.",
+      "ts": "1666203239.969539",
+      "thread_ts": "1666203239.969539",
+      "subtype": "bot_message",
+      "bot_id": "B043H6X4KR7",
+      "username": "Ask Apple - carplay",
+      "reply_count": 2,
+      "latest_reply": "1666203413.060559",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "3mWR",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0463LANS4A"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Is it possible to integrate with CarPlay from third party tools like Microsoft Xamarin\\/MAUI?  Also, is it possible to pass a predetermined route to the iPhone map, we can currently only pass the destination, which doesn't work for our use case.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "82f2c732-6e14-40f2-b043-fd83ebed891e",
+          "type": "message",
+          "user": "U045WKSHZS5",
+          "text": "CarPlay.framework should be available in any third-party IDE, just like any other iOS framework. For specific questions on a particular IDE, you should follow up with the IDE developer.",
+          "ts": "1666203268.945729",
+          "thread_ts": "1666203239.969539",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "YJ3uf",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "CarPlay.framework should be available in any third-party IDE, just like any other iOS framework. For specific questions on a particular IDE, you should follow up with the IDE developer."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "3d073fc3-4bfb-4e4b-ac03-b6b280c822bd",
+          "type": "message",
+          "user": "U045WKSHZS5",
+          "text": "Please file feedback about URL support for passing a route to Apple Maps! Currently I believe only passing a destination (with address, or lat/lng) is supported.",
+          "ts": "1666203413.060559",
+          "thread_ts": "1666203239.969539",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Unh+B",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Please file feedback about URL support for passing a route to Apple Maps! Currently I believe only passing a destination (with address, or lat/lng) is supported."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046UB2ATK5\u003e asked\n\u0026gt; What's the correct Template for rendering a custom map, but without navigation capabilities? The UI of our product basically consists of an enriched map view (where shadows will be during the day) where the user is allowed to zoom/pan and an additional pair of +/- buttons. This allows the user to change the time of day in certain intervals",
+      "ts": "1666203247.459039",
+      "thread_ts": "1666203247.459039",
+      "subtype": "bot_message",
+      "bot_id": "B043H6X4KR7",
+      "username": "Ask Apple - carplay",
+      "reply_count": 1,
+      "latest_reply": "1666203260.702679",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "rQT",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046UB2ATK5"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"What's the correct Template for rendering a custom map, but without navigation capabilities? The UI of our product basically consists of an enriched map view (where shadows will be during the day) where the user is allowed to zoom\\/pan and an additional pair of +\\/- buttons. This allows the user to change the time of day in certain intervals\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "1da49277-9b00-47f0-b44c-41cf35238d5c",
+          "type": "message",
+          "user": "U045LEBNATE",
+          "text": "Custom maps in CarPlay are limited to apps that provide turn-by-turn navigation.",
+          "ts": "1666203260.702679",
+          "thread_ts": "1666203247.459039",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "8GoGl",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Custom maps in CarPlay are limited to apps that provide turn-by-turn navigation."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046LCTKWKY\u003e asked\n\u0026gt; In the Point of Interest template, is it possible, that the map region follows automatically the car’s current position? I would like, that the user always sees the Points of Interest around his position, even when he is moving, without always tapping the location button.",
+      "ts": "1666203253.071689",
+      "thread_ts": "1666203253.071689",
+      "subtype": "bot_message",
+      "bot_id": "B043H6X4KR7",
+      "username": "Ask Apple - carplay",
+      "reply_count": 4,
+      "latest_reply": "1666204967.957389",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "/zHv",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046LCTKWKY"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"In the Point of Interest template, is it possible, that the map region follows automatically the car\\u2019s current position? I would like, that the user always sees the Points of Interest around his position, even when he is moving, without always tapping the location button.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "afbf52f0-1248-49ff-9fe6-a33c9b724aa9",
+          "type": "message",
+          "user": "U045BC9CC06",
+          "text": "The POI template region will change as application updates the nearby Points of Interests using -[CPPointOfInterestTemplate setPointsOfInterest:selectedIndex]. The idea being the application can track the current location and update the template as needed.",
+          "ts": "1666203454.507639",
+          "thread_ts": "1666203253.071689",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "HMQ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "The POI template region will change as application updates the nearby Points of Interests using -[CPPointOfInterestTemplate setPointsOfInterest:selectedIndex]. The idea being the application can track the current location and update the template as needed."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "33f8ec8b-d57a-41a6-bf50-d320a67d4087",
+          "type": "message",
+          "user": "U046LCTKWKY",
+          "text": "So you mean, after setting the Points of Interests, the delegate method pointOfInterestTemplate(pointOfInterestTemplate: didChangeMapRegion) gets triggered with the actualized region?",
+          "ts": "1666203738.986389",
+          "thread_ts": "1666203253.071689",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "m9V",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "So you mean, after setting the Points of Interests, the delegate method pointOfInterestTemplate(pointOfInterestTemplate: didChangeMapRegion) gets triggered with the actualized region?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "5503d140-308b-41aa-87a3-b041323adb51",
+          "type": "message",
+          "user": "U045BC9CC06",
+          "text": "These are two unqiue use cases:\n\nThe application can automatically adjust the visible map region by updating the template with a new list of POIs using -setPointsOfInterest:.  Here the app can track location, if moving, and periodically update with nearby POIs.\n\nSecondly, if the user interacts with the (CarPlay screen) template using pan/zoom, the delegate -didChangeMapRegion will be called and allow the application to refresh the displayed POIs for that new map region.",
+          "ts": "1666204286.646539",
+          "thread_ts": "1666203253.071689",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "pray",
+              "count": 1,
+              "users": [
+                "U046LCTKWKY"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "dEqy",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "These are two unqiue use cases:\n\nThe application can automatically adjust the visible map region by updating the template with a new list of POIs using -setPointsOfInterest:.  Here the app can track location, if moving, and periodically update with nearby POIs.\n\nSecondly, if the user interacts with the (CarPlay screen) template using pan/zoom, the delegate -didChangeMapRegion will be called and allow the application to refresh the displayed POIs for that new map region."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "85d95d96-3212-4cd6-8263-41c9768909c1",
+          "type": "message",
+          "user": "U046LCTKWKY",
+          "text": "Thank you very much! I’ll try to use that in my app! :slightly_smiling_face:",
+          "ts": "1666204967.957389",
+          "thread_ts": "1666203253.071689",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "5sXsZ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thank you very much! I’ll try to use that in my app! "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "5d880982-f955-4f4b-979d-95b34f600a7b",
+      "type": "message",
+      "user": "U044GA91BM0",
+      "text": "Hey CarPlay fans! For those of you who drive, what vehicle did you first learn to drive in?\nI'll go first! I learned to drive in a 2007 Toyota Camry :star-struck:",
+      "ts": "1666203600.773169",
+      "thread_ts": "1666203600.773169",
+      "reply_count": 9,
+      "latest_reply": "1666204469.434779",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "yD35",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey CarPlay fans! For those of you who drive, what vehicle did you first learn to drive in?\nI'll go first! I learned to drive in a 2007 Toyota Camry "
+                },
+                {
+                  "type": "emoji",
+                  "name": "star-struck",
+                  "skin_tone": 0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "c4ece111-cd82-45f1-a829-78b90377e495",
+          "type": "message",
+          "user": "U045HTZNN2X",
+          "text": "2005 Toyota Highlander!",
+          "ts": "1666203689.298619",
+          "thread_ts": "1666203600.773169",
+          "parent_user_id": "U044GA91BM0",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "heart",
+              "count": 1,
+              "users": [
+                "U044GA91BM0"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "/7YFN",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "2005 Toyota Highlander!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "E14B1110-B10C-4E26-97B0-4A1C1E18F2FD",
+          "type": "message",
+          "user": "U046JJACQ3H",
+          "text": "2016 SEAT Leon! :car:",
+          "ts": "1666203847.141409",
+          "thread_ts": "1666203600.773169",
+          "parent_user_id": "U044GA91BM0",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "heart",
+              "count": 1,
+              "users": [
+                "U044GA91BM0"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "fl+8",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "2016 SEAT Leon! "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "car",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "b5798906-600e-4d6d-bf27-0791847b1e5d",
+          "type": "message",
+          "user": "U046HFVT8KB",
+          "text": "Also Toyota Camry but a bit older, 1986.",
+          "ts": "1666203850.919949",
+          "thread_ts": "1666203600.773169",
+          "edited": {
+            "user": "U046HFVT8KB",
+            "ts": "1666203869.000000"
+          },
+          "parent_user_id": "U044GA91BM0",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "heart",
+              "count": 1,
+              "users": [
+                "U044GA91BM0"
+              ]
+            },
+            {
+              "name": "open_mouth",
+              "count": 1,
+              "users": [
+                "U044GA91BM0"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "/lSn",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Also Toyota Camry but a bit older, 1986."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "ad488192-9f14-4f43-a4de-735c8a5284a0",
+          "type": "message",
+          "user": "U045BCE6HC6",
+          "text": "2006 Toyota Prius in bright baby blue :blue_car:",
+          "ts": "1666203877.765959",
+          "thread_ts": "1666203600.773169",
+          "edited": {
+            "user": "U045BCE6HC6",
+            "ts": "1666204005.000000"
+          },
+          "parent_user_id": "U044GA91BM0",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "heart",
+              "count": 1,
+              "users": [
+                "U044GA91BM0"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "LV5nq",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "2006 Toyota Prius in bright baby blue "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "blue_car",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "9c37e3b0-e074-4469-ae04-61b8c7470dff",
+          "type": "message",
+          "user": "U045WKSHZS5",
+          "text": "2002 Honda CR-V :car:",
+          "ts": "1666203897.854959",
+          "thread_ts": "1666203600.773169",
+          "parent_user_id": "U044GA91BM0",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "heart",
+              "count": 1,
+              "users": [
+                "U044GA91BM0"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "nr6Cq",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "2002 Honda CR-V "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "car",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "c53a64a7-1fc9-49a6-a481-c69b1cde45c9",
+          "type": "message",
+          "user": "U046LCTKWKY",
+          "text": "2005 VW Golf :slightly_smiling_face:",
+          "ts": "1666203963.724819",
+          "thread_ts": "1666203600.773169",
+          "parent_user_id": "U044GA91BM0",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "heart",
+              "count": 1,
+              "users": [
+                "U044GA91BM0"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "LmOI",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "2005 VW Golf "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "e5c0e199-0183-4602-9301-775de052bf3d",
+          "type": "message",
+          "user": "U045HTUUN1Z",
+          "text": "1991 VW Passat. Manual transmission, of course :slightly_smiling_face:",
+          "ts": "1666204105.988779",
+          "thread_ts": "1666203600.773169",
+          "parent_user_id": "U044GA91BM0",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "heart",
+              "count": 1,
+              "users": [
+                "U044GA91BM0"
+              ]
+            },
+            {
+              "name": "open_mouth",
+              "count": 1,
+              "users": [
+                "U044GA91BM0"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ZxzpD",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "1991 VW Passat. Manual transmission, of course "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "1242fdf4-9307-41d3-b8ef-f47bcfe42f3c",
+          "type": "message",
+          "user": "U0468P6C81G",
+          "text": "A late 80s/early 90s Suburu hatchback. My dad had been on the expressway heading into Chicago for work and got rear-ended, and ultimately forced into the car ahead of him. Vehicle was totaled.\n\nWe lived on 10-12 acres of farmland at the time. I was about 13/14. My dad let me drive it around our property (with him in the passenger seat) so I could learn how to drive a manual transmission. (I have since forgotten how to and am terrible at it.)",
+          "ts": "1666204203.976939",
+          "thread_ts": "1666203600.773169",
+          "parent_user_id": "U044GA91BM0",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "heart",
+              "count": 1,
+              "users": [
+                "U044GA91BM0"
+              ]
+            },
+            {
+              "name": "disappointed_relieved",
+              "count": 1,
+              "users": [
+                "U044GA91BM0"
+              ]
+            },
+            {
+              "name": "eyes",
+              "count": 1,
+              "users": [
+                "U047KNZCSJU"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Uun",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "A late 80s/early 90s Suburu hatchback. My dad had been on the expressway heading into Chicago for work and got rear-ended, and ultimately forced into the car ahead of him. Vehicle was totaled.\n\nWe lived on 10-12 acres of farmland at the time. I was about 13/14. My dad let me drive it around our property (with him in the passenger seat) so I could learn how to drive a manual transmission. (I have since forgotten how to and am terrible at it.)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "34b4a413-5b06-4ca8-9fd0-a80cdf9f501b",
+          "type": "message",
+          "user": "U044GA91BM0",
+          "text": "I'm sorry to hear about that but I'm glad your dad was okay! I have yet to learn how to drive manual :sweat_smile:",
+          "ts": "1666204469.434779",
+          "thread_ts": "1666203600.773169",
+          "parent_user_id": "U044GA91BM0",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "raised_hands::skin-tone-2",
+              "count": 1,
+              "users": [
+                "U0468P6C81G"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "vUT",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I'm sorry to hear about that but I'm glad your dad was okay! I have yet to learn how to drive manual "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "sweat_smile",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046VFZ8G72\u003e asked\n\u0026gt; I transferred the ownership of a CarPlay Audio app and apparently the app lost the entitlement. Is that expected? I'm starting (again) the approval process on behalf of the new owner in any case, but there is a way to expedite that? In any case, it should be documented somewhere (should I open a bug? Which category?)\n\u0026gt; Thank you in advance!",
+      "ts": "1666203763.580079",
+      "thread_ts": "1666203763.580079",
+      "subtype": "bot_message",
+      "bot_id": "B043H6X4KR7",
+      "username": "Ask Apple - carplay",
+      "reply_count": 1,
+      "latest_reply": "1666203943.943099",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "YPF",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046VFZ8G72"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"I transferred the ownership of a CarPlay Audio app and apparently the app lost the entitlement. Is that expected? I'm starting (again) the approval process on behalf of the new owner in any case, but there is a way to expedite that? In any case, it should be documented somewhere (should I open a bug? Which category?)\\nThank you in advance!\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "af86e802-0f65-4e95-8ae9-63b38aadf0df",
+          "type": "message",
+          "user": "U04561L5UCQ",
+          "text": "Entitlements are associated with your Team ID and won't get transferred with an app, so you will have to request it again. We'll note it here for documentation—thanks for the feedback. If you want to DM your Team ID we can ask that the request be looked at.",
+          "ts": "1666203943.943099",
+          "thread_ts": "1666203763.580079",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "incoming_envelope",
+              "count": 1,
+              "users": [
+                "U046VFZ8G72"
+              ]
+            },
+            {
+              "name": "no_entry_sign",
+              "count": 1,
+              "users": [
+                "U046VFZ8G72"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "7A5a",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Entitlements are associated with your Team ID and won't get transferred with an app, so you will have to request it again. We'll note it here for documentation—thanks for the feedback. If you want to DM your Team ID we can ask that the request be looked at."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046JJACQ3H\u003e asked\n\u0026gt; Any suggestions on how a car app should be laid out internally? We have a bunch of reactive view models that within a MVC architecture work great, but struggling on how to do this with pre-defined templates - we’ve attempted to have a concept of a “screen” but wondered if there’s any suggestions on other ways we could achieve this. Thank you!",
+      "ts": "1666204096.403759",
+      "thread_ts": "1666204096.403759",
+      "subtype": "bot_message",
+      "bot_id": "B043H6X4KR7",
+      "username": "Ask Apple - carplay",
+      "reply_count": 2,
+      "latest_reply": "1666204248.004889",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "21cf0",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046JJACQ3H"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Any suggestions on how a car app should be laid out internally? We have a bunch of reactive view models that within a MVC architecture work great, but struggling on how to do this with pre-defined templates - we\\u2019ve attempted to have a concept of a \\u201cscreen\\u201d but wondered if there\\u2019s any suggestions on other ways we could achieve this. Thank you!\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "f0947164-fa88-4184-bcad-67dccc815293",
+          "type": "message",
+          "user": "U045HTZNN2X",
+          "text": "We don’t provide any guidance on any particular app architecture patterns to use, so use whatever design pattern works best for you or your team.\nWhen building your CarPlay app, consider it separately from the phone app, and architect your vision with the templates associated with your particular entitlement. With that being said, if there are enhancements to the CarPlay templates that you would like to see, please file a feedback report!",
+          "ts": "1666204119.254969",
+          "thread_ts": "1666204096.403759",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "UKkL0",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "We don’t provide any guidance on any particular app architecture patterns to use, so use whatever design pattern works best for you or your team.\nWhen building your CarPlay app, consider it separately from the phone app, and architect your vision with the templates associated with your particular entitlement. With that being said, if there are enhancements to the CarPlay templates that you would like to see, please file a feedback report!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "E57426AE-D07D-4E8F-908B-6CD188D4B585",
+          "type": "message",
+          "user": "U046JJACQ3H",
+          "text": "Thank you \u003c@U045HTZNN2X\u003e! I guess it was just a bit of a challenging trying to work out how it should be done and wondered if there was a more concrete way - but that’s helpful to know! ",
+          "ts": "1666204248.004889",
+          "thread_ts": "1666204096.403759",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U045HTZNN2X"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "tRPgx",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thank you "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U045HTZNN2X"
+                    },
+                    {
+                      "type": "text",
+                      "text": "! I guess it was just a bit of a challenging trying to work out how it should be done and wondered if there was a more concrete way - but "
+                    },
+                    {
+                      "type": "text",
+                      "text": "that’s"
+                    },
+                    {
+                      "type": "text",
+                      "text": " helpful to know! "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046HFVT8KB\u003e asked\n\u0026gt; What level of urgency should my company feel regarding upgrading our existing audio app from `MPPlayableContent` API  to `CarPlay.framework`.",
+      "ts": "1666204406.155809",
+      "thread_ts": "1666204406.155809",
+      "subtype": "bot_message",
+      "bot_id": "B043H6X4KR7",
+      "username": "Ask Apple - carplay",
+      "reply_count": 4,
+      "latest_reply": "1666204796.346879",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Gd20",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046HFVT8KB"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"What level of urgency should my company feel regarding upgrading our existing audio app from `MPPlayableContent` API  to `CarPlay.framework`.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "6fe18363-9edb-4288-8c21-96f1316c8938",
+          "type": "message",
+          "user": "U045WKSHZS5",
+          "text": "Playable content was deprecated in iOS 14, and new functionality will not be added. Templates are the future for CarPlay app development, and already unlock a wealth of new features that aren’t available with Playable content!",
+          "ts": "1666204425.609369",
+          "thread_ts": "1666204406.155809",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Uhvz",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Playable content was deprecated in iOS 14, and new functionality will not be added. Templates are the future for CarPlay app development, and already unlock a wealth of new features that aren’t available with Playable content!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "94658eb6-d36f-4888-b0e2-04c0b9b747e0",
+          "type": "message",
+          "user": "U045WKSHZS5",
+          "text": "Templates provide lots of UI possibilities for your audio apps :slightly_smiling_face:",
+          "ts": "1666204520.901369",
+          "thread_ts": "1666204406.155809",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "gyePo",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Templates provide lots of UI possibilities for your audio apps "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "ea115994-506a-4039-b120-f54a6fe78077",
+          "type": "message",
+          "user": "U046HFVT8KB",
+          "text": "Thanks. I’ll make sure to push it internally.\nLooks like we can provide a better experience for sure.\nQuite exited to work on it again!",
+          "ts": "1666204638.427829",
+          "thread_ts": "1666204406.155809",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "raised_hands",
+              "count": 4,
+              "users": [
+                "U045WKSHZS5",
+                "U045LEBNATE",
+                "U04561L5UCQ",
+                "U045BCE6HC6"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "/RgD",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks. I’ll make sure to push it internally.\nLooks like we can provide a better experience for sure.\nQuite exited to work on it again!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "54f17fbf-51fb-404a-8b5b-44c59fac94a9",
+          "type": "message",
+          "user": "U045BCE6HC6",
+          "text": "One of my favorite things about templates as \u003c@U045WKSHZS5\u003e mentioned is how expressive you can make the content of your app through the UI in a vehicle. A great example is `CPListImageRowItem` which allows a full row of images inside of a list item!",
+          "ts": "1666204796.346879",
+          "thread_ts": "1666204406.155809",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "gratitude-thank-you",
+              "count": 1,
+              "users": [
+                "U046HFVT8KB"
+              ]
+            },
+            {
+              "name": "eyes",
+              "count": 1,
+              "users": [
+                "U046HFVT8KB"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "5YXg",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "One of my favorite things about templates as "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U045WKSHZS5"
+                    },
+                    {
+                      "type": "text",
+                      "text": " mentioned is how expressive you can make the content of your app through the UI in a vehicle. A great example is "
+                    },
+                    {
+                      "type": "text",
+                      "text": "CPListImageRowItem",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " which allows a full row of images inside of a list item!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046JJACQ3H\u003e asked\n\u0026gt; Thank you for taking the time to do this Q\u0026amp;A!\n\u0026gt; \n\u0026gt; Is it possible/maybe eventually possible to add touch events on a map view controller? We’re developing an app currently that it would be great if users could tap on a pin as well as having the ability to search and find it within a list!",
+      "ts": "1666204413.705069",
+      "thread_ts": "1666204413.705069",
+      "subtype": "bot_message",
+      "bot_id": "B043H6X4KR7",
+      "username": "Ask Apple - carplay",
+      "reply_count": 4,
+      "latest_reply": "1666205160.214639",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "cutq",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046JJACQ3H"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Thank you for taking the time to do this Q\u0026A!\\n\\nIs it possible\\/maybe eventually possible to add touch events on a map view controller? We\\u2019re developing an app currently that it would be great if users could tap on a pin as well as having the ability to search and find it within a list!\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "fef3b538-815e-4226-b2f2-7ea1b0c81d35",
+          "type": "message",
+          "user": "U045BCE6HC6",
+          "text": "Thanks for the feedback! We are always looking for ways to make to the car experience for drivers (and developers) as great as possible. If you haven’t already provided this feedback through Feedback Assistant, we encourage you to file the request there.\n\n\u003chttp://feedbackassistant.apple.com\u003e",
+          "ts": "1666204424.195949",
+          "thread_ts": "1666204413.705069",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Ur6",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for the feedback! We are always looking for ways to make to the car experience for drivers (and developers) as great as possible. If you haven’t already provided this feedback through Feedback Assistant, we encourage you to file the request there.\n\n"
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://feedbackassistant.apple.com",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "646C3AAB-BF59-42CB-8633-6C87A33D2DC5",
+          "type": "message",
+          "user": "U046JJACQ3H",
+          "text": "Will do, thank you \u003c@U045BCE6HC6\u003e !",
+          "ts": "1666204469.047539",
+          "thread_ts": "1666204413.705069",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U04561L5UCQ"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "5l90",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Will do, thank you "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U045BCE6HC6"
+                    },
+                    {
+                      "type": "text",
+                      "text": " !"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "B2BCFD8F-F7BA-4071-BA67-F24F076C1B7E",
+          "type": "message",
+          "user": "U046JJACQ3H",
+          "text": "Submitted feedback with ID: `FB11705241`\nThank you for your help and answering my question :car:",
+          "ts": "1666205146.630139",
+          "thread_ts": "1666204413.705069",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "lOW0o",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Submitted feedback with ID: "
+                    },
+                    {
+                      "type": "text",
+                      "text": "FB11705241",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\nThank you for your help and answering my question "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "car",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "2ff6feba-d15a-4207-ae7a-c46d5144290b",
+          "type": "message",
+          "user": "U045BCE6HC6",
+          "text": "Thanks for providing the ID number!",
+          "ts": "1666205160.214639",
+          "thread_ts": "1666204413.705069",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "R6lsP",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for providing the ID number!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046G17N76V\u003e asked\n\u0026gt; In WWDC2022, Emily Schubert says:\n\u0026gt; \n\u0026gt; In fact, this next generation of CarPlay powers your entire instrument cluster. To do this, your iPhone communicates with your vehicle's real-time systems in an on-device, privacy-friendly way, showing all of your driving information like speed, RPMs, fuel level, temperature, and more. And no matter what type of unique screen shapes or layouts you may have, this next generation of CarPlay feels like it was made specifically for your car. We're also excited to give you the ability to make the core of the driving experience unique to you.\n\u0026gt; \n\u0026gt; \u003chttps://developer.apple.com/videos/play/wwdc2022/111/|https://developer.apple.com/videos/play/wwdc2022/111/\u003e\n\u0026gt; Will those data be delivered by CarPlay to the iPhone via Bluetooth or will that require a wire connection between the iPhone and the vehicle.  Has Apple provided any documentation for accessing those data from the vehicle and that functionality?  Is this functionality within the purview of the CarPlay team or another group at Apple?",
+      "ts": "1666204503.968649",
+      "thread_ts": "1666204503.968649",
+      "attachments": [
+        {
+          "fallback": "Apple Developer: Keynote (ASL) - WWDC22 - Videos - Apple Developer",
+          "id": 1,
+          "title": "Keynote (ASL) - WWDC22 - Videos - Apple Developer",
+          "title_link": "https://developer.apple.com/videos/play/wwdc2022/111/",
+          "text": "The Apple Worldwide Developers Conference kicks off with exciting reveals, inspiration, and new opportunities. Join the worldwide...",
+          "image_url": "https://devimages-cdn.apple.com/wwdc-services/images/124/7395/7395_wide_250x141_2x.jpg",
+          "service_name": "Apple Developer",
+          "service_icon": "https://developer.apple.com/favicon.ico",
+          "from_url": "https://developer.apple.com/videos/play/wwdc2022/111/",
+          "original_url": "https://developer.apple.com/videos/play/wwdc2022/111/",
+          "blocks": null
+        }
+      ],
+      "edited": {
+        "user": "B043H6X4KR7",
+        "ts": "1666204504.000000"
+      },
+      "subtype": "bot_message",
+      "bot_id": "B043H6X4KR7",
+      "username": "Ask Apple - carplay",
+      "reply_count": 5,
+      "latest_reply": "1666205910.904729",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "G26",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046G17N76V"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"In WWDC2022, Emily Schubert says:\\n\\nIn fact, this next generation of CarPlay powers your entire instrument cluster. To do this, your iPhone communicates with your vehicle's real-time systems in an on-device, privacy-friendly way, showing all of your driving information like speed, RPMs, fuel level, temperature, and more. And no matter what type of unique screen shapes or layouts you may have, this next generation of CarPlay feels like it was made specifically for your car. We're also excited to give you the ability to make the core of the driving experience unique to you.\\n\\n\"},{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/videos\\/play\\/wwdc2022\\/111\\/\",\"text\":\"https:\\/\\/developer.apple.com\\/videos\\/play\\/wwdc2022\\/111\\/\"},{\"type\":\"text\",\"text\":\"\\nWill those data be delivered by CarPlay to the iPhone via Bluetooth or will that require a wire connection between the iPhone and the vehicle.  Has Apple provided any documentation for accessing those data from the vehicle and that functionality?  Is this functionality within the purview of the CarPlay team or another group at Apple?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "9533af9e-ea39-414f-9ec0-be019b4601d1",
+          "type": "message",
+          "user": "U04561L5UCQ",
+          "text": "The next generation of CarPlay was a sneak peak—we look forward to sharing technical information closer to the release date.",
+          "ts": "1666204596.517979",
+          "thread_ts": "1666204503.968649",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Kd4+k",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "The next generation of CarPlay was a sneak peak—we look forward to sharing technical information closer to the release date."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "e2013015-690b-44e7-b3cc-77cd1b72aad0",
+          "type": "message",
+          "user": "U0468KDEQ4X",
+          "text": "Is there a timeline to the release, yet? Or is that that still tbd?",
+          "ts": "1666204647.442519",
+          "thread_ts": "1666204503.968649",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "5GBJu",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Is there a timeline to the release, yet? Or is that that still tbd?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "a4affcf4-ec8a-48b8-93f8-c38469b3e711",
+          "type": "message",
+          "user": "U04561L5UCQ",
+          "text": "We expect the first automaker announcements to come by the end of 2023. More details to be provided later.",
+          "ts": "1666204747.887379",
+          "thread_ts": "1666204503.968649",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "fire",
+              "count": 1,
+              "users": [
+                "U0468KDEQ4X"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "K7QrE",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "We expect the first automaker announcements to come by the end of 2023. More details to be provided later."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "fd217ea4-ee9d-4a00-83e8-1010ca5cf6e5",
+          "type": "message",
+          "user": "U046G17N76V",
+          "text": "Our app uses data in a way that resembles “Snapshot” that is offered by Progressive Insurance. See:\n\n\u003chttps://www.progressive.com/auto/discounts/snapshot/snapshot-details/\u003e\n\nWill CarPlay 2.0 allow an app access to the OBD data directly through the API so that a separate plug in device is not required?",
+          "ts": "1666205769.890789",
+          "thread_ts": "1666204503.968649",
+          "attachments": [
+            {
+              "fallback": "Snapshot Program Details",
+              "id": 1,
+              "title": "Snapshot Program Details",
+              "title_link": "https://www.progressive.com/auto/discounts/snapshot/snapshot-details/",
+              "text": "Please call the Snapshot team at \u003ctel:1-877-329-7283|1-877-329-7283\u003e any time for more information on Snapshot in your state.",
+              "image_url": "https://www.progressive.com/Content/images/DomainProgressive/shared/share-opengraph-1200.png",
+              "service_name": "progressive.com",
+              "service_icon": "https://www.progressive.com/apple-touch-icon.png",
+              "from_url": "https://www.progressive.com/auto/discounts/snapshot/snapshot-details/",
+              "original_url": "https://www.progressive.com/auto/discounts/snapshot/snapshot-details/",
+              "blocks": null
+            }
+          ],
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "hg/",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Our app uses data in a way that resembles “Snapshot” that is offered by Progressive Insurance. See:\n\n"
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://www.progressive.com/auto/discounts/snapshot/snapshot-details/",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nWill CarPlay 2.0 allow an app access to the OBD data directly through the API so that a separate plug in device is not required?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "f16aa44c-44b3-46b9-b761-90c4845413aa",
+          "type": "message",
+          "user": "U046G17N76V",
+          "text": "This screenshot from Andre Boule’s presentation suggests that his implementation has access to RPM’s and other Engine Control Unit data.",
+          "ts": "1666205910.904729",
+          "thread_ts": "1666204503.968649",
+          "files": [
+            {
+              "id": "F047MFDE2GZ",
+              "created": 1666205829,
+              "timestamp": 1666205829,
+              "name": "Screen_Shot_WWDC2022-10016-20.24.png",
+              "title": "Screen_Shot_WWDC2022-10016-20.24.png",
+              "mimetype": "image/png",
+              "image_exif_rotation": 1,
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "U046G17N76V",
+              "mode": "hosted",
+              "editable": false,
+              "is_external": false,
+              "external_type": "",
+              "size": 208715,
+              "url": "",
+              "url_download": "",
+              "url_private": "C042KCM2Z8F/F047MFDE2GZ-Screen_Shot_WWDC2022-10016-20.24.png",
+              "url_private_download": "C042KCM2Z8F/F047MFDE2GZ-Screen_Shot_WWDC2022-10016-20.24.png",
+              "original_h": 330,
+              "original_w": 576,
+              "thumb_64": "https://files.slack.com/files-tmb/T01PTBJ95PS-F047MFDE2GZ-7a4311c78c/screen_shot_wwdc2022-10016-20.24_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T01PTBJ95PS-F047MFDE2GZ-7a4311c78c/screen_shot_wwdc2022-10016-20.24_80.png",
+              "thumb_160": "https://files.slack.com/files-tmb/T01PTBJ95PS-F047MFDE2GZ-7a4311c78c/screen_shot_wwdc2022-10016-20.24_160.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T01PTBJ95PS-F047MFDE2GZ-7a4311c78c/screen_shot_wwdc2022-10016-20.24_360.png",
+              "thumb_360_gif": "",
+              "thumb_360_w": 360,
+              "thumb_360_h": 206,
+              "thumb_480": "https://files.slack.com/files-tmb/T01PTBJ95PS-F047MFDE2GZ-7a4311c78c/screen_shot_wwdc2022-10016-20.24_480.png",
+              "thumb_480_w": 480,
+              "thumb_480_h": 275,
+              "thumb_720": "",
+              "thumb_720_w": 0,
+              "thumb_720_h": 0,
+              "thumb_960": "",
+              "thumb_960_w": 0,
+              "thumb_960_h": 0,
+              "thumb_1024": "",
+              "thumb_1024_w": 0,
+              "thumb_1024_h": 0,
+              "permalink": "https://appleevents.enterprise.slack.com/files/U046G17N76V/F047MFDE2GZ/screen_shot_wwdc2022-10016-20.24.png",
+              "permalink_public": "https://slack-files.com/T01PTBJ95PS-F047MFDE2GZ-d5d2918903",
+              "edit_link": "",
+              "preview": "",
+              "preview_highlight": "",
+              "lines": 0,
+              "lines_more": 0,
+              "is_public": false,
+              "public_url_shared": false,
+              "channels": null,
+              "groups": null,
+              "ims": null,
+              "initial_comment": {},
+              "comments_count": 0,
+              "num_stars": 0,
+              "is_starred": false,
+              "shares": {
+                "public": null,
+                "private": null
+              }
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "hgJMN",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "This screenshot from Andre Boule’s presentation suggests that his implementation has access to RPM’s and other Engine Control Unit data."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "f163808b-0401-470c-9548-7693ff3e19c0",
+      "type": "message",
+      "user": "U044GA91BM0",
+      "text": "I have another question for you all! How do you carry our your testing of CarPlay related apps? Physical head unit :tv:? \u003chttps://developer.apple.com/documentation/carplay/using_the_carplay_simulator|CarPlay Simulator\u003e :desktop_computer:? Your car:car:? No testing and hope it all works out!? :scream:\n\nFor those of you who use, or have tried, the \u003chttps://developer.apple.com/documentation/carplay/using_the_carplay_simulator|simulator\u003e, got any feedback for us?",
+      "ts": "1666204800.359389",
+      "thread_ts": "1666204800.359389",
+      "reply_count": 12,
+      "latest_reply": "1666206159.871549",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "CAGoD",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "I have another question for you all! How do you carry our your testing of CarPlay related apps? Physical head unit "
+                },
+                {
+                  "type": "emoji",
+                  "name": "tv",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": "? "
+                },
+                {
+                  "type": "link",
+                  "url": "https://developer.apple.com/documentation/carplay/using_the_carplay_simulator",
+                  "text": "CarPlay Simulator"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "emoji",
+                  "name": "desktop_computer",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": "? Your car"
+                },
+                {
+                  "type": "emoji",
+                  "name": "car",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": "? No testing and hope it all works out!? "
+                },
+                {
+                  "type": "emoji",
+                  "name": "scream",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": "\n\nFor those of you who use, or have tried, the "
+                },
+                {
+                  "type": "link",
+                  "url": "https://developer.apple.com/documentation/carplay/using_the_carplay_simulator",
+                  "text": "simulator"
+                },
+                {
+                  "type": "text",
+                  "text": ", got any feedback for us?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "b3023a0c-1257-4efc-9b3a-90b87eced2a8",
+          "type": "message",
+          "user": "U0468KDEQ4X",
+          "text": "I had no idea there was a CarPlay simulator! Lol. That's really good to know!!",
+          "ts": "1666204859.306009",
+          "thread_ts": "1666204800.359389",
+          "parent_user_id": "U044GA91BM0",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "HQKA",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I had no idea there was a CarPlay simulator! Lol. That's really good to know!!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "26e95dbe-5feb-4609-93f2-bf65a5b890d9",
+          "type": "message",
+          "user": "U045HTUUN1Z",
+          "text": "Check out this year's WWDC session, there's even a demo of it :slightly_smiling_face: \u003chttps://developer.apple.com/videos/play/wwdc2022/10016/\u003e",
+          "ts": "1666204925.639469",
+          "thread_ts": "1666204800.359389",
+          "attachments": [
+            {
+              "fallback": "Apple Developer: Get more mileage out of your app with CarPlay - WWDC22 - Videos - Apple Developer",
+              "id": 1,
+              "title": "Get more mileage out of your app with CarPlay - WWDC22 - Videos - Apple Developer",
+              "title_link": "https://developer.apple.com/videos/play/wwdc2022/10016/",
+              "text": "CarPlay is a smarter, safer way to use your iPhone while you drive. Learn about the latest app types for CarPlay and discover how the...",
+              "image_url": "https://devimages-cdn.apple.com/wwdc-services/images/124/6508/6508_wide_250x141_2x.jpg",
+              "service_name": "Apple Developer",
+              "service_icon": "https://developer.apple.com/favicon.ico",
+              "from_url": "https://developer.apple.com/videos/play/wwdc2022/10016/",
+              "original_url": "https://developer.apple.com/videos/play/wwdc2022/10016/",
+              "blocks": null
+            }
+          ],
+          "parent_user_id": "U044GA91BM0",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "gratitude-thank-you",
+              "count": 1,
+              "users": [
+                "U044GA91BM0"
+              ]
+            },
+            {
+              "name": "saluting_face",
+              "count": 1,
+              "users": [
+                "U045BCE6HC6"
+              ]
+            },
+            {
+              "name": "raised_hands",
+              "count": 1,
+              "users": [
+                "U0468KDEQ4X"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "SwtAq",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Check out this year's WWDC session, there's even a demo of it "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "skin_tone": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/videos/play/wwdc2022/10016/",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "feebe219-a307-415d-a5a7-008ec7b37846",
+          "type": "message",
+          "user": "U046LCTKWKY",
+          "text": "I used lately the CarPlay Simulator, that comes with the Additional Xcode tools. When it works, it’s great. But I had 2–3 times crashes, after I had to hard restart my M1 Mac (pressing the power button for 10s), because nothing worked anymore :flushed:",
+          "ts": "1666205470.472869",
+          "thread_ts": "1666204800.359389",
+          "parent_user_id": "U044GA91BM0",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "H7P",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I used lately the CarPlay Simulator, that comes with the Additional Xcode tools. When it works, it’s great. But I had 2–3 times crashes, after I had to hard restart my M1 Mac (pressing the power button for 10s), because nothing worked anymore "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "flushed",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "3DE013DA-524E-458B-A8CF-502C217EEE50",
+          "type": "message",
+          "user": "U046JJACQ3H",
+          "text": "We tend to test both using the simulators and inside cars :car: \n\nA little feedback on the simulator: I found that it can be a little temperamental with touch - e.g being able to swipe on the map doesn’t seem to register on the simulator but does in a real car. \nWe’re also encountering a few issues switching between light and dark mode using the simulator (any tips?)",
+          "ts": "1666205476.488749",
+          "thread_ts": "1666204800.359389",
+          "parent_user_id": "U044GA91BM0",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "2CK",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "We tend to test both using the simulators and inside cars "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "car",
+                      "skin_tone": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": " \n\nA little feedback on the simulator: I found that it can be a little temperamental "
+                    },
+                    {
+                      "type": "text",
+                      "text": "w"
+                    },
+                    {
+                      "type": "text",
+                      "text": "ith touch - e.g being able to swipe on the map "
+                    },
+                    {
+                      "type": "text",
+                      "text": "doesn’t"
+                    },
+                    {
+                      "type": "text",
+                      "text": " seem to register on the simulator but does in a real car"
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    },
+                    {
+                      "type": "text",
+                      "text": " \nWe’re also encountering a few "
+                    },
+                    {
+                      "type": "text",
+                      "text": "i"
+                    },
+                    {
+                      "type": "text",
+                      "text": "ssues switching between light and dark mode using the simulator (any tips?)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "2d640eed-b5f0-4cb1-a410-14062d4e046d",
+          "type": "message",
+          "user": "U046G17N76V",
+          "text": "No luck with the simulator to date.",
+          "ts": "1666205572.776089",
+          "thread_ts": "1666204800.359389",
+          "parent_user_id": "U044GA91BM0",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "74G",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "No luck with the simulator to date."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "3a4c7ebc-82ad-4837-a135-a2161210f0e7",
+          "type": "message",
+          "user": "U045HTUUN1Z",
+          "text": "Definitely please file feedback if you have trouble with the simulator, every report helps!",
+          "ts": "1666205728.743379",
+          "thread_ts": "1666204800.359389",
+          "parent_user_id": "U044GA91BM0",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 2,
+              "users": [
+                "U046LCTKWKY",
+                "U046JJACQ3H"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "42wM",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Definitely please file feedback if you have trouble with the simulator, every report helps!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "6d5379cd-6993-46b5-885d-d3a4cda1dcef",
+          "type": "message",
+          "user": "U045BCE6HC6",
+          "text": "\u003chttp://feedbackassistant.apple.com\u003e\n\nDetails help quite a bit too so please mention what type of devices and versions of the OS you are using to test with too :slightly_smiling_face:",
+          "ts": "1666205838.942989",
+          "thread_ts": "1666204800.359389",
+          "parent_user_id": "U044GA91BM0",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U046JJACQ3H"
+              ]
+            },
+            {
+              "name": "gratitude-thank-you",
+              "count": 1,
+              "users": [
+                "U044GA91BM0"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "piy/",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "http://feedbackassistant.apple.com",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nDetails help quite a bit too so please mention what type of devices and versions of the OS you are using to test with too "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "3fa50d1e-1a52-4554-8f3c-8368a26bbb8b",
+          "type": "message",
+          "user": "U045BCE6HC6",
+          "text": "\u003c@U046JJACQ3H\u003e you had mentioned some UI interaction issues as well. For those cases sometimes a video or screenshot can go a long way too if you are comfortable sharing those as attachments",
+          "ts": "1666205922.593209",
+          "thread_ts": "1666204800.359389",
+          "parent_user_id": "U044GA91BM0",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "64k",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U046JJACQ3H"
+                    },
+                    {
+                      "type": "text",
+                      "text": " you had mentioned some UI interaction issues as well. For those cases sometimes a video or screenshot can go a long way too if you are comfortable sharing those as attachments"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "9b6f73a9-ad26-4dc7-bc16-f3426d462f3d",
+          "type": "message",
+          "user": "U046HFVT8KB",
+          "text": "Head unit in a box dubbed Paul McCarPlay. Very much inspired by a similar setup by BookBeat. Looking forward to trying out the new simulator.",
+          "ts": "1666205959.799139",
+          "thread_ts": "1666204800.359389",
+          "edited": {
+            "user": "U046HFVT8KB",
+            "ts": "1666205984.000000"
+          },
+          "parent_user_id": "U044GA91BM0",
+          "files": [
+            {
+              "id": "F047MFQKTC1",
+              "created": 1666205946,
+              "timestamp": 1666205946,
+              "name": "Paul_McCarPlay.HEIC",
+              "title": "Paul_McCarPlay.HEIC",
+              "mimetype": "image/heic",
+              "image_exif_rotation": 0,
+              "filetype": "heic",
+              "pretty_type": "High Efficiency Image File",
+              "user": "U046HFVT8KB",
+              "mode": "hosted",
+              "editable": false,
+              "is_external": false,
+              "external_type": "",
+              "size": 950773,
+              "url": "",
+              "url_download": "",
+              "url_private": "C042KCM2Z8F/F047MFQKTC1-Paul_McCarPlay.HEIC",
+              "url_private_download": "C042KCM2Z8F/F047MFQKTC1-Paul_McCarPlay.HEIC",
+              "original_h": 3024,
+              "original_w": 4032,
+              "thumb_64": "https://files.slack.com/files-tmb/T01PTBJ95PS-F047MFQKTC1-56d1acb77b/paul_mccarplay_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T01PTBJ95PS-F047MFQKTC1-56d1acb77b/paul_mccarplay_80.png",
+              "thumb_160": "https://files.slack.com/files-tmb/T01PTBJ95PS-F047MFQKTC1-56d1acb77b/paul_mccarplay_160.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T01PTBJ95PS-F047MFQKTC1-56d1acb77b/paul_mccarplay_360.png",
+              "thumb_360_gif": "",
+              "thumb_360_w": 360,
+              "thumb_360_h": 270,
+              "thumb_480": "https://files.slack.com/files-tmb/T01PTBJ95PS-F047MFQKTC1-56d1acb77b/paul_mccarplay_480.png",
+              "thumb_480_w": 480,
+              "thumb_480_h": 360,
+              "thumb_720": "https://files.slack.com/files-tmb/T01PTBJ95PS-F047MFQKTC1-56d1acb77b/paul_mccarplay_720.png",
+              "thumb_720_w": 720,
+              "thumb_720_h": 540,
+              "thumb_960": "https://files.slack.com/files-tmb/T01PTBJ95PS-F047MFQKTC1-56d1acb77b/paul_mccarplay_960.png",
+              "thumb_960_w": 960,
+              "thumb_960_h": 720,
+              "thumb_1024": "https://files.slack.com/files-tmb/T01PTBJ95PS-F047MFQKTC1-56d1acb77b/paul_mccarplay_1024.png",
+              "thumb_1024_w": 1024,
+              "thumb_1024_h": 768,
+              "permalink": "https://appleevents.enterprise.slack.com/files/U046HFVT8KB/F047MFQKTC1/paul_mccarplay.heic",
+              "permalink_public": "https://slack-files.com/T01PTBJ95PS-F047MFQKTC1-258c37cf69",
+              "edit_link": "",
+              "preview": "",
+              "preview_highlight": "",
+              "lines": 0,
+              "lines_more": 0,
+              "is_public": false,
+              "public_url_shared": false,
+              "channels": null,
+              "groups": null,
+              "ims": null,
+              "initial_comment": {},
+              "comments_count": 0,
+              "num_stars": 0,
+              "is_starred": false,
+              "shares": {
+                "public": null,
+                "private": null
+              }
+            }
+          ],
+          "reactions": [
+            {
+              "name": "heart",
+              "count": 2,
+              "users": [
+                "U044GA91BM0",
+                "U045BCE6HC6"
+              ]
+            },
+            {
+              "name": "car",
+              "count": 1,
+              "users": [
+                "U046JJACQ3H"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "BuA",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Head unit in a box dubbed Paul McCarPlay. Very much inspired by a similar setup by BookBeat. Looking forward to trying out the new simulator."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "14956cd4-054a-40c8-91dc-7dbfbd00f930",
+          "type": "message",
+          "user": "U044GA91BM0",
+          "text": "Love the name!",
+          "ts": "1666205981.478269",
+          "thread_ts": "1666204800.359389",
+          "parent_user_id": "U044GA91BM0",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "aO5",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Love the name!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "01440dd0-fd43-4394-9a0f-284e3dd4ea6c",
+          "type": "message",
+          "user": "U045BCE6HC6",
+          "text": "Amazing name!",
+          "ts": "1666206016.051779",
+          "thread_ts": "1666204800.359389",
+          "parent_user_id": "U044GA91BM0",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "oZy",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Amazing name!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "6286229F-65DA-45C7-BAEF-51803C47EFFB",
+          "type": "message",
+          "user": "U046JJACQ3H",
+          "text": "\u003c@U045BCE6HC6\u003e will get some screen recordings put together for this feedback to show what’s happening, thank you :pray: ",
+          "ts": "1666206159.871549",
+          "thread_ts": "1666204800.359389",
+          "parent_user_id": "U044GA91BM0",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "gratitude-thank-you",
+              "count": 2,
+              "users": [
+                "U044GA91BM0",
+                "U045BCE6HC6"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "W98lK",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U045BCE6HC6"
+                    },
+                    {
+                      "type": "text",
+                      "text": " will get some screen recordings put together for this feedback to show "
+                    },
+                    {
+                      "type": "text",
+                      "text": "what’s"
+                    },
+                    {
+                      "type": "text",
+                      "text": " happening, thank you "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "pray",
+                      "skin_tone": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "9a39e68a-144d-4742-8ec7-f1533d5cac80",
+      "type": "message",
+      "user": "U044GA91BM0",
+      "text": "Thank you for joining us for this Q\u0026amp;A and making it to the finish line :checkered_flag:! I hope you had as much fun as we did :sunglasses:. While we’re finished answering questions for now (someone’s gotta fix bugs! :ladybug:), if we weren’t able to get to your question, here are some next steps:\n• File feedback! Let us know what’s not clear or what behavior seems a bit off by using the Feedback Assistant app or going to: \u003chttp://feedbackassistant.apple.com|feedbackassistant.apple.com\u003e\n• Submit a TSI! Developer Technical Support engineers are available to give you code-level support. You can submit a TSI here: \u003chttps://developer.apple.com/support/technical/\u003e\n• Ask a question on the Apple Developer Forums (or answer one if you spot something you’ve worked through before!): \u003chttps://developer.apple.com/forums/\u003e\n• \nWe’ll be closing the workflow now. Thank you so much for participating! :tada::partying_face:",
+      "ts": "1666206001.175269",
+      "attachments": [
+        {
+          "fallback": "Requesting Technical Support - Support - Apple Developer",
+          "id": 1,
+          "title": "Requesting Technical Support - Support - Apple Developer",
+          "title_link": "https://developer.apple.com/support/technical/",
+          "text": "Learn how to receive code-level help from an Apple engineer by submitting a Technical Support Incident.",
+          "service_name": "developer.apple.com",
+          "service_icon": "https://developer.apple.com/favicon.ico",
+          "from_url": "https://developer.apple.com/support/technical/",
+          "original_url": "https://developer.apple.com/support/technical/",
+          "blocks": null
+        },
+        {
+          "fallback": "Apple Developer Forums",
+          "id": 2,
+          "title": "Apple Developer Forums",
+          "title_link": "https://developer.apple.com/forums/",
+          "text": "Connect with fellow developers and Apple experts as you give and receive help on a wide variety of development topics, from implementing new technologies to established best practices",
+          "service_name": "developer.apple.com",
+          "service_icon": "https://forums.developer.apple.com/forums/build-09152022-1/public/assets/favicon.ico",
+          "from_url": "https://developer.apple.com/forums/",
+          "original_url": "https://developer.apple.com/forums/",
+          "blocks": null
+        }
+      ],
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "gratitude-thank-you",
+          "count": 4,
+          "users": [
+            "U046LCTKWKY",
+            "U046JJACQ3H",
+            "U04678YRK98",
+            "U046HFVT8KB"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "DK0pg",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Thank you for joining us for this Q\u0026A and making it to the finish line "
+                },
+                {
+                  "type": "emoji",
+                  "name": "checkered_flag",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": "! I hope you had as much fun as we did "
+                },
+                {
+                  "type": "emoji",
+                  "name": "sunglasses",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": ". While we’re finished answering questions for now (someone’s gotta fix bugs! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "ladybug",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": "), if we weren’t able to get to your question, here are some next steps:\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_list",
+              "Raw": "{\"type\":\"rich_text_list\",\"elements\":[{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"File feedback! Let us know what\\u2019s not clear or what behavior seems a bit off by using the Feedback Assistant app or going to: \"},{\"type\":\"link\",\"url\":\"http:\\/\\/feedbackassistant.apple.com\",\"text\":\"feedbackassistant.apple.com\"}]},{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"Submit a TSI! Developer Technical Support engineers are available to give you code-level support. You can submit a TSI here: \"},{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/support\\/technical\\/\"}]},{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"Ask a question on the Apple Developer Forums (or answer one if you spot something you\\u2019ve worked through before!): \"},{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/forums\\/\"}]},{\"type\":\"rich_text_section\",\"elements\":[]}],\"style\":\"bullet\",\"indent\":0,\"border\":0}"
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "We’ll be closing the workflow now. Thank you so much for participating! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "tada",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "emoji",
+                  "name": "partying_face",
+                  "skin_tone": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "channel_id": "C042KCM2Z8F"
+}

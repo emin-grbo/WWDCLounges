@@ -1,0 +1,1977 @@
+{
+  "name": "devtools-and-swift",
+  "messages": [
+    {
+      "type": "message",
+      "user": "U03V30M0C1K",
+      "text": "This content can't be displayed.",
+      "ts": "1665433465.859239",
+      "pinned_to": [
+        "C042KFPP2J3"
+      ],
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "wave",
+          "count": 24,
+          "users": [
+            "U046S4P76FJ",
+            "U0462BV0UG2",
+            "U04632Z58V9",
+            "U0463BX6402",
+            "U046U6K6YKS",
+            "U045Q0WJ3TR",
+            "U0461TDE9PX",
+            "U045XU1L18E",
+            "U046JC93TNV",
+            "U0468FA8E3W",
+            "U045SJ3J1D5",
+            "U04617U8AUV",
+            "U0464MJTND8",
+            "U046E6ZLWS0",
+            "U0475TXAQQG",
+            "U046PANNT43",
+            "U046LURKWA1",
+            "U046U96DJQ2",
+            "U0467BC50SK",
+            "U045YN7R9QW",
+            "U046DHWAGMD",
+            "U0465MRJBFW",
+            "U047KDQ6VCY",
+            "U046FSGQ7Q9"
+          ]
+        },
+        {
+          "name": "swift-orange",
+          "count": 18,
+          "users": [
+            "U046S4P76FJ",
+            "U046RV46308",
+            "U0463BX6402",
+            "U04640Q13C3",
+            "U045PH92P7H",
+            "U045XU1L18E",
+            "U046UT41C4Q",
+            "U0468FA8E3W",
+            "U0466BDHRJP",
+            "U04617U8AUV",
+            "U045TANJAKH",
+            "U0463PJJB34",
+            "U045Q0J840P",
+            "U046FSGQ7Q9",
+            "U045R2JDPRV",
+            "U046DHWAGMD",
+            "U0464NQUV52",
+            "U045PB421QX"
+          ]
+        },
+        {
+          "name": "raised_hands",
+          "count": 8,
+          "users": [
+            "U045WM0C6MC",
+            "U04640Q13C3",
+            "U0468FA8E3W",
+            "U0465KAH0E8",
+            "U0465FCQK43",
+            "U046FSGQ7Q9",
+            "U046K4FM4RY",
+            "U046DHWAGMD"
+          ]
+        },
+        {
+          "name": "+1",
+          "count": 6,
+          "users": [
+            "U04640Q13C3",
+            "U045R2JDPRV",
+            "U046TDS4WF6",
+            "U046U61P4TS",
+            "U046DHWAGMD",
+            "U0463BX6402"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "header",
+          "text": {
+            "type": "plain_text",
+            "text": "Welcome to Ask Apple",
+            "emoji": true
+          },
+          "block_id": "ODq"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "We're excited to be hosting you in the DevTools and Swift channel this week! You can find the full schedule of Q\u0026amp;As for DevTools and Swift by visiting the \u003chttps://apps.apple.com/us/app/apple-developer/id640199958 | Apple Developer app\u003e and \u003chttps://developer.apple.com/events/ask-apple/questions-and-answers/ | website\u003e."
+          },
+          "block_id": "hUwI"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "If you haven’t already, please take a moment to familiarize yourself with \u003chttps://developer.apple.com/news/?id=vpbyzfg4 | how Q\u0026amp;As will work\u003e."
+          },
+          "block_id": "DO2LJ"
+        },
+        {
+          "type": "header",
+          "text": {
+            "type": "plain_text",
+            "text": "Attendance Policy",
+            "emoji": true
+          },
+          "block_id": "YjF"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "We want to make sure these spaces are helpful and welcoming for everyone — developers and Apple employees alike. Please review and follow the \u003chttps://developer.apple.com/events/policy/online-event-attendance-policy/ | attendance policy\u003e."
+          },
+          "block_id": "/mH"
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03V30M0C1K\u003e added a workflow to this channel: *Ask Apple - devtools-and-swift*.",
+      "ts": "1666018960.308109",
+      "subtype": "bot_message",
+      "bot_id": "B042Q2FPSKZ",
+      "username": "Ask Apple - devtools-and-swift",
+      "reactions": [
+        {
+          "name": "+1",
+          "count": 7,
+          "users": [
+            "U04625TR0R1",
+            "U04640Q13C3",
+            "U0463BX6402",
+            "U046S4R8UEP",
+            "U046JC93TNV",
+            "U045PB421QX",
+            "U046UNG5161"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "BCiF",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03V30M0C1K"
+                },
+                {
+                  "type": "text",
+                  "text": " added a workflow to this channel: "
+                },
+                {
+                  "type": "text",
+                  "text": "Ask Apple - devtools-and-swift",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "9eddc01b-44c5-44b8-800e-4200bb5e2b3f",
+      "type": "message",
+      "user": "U044JP8FE4C",
+      "text": "We’re excited to kick off a week of Q\u0026amp;A activities! Our first activity is :rocket: *Performance,* :battery: *Power, and* :scales: *Stability*, beginning at 10:00am Pacific on Wednesday. We love fast app launches, smooth scrolling, power efficiency, and all of the developer tools that make it possible!\n\nWe hope you can join us! If you’re unable to tune-in live, you can begin sending in your questions related to these topics now. Select the :heavy_plus_sign: icon from the lower left, and find the *Ask A Question* workflow. Type in your question and it will be delivered directly to the team. We’ll answer as many questions as we can during the 60 minute event on Wednesday.",
+      "ts": "1666097747.490059",
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "rocket",
+          "count": 10,
+          "users": [
+            "U044JP8FE4C",
+            "U046S4P76FJ",
+            "U045ZA653NZ",
+            "U0462GLRHU3",
+            "U047CK00V8Q",
+            "U0463PJJB34",
+            "U0465MRJBFW",
+            "U046UNG5161",
+            "U04662TK7KR",
+            "U044F2N3B9B"
+          ]
+        },
+        {
+          "name": "battery",
+          "count": 4,
+          "users": [
+            "U046S4P76FJ",
+            "U046G8P844B",
+            "U0465MRJBFW",
+            "U044UUNLUUR"
+          ]
+        },
+        {
+          "name": "scales",
+          "count": 2,
+          "users": [
+            "U046S4P76FJ",
+            "U0465MRJBFW"
+          ]
+        },
+        {
+          "name": "swift-blue",
+          "count": 3,
+          "users": [
+            "U0464MJTND8",
+            "U04678YRK98",
+            "U046H5P1BR7"
+          ]
+        },
+        {
+          "name": "swift-orange",
+          "count": 4,
+          "users": [
+            "U0464MJTND8",
+            "U04678YRK98",
+            "U0463PJJB34",
+            "U045PH92P7H"
+          ]
+        },
+        {
+          "name": "eyes",
+          "count": 1,
+          "users": [
+            "U046SDVB4LW"
+          ]
+        },
+        {
+          "name": "boom",
+          "count": 2,
+          "users": [
+            "U0465MRJBFW",
+            "U044F2N3B9B"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "nHV",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "We’re excited to kick off a week of Q\u0026A activities! Our first activity is "
+                },
+                {
+                  "type": "emoji",
+                  "name": "rocket",
+                  "skin_tone": 0,
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Performance, ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "battery",
+                  "skin_tone": 0,
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Power, and ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "scales",
+                  "skin_tone": 0,
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " Stability",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ", beginning at 10:00am Pacific on Wednesday. We love fast app launches, smooth scrolling, power efficiency, and all of the developer tools that make it possible!\n\nWe hope you can join us! If you’re unable to tune-in live, you can begin sending in your questions related to these topics now. Select the "
+                },
+                {
+                  "type": "emoji",
+                  "name": "heavy_plus_sign",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " icon from the lower left, and find the "
+                },
+                {
+                  "type": "text",
+                  "text": "Ask A Question",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " workflow. Type in your question and it will be delivered directly to the team. We’ll answer as many questions as we can during the 60 minute event on Wednesday."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "fefc65fd-1d54-427a-8ba4-d4db3afcdfec",
+      "type": "message",
+      "user": "U044JP8FE4C",
+      "text": "Good morning all! We'll be starting our Q\u0026amp;A on the topic of performance, power, and stability in just about *1 hour from now* at 10 AM PDT! :rocket:\n\nWe'll be answering your questions about optimizing your app's use of CPU, memory, energy, and disk. You can also ask about gaining insights into your app's performance with tools like Instruments, Xcode Organizer, MetricKit, and `XCTest` metrics. These videos are a great primer for the topic of today's Q\u0026amp;A:\n• \u003chttps://developer.apple.com/videos/play/wwdc2022/10082/|Track down hangs with Xcode and on-device detection\u003e\n• \u003chttps://developer.apple.com/videos/play/wwdc2022/110363/|Improve app size and runtime performance\u003e\n• \u003chttps://developer.apple.com/videos/play/wwdc2021/10087/|Diagnose Power and Performance regressions in your app\u003e\n• \u003chttps://developer.apple.com/videos/play/wwdc2022/10083/|Power down: Improve battery consumption\u003e\n• \u003chttps://developer.apple.com/videos/play/tech-talks/10855/|Explore UI animation hitches and the render loop\u003e\n• \u003chttps://developer.apple.com/videos/play/wwdc2021/10180/|Detect and diagnose memory issues\u003e\nTo ask a question, select the :heavy_plus_sign: icon from the lower left, and select the \"Ask a question\" workflow. Type in your question to deliver it directly to the team. We’ll answer as many questions as we can during the 60 minute event this morning.",
+      "ts": "1666195416.579829",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "rvn0n",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Good morning all! We'll be starting our Q\u0026A on the topic of performance, power, and stability in just about "
+                },
+                {
+                  "type": "text",
+                  "text": "1 hour from now",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " at 10 AM PDT! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "rocket",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": "\n\nWe'll be answering your questions about optimizing your app's use of CPU, memory, energy, and disk. You can also ask about gaining insights into your app's performance with tools like Instruments, Xcode Organizer, MetricKit, and "
+                },
+                {
+                  "type": "text",
+                  "text": "XCTest",
+                  "style": {
+                    "code": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " metrics. These videos are a great primer for the topic of today's Q\u0026A:\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_list",
+              "Raw": "{\"type\":\"rich_text_list\",\"elements\":[{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/videos\\/play\\/wwdc2022\\/10082\\/\",\"text\":\"Track down hangs with Xcode and on-device detection\"}]},{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/videos\\/play\\/wwdc2022\\/110363\\/\",\"text\":\"Improve app size and runtime performance\"}]},{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/videos\\/play\\/wwdc2021\\/10087\\/\",\"text\":\"Diagnose Power and Performance regressions in your app\"}]},{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/videos\\/play\\/wwdc2022\\/10083\\/\",\"text\":\"Power down: Improve battery consumption\"}]},{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/videos\\/play\\/tech-talks\\/10855\\/\",\"text\":\"Explore UI animation hitches and the render loop\"}]},{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/videos\\/play\\/wwdc2021\\/10180\\/\",\"text\":\"Detect and diagnose memory issues\"}]}],\"style\":\"bullet\",\"indent\":0,\"border\":0}"
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\nTo ask a question, select the "
+                },
+                {
+                  "type": "emoji",
+                  "name": "heavy_plus_sign",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " icon from the lower left, and select the \"Ask a question\" workflow. Type in your question to deliver it directly to the team. We’ll answer as many questions as we can during the 60 minute event this morning."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "811a3a95-69eb-41ef-8529-48e6069752a5",
+      "type": "message",
+      "user": "U044JP8FE4C",
+      "text": "\u003c!here\u003e\nWelcome everyone, and thank you for joining us for our Q\u0026amp;A on performance, power, and stability! Experts are here now to answer questions about:\n\n• App launch time optimization\n• Optimizing power usage\n• Reducing app hangs and animation hitches\n• MetricKit\nSelect the :heavy_plus_sign: icon from the lower left, and use the “Ask a question” workflow to submit your questions. We’ll answer as many questions as we can over the next 60 minutes!",
+      "ts": "1666198835.321149",
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "clap",
+          "count": 6,
+          "users": [
+            "U0471MMK2AX",
+            "U046SQYESLQ",
+            "U0465KAH0E8",
+            "U046S4P76FJ",
+            "U0460539LCV",
+            "U045NJ0Q371"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "KiARG",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "broadcast",
+                  "range": "here"
+                },
+                {
+                  "type": "text",
+                  "text": "\nWelcome everyone, and thank you for joining us for our Q\u0026A on performance, power, and stability! Experts are here now to answer questions about:\n\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_list",
+              "Raw": "{\"type\":\"rich_text_list\",\"elements\":[{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"App launch time optimization\"}]},{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"Optimizing power usage\"}]},{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"Reducing app hangs and animation hitches\"}]},{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"MetricKit\"}]}],\"style\":\"bullet\",\"indent\":0,\"border\":0}"
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\nSelect the "
+                },
+                {
+                  "type": "emoji",
+                  "name": "heavy_plus_sign",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " icon from the lower left, and use the “Ask a question” workflow to submit your questions. We’ll answer as many questions as we can over the next 60 minutes!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0471MMK2AX\u003e asked\n\u0026gt; What are some general guidelines to follow to speed up our apps loading time?",
+      "ts": "1666199572.567989",
+      "thread_ts": "1666199572.567989",
+      "subtype": "bot_message",
+      "bot_id": "B042Q2FPSKZ",
+      "username": "Ask Apple - devtools-and-swift",
+      "reply_count": 1,
+      "latest_reply": "1666199595.636839",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "PMzr",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0471MMK2AX"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"What are some general guidelines to follow to speed up our apps loading time?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "aa92a1cb-ed02-4a16-ad09-7dbf0be8aeb0",
+          "type": "message",
+          "user": "U044WL118HF",
+          "text": "Great question! There are a bunch of resources you can look at:\nFirst of all, I suggest giving this article a look:\n\u003chttps://developer.apple.com/documentation/xcode/reducing-your-app-s-launch-time\u003e\n\nIf you have a bit more time and are interested in understanding more about it here are two great WWDC sessions about the topic:\n• \u003chttps://developer.apple.com/videos/play/wwdc2019/423/\u003e\n• \u003chttps://developer.apple.com/videos/play/wwdc2022/110362/\u003e",
+          "ts": "1666199595.636839",
+          "thread_ts": "1666199572.567989",
+          "attachments": [
+            {
+              "fallback": "Apple Developer: Optimizing App Launch - WWDC19 - Videos - Apple Developer",
+              "id": 1,
+              "title": "Optimizing App Launch - WWDC19 - Videos - Apple Developer",
+              "title_link": "https://developer.apple.com/videos/play/wwdc2019/423/",
+              "text": "Slow app launches are frustrating. Learn about the new app launch instrument and discover how to make your app launch fast. Gain insights...",
+              "image_url": "https://devimages-cdn.apple.com/wwdc-services/images/48/2662/2662_wide_250x141_2x.jpg",
+              "service_name": "Apple Developer",
+              "service_icon": "https://developer.apple.com/favicon.ico",
+              "from_url": "https://developer.apple.com/videos/play/wwdc2019/423/",
+              "original_url": "https://developer.apple.com/videos/play/wwdc2019/423/",
+              "blocks": null
+            },
+            {
+              "fallback": "Apple Developer: Link fast: Improve build and launch times - WWDC22 - Videos - Apple Developer",
+              "id": 2,
+              "title": "Link fast: Improve build and launch times - WWDC22 - Videos - Apple Developer",
+              "title_link": "https://developer.apple.com/videos/play/wwdc2022/110362/",
+              "text": "Discover how to improve your app's build and runtime linking performance. We'll take you behind the scenes to learn more about linking,...",
+              "image_url": "https://devimages-cdn.apple.com/wwdc-services/images/124/6716/6716_wide_250x141_2x.jpg",
+              "service_name": "Apple Developer",
+              "service_icon": "https://developer.apple.com/favicon.ico",
+              "from_url": "https://developer.apple.com/videos/play/wwdc2022/110362/",
+              "original_url": "https://developer.apple.com/videos/play/wwdc2022/110362/",
+              "blocks": null
+            }
+          ],
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "FFkDl",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Great question! There are a bunch of resources you can look at:\nFirst of all, I suggest giving this article a look:\n"
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/xcode/reducing-your-app-s-launch-time",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nIf you have a bit more time and are interested in understanding more about it here are two great WWDC sessions about the topic:\n"
+                    }
+                  ]
+                },
+                {
+                  "Type": "rich_text_list",
+                  "Raw": "{\"type\":\"rich_text_list\",\"elements\":[{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/videos\\/play\\/wwdc2019\\/423\\/\"}]},{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/videos\\/play\\/wwdc2022\\/110362\\/\"}]}],\"style\":\"bullet\",\"indent\":0,\"border\":0}"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046T40FY58\u003e asked\n\u0026gt; Thanks for doing this Q\u0026amp;A! I have a question regarding the metrics collected by the system and exposed through Xcode (Battery Usage, Memory, Scrolling, etc). For our app we can see some entries of very old versions but nothing recent (6+ months old). \n\u0026gt; \n\u0026gt; Is it possible that if you have added a custom MXMetricManager to the app, then the data is not sent to Xcode/App Store Connect?",
+      "ts": "1666200283.311339",
+      "thread_ts": "1666200283.311339",
+      "subtype": "bot_message",
+      "bot_id": "B042Q2FPSKZ",
+      "username": "Ask Apple - devtools-and-swift",
+      "reply_count": 2,
+      "latest_reply": "1666201553.299719",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "JM+l",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046T40FY58"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Thanks for doing this Q\u0026A! I have a question regarding the metrics collected by the system and exposed through Xcode (Battery Usage, Memory, Scrolling, etc). For our app we can see some entries of very old versions but nothing recent (6+ months old). \\n\\nIs it possible that if you have added a custom MXMetricManager to the app, then the data is not sent to Xcode\\/App Store Connect?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "5051857a-29af-49db-a62a-adbe082beb65",
+          "type": "message",
+          "user": "U0449M8HBDL",
+          "text": "MXMetricManager (and MetricKit usage generally) have no impact on your data in the Organizer. The Organizer has thresholds set that prevent noisy data from being delivered - if you file a Feedback at \u003chttp://feedbackassistant.apple.com|feedbackassistant.apple.com\u003e with your app's Bundle ID and name, we can take a look and see why you might not be seeing data!",
+          "ts": "1666200305.787009",
+          "thread_ts": "1666200283.311339",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "epA/",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "MXMetricManager (and MetricKit usage generally) have no impact on your data in the Organizer. The Organizer has thresholds set that prevent noisy data from being delivered - if you file a Feedback at "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://feedbackassistant.apple.com",
+                      "text": "feedbackassistant.apple.com"
+                    },
+                    {
+                      "type": "text",
+                      "text": " with your app's Bundle ID and name, we can take a look and see why you might not be seeing data!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "166589b1-bd2b-47a2-92f6-a2374b942d35",
+          "type": "message",
+          "user": "U046T40FY58",
+          "text": "Thanks for the clarification! I have filed FB11705093 :slightly_smiling_face:",
+          "ts": "1666201553.299719",
+          "thread_ts": "1666200283.311339",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "fkPo",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for the clarification! I have filed FB11705093 "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U047CK00V8Q\u003e asked\n\u0026gt; We need to share data between several push notification extensions, and when we set app mode to groups, we sometimes get a crash. TestFlight gives the following information:\n\u0026gt; \n\u0026gt; \n\u0026gt; Exception Type: EXC_CRASH (SIGKILL)\n\u0026gt; Exception Codes: 0x0000000000000000, 0x0000000000000000\n\u0026gt; Exception Note: EXC_CORPSE_NOTIFY\n\u0026gt; Termination Reason: RUNNINGBOARD 0xdead10cc\n\u0026gt; \n\u0026gt; Which is not really helpful. Any advice on determining the reason and fixing the problem?",
+      "ts": "1666200355.854449",
+      "thread_ts": "1666200355.854449",
+      "subtype": "bot_message",
+      "bot_id": "B042Q2FPSKZ",
+      "username": "Ask Apple - devtools-and-swift",
+      "reply_count": 1,
+      "latest_reply": "1666200565.233349",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "GELy",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U047CK00V8Q"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"We need to share data between several push notification extensions, and when we set app mode to groups, we sometimes get a crash. TestFlight gives the following information:\\n\\n\\nException Type: EXC_CRASH (SIGKILL)\\nException Codes: 0x0000000000000000, 0x0000000000000000\\nException Note: EXC_CORPSE_NOTIFY\\nTermination Reason: RUNNINGBOARD 0xdead10cc\\n\\nWhich is not really helpful. Any advice on determining the reason and fixing the problem?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "f6f408d2-c4b3-46e2-9caf-2437725a72ba",
+          "type": "message",
+          "user": "U0449M8HBDL",
+          "text": "Hi there! This termination reason (0xdead10cc) is due to a file or database like being held by your app/extension at suspension time. For more information on app and extension lifecycles, check the following on \u003chttp://developer.apple.com|developer.apple.com\u003e:\n\n\u0026gt; \u003chttps://developer.apple.com/library/archive/documentation/General/Conceptual/ExtensibilityPG/ExtensionOverview.html\u003e\n\u0026gt; \u003chttps://developer.apple.com/documentation/uikit/app_and_environment/managing_your_app_s_life_cycle?language=objc\u003e",
+          "ts": "1666200565.233349",
+          "thread_ts": "1666200355.854449",
+          "attachments": [
+            {
+              "fallback": "App Extension Programming Guide: Understand How an App Extension Works",
+              "id": 1,
+              "title": "App Extension Programming Guide: Understand How an App Extension Works",
+              "title_link": "https://developer.apple.com/library/archive/documentation/General/Conceptual/ExtensibilityPG/ExtensionOverview.html",
+              "text": "Describes how to develop an app extension, which is an executable that adds functionality to other apps.",
+              "service_name": "developer.apple.com",
+              "service_icon": "https://developer.apple.com/favicon.ico",
+              "from_url": "https://developer.apple.com/library/archive/documentation/General/Conceptual/ExtensibilityPG/ExtensionOverview.html",
+              "original_url": "https://developer.apple.com/library/archive/documentation/General/Conceptual/ExtensibilityPG/ExtensionOverview.html",
+              "blocks": null
+            }
+          ],
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U044UUNLUUR"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "OWSd1",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi there! This termination reason (0xdead10cc) is due to a file or database like being held by your app/extension at suspension time. For more information on app and extension lifecycles, check the following on "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://developer.apple.com",
+                      "text": "developer.apple.com"
+                    },
+                    {
+                      "type": "text",
+                      "text": ":\n\n"
+                    }
+                  ]
+                },
+                {
+                  "Type": "rich_text_quote",
+                  "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/library\\/archive\\/documentation\\/General\\/Conceptual\\/ExtensibilityPG\\/ExtensionOverview.html\"},{\"type\":\"text\",\"text\":\"\\n\"},{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/documentation\\/uikit\\/app_and_environment\\/managing_your_app_s_life_cycle?language=objc\"}]}"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0465KAH0E8\u003e asked\n\u0026gt; Hello!\n\u0026gt; In our project, we had performance tests for CPU, Disk, and Memory. They did work properly until we moved to the new Xcode version 14. Seems like on Xcode 14 XCUI framework is broken. We did already create a Feedback Assistant ticket for Apple. But we are wondering if you are aware of that issue?",
+      "ts": "1666200550.533549",
+      "thread_ts": "1666200550.533549",
+      "subtype": "bot_message",
+      "bot_id": "B042Q2FPSKZ",
+      "username": "Ask Apple - devtools-and-swift",
+      "reply_count": 7,
+      "latest_reply": "1666202779.728649",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "YbOxa",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0465KAH0E8"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Hello!\\nIn our project, we had performance tests for CPU, Disk, and Memory. They did work properly until we moved to the new Xcode version 14. Seems like on Xcode 14 XCUI framework is broken. We did already create a Feedback Assistant ticket for Apple. But we are wondering if you are aware of that issue?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "7980d43d-7ec3-4c3a-ad23-52319520ffeb",
+          "type": "message",
+          "user": "U044JP8FE4C",
+          "text": "Thanks for sending us a Feedback report on this! Can you share with us the FB number of the report you submitted? If you don't have it handy, you should be able to find it again at \u003chttps://feedbackassistant.apple.com\u003e.",
+          "ts": "1666200569.247879",
+          "thread_ts": "1666200550.533549",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "xn+",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for sending us a Feedback report on this! Can you share with us the FB number of the report you submitted? If you don't have it handy, you should be able to find it again at "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://feedbackassistant.apple.com",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "4687124a-2a4d-46a7-a88e-0d46b075d101",
+          "type": "message",
+          "user": "U0465KAH0E8",
+          "text": "\u003c@U044JP8FE4C\u003e thank you for your reply!\nhere you are \u003chttps://feedbackassistant.apple.com/feedback/11675516|FB11675516\u003e",
+          "ts": "1666200705.385699",
+          "thread_ts": "1666200550.533549",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "daQaW",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U044JP8FE4C"
+                    },
+                    {
+                      "type": "text",
+                      "text": " thank you for your reply!\nhere you are "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://feedbackassistant.apple.com/feedback/11675516",
+                      "text": "FB11675516"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "03c3c689-344b-48f1-b312-f6239c03b57f",
+          "type": "message",
+          "user": "U0465KAH0E8",
+          "text": "I want to add a little clarification: The question wasn't about awareness of feedback itself. It was about the issue with XCUI framework on Xcode 14. :slightly_smiling_face:",
+          "ts": "1666201596.697989",
+          "thread_ts": "1666200550.533549",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "52t1",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I want to add a little clarification: The question wasn't about awareness of feedback itself. It was about the issue with XCUI framework on Xcode 14. "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "8a05935f-d836-4a93-aa7b-268894bba5f4",
+          "type": "message",
+          "user": "U0441P0BU3H",
+          "text": "hey Dana, to clarify - your tests visually look like they're running fine, but you don't see disk usage data specifically after?",
+          "ts": "1666202118.055349",
+          "thread_ts": "1666200550.533549",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "white_check_mark",
+              "count": 1,
+              "users": [
+                "U0465KAH0E8"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "6TpK",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "hey Dana, to clarify - your tests visually look like they're running fine, but you don't see disk usage data specifically after?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "769344ed-ef5b-4c7b-83a4-32c186bc1f43",
+          "type": "message",
+          "user": "U0465KAH0E8",
+          "text": "\u003c@U0441P0BU3H\u003e hey! Thank you for looking at it! Confirming that the performance tests on iOS run fine but have stopped providing results.",
+          "ts": "1666202669.551869",
+          "thread_ts": "1666200550.533549",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "gratitude-thank-you",
+              "count": 1,
+              "users": [
+                "U0441P0BU3H"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "9B9UR",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U0441P0BU3H"
+                    },
+                    {
+                      "type": "text",
+                      "text": " hey! Thank you for looking at it! Confirming that the performance tests on iOS run fine but have stopped providing results."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "a01c7161-3a2e-49d3-a812-9ec1d341081c",
+          "type": "message",
+          "user": "U0449M8HBDL",
+          "text": "Hi Dana - would you be able to add your XCResults bundle to the feedback you filed?",
+          "ts": "1666202710.898639",
+          "thread_ts": "1666200550.533549",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "sos",
+              "count": 1,
+              "users": [
+                "U0465KAH0E8"
+              ]
+            },
+            {
+              "name": "eyes",
+              "count": 1,
+              "users": [
+                "U0465KAH0E8"
+              ]
+            },
+            {
+              "name": "raised_hands",
+              "count": 1,
+              "users": [
+                "U0465KAH0E8"
+              ]
+            },
+            {
+              "name": "white_check_mark",
+              "count": 2,
+              "users": [
+                "U0465KAH0E8",
+                "U047C2MGSH1"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Wqj",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi Dana - would you be able to add your XCResults bundle to the feedback you filed?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "4b3a82eb-9bbb-43a7-8699-0b910ad4fcea",
+          "type": "message",
+          "user": "U0465KAH0E8",
+          "text": "Hi \u003c@U0449M8HBDL\u003e, sure we will add results as soon as possible there!",
+          "ts": "1666202779.728649",
+          "thread_ts": "1666200550.533549",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "gratitude-thank-you",
+              "count": 1,
+              "users": [
+                "U0449M8HBDL"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "mHGi",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U0449M8HBDL"
+                    },
+                    {
+                      "type": "text",
+                      "text": ", sure we will add results as soon as possible there!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U04673E7B2P\u003e asked\n\u0026gt; Is the Singleton pattern ideal for dependency injection? \n\u0026gt; In our case we have lots of dependencies and, although it's very convenient, we were wondering if it could affect directly the app's performance or power usage.",
+      "ts": "1666200744.913199",
+      "thread_ts": "1666200744.913199",
+      "subtype": "bot_message",
+      "bot_id": "B042Q2FPSKZ",
+      "username": "Ask Apple - devtools-and-swift",
+      "reply_count": 1,
+      "latest_reply": "1666200783.384349",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "bti",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U04673E7B2P"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Is the Singleton pattern ideal for dependency injection? \\nIn our case we have lots of dependencies and, although it's very convenient, we were wondering if it could affect directly the app's performance or power usage.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "ff8935e2-3256-4cd7-bd18-854d7a3a953b",
+          "type": "message",
+          "user": "U0457MPCGTS",
+          "text": "First of all — always profile first and optimize with data.\n\nFrom a CPU usage perspective, I'd be surprised if singleton patterns would be an issue unless there's an _extremely_ frequent call-site that repeatedly looks up the singleton, but this kind of thing should show up in a time profile.\n\nFrom a memory usage perspective, singletons usually exist forever, so if they're building up large state over time that could certainly be an issue. The \u003chttps://developer.apple.com/documentation/xcode/gathering-information-about-memory-use|Memory Graph Debugger\u003e might be a good way of seeing what memory your app's holding on to, and if it's related to singletons which are held in global variables (in `__DATA`). Note though that the globals themselves are unlikely to be an issue if they're just pointers to objects, but if you'd like to see what's in your `__DATA` you can run `symbols \u0026lt;binary\u0026gt;`",
+          "ts": "1666200783.384349",
+          "thread_ts": "1666200744.913199",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "heart",
+              "count": 3,
+              "users": [
+                "U04673E7B2P",
+                "U045SJ3J1D5",
+                "U04667MNNA0"
+              ]
+            },
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U04667MNNA0"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "n2GVA",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "First of all — always profile first and optimize with data.\n\nFrom a CPU usage perspective, I'd be surprised if singleton patterns would be an issue unless there's an "
+                    },
+                    {
+                      "type": "text",
+                      "text": "extremely",
+                      "style": {
+                        "italic": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " frequent call-site that repeatedly looks up the singleton, but this kind of thing should show up in a time profile.\n\nFrom a memory usage perspective, singletons usually exist forever, so if they're building up large state over time that could certainly be an issue. The "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/xcode/gathering-information-about-memory-use",
+                      "text": "Memory Graph Debugger"
+                    },
+                    {
+                      "type": "text",
+                      "text": " might be a good way of seeing what memory your app's holding on to, and if it's related to singletons which are held in global variables (in "
+                    },
+                    {
+                      "type": "text",
+                      "text": "__DATA",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "). Note though that the globals themselves are unlikely to be an issue if they're just pointers to objects, but if you'd like to see what's in your "
+                    },
+                    {
+                      "type": "text",
+                      "text": "__DATA",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " you can run "
+                    },
+                    {
+                      "type": "text",
+                      "text": "symbols \u003cbinary\u003e",
+                      "style": {
+                        "code": true
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "18438058-6c1c-4e59-8f78-6745802798eb",
+      "type": "message",
+      "user": "U044JP8FE4C",
+      "text": "Hey all! We're getting a few questions about crash reports and understanding the reasons for unexpected app termination, so I'll start a quick thread about it here!\n:thread:",
+      "ts": "1666201998.206479",
+      "thread_ts": "1666201998.206479",
+      "reply_count": 1,
+      "latest_reply": "1666202062.646259",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "17g",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hey all! We're getting a few questions about crash reports and understanding the reasons for unexpected app termination, so I'll start a quick thread about it here!\n"
+                },
+                {
+                  "type": "emoji",
+                  "name": "thread",
+                  "skin_tone": 0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "c1f109b4-cfbf-410f-b866-6e0760893138",
+          "type": "message",
+          "user": "U044JP8FE4C",
+          "text": "We have a brilliant talk from WWDC 2020 that goes into the most common reasons for app terminations and the tools to understand the reasons behind them. This is a great place to start! \u003chttps://developer.apple.com/videos/play/wwdc2020/10078/\u003e",
+          "ts": "1666202062.646259",
+          "thread_ts": "1666201998.206479",
+          "attachments": [
+            {
+              "fallback": "Apple Developer: Why is my app getting killed? - WWDC20 - Videos - Apple Developer",
+              "id": 1,
+              "title": "Why is my app getting killed? - WWDC20 - Videos - Apple Developer",
+              "title_link": "https://developer.apple.com/videos/play/wwdc2020/10078/",
+              "text": "Put on your detective's hat: It's time to track down those unruly app terminations. We'll outline the six major reasons apps terminate in...",
+              "image_url": "https://devimages-cdn.apple.com/wwdc-services/images/49/3795/3795_wide_250x141_2x.jpg",
+              "service_name": "Apple Developer",
+              "service_icon": "https://developer.apple.com/favicon.ico",
+              "from_url": "https://developer.apple.com/videos/play/wwdc2020/10078/",
+              "original_url": "https://developer.apple.com/videos/play/wwdc2020/10078/",
+              "blocks": null
+            }
+          ],
+          "parent_user_id": "U044JP8FE4C",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "heart",
+              "count": 2,
+              "users": [
+                "U04673E7B2P",
+                "U0464NE480L"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "txQe",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "We have a brilliant talk from WWDC 2020 that goes into the most common reasons for app terminations and the tools to understand the reasons behind them. This is a great place to start! "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/videos/play/wwdc2020/10078/",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U045ZGP2QCV\u003e asked\n\u0026gt; When starting unit tests, Xcode 14 beachballs for ~50 seconds before compiling starts, regardless of a macOS or iOS scheme. Why? How could we troubleshoot or avoid this? \n\u0026gt; \n\u0026gt; Potentially irrelevant: Our codebase is SwiftUI + Composable Architecture, with ~100 lines in the App target and then a hierarchy of 5 SPM packages, with one core package of ~60 targets.",
+      "ts": "1666202132.723199",
+      "thread_ts": "1666202132.723199",
+      "subtype": "bot_message",
+      "bot_id": "B042Q2FPSKZ",
+      "username": "Ask Apple - devtools-and-swift",
+      "reply_count": 1,
+      "latest_reply": "1666202143.015979",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "FwDmN",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U045ZGP2QCV"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"When starting unit tests, Xcode 14 beachballs for ~50 seconds before compiling starts, regardless of a macOS or iOS scheme. Why? How could we troubleshoot or avoid this? \\n\\nPotentially irrelevant: Our codebase is SwiftUI + Composable Architecture, with ~100 lines in the App target and then a hierarchy of 5 SPM packages, with one core package of ~60 targets.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "1a8f41f8-1c26-4001-aced-f9a43e4aadd6",
+          "type": "message",
+          "user": "U0449M8HBDL",
+          "text": "Hi there! Thanks for the report. In order for our team to dig into this further, we would greatly appreciate if you could file a feedback at \u003chttp://feedbackassistant.apple.com|feedbackassistant.apple.com\u003e, and include a sysdiagnose while Xcode is beachballing.",
+          "ts": "1666202143.015979",
+          "thread_ts": "1666202132.723199",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "MOz",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi there! Thanks for the report. In order for our team to dig into this further, we would greatly appreciate if you could file a feedback at "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://feedbackassistant.apple.com",
+                      "text": "feedbackassistant.apple.com"
+                    },
+                    {
+                      "type": "text",
+                      "text": ", and include a sysdiagnose while Xcode is beachballing."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0464REQQCU\u003e asked\n\u0026gt; Regarding app hangs: We appreciate Xcode 14's new runtime warnings around possible app hangs/UI unresponsiveness such as this one from `CoreLocation`s `CLLocationManager.locationServicesEnabled()`:\n\u0026gt; \n\u0026gt; \u0026gt; This method can cause UI unresponsiveness if invoked on the main thread. Instead, consider waiting for the `-locationManagerDidChangeAuthorization:` callback and checking `authorizationStatus` first.\n\u0026gt; \n\u0026gt; We're also observing app hangs from `HKHealthStore`'s `-authorizationStatusForType:`, however, Xcode does not produce any runtime warnings for them specifically. Is it known/expected that `-authorizationStatusForType:` may lead to UI unresponsiveness and if so, what are possible workarounds?",
+      "ts": "1666202246.906769",
+      "thread_ts": "1666202246.906769",
+      "subtype": "bot_message",
+      "bot_id": "B042Q2FPSKZ",
+      "username": "Ask Apple - devtools-and-swift",
+      "reply_count": 2,
+      "latest_reply": "1666202335.504119",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Bsr",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0464REQQCU"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Regarding app hangs: We appreciate Xcode 14's new runtime warnings around possible app hangs\\/UI unresponsiveness such as this one from `CoreLocation`s `CLLocationManager.locationServicesEnabled()`:\\n\\n\u003e This method can cause UI unresponsiveness if invoked on the main thread. Instead, consider waiting for the `-locationManagerDidChangeAuthorization:` callback and checking `authorizationStatus` first.\\n\\nWe're also observing app hangs from `HKHealthStore`'s `-authorizationStatusForType:`, however, Xcode does not produce any runtime warnings for them specifically. Is it known\\/expected that `-authorizationStatusForType:` may lead to UI unresponsiveness and if so, what are possible workarounds?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "298f4f99-915b-45e8-a5b6-0778ebabf13f",
+          "type": "message",
+          "user": "U044WL118HF",
+          "text": "\u0026gt; Hi there,\n\u0026gt; that's great feedback! As you noticed, Xcode 14 shows new runtime warnings about some API misuse. For now, many of these are special-cased warnings about commonly misused APIs, but we haven't audited all API yet.\n\u0026gt; \n\u0026gt; We don't have a HealthKit engineer with us right now, so I can't answer whether `authorizationStatusForType` from `HKHealthStore` should be safe to run in terms of hangs or there is an async alternative to use instead. But it would be great to have this information.\n\u0026gt; \n\u0026gt; If you see hangs being caused by `authorizationStatusForType` can you please file a feedback via \u003chttp://feedbackassistant.apple.com|feedbackassistant.apple.com\u003e to ask for either the hang to be fixed or a runtime warning to be produced for API misuse?\n\u0026gt; \n\u0026gt; If you feel the documentation isn't clear on how to use it, that's also great feedback to report!",
+          "ts": "1666202294.143989",
+          "thread_ts": "1666202246.906769",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 3,
+              "users": [
+                "U0464REQQCU",
+                "U047NQ5G7TJ",
+                "U0469NB7686"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "grVPN",
+              "elements": [
+                {
+                  "Type": "rich_text_quote",
+                  "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Hi there,\\nthat's great feedback! As you noticed, Xcode 14 shows new runtime warnings about some API misuse. For now, many of these are special-cased warnings about commonly misused APIs, but we haven't audited all API yet.\\n\\nWe don't have a HealthKit engineer with us right now, so I can't answer whether \"},{\"type\":\"text\",\"text\":\"authorizationStatusForType\",\"style\":{\"code\":true}},{\"type\":\"text\",\"text\":\" from \"},{\"type\":\"text\",\"text\":\"HKHealthStore\",\"style\":{\"code\":true}},{\"type\":\"text\",\"text\":\" should be safe to run in terms of hangs or there is an async alternative to use instead. But it would be great to have this information.\\n\\nIf you see hangs being caused by \"},{\"type\":\"text\",\"text\":\"authorizationStatusForType\",\"style\":{\"code\":true}},{\"type\":\"text\",\"text\":\" can you please file a feedback via \"},{\"type\":\"link\",\"url\":\"http:\\/\\/feedbackassistant.apple.com\",\"text\":\"feedbackassistant.apple.com\"},{\"type\":\"text\",\"text\":\" to ask for either the hang to be fixed or a runtime warning to be produced for API misuse?\\n\\nIf you feel the documentation isn't clear on how to use it, that's also great feedback to report!\"}]}"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "5bd7a93d-bc4e-49ec-bce8-39b2b8f169ee",
+          "type": "message",
+          "user": "U0464REQQCU",
+          "text": "Will file feedback",
+          "ts": "1666202335.504119",
+          "thread_ts": "1666202246.906769",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "heart",
+              "count": 1,
+              "users": [
+                "U044JP8FE4C"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "WTUC",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Will file feedback"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U045ZGP2QCV\u003e asked\n\u0026gt; A missing link for App Store Connect analytics is accessibility data. If there are far fewer than expected sessions with ax features enabled, notifying the developer would benefit users, Apple's ecosystem, and said developer's market penetration.\n\u0026gt; \n\u0026gt; As these are highly sensitive data, collection, storage, and analytics is best done by a mindful third party (i.e., Apple). \n\u0026gt; \n\u0026gt; As a financial institution (lender), we don't want to be anywhere near a user's medical information, but we do want to flag accessibility problems and regressions beyond manual testing and UI snapshot testing. We're putting together a program that takes a number of uncommon measures to ensure fully anonymized accessibility state collection, but it's more involved than most organizations will probably to do on a whim. We'd gladly scrap it if Apple offered an alternative.",
+      "ts": "1666202294.763579",
+      "thread_ts": "1666202294.763579",
+      "subtype": "bot_message",
+      "bot_id": "B042Q2FPSKZ",
+      "username": "Ask Apple - devtools-and-swift",
+      "reply_count": 2,
+      "latest_reply": "1666202987.553719",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "zBl",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U045ZGP2QCV"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"A missing link for App Store Connect analytics is accessibility data. If there are far fewer than expected sessions with ax features enabled, notifying the developer would benefit users, Apple's ecosystem, and said developer's market penetration.\\n\\nAs these are highly sensitive data, collection, storage, and analytics is best done by a mindful third party (i.e., Apple). \\n\\nAs a financial institution (lender), we don't want to be anywhere near a user's medical information, but we do want to flag accessibility problems and regressions beyond manual testing and UI snapshot testing. We're putting together a program that takes a number of uncommon measures to ensure fully anonymized accessibility state collection, but it's more involved than most organizations will probably to do on a whim. We'd gladly scrap it if Apple offered an alternative.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "cdeb5a5d-c83d-4c8a-b087-b07560035291",
+          "type": "message",
+          "user": "U0441P0BU3H",
+          "text": "Hey Ryan, are you looking for something like the percent of your users that have ax on per day? Can you please file a Feedback (\u003chttps://feedbackassistant.apple.com\u003e) with your request, including what you had in mind that you'd conclude from this data and importance to you, and then paste the FB ID back here?",
+          "ts": "1666202301.557399",
+          "thread_ts": "1666202294.763579",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "QeXg",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hey Ryan, are you looking for something like the percent of your users that have ax on per day? Can you please file a Feedback ("
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://feedbackassistant.apple.com",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": ") with your request, including what you had in mind that you'd conclude from this data and importance to you, and then paste the FB ID back here?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "c6c81583-534d-45b3-a8eb-0d914bc4813e",
+          "type": "message",
+          "user": "U045ZGP2QCV",
+          "text": "FB11705152\n\nYes, or number of sessions, but more on a feature level, e.g., VoiceOver, DynamicType size, etc.\n\nIt would also be OK to not report a percentage unless it's sufficiently large (e.g., 30% dark mode or 10% reduced brightness), as seeing \"1% VoiceOver\" might actually demotivate developers and defeat the purpose. In those cases, simply a \"as expected\" or \"problematically low\" label is good enough.",
+          "ts": "1666202987.553719",
+          "thread_ts": "1666202294.763579",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "h/rT",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "FB11705152\n\nYes, or number of sessions, but more on a feature level, e.g., VoiceOver, DynamicType size, etc.\n\nIt would also be OK to not report a percentage unless it's sufficiently large (e.g., 30% dark mode or 10% reduced brightness), as seeing \"1% VoiceOver\" might actually demotivate developers and defeat the purpose. In those cases, simply a \"as expected\" or \"problematically low\" label is good enough."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046JND8CKB\u003e asked\n\u0026gt; Hi, is there any absolutely basic code that you think should be included in most apps that help with loading or keeping performance as fast as possible? Just a bit beyond the basic of changing the boilerplate error code which crashes the app to some useful error handling and slightly less basic including concurrency when needed. Or is it always pretty much dependent on the app?",
+      "ts": "1666202473.787519",
+      "thread_ts": "1666202473.787519",
+      "subtype": "bot_message",
+      "bot_id": "B042Q2FPSKZ",
+      "username": "Ask Apple - devtools-and-swift",
+      "reply_count": 2,
+      "latest_reply": "1666202764.476289",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ArOw",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046JND8CKB"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Hi, is there any absolutely basic code that you think should be included in most apps that help with loading or keeping performance as fast as possible? Just a bit beyond the basic of changing the boilerplate error code which crashes the app to some useful error handling and slightly less basic including concurrency when needed. Or is it always pretty much dependent on the app?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "02233358-3dd9-496e-bb68-dba72fa189c1",
+          "type": "message",
+          "user": "U0449M8HBDL",
+          "text": "Hi there! Thanks for your question. In general, iterating on your code and using tooling to measure performance is a great start. We strongly recommend instrumenting XCTest Performance tests and using Instruments throughout your development process to measure performance quantitatively. You can find a great primer talk on how to use these tools and more here:\n\n\u003chttps://developer.apple.com/videos/play/wwdc2021/10181/\u003e\n\nI also recommend taking a look through the following article for a great overview on some critical concepts for maintaining good performance:\n\n\u003chttps://developer.apple.com/documentation/metrickit/improving_your_app_s_performance\u003e",
+          "ts": "1666202652.164719",
+          "thread_ts": "1666202473.787519",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "mqCg",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi there! Thanks for your question. In general, iterating on your code and using tooling to measure performance is a great start. We strongly recommend instrumenting XCTest Performance tests and using Instruments throughout your development process to measure performance quantitatively. You can find a great primer talk on how to use these tools and more here:\n\n"
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/videos/play/wwdc2021/10181/",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nI also recommend taking a look through the following article for a great overview on some critical concepts for maintaining good performance:\n\n"
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/metrickit/improving_your_app_s_performance",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "c3fe14ea-881a-4572-99bd-2b44202247e5",
+          "type": "message",
+          "user": "U046JND8CKB",
+          "text": "Thanks Phillip!",
+          "ts": "1666202764.476289",
+          "thread_ts": "1666202473.787519",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "QUyK",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks Phillip!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U044JP8FE4C\u003e removed a workflow from this channel: *Ask Apple - devtools-and-swift*.",
+      "ts": "1666202505.292309",
+      "subtype": "bot_message",
+      "bot_id": "B042Q2FPSKZ",
+      "username": "Ask Apple - devtools-and-swift",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "fwyQ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U044JP8FE4C"
+                },
+                {
+                  "type": "text",
+                  "text": " removed a workflow from this channel: "
+                },
+                {
+                  "type": "text",
+                  "text": "Ask Apple - devtools-and-swift",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "07a23851-095c-4b0f-b947-ef8c021c5f40",
+      "type": "message",
+      "user": "U044JP8FE4C",
+      "text": "Thank you for joining us for this Q\u0026amp;A! It was a blast :rocket:. Our Q\u0026amp;A activities in this channel have now concluded. We wish we could have answered all your questions! If we weren’t able to get to your question, here are some great ways to keep in touch:\n\n• File feedback! Let us know what’s not clear or what behavior seems a bit off by using the Feedback Assistant app or going to: \u003chttp://feedbackassistant.apple.com|feedbackassistant.apple.com\u003e \n• Submit a TSI! Developer Technical Support engineers are available to give you code-level support. You can submit a TSI here: \u003chttps://developer.apple.com/support/technical/\u003e \n• Ask a question on the Apple Developer Forums: \u003chttps://developer.apple.com/forums/\u003e\nThank you so much for making this such an engaging week!",
+      "ts": "1666202521.571299",
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "heart",
+          "count": 1,
+          "users": [
+            "U0464NE480L"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "N1T7",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Thank you for joining us for this Q\u0026A! It was a blast "
+                },
+                {
+                  "type": "emoji",
+                  "name": "rocket",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": ". Our Q\u0026A activities in this channel have now concluded. We wish we could have answered all your questions! If we weren’t able to get to your question, here are some great ways to keep in touch:\n\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_list",
+              "Raw": "{\"type\":\"rich_text_list\",\"elements\":[{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"File feedback! Let us know what\\u2019s not clear or what behavior seems a bit off by using the Feedback Assistant app or going to: \"},{\"type\":\"link\",\"url\":\"http:\\/\\/feedbackassistant.apple.com\",\"text\":\"feedbackassistant.apple.com\"},{\"type\":\"text\",\"text\":\" \"}]},{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"Submit a TSI! Developer Technical Support engineers are available to give you code-level support. You can submit a TSI here: \"},{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/support\\/technical\\/\"},{\"type\":\"text\",\"text\":\" \"}]},{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"Ask a question on the Apple Developer Forums: \"},{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/forums\\/\"}]}],\"style\":\"bullet\",\"indent\":0,\"border\":0}"
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\nThank you so much for making this such an engaging week!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U045MLXB6UX\u003e asked\n\u0026gt; What can we do if our app can't use all the cores but then hangs/stalls the machine (can't make new threads)? FB10893202",
+      "ts": "1666203200.208259",
+      "thread_ts": "1666203200.208259",
+      "subtype": "bot_message",
+      "bot_id": "B042Q2FPSKZ",
+      "username": "Ask Apple - devtools-and-swift",
+      "reply_count": 1,
+      "latest_reply": "1666203206.787609",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "q9rJE",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U045MLXB6UX"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"What can we do if our app can't use all the cores but then hangs\\/stalls the machine (can't make new threads)? FB10893202\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "08517496-2e5e-4637-a6a4-67e022890502",
+          "type": "message",
+          "user": "U0441P0BU3H",
+          "text": "hey Steven - thanks for filing that FB and apologies on the delay getting back to you on it.\n\nThanks for the sample code as well. If you have a way to reliably exercise it into the state you're seeing to reproduce, that would be really helpful.\n\nWe also made a fix in Ventura with dispatch queues that we think could be your issue. Could you see if you could reproduce there as well?\n\nIf you can reproduce and are familiar, attaching using lldb and printing the state of your input queue and dispatch_get_global_queue(QOS_CLASS_DEFAULT, 0) would help the dispatch team narrow this down.",
+          "ts": "1666203206.787609",
+          "thread_ts": "1666203200.208259",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "heart",
+              "count": 1,
+              "users": [
+                "U044JP8FE4C"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "1HbW7",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "hey Steven - thanks for filing that FB and apologies on the delay getting back to you on it.\n\nThanks for the sample code as well. If you have a way to reliably exercise it into the state you're seeing to reproduce, that would be really helpful.\n\nWe also made a fix in Ventura with dispatch queues that we think could be your issue. Could you see if you could reproduce there as well?\n\nIf you can reproduce and are familiar, attaching using lldb and printing the state of your input queue and dispatch_get_global_queue(QOS_CLASS_DEFAULT, 0) would help the dispatch team narrow this down."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "channel_id": "C042KFPP2J3"
+}

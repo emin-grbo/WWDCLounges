@@ -1,0 +1,3395 @@
+{
+  "name": "appkit-and-mac-catalyst",
+  "messages": [
+    {
+      "type": "message",
+      "user": "U03V30M0C1K",
+      "text": "This content can't be displayed.",
+      "ts": "1665433898.035029",
+      "pinned_to": [
+        "C043CPR60RF"
+      ],
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "coffee",
+          "count": 9,
+          "users": [
+            "U0464H1DEM8",
+            "U04687JUW3D",
+            "U045X3WH4CE",
+            "U04636Y7AEN",
+            "U04713J9CBS",
+            "U045X6PBB8F",
+            "U046AJE7DTL",
+            "U0468SB0YNB",
+            "U047KF4303S"
+          ]
+        },
+        {
+          "name": "+1",
+          "count": 6,
+          "users": [
+            "U046UNAKNSU",
+            "U04713J9CBS",
+            "U046R2YCDSM",
+            "U045Q8H5ASK",
+            "U046FJMTY85",
+            "U045R2JDPRV"
+          ]
+        },
+        {
+          "name": "white_check_mark",
+          "count": 1,
+          "users": [
+            "U0466572LUE"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "header",
+          "text": {
+            "type": "plain_text",
+            "text": "Welcome to Ask Apple",
+            "emoji": true
+          },
+          "block_id": "P5=l4"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "We're excited to be hosting you in the AppKit and Mac Catalyst channel this week! You can find the full schedule of Q\u0026amp;As for AppKit and Mac Catalyst by visiting the \u003chttps://apps.apple.com/us/app/apple-developer/id640199958 | Apple Developer app\u003e and \u003chttps://developer.apple.com/events/ask-apple/questions-and-answers/ | website\u003e."
+          },
+          "block_id": "8nTX"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "If you haven’t already, please take a moment to familiarize yourself with \u003chttps://developer.apple.com/news/?id=vpbyzfg4 | how Q\u0026amp;As will work\u003e."
+          },
+          "block_id": "KbjT"
+        },
+        {
+          "type": "header",
+          "text": {
+            "type": "plain_text",
+            "text": "Attendance Policy",
+            "emoji": true
+          },
+          "block_id": "f9ZYA"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "We want to make sure these spaces are helpful and welcoming for everyone — developers and Apple employees alike. Please review and follow the \u003chttps://developer.apple.com/events/policy/online-event-attendance-policy/ | attendance policy\u003e."
+          },
+          "block_id": "vPP"
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03V30M0C1K\u003e added a workflow to this channel: *Ask Apple - appkit-and-mac-catalyst*.",
+      "ts": "1666019030.323169",
+      "subtype": "bot_message",
+      "bot_id": "B043H9A74RF",
+      "username": "Ask Apple - appkit-and-mac-catalyst",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "SNme",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03V30M0C1K"
+                },
+                {
+                  "type": "text",
+                  "text": " added a workflow to this channel: "
+                },
+                {
+                  "type": "text",
+                  "text": "Ask Apple - appkit-and-mac-catalyst",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "a628b2d0-9488-49ba-a743-0d6620c4ac1c",
+      "type": "message",
+      "user": "U0457TYCT0C",
+      "text": "In just a few minutes, we’re going to start our *Q\u0026amp;A: \"Q\u0026amp;A: AppKit and Mac Catalyst\"* activity! We’ll begin right at *12pm PDT*, so make sure you’ve ready with your AppKit and Catalyst questions! If you’re ahead of the game, check out the following resources for more:\n• Mac Catalyst Overview: \u003chttps://developer.apple.com/mac-catalyst/\u003e\n• WWDC22: \u003chttps://developer.apple.com/videos/play/wwdc2022/10076/|Bring your iOS app to the Mac\u003e\nUse the :heavy_plus_sign: icon in the text field below, and select “Ask a question” to submit a question during this activity. Apple experts will answer as many of your questions as they can!",
+      "ts": "1666031101.956829",
+      "attachments": [
+        {
+          "fallback": "Apple Developer: Mac Catalyst - Apple Developer",
+          "id": 1,
+          "title": "Mac Catalyst - Apple Developer",
+          "title_link": "https://developer.apple.com/mac-catalyst/",
+          "text": "Easily start creating a native Mac app from your current iPad app with Mac Catalyst.",
+          "image_url": "https://developer.apple.com/news/images/og/mac-catalyst-og.jpg",
+          "service_name": "Apple Developer",
+          "service_icon": "https://developer.apple.com/favicon.ico",
+          "from_url": "https://developer.apple.com/mac-catalyst/",
+          "original_url": "https://developer.apple.com/mac-catalyst/",
+          "blocks": null
+        },
+        {
+          "fallback": "Apple Developer: Bring your iOS app to the Mac - WWDC22 - Videos - Apple Developer",
+          "id": 2,
+          "title": "Bring your iOS app to the Mac - WWDC22 - Videos - Apple Developer",
+          "title_link": "https://developer.apple.com/videos/play/wwdc2022/10076/",
+          "text": "Discover all the different ways you can transform your iOS app into a great macOS experience. We'll explore best practices for bringing...",
+          "image_url": "https://devimages-cdn.apple.com/wwdc-services/images/124/6570/6570_wide_250x141_2x.jpg",
+          "service_name": "Apple Developer",
+          "service_icon": "https://developer.apple.com/favicon.ico",
+          "from_url": "https://developer.apple.com/videos/play/wwdc2022/10076/",
+          "original_url": "https://developer.apple.com/videos/play/wwdc2022/10076/",
+          "blocks": null
+        }
+      ],
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "tada",
+          "count": 6,
+          "users": [
+            "U03V30M0C1K",
+            "U047KF4303S",
+            "U0449F2BYNS",
+            "U047JNUP1MW",
+            "U0460FA4BFS",
+            "U0464MJTND8"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "zHC",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "In just a few minutes, we’re going to start our "
+                },
+                {
+                  "type": "text",
+                  "text": "Q\u0026A: \"Q\u0026A: AppKit and Mac Catalyst\"",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " activity! We’ll begin right at "
+                },
+                {
+                  "type": "text",
+                  "text": "12pm PDT",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ", so make sure you’ve ready with your AppKit and Catalyst questions! If you’re ahead of the game, check out the following resources for more:\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_list",
+              "Raw": "{\"type\":\"rich_text_list\",\"elements\":[{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"Mac Catalyst Overview: \"},{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/mac-catalyst\\/\"}]},{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"WWDC22: \"},{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/videos\\/play\\/wwdc2022\\/10076\\/\",\"text\":\"Bring your iOS app to the Mac\"}]}],\"style\":\"bullet\",\"indent\":0,\"border\":0}"
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\nUse the "
+                },
+                {
+                  "type": "emoji",
+                  "name": "heavy_plus_sign",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " icon in the text field below, and select “Ask a question” to submit a question during this activity. Apple experts will answer as many of your questions as they can!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "20978784-93aa-4c46-b5d8-53bf935cf700",
+      "type": "message",
+      "user": "U0457TYCT0C",
+      "text": "\u003c!here\u003e Welcome everyone, and thank you for joining us for *Q\u0026amp;A: AppKit and Mac Catalyst*! We can’t wait any longer to answer your questions. Select the :heavy_plus_sign: icon from the lower left, and use the “Ask a question” workflow to submit your questions. We’ll answer as many questions as we can over the next 60 minutes!",
+      "ts": "1666033226.191839",
+      "edited": {
+        "user": "U0457TYCT0C",
+        "ts": "1666033320.000000"
+      },
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "star-struck",
+          "count": 2,
+          "users": [
+            "U0462538BS7",
+            "U047KF4303S"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "YXh9",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "broadcast",
+                  "range": "here"
+                },
+                {
+                  "type": "text",
+                  "text": " Welcome everyone, and thank you for joining us for "
+                },
+                {
+                  "type": "text",
+                  "text": "Q\u0026A: AppKit and Mac Catalyst",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "! We can’t wait any longer to answer your questions. Select the "
+                },
+                {
+                  "type": "emoji",
+                  "name": "heavy_plus_sign",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " icon from the lower left, and use the “Ask a question” workflow to submit your questions. We’ll answer as many questions as we can over the next 60 minutes!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U04651NPB0C\u003e asked\n\u0026gt; I have a SwiftUI App with some AppKit views. In the Edit menu bar item is a \"Delete\" item that can be enabled when a focusable view has the `onDeleteCommand` modifier, is there a way to enable the menu bar item from within my focusable AppKit views? I tried adding `deleteBackward` and `responds(to selector:)` but the menu item is still disabled.",
+      "ts": "1666033488.010019",
+      "thread_ts": "1666033488.010019",
+      "subtype": "bot_message",
+      "bot_id": "B043H9A74RF",
+      "username": "Ask Apple - appkit-and-mac-catalyst",
+      "reply_count": 8,
+      "latest_reply": "1666035523.045029",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "B+x",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U04651NPB0C"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"I have a SwiftUI App with some AppKit views. In the Edit menu bar item is a \\\"Delete\\\" item that can be enabled when a focusable view has the `onDeleteCommand` modifier, is there a way to enable the menu bar item from within my focusable AppKit views? I tried adding `deleteBackward` and `responds(to selector:)` but the menu item is still disabled.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "c9097911-c5b7-4778-a0bd-fd43c580979c",
+          "type": "message",
+          "user": "U04615ELS3A",
+          "text": "Your NSView will need to implement the correct selector for the delete action. In Swift, that is `delete(_:)`. In Objective C, it's `delete:` .",
+          "ts": "1666033579.185279",
+          "thread_ts": "1666033488.010019",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "oCW4",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Your NSView will need to implement the correct selector for the delete action. In Swift, that is "
+                    },
+                    {
+                      "type": "text",
+                      "text": "delete(_:)",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ". In Objective C, it's "
+                    },
+                    {
+                      "type": "text",
+                      "text": "delete:",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " ."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "7001ecb3-b4a1-44eb-930e-8d0e5cf37d2e",
+          "type": "message",
+          "user": "U04615ELS3A",
+          "text": "When your NSView is the first responder along the current responder chain that implements the action, the menu item will become enabled, and the NSView will be used as the target for the action.",
+          "ts": "1666033651.492999",
+          "thread_ts": "1666033488.010019",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "gratitude-thank-you",
+              "count": 3,
+              "users": [
+                "U047JNUP1MW",
+                "U04651NPB0C",
+                "U0462SYEK5L"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Zzs",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "When your NSView is the first responder along the current responder chain that implements the action, the menu item will become enabled, and the NSView will be used as the target for the action."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "331a0da7-5801-420b-88df-a111750c3a16",
+          "type": "message",
+          "user": "U04615ELS3A",
+          "text": "If you wish to dynamically enable/disable the item while your NSView is the target, you can additionally implement validation on the NSView:\n\n\u003chttps://developer.apple.com/documentation/appkit/nsuserinterfacevalidations/1528162-validateuserinterfaceitem\u003e",
+          "ts": "1666033742.216979",
+          "thread_ts": "1666033488.010019",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "gratitude-thank-you",
+              "count": 2,
+              "users": [
+                "U04651NPB0C",
+                "U0462SYEK5L"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "SR+p8",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "If you wish to dynamically enable/disable the item while your NSView is the target, you can additionally implement validation on the NSView:\n\n"
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/appkit/nsuserinterfacevalidations/1528162-validateuserinterfaceitem",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "53c8d873-e078-4e53-bd57-c41ae9243b23",
+          "type": "message",
+          "user": "U04651NPB0C",
+          "text": "Thank you \u003c@U04615ELS3A\u003e! Is `delete(_:)` part of `NSResponder`? Can you link to the selector? I’m seeing\n```- (void)deleteForward:(nullable id)sender;\n- (void)deleteBackward:(nullable id)sender;```\nbut not just `delete(_:)`",
+          "ts": "1666033781.530189",
+          "thread_ts": "1666033488.010019",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "0HiM",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thank you "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U04615ELS3A"
+                    },
+                    {
+                      "type": "text",
+                      "text": "! Is "
+                    },
+                    {
+                      "type": "text",
+                      "text": "delete(_:)",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " part of "
+                    },
+                    {
+                      "type": "text",
+                      "text": "NSResponder",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "? Can you link to the selector? I’m seeing\n"
+                    }
+                  ]
+                },
+                {
+                  "Type": "rich_text_preformatted",
+                  "Raw": "{\"type\":\"rich_text_preformatted\",\"elements\":[{\"type\":\"text\",\"text\":\"- (void)deleteForward:(nullable id)sender;\\n- (void)deleteBackward:(nullable id)sender;\"}],\"border\":0}"
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "but not just "
+                    },
+                    {
+                      "type": "text",
+                      "text": "delete(_:)",
+                      "style": {
+                        "code": true
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "e28a3bd5-288f-4bd3-bf01-a31518fbc105",
+          "type": "message",
+          "user": "U04615ELS3A",
+          "text": "Ah, let me double check that I told you the right thing there!",
+          "ts": "1666033836.158859",
+          "thread_ts": "1666033488.010019",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "raised_hands",
+              "count": 2,
+              "users": [
+                "U04651NPB0C",
+                "U047JNUP1MW"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "A/ptF",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Ah, let me double check that I told you the right thing there!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "91579248-7321-4e43-bd18-9d81d9f64e6f",
+          "type": "message",
+          "user": "U04615ELS3A",
+          "text": "`deleteBackward:` is a key binding command, i.e. this is used if the key stroke makes it to `NSTextInputContext` and is found to be a special keystroke that is bound to a command.\n\n`delete:` on the other hand has long been the standard selector for the Edit \u0026gt; Delete menu item. And in Swift, that translates to `delete(_:)`\n\nYou'll find the declaration on NSText.h:\n\u003chttps://developer.apple.com/documentation/appkit/nstext/1524660-delete\u003e",
+          "ts": "1666034422.230019",
+          "thread_ts": "1666033488.010019",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "gratitude-thank-you",
+              "count": 2,
+              "users": [
+                "U04651NPB0C",
+                "U0462SYEK5L"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "bqs",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "deleteBackward:",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " is a key binding command, i.e. this is used if the key stroke makes it to "
+                    },
+                    {
+                      "type": "text",
+                      "text": "NSTextInputContext",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " and is found to be a special keystroke that is bound to a command.\n\n"
+                    },
+                    {
+                      "type": "text",
+                      "text": "delete:",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " on the other hand has long been the standard selector for the Edit \u003e Delete menu item. And in Swift, that translates to "
+                    },
+                    {
+                      "type": "text",
+                      "text": "delete(_:)",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nYou'll find the declaration on NSText.h:\n"
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/appkit/nstext/1524660-delete",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "126ccabc-46fe-4ba6-912d-c1e4eacec5d9",
+          "type": "message",
+          "user": "U04651NPB0C",
+          "text": "Is there a way of implementing `delete(_:)` outside of NSText? Since in SwiftUI any focusable view can implement delete. I could possibly change my view from `NSView` to `NSText` , is that common / best practice, if its not a view dealing with text?",
+          "ts": "1666035453.249669",
+          "thread_ts": "1666033488.010019",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "9Ur1",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Is there a way of implementing "
+                    },
+                    {
+                      "type": "text",
+                      "text": "delete(_:)",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " outside of NSText? Since in SwiftUI any focusable view can implement delete. I could possibly change my view from "
+                    },
+                    {
+                      "type": "text",
+                      "text": "NSView",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " to "
+                    },
+                    {
+                      "type": "text",
+                      "text": "NSText",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " , is that common / best practice, if its not a view dealing with text?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "b53b77a8-7cf5-41df-ac77-35aa31cf46ae",
+          "type": "message",
+          "user": "U04651NPB0C",
+          "text": "For context, I have a “canvas” (NSView) that contains a bunch of sub-views that can be dragged around. I want to be able to respond to the delete key being pressed, but for accessibility reasons I would also want the menu bar item to be enabled.",
+          "ts": "1666035523.045029",
+          "thread_ts": "1666033488.010019",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "VRV",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "For context, I have a “canvas” (NSView) that contains a bunch of sub-views that can be dragged around. I want to be able to respond to the delete key being pressed, but for accessibility reasons I would also want the menu bar item to be enabled."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U047JNUP1MW\u003e asked\n\u0026gt; The official Sketch Library for macOS in Apple's Design Resources references a fifth, \"quintary\" color. NSColor only goes up to quaternary. Can this quintary color be accessed in code?",
+      "ts": "1666033507.922299",
+      "thread_ts": "1666033507.922299",
+      "subtype": "bot_message",
+      "bot_id": "B043H9A74RF",
+      "username": "Ask Apple - appkit-and-mac-catalyst",
+      "reply_count": 1,
+      "latest_reply": "1666033695.519709",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "c7P",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U047JNUP1MW"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"The official Sketch Library for macOS in Apple's Design Resources references a fifth, \\\"quintary\\\" color. NSColor only goes up to quaternary. Can this quintary color be accessed in code?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "01b30f88-ea29-4bb2-9762-2331e92cc266",
+          "type": "message",
+          "user": "U0460FA4BFS",
+          "text": "Hi \u003c@U047JNUP1MW\u003e — there’s currently no API on NSColor for that color, but if you have a use case in mind, that sounds like an opportunity for us to improve the API. Can you please send us an enhancement request using the Feedback app? That will give us a signal that it’s desirable and help us prioritize.",
+          "ts": "1666033695.519709",
+          "thread_ts": "1666033507.922299",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 2,
+              "users": [
+                "U047JNUP1MW",
+                "U04651NPB0C"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "EzY",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U047JNUP1MW"
+                    },
+                    {
+                      "type": "text",
+                      "text": " — there’s currently no API on NSColor for that color, but if you have a use case in mind, that sounds like an opportunity for us to improve the API. Can you please send us an enhancement request using the Feedback app? That will give us a signal that it’s desirable and help us prioritize."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U047KF4303S\u003e asked\n\u0026gt; On Catalyst, using UIHoverGestureRecognizer for switching the system's cursor appearance causes the cursor to be set to the default arrow before the gestureRecognizer.state is set to .canceled or .ended (meaning, while the gesture is still active/changed). Is there any way to prevent this from happening?",
+      "ts": "1666033515.356649",
+      "thread_ts": "1666033515.356649",
+      "subtype": "bot_message",
+      "bot_id": "B043H9A74RF",
+      "username": "Ask Apple - appkit-and-mac-catalyst",
+      "reply_count": 9,
+      "latest_reply": "1666037114.718159",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "sI7I",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U047KF4303S"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"On Catalyst, using UIHoverGestureRecognizer for switching the system's cursor appearance causes the cursor to be set to the default arrow before the gestureRecognizer.state is set to .canceled or .ended (meaning, while the gesture is still active\\/changed). Is there any way to prevent this from happening?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "e7120630-8034-4617-b8aa-4bb90d3dc8f7",
+          "type": "message",
+          "user": "U045EHSMF7E",
+          "text": "Can you use the Feedback system to provide a sample project, please.",
+          "ts": "1666033544.498559",
+          "thread_ts": "1666033515.356649",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "f4i",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Can you use the Feedback system to provide a sample project, please."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "47186cf9-616c-4394-bc42-3f524934af6e",
+          "type": "message",
+          "user": "U047KF4303S",
+          "text": "\u003c@U045EHSMF7E\u003e Yes! Sending it in a minute.",
+          "ts": "1666033776.994509",
+          "thread_ts": "1666033515.356649",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U045EHSMF7E"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "4xdU",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U045EHSMF7E"
+                    },
+                    {
+                      "type": "text",
+                      "text": " Yes! Sending it in a minute."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "7ae245fd-9cfa-49da-be8a-1290236c1bce",
+          "type": "message",
+          "user": "U047KF4303S",
+          "text": "\u003c@U045EHSMF7E\u003e sent a demo project + a video of the issue #FB11698826. Thank you :+1:",
+          "ts": "1666034812.516309",
+          "thread_ts": "1666033515.356649",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "vU5o",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U045EHSMF7E"
+                    },
+                    {
+                      "type": "text",
+                      "text": " sent a demo project + a video of the issue #FB11698826. Thank you "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "thumbsup",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "e20a8990-600a-47c1-a623-1f9670efce50",
+          "type": "message",
+          "user": "U045EHSMF7E",
+          "text": "Thanks. Just waiting for it to make it through the system to me.",
+          "ts": "1666035325.509049",
+          "thread_ts": "1666033515.356649",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "fVi",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks. Just waiting for it to make it through the system to me."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "32d625fd-27b5-4568-934d-2f8a10f962ff",
+          "type": "message",
+          "user": "U045EHSMF7E",
+          "text": "What macOS build are you running into this?",
+          "ts": "1666036710.664699",
+          "thread_ts": "1666033515.356649",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "re3",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "What macOS build are you running into this?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "559a195a-bcc5-45b0-bb6e-910f8e113766",
+          "type": "message",
+          "user": "U045EHSMF7E",
+          "text": "\u003c@U047KF4303S\u003e :point_up:",
+          "ts": "1666036797.271359",
+          "thread_ts": "1666033515.356649",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "mCru",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U047KF4303S"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "point_up",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "ff21f007-c161-4e03-b6c0-c1cc1c3fbee7",
+          "type": "message",
+          "user": "U045EHSMF7E",
+          "text": "I see the problem. This isn’t a `HoverGestureRecognizer` bug per se. This a conflict between manually setting the cursor and other existing system cursor rects. This appears to be working better in Ventura, but there are still cases where this approach will fail.",
+          "ts": "1666036971.303229",
+          "thread_ts": "1666033515.356649",
+          "edited": {
+            "user": "U045EHSMF7E",
+            "ts": "1666036994.000000"
+          },
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "nWT",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I see the problem. This isn’t a "
+                    },
+                    {
+                      "type": "text",
+                      "text": "HoverGestureRecognizer",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " bug per se. This a conflict between manually setting the cursor and other existing system cursor rects. This appears to be working better in Ventura, but there are still cases where this approach will fail."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "e19414e0-5dbe-4958-8860-307f905dc1de",
+          "type": "message",
+          "user": "U045EHSMF7E",
+          "text": "Unfortunately, you can’t use `NSTrackingAreas` here. I’ll re-work your FB to ask for better dev cursor changing support in Catalyst.",
+          "ts": "1666037113.635769",
+          "thread_ts": "1666033515.356649",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "white_check_mark",
+              "count": 1,
+              "users": [
+                "U047KF4303S"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "NA/",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Unfortunately, you can’t use "
+                    },
+                    {
+                      "type": "text",
+                      "text": "NSTrackingAreas",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " here. I’ll re-work your FB to ask for better dev cursor changing support in Catalyst."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "9e1bb34b-09ba-42e4-9592-1cc003c589c0",
+          "type": "message",
+          "user": "U045EHSMF7E",
+          "text": "Thanks",
+          "ts": "1666037114.718159",
+          "thread_ts": "1666033515.356649",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "raised_hands",
+              "count": 1,
+              "users": [
+                "U047KF4303S"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "hjS0",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U047KF4303S\u003e asked\n\u0026gt; Are there any plans to support more Native Elements (from iOS and iPadOS) in terms of UIKit properties (such as tintColor) on elements like Picker, Slider, Segmented Control etc, in future versions of Catalyst?",
+      "ts": "1666033703.383769",
+      "thread_ts": "1666033703.383769",
+      "subtype": "bot_message",
+      "bot_id": "B043H9A74RF",
+      "username": "Ask Apple - appkit-and-mac-catalyst",
+      "reply_count": 2,
+      "latest_reply": "1666034246.540719",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "orG",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U047KF4303S"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Are there any plans to support more Native Elements (from iOS and iPadOS) in terms of UIKit properties (such as tintColor) on elements like Picker, Slider, Segmented Control etc, in future versions of Catalyst?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "7ec2fdf7-130a-4f9c-9bd0-34fd6ac653e1",
+          "type": "message",
+          "user": "U0457TYCT0C",
+          "text": "We can't discuss future plans, but please file feature requests for any features you'd like to see.",
+          "ts": "1666033751.492699",
+          "thread_ts": "1666033703.383769",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "V0rb",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "We can't discuss future plans, but please file feature requests for any features you'd like to see."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "6bd66e73-2731-476c-ba73-7aaf928a0319",
+          "type": "message",
+          "user": "U0449F2BYNS",
+          "text": "\u003chttps://developer.apple.com/bug-reporting/\u003e",
+          "ts": "1666034246.540719",
+          "thread_ts": "1666033703.383769",
+          "attachments": [
+            {
+              "fallback": "Apple Developer: Bug Reporting - Apple Developer",
+              "id": 1,
+              "title": "Bug Reporting - Apple Developer",
+              "title_link": "https://developer.apple.com/bug-reporting/",
+              "text": "Now with Feedback Assistant available on iPhone, iPad, Mac, and the web, it’s easier to submit effective bug reports and request enhancements to APIs and tools.",
+              "image_url": "https://developer.apple.com/news/images/og/bug-reporting-og.jpg",
+              "service_name": "Apple Developer",
+              "service_icon": "https://developer.apple.com/favicon.ico",
+              "from_url": "https://developer.apple.com/bug-reporting/",
+              "original_url": "https://developer.apple.com/bug-reporting/",
+              "blocks": null
+            }
+          ],
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "KkdU",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/bug-reporting/",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046FFA29DM\u003e asked\n\u0026gt; If we add an AppKit bundle to our Catalyst app (say for preferences and perhaps a media viewer window) will our app get through App Store review? Is that an acceptable thing to do?",
+      "ts": "1666033918.194069",
+      "thread_ts": "1666033918.194069",
+      "subtype": "bot_message",
+      "bot_id": "B043H9A74RF",
+      "username": "Ask Apple - appkit-and-mac-catalyst",
+      "reply_count": 7,
+      "latest_reply": "1666035406.856099",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "1lYlf",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046FFA29DM"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"If we add an AppKit bundle to our Catalyst app (say for preferences and perhaps a media viewer window) will our app get through App Store review? Is that an acceptable thing to do?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "750cfe17-cb1f-4581-b37e-0f72d0994eaa",
+          "type": "message",
+          "user": "U0457TYCT0C",
+          "text": "This is not officially supported. What are you trying to do that isn't sufficiently supported through the Catalyst APIs?",
+          "ts": "1666033994.193869",
+          "thread_ts": "1666033918.194069",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "W3ZcS",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "This is not officially supported. What are you trying to do that isn't sufficiently supported through the Catalyst APIs?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "1501decc-944e-43a1-9da0-b20bd8d97f94",
+          "type": "message",
+          "user": "U046FFA29DM",
+          "text": "Individual windows. Preferences window the way Maps is doing it. The settings bundle is too limited. Also would like a media viewer window that is separate from the view controller it is created in. I'm porting Tweetbot for Mac from an AppKit app to a Catalyst app.",
+          "ts": "1666034374.974119",
+          "thread_ts": "1666033918.194069",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "heart",
+              "count": 2,
+              "users": [
+                "U03V326V960",
+                "U04713J9CBS"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "POW06",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Individual windows. Preferences window the way Maps is doing it. The settings bundle is too limited. Also would like a media viewer window that is separate from the view controller it is created in. I'm porting Tweetbot for Mac from an AppKit app to a Catalyst app."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "7e871081-6fa0-4dd2-9987-29feb3ca8bd5",
+          "type": "message",
+          "user": "U046FFA29DM",
+          "text": "(in case you've ever used the app)",
+          "ts": "1666034414.080699",
+          "thread_ts": "1666033918.194069",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "TQG",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "(in case you've ever used the app)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "77e53b09-feda-44cf-9f8b-ab4b5a1313dd",
+          "type": "message",
+          "user": "U0457TYCT0C",
+          "text": "There is not a way to do this currently with the Catalyst APIs, but we are aware of this limitation.",
+          "ts": "1666034864.304269",
+          "thread_ts": "1666033918.194069",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "8qN",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "There is not a way to do this currently with the Catalyst APIs, but we are aware of this limitation."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "d276536d-7b6f-4e27-b821-d2fd68d2e0b4",
+          "type": "message",
+          "user": "U046FFA29DM",
+          "text": "So basically I'll have to submit the app and see if it gets rejected when I'm done or is it 100% guaranteed to get rejected? :slightly_smiling_face:",
+          "ts": "1666035136.448299",
+          "thread_ts": "1666033918.194069",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "lllk",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "So basically I'll have to submit the app and see if it gets rejected when I'm done or is it 100% guaranteed to get rejected? "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "0b2d27d5-8bb1-46c3-bce5-7155ca5f86a3",
+          "type": "message",
+          "user": "U0478BJ4UPK",
+          "text": "\u003c@U046FFA29DM\u003e FWIW: I’ve never heard of a rejection, and there are a lot of apps that would be in trouble if they started rejecting…",
+          "ts": "1666035321.907959",
+          "thread_ts": "1666033918.194069",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "gtW",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U046FFA29DM"
+                    },
+                    {
+                      "type": "text",
+                      "text": " FWIW: I’ve never heard of a rejection, and there are a lot of apps that would be in trouble if they started rejecting…"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "5c77dfab-5dec-4c93-aa4b-b93f8a1aa6fa",
+          "type": "message",
+          "user": "U046FFA29DM",
+          "text": "Thanks \u003c@U0478BJ4UPK\u003e!",
+          "ts": "1666035406.856099",
+          "thread_ts": "1666033918.194069",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "gcLA2",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U0478BJ4UPK"
+                    },
+                    {
+                      "type": "text",
+                      "text": "!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U04625FFYP5\u003e asked\n\u0026gt; I can't get Game Center to work via TestFlight for my Mac Catalyst game.\n\u0026gt; \n\u0026gt; The following error occurs:\n\u0026gt; \n\u0026gt; Could not get services from gamed. Please file a radar including GameKit logs, and any gamed crash logs. ERROR Error Domain=NSCocoaErrorDomain Code=4099 \"The connection to service named com.apple.gamed was invalidated: failed at lookup with error 159 - Sandbox restriction.\" UserInfo={NSDebugDescription=The connection to service named com.apple.gamed was invalidated: failed at lookup with error 159 - Sandbox restriction.}\n\u0026gt; \n\u0026gt; Game Center works fine when running the Mac Catalyst game from Xcode.",
+      "ts": "1666034700.937409",
+      "thread_ts": "1666034700.937409",
+      "subtype": "bot_message",
+      "bot_id": "B043H9A74RF",
+      "username": "Ask Apple - appkit-and-mac-catalyst",
+      "reply_count": 5,
+      "latest_reply": "1666036174.967099",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "qxNDX",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U04625FFYP5"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"I can't get Game Center to work via TestFlight for my Mac Catalyst game.\\n\\nThe following error occurs:\\n\\nCould not get services from gamed. Please file a radar including GameKit logs, and any gamed crash logs. ERROR Error Domain=NSCocoaErrorDomain Code=4099 \\\"The connection to service named com.apple.gamed was invalidated: failed at lookup with error 159 - Sandbox restriction.\\\" UserInfo={NSDebugDescription=The connection to service named com.apple.gamed was invalidated: failed at lookup with error 159 - Sandbox restriction.}\\n\\nGame Center works fine when running the Mac Catalyst game from Xcode.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "e950681a-956e-4088-aaec-fcf1f92a0b84",
+          "type": "message",
+          "user": "U04615ELS3A",
+          "text": "Have you added the \"Game Center\" Capability to your app's Signing \u0026amp; Capabilities settings?",
+          "ts": "1666034730.759569",
+          "thread_ts": "1666034700.937409",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "K8y",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Have you added the \"Game Center\" Capability to your app's Signing \u0026 Capabilities settings?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "dc884a6b-df6d-4576-ab39-4b38c7380705",
+          "type": "message",
+          "user": "U04625FFYP5",
+          "text": "It wasn’t added but why did Game Center work under iPadOS and tvOS via TestFlight without this capability?",
+          "ts": "1666035401.451949",
+          "thread_ts": "1666034700.937409",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "=bXpn",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "It wasn’t added but why did Game Center work under iPadOS and tvOS via TestFlight without this capability?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "9d694a2b-ccda-4919-aad4-cacb5b93b40b",
+          "type": "message",
+          "user": "U04615ELS3A",
+          "text": "Mac Catalyst apps are Mac apps, and therefore, they operate in a different sandbox environment than iOS apps. I can't speak to the details, but as a general rule, I would recommend checking the Signing \u0026amp; Capabilities tab first, if you are running into sandboxing restrictions with a Mac Catalyst app.",
+          "ts": "1666035671.332219",
+          "thread_ts": "1666034700.937409",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "heen",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Mac Catalyst apps are Mac apps, and therefore, they operate in a different sandbox environment than iOS apps. I can't speak to the details, but as a general rule, I would recommend checking the Signing \u0026 Capabilities tab first, if you are running into sandboxing restrictions with a Mac Catalyst app."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "7cc82f2f-da71-4da9-851a-a0a327ef8cd0",
+          "type": "message",
+          "user": "U04615ELS3A",
+          "text": "When running directly in Xcode, the sandbox environment may be slightly different yet again, which may be why you only encountered this in TestFlight.",
+          "ts": "1666035751.334299",
+          "thread_ts": "1666034700.937409",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "CFQ+",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "When running directly in Xcode, the sandbox environment may be slightly different yet again, which may be why you only encountered this in TestFlight."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "ad86e2dd-8f3f-465c-8f14-4250d048c720",
+          "type": "message",
+          "user": "U04625FFYP5",
+          "text": "It seems strange that you don’t need to add the Game Center capability for iPadOS (and probably iOS) and tvOS but you need to add it for macOS catalyst apps. It’s inconsistent that way.",
+          "ts": "1666036174.967099",
+          "thread_ts": "1666034700.937409",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "tE+",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "It seems strange that you don’t need to add the Game Center capability for iPadOS (and probably iOS) and tvOS but you need to add it for macOS catalyst apps. It’s inconsistent that way."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046GPQSE7K\u003e asked\n\u0026gt; hi.\n\u0026gt; I am currently developing situational control for input using Apple Pencil, Magic Mouse, general mouse (PC compatible), and pen using a tablet such as Wacom using Mac's Sidecar.\n\u0026gt; Currently, we are branching through event.deviceID, and in the case of Apple Pencil, we branched through the comparison of hard-coded values ​​in a specific range.\n\u0026gt; I'd like to know if there is a way to most accurately differentiate between input devices, including a magic mouse.\n\u0026gt; \n\u0026gt; 안녕하세요.\n\u0026gt; 나는 지금 맥의 사이드카를 이용해 애플펜슬과 매직마우스, 일반마우스(PC호환), 그리고 와콤 등의 태블릿을 이용한 펜 등의 입력에서 상황에 따른 제어를 개발하고 있습니다.\n\u0026gt; 현재 event.deviceID를 통해 분기하고 있는데, 애플펜슬의 경우 하드코딩된 특정 범위의 값의 비교를 통해 분기처 했었는데, 종종 상황(아마도 블루투스 재연결, 재부팅 등등)에 따라 deviceID 값이 달라집니다.\n\u0026gt; 매직마우스를 포함해서 입력 디바이스를 가장 정확히 구별할 수 있는 방법이 있는지 알고 싶습니다.",
+      "ts": "1666034735.050909",
+      "thread_ts": "1666034735.050909",
+      "subtype": "bot_message",
+      "bot_id": "B043H9A74RF",
+      "username": "Ask Apple - appkit-and-mac-catalyst",
+      "reply_count": 3,
+      "latest_reply": "1666035528.351469",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "HN2wx",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046GPQSE7K"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"hi.\\nI am currently developing situational control for input using Apple Pencil, Magic Mouse, general mouse (PC compatible), and pen using a tablet such as Wacom using Mac's Sidecar.\\nCurrently, we are branching through event.deviceID, and in the case of Apple Pencil, we branched through the comparison of hard-coded values \\u200b\\u200bin a specific range.\\nI'd like to know if there is a way to most accurately differentiate between input devices, including a magic mouse.\\n\\n\\uc548\\ub155\\ud558\\uc138\\uc694.\\n\\ub098\\ub294 \\uc9c0\\uae08 \\ub9e5\\uc758 \\uc0ac\\uc774\\ub4dc\\uce74\\ub97c \\uc774\\uc6a9\\ud574 \\uc560\\ud50c\\ud39c\\uc2ac\\uacfc \\ub9e4\\uc9c1\\ub9c8\\uc6b0\\uc2a4, \\uc77c\\ubc18\\ub9c8\\uc6b0\\uc2a4(PC\\ud638\\ud658), \\uadf8\\ub9ac\\uace0 \\uc640\\ucf64 \\ub4f1\\uc758 \\ud0dc\\ube14\\ub9bf\\uc744 \\uc774\\uc6a9\\ud55c \\ud39c \\ub4f1\\uc758 \\uc785\\ub825\\uc5d0\\uc11c \\uc0c1\\ud669\\uc5d0 \\ub530\\ub978 \\uc81c\\uc5b4\\ub97c \\uac1c\\ubc1c\\ud558\\uace0 \\uc788\\uc2b5\\ub2c8\\ub2e4.\\n\\ud604\\uc7ac event.deviceID\\ub97c \\ud1b5\\ud574 \\ubd84\\uae30\\ud558\\uace0 \\uc788\\ub294\\ub370, \\uc560\\ud50c\\ud39c\\uc2ac\\uc758 \\uacbd\\uc6b0 \\ud558\\ub4dc\\ucf54\\ub529\\ub41c \\ud2b9\\uc815 \\ubc94\\uc704\\uc758 \\uac12\\uc758 \\ube44\\uad50\\ub97c \\ud1b5\\ud574 \\ubd84\\uae30\\ucc98 \\ud588\\uc5c8\\ub294\\ub370, \\uc885\\uc885 \\uc0c1\\ud669(\\uc544\\ub9c8\\ub3c4 \\ube14\\ub8e8\\ud22c\\uc2a4 \\uc7ac\\uc5f0\\uacb0, \\uc7ac\\ubd80\\ud305 \\ub4f1\\ub4f1)\\uc5d0 \\ub530\\ub77c deviceID \\uac12\\uc774 \\ub2ec\\ub77c\\uc9d1\\ub2c8\\ub2e4.\\n\\ub9e4\\uc9c1\\ub9c8\\uc6b0\\uc2a4\\ub97c \\ud3ec\\ud568\\ud574\\uc11c \\uc785\\ub825 \\ub514\\ubc14\\uc774\\uc2a4\\ub97c \\uac00\\uc7a5 \\uc815\\ud655\\ud788 \\uad6c\\ubcc4\\ud560 \\uc218 \\uc788\\ub294 \\ubc29\\ubc95\\uc774 \\uc788\\ub294\\uc9c0 \\uc54c\\uace0 \\uc2f6\\uc2b5\\ub2c8\\ub2e4.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "f4062cea-f7b2-49e2-9ba3-cc721429dc79",
+          "type": "message",
+          "user": "U045EHSMF7E",
+          "text": "You can do a high level comparison to detect if it’s a tablet or mouse/trackpad. But there isn’t any way to determine the precise device being used. I wouldn’t rely on hard code deviceIDs.",
+          "ts": "1666034876.450089",
+          "thread_ts": "1666034735.050909",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "angry",
+              "count": 1,
+              "users": [
+                "U046GPQSE7K"
+              ]
+            },
+            {
+              "name": "zipper_mouth_face",
+              "count": 1,
+              "users": [
+                "U046GPQSE7K"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "gKPjG",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "You can do a high level comparison to detect if it’s a tablet or mouse/trackpad. But there isn’t any way to determine the precise device being used. I wouldn’t rely on hard code deviceIDs."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "1270abf7-a05f-43da-b6c4-29aec8292b9a",
+          "type": "message",
+          "user": "U045EHSMF7E",
+          "text": "Please file a feedback request for this feature along with a a use case example. Thanks.",
+          "ts": "1666034909.880229",
+          "thread_ts": "1666034735.050909",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "grimacing",
+              "count": 1,
+              "users": [
+                "U046GPQSE7K"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Sy5",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Please file a feedback request for this feature along with a a use case example. Thanks."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "9dc1972e-2a3f-4338-ae95-c9e1861f20e9",
+          "type": "message",
+          "user": "U0449F2BYNS",
+          "text": "Thanks for the bilingual question, \u003c@U046GPQSE7K\u003e! It's great to hear from our developers from around the world!",
+          "ts": "1666035528.351469",
+          "thread_ts": "1666034735.050909",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "angry",
+              "count": 1,
+              "users": [
+                "U046GPQSE7K"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "3Wfu6",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for the bilingual question, "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U046GPQSE7K"
+                    },
+                    {
+                      "type": "text",
+                      "text": "! It's great to hear from our developers from around the world!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U045MLK9GQ7\u003e asked\n\u0026gt; I have an AppKit app using Swift and have recently switched from the normal data source in my NSTableView to a NSTableViewDiffableDataSource.  How can I use the drag and drop methods in my table view delegate with NSTableViewDiffableDataSource (the drag and drop methods seem to be ignored)?",
+      "ts": "1666034891.563479",
+      "thread_ts": "1666034891.563479",
+      "subtype": "bot_message",
+      "bot_id": "B043H9A74RF",
+      "username": "Ask Apple - appkit-and-mac-catalyst",
+      "reply_count": 12,
+      "latest_reply": "1666036725.623599",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "TVOp",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U045MLK9GQ7"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"I have an AppKit app using Swift and have recently switched from the normal data source in my NSTableView to a NSTableViewDiffableDataSource.  How can I use the drag and drop methods in my table view delegate with NSTableViewDiffableDataSource (the drag and drop methods seem to be ignored)?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "f559cf16-3d8b-4248-b788-6ea73ff67fd6",
+          "type": "message",
+          "user": "U0460FA4BFS",
+          "text": "Hi Scott, you’ll need to implement some of the data-related drag-and-drop methods that exist on `NSTableViewDataSource`, like `tableView:pasteboardWriterForRow:`. Since the `NSTableViewDiffableDataSource` _is_ the data source, you can subclass it to implement them in whatever way suits your app.",
+          "ts": "1666035070.504779",
+          "thread_ts": "1666034891.563479",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "BOx",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi Scott, you’ll need to implement some of the data-related drag-and-drop methods that exist on "
+                    },
+                    {
+                      "type": "text",
+                      "text": "NSTableViewDataSource",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ", like "
+                    },
+                    {
+                      "type": "text",
+                      "text": "tableView:pasteboardWriterForRow:",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ". Since the "
+                    },
+                    {
+                      "type": "text",
+                      "text": "NSTableViewDiffableDataSource",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "text",
+                      "text": "is",
+                      "style": {
+                        "italic": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " the data source, you can subclass it to implement them in whatever way suits your app."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "725f6888-0cba-4ea6-8c29-0100d1fa02cf",
+          "type": "message",
+          "user": "U0463CWEH99",
+          "text": "I did this very thing and just forwarded all the drag and drop methods up to my view controller which I made the delegate of my NSTableViewDiffableDataSource subclass.",
+          "ts": "1666035177.520009",
+          "thread_ts": "1666034891.563479",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U0460FA4BFS"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "rOqB",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I did this very thing and just forwarded all the drag and drop methods up to my view controller which I made the delegate of my NSTableViewDiffableDataSource subclass."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "ddbd74df-b613-4cef-a53f-c65f3c58faf7",
+          "type": "message",
+          "user": "U0460FA4BFS",
+          "text": "That’s a good way to go about it and keep your data in one place",
+          "ts": "1666035276.984809",
+          "thread_ts": "1666034891.563479",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "yn/fG",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "That’s a good way to go about it and keep your data in one place"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "e7c22166-9320-48a2-a9fe-bf23c0a44ed4",
+          "type": "message",
+          "user": "U045MLK9GQ7",
+          "text": "Thank you \u003c@U0460FA4BFS\u003e.  How would I implement some of the data-related drag-and-drop methods that exist in `NSTableViewDataSource` for `NSTableViewDiffableDataSource` using swift?",
+          "ts": "1666035295.843729",
+          "thread_ts": "1666034891.563479",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "uKu",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thank you "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U0460FA4BFS"
+                    },
+                    {
+                      "type": "text",
+                      "text": ".  How would I implement some of the data-related drag-and-drop methods that exist in "
+                    },
+                    {
+                      "type": "text",
+                      "text": "NSTableViewDataSource",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " for "
+                    },
+                    {
+                      "type": "text",
+                      "text": "NSTableViewDiffableDataSource",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " using swift?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "cdc6e8ba-6070-40df-b596-c0fdd5d78092",
+          "type": "message",
+          "user": "U045MLK9GQ7",
+          "text": "\u003c@U0463CWEH99\u003e Would you happen to have a sample project that you might be willing to share with a swift NSTableView?",
+          "ts": "1666035492.285539",
+          "thread_ts": "1666034891.563479",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "lSJu",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U0463CWEH99"
+                    },
+                    {
+                      "type": "text",
+                      "text": " Would you happen to have a sample project that you might be willing to share with a swift NSTableView?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "f8f0f6d7-9363-41df-9409-e12084f28b7c",
+          "type": "message",
+          "user": "U0463CWEH99",
+          "text": "\u003c@U045MLK9GQ7\u003e My table view is on an Objective-c view controller. So my subclass is also Objective-c.",
+          "ts": "1666035552.042139",
+          "thread_ts": "1666034891.563479",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "TSv",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U045MLK9GQ7"
+                    },
+                    {
+                      "type": "text",
+                      "text": " My table view is on an Objective-c view controller. So my subclass is also Objective-c."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "fc5e814b-e6af-4cdc-8d54-25f1cfb07b95",
+          "type": "message",
+          "user": "U0460FA4BFS",
+          "text": "That’s a good question, since `NSTableViewDiffableDataSource` comes across as a struct in Swift. You may be able to fall back to `NSTableViewDiffableDataSourceReference` to subclass, but it would be better if the struct had an ergonomic way to accomplish this. I would encourage you to send us a report using the Feedback app so that we can look at improving the experience of doing this Swift.",
+          "ts": "1666035625.060229",
+          "thread_ts": "1666034891.563479",
+          "edited": {
+            "user": "U0460FA4BFS",
+            "ts": "1666035645.000000"
+          },
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "28f",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "That’s a good question, since "
+                    },
+                    {
+                      "type": "text",
+                      "text": "NSTableViewDiffableDataSource",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " comes across as a struct in Swift. You may be able to fall back to "
+                    },
+                    {
+                      "type": "text",
+                      "text": "NSTableViewDiffableDataSourceReference",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " to subclass, but it would be better if the struct had an ergonomic way to accomplish this. I would encourage you to send us a report using the Feedback app so that we can look at improving the experience of doing this Swift."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "7b050542-25b5-4237-9d90-eedef0216ace",
+          "type": "message",
+          "user": "U045MLK9GQ7",
+          "text": "\u003c@U0460FA4BFS\u003e If I subclass NSTableViewDiffableDataSource in Objective-C and then use it in place of my swift type `typealias TableDataSource = NSTableViewDiffableDataSource\u0026lt;Int, Node\u0026gt;` for my swift NSTableView which would become `*typealias* TableDataSource = MyDiffableDataSource`, would that work?\nHow would I apply a snapshot?\n\nIf I make a snapshot like this (see the below code) Xcode gives me a weird build error (see the below picture).\n\n```var snapshot = NSDiffableDataSourceSnapshotReference()\n        snapshot.appendSections(withIdentifiers: [NSInteger(0)])\n        snapshot.appendItems(withIdentifiers: [Node(value: \"Node 1\")], intoSectionWithIdentifier: NSInteger(0))\n        datasource.applySnapshot(snapshot, animatingDifferences: false)```",
+          "ts": "1666035884.406829",
+          "thread_ts": "1666034891.563479",
+          "edited": {
+            "user": "U045MLK9GQ7",
+            "ts": "1666035907.000000"
+          },
+          "files": [
+            {
+              "id": "F0478TATLLR",
+              "created": 1666035881,
+              "timestamp": 1666035881,
+              "name": "2022-10-17_15-44-08.png",
+              "title": "2022-10-17_15-44-08.png",
+              "mimetype": "image/png",
+              "image_exif_rotation": 0,
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "U045MLK9GQ7",
+              "mode": "hosted",
+              "editable": false,
+              "is_external": false,
+              "external_type": "",
+              "size": 9333,
+              "url": "",
+              "url_download": "",
+              "url_private": "C043CPR60RF/F0478TATLLR-2022-10-17_15-44-08.png",
+              "url_private_download": "C043CPR60RF/F0478TATLLR-2022-10-17_15-44-08.png",
+              "original_h": 66,
+              "original_w": 292,
+              "thumb_64": "https://files.slack.com/files-tmb/T01PTBJ95PS-F0478TATLLR-a151b6c73f/2022-10-17_15-44-08_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T01PTBJ95PS-F0478TATLLR-a151b6c73f/2022-10-17_15-44-08_80.png",
+              "thumb_160": "https://files.slack.com/files-tmb/T01PTBJ95PS-F0478TATLLR-a151b6c73f/2022-10-17_15-44-08_160.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T01PTBJ95PS-F0478TATLLR-a151b6c73f/2022-10-17_15-44-08_360.png",
+              "thumb_360_gif": "",
+              "thumb_360_w": 292,
+              "thumb_360_h": 66,
+              "thumb_480": "",
+              "thumb_480_w": 0,
+              "thumb_480_h": 0,
+              "thumb_720": "",
+              "thumb_720_w": 0,
+              "thumb_720_h": 0,
+              "thumb_960": "",
+              "thumb_960_w": 0,
+              "thumb_960_h": 0,
+              "thumb_1024": "",
+              "thumb_1024_w": 0,
+              "thumb_1024_h": 0,
+              "permalink": "https://appleevents.enterprise.slack.com/files/U045MLK9GQ7/F0478TATLLR/2022-10-17_15-44-08.png",
+              "permalink_public": "https://slack-files.com/T01PTBJ95PS-F0478TATLLR-ac95d3fe99",
+              "edit_link": "",
+              "preview": "",
+              "preview_highlight": "",
+              "lines": 0,
+              "lines_more": 0,
+              "is_public": false,
+              "public_url_shared": false,
+              "channels": null,
+              "groups": null,
+              "ims": null,
+              "initial_comment": {},
+              "comments_count": 0,
+              "num_stars": 0,
+              "is_starred": false,
+              "shares": {
+                "public": null,
+                "private": null
+              }
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "AkE2",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U0460FA4BFS"
+                    },
+                    {
+                      "type": "text",
+                      "text": " If I subclass NSTableViewDiffableDataSource in Objective-C and then use it in place of my swift type "
+                    },
+                    {
+                      "type": "text",
+                      "text": "typealias TableDataSource = NSTableViewDiffableDataSource\u003cInt, Node\u003e",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " for my swift NSTableView which would become "
+                    },
+                    {
+                      "type": "text",
+                      "text": "typealias",
+                      "style": {
+                        "bold": true,
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " TableDataSource = MyDiffableDataSource",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ", would that work?\nHow would I apply a snapshot?\n\nIf I make a snapshot like this (see the below code) Xcode gives me a weird build error (see the below picture).\n\n"
+                    }
+                  ]
+                },
+                {
+                  "Type": "rich_text_preformatted",
+                  "Raw": "{\"type\":\"rich_text_preformatted\",\"elements\":[{\"type\":\"text\",\"text\":\"var snapshot = NSDiffableDataSourceSnapshotReference()\\n        snapshot.appendSections(withIdentifiers: [NSInteger(0)])\\n        snapshot.appendItems(withIdentifiers: [Node(value: \\\"Node 1\\\")], intoSectionWithIdentifier: NSInteger(0))\\n        datasource.applySnapshot(snapshot, animatingDifferences: false)\"}],\"border\":0}"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "7badb714-29fc-447d-9444-fb87a006f494",
+          "type": "message",
+          "user": "U0460FA4BFS",
+          "text": "That error might be specific to your project and build configuration, and might not be straightforward to diagnose over Slack. I wrote a quick test application and didn’t encounter this so a Feedback report with more detail and an attached sample project would provide us with enough information to investigate further.",
+          "ts": "1666036339.991619",
+          "thread_ts": "1666034891.563479",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "OkB/",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "That error might be specific to your project and build configuration, and might not be straightforward to diagnose over Slack. I wrote a quick test application and didn’t encounter this so a Feedback report with more detail and an attached sample project would provide us with enough information to investigate further."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "0C6BBE7B-5547-48B3-9D0B-D9C98FAF2C60",
+          "type": "message",
+          "user": "U045MLK9GQ7",
+          "text": "\u003c@U0460FA4BFS\u003e Would you be able to share your quick test application?  This error only occurs when I add the snapshot code.",
+          "ts": "1666036404.871219",
+          "thread_ts": "1666034891.563479",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "B42Q",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U0460FA4BFS"
+                    },
+                    {
+                      "type": "text",
+                      "text": " Would you be able to share your quick test application?  This error only occurs when I add the snapshot code."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "bb87efd5-8efa-470f-a693-64faa1121163",
+          "type": "message",
+          "user": "U0460FA4BFS",
+          "text": "I can’t share any code here; sorry about that!",
+          "ts": "1666036620.413999",
+          "thread_ts": "1666034891.563479",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "yyt",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I can’t share any code here; sorry about that!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "29512F3E-E85F-4ADF-814B-39CE4DCCE194",
+          "type": "message",
+          "user": "U045MLK9GQ7",
+          "text": "\u003c@U0460FA4BFS\u003e in your test application did you make your nstableview in Swift?  Did you make a subclass of nstableviewdiffabledatasource in Ovjective C or swift?",
+          "ts": "1666036725.623599",
+          "thread_ts": "1666034891.563479",
+          "edited": {
+            "user": "U045MLK9GQ7",
+            "ts": "1666036773.000000"
+          },
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "irD",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U0460FA4BFS"
+                    },
+                    {
+                      "type": "text",
+                      "text": " in your test application did you make your nstableview in Swift?  Did you make a subclass"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "text",
+                      "text": "of nstableviewdiffabledatasource in Ovjective C or swift?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046SCKA1U0\u003e asked\n\u0026gt; When I try to register for remote notifications in my Mac Catalyst app, I get a failure callback with an error: \"Notifications are not allowed for this application.\" The same code runs fine on iOS, so I can't figure out what I need to do in order to get remote notifications to work. (I'm using them to receive pushes for CloudKit updates.)",
+      "ts": "1666035284.455159",
+      "thread_ts": "1666035284.455159",
+      "subtype": "bot_message",
+      "bot_id": "B043H9A74RF",
+      "username": "Ask Apple - appkit-and-mac-catalyst",
+      "reply_count": 1,
+      "latest_reply": "1666035324.924629",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "4HB",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046SCKA1U0"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"When I try to register for remote notifications in my Mac Catalyst app, I get a failure callback with an error: \\\"Notifications are not allowed for this application.\\\" The same code runs fine on iOS, so I can't figure out what I need to do in order to get remote notifications to work. (I'm using them to receive pushes for CloudKit updates.)\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "6133007c-21ee-4f68-a375-5b71869fbf21",
+          "type": "message",
+          "user": "U0457TYCT0C",
+          "text": "What is your Product Name in Build Settings -\u0026gt; Packaging in your Xcode project?",
+          "ts": "1666035324.924629",
+          "thread_ts": "1666035284.455159",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Aejyi",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "What is your Product Name in Build Settings -\u003e Packaging in your Xcode project?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0463PJJB34\u003e asked\n\u0026gt; On an iOS app to initiate a share I use UICloudSharingController, but when I try to run the same code with Mac Catalyst the pop up comes blank. Is UICloudSharingController supposed to work in Mac Catalyst or should I check to see if the app is running on the Mac and use something like NSSharingServicePicker instead? Or is there an entirely different way I should be doing this? Thanks!",
+      "ts": "1666035568.950989",
+      "thread_ts": "1666035568.950989",
+      "subtype": "bot_message",
+      "bot_id": "B043H9A74RF",
+      "username": "Ask Apple - appkit-and-mac-catalyst",
+      "reply_count": 1,
+      "latest_reply": "1666035678.905419",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "DMuW=",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0463PJJB34"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"On an iOS app to initiate a share I use UICloudSharingController, but when I try to run the same code with Mac Catalyst the pop up comes blank. Is UICloudSharingController supposed to work in Mac Catalyst or should I check to see if the app is running on the Mac and use something like NSSharingServicePicker instead? Or is there an entirely different way I should be doing this? Thanks!\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "9f7c869d-2db8-4157-b589-eca45f71739e",
+          "type": "message",
+          "user": "U0457RDA8LV",
+          "text": "Raising a Technical Support Issue (TSI) might be helpful in investigating this kind of CloudKit issue.\n\n\u003chttps://developer.apple.com/support/technical/\u003e",
+          "ts": "1666035678.905419",
+          "thread_ts": "1666035568.950989",
+          "attachments": [
+            {
+              "fallback": "Requesting Technical Support - Support - Apple Developer",
+              "id": 1,
+              "title": "Requesting Technical Support - Support - Apple Developer",
+              "title_link": "https://developer.apple.com/support/technical/",
+              "text": "Learn how to receive code-level help from an Apple engineer by submitting a Technical Support Incident.",
+              "service_name": "developer.apple.com",
+              "service_icon": "https://developer.apple.com/favicon.ico",
+              "from_url": "https://developer.apple.com/support/technical/",
+              "original_url": "https://developer.apple.com/support/technical/",
+              "blocks": null
+            }
+          ],
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U0463PJJB34"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "QRE",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Raising a Technical Support Issue (TSI) might be helpful in investigating this kind of CloudKit issue.\n\n"
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/support/technical/",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U047KF4303S\u003e asked\n\u0026gt; What is the best/recommended way to manually control focus so that macOS's native elements don't take control over the interaction?",
+      "ts": "1666036093.289269",
+      "thread_ts": "1666036093.289269",
+      "subtype": "bot_message",
+      "bot_id": "B043H9A74RF",
+      "username": "Ask Apple - appkit-and-mac-catalyst",
+      "reply_count": 1,
+      "latest_reply": "1666036122.000089",
+      "reactions": [
+        {
+          "name": "eyes",
+          "count": 1,
+          "users": [
+            "U047JNUP1MW"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "FVXw1",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U047KF4303S"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"What is the best\\/recommended way to manually control focus so that macOS's native elements don't take control over the interaction?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "bf40f71a-0b55-401c-84f0-2173b89c8e9b",
+          "type": "message",
+          "user": "U0457TYCT0C",
+          "text": "Can you clarify what you mean by native controls taking control over the interaction?",
+          "ts": "1666036122.000089",
+          "thread_ts": "1666036093.289269",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "YKmKY",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Can you clarify what you mean by native controls taking control over the interaction?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0478BJ4UPK\u003e asked\n\u0026gt; I’ve integrated the new find interaction into the UITextView in my app, which was super easy. However on Catalyst, the find bar appears and I can type in it, but I’m unable to click any of the buttons. I was told by an Apple engineer during WWDC that this was a known issue, but it hasn’t been fixed as of the most recent macOS beta. Is this still in your queue and on track to be fixed? It’s a headlining feature of my macOS 13 app update, so it’ll be a bummer if it’s broken!",
+      "ts": "1666036183.399099",
+      "thread_ts": "1666036183.399099",
+      "subtype": "bot_message",
+      "bot_id": "B043H9A74RF",
+      "username": "Ask Apple - appkit-and-mac-catalyst",
+      "reply_count": 2,
+      "latest_reply": "1666036719.484099",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "=UC",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0478BJ4UPK"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"I\\u2019ve integrated the new find interaction into the UITextView in my app, which was super easy. However on Catalyst, the find bar appears and I can type in it, but I\\u2019m unable to click any of the buttons. I was told by an Apple engineer during WWDC that this was a known issue, but it hasn\\u2019t been fixed as of the most recent macOS beta. Is this still in your queue and on track to be fixed? It\\u2019s a headlining feature of my macOS 13 app update, so it\\u2019ll be a bummer if it\\u2019s broken!\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "04fb751f-f1af-4383-9524-b291ed59c8fb",
+          "type": "message",
+          "user": "U045EHSMF7E",
+          "text": "I’m sorry to discover you’re encountering a problem! Would you mind pasting in the FB number so we can follow up with the right folks?",
+          "ts": "1666036203.965589",
+          "thread_ts": "1666036183.399099",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "x8o",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I’m sorry to discover you’re encountering a problem! Would you mind pasting in the FB number so we can follow up with the right folks?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "76bd23d0-b677-47d3-9d6f-998a37faf803",
+          "type": "message",
+          "user": "U0449F2BYNS",
+          "text": "\u003chttps://developer.apple.com/bug-reporting/\u003e",
+          "ts": "1666036719.484099",
+          "thread_ts": "1666036183.399099",
+          "attachments": [
+            {
+              "fallback": "Apple Developer: Bug Reporting - Apple Developer",
+              "id": 1,
+              "title": "Bug Reporting - Apple Developer",
+              "title_link": "https://developer.apple.com/bug-reporting/",
+              "text": "Now with Feedback Assistant available on iPhone, iPad, Mac, and the web, it’s easier to submit effective bug reports and request enhancements to APIs and tools.",
+              "image_url": "https://developer.apple.com/news/images/og/bug-reporting-og.jpg",
+              "service_name": "Apple Developer",
+              "service_icon": "https://developer.apple.com/favicon.ico",
+              "from_url": "https://developer.apple.com/bug-reporting/",
+              "original_url": "https://developer.apple.com/bug-reporting/",
+              "blocks": null
+            }
+          ],
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "bbehQ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/bug-reporting/",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046FFA29DM\u003e asked\n\u0026gt; Thank you guys for doing this. It is great to actually interact with the people that work on the frameworks code we rely on.",
+      "ts": "1666036619.226069",
+      "thread_ts": "1666036619.226069",
+      "subtype": "bot_message",
+      "bot_id": "B043H9A74RF",
+      "username": "Ask Apple - appkit-and-mac-catalyst",
+      "reply_count": 2,
+      "latest_reply": "1666036804.855029",
+      "reactions": [
+        {
+          "name": "raised_hands",
+          "count": 3,
+          "users": [
+            "U046WFN5UE4",
+            "U047JNUP1MW",
+            "U0457RDA8LV"
+          ]
+        },
+        {
+          "name": "100",
+          "count": 2,
+          "users": [
+            "U047JNUP1MW",
+            "U0463PJJB34"
+          ]
+        },
+        {
+          "name": "heart",
+          "count": 6,
+          "users": [
+            "U047JNUP1MW",
+            "U0463CWEH99",
+            "U0457RDA8LV",
+            "U0460FA4BFS",
+            "U04667MNNA0",
+            "U03V326V960"
+          ]
+        },
+        {
+          "name": "+1::skin-tone-2",
+          "count": 1,
+          "users": [
+            "U046JND8CKB"
+          ]
+        },
+        {
+          "name": "+1",
+          "count": 1,
+          "users": [
+            "U045WJCT7GW"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "8Bfg",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046FFA29DM"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Thank you guys for doing this. It is great to actually interact with the people that work on the frameworks code we rely on.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "8f93bb2f-e758-45f8-a512-2e2215135076",
+          "type": "message",
+          "user": "U0457TYCT0C",
+          "text": "Thank you all for the great Mac Catalyst apps you all write! It's fantastic to interact with the developers using our frameworks to build such incredible apps!",
+          "ts": "1666036689.210819",
+          "thread_ts": "1666036619.226069",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "100",
+              "count": 1,
+              "users": [
+                "U03V30M0C1K"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "4a1Lw",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thank you all for the great Mac Catalyst apps you all write! It's fantastic to interact with the developers using our frameworks to build such incredible apps!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "c3fc3395-89c5-45a6-9322-d936302ed8e8",
+          "type": "message",
+          "user": "U046FFA29DM",
+          "text": "Well personally I usually write AppKit based apps. I'm working on my first Catalyst app now.",
+          "ts": "1666036804.855029",
+          "thread_ts": "1666036619.226069",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "L+5",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Well personally I usually write AppKit based apps. I'm working on my first Catalyst app now."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U04651NPB0C\u003e asked\n\u0026gt; Is it possible to set the key-view loop without disabling automatic key-look calculation for the entire window? I have a specific view where the subviews are numbered visually and would like the tab order to start at the item numbered 1 no matter where it is within the view. I tried overriding `nextKeyView` and `previousKeyView` and that mostly worked, but focus will get stuck within this container rather than moving outside of it once focused.",
+      "ts": "1666036753.478709",
+      "thread_ts": "1666036753.478709",
+      "subtype": "bot_message",
+      "bot_id": "B043H9A74RF",
+      "username": "Ask Apple - appkit-and-mac-catalyst",
+      "reply_count": 2,
+      "latest_reply": "1666036949.833619",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "RcjPM",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U04651NPB0C"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Is it possible to set the key-view loop without disabling automatic key-look calculation for the entire window? I have a specific view where the subviews are numbered visually and would like the tab order to start at the item numbered 1 no matter where it is within the view. I tried overriding `nextKeyView` and `previousKeyView` and that mostly worked, but focus will get stuck within this container rather than moving outside of it once focused.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "92fb91e6-5b5d-4e8e-a909-92db9334a220",
+          "type": "message",
+          "user": "U04615ELS3A",
+          "text": "It is possible. You can leave `NSWindow.autorecalculatesKeyViewLoop` enabled, and then override `recalculateKeyViewLoop()` on your NSWindow subclass, so that it:\n• first calls super (to do the default auto-recalculation)\n• then does whatever fix-up you'd like to do to the specific subviews where the default calculations don't give you the desired results",
+          "ts": "1666036942.752309",
+          "thread_ts": "1666036753.478709",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "cU+",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "It is possible. You can leave "
+                    },
+                    {
+                      "type": "text",
+                      "text": "NSWindow.autorecalculatesKeyViewLoop",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " enabled, and then override "
+                    },
+                    {
+                      "type": "text",
+                      "text": "recalculateKeyViewLoop()",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " on your NSWindow subclass, so that it:\n"
+                    }
+                  ]
+                },
+                {
+                  "Type": "rich_text_list",
+                  "Raw": "{\"type\":\"rich_text_list\",\"elements\":[{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"first calls super (to do the default auto-recalculation)\"}]},{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"then does whatever fix-up you'd like to do to the specific subviews where the default calculations don't give you the desired results\"}]}],\"style\":\"bullet\",\"indent\":0,\"border\":0}"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "78ba49e8-551f-4a25-a998-117dee0d10cd",
+          "type": "message",
+          "user": "U04615ELS3A",
+          "text": "\u003chttps://developer.apple.com/documentation/appkit/nswindow/1419350-recalculatekeyviewloop\u003e",
+          "ts": "1666036949.833619",
+          "thread_ts": "1666036753.478709",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "=QK",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/appkit/nswindow/1419350-recalculatekeyviewloop",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0457TYCT0C\u003e removed a workflow from this channel: *Ask Apple - appkit-and-mac-catalyst*.",
+      "ts": "1666036800.768289",
+      "subtype": "bot_message",
+      "bot_id": "B043H9A74RF",
+      "username": "Ask Apple - appkit-and-mac-catalyst",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "V8k",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0457TYCT0C"
+                },
+                {
+                  "type": "text",
+                  "text": " removed a workflow from this channel: "
+                },
+                {
+                  "type": "text",
+                  "text": "Ask Apple - appkit-and-mac-catalyst",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "70439ab4-b1e2-4a9e-ace0-09aaef07c3cb",
+      "type": "message",
+      "user": "U0457TYCT0C",
+      "text": "That’s the end of our *Q\u0026amp;A: AppKit and Mac Catalyst* activity. Thank you all so much for your questions and excitement about Mac apps!\n\nDon’t skip the other activities happening this week during Ask Apple! Catch some more great Q\u0026amp;A sessions here on Slack throughout the week. Don’t forget to sign up for one-on-one office hours with the *Technology Evangelism*, *Design Evangelism*, and *Developer Technical Support* teams!\n\nWe hope you have a great week, and can’t wait to answer more of your questions soon. :wave:",
+      "ts": "1666036830.454469",
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "raised_hands",
+          "count": 5,
+          "users": [
+            "U046FFA29DM",
+            "U04651NPB0C",
+            "U0463CWEH99",
+            "U047KF4303S",
+            "U04632JKELB"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "OTRi",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "That’s the end of our "
+                },
+                {
+                  "type": "text",
+                  "text": "Q\u0026A: AppKit and Mac Catalyst",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " activity. Thank you all so much for your questions and excitement about Mac apps!\n\nDon’t skip the other activities happening this week during Ask Apple! Catch some more great Q\u0026A sessions here on Slack throughout the week. Don’t forget to sign up for one-on-one office hours with the "
+                },
+                {
+                  "type": "text",
+                  "text": "Technology Evangelism",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ", "
+                },
+                {
+                  "type": "text",
+                  "text": "Design Evangelism",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ", and "
+                },
+                {
+                  "type": "text",
+                  "text": "Developer Technical Support",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " teams!\n\nWe hope you have a great week, and can’t wait to answer more of your questions soon. "
+                },
+                {
+                  "type": "emoji",
+                  "name": "wave",
+                  "skin_tone": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U047JNUP1MW\u003e asked\n\u0026gt; NSCollectionViewDiffableDataSource has an \"apply(_:, animatingDifferences:)\" method that we can use to update NSCollectionView's with new data.\n\u0026gt; \n\u0026gt; If animatingDifferences is false, it will not do any diffing, as far as cell reuse is concerned. Each item will blindly request a new cell from NSCollectionView's cache.\n\u0026gt; \n\u0026gt; Is it possible to apply a new snapshot *without* animation it, but preserving diffing behavior — meaning cell reuse is only triggered for new items?",
+      "ts": "1666037096.502829",
+      "thread_ts": "1666037096.502829",
+      "subtype": "bot_message",
+      "bot_id": "B043H9A74RF",
+      "username": "Ask Apple - appkit-and-mac-catalyst",
+      "reply_count": 1,
+      "latest_reply": "1666037127.326009",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "=Tdy",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U047JNUP1MW"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"NSCollectionViewDiffableDataSource has an \\\"apply(_:, animatingDifferences:)\\\" method that we can use to update NSCollectionView's with new data.\\n\\nIf animatingDifferences is false, it will not do any diffing, as far as cell reuse is concerned. Each item will blindly request a new cell from NSCollectionView's cache.\\n\\nIs it possible to apply a new snapshot *without* animation it, but preserving diffing behavior \\u2014 meaning cell reuse is only triggered for new items?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "0c1e67d7-8484-47b7-ab4d-db459d750202",
+          "type": "message",
+          "user": "U0457TYCT0C",
+          "text": "Please submit feedback with a sample app.",
+          "ts": "1666037127.326009",
+          "thread_ts": "1666037096.502829",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "AAb0",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Please submit feedback with a sample app."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "channel_id": "C043CPR60RF"
+}
