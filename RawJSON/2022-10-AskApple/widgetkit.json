@@ -1,0 +1,5263 @@
+{
+  "name": "widgetkit",
+  "messages": [
+    {
+      "type": "message",
+      "user": "U03V30M0C1K",
+      "text": "This content can't be displayed.",
+      "ts": "1665432572.539899",
+      "pinned_to": [
+        "C043CJ54LDP"
+      ],
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "wave",
+          "count": 2,
+          "users": [
+            "U04636Y7AEN",
+            "U046MLLA6H2"
+          ]
+        },
+        {
+          "name": "heart",
+          "count": 2,
+          "users": [
+            "U0462C80482",
+            "U0463GVSJ2E"
+          ]
+        },
+        {
+          "name": "flag-ua",
+          "count": 1,
+          "users": [
+            "U046JMVM9J5"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "header",
+          "text": {
+            "type": "plain_text",
+            "text": "Welcome to Ask Apple",
+            "emoji": true
+          },
+          "block_id": "LfJD"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "We're excited to be hosting you in the WidgetKit channel this week! You can find the full schedule of Q\u0026amp;As for WidgetKit by visiting the \u003chttps://apps.apple.com/us/app/apple-developer/id640199958 | Apple Developer app\u003e and \u003chttps://developer.apple.com/events/ask-apple/questions-and-answers/ | website\u003e."
+          },
+          "block_id": "cZm=l"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "If you haven’t already, please take a moment to familiarize yourself with \u003chttps://developer.apple.com/news/?id=vpbyzfg4 | how Q\u0026amp;As will work\u003e."
+          },
+          "block_id": "nu3uL"
+        },
+        {
+          "type": "header",
+          "text": {
+            "type": "plain_text",
+            "text": "Attendance Policy",
+            "emoji": true
+          },
+          "block_id": "CYK3i"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "We want to make sure these spaces are helpful and welcoming for everyone — developers and Apple employees alike. Please review and follow the \u003chttps://developer.apple.com/events/policy/online-event-attendance-policy/ | attendance policy\u003e."
+          },
+          "block_id": "6YY1n"
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03V30M0C1K\u003e added a workflow to this channel: *Ask Apple - widgetkit*.",
+      "ts": "1666018828.509749",
+      "subtype": "bot_message",
+      "bot_id": "B04329H97PC",
+      "username": "Ask Apple - widgetkit",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "iYEq",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03V30M0C1K"
+                },
+                {
+                  "type": "text",
+                  "text": " added a workflow to this channel: "
+                },
+                {
+                  "type": "text",
+                  "text": "Ask Apple - widgetkit",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "a1dfb6d7-be8d-4e10-90f2-f31b58b5107d",
+      "type": "message",
+      "user": "U0441N3976K",
+      "text": "Hello all! :wave: We're super excited to be back on Slack with you for Ask Apple! We'll be holding a Q\u0026amp;A and viewing party of \u003chttps://developer.apple.com/videos/play/wwdc2022/10050/|Complications and widgets: Reloaded\u003e here tomorrow, Tuesday the 18th, at 2:00pm PT to answer some of your Lock Screen Widget and Complications questions! You can start sending your questions in now if you already have some or won't be able to make it tomorrow. Through the week, you can submit questions by hitting the :heavy_plus_sign: icon at the bottom left of the text box, then select the _Ask A Question_ workflow.\n\nOn Thursday, we'll be holding a general WidgetKit Q\u0026amp;A session starting at 10:00am PT! If you already have your questions ready, please wait until after our Tuesday Q\u0026amp;A to submit your questions so we can make sure they end up in the right place!\n\nWe can't wait to answer your questions and hear what you all have been up to!",
+      "ts": "1666036884.750049",
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "tada",
+          "count": 3,
+          "users": [
+            "U03V30M0C1K",
+            "U0460BADXM3",
+            "U046MLLA6H2"
+          ]
+        },
+        {
+          "name": "+1",
+          "count": 2,
+          "users": [
+            "U04673H2H8C",
+            "U046YDWKHU2"
+          ]
+        },
+        {
+          "name": "eyes",
+          "count": 1,
+          "users": [
+            "U0462C80482"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "mYQ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hello all! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "wave",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " We're super excited to be back on Slack with you for Ask Apple! We'll be holding a Q\u0026A and viewing party of "
+                },
+                {
+                  "type": "link",
+                  "url": "https://developer.apple.com/videos/play/wwdc2022/10050/",
+                  "text": "Complications and widgets: Reloaded"
+                },
+                {
+                  "type": "text",
+                  "text": " here tomorrow, Tuesday the 18th, at 2:00pm PT to answer some of your Lock Screen Widget and Complications questions! You can start sending your questions in now if you already have some or won't be able to make it tomorrow. Through the week, you can submit questions by hitting the "
+                },
+                {
+                  "type": "emoji",
+                  "name": "heavy_plus_sign",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " icon at the bottom left of the text box, then select the "
+                },
+                {
+                  "type": "text",
+                  "text": "Ask A Question",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " workflow.\n\nOn Thursday, we'll be holding a general WidgetKit Q\u0026A session starting at 10:00am PT! If you already have your questions ready, please wait until after our Tuesday Q\u0026A to submit your questions so we can make sure they end up in the right place!\n\nWe can't wait to answer your questions and hear what you all have been up to!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "12c8639f-7418-48a2-b556-523e9aabaccf",
+      "type": "message",
+      "user": "U0441N3976K",
+      "text": "Welcome to our Q\u0026amp;A on Complications and widgets: Reloaded, we're super excited to answer your questions! To submit a new questions, click that :heavy_plus_sign: icon in the lower left, then selected the Ask A Question workflow. Let's get started!",
+      "ts": "1666126902.239819",
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "raised_hands",
+          "count": 1,
+          "users": [
+            "U0462C80482"
+          ]
+        },
+        {
+          "name": "raised_hands::skin-tone-2",
+          "count": 1,
+          "users": [
+            "U0441J2N9FH"
+          ]
+        },
+        {
+          "name": "heart_eyes_cat",
+          "count": 1,
+          "users": [
+            "U03V30M0C1K"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "eo0+",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Welcome to our Q\u0026A on Complications and widgets: Reloaded, we're super excited to answer your questions! To submit a new questions, click that "
+                },
+                {
+                  "type": "emoji",
+                  "name": "heavy_plus_sign",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " icon in the lower left, then selected the Ask A Question workflow. Let's get started!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046S5LM1H6\u003e asked\n\u0026gt; Our widget requires location permission update so we have \"Widget Wants Location\" in info.plist to Yes. But because of adding this variable in info.plist user who download our app get the location permission prompt when they download the app from app store even before they add the widget. Taking out \"Widget Wants Location\" solves the problem. Anyway to work around it or I need to file a Feedback.",
+      "ts": "1666126982.842189",
+      "thread_ts": "1666126982.842189",
+      "subtype": "bot_message",
+      "bot_id": "B04329H97PC",
+      "username": "Ask Apple - widgetkit",
+      "reply_count": 6,
+      "latest_reply": "1666130939.200469",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "0R4=",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046S5LM1H6"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Our widget requires location permission update so we have \\\"Widget Wants Location\\\" in info.plist to Yes. But because of adding this variable in info.plist user who download our app get the location permission prompt when they download the app from app store even before they add the widget. Taking out \\\"Widget Wants Location\\\" solves the problem. Anyway to work around it or I need to file a Feedback.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "e28c3593-42e4-4b9e-a110-cb5700c57c78",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "Your widget needs location access, but your app does not? :thinking_face: If that’s the case, and the app is still prompting without widget installation, yes, please do file Feedback. Would love to hear more about your use case!",
+          "ts": "1666127032.860229",
+          "thread_ts": "1666126982.842189",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ffr1",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Your widget needs location access, but your app does not? "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "thinking_face",
+                      "skin_tone": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": " If that’s the case, and the app is still prompting without widget installation, yes, please do file Feedback. Would love to hear more about your use case!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "9c452aa0-95a4-499e-a0ad-50fc7b31d465",
+          "type": "message",
+          "user": "U046S5LM1H6",
+          "text": "\u003c@U0441J2N9FH\u003e Our app does require location access as well but I just don't want to prompt user for location permission the first thing they download our app",
+          "ts": "1666128434.340149",
+          "thread_ts": "1666126982.842189",
+          "edited": {
+            "user": "U046S5LM1H6",
+            "ts": "1666128505.000000"
+          },
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "5kiN",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U0441J2N9FH"
+                    },
+                    {
+                      "type": "text",
+                      "text": " Our app does require location access as well but I just don't want to prompt user for location permission the first thing they download our app"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "0876bfd0-923d-4c86-9cf9-87d048c47644",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "Can you please file Feedback and post the FB number here? I have a guess about what’s happening here, but we’ll need to investigate further. Thank you!",
+          "ts": "1666128972.233719",
+          "thread_ts": "1666126982.842189",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "F1ZI",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Can you please file Feedback and post the FB number here? I have a guess about what’s happening here, but we’ll need to investigate further. Thank you!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "b98c85f8-365e-4755-80b1-109bec147a45",
+          "type": "message",
+          "user": "U046S5LM1H6",
+          "text": "Okay Thanks.",
+          "ts": "1666129002.428569",
+          "thread_ts": "1666126982.842189",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Qw/J",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Okay Thanks."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "657ca1a1-816f-424a-8b1d-34ab59531b81",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "No, thank you! This is super helpful.",
+          "ts": "1666129050.867989",
+          "thread_ts": "1666126982.842189",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "MKts",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "No, thank you! This is super helpful."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "7e1d06a5-f765-46eb-9546-142a3914ea6c",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "You made something click. :slightly_smiling_face:",
+          "ts": "1666130939.200469",
+          "thread_ts": "1666126982.842189",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "CzMo",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "You made something click. "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U045MM9KJ9M\u003e asked\n\u0026gt; Is there a way to get a SwiftUI Text element which renders a Timer to display a custom format. We don`t need  the seconds updating. Just hours \u0026amp; minutes?",
+      "ts": "1666127119.877839",
+      "thread_ts": "1666127119.877839",
+      "subtype": "bot_message",
+      "bot_id": "B04329H97PC",
+      "username": "Ask Apple - widgetkit",
+      "reply_count": 1,
+      "latest_reply": "1666127146.376219",
+      "reactions": [
+        {
+          "name": "point_up",
+          "count": 2,
+          "users": [
+            "U0460F10DBP",
+            "U046T40FY58"
+          ]
+        },
+        {
+          "name": "+1",
+          "count": 1,
+          "users": [
+            "U045MLXJX71"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "p2aZ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U045MM9KJ9M"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Is there a way to get a SwiftUI Text element which renders a Timer to display a custom format. We don`t need  the seconds updating. Just hours \u0026 minutes?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "739f7ac0-6373-45c1-bd55-d5a893dfb508",
+          "type": "message",
+          "user": "U04560G11CG",
+          "text": "There is not currently a way to do that but I'd highly recommend filing a Feedback so we can take a closer look! What's your intended use case?",
+          "ts": "1666127146.376219",
+          "thread_ts": "1666127119.877839",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "oX4",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "There is not currently a way to do that but I'd highly recommend filing a Feedback so we can take a closer look! What's your intended use case?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U04640ZSQ4T\u003e asked\n\u0026gt; Hi\n\u0026gt; is it possible to change background color, text color of lock screen widget for rectangular or circular families?",
+      "ts": "1666127173.073639",
+      "thread_ts": "1666127173.073639",
+      "subtype": "bot_message",
+      "bot_id": "B04329H97PC",
+      "username": "Ask Apple - widgetkit",
+      "reply_count": 1,
+      "latest_reply": "1666127237.084579",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "YyPB",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U04640ZSQ4T"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Hi\\nis it possible to change background color, text color of lock screen widget for rectangular or circular families?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "21d76cce-02a0-462f-b3e0-28b0caf23fb6",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "Not currently, but if you want this, we’d love Feedback. \u003chttps://feedbackassistant.apple.com/\u003e Be sure to include info about why this would be valuable to you!",
+          "ts": "1666127237.084579",
+          "thread_ts": "1666127173.073639",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "8uRX",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Not currently, but if you want this, we’d love Feedback. "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://feedbackassistant.apple.com/",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": " Be sure to include info about why this would be valuable to you!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0463CQPBC2\u003e asked\n\u0026gt; What’s the trick to get complication previews (in picker) to display correctly? IntentRecommendations don’t show up as you’d expect: the title is usually OK, but the preview images often show the wrong configuration or are blank. Also, the green selection indicator appears on multiple recommendations. Is there some manual refresh or other configuration step needed?",
+      "ts": "1666127214.527339",
+      "thread_ts": "1666127214.527339",
+      "subtype": "bot_message",
+      "bot_id": "B04329H97PC",
+      "username": "Ask Apple - widgetkit",
+      "reply_count": 13,
+      "latest_reply": "1666128108.437769",
+      "reactions": [
+        {
+          "name": "eyes",
+          "count": 1,
+          "users": [
+            "U0462C80482"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "psU",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0463CQPBC2"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"What\\u2019s the trick to get complication previews (in picker) to display correctly? IntentRecommendations don\\u2019t show up as you\\u2019d expect: the title is usually OK, but the preview images often show the wrong configuration or are blank. Also, the green selection indicator appears on multiple recommendations. Is there some manual refresh or other configuration step needed?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "5644b6e4-2707-49fb-b16a-efc260fa4336",
+          "type": "message",
+          "user": "U04560G11CG",
+          "text": "This sounds like a bug rather than something you're doing wrong. Could you file a Feedback so we can take a look?",
+          "ts": "1666127237.158549",
+          "thread_ts": "1666127214.527339",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "rZ=",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "This sounds like a bug rather than something you're doing wrong. Could you file a Feedback so we can take a look?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "47f37040-57b6-42f6-8846-2780db559913",
+          "type": "message",
+          "user": "U0462C80482",
+          "text": "I'm having this issue too. I've seen that some apps manage to do it properly, but even the EmojiRangers example app has that issue.",
+          "ts": "1666127304.710269",
+          "thread_ts": "1666127214.527339",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "3lrL",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I'm having this issue too. I've seen that some apps manage to do it properly, but even the EmojiRangers example app has that issue."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "1902aad1-465f-45ee-b008-03c34f27d8cb",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "Attach a sample project if you can—that way if we spot a misunderstanding in the code we can let you know. :slightly_smiling_face:",
+          "ts": "1666127309.991009",
+          "thread_ts": "1666127214.527339",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "WCKY",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Attach a sample project if you can—that way if we spot a misunderstanding in the code we can let you know. "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "c33d7e27-3397-49b8-b64c-b83a5337565a",
+          "type": "message",
+          "user": "U04630E0J94",
+          "text": "I filed FB FB10740846 on this back in July",
+          "ts": "1666127323.545659",
+          "thread_ts": "1666127214.527339",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "gratitude-thank-you",
+              "count": 1,
+              "users": [
+                "U0441J2N9FH"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "tqIjK",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I filed FB FB10740846 on this back in July"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "838ad874-f87c-43dc-a362-b58a6be53293",
+          "type": "message",
+          "user": "U0463CQPBC2",
+          "text": "I'm seeing the issue with this watchOS-only app: \u003chttps://github.com/chockenberry/NowPlayingPlus\u003e",
+          "ts": "1666127363.967039",
+          "thread_ts": "1666127214.527339",
+          "attachments": [
+            {
+              "fallback": "GitHub: GitHub - chockenberry/NowPlayingPlus: A watchOS app with circular and corner complications for Now Playing controls",
+              "id": 1,
+              "title": "GitHub - chockenberry/NowPlayingPlus: A watchOS app with circular and corner complications for Now Playing controls",
+              "title_link": "https://github.com/chockenberry/NowPlayingPlus",
+              "text": "A watchOS app with circular and corner complications for Now Playing controls - GitHub - chockenberry/NowPlayingPlus: A watchOS app with circular and corner complications for Now Playing controls",
+              "image_url": "https://opengraph.githubassets.com/d42499b2cc4753b9d21df3e78663a655dbcafd6156f79e283e0ef4400cf4b99a/chockenberry/NowPlayingPlus",
+              "service_name": "GitHub",
+              "service_icon": "https://a.slack-edge.com/80588/img/unfurl_icons/github.png",
+              "from_url": "https://github.com/chockenberry/NowPlayingPlus",
+              "original_url": "https://github.com/chockenberry/NowPlayingPlus",
+              "blocks": null
+            }
+          ],
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "tbOsb",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I'm seeing the issue with this watchOS-only app: "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://github.com/chockenberry/NowPlayingPlus",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "86928fc2-4cc8-4531-bd94-83ad880a8335",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "Thank you for the FB number, Gregory!",
+          "ts": "1666127364.438339",
+          "thread_ts": "1666127214.527339",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "mie",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thank you for the FB number, Gregory!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "f6dee0c8-c674-4f07-a1d4-cd20ed6fdd3f",
+          "type": "message",
+          "user": "U0463CQPBC2",
+          "text": "Will file a FB later - currently at the hospital with a sick mom.",
+          "ts": "1666127404.602419",
+          "thread_ts": "1666127214.527339",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "bangbang",
+              "count": 1,
+              "users": [
+                "U0441J2N9FH"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "DU/",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Will file a FB later - currently at the hospital with a sick mom."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "47728174-1800-4aec-a200-2edf097bd524",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "Best wishes for a speedy recovery to your mom! :tulip:",
+          "ts": "1666127437.258979",
+          "thread_ts": "1666127214.527339",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "hntrH",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Best wishes for a speedy recovery to your mom! "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "tulip",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "66b44278-b0e3-44e4-b54b-4fa396bbe554",
+          "type": "message",
+          "user": "U04630E0J94",
+          "text": "it makes the new widgetkit complications far inferior to previous complications sadly",
+          "ts": "1666127448.702889",
+          "thread_ts": "1666127214.527339",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Atb",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "it makes the new widgetkit complications far inferior to previous complications sadly"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "6f326e4e-62f0-4497-8c36-35c0ec1abb59",
+          "type": "message",
+          "user": "U0462C80482",
+          "text": "example project (Apple's official Widget example app): \u003chttps://docs-assets.developer.apple.com/published/4f639eb9e1/BuildingWidgetsUsingWidgetKitAndSwiftUI.zip\u003e\n\nFiled FB11564844 1 month ago and posted in the developer forums too: \u003chttps://developer.apple.com/forums/thread/713397\u003e",
+          "ts": "1666127460.674809",
+          "thread_ts": "1666127214.527339",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Lfu",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "example project (Apple's official Widget example app): "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://docs-assets.developer.apple.com/published/4f639eb9e1/BuildingWidgetsUsingWidgetKitAndSwiftUI.zip",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nFiled FB11564844 1 month ago and posted in the developer forums too: "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/forums/thread/713397",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "1ebd56f5-35f7-422e-97fd-0d924154cf82",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "thanks everyone! always room for improvement :slightly_smiling_face:",
+          "ts": "1666127538.502849",
+          "thread_ts": "1666127214.527339",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "g8IQ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "thanks everyone! always room for improvement "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "3d33a326-3241-4a7d-9f70-c225904828fa",
+          "type": "message",
+          "user": "U046XG4BMEZ",
+          "text": "All the best to your mum, \u003c@U0463CQPBC2\u003e!",
+          "ts": "1666127583.890289",
+          "thread_ts": "1666127214.527339",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "iC6k",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "All the best to your mum, "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U0463CQPBC2"
+                    },
+                    {
+                      "type": "text",
+                      "text": "!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "39f8d70b-43c7-4532-bc01-7cb43efc171b",
+          "type": "message",
+          "user": "U0462C80482",
+          "text": "Screencapture of the bug:",
+          "ts": "1666128108.437769",
+          "thread_ts": "1666127214.527339",
+          "files": [
+            {
+              "id": "F047FNYV35X",
+              "created": 1666128069,
+              "timestamp": 1666128069,
+              "name": "Screen Recording 2022-09-14 at 9.15.17 AM (1).mov",
+              "title": "Screen Recording 2022-09-14 at 9.15.17 AM (1).mov",
+              "mimetype": "video/quicktime",
+              "image_exif_rotation": 0,
+              "filetype": "mov",
+              "pretty_type": "QuickTime Movie",
+              "user": "U0462C80482",
+              "mode": "hosted",
+              "editable": false,
+              "is_external": false,
+              "external_type": "",
+              "size": 3578688,
+              "url": "",
+              "url_download": "",
+              "url_private": "C043CJ54LDP/F047FNYV35X-Screen Recording 2022-09-14 at 9.15.17 AM (1).mov",
+              "url_private_download": "C043CJ54LDP/F047FNYV35X-Screen Recording 2022-09-14 at 9.15.17 AM (1).mov",
+              "original_h": 0,
+              "original_w": 0,
+              "thumb_64": "",
+              "thumb_80": "",
+              "thumb_160": "",
+              "thumb_360": "",
+              "thumb_360_gif": "",
+              "thumb_360_w": 0,
+              "thumb_360_h": 0,
+              "thumb_480": "",
+              "thumb_480_w": 0,
+              "thumb_480_h": 0,
+              "thumb_720": "",
+              "thumb_720_w": 0,
+              "thumb_720_h": 0,
+              "thumb_960": "",
+              "thumb_960_w": 0,
+              "thumb_960_h": 0,
+              "thumb_1024": "",
+              "thumb_1024_w": 0,
+              "thumb_1024_h": 0,
+              "permalink": "https://appleevents.enterprise.slack.com/files/U0462C80482/F047FNYV35X/screen_recording_2022-09-14_at_9.15.17_am__1_.mov",
+              "permalink_public": "https://slack-files.com/T01PTBJ95PS-F047FNYV35X-736a580467",
+              "edit_link": "",
+              "preview": "",
+              "preview_highlight": "",
+              "lines": 0,
+              "lines_more": 0,
+              "is_public": false,
+              "public_url_shared": false,
+              "channels": null,
+              "groups": null,
+              "ims": null,
+              "initial_comment": {},
+              "comments_count": 0,
+              "num_stars": 0,
+              "is_starred": false,
+              "shares": {
+                "public": null,
+                "private": null
+              }
+            }
+          ],
+          "reactions": [
+            {
+              "name": "+1::skin-tone-2",
+              "count": 1,
+              "users": [
+                "U0441J2N9FH"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "+Dx4",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Screencapture of the bug:"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0463CQPBC2\u003e asked\n\u0026gt; Can old style ClockKit complications be used with a watchOS app that uses SwiftUI instead of an interface controller? The use case is app that has simple needs and would benefit from text in accessoryCorner (not using widgetTitle). This approach also avoids the need to migrate the complications to WidgetKit.",
+      "ts": "1666127432.242819",
+      "thread_ts": "1666127432.242819",
+      "subtype": "bot_message",
+      "bot_id": "B04329H97PC",
+      "username": "Ask Apple - widgetkit",
+      "reply_count": 3,
+      "latest_reply": "1666128064.513479",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "OABK",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0463CQPBC2"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Can old style ClockKit complications be used with a watchOS app that uses SwiftUI instead of an interface controller? The use case is app that has simple needs and would benefit from text in accessoryCorner (not using widgetTitle). This approach also avoids the need to migrate the complications to WidgetKit.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "b52b6e3c-6ce8-4b7f-b6b1-af5a15cd6fdb",
+          "type": "message",
+          "user": "U04560G11CG",
+          "text": "Yes, you can continue to use ClockKit complications with a SwiftUI app. The setup is the same as previously, however, Xcode no longer creates a ClockKit complication for you when you create a new app.\n\nYou can set it up manually by creating a class that conforms to `CLKComplicationDataSource` and then setting that as the value for the `CLKComplicationsPrincipalClass` key in your app's Info.plist.",
+          "ts": "1666127608.576479",
+          "thread_ts": "1666127432.242819",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Mis",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yes, you can continue to use ClockKit complications with a SwiftUI app. The setup is the same as previously, however, Xcode no longer creates a ClockKit complication for you when you create a new app.\n\nYou can set it up manually by creating a class that conforms to "
+                    },
+                    {
+                      "type": "text",
+                      "text": "CLKComplicationDataSource",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " and then setting that as the value for the "
+                    },
+                    {
+                      "type": "text",
+                      "text": "CLKComplicationsPrincipalClass",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " key in your app's Info.plist."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "8ae915c7-4ea6-465f-b49d-212268f36e29",
+          "type": "message",
+          "user": "U0463CQPBC2",
+          "text": "Is the `CLKComplicationSupportedFamilies` key needed as well?",
+          "ts": "1666128029.729589",
+          "thread_ts": "1666127432.242819",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ZhM",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Is the "
+                    },
+                    {
+                      "type": "text",
+                      "text": "CLKComplicationSupportedFamilies",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " key needed as well?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "7ce4953e-a4ed-4965-8e25-4643e938225e",
+          "type": "message",
+          "user": "U04560G11CG",
+          "text": "That's no longer needed since the introduction of `CLKComplicationDescriptor`s in watchOS 7.0.",
+          "ts": "1666128064.513479",
+          "thread_ts": "1666127432.242819",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Q7q",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "That's no longer needed since the introduction of "
+                    },
+                    {
+                      "type": "text",
+                      "text": "CLKComplicationDescriptor",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "s in watchOS 7.0."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U045ZRTH5A9\u003e asked\n\u0026gt; What are the best options for reloading data that is stored in CoreData and showing it in a widget or complication?",
+      "ts": "1666127528.293599",
+      "thread_ts": "1666127528.293599",
+      "subtype": "bot_message",
+      "bot_id": "B04329H97PC",
+      "username": "Ask Apple - widgetkit",
+      "reply_count": 1,
+      "latest_reply": "1666127617.197629",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "O+p=e",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U045ZRTH5A9"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"What are the best options for reloading data that is stored in CoreData and showing it in a widget or complication?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "d73cd177-3136-4709-bf4a-f585a834866f",
+          "type": "message",
+          "user": "U0449FVU5N2",
+          "text": "We generally recommend loading your data from CoreData into your timeline entry, and then rendering your views from your timeline entry.",
+          "ts": "1666127617.197629",
+          "thread_ts": "1666127528.293599",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "wOjc",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "We generally recommend loading your data from CoreData into your timeline entry, and then rendering your views from your timeline entry."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0469KJQ23Z\u003e asked\n\u0026gt; Can you show an icon with `.widgetLabel()`. I tried both with `Text(Image)` as well as with `Label` but the icon never shows.",
+      "ts": "1666127864.968669",
+      "thread_ts": "1666127864.968669",
+      "subtype": "bot_message",
+      "bot_id": "B04329H97PC",
+      "username": "Ask Apple - widgetkit",
+      "reply_count": 1,
+      "latest_reply": "1666127968.327929",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "xxpV",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0469KJQ23Z"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Can you show an icon with `.widgetLabel()`. I tried both with `Text(Image)` as well as with `Label` but the icon never shows.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "ed081d2c-66b6-4f32-944a-53061801045a",
+          "type": "message",
+          "user": "U04560G4CGY",
+          "text": "How are you trying to show an icon on the widget? Do you have a snippet of code or such that we can take a look at?",
+          "ts": "1666127968.327929",
+          "thread_ts": "1666127864.968669",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "qtB",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "How are you trying to show an icon on the widget? Do you have a snippet of code or such that we can take a look at?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046S70K9A4\u003e asked\n\u0026gt; Do the new widget/complication families support Emoji? Any restrictions or considerations?",
+      "ts": "1666127937.962099",
+      "thread_ts": "1666127937.962099",
+      "subtype": "bot_message",
+      "bot_id": "B04329H97PC",
+      "username": "Ask Apple - widgetkit",
+      "reply_count": 2,
+      "latest_reply": "1666128075.886159",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Fzn",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046S70K9A4"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Do the new widget\\/complication families support Emoji? Any restrictions or considerations?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "3892e56d-e2b5-4c22-8a0f-f16eb156ae66",
+          "type": "message",
+          "user": "U04560G11CG",
+          "text": "Yes, we expect Emoji to work in the new families. If you _do_ run into any issues, please file some feedback :grinning:",
+          "ts": "1666128028.401999",
+          "thread_ts": "1666127937.962099",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "iCh",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yes, we expect Emoji to work in the new families. If you "
+                    },
+                    {
+                      "type": "text",
+                      "text": "do",
+                      "style": {
+                        "italic": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " run into any issues, please file some feedback "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "grinning",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "ece16aec-160f-48fd-80e9-2233afd6dd67",
+          "type": "message",
+          "user": "U046S70K9A4",
+          "text": "For sure :grinning: i’ve never made a widget so I didn’t have one to test quickly in, thanks!",
+          "ts": "1666128075.886159",
+          "thread_ts": "1666127937.962099",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "heart",
+              "count": 1,
+              "users": [
+                "U04560G11CG"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "4QF",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "For sure "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "grinning",
+                      "skin_tone": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": " i’ve never made a widget so I didn’t have one to test quickly in, thanks!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046MLLA6H2\u003e asked\n\u0026gt; Hi,\n\u0026gt; I've implemented displaying clock on home screen widget. But it freezes every day at 11:59 mid-night. I've no clue how to refresh timeline at 11:59.\n\u0026gt; \n\u0026gt; Here is my stackoverflow question where you can see my code. \u003chttps://stackoverflow.com/questions/72245904/ios-14-clock-widget-freeze-everyday-at-1159.|https://stackoverflow.com/questions/72245904/ios-14-clock-widget-freeze-everyday-at-1159.\u003e \n\u0026gt; \n\u0026gt; thanks",
+      "ts": "1666128032.717739",
+      "thread_ts": "1666128032.717739",
+      "attachments": [
+        {
+          "fallback": "Stack Overflow: iOS 14 clock widget freeze everyday at 11:59",
+          "id": 1,
+          "title": "iOS 14 clock widget freeze everyday at 11:59",
+          "title_link": "https://stackoverflow.com/questions/72245904/ios-14-clock-widget-freeze-everyday-at-1159.",
+          "text": "My widget clock freezes every day at 11:59 mid-night. below is my TimelineProvider code. private struct Provider: TimelineProvider { func placeholder(in context: Context) -\u0026gt; SimpleEntry { ...",
+          "thumb_url": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded",
+          "service_name": "Stack Overflow",
+          "service_icon": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a",
+          "from_url": "https://stackoverflow.com/questions/72245904/ios-14-clock-widget-freeze-everyday-at-1159.",
+          "original_url": "https://stackoverflow.com/questions/72245904/ios-14-clock-widget-freeze-everyday-at-1159.",
+          "blocks": null
+        }
+      ],
+      "edited": {
+        "user": "B04329H97PC",
+        "ts": "1666128033.000000"
+      },
+      "subtype": "bot_message",
+      "bot_id": "B04329H97PC",
+      "username": "Ask Apple - widgetkit",
+      "reply_count": 1,
+      "latest_reply": "1666128216.024829",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "fk6A",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046MLLA6H2"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Hi,\\nI've implemented displaying clock on home screen widget. But it freezes every day at 11:59 mid-night. I've no clue how to refresh timeline at 11:59.\\n\\nHere is my stackoverflow question where you can see my code. \"},{\"type\":\"link\",\"url\":\"https:\\/\\/stackoverflow.com\\/questions\\/72245904\\/ios-14-clock-widget-freeze-everyday-at-1159.\",\"text\":\"https:\\/\\/stackoverflow.com\\/questions\\/72245904\\/ios-14-clock-widget-freeze-everyday-at-1159.\"},{\"type\":\"text\",\"text\":\" \\n\\nthanks\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "23f64b55-d196-4251-bac5-4c14c0914656",
+          "type": "message",
+          "user": "U0441N3976K",
+          "text": "Background timeline reloads are usually opportunistic, so they might not run at exactly the time you've requested. I'd recommend scheduling some reloads in advance of your timeline ending to ensure it reloads in time. It's also possible your reload is running slightly ahead of the time you've scheduled it, and your timeline always fills the current day instead of filling 24 hours in the future from the time that its run, so it could be filling the timeline with entries of the day that's about to end instead of the upcoming day. You could switch your logic to always fill 24 hours from the current date, instead of 24 hours starting from midnight of the current day.",
+          "ts": "1666128216.024829",
+          "thread_ts": "1666128032.717739",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "8wT",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Background timeline reloads are usually opportunistic, so they might not run at exactly the time you've requested. I'd recommend scheduling some reloads in advance of your timeline ending to ensure it reloads in time. It's also possible your reload is running slightly ahead of the time you've scheduled it, and your timeline always fills the current day instead of filling 24 hours in the future from the time that its run, so it could be filling the timeline with entries of the day that's about to end instead of the upcoming day. You could switch your logic to always fill 24 hours from the current date, instead of 24 hours starting from midnight of the current day."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046LCTKWKY\u003e asked\n\u0026gt; How can we achieve an actualization of the widget, when the position of the user changes? We would like to offer a widget that shows points of interest on a map around the user’s current position.",
+      "ts": "1666128154.274099",
+      "thread_ts": "1666128154.274099",
+      "subtype": "bot_message",
+      "bot_id": "B04329H97PC",
+      "username": "Ask Apple - widgetkit",
+      "reply_count": 2,
+      "latest_reply": "1666128690.879359",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "fRxzW",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046LCTKWKY"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"How can we achieve an actualization of the widget, when the position of the user changes? We would like to offer a widget that shows points of interest on a map around the user\\u2019s current position.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "f9713884-cd2f-4c60-bc4d-4a358a2f40b7",
+          "type": "message",
+          "user": "U044G94NG90",
+          "text": "Hi Andreas, take a look at \u003chttps://developer.apple.com/documentation/widgetkit/keeping-a-widget-up-to-date\u003e and in particular the piece around \"significant location change\"",
+          "ts": "1666128201.600589",
+          "thread_ts": "1666128154.274099",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 3,
+              "users": [
+                "U0449FVU5N2",
+                "U046LCTKWKY",
+                "U0464NE480L"
+              ]
+            },
+            {
+              "name": "heart",
+              "count": 1,
+              "users": [
+                "U046JMFLKV3"
+              ]
+            },
+            {
+              "name": "heart_eyes",
+              "count": 1,
+              "users": [
+                "U046JMFLKV3"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "J+Lg",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi Andreas, take a look at "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/widgetkit/keeping-a-widget-up-to-date",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": " and in particular the piece around \"significant location change\""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "b740c9cc-aa80-4503-9556-4619af667bd4",
+          "type": "message",
+          "user": "U0449FVU5N2",
+          "text": "As long as the user has granted authorization to location updates to the widget, once a significant location update is detected, the widget will be refreshed on the next user view.",
+          "ts": "1666128690.879359",
+          "thread_ts": "1666128154.274099",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "white_check_mark",
+              "count": 2,
+              "users": [
+                "U046LCTKWKY",
+                "U0464NE480L"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "I1fR",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "As long as the user has granted authorization to location updates to the widget, once a significant location update is detected, the widget will be refreshed on the next user view."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0460BADXM3\u003e asked\n\u0026gt; how should declare a widget for lockscreen in our app that also supports iOS 15. In my WidgetConfiguration declaration, adding `.supportedFamilies([.systemSmall, .accessoryCircular, .accessoryInline])` gives error that it's only available in iOS 16. I haven't had much luck using `if #available` blocks",
+      "ts": "1666128167.312459",
+      "thread_ts": "1666128167.312459",
+      "subtype": "bot_message",
+      "bot_id": "B04329H97PC",
+      "username": "Ask Apple - widgetkit",
+      "reply_count": 9,
+      "latest_reply": "1666128719.436979",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "0n4",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0460BADXM3"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"how should declare a widget for lockscreen in our app that also supports iOS 15. In my WidgetConfiguration declaration, adding `.supportedFamilies([.systemSmall, .accessoryCircular, .accessoryInline])` gives error that it's only available in iOS 16. I haven't had much luck using `if #available` blocks\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "89396151-a7c7-40cc-83f0-9cf36f5834eb",
+          "type": "message",
+          "user": "U04560G11CG",
+          "text": "How have you tried the `#if available` checks? You should be able to do something like this:\n```if #available(iOS 16, *) {\n return [.systemSmall, .accessoryCircular]\n} else {\n return [.systemSmall]\n}```",
+          "ts": "1666128196.424919",
+          "thread_ts": "1666128167.312459",
+          "edited": {
+            "user": "U04560G11CG",
+            "ts": "1666128372.000000"
+          },
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U0449FVU5N2"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "d8TS",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "How have you tried the "
+                    },
+                    {
+                      "type": "text",
+                      "text": "#if available",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " checks? You should be able to do something like this:\n"
+                    }
+                  ]
+                },
+                {
+                  "Type": "rich_text_preformatted",
+                  "Raw": "{\"type\":\"rich_text_preformatted\",\"elements\":[{\"type\":\"text\",\"text\":\"if #available(iOS 16, *) {\\n return [.systemSmall, .accessoryCircular]\\n} else {\\n return [.systemSmall]\\n}\"}],\"border\":0}"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "8cd859b5-0ad8-4fc4-8730-3b227cb1abff",
+          "type": "message",
+          "user": "U046W3ACDC2",
+          "text": "should be the other way round?",
+          "ts": "1666128334.175809",
+          "thread_ts": "1666128167.312459",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ZFv=",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "should be the other way round?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "af568730-96e0-4b1f-8cb8-a69370a735e4",
+          "type": "message",
+          "user": "U04560G11CG",
+          "text": "Yes, good catch :slightly_smiling_face:",
+          "ts": "1666128352.347269",
+          "thread_ts": "1666128167.312459",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "JIcCJ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yes, good catch "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "64248ed3-faee-4288-841b-fc34da064a5a",
+          "type": "message",
+          "user": "U044G94NG90",
+          "text": "That was a test, well done :slightly_smiling_face:",
+          "ts": "1666128390.300049",
+          "thread_ts": "1666128167.312459",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "smile",
+              "count": 2,
+              "users": [
+                "U046W3ACDC2",
+                "U0464NE480L"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "DbkO",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "That was a test, well done "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "4c57bba2-80f7-4327-82b5-0362eed3efd0",
+          "type": "message",
+          "user": "U0460BADXM3",
+          "text": "i can't write `if #available...` block directly inside the `.supportedFamilies()` modifier. I could make it into an anonymous closure `.supportedFamilies({if available...}())`. I was wondering if there's a more elegant solution",
+          "ts": "1666128430.819989",
+          "thread_ts": "1666128167.312459",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "4ae",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "i can't write "
+                    },
+                    {
+                      "type": "text",
+                      "text": "if #available...",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " block directly inside the "
+                    },
+                    {
+                      "type": "text",
+                      "text": ".supportedFamilies()",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " modifier. I could make it into an anonymous closure "
+                    },
+                    {
+                      "type": "text",
+                      "text": ".supportedFamilies({if available...}())",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ". I was wondering if there's a more elegant solution"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "0ad2bede-1cdf-48f0-98cb-77b73c9b48ac",
+          "type": "message",
+          "user": "U044G94NG90",
+          "text": "I think that code is the correct way around...",
+          "ts": "1666128478.578569",
+          "thread_ts": "1666128167.312459",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "dLxn",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I think that code is the correct way around..."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "0ae1aa7c-f6a4-452d-86d4-25b11d3afd1a",
+          "type": "message",
+          "user": "U044G94NG90",
+          "text": "Edward... to your taste",
+          "ts": "1666128495.289229",
+          "thread_ts": "1666128167.312459",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "smiling_face_with_tear",
+              "count": 1,
+              "users": [
+                "U0460BADXM3"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "BN4",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Edward... to your taste"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "243cfe30-21b2-436b-b413-19ec3eb293c9",
+          "type": "message",
+          "user": "U04560G11CG",
+          "text": "In the Food Truck demo in the State of the Union session, I created a property on the surrounding struct and pass it to `.supportedFamilies()`. Up to you if you like that better than an immediately called closure :man-shrugging:",
+          "ts": "1666128622.192739",
+          "thread_ts": "1666128167.312459",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "eyes",
+              "count": 1,
+              "users": [
+                "U0460BADXM3"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "B3wn",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "In the Food Truck demo in the State of the Union session, I created a property on the surrounding struct and pass it to "
+                    },
+                    {
+                      "type": "text",
+                      "text": ".supportedFamilies()",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ". Up to you if you like that better than an immediately called closure "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "man-shrugging",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "31d01847-c6c1-43ec-8879-30dedb2ac9e8",
+          "type": "message",
+          "user": "U0460BADXM3",
+          "text": "i see. will take a look! thank you :blush:",
+          "ts": "1666128719.436979",
+          "thread_ts": "1666128167.312459",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U04560G11CG"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "9wZk5",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "i see. will take a look! thank you "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "blush",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046JKUCH7Y\u003e asked\n\u0026gt; Hi, my app contains a Music now playing widget, is there any way to update widget after receiving MPMusicPlayerControllerNowPlayingItemDidChange notification?",
+      "ts": "1666128208.213169",
+      "thread_ts": "1666128208.213169",
+      "subtype": "bot_message",
+      "bot_id": "B04329H97PC",
+      "username": "Ask Apple - widgetkit",
+      "reply_count": 1,
+      "latest_reply": "1666128325.697829",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "JKKF4",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046JKUCH7Y"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Hi, my app contains a Music now playing widget, is there any way to update widget after receiving MPMusicPlayerControllerNowPlayingItemDidChange notification?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "48479bbc-2e40-464b-9c8e-aa72855a960a",
+          "type": "message",
+          "user": "U04560G11CG",
+          "text": "Yes, you can call a reload on `WidgetCenter` to get an update.",
+          "ts": "1666128325.697829",
+          "thread_ts": "1666128208.213169",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "YaYt",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yes, you can call a reload on "
+                    },
+                    {
+                      "type": "text",
+                      "text": "WidgetCenter",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " to get an update."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U045ZU7J8AJ\u003e asked\n\u0026gt; I have a watchOS complication that was in development when WidgetKit for watchOS was announced at WWDC2022.  The complication polls a web service to display data about every 20 minutes.  I struggled to get background URLSession to work (especially in the simulator), so I ended up scheduling Background App Refresh, and creating a URLSession when the BAR task fires.\n\u0026gt; \n\u0026gt; My question is what is the recommended approach with watchOS 9 and WidgetKit?  Are they examples to follow?",
+      "ts": "1666128212.821289",
+      "thread_ts": "1666128212.821289",
+      "subtype": "bot_message",
+      "bot_id": "B04329H97PC",
+      "username": "Ask Apple - widgetkit",
+      "reply_count": 2,
+      "latest_reply": "1666128570.071959",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "zrd",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U045ZU7J8AJ"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"I have a watchOS complication that was in development when WidgetKit for watchOS was announced at WWDC2022.  The complication polls a web service to display data about every 20 minutes.  I struggled to get background URLSession to work (especially in the simulator), so I ended up scheduling Background App Refresh, and creating a URLSession when the BAR task fires.\\n\\nMy question is what is the recommended approach with watchOS 9 and WidgetKit?  Are they examples to follow?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "ce65f53a-06ef-421c-a0c6-d0df08b33358",
+          "type": "message",
+          "user": "U044G2H5KEX",
+          "text": "If you create a url session with a \u003chttps://developer.apple.com/documentation/foundation/url_loading_system/downloading_files_in_the_background?language=objc|background configuration\u003e, you can have your widget extension \u003chttps://developer.apple.com/documentation/swiftui/widgetconfiguration/onbackgroundurlsessionevents(matching:_:)-2e152|register to be launched\u003e when background url sessions matching your given identifier are completed. At that point when your widget extension has been launched you can then register a delegate with the url session to read out the background-downloaded data.",
+          "ts": "1666128291.858549",
+          "thread_ts": "1666128212.821289",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ZUNx",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "If you create a url session with a "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/foundation/url_loading_system/downloading_files_in_the_background?language=objc",
+                      "text": "background configuration"
+                    },
+                    {
+                      "type": "text",
+                      "text": ", you can have your widget extension "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/swiftui/widgetconfiguration/onbackgroundurlsessionevents(matching:_:)-2e152",
+                      "text": "register to be launched"
+                    },
+                    {
+                      "type": "text",
+                      "text": " when background url sessions matching your given identifier are completed. At that point when your widget extension has been launched you can then register a delegate with the url session to read out the background-downloaded data."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "a2e0545d-4577-4be7-8f54-04ffc8d19356",
+          "type": "message",
+          "user": "U0449FVU5N2",
+          "text": "Alternatively, and perhaps more simply, use a `.afterDate` timeline reload policy for your WidgetKit widget with a date of 20 minutes from now.  The system will reload your widget around that time as possible.",
+          "ts": "1666128570.071959",
+          "thread_ts": "1666128212.821289",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "TXJdD",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Alternatively, and perhaps more simply, use a "
+                    },
+                    {
+                      "type": "text",
+                      "text": ".afterDate",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " timeline reload policy for your WidgetKit widget with a date of 20 minutes from now.  The system will reload your widget around that time as possible."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0463CQPBC2\u003e asked\n\u0026gt; Is there a way to migrate a complication widget with a StaticConfiguration to one that uses IntentConfiguration? The use case is upgrading an existing complication to one with additional recommendations (configurations).",
+      "ts": "1666128984.646939",
+      "thread_ts": "1666128984.646939",
+      "subtype": "bot_message",
+      "bot_id": "B04329H97PC",
+      "username": "Ask Apple - widgetkit",
+      "reply_count": 1,
+      "latest_reply": "1666129001.279549",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "yeRe",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0463CQPBC2"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Is there a way to migrate a complication widget with a StaticConfiguration to one that uses IntentConfiguration? The use case is upgrading an existing complication to one with additional recommendations (configurations).\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "b57cbf89-30d5-4d80-ba8f-5a71858ad6c3",
+          "type": "message",
+          "user": "U04560G11CG",
+          "text": "This is a great use case! But, no, there's no way to do that currently.",
+          "ts": "1666129001.279549",
+          "thread_ts": "1666128984.646939",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "21BNA",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "This is a great use case! But, no, there's no way to do that currently."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046S46MMLG\u003e asked\n\u0026gt; What's the best way to keep an iOS widget up to date with data that changes periodically on the server? For instance a bank account balance?\n\u0026gt; \n\u0026gt; We currently send a background push and attempt to reload the timeline when it's received, but I've heard that approach is unlikely to work well.",
+      "ts": "1666129378.990369",
+      "thread_ts": "1666129378.990369",
+      "subtype": "bot_message",
+      "bot_id": "B04329H97PC",
+      "username": "Ask Apple - widgetkit",
+      "reply_count": 2,
+      "latest_reply": "1666129661.500249",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "g353j",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046S46MMLG"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"What's the best way to keep an iOS widget up to date with data that changes periodically on the server? For instance a bank account balance?\\n\\nWe currently send a background push and attempt to reload the timeline when it's received, but I've heard that approach is unlikely to work well.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "13b0a059-9cc2-43ad-b70d-f6c93b31e9ad",
+          "type": "message",
+          "user": "U0449FVU5N2",
+          "text": "Certainly asking `WidgetCenter` for a reload from a notification is one way.  However, note that this will still ask for an opportunistic update when the system finds a good time to update your widget.  Your request may be honored right away, or it may be honored slightly later.\n\nIn general, a set periodic update is a good policy here - to update at a regular interval throughout the day.  Something like a timeline reload policy of:  `.afterDate` for a specific interval (15-20 minutes?)",
+          "ts": "1666129500.970209",
+          "thread_ts": "1666129378.990369",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "raised_hands",
+              "count": 2,
+              "users": [
+                "U046S46MMLG",
+                "U044G94NG90"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "/odj",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Certainly asking "
+                    },
+                    {
+                      "type": "text",
+                      "text": "WidgetCenter",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " for a reload from a notification is one way.  However, note that this will still ask for an opportunistic update when the system finds a good time to update your widget.  Your request may be honored right away, or it may be honored slightly later.\n\nIn general, a set periodic update is a good policy here - to update at a regular interval throughout the day.  Something like a timeline reload policy of:  "
+                    },
+                    {
+                      "type": "text",
+                      "text": ".afterDate",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " for a specific interval (15-20 minutes?)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "b922b15b-9e10-4716-ae95-69a3617601ae",
+          "type": "message",
+          "user": "U046S46MMLG",
+          "text": "Thanks \u003c@U0449FVU5N2\u003e!",
+          "ts": "1666129661.500249",
+          "thread_ts": "1666129378.990369",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "tMeZG",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U0449FVU5N2"
+                    },
+                    {
+                      "type": "text",
+                      "text": "!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0464REQQCU\u003e asked\n\u0026gt; What are ways to debug hitting WidgetKit's memory limits of 30 MB?",
+      "ts": "1666129501.317439",
+      "thread_ts": "1666129501.317439",
+      "subtype": "bot_message",
+      "bot_id": "B04329H97PC",
+      "username": "Ask Apple - widgetkit",
+      "reply_count": 3,
+      "latest_reply": "1666129814.735629",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "dmzH",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0464REQQCU"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"What are ways to debug hitting WidgetKit's memory limits of 30 MB?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "bd510c4d-e6d8-4c7b-b991-2c3d5d1d77b6",
+          "type": "message",
+          "user": "U0441N3976K",
+          "text": "You can use Xcode's visual memory debugger if you attach to your Widget by running it in Xcode",
+          "ts": "1666129506.757889",
+          "thread_ts": "1666129501.317439",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "=YUG",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "You can use Xcode's visual memory debugger if you attach to your Widget by running it in Xcode"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "d37ffe01-0af0-4207-a4f2-9027ed65982b",
+          "type": "message",
+          "user": "U044G94NG90",
+          "text": "Do you have large images? It's easy to exceed the limits that way.",
+          "ts": "1666129676.757999",
+          "thread_ts": "1666129501.317439",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "gF4hT",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Do you have large images? It's easy to exceed the limits that way."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "6ade1c57-85c8-4e2a-bef0-e8c3316eab9a",
+          "type": "message",
+          "user": "U0449FVU5N2",
+          "text": "Yes, we recommend making sure any images are sized appropriately for the widget bounds.",
+          "ts": "1666129814.735629",
+          "thread_ts": "1666129501.317439",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "w6LCM",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yes, we recommend making sure any images are sized appropriately for the widget bounds."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U045ZUY8JHK\u003e asked\n\u0026gt; I believe that the timeline reload quota doesn’t apply to reloads which happen while the app is in the foreground. Is the same true if it is called in applicationWillTerminate? Or is there another reliable way to update widget state when the app is killed?\n\u0026gt; \n\u0026gt; Our use case is a widget which shows current recording state for a voice memos like app. (Yes this would be great for live activities! But we’ve had it since iOS 14 and people seem to like the current placement. So I’m hoping to keep this and add live activities). Normally everything works well, but if you kill the app while a recording is going, the state might not refresh and it looks like the app is still recording.",
+      "ts": "1666129551.733419",
+      "thread_ts": "1666129551.733419",
+      "subtype": "bot_message",
+      "bot_id": "B04329H97PC",
+      "username": "Ask Apple - widgetkit",
+      "reply_count": 3,
+      "latest_reply": "1666130338.718399",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "TcteX",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U045ZUY8JHK"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"I believe that the timeline reload quota doesn\\u2019t apply to reloads which happen while the app is in the foreground. Is the same true if it is called in applicationWillTerminate? Or is there another reliable way to update widget state when the app is killed?\\n\\nOur use case is a widget which shows current recording state for a voice memos like app. (Yes this would be great for live activities! But we\\u2019ve had it since iOS 14 and people seem to like the current placement. So I\\u2019m hoping to keep this and add live activities). Normally everything works well, but if you kill the app while a recording is going, the state might not refresh and it looks like the app is still recording.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "65dba20d-6e82-409c-a50f-741c9cd3876e",
+          "type": "message",
+          "user": "U0449FVU5N2",
+          "text": "Calling reload from `applicationWillTerminate` can work if your app is foreground at the point the user was terminating it.\n\nHowever, it won't work if the app was backgrounded and not currently foreground at the point of termination (ie. the system terminates it for memory reclaimation, or the user terminates it from the App Switcher).",
+          "ts": "1666129782.219949",
+          "thread_ts": "1666129551.733419",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "qGu",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Calling reload from "
+                    },
+                    {
+                      "type": "text",
+                      "text": "applicationWillTerminate",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " can work if your app is foreground at the point the user was terminating it.\n\nHowever, it won't work if the app was backgrounded and not currently foreground at the point of termination (ie. the system terminates it for memory reclaimation, or the user terminates it from the App Switcher)."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "6D0DB284-9687-4D8D-A067-641DBBC7070A",
+          "type": "message",
+          "user": "U045ZUY8JHK",
+          "text": "Ah, that explains it. Is there no way to reliably do an update when the app is terminated?",
+          "ts": "1666130263.769999",
+          "thread_ts": "1666129551.733419",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "heart",
+              "count": 1,
+              "users": [
+                "U046JKUCH7Y"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Y/OBE",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Ah, that explains it. Is there no way to reliably do an update when the app is terminated"
+                    },
+                    {
+                      "type": "text",
+                      "text": "?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "f3dbb14c-68fb-470b-b7ff-0865c2f5533e",
+          "type": "message",
+          "user": "U0449FVU5N2",
+          "text": "Not for an immediate update - no.  You can request an update certainly, but it'll be scheduled as an opportunistic update.",
+          "ts": "1666130338.718399",
+          "thread_ts": "1666129551.733419",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "heart",
+              "count": 1,
+              "users": [
+                "U045ZUY8JHK"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "PP1j",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Not for an immediate update - no.  You can request an update certainly, but it'll be scheduled as an opportunistic update."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "6f814723-2daf-462c-9483-54847e682481",
+      "type": "message",
+      "user": "U0441N3976K",
+      "text": "Thank you all for you questions, we really enjoyed chatting with you all today! We'll be back at 10:00am PT on Thursday for a general WidgetKit Q\u0026amp;A Session! See you then! :tada:",
+      "ts": "1666130514.813209",
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "raised_hands",
+          "count": 5,
+          "users": [
+            "U04560G11CG",
+            "U0460BADXM3",
+            "U0463PJJB34",
+            "U045NK12MRP",
+            "U046W09K7LG"
+          ]
+        },
+        {
+          "name": "raised_hands::skin-tone-2",
+          "count": 1,
+          "users": [
+            "U0441J2N9FH"
+          ]
+        },
+        {
+          "name": "white_check_mark",
+          "count": 2,
+          "users": [
+            "U046YA4LP1A",
+            "U046W09K7LG"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "5T5=n",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Thank you all for you questions, we really enjoyed chatting with you all today! We'll be back at 10:00am PT on Thursday for a general WidgetKit Q\u0026A Session! See you then! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "tada",
+                  "skin_tone": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "16a9a39a-b8f8-4571-96ec-10a351c0ee72",
+      "type": "message",
+      "user": "U0441N3976K",
+      "text": "Hello again, and welcome back \u003c!here\u003e! We're kicking off our general WidgetKit Q\u0026amp;A right now!\n\nHave any walls that you're running up against? We'd be happy to hear about your use case! To increase the visibility of your question, please avoid asking about future plans!\n\nTo submit a question, hit the :heavy_plus_sign:  at the bottom left of the text box, and select the \"Ask A Question\" workflow! Let's get started :tada:",
+      "ts": "1666285260.435129",
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "partying_face",
+          "count": 3,
+          "users": [
+            "U03V30M0C1K",
+            "U0476A9RTNZ",
+            "U04560G11CG"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "OSFd",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hello again, and welcome back "
+                },
+                {
+                  "type": "broadcast",
+                  "range": "here"
+                },
+                {
+                  "type": "text",
+                  "text": "! We're kicking off our general WidgetKit Q\u0026A right now!\n\nHave any walls that you're running up against? We'd be happy to hear about your use case! To increase the visibility of your question, please avoid asking about future plans!\n\nTo submit a question, hit the "
+                },
+                {
+                  "type": "emoji",
+                  "name": "heavy_plus_sign",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": "  at the bottom left of the text box, and select the \"Ask A Question\" workflow! Let's get started "
+                },
+                {
+                  "type": "emoji",
+                  "name": "tada",
+                  "skin_tone": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U045MM9KJ9M\u003e asked\n\u0026gt; We have a train riding use case where a count down timer must be display (eg 36min until changing trains). Is there a difference in using  SwiftUI.Texts Timer feature, providing just 2 timeline entries or using a custom solution which needs 36 timeline entries, each for one minute step. If so we will file a Feedback for improved Timer support in the SwiftUI.Text",
+      "ts": "1666285396.616729",
+      "thread_ts": "1666285396.616729",
+      "subtype": "bot_message",
+      "bot_id": "B04329H97PC",
+      "username": "Ask Apple - widgetkit",
+      "reply_count": 3,
+      "latest_reply": "1666285823.906039",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "CSWu",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U045MM9KJ9M"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"We have a train riding use case where a count down timer must be display (eg 36min until changing trains). Is there a difference in using  SwiftUI.Texts Timer feature, providing just 2 timeline entries or using a custom solution which needs 36 timeline entries, each for one minute step. If so we will file a Feedback for improved Timer support in the SwiftUI.Text\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "884c3635-c146-4b62-958f-73f351a1e644",
+          "type": "message",
+          "user": "U0441N3976K",
+          "text": "With more timeline entries, you might run up against SwiftUI archive size limits faster if your widgets have dense content. If possible, try to stick with the timer Text styles! If there's not one that fits your needs, please file a feedback :slightly_smiling_face:",
+          "ts": "1666285491.286939",
+          "thread_ts": "1666285396.616729",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "3i3z5",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "With more timeline entries, you might run up against SwiftUI archive size limits faster if your widgets have dense content. If possible, try to stick with the timer Text styles! If there's not one that fits your needs, please file a feedback "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "C8F667A4-99BC-45D1-8415-3B6125178727",
+          "type": "message",
+          "user": "U04635ASQAW",
+          "text": "\u003c@U0441N3976K\u003e following up on what you said about archive size limits, is there documentation (or guidance) on what those limits are?",
+          "ts": "1666285771.433669",
+          "thread_ts": "1666285396.616729",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ONie",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U0441N3976K"
+                    },
+                    {
+                      "type": "text",
+                      "text": " following up on what you said about archive size limits"
+                    },
+                    {
+                      "type": "text",
+                      "text": ","
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "text",
+                      "text": "i"
+                    },
+                    {
+                      "type": "text",
+                      "text": "s there documentation (or guidance) on "
+                    },
+                    {
+                      "type": "text",
+                      "text": "w"
+                    },
+                    {
+                      "type": "text",
+                      "text": "hat those limits are?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "d2102072-40d7-49a7-880c-783aec687268",
+          "type": "message",
+          "user": "U047JR6V6AC",
+          "text": "Seconding this question as I would love to know more about the archive limits as well.",
+          "ts": "1666285823.906039",
+          "thread_ts": "1666285396.616729",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "+xKL",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Seconding this question as I would love to know more about the archive limits as well."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0463QBCF7V\u003e asked\n\u0026gt; What's the minumum refreshing rate of Apple Widgets? How many daily refreshes do App widgets allow?",
+      "ts": "1666285663.492549",
+      "thread_ts": "1666285663.492549",
+      "subtype": "bot_message",
+      "bot_id": "B04329H97PC",
+      "username": "Ask Apple - widgetkit",
+      "reply_count": 3,
+      "latest_reply": "1666287640.029029",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "4Qg",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0463QBCF7V"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"What's the minumum refreshing rate of Apple Widgets? How many daily refreshes do App widgets allow?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "3ac2c75a-903a-4c51-8358-2e0dd5dbd43d",
+          "type": "message",
+          "user": "U044G94NG90",
+          "text": "\u003chttps://developer.apple.com/documentation/widgetkit/keeping-a-widget-up-to-date|Documentation can be found\u003e which talks about 40–70 refreshes per day, typically. It can vary depending on how often your widget is seen and levels of interaction",
+          "ts": "1666285752.223539",
+          "thread_ts": "1666285663.492549",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "gvcQh",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/widgetkit/keeping-a-widget-up-to-date",
+                      "text": "Documentation can be found"
+                    },
+                    {
+                      "type": "text",
+                      "text": " which talks about 40–70 refreshes per day, typically. It can vary depending on how often your widget is seen and levels of interaction"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "a07c76b9-7dc8-44cd-adfd-e675abe3f5f9",
+          "type": "message",
+          "user": "U0474L7KBDJ",
+          "text": "If we call `WidgetCenter.reloadAllTimelines()` frequently, will the OS automatically throttle that to a reasonable pace? Or do we need to be careful about how often we call that?",
+          "ts": "1666286399.946789",
+          "thread_ts": "1666285663.492549",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "u8bgj",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "If we call "
+                    },
+                    {
+                      "type": "text",
+                      "text": "WidgetCenter.reloadAllTimelines()",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " frequently, will the OS automatically throttle that to a reasonable pace? Or do we need to be careful about how often we call that?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "95b88926-839f-4892-bb0b-b615ce7084f8",
+          "type": "message",
+          "user": "U044G94NG90",
+          "text": "There is throttling, but be aware of your user's power usage and call it only when needed",
+          "ts": "1666287640.029029",
+          "thread_ts": "1666285663.492549",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U0474L7KBDJ"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "18A6",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "There is throttling, but be aware of your user's power usage and call it only when needed"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U047JR6V6AC\u003e asked\n\u0026gt; What are the size limits for passing UIImages to Widgets in a TimelineEntry? I am aware of the 30 MB memory limit, but we've hit some errors recently that weren't previously there. I have solved them for now by resizing the images on the fly, but I am guessing at the proper dimensions. Is there a place in the docs where the max resolution is mentioned? Thanks!",
+      "ts": "1666285895.360979",
+      "thread_ts": "1666285895.360979",
+      "subtype": "bot_message",
+      "bot_id": "B04329H97PC",
+      "username": "Ask Apple - widgetkit",
+      "reply_count": 8,
+      "latest_reply": "1666288057.868909",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "f+x",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U047JR6V6AC"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"What are the size limits for passing UIImages to Widgets in a TimelineEntry? I am aware of the 30 MB memory limit, but we've hit some errors recently that weren't previously there. I have solved them for now by resizing the images on the fly, but I am guessing at the proper dimensions. Is there a place in the docs where the max resolution is mentioned? Thanks!\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "a844030c-c64c-4b8b-a6e7-b276a328dd8e",
+          "type": "message",
+          "user": "U044G94NG90",
+          "text": "There is a width,height limit on images, which is only slightly larger than the size of the widget. This helps ensure reliability by avoiding memory limits when rendering widgets",
+          "ts": "1666285988.358169",
+          "thread_ts": "1666285895.360979",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Kwn",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "There is a width,height limit on images, which is only slightly larger than the size of the widget. This helps ensure reliability by avoiding memory limits when rendering widgets"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "f0828f9e-9daf-45f1-b081-b972efd09ea9",
+          "type": "message",
+          "user": "U047JR6V6AC",
+          "text": "Hi \u003c@U044G94NG90\u003e, thanks for your answer! Is there a way I can obtain what that value is at runtime?",
+          "ts": "1666286180.701489",
+          "thread_ts": "1666285895.360979",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "3W4Nm",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U044G94NG90"
+                    },
+                    {
+                      "type": "text",
+                      "text": ", thanks for your answer! Is there a way I can obtain what that value is at runtime?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "df24d6fb-5e65-486e-a909-fd0fc4681880",
+          "type": "message",
+          "user": "U0476A9RTNZ",
+          "text": "Or find documentation about it for later? :slightly_smiling_face:",
+          "ts": "1666286540.227889",
+          "thread_ts": "1666285895.360979",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "nwh",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Or find documentation about it for later? "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "8f052c78-ce00-4527-9242-e15159d91f9b",
+          "type": "message",
+          "user": "U044G94NG90",
+          "text": "GeometryReader?",
+          "ts": "1666286986.863439",
+          "thread_ts": "1666285895.360979",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "q49R",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "GeometryReader?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "f1d21520-245a-490e-a29c-01b0255edd39",
+          "type": "message",
+          "user": "U047JR6V6AC",
+          "text": "This wouldn't really help for creating an Image from a UIImage. I pass around UIImages because they can be decoded from data via URLSession APIs when creating the TimelineEntry. The images when rendered aren't larger than the widget, but their resolution might be when passing them in.",
+          "ts": "1666287242.143659",
+          "thread_ts": "1666285895.360979",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "WKa",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "This wouldn't really help for creating an Image from a UIImage. I pass around UIImages because they can be decoded from data via URLSession APIs when creating the TimelineEntry. The images when rendered aren't larger than the widget, but their resolution might be when passing them in."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "db51d1bc-ac38-4f91-987e-38b7b7e03470",
+          "type": "message",
+          "user": "U0449FVU5N2",
+          "text": "The size of the widget is available in the `TimelineProviderContext`.  See the `displaySize` property there.",
+          "ts": "1666287926.773689",
+          "thread_ts": "1666285895.360979",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "raised_hands",
+              "count": 2,
+              "users": [
+                "U0476A9RTNZ",
+                "U047JR6V6AC"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "XDYE",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "The size of the widget is available in the "
+                    },
+                    {
+                      "type": "text",
+                      "text": "TimelineProviderContext",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ".  See the "
+                    },
+                    {
+                      "type": "text",
+                      "text": "displaySize",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " property there."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "da760c4e-8ddb-4d7f-981c-f6cc3b376400",
+          "type": "message",
+          "user": "U047JR6V6AC",
+          "text": "Excellent, missed that, thank you!",
+          "ts": "1666287965.812319",
+          "thread_ts": "1666285895.360979",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "n+/",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Excellent, missed that, thank you!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "6f28ba85-f8f9-4cb9-bdcb-3c58cbb4da8e",
+          "type": "message",
+          "user": "U0449FVU5N2",
+          "text": "No problem!",
+          "ts": "1666288057.868909",
+          "thread_ts": "1666285895.360979",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "q3WMi",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "No problem!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046SQCEPJ4\u003e asked\n\u0026gt; I'm wondering, is it possible to track when a user sees my widget (for analytics)? Something like viewDidLoad, but for widgets. Or maybe are there indirect solutions to find out how many times the widget has been shown to the user?",
+      "ts": "1666286015.975369",
+      "thread_ts": "1666286015.975369",
+      "subtype": "bot_message",
+      "bot_id": "B04329H97PC",
+      "username": "Ask Apple - widgetkit",
+      "reply_count": 1,
+      "latest_reply": "1666286128.431969",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "q=X",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046SQCEPJ4"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"I'm wondering, is it possible to track when a user sees my widget (for analytics)? Something like viewDidLoad, but for widgets. Or maybe are there indirect solutions to find out how many times the widget has been shown to the user?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "8fa0a893-b561-47be-962b-2c73ff9e941f",
+          "type": "message",
+          "user": "U04560G4CGY",
+          "text": "It may not be possible to track exactly hen a user sees the widget, but `WidgetKit.getCurrentConfigurations(_:)` \u003chttps://developer.apple.com/documentation/widgetkit/widgetcenter/getcurrentconfigurations(_:)|method\u003e will allow you to retrieve information about user-configured widgets.",
+          "ts": "1666286128.431969",
+          "thread_ts": "1666286015.975369",
+          "edited": {
+            "user": "U04560G4CGY",
+            "ts": "1666286135.000000"
+          },
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "=0l9V",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "It may not be possible to track exactly hen a user sees the widget, but "
+                    },
+                    {
+                      "type": "text",
+                      "text": "WidgetKit.getCurrentConfigurations(_:)",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/widgetkit/widgetcenter/getcurrentconfigurations(_:)",
+                      "text": "method"
+                    },
+                    {
+                      "type": "text",
+                      "text": " will allow you to retrieve information about user-configured widgets."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U04635ASQAW\u003e asked\n\u0026gt; Sometimes during the transition from low luminance to regular state, my Lock Screen widgets and Watch complications look like they’re completely redrawing (sometimes with a flash) instead of just brightening up.\n\u0026gt; \n\u0026gt; Is there something I can do to prevent this?",
+      "ts": "1666286035.903849",
+      "thread_ts": "1666286035.903849",
+      "subtype": "bot_message",
+      "bot_id": "B04329H97PC",
+      "username": "Ask Apple - widgetkit",
+      "reply_count": 7,
+      "latest_reply": "1666286805.673189",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "zvJM",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U04635ASQAW"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Sometimes during the transition from low luminance to regular state, my Lock Screen widgets and Watch complications look like they\\u2019re completely redrawing (sometimes with a flash) instead of just brightening up.\\n\\nIs there something I can do to prevent this?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "ccb0c5ad-ae6c-455e-aff0-bf68417adae8",
+          "type": "message",
+          "user": "U0441N3976K",
+          "text": "When transitioning between low luminance and live entries, the system is responsible for the animation between the entries. If you're seeing something off with the animation, please file a feedback with a video if possible!",
+          "ts": "1666286047.242139",
+          "thread_ts": "1666286035.903849",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Qi9",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "When transitioning between low luminance and live entries, the system is responsible for the animation between the entries. If you're seeing something off with the animation, please file a feedback with a video if possible!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "12AF619E-2CF1-4849-8E96-2E2C78C7835C",
+          "type": "message",
+          "user": "U04635ASQAW",
+          "text": "Will do! Thanks \u003c@U0441N3976K\u003e ",
+          "ts": "1666286077.345329",
+          "thread_ts": "1666286035.903849",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "5D22s",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Will do! Thanks "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U0441N3976K"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "3C2ADFD3-35B4-432E-B193-CC884752BDB7",
+          "type": "message",
+          "user": "U04635ASQAW",
+          "text": "Just for reference in this conversation, the glitch is in the upper left corner complication here:",
+          "ts": "1666286094.929049",
+          "thread_ts": "1666286035.903849",
+          "edited": {
+            "user": "U04635ASQAW",
+            "ts": "1666286164.000000"
+          },
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "de92l",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Just for reference in this conversation, the glitch is in the upper left corner complication here:"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "BFCF91FB-4C04-4270-B51F-6602C5688848",
+          "type": "message",
+          "user": "U04635ASQAW",
+          "ts": "1666286105.256479",
+          "thread_ts": "1666286035.903849",
+          "files": [
+            {
+              "id": "F047TD2ABQ9",
+              "created": 1666286099,
+              "timestamp": 1666286099,
+              "name": "IMG_5109.mov",
+              "title": "IMG_5109",
+              "mimetype": "video/mp4",
+              "image_exif_rotation": 0,
+              "filetype": "mp4",
+              "pretty_type": "MPEG 4 Video",
+              "user": "U04635ASQAW",
+              "mode": "hosted",
+              "editable": false,
+              "is_external": false,
+              "external_type": "",
+              "size": 1257244,
+              "url": "",
+              "url_download": "",
+              "url_private": "C043CJ54LDP/F047TD2ABQ9-IMG_5109.mov",
+              "url_private_download": "C043CJ54LDP/F047TD2ABQ9-IMG_5109.mov",
+              "original_h": 0,
+              "original_w": 0,
+              "thumb_64": "",
+              "thumb_80": "",
+              "thumb_160": "",
+              "thumb_360": "",
+              "thumb_360_gif": "",
+              "thumb_360_w": 0,
+              "thumb_360_h": 0,
+              "thumb_480": "",
+              "thumb_480_w": 0,
+              "thumb_480_h": 0,
+              "thumb_720": "",
+              "thumb_720_w": 0,
+              "thumb_720_h": 0,
+              "thumb_960": "",
+              "thumb_960_w": 0,
+              "thumb_960_h": 0,
+              "thumb_1024": "",
+              "thumb_1024_w": 0,
+              "thumb_1024_h": 0,
+              "permalink": "https://appleevents.enterprise.slack.com/files/U04635ASQAW/F047TD2ABQ9/img_5109.mov",
+              "permalink_public": "https://slack-files.com/T01PTBJ95PS-F047TD2ABQ9-358d441a26",
+              "edit_link": "",
+              "preview": "",
+              "preview_highlight": "",
+              "lines": 0,
+              "lines_more": 0,
+              "is_public": false,
+              "public_url_shared": false,
+              "channels": null,
+              "groups": null,
+              "ims": null,
+              "initial_comment": {},
+              "comments_count": 0,
+              "num_stars": 0,
+              "is_starred": false,
+              "shares": {
+                "public": null,
+                "private": null
+              }
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": null
+        },
+        {
+          "client_msg_id": "9B2658F0-18A3-42BF-9F51-5E60408F6300",
+          "type": "message",
+          "user": "U04635ASQAW",
+          "text": "FB11707905 — no sample project yet, as I’m AFK",
+          "ts": "1666286571.049189",
+          "thread_ts": "1666286035.903849",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Y9wsl",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "FB11707905 "
+                    },
+                    {
+                      "type": "text",
+                      "text": "—"
+                    },
+                    {
+                      "type": "text",
+                      "text": " no sample project yet, as "
+                    },
+                    {
+                      "type": "text",
+                      "text": "I’m"
+                    },
+                    {
+                      "type": "text",
+                      "text": " AFK"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "600436b4-4b4b-4a55-a5ed-5eace259011b",
+          "type": "message",
+          "user": "U0441N3976K",
+          "text": "Awesome, we'll take a look. Do you see similar behavior on the lock screen?",
+          "ts": "1666286670.075349",
+          "thread_ts": "1666286035.903849",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "7i4Cu",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Awesome, we'll take a look. Do you see similar behavior on the lock screen?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "F15D8123-02B4-4B7F-89F0-B111A407D181",
+          "type": "message",
+          "user": "U04635ASQAW",
+          "text": "Yes, though not as dramatic as a disappearing symbol.\n\nI have a widget with stacked text — primary and secondary foreground style respectively — and the secondary text gets very bright during the transition.\n\nI’ll shoot a video and attach to the same ticket when I have a second device nearby. ",
+          "ts": "1666286805.673189",
+          "thread_ts": "1666286035.903849",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "rUr",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yes, "
+                    },
+                    {
+                      "type": "text",
+                      "text": "t"
+                    },
+                    {
+                      "type": "text",
+                      "text": "hough not as dramatic as a disappearing symbol"
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nI have a widget with stacked text "
+                    },
+                    {
+                      "type": "text",
+                      "text": "—"
+                    },
+                    {
+                      "type": "text",
+                      "text": " primary and secondary "
+                    },
+                    {
+                      "type": "text",
+                      "text": "f"
+                    },
+                    {
+                      "type": "text",
+                      "text": "oreground style respectively "
+                    },
+                    {
+                      "type": "text",
+                      "text": "—"
+                    },
+                    {
+                      "type": "text",
+                      "text": " and the secondary text gets very bright during the transition"
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\n"
+                    },
+                    {
+                      "type": "text",
+                      "text": "I’ll"
+                    },
+                    {
+                      "type": "text",
+                      "text": " shoot a video and attach to the same ticket when I have a second device nearby"
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U045PS142VD\u003e asked\n\u0026gt; We noticed that WidgetKit complications stop updating overnight when the watch is locked and on the charger. Is there a way to trigger a timeline update as soon as the watch is unlocked in the morning?\n\u0026gt; \n\u0026gt; Thanks, everyone, for putting this together. The Ask Apple sessions have all been excellent :blush:",
+      "ts": "1666286557.565469",
+      "thread_ts": "1666286557.565469",
+      "subtype": "bot_message",
+      "bot_id": "B04329H97PC",
+      "username": "Ask Apple - widgetkit",
+      "reply_count": 8,
+      "latest_reply": "1666287195.028709",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "GHQ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U045PS142VD"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"We noticed that WidgetKit complications stop updating overnight when the watch is locked and on the charger. Is there a way to trigger a timeline update as soon as the watch is unlocked in the morning?\\n\\nThanks, everyone, for putting this together. The Ask Apple sessions have all been excellent \"},{\"type\":\"emoji\",\"name\":\"blush\",\"unicode\":\"1f60a\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "995b8b11-05a9-4b5d-a30e-fec7b34a34fe",
+          "type": "message",
+          "user": "U0441N3976K",
+          "text": "This sounds unintended. Please capture a sysdiagnose and file a feedback about not receiving reloads overnight, we'd be happy to take a look!",
+          "ts": "1666286568.155879",
+          "thread_ts": "1666286557.565469",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "r50P",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "This sounds unintended. Please capture a sysdiagnose and file a feedback about not receiving reloads overnight, we'd be happy to take a look!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "4fbed529-e981-422e-8c5e-7d46aaac4edb",
+          "type": "message",
+          "user": "U0476A9RTNZ",
+          "text": "\u003c@U045PS142VD\u003e I’ve noticed the same thing on iOS as well",
+          "ts": "1666286653.712159",
+          "thread_ts": "1666286557.565469",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "YJzQ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U045PS142VD"
+                    },
+                    {
+                      "type": "text",
+                      "text": " I’ve noticed the same thing on iOS as well"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "097d2928-b8f7-41ec-b25c-3df61064d9a7",
+          "type": "message",
+          "user": "U044G94NG90",
+          "text": "Please send a sysdiagnose!",
+          "ts": "1666286759.100159",
+          "thread_ts": "1666286557.565469",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "raised_hands",
+              "count": 1,
+              "users": [
+                "U0476A9RTNZ"
+              ]
+            },
+            {
+              "name": "white_check_mark",
+              "count": 1,
+              "users": [
+                "U0476A9RTNZ"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "K0YO",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Please send a sysdiagnose!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "2ebfa34c-07f2-4525-964f-5d289f43ca68",
+          "type": "message",
+          "user": "U044G94NG90",
+          "text": "You're talking about your extension not getting called for an updated timeline, or the widget's view not updating according to the existing timeline?",
+          "ts": "1666286834.720519",
+          "thread_ts": "1666286557.565469",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "D=Yh",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "You're talking about your extension not getting called for an updated timeline, or the widget's view not updating according to the existing timeline?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "9a8114ae-917d-4aef-b157-b17c2c61aca1",
+          "type": "message",
+          "user": "U044G94NG90",
+          "text": "Do you have the default data protection for your extension, or did you change it?",
+          "ts": "1666286940.898119",
+          "thread_ts": "1666286557.565469",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "DD8B",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Do you have the default data protection for your extension, or did you change it?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "750373ae-36ab-4a61-be1a-5a6208f38426",
+          "type": "message",
+          "user": "U0476A9RTNZ",
+          "text": "\u003c@U044G94NG90\u003e In my case it stopped getting called for extending the timeline, always around midnight.\n\u0026gt; Do you have the default data protection for your extension, or did you change it?\nno data protection",
+          "ts": "1666286988.043689",
+          "thread_ts": "1666286557.565469",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "tuhPt",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U044G94NG90"
+                    },
+                    {
+                      "type": "text",
+                      "text": " In my case it stopped getting called for extending the timeline, always around midnight.\n"
+                    }
+                  ]
+                },
+                {
+                  "Type": "rich_text_quote",
+                  "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Do you have the default data protection for your extension, or did you change it?\"}]}"
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "no data protection"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "7f0d9045-5d2f-4c47-aeec-9d4e9595f1c5",
+          "type": "message",
+          "user": "U044G94NG90",
+          "text": "OK – thanks. sysdiagnoses please!",
+          "ts": "1666287147.280669",
+          "thread_ts": "1666286557.565469",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U0476A9RTNZ"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "xp8",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "OK – thanks. sysdiagnoses please!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "00140684-6A78-41CB-870E-94A5CF9CC8D2",
+          "type": "message",
+          "user": "U045PS142VD",
+          "text": "For us it only happens on watchOS. Same code keeps updating the timeline throughout the night on iOS. Also default data protection. I’ll also file feedback :+1:",
+          "ts": "1666287195.028709",
+          "thread_ts": "1666286557.565469",
+          "edited": {
+            "user": "U045PS142VD",
+            "ts": "1666287376.000000"
+          },
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "uDF",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "For us it only happens on watchOS. Same code keeps updating the timeline throughout the night on iOS. Also default data protection. I’ll also file feedback "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "+1",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046NK3MB7Y\u003e asked\n\u0026gt; If using Text(date, style: .timer) in iOS Lock Screen widgets and watchOS complications, when the device moves to always-on state, the text switches from a duration format (“4:08:15”) to a written-out format (“4 hours, 8 minutes”). This isn’t ideal for a small circular widget space. Is this expected behavior or a bug?\n\u0026gt; \n\u0026gt; If using Text(timerInterval:), the text hides the seconds (“23:42” becomes “23:--”), so I’ve switched to this instead. But I wondered if that’s the expected date-timer behavior or not and thus if we should avoid using it in always-on contexts. Thanks!",
+      "ts": "1666286619.746469",
+      "thread_ts": "1666286619.746469",
+      "subtype": "bot_message",
+      "bot_id": "B04329H97PC",
+      "username": "Ask Apple - widgetkit",
+      "reply_count": 3,
+      "latest_reply": "1666287162.674899",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ulVo",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046NK3MB7Y"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"If using Text(date, style: .timer) in iOS Lock Screen widgets and watchOS complications, when the device moves to always-on state, the text switches from a duration format (\\u201c4\"},{\"type\":\"emoji\",\"name\":\"08\"},{\"type\":\"text\",\"text\":\"15\\u201d) to a written-out format (\\u201c4 hours, 8 minutes\\u201d). This isn\\u2019t ideal for a small circular widget space. Is this expected behavior or a bug?\\n\\nIf using Text(timerInterval:), the text hides the seconds (\\u201c23:42\\u201d becomes \\u201c23:--\\u201d), so I\\u2019ve switched to this instead. But I wondered if that\\u2019s the expected date-timer behavior or not and thus if we should avoid using it in always-on contexts. Thanks!\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "a3f42f5d-2e6b-4b0a-8fd7-a7925444cfef",
+          "type": "message",
+          "user": "U044G94NG90",
+          "text": "Hi Joseph, please file some feedback for us on that format change!",
+          "ts": "1666286646.063639",
+          "thread_ts": "1666286619.746469",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "jnGFp",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi Joseph, please file some feedback for us on that format change!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "41e0eabc-6308-4991-a550-afc02600670c",
+          "type": "message",
+          "user": "U04627DRAE6",
+          "text": "Here’s one FB11649744",
+          "ts": "1666286998.572659",
+          "thread_ts": "1666286619.746469",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "xlA",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Here’s one FB11649744"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "c8bfb761-da4f-438f-9c45-0ae830b05076",
+          "type": "message",
+          "user": "U04627DRAE6",
+          "text": "Also, `Text(timerInterval:)` and `Text(date, style: .timer)`  both lay out in surprising ways, but only when used in widgets. (They are greedy with horizontal space, an HStack with a Spacer doesn’t work as expected, `.multilineTextAlignment()` allows aligning despite the text being a single line).\nFB11649493",
+          "ts": "1666287162.674899",
+          "thread_ts": "1666286619.746469",
+          "edited": {
+            "user": "U04627DRAE6",
+            "ts": "1666287180.000000"
+          },
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "mC=y",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Also, "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Text(timerInterval:)",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " and "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Text(date, style: .timer)",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "  both lay out in surprising ways, but only when used in widgets. (They are greedy with horizontal space, an HStack with a Spacer doesn’t work as expected, "
+                    },
+                    {
+                      "type": "text",
+                      "text": ".multilineTextAlignment()",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " allows aligning despite the text being a single line).\nFB11649493"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U045QBAUHGX\u003e asked\n\u0026gt; Can I create a fill in gauge just like the style CLKGaugeProviderStyle.fill from Watch complications. I was unable to find the equivalent style for the Lock Screen Widgets. Maybe I'm missing something?",
+      "ts": "1666287080.499899",
+      "thread_ts": "1666287080.499899",
+      "subtype": "bot_message",
+      "bot_id": "B04329H97PC",
+      "username": "Ask Apple - widgetkit",
+      "reply_count": 4,
+      "latest_reply": "1666287173.239559",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "omG0",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U045QBAUHGX"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Can I create a fill in gauge just like the style CLKGaugeProviderStyle.fill from Watch complications. I was unable to find the equivalent style for the Lock Screen Widgets. Maybe I'm missing something?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "b4af6b5c-7510-4bde-8a5f-46a2fd4a0b5f",
+          "type": "message",
+          "user": "U0441N3976K",
+          "text": "You can use a `ProgressView` in the `.widgetLabel` to get this same appearance!",
+          "ts": "1666287101.163949",
+          "thread_ts": "1666287080.499899",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "O4Fh",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "You can use a "
+                    },
+                    {
+                      "type": "text",
+                      "text": "ProgressView",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " in the "
+                    },
+                    {
+                      "type": "text",
+                      "text": ".widgetLabel",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " to get this same appearance!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "46809d4f-bb40-4cda-aa83-eaf6b0b8063e",
+          "type": "message",
+          "user": "U0441N3976K",
+          "text": "This appearance is not supported on iOS, however",
+          "ts": "1666287148.603669",
+          "thread_ts": "1666287080.499899",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "bDVLk",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "This appearance is not supported on iOS, however"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "27ba30ef-ebdc-427d-9dec-3bad65c488e1",
+          "type": "message",
+          "user": "U0441N3976K",
+          "text": "Please file a feedback!",
+          "ts": "1666287161.088769",
+          "thread_ts": "1666287080.499899",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "X03ZD",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Please file a feedback!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "1a91a792-05c4-4ed6-af01-ccb066cbc788",
+          "type": "message",
+          "user": "U045QBAUHGX",
+          "text": "Ok, thank you!",
+          "ts": "1666287173.239559",
+          "thread_ts": "1666287080.499899",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Tz1dq",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Ok, thank you!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046S70K9A4\u003e asked\n\u0026gt; Would it be possible to send haptics from a widget extension in tandem with a data refresh?  Any examples of apps that are doing this?",
+      "ts": "1666287593.515279",
+      "thread_ts": "1666287593.515279",
+      "subtype": "bot_message",
+      "bot_id": "B04329H97PC",
+      "username": "Ask Apple - widgetkit",
+      "reply_count": 2,
+      "latest_reply": "1666287973.795739",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "PVB",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046S70K9A4"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Would it be possible to send haptics from a widget extension in tandem with a data refresh?  Any examples of apps that are doing this?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "326fc4a5-e889-4243-970b-e8f6ae103d15",
+          "type": "message",
+          "user": "U0449FVU5N2",
+          "text": "That is not supported at this time",
+          "ts": "1666287610.678399",
+          "thread_ts": "1666287593.515279",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "43bK",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "That is not supported at this time"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "debb7634-25b4-4fc5-b439-bb23bd485d46",
+          "type": "message",
+          "user": "U046S70K9A4",
+          "text": "Thanks for taking my question \u003c@U0449FVU5N2\u003e!\n\nI was imagining a watchOS complication with haptics. Not at every data refresh, that would be a lot!  Instead, used judiciously if the widget refresh meets a limited certain designation or threshold.",
+          "ts": "1666287973.795739",
+          "thread_ts": "1666287593.515279",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "EgYdp",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for taking my question "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U0449FVU5N2"
+                    },
+                    {
+                      "type": "text",
+                      "text": "!\n\nI was imagining a watchOS complication with haptics. Not at every data refresh, that would be a lot!  Instead, used judiciously if the widget refresh meets a limited certain designation or threshold."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046KBG5FA5\u003e asked\n\u0026gt; Are there any best practices or resources to learn about testing WidgetKit code?",
+      "ts": "1666287929.319179",
+      "thread_ts": "1666287929.319179",
+      "subtype": "bot_message",
+      "bot_id": "B04329H97PC",
+      "username": "Ask Apple - widgetkit",
+      "reply_count": 2,
+      "latest_reply": "1666288008.569829",
+      "reactions": [
+        {
+          "name": "heart",
+          "count": 1,
+          "users": [
+            "U0464NE480L"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "kFT8",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046KBG5FA5"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Are there any best practices or resources to learn about testing WidgetKit code?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "abb7312e-6150-4b66-a4f2-d1fbd7b097b2",
+          "type": "message",
+          "user": "U04560G4CGY",
+          "text": "here is the document on debugging WidgetKit code on Xcode! \u003chttps://developer.apple.com/documentation/widgetkit/debugging-widgets\u003e",
+          "ts": "1666287962.747389",
+          "thread_ts": "1666287929.319179",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "gratitude-thank-you",
+              "count": 1,
+              "users": [
+                "U046KBG5FA5"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Wqov1",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "here is the document on debugging WidgetKit code on Xcode! "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/widgetkit/debugging-widgets",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "fb99f0a6-a24c-40e6-b1ab-1cc408226e39",
+          "type": "message",
+          "user": "U04560G4CGY",
+          "text": "Previews on Xcode may help to test the widgets as well",
+          "ts": "1666288008.569829",
+          "thread_ts": "1666287929.319179",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "gratitude-thank-you",
+              "count": 1,
+              "users": [
+                "U046KBG5FA5"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "z5VJD",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Previews on Xcode may help to test the widgets as well"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0478BJ4UPK\u003e asked\n\u0026gt; Widgets on macOS don’t seem to update very reliably. Sometimes when I open Notification Center, my widgets will be showing hours old data _and_ they’ll just sit there, never updating. Are there different “best practices” for widget timelines on macOS? What could I do that might help — longer timelines, shorter timelines, different refresh policies, fewer refreshes, more refreshes…?",
+      "ts": "1666288259.980769",
+      "thread_ts": "1666288259.980769",
+      "subtype": "bot_message",
+      "bot_id": "B04329H97PC",
+      "username": "Ask Apple - widgetkit",
+      "reply_count": 1,
+      "latest_reply": "1666288273.053379",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "fT4d",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0478BJ4UPK"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Widgets on macOS don\\u2019t seem to update very reliably. Sometimes when I open Notification Center, my widgets will be showing hours old data _and_ they\\u2019ll just sit there, never updating. Are there different \\u201cbest practices\\u201d for widget timelines on macOS? What could I do that might help \\u2014 longer timelines, shorter timelines, different refresh policies, fewer refreshes, more refreshes\\u2026?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "1cd31d5c-06dd-4e91-95c9-c844236c3d3c",
+          "type": "message",
+          "user": "U0449FVU5N2",
+          "text": "Would love a feedback report to investigate further here.",
+          "ts": "1666288273.053379",
+          "thread_ts": "1666288259.980769",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "jofJ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Would love a feedback report to investigate further here."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0469KJQ23Z\u003e asked\n\u0026gt; Can you explain why a WidgetKit complication cannot use WCSession to communicate directly with an iOS app?\n\u0026gt; \n\u0026gt; (I tried, but I always get an error that the iOS app is not installed)",
+      "ts": "1666288589.359719",
+      "thread_ts": "1666288589.359719",
+      "subtype": "bot_message",
+      "bot_id": "B04329H97PC",
+      "username": "Ask Apple - widgetkit",
+      "reply_count": 1,
+      "latest_reply": "1666288612.622489",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "SokLO",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0469KJQ23Z"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Can you explain why a WidgetKit complication cannot use WCSession to communicate directly with an iOS app?\\n\\n(I tried, but I always get an error that the iOS app is not installed)\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "836dceda-56a5-47ef-8a59-753a97d708d3",
+          "type": "message",
+          "user": "U0441N3976K",
+          "text": "Please file a feedback, this sounds like a great integration!",
+          "ts": "1666288612.622489",
+          "thread_ts": "1666288589.359719",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "EvH",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Please file a feedback, this sounds like a great integration!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "c2282345-55c1-4be0-b5df-fe6eaa284ede",
+      "type": "message",
+      "user": "U0441N3976K",
+      "text": "Thank you all for your questions, we really enjoyed hearing about your use cases and what you're making! We hope to chat again with you all soon, and we hope you enjoy the rest of Ask Apple!",
+      "ts": "1666288894.335219",
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "swift-orange",
+          "count": 3,
+          "users": [
+            "U0476A9RTNZ",
+            "U04635ASQAW",
+            "U045QBAUHGX"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "qZw2o",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Thank you all for your questions, we really enjoyed hearing about your use cases and what you're making! We hope to chat again with you all soon, and we hope you enjoy the rest of Ask Apple!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "channel_id": "C043CJ54LDP"
+}

@@ -1,0 +1,1477 @@
+{
+  "name": "live-text",
+  "messages": [
+    {
+      "type": "message",
+      "user": "U03V30M0C1K",
+      "text": "This content can't be displayed.",
+      "ts": "1665432872.074169",
+      "pinned_to": [
+        "C042KCL93L7"
+      ],
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "header",
+          "text": {
+            "type": "plain_text",
+            "text": "Welcome to Ask Apple",
+            "emoji": true
+          },
+          "block_id": "zCR"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "We're excited to be hosting you in the Live Text channel this week! You can find the full schedule of Q\u0026amp;As for Live Text by visiting the \u003chttps://apps.apple.com/us/app/apple-developer/id640199958 | Apple Developer app\u003e and \u003chttps://developer.apple.com/events/ask-apple/questions-and-answers/ | website\u003e."
+          },
+          "block_id": "rOlnw"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "If you haven’t already, please take a moment to familiarize yourself with \u003chttps://developer.apple.com/news/?id=vpbyzfg4 | how Q\u0026amp;As will work\u003e."
+          },
+          "block_id": "WLmGB"
+        },
+        {
+          "type": "header",
+          "text": {
+            "type": "plain_text",
+            "text": "Attendance Policy",
+            "emoji": true
+          },
+          "block_id": "nm1"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "We want to make sure these spaces are helpful and welcoming for everyone — developers and Apple employees alike. Please review and follow the \u003chttps://developer.apple.com/events/policy/online-event-attendance-policy/ | attendance policy\u003e."
+          },
+          "block_id": "EFFyU"
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03V30M0C1K\u003e added a workflow to this channel: *Ask Apple - live-text*.",
+      "ts": "1666018897.029819",
+      "subtype": "bot_message",
+      "bot_id": "B042Q0R4NS3",
+      "username": "Ask Apple - live-text",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Gt1",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03V30M0C1K"
+                },
+                {
+                  "type": "text",
+                  "text": " added a workflow to this channel: "
+                },
+                {
+                  "type": "text",
+                  "text": "Ask Apple - live-text",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "6d99c3e2-1d79-4d34-a708-1a99de2d1db1",
+      "type": "message",
+      "user": "U0455QUCD9N",
+      "text": "*Q\u0026amp;A Starting in 15 minutes!* :tada:\nWelcome all! We're excited to dive into a lively conversation around all things related to Live Text and Data Scanner. You're joined today by Apple engineers from the team that created this great API. It all kicks off in 15 minutes.\n\nYou can start asking your questions now. Select the:heavy_plus_sign:icon from the lower left, and choose the _Ask A Question_ workflow. Type in your question and it will be delivered directly to our team. While we’ll answer as many questions as we can, all your submissions and feedback are super valuable. Thank you for joining us!",
+      "ts": "1666115052.561459",
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "raised_hands",
+          "count": 1,
+          "users": [
+            "U046ZHRFU48"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Akc",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Q\u0026A Starting in 15 minutes! ",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "emoji",
+                  "name": "tada",
+                  "skin_tone": 0,
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\nWelcome all! We're excited to dive into a lively conversation around all things related to Live Text and Data Scanner. You're joined today by Apple engineers from the team that created this great API. It all kicks off in 15 minutes.\n\nYou can start asking your questions now. Select the"
+                },
+                {
+                  "type": "emoji",
+                  "name": "heavy_plus_sign",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": "icon from the lower left, and choose the "
+                },
+                {
+                  "type": "text",
+                  "text": "Ask A Question",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " workflow. Type in your question and it will be delivered directly to our team. While we’ll answer as many questions as we can, all your submissions and feedback are super valuable. Thank you for joining us!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046WFN5UE4\u003e asked\n\u0026gt; Is it possible to receive the text detected by the live text API programmatically without further user interaction?",
+      "ts": "1666116038.900849",
+      "thread_ts": "1666116038.900849",
+      "subtype": "bot_message",
+      "bot_id": "B042Q0R4NS3",
+      "username": "Ask Apple - live-text",
+      "reply_count": 2,
+      "latest_reply": "1666116229.172459",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "xVG",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046WFN5UE4"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Is it possible to receive the text detected by the live text API programmatically without further user interaction?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "856a802e-c9aa-4fb9-9c31-371e26f6dc75",
+          "type": "message",
+          "user": "U0449HNRSAJ",
+          "text": "You can access a string representation on the Analysis via the `transcript` property.",
+          "ts": "1666116100.891779",
+          "thread_ts": "1666116038.900849",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 3,
+              "users": [
+                "U046WFN5UE4",
+                "U0465R7QB3N",
+                "U046ZHRFU48"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "+fF",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "You can access a string representation on the Analysis via the "
+                    },
+                    {
+                      "type": "text",
+                      "text": "transcript",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " property."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "b85412ca-8fbb-4890-837d-4b3d40f13f1a",
+          "type": "message",
+          "user": "U0449HNRSAJ",
+          "text": "That will give you a basic string.\n\nYou also can use the Vision API to get more text information, including things like bounding boxes and candidates.\n\u003chttps://developer.apple.com/documentation/vision/recognizing_text_in_images\u003e",
+          "ts": "1666116229.172459",
+          "thread_ts": "1666116038.900849",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 3,
+              "users": [
+                "U046WFN5UE4",
+                "U0465R7QB3N",
+                "U046ZHRFU48"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "I6f",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "That will give you a basic string.\n\nYou also can use the Vision API to get more text information, including things like bounding boxes and candidates.\n"
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/vision/recognizing_text_in_images",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0463060946\u003e asked\n\u0026gt; If possible, how can I obtain the image generated from the action \"Lift subject from background\" and use it in my app to manipulate that cropped image.\n\u0026gt; \n\u0026gt; Sorry if this is not the right channel for the question.",
+      "ts": "1666116105.378309",
+      "thread_ts": "1666116105.378309",
+      "subtype": "bot_message",
+      "bot_id": "B042Q0R4NS3",
+      "username": "Ask Apple - live-text",
+      "reply_count": 7,
+      "latest_reply": "1666118959.280489",
+      "reactions": [
+        {
+          "name": "raised_hands",
+          "count": 1,
+          "users": [
+            "U046ZHRFU48"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "R2a",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0463060946"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"If possible, how can I obtain the image generated from the action \\\"Lift subject from background\\\" and use it in my app to manipulate that cropped image.\\n\\nSorry if this is not the right channel for the question.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "d4bc2ed6-5d6e-4ccb-84de-75829fd92c3c",
+          "type": "message",
+          "user": "U044D7P0YTX",
+          "text": "Sorry, it’s not currently possible. Vision has some similar (but not exactly the same) functionality if that works for you. Like VNGeneratePersonSegmentationRequest.",
+          "ts": "1666116247.193909",
+          "thread_ts": "1666116105.378309",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "raised_hands",
+              "count": 1,
+              "users": [
+                "U046ZHRFU48"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ZRA3f",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Sorry, it’s not currently possible. Vision has some similar (but not exactly the same) functionality if that works for you. Like VNGeneratePersonSegmentationRequest."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "b06e637a-c774-4eae-aaf9-01529a7bb67f",
+          "type": "message",
+          "user": "U0463060946",
+          "text": "Is there any documentation that explains an example of how to use it?\n\nOr any developer video?",
+          "ts": "1666118691.481059",
+          "thread_ts": "1666116105.378309",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "raised_hands",
+              "count": 1,
+              "users": [
+                "U046ZHRFU48"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "B17qf",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Is there any documentation that explains an example of how to use it?\n\nOr any developer video?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "fa948a73-b7ae-47c4-b087-92a2d730da1b",
+          "type": "message",
+          "user": "U044D7P0YTX",
+          "text": "\u003chttps://developer.apple.com/documentation/vision/vngeneratepersonsegmentationrequest\u003e",
+          "ts": "1666118768.774779",
+          "thread_ts": "1666116105.378309",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "raised_hands",
+              "count": 1,
+              "users": [
+                "U046ZHRFU48"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "DiQ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/vision/vngeneratepersonsegmentationrequest",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "189c4e9a-0b44-41a1-afe9-c8106a62ec93",
+          "type": "message",
+          "user": "U044D7P0YTX",
+          "text": "\u003chttps://developer.apple.com/documentation/vision/applying_matte_effects_to_people_in_images_and_video?language=objc\u003e",
+          "ts": "1666118769.312849",
+          "thread_ts": "1666116105.378309",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "raised_hands",
+              "count": 1,
+              "users": [
+                "U046ZHRFU48"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "eHH=",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/vision/applying_matte_effects_to_people_in_images_and_video?language=objc",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "159c19b6-75d2-4a88-a7c7-cf70cbe68ad6",
+          "type": "message",
+          "user": "U044D7P0YTX",
+          "text": "\u003chttps://developer.apple.com/wwdc19/260\u003e",
+          "ts": "1666118818.344369",
+          "thread_ts": "1666116105.378309",
+          "attachments": [
+            {
+              "fallback": "Apple Developer: Introducing Photo Segmentation Mattes - WWDC19 - Videos - Apple Developer",
+              "id": 1,
+              "title": "Introducing Photo Segmentation Mattes - WWDC19 - Videos - Apple Developer",
+              "title_link": "https://developer.apple.com/wwdc19/260",
+              "text": "Photos captured in Portrait Mode on iOS 12 contain an embedded person segmentation matte that made it easy to create creative visual...",
+              "image_url": "https://devimages-cdn.apple.com/wwdc-services/images/48/2961/2961_wide_250x141_2x.jpg",
+              "service_name": "Apple Developer",
+              "service_icon": "https://developer.apple.com/favicon.ico",
+              "from_url": "https://developer.apple.com/wwdc19/260",
+              "original_url": "https://developer.apple.com/wwdc19/260",
+              "blocks": null
+            }
+          ],
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "raised_hands",
+              "count": 1,
+              "users": [
+                "U046ZHRFU48"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "liOZ8",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/wwdc19/260",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "8e2322ca-085c-4d65-8d5c-a0d6e607c3b0",
+          "type": "message",
+          "user": "U0463060946",
+          "text": "Thanks so much this is extremely useful. I saw that there is too little documentation regarding the feature of “Lift subject from background”",
+          "ts": "1666118886.847939",
+          "thread_ts": "1666116105.378309",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "raised_hands",
+              "count": 1,
+              "users": [
+                "U046ZHRFU48"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "sHDI",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks so much this is extremely useful. I saw that there is too little documentation regarding the feature of “Lift subject from background”"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "d9ddb199-ddb6-4b4f-a058-3a955a478310",
+          "type": "message",
+          "user": "U044D7P0YTX",
+          "text": "It’s not exactly the same thing, but it could achieve something similar in some targeted use caes.",
+          "ts": "1666118959.280489",
+          "thread_ts": "1666116105.378309",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "raised_hands",
+              "count": 1,
+              "users": [
+                "U046ZHRFU48"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "56TED",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "It’s not exactly the same thing, but it could achieve something similar in some targeted use caes."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U04656DU0BX\u003e asked\n\u0026gt; Is there a way to use custom DataDetectors in LiveText to recognize things other than phone numbers or addresses?",
+      "ts": "1666116273.020039",
+      "thread_ts": "1666116273.020039",
+      "subtype": "bot_message",
+      "bot_id": "B042Q0R4NS3",
+      "username": "Ask Apple - live-text",
+      "reply_count": 1,
+      "latest_reply": "1666116439.561669",
+      "reactions": [
+        {
+          "name": "clap",
+          "count": 2,
+          "users": [
+            "U0467TW5ESE",
+            "U046ZHRFU48"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "h=b",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U04656DU0BX"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Is there a way to use custom DataDetectors in LiveText to recognize things other than phone numbers or addresses?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "d4b6671c-7690-438e-a709-e680551706c9",
+          "type": "message",
+          "user": "U0449HNRSAJ",
+          "text": "Hi!  Thanks for the question.\nThis is not currently possible with the current API.\nI encourage you to file a feedback report, and include your use case if possible.",
+          "ts": "1666116439.561669",
+          "thread_ts": "1666116273.020039",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "mIP",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi!  Thanks for the question.\nThis is not currently possible with the current API.\nI encourage you to file a feedback report, and include your use case if possible."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U04646AFG4T\u003e asked\n\u0026gt; I would like to be able to use the live text feature in my app (written in SwiftUI) to lift text from photos taken in the app or from images loaded into the app.  The documentation is sparse on this.  Can it be done with the latest version of XCode and iOS?  If so, how can I find some example code or detailed documentation?",
+      "ts": "1666116432.094419",
+      "thread_ts": "1666116432.094419",
+      "subtype": "bot_message",
+      "bot_id": "B042Q0R4NS3",
+      "username": "Ask Apple - live-text",
+      "reply_count": 8,
+      "latest_reply": "1666117127.464549",
+      "reactions": [
+        {
+          "name": "raised_hands",
+          "count": 1,
+          "users": [
+            "U046ZHRFU48"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "aT=x",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U04646AFG4T"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"I would like to be able to use the live text feature in my app (written in SwiftUI) to lift text from photos taken in the app or from images loaded into the app.  The documentation is sparse on this.  Can it be done with the latest version of XCode and iOS?  If so, how can I find some example code or detailed documentation?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "e2cf3507-dc13-42b2-97f4-43c267612678",
+          "type": "message",
+          "user": "U044D7P0YTX",
+          "text": "Hi, it’s currently possible but you’ll have to write a SwiftUI wrapper. There are some examples you can find on the web from other developers.",
+          "ts": "1666116497.702819",
+          "thread_ts": "1666116432.094419",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "raised_hands",
+              "count": 1,
+              "users": [
+                "U046ZHRFU48"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "x3CC",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi, it’s currently possible but you’ll have to write a SwiftUI wrapper. There are some examples you can find on the web from other developers."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "6e1be668-eca5-4f3e-8f59-0f667d0a69b1",
+          "type": "message",
+          "user": "U04646AFG4T",
+          "text": "OK.  That's what I've been trying to find.  It would be great to have something from Apple, though.  Pass it on!",
+          "ts": "1666116559.608689",
+          "thread_ts": "1666116432.094419",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "raised_hands",
+              "count": 1,
+              "users": [
+                "U046ZHRFU48"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "OxL",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "OK.  That's what I've been trying to find.  It would be great to have something from Apple, though.  Pass it on!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "ec6424a7-a537-4ea1-a5b6-6d97013d89f8",
+          "type": "message",
+          "user": "U04646AFG4T",
+          "text": "Can you point at a section of the Apple documentation?  It would be helpful.",
+          "ts": "1666116615.322779",
+          "thread_ts": "1666116432.094419",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Patj",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Can you point at a section of the Apple documentation?  It would be helpful."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "5faa4b4e-c51c-4f6b-b3c5-1c9c2d5d5042",
+          "type": "message",
+          "user": "U044D7P0YTX",
+          "text": "\u0026gt; OK. That’s what I’ve been trying to find. It would be great to have something from Apple, though. Pass it on!\nNoted!",
+          "ts": "1666116655.279629",
+          "thread_ts": "1666116432.094419",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "raised_hands",
+              "count": 1,
+              "users": [
+                "U046ZHRFU48"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "XGsu",
+              "elements": [
+                {
+                  "Type": "rich_text_quote",
+                  "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"OK. That\\u2019s what I\\u2019ve been trying to find. It would be great to have something from Apple, though. Pass it on!\"}]}"
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Noted!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "ac6c5466-4e49-452c-8979-244bee6c05d0",
+          "type": "message",
+          "user": "U044D7P0YTX",
+          "text": "\u003chttps://developer.apple.com/forums/thread/707871\u003e",
+          "ts": "1666116660.375739",
+          "thread_ts": "1666116432.094419",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "raised_hands",
+              "count": 1,
+              "users": [
+                "U046ZHRFU48"
+              ]
+            },
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U046ZHRFU48"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "=nw",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/forums/thread/707871",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "2ee2dab9-e3dc-4ee7-b959-7326b9020049",
+          "type": "message",
+          "user": "U04646AFG4T",
+          "text": "Many thanks!  Good service!",
+          "ts": "1666116691.145599",
+          "thread_ts": "1666116432.094419",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "raised_hands",
+              "count": 1,
+              "users": [
+                "U046ZHRFU48"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "rmvt",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Many thanks!  Good service!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "e511bc24-4d92-4226-9972-9b95f1de61b3",
+          "type": "message",
+          "user": "U04646AFG4T",
+          "text": "I really appreciate these developer sessions",
+          "ts": "1666116706.901479",
+          "thread_ts": "1666116432.094419",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "pray",
+              "count": 1,
+              "users": [
+                "U044D7P0YTX"
+              ]
+            },
+            {
+              "name": "+1",
+              "count": 2,
+              "users": [
+                "U044D7P0YTX",
+                "U046ZHRFU48"
+              ]
+            },
+            {
+              "name": "raised_hands",
+              "count": 1,
+              "users": [
+                "U046ZHRFU48"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "3hMqu",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I really appreciate these developer sessions"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "ca513c12-b55e-4ebf-9891-f4a2b5237c1b",
+          "type": "message",
+          "user": "U0449HNRSAJ",
+          "text": "We aim to please!",
+          "ts": "1666117127.464549",
+          "thread_ts": "1666116432.094419",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "raised_hands",
+              "count": 1,
+              "users": [
+                "U046ZHRFU48"
+              ]
+            },
+            {
+              "name": "grinning",
+              "count": 1,
+              "users": [
+                "U046ZHRFU48"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "FwARv",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "We aim to please!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U04656V5MGU\u003e asked\n\u0026gt; Hello! I'm working on adding Live Text support to my photo browsing app. Unfortunately adding an ImageAnalysisInteraction to a PHLivePhotoView makes it so you can't tap and hold to play the Live Photo. Is this a known issue or am I doing something wrong?",
+      "ts": "1666116736.029749",
+      "thread_ts": "1666116736.029749",
+      "subtype": "bot_message",
+      "bot_id": "B042Q0R4NS3",
+      "username": "Ask Apple - live-text",
+      "reply_count": 2,
+      "latest_reply": "1666122154.590749",
+      "reactions": [
+        {
+          "name": "raised_hands",
+          "count": 1,
+          "users": [
+            "U046ZHRFU48"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "0Ij9O",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U04656V5MGU"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Hello! I'm working on adding Live Text support to my photo browsing app. Unfortunately adding an ImageAnalysisInteraction to a PHLivePhotoView makes it so you can't tap and hold to play the Live Photo. Is this a known issue or am I doing something wrong?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "7e9d21a5-d7d2-46ef-8b2b-8c96a7a89543",
+          "type": "message",
+          "user": "U0449HNRSAJ",
+          "text": "Hi! This sounds like a gesture conflict.  The recommended way to handle this depends on your setup, but in general your first step is to set yourself as the interaction’s delegate and implement\n```func interaction(\n    _ interaction: ImageAnalysisInteraction,\n    shouldBeginAt point: CGPoint,\n    for interactionType: ImageAnalysisInteraction.InteractionTypes\n) -\u0026gt; Bool```\n\u003chttps://developer.apple.com/documentation/visionkit/imageanalysisinteractiondelegate/3974499-interaction\u003e\n\nThis topic is explained in more detail here:\n\u003chttps://developer.apple.com/videos/play/wwdc2022/10026/?time=608\u003e",
+          "ts": "1666117024.796279",
+          "thread_ts": "1666116736.029749",
+          "attachments": [
+            {
+              "fallback": "Apple Developer: Add Live Text interaction to your app - WWDC22 - Videos - Apple Developer",
+              "id": 1,
+              "title": "Add Live Text interaction to your app - WWDC22 - Videos - Apple Developer",
+              "title_link": "https://developer.apple.com/videos/play/wwdc2022/10026/?time=608",
+              "text": "Learn how you can bring Live Text support for still photos or paused video frames to your app. We'll share how you can easily enable text...",
+              "image_url": "https://devimages-cdn.apple.com/wwdc-services/images/124/6519/6519_wide_250x141_2x.jpg",
+              "service_name": "Apple Developer",
+              "service_icon": "https://developer.apple.com/favicon.ico",
+              "from_url": "https://developer.apple.com/videos/play/wwdc2022/10026/?time=608",
+              "original_url": "https://developer.apple.com/videos/play/wwdc2022/10026/?time=608",
+              "blocks": null
+            }
+          ],
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "raised_hands",
+              "count": 1,
+              "users": [
+                "U046ZHRFU48"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "njYt",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi! This sounds like a gesture conflict.  The recommended way to handle this depends on your setup, but in general your first step is to set yourself as the interaction’s delegate and implement\n"
+                    }
+                  ]
+                },
+                {
+                  "Type": "rich_text_preformatted",
+                  "Raw": "{\"type\":\"rich_text_preformatted\",\"elements\":[{\"type\":\"text\",\"text\":\"func interaction(\\n    _ interaction: ImageAnalysisInteraction,\\n    shouldBeginAt point: CGPoint,\\n    for interactionType: ImageAnalysisInteraction.InteractionTypes\\n) -\u003e Bool\"}],\"border\":0}"
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/visionkit/imageanalysisinteractiondelegate/3974499-interaction",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n\nThis topic is explained in more detail here:\n"
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/videos/play/wwdc2022/10026/?time=608",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "aa103d78-1bd6-4e47-98f0-6b903f71515e",
+          "type": "message",
+          "user": "U04656V5MGU",
+          "text": "Thanks for the suggestion! Unfortunately this function isn't called upon tapping an holding over a blank area (when I want to play the Live Photo as opposed to select text). In this case, nothing happens.",
+          "ts": "1666122154.590749",
+          "thread_ts": "1666116736.029749",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "JNq",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for the suggestion! Unfortunately this function isn't called upon tapping an holding over a blank area (when I want to play the Live Photo as opposed to select text). In this case, nothing happens."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046ES7MCCR\u003e asked\n\u0026gt; Is it possible to be notified when Live Text has found text on a PDF page?",
+      "ts": "1666116802.137619",
+      "thread_ts": "1666116802.137619",
+      "subtype": "bot_message",
+      "bot_id": "B042Q0R4NS3",
+      "username": "Ask Apple - live-text",
+      "reply_count": 5,
+      "latest_reply": "1666117325.066869",
+      "reactions": [
+        {
+          "name": "raised_hands",
+          "count": 1,
+          "users": [
+            "U046ZHRFU48"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "dQXsM",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046ES7MCCR"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Is it possible to be notified when Live Text has found text on a PDF page?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "27a293b1-91f8-4f9b-93af-4ac67658710c",
+          "type": "message",
+          "user": "U044D7P0YTX",
+          "text": "Could you explain that more? If you are displaying the PDF page in your app, you can use the Live Text APIs there.",
+          "ts": "1666116849.932649",
+          "thread_ts": "1666116802.137619",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "raised_hands",
+              "count": 1,
+              "users": [
+                "U046ZHRFU48"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "nwG",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Could you explain that more? If you are displaying the PDF page in your app, you can use the Live Text APIs there."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "d1779662-2aac-452d-b2ba-01ff3aa0a548",
+          "type": "message",
+          "user": "U044D7P0YTX",
+          "text": "Oops, you’d have to convert the PDF page to an image first. I think we support CGImage, CVPixelBuffer, UIImage/NSImage, file URLs",
+          "ts": "1666117019.097429",
+          "thread_ts": "1666116802.137619",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "raised_hands",
+              "count": 1,
+              "users": [
+                "U046ZHRFU48"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "yhAY",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Oops, you’d have to convert the PDF page to an image first. I think we support CGImage, CVPixelBuffer, UIImage/NSImage, file URLs"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "5747723a-0b54-4580-ac51-0950c1e11f0b",
+          "type": "message",
+          "user": "U046ES7MCCR",
+          "text": "PDFView on iOS 16 uses Live Text automatically when the user attempts to select text in a PDF without a text layer or when searching",
+          "ts": "1666117046.760899",
+          "thread_ts": "1666116802.137619",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 2,
+              "users": [
+                "U0449HNRSAJ",
+                "U046ZHRFU48"
+              ]
+            },
+            {
+              "name": "raised_hands",
+              "count": 1,
+              "users": [
+                "U046ZHRFU48"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "gc7CG",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "PDFView on iOS 16 uses Live Text automatically when the user attempts to select text in a PDF without a text layer or when searching"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "51960971-bed1-4c8b-8017-46dfc0d9e404",
+          "type": "message",
+          "user": "U044D7P0YTX",
+          "text": "Oh, got it! No, it doesn’t notify you. Sorry.",
+          "ts": "1666117079.880729",
+          "thread_ts": "1666116802.137619",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "raised_hands",
+              "count": 1,
+              "users": [
+                "U046ZHRFU48"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "IxAxc",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Oh, got it! No, it doesn’t notify you. Sorry."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "48448da1-5819-4d3f-aa84-d21215cc7cf1",
+          "type": "message",
+          "user": "U046ES7MCCR",
+          "text": "Ok, thank you for the clarification!",
+          "ts": "1666117325.066869",
+          "thread_ts": "1666116802.137619",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "raised_hands",
+              "count": 1,
+              "users": [
+                "U046ZHRFU48"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "9tOF",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Ok, thank you for the clarification!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "channel_id": "C042KCL93L7"
+}

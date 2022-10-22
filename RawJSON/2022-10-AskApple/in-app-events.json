@@ -1,0 +1,2440 @@
+{
+  "name": "in-app-events",
+  "messages": [
+    {
+      "type": "message",
+      "user": "U03V30M0C1K",
+      "text": "This content can't be displayed.",
+      "ts": "1665433291.748629",
+      "pinned_to": [
+        "C043CLWEXCH"
+      ],
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "+1",
+          "count": 7,
+          "users": [
+            "U046R2YCDSM",
+            "U04632FDSNS",
+            "U0467Q079D3",
+            "U044JQG7CQ4",
+            "U04633KKTEX",
+            "U046EFQRU05",
+            "U046FG0DA4E"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "header",
+          "text": {
+            "type": "plain_text",
+            "text": "Welcome to Ask Apple",
+            "emoji": true
+          },
+          "block_id": "ffD1c"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "We're excited to be hosting you in the In-app events channel this week! You can find the full schedule of Q\u0026amp;As for In-app events by visiting the \u003chttps://apps.apple.com/us/app/apple-developer/id640199958 | Apple Developer app\u003e and \u003chttps://developer.apple.com/events/ask-apple/questions-and-answers/ | website\u003e."
+          },
+          "block_id": "C6N=1"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "If you haven’t already, please take a moment to familiarize yourself with \u003chttps://developer.apple.com/news/?id=vpbyzfg4 | how Q\u0026amp;As will work\u003e."
+          },
+          "block_id": "hyvy8"
+        },
+        {
+          "type": "header",
+          "text": {
+            "type": "plain_text",
+            "text": "Attendance Policy",
+            "emoji": true
+          },
+          "block_id": "T7h"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "We want to make sure these spaces are helpful and welcoming for everyone — developers and Apple employees alike. Please review and follow the \u003chttps://developer.apple.com/events/policy/online-event-attendance-policy/ | attendance policy\u003e."
+          },
+          "block_id": "GEX4"
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03V30M0C1K\u003e added a workflow to this channel: *Ask Apple - in-app-events*.",
+      "ts": "1666018946.859909",
+      "subtype": "bot_message",
+      "bot_id": "B042Y0BE1D4",
+      "username": "Ask Apple - in-app-events",
+      "reactions": [
+        {
+          "name": "eyes",
+          "count": 1,
+          "users": [
+            "U046GFU6BM0"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "tJwW",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03V30M0C1K"
+                },
+                {
+                  "type": "text",
+                  "text": " added a workflow to this channel: "
+                },
+                {
+                  "type": "text",
+                  "text": "Ask Apple - in-app-events",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "347f7823-62d3-4bd4-a05e-82db7acad62d",
+      "type": "message",
+      "user": "U044DCHGZMK",
+      "text": "Hello everyone, we’re excited to kick off a week of Q\u0026amp;A activities! In-app events will begin at _10:00am PT Thursday_. We hope you can join us! If you’re unable to tune-in live, you can begin sending in your questions that are related to in-app events now. Select the:heavy_plus_sign:icon from the lower left, and find the _Ask A Question_ workflow. Type in your question and it will be delivered directly to the team. We’ll answer as many questions as we can during the 60 minute event, beginning _10:00am PT Thursday_.",
+      "ts": "1666019278.768029",
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "tada",
+          "count": 18,
+          "users": [
+            "U03V30M0C1K",
+            "U046J102475",
+            "U03V8DT125A",
+            "U0468JGCATW",
+            "U044V0GE789",
+            "U0464LH37HQ",
+            "U0460GSGX29",
+            "U045XN3L2NA",
+            "U046223MU0M",
+            "U045ZTP53T8",
+            "U044V0GKBK3",
+            "U046Z3X50TF",
+            "U046EL6J0CD",
+            "U046EFQRU05",
+            "U046DDR4PDG",
+            "U047MDPCQ0Y",
+            "U0467Q079D3",
+            "U044JQG7CQ4"
+          ]
+        },
+        {
+          "name": "apple",
+          "count": 2,
+          "users": [
+            "U047FQD4HB3",
+            "U0467Q079D3"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Fdi/",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hello everyone, we’re excited to kick off a week of Q\u0026A activities! In-app events will begin at "
+                },
+                {
+                  "type": "text",
+                  "text": "10:00am PT Thursday",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ". We hope you can join us! If you’re unable to tune-in live, you can begin sending in your questions that are related to in-app events now. Select the"
+                },
+                {
+                  "type": "emoji",
+                  "name": "heavy_plus_sign",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": "icon from the lower left, and find the "
+                },
+                {
+                  "type": "text",
+                  "text": "Ask A Question",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " workflow. Type in your question and it will be delivered directly to the team. We’ll answer as many questions as we can during the 60 minute event, beginning "
+                },
+                {
+                  "type": "text",
+                  "text": "10:00am PT Thursday",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "a5a29d30-8fb9-47cb-9199-7abe3a1dbb9b",
+      "type": "message",
+      "user": "U044DCHGZMK",
+      "text": "Hello everyone! We’re excited to answer your questions about in-app events beginning tomorrow at 10 am PDT (Thursday, October 20). Here are some helpful links to reference before the event. We encourage you to view our Get started with in-app events presentation recording if you haven’t done so already.\n\n• \u003chttps://developer.apple.com/app-store/in-app-events/|Apple Developer website - In-app events overview\u003e\n• \u003chttps://developer.apple.com/videos/play/tech-talks/10889/|Apple Developer video - Get started with in-app events\u003e\n• \u003chttps://help.apple.com/app-store-connect/#/deva56b6a275|App Store Connect Help guide - In-app events overview\u003e\n• \u003chttps://developer.apple.com/documentation/xcode/allowing-apps-and-websites-to-link-to-your-content|Apple Developer Documentation - Configuring universal links\u003e\nYou can start submitting your questions anytime from now. You can begin sending in your questions that are related to in-app events now. Select the:heavy_plus_sign:icon from the lower left, and find the _Ask A Question_ workflow. Type in your question and it will be delivered directly to the team. We’ll answer as many questions as we can during the 60 minute event, beginning _10:00am PT Thursday._",
+      "ts": "1666226482.305369",
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "rocket",
+          "count": 1,
+          "users": [
+            "U044JQG7CQ4"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "GJqr",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hello everyone! We’re excited to answer your questions about in-app events beginning tomorrow at 10 am PDT (Thursday, October 20). Here are some helpful links to reference before the event. We encourage you to view our Get started with in-app events presentation recording if you haven’t done so already.\n\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_list",
+              "Raw": "{\"type\":\"rich_text_list\",\"elements\":[{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/app-store\\/in-app-events\\/\",\"text\":\"Apple Developer website - In-app events overview\"}]},{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/videos\\/play\\/tech-talks\\/10889\\/\",\"text\":\"Apple Developer video - Get started with in-app events\"}]},{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"link\",\"url\":\"https:\\/\\/help.apple.com\\/app-store-connect\\/#\\/deva56b6a275\",\"text\":\"App Store Connect Help guide - In-app events overview\"}]},{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/documentation\\/xcode\\/allowing-apps-and-websites-to-link-to-your-content\",\"text\":\"Apple Developer Documentation - Configuring universal links\"}]}],\"style\":\"bullet\",\"indent\":0,\"border\":0}"
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\nYou can start submitting your questions anytime from now. You can begin sending in your questions that are related to in-app events now. Select the"
+                },
+                {
+                  "type": "emoji",
+                  "name": "heavy_plus_sign",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": "icon from the lower left, and find the "
+                },
+                {
+                  "type": "text",
+                  "text": "Ask A Question",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " workflow. Type in your question and it will be delivered directly to the team. We’ll answer as many questions as we can during the 60 minute event, beginning "
+                },
+                {
+                  "type": "text",
+                  "text": "10:00am PT Thursday.",
+                  "style": {
+                    "italic": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "ebaea570-9e2d-4ae1-aabe-5f9ef4cefc55",
+      "type": "message",
+      "user": "U044DCHGZMK",
+      "text": "\u003c!here\u003e Welcome to our Q+A on in-app events! We’re looking forward to answering your questions. Select the:heavy_plus_sign:icon from the lower left, and find the _Ask A Question_ workflow. Type in your question and it will be delivered directly to the team. We’ll answer as many questions as we can. While it’s unlikely we’ll be able to address every question, all your submissions are valuable; thank you for taking the time! :rocket:\n\nLet’s kick it off! :mirror_ball:",
+      "ts": "1666285223.720959",
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "partying_face",
+          "count": 2,
+          "users": [
+            "U03V30M0C1K",
+            "U045MM3PG15"
+          ]
+        },
+        {
+          "name": "raised_hands",
+          "count": 2,
+          "users": [
+            "U045MM3PG15",
+            "U04627DRAE6"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Uij",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "broadcast",
+                  "range": "here"
+                },
+                {
+                  "type": "text",
+                  "text": " Welcome to our Q+A on in-app events! We’re looking forward to answering your questions. Select the"
+                },
+                {
+                  "type": "emoji",
+                  "name": "heavy_plus_sign",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": "icon from the lower left, and find the "
+                },
+                {
+                  "type": "text",
+                  "text": "Ask A Question",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " workflow. Type in your question and it will be delivered directly to the team. We’ll answer as many questions as we can. While it’s unlikely we’ll be able to address every question, all your submissions are valuable; thank you for taking the time! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "rocket",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": "\n\nLet’s kick it off! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "mirror_ball",
+                  "skin_tone": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046SN4PFHC\u003e asked\n\u0026gt; What should we do to be featured on the App Store with the event?",
+      "ts": "1666285977.620089",
+      "thread_ts": "1666285977.620089",
+      "subtype": "bot_message",
+      "bot_id": "B042Y0BE1D4",
+      "username": "Ask Apple - in-app-events",
+      "reply_count": 1,
+      "latest_reply": "1666286030.962869",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "qQXU",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046SN4PFHC"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"What should we do to be featured on the App Store with the event?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "afba7b3a-12d5-4de7-ae79-cb7a3304d4eb",
+          "type": "message",
+          "user": "U044V0GKBK3",
+          "text": "Hi \u003c@U046SN4PFHC\u003e, Our editors look for the most innovative and compelling events within apps and games that they think our customers will love most. Be sure to cehck out the best practices we’ve discussed and documented on the \u003chttps://developer.apple.com/app-store/in-app-events/|in-app events page\u003e.\n\nYou can also learn more about \u003chttps://developer.apple.com/app-store/getting-featured/|getting featured on the App Store\u003e, and submit your events for consideration on \u003chttp://appstore.com/promote|appstore.com/promote\u003e!",
+          "ts": "1666286030.962869",
+          "thread_ts": "1666285977.620089",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "9VM",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U046SN4PFHC"
+                    },
+                    {
+                      "type": "text",
+                      "text": ", Our editors look for the most innovative and compelling events within apps and games that they think our customers will love most."
+                    },
+                    {
+                      "type": "text",
+                      "text": " ",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "Be sure to cehck out the best practices we’ve discussed and documented on the "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/app-store/in-app-events/",
+                      "text": "in-app events page"
+                    },
+                    {
+                      "type": "text",
+                      "text": ".\n\nYou can also learn more about "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/app-store/getting-featured/",
+                      "text": "getting featured on the App Store"
+                    },
+                    {
+                      "type": "text",
+                      "text": ", and submit your events for consideration on "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://appstore.com/promote",
+                      "text": "appstore.com/promote"
+                    },
+                    {
+                      "type": "text",
+                      "text": "!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046Z3X50TF\u003e asked\n\u0026gt; While we've been able to submit in-app events easily, with quick approvals from Apple, we've documented multiple instances of high-priority approved events not being visible throughout returned search results. Instead, default product page screenshots are what is shown and not the events at all. How can we ensure that published and approved events (at minimum if they're listed as high-priority) always show when our app is returned in a search result?",
+      "ts": "1666286024.370189",
+      "thread_ts": "1666286024.370189",
+      "subtype": "bot_message",
+      "bot_id": "B042Y0BE1D4",
+      "username": "Ask Apple - in-app-events",
+      "reply_count": 4,
+      "latest_reply": "1666287625.005549",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "OlFYP",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046Z3X50TF"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"While we've been able to submit in-app events easily, with quick approvals from Apple, we've documented multiple instances of high-priority approved events not being visible throughout returned search results. Instead, default product page screenshots are what is shown and not the events at all. How can we ensure that published and approved events (at minimum if they're listed as high-priority) always show when our app is returned in a search result?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "42d70f79-c9bb-4ab4-9027-d94e34c6e412",
+          "type": "message",
+          "user": "U044JQG7CQ4",
+          "text": "Hi \u003c@U046Z3X50TF\u003e, the Event Priority selection only affects the product page. Events appear on your product page chronologically based on start time, with the soonest start time displaying first. Any events you select as high priority will appear ahead of normal priority events.\n\nWhen users search for an app, the event card appears along with your app for users who have downloaded your app, while screenshots show for those who haven’t downloaded your app. Users can also search for in-app events directly. When users search for an event, the event card appears along with your app.",
+          "ts": "1666286062.956679",
+          "thread_ts": "1666286024.370189",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U045MM3PG15"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "eVhua",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U046Z3X50TF"
+                    },
+                    {
+                      "type": "text",
+                      "text": ", the Event Priority selection only affects the product page. Events appear on your product page chronologically based on start time, with the soonest start time displaying first. Any events you select as high priority will appear ahead of normal priority events.\n\nWhen users search for an app, the event card appears along with your app for users who have downloaded your app, while screenshots show for those who haven’t downloaded your app. Users can also search for in-app events directly. When users search for an event, the event card appears along with your app."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "9e7d116c-eef4-4ce1-8b3e-37abcbbec752",
+          "type": "message",
+          "user": "U046SN4PFHC",
+          "text": "Can you please explain in which definite cases users can see events instead of screenshots? (as for new users and users, who deleted the app earlier).",
+          "ts": "1666286521.794059",
+          "thread_ts": "1666286024.370189",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "0zX",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Can you please explain in which definite cases users can see events instead of screenshots? (as for new users and users, who deleted the app earlier)."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "13e09566-0689-4af8-9160-ee9f03e97af8",
+          "type": "message",
+          "user": "U046Z3X50TF",
+          "text": "Thanks for the reply, Angela. We’re still not seeing the events appear through search, even when the search terms exactly match the event. What would be the best way to test and/or troubleshoot?",
+          "ts": "1666286562.628139",
+          "thread_ts": "1666286024.370189",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "1fDq",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for the reply, Angela. We’re still not seeing the events appear through search, even when the search terms exactly match the event. What would be the best way to test and/or troubleshoot?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "a68b79d9-b00b-414b-9af6-9192d2b5a088",
+          "type": "message",
+          "user": "U044GB97Y6N",
+          "text": "Hi Ozzie, if you’re searching for the event title, you should be able to see your event in search results. If you’re not seeing it, I recommend filing a Feedback Assistant ticket here \u003chttps://feedbackassistant.apple.com/new-form-response\u003e",
+          "ts": "1666287625.005549",
+          "thread_ts": "1666286024.370189",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "b+4",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi Ozzie, if you’re searching for the event title, you should be able to see your event in search results. If you’re not seeing it, I recommend filing a Feedback Assistant ticket here "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://feedbackassistant.apple.com/new-form-response",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U045ZTP53T8\u003e asked\n\u0026gt; hi, we trying to create in-app event and when we uploading video we got an error and there isn't any explanation about the error, only says try again (dimension and sizes are everything is ok there)\n\u0026gt; with the banner we create for now.",
+      "ts": "1666286085.681079",
+      "thread_ts": "1666286085.681079",
+      "subtype": "bot_message",
+      "bot_id": "B042Y0BE1D4",
+      "username": "Ask Apple - in-app-events",
+      "reply_count": 1,
+      "latest_reply": "1666286121.100659",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "KC3RU",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U045ZTP53T8"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"hi, we trying to create in-app event and when we uploading video we got an error and there isn't any explanation about the error, only says try again (dimension and sizes are everything is ok there)\\nwith the banner we create for now.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "65799bb6-c7ba-4b5e-96a1-d1731570bcad",
+          "type": "message",
+          "user": "U044GB97Y6N",
+          "text": "Hi ilkin! I suggest also reviewing the file extension, fps, file size, and the audio specifications. For the full list of requirements please review: \u003chttps://help.apple.com/app-store-connect/#/devae2a52082\u003e",
+          "ts": "1666286121.100659",
+          "thread_ts": "1666286085.681079",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "qKX2I",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi ilkin! I suggest also reviewing the file extension, fps, file size, and the audio specifications. For the full list of requirements please review: "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://help.apple.com/app-store-connect/#/devae2a52082",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "27504699-a68d-450e-a73f-33b9a90e1188",
+      "type": "message",
+      "user": "U044DCHGZMK",
+      "text": "Whoops! We accidentally deleted this question:\n\u003c@U04769JQY2V\u003e\n asked:\nWe see an increasing number of “In-app events” that are used to promote larger app updates without an actual event in the app.\nIs that a behaviour that is desired or accepted or do we face any issues by following that trend?\nThank you.",
+      "ts": "1666286120.299519",
+      "thread_ts": "1666286120.299519",
+      "reply_count": 1,
+      "latest_reply": "1666286157.028869",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Rjb",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Whoops! We accidentally deleted this question:\n"
+                },
+                {
+                  "type": "user",
+                  "user_id": "U04769JQY2V"
+                },
+                {
+                  "type": "text",
+                  "text": "\n asked:\nWe see an increasing number of “In-app events” that are used to promote larger app updates without an actual event in the app.\nIs that a behaviour that is desired or accepted or do we face any issues by following that trend?\nThank you."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "08f567be-ed7f-47cc-8116-9d42b2b41ca3",
+          "type": "message",
+          "user": "U044DCHGZMK",
+          "text": "Hi Nicolas, great question! Please note that the “Major Update” Event Type is the appropriate one to use in these cases. A Major Update introduces significant new features, content, or experiences – for example, the launch of new game modes or levels. These events go beyond minor enhancements like UI adjustments or bug fixes.",
+          "ts": "1666286157.028869",
+          "thread_ts": "1666286120.299519",
+          "parent_user_id": "U044DCHGZMK",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "cJcq",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi Nicolas, great question! Please note that the “Major Update” Event Type is the appropriate one to use in these cases. A Major Update introduces significant new features, content, or experiences – for example, the launch of new game modes or levels. These events go beyond minor enhancements like UI adjustments or bug fixes."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046DDR4PDG\u003e asked\n\u0026gt; Where can we join event in huddle or you will provide link for that?",
+      "ts": "1666286169.597379",
+      "thread_ts": "1666286169.597379",
+      "subtype": "bot_message",
+      "bot_id": "B042Y0BE1D4",
+      "username": "Ask Apple - in-app-events",
+      "reply_count": 1,
+      "latest_reply": "1666286191.395589",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "aSdZL",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046DDR4PDG"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Where can we join event in huddle or you will provide link for that?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "b2bf87c6-2e76-4338-bb48-222639a15b2b",
+          "type": "message",
+          "user": "U044DCHGZMK",
+          "text": "Hi! We will not be starting a huddle, but you can send us any questions that you have by selecting the:heavy_plus_sign:icon from the lower left, and find the _Ask A Question_ workflow. Type in your question and it will be delivered directly to the team.",
+          "ts": "1666286191.395589",
+          "thread_ts": "1666286169.597379",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "m4Sd",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi! We will not be starting a huddle, but you can send us any questions that you have by selecting the"
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "heavy_plus_sign",
+                      "skin_tone": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "icon from the lower left, and find the "
+                    },
+                    {
+                      "type": "text",
+                      "text": "Ask A Question",
+                      "style": {
+                        "italic": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " workflow. Type in your question and it will be delivered directly to the team."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "75acb5b2-77c9-4934-95f7-3787038607a9",
+      "type": "message",
+      "user": "U044DCHGZMK",
+      "text": "Hi everyone! We're getting a lot of questions about metadata, for example: Can any metadata be changed after an IAE has been approved?",
+      "ts": "1666286302.539429",
+      "thread_ts": "1666286302.539429",
+      "reply_count": 1,
+      "latest_reply": "1666286315.078369",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "FNn",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hi everyone! We're getting a lot of questions about metadata, for example: Can any metadata be changed after an IAE has been approved?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "eb4ffb26-abed-4509-8c23-6341c6a65e9a",
+          "type": "message",
+          "user": "U044DCHGZMK",
+          "text": "No. You can change the dates and times once an event has been approved, but you can't change a publish, start, or end date after it has passed. Territories can be removed once it’s approved, but not re-added. However, just a note that no localizations of the metadata can be removed or added after approval.",
+          "ts": "1666286315.078369",
+          "thread_ts": "1666286302.539429",
+          "parent_user_id": "U044DCHGZMK",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "/SYl",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "No. You can change the dates and times once an event has been approved, but you can't change a publish, start, or end date after it has passed. Territories can be removed once it’s approved, but not re-added. However, just a note that no localizations of the metadata can be removed or added after approval."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U045MM3PG15\u003e asked\n\u0026gt; How can I influence an In App Event to be the last in the carousel if I have more than one live? How is the order decided?",
+      "ts": "1666286485.213549",
+      "thread_ts": "1666286485.213549",
+      "subtype": "bot_message",
+      "bot_id": "B042Y0BE1D4",
+      "username": "Ask Apple - in-app-events",
+      "reply_count": 1,
+      "latest_reply": "1666286514.071489",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "lvG5=",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U045MM3PG15"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"How can I influence an In App Event to be the last in the carousel if I have more than one live? How is the order decided?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "c076238d-8100-45c9-a04a-c567a533cf26",
+          "type": "message",
+          "user": "U044V0GKBK3",
+          "text": "Hi there, events appear on your product page chronologically based on start time, with the soonest start time displaying first. Any events you designate with an event priority of high will appear ahead of normal priority events.",
+          "ts": "1666286514.071489",
+          "thread_ts": "1666286485.213549",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "18n",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi there, events appear on your product page chronologically based on start time, with the soonest start time displaying first. Any events you designate with an event priority of high will appear ahead of normal priority events."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046SN4PFHC\u003e asked\n\u0026gt; Why is there no traffic from the App Referrer source in Analytics? (no impressions, no downloads)",
+      "ts": "1666286534.236149",
+      "thread_ts": "1666286534.236149",
+      "subtype": "bot_message",
+      "bot_id": "B042Y0BE1D4",
+      "username": "Ask Apple - in-app-events",
+      "reply_count": 1,
+      "latest_reply": "1666286549.355729",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Mz99E",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046SN4PFHC"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Why is there no traffic from the App Referrer source in Analytics? (no impressions, no downloads)\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "d65a0097-08d4-4931-9e21-33761836d5c0",
+          "type": "message",
+          "user": "U044GB97Y6N",
+          "text": "Hi Maria, thank you for your question! This is not expected behavior. We noticed this as well and are investigating the issue.",
+          "ts": "1666286549.355729",
+          "thread_ts": "1666286534.236149",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U046SN4PFHC"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "50R4",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi Maria, thank you for your question! This is not expected behavior. We noticed this as well and are investigating the issue."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "91bc3f44-d34c-4f1e-b72f-ae01abc6ba28",
+      "type": "message",
+      "user": "U044DCHGZMK",
+      "text": "We're also getting a lot of questions around deeplinks, for ex: Do events work with/require deeplinks? How best do I approach adding the required deep link to my app if it doesn't support deep links yet? Do we need to use Universal Links?",
+      "ts": "1666286650.881799",
+      "thread_ts": "1666286650.881799",
+      "reply_count": 1,
+      "latest_reply": "1666286660.387719",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "/0cF",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "We're also getting a lot of questions around deeplinks, for ex: Do events work with/require deeplinks? How best do I approach adding the required deep link to my app if it doesn't support deep links yet? Do we need to use Universal Links?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "9388bc81-42a4-4a1a-8830-a9abd16bb9a7",
+          "type": "message",
+          "user": "U044DCHGZMK",
+          "text": "Yes, a deep link is required. This link takes users who tap Open on the in-app event card or details page to the event content within your app. This can be a universal link (recommended for security) or custom URL. There is a lot of documentation about how to set up Universal Links on the Apple Developer site. See articles like \"Supporting Universal Links in Your App\" and \"Allowing Apps and Websites to Link to Your Content\" for a good place to start.",
+          "ts": "1666286660.387719",
+          "thread_ts": "1666286650.881799",
+          "parent_user_id": "U044DCHGZMK",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "TxIK",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yes, a deep link is required. This link takes users who tap Open on the in-app event card or details page to the event content within your app. This can be a universal link (recommended for security) or custom URL. There is a lot of documentation about how to set up Universal Links on the Apple Developer site. See articles like \"Supporting Universal Links in Your App\" and \"Allowing Apps and Websites to Link to Your Content\" for a good place to start."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046SN4PFHC\u003e asked\n\u0026gt; How does the Event's Purpose influence the traffic? For example, we chose the purpose “Attract new users”, but there is no significant difference between previous events with the purpose “Appropriate for all users”.",
+      "ts": "1666286804.022149",
+      "thread_ts": "1666286804.022149",
+      "subtype": "bot_message",
+      "bot_id": "B042Y0BE1D4",
+      "username": "Ask Apple - in-app-events",
+      "reply_count": 1,
+      "latest_reply": "1666286976.926949",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "CEy",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046SN4PFHC"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"How does the Event's Purpose influence the traffic? For example, we chose the purpose \\u201cAttract new users\\u201d, but there is no significant difference between previous events with the purpose \\u201cAppropriate for all users\\u201d.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "d20b9941-8a7d-444f-91e0-1df1ce701af4",
+          "type": "message",
+          "user": "U044V0GKBK3",
+          "text": "Hi Maria, the event purpose selection is one of the factors that the App Store uses to offer personalized recommendations. Regardless of the event purpose you choose, your published events are discoverable on the App Store by all customers.\n\nTo help your event reach the people it’s intended for, the App Store incorporates app usage information. This data is processed on the device to minimize data collection and enhance user privacy. Be thoughtful about the Event Purpose you choose and make sure that your selection addresses your desired outcome. While “Appropriate for all users” might seem like the most flexible choice, the other Event Purposes may provide a benefit depending on the nature of the Event. For example, we’ve seen that the Event Purpose “Bring back lapsed users” can yield higher re-downloads compared to events using the “Appropriate for all users” purpose.",
+          "ts": "1666286976.926949",
+          "thread_ts": "1666286804.022149",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "GyG",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi Maria, the event purpose selection is one of the factors that the App Store uses to offer personalized recommendations. Regardless of the event purpose you choose, your published events are discoverable on the App Store by all customers.\n\nTo help your event reach the people it’s intended for, the App Store incorporates app usage information. This data is processed on the device to minimize data collection and enhance user privacy. Be thoughtful about the Event Purpose you choose and make sure that your selection addresses your desired outcome. While “Appropriate for all users” might seem like the most flexible choice, the other Event Purposes may provide a benefit depending on the nature of the Event. For example, we’ve seen that the Event Purpose “Bring back lapsed users” can yield higher re-downloads compared to events using the “Appropriate for all users” purpose."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U045MM3PG15\u003e asked\n\u0026gt; What is the minimum level of engagement required to see In-App Events metrics in the App Store Connect?",
+      "ts": "1666286861.198249",
+      "thread_ts": "1666286861.198249",
+      "subtype": "bot_message",
+      "bot_id": "B042Y0BE1D4",
+      "username": "Ask Apple - in-app-events",
+      "reply_count": 1,
+      "latest_reply": "1666286873.205389",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "oms",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U045MM3PG15"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"What is the minimum level of engagement required to see In-App Events metrics in the App Store Connect?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "23fb2099-7179-4844-94d9-f7c53b9ea33a",
+          "type": "message",
+          "user": "U044HJPV147",
+          "text": "Hi A, data for an In-App Event will appear in App Analytics after it has generated first-time downloads from at least 5 individual Apple IDs.",
+          "ts": "1666286873.205389",
+          "thread_ts": "1666286861.198249",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U045MM3PG15"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "NOcm",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi A, data for an In-App Event will appear in App Analytics after it has generated first-time downloads from at least 5 individual Apple IDs."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046SN4PFHC\u003e asked\n\u0026gt; Recently we noticed that data on new events is shown after 5 and more days, earlier we have seen data on the next day after the event starts. What’s it connected with?",
+      "ts": "1666286932.351269",
+      "thread_ts": "1666286932.351269",
+      "subtype": "bot_message",
+      "bot_id": "B042Y0BE1D4",
+      "username": "Ask Apple - in-app-events",
+      "reply_count": 1,
+      "latest_reply": "1666286948.472609",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "KPzrJ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046SN4PFHC"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Recently we noticed that data on new events is shown after 5 and more days, earlier we have seen data on the next day after the event starts. What\\u2019s it connected with?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "4e627e03-5f84-4f35-b45a-9b398188eedf",
+          "type": "message",
+          "user": "U044HJPV147",
+          "text": "Hi Maria! Data for an In-App Event will appear in App Analytics after it has generated first-time downloads from at least 5 individual Apple IDs. If this happens on the first day, then results will appear the following day.",
+          "ts": "1666286948.472609",
+          "thread_ts": "1666286932.351269",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "mN7",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi Maria! Data for an In-App Event will appear in App Analytics after it has generated first-time downloads from at least 5 individual Apple IDs. If this happens on the first day, then results will appear the following day."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0464MKTT52\u003e asked\n\u0026gt; Most in-app events featured on the Today tab are for big existing apps like Minecraft or HBO. What steps are you taking to ensure that indie developers have a better chance to appear in these slots?",
+      "ts": "1666287243.315239",
+      "thread_ts": "1666287243.315239",
+      "subtype": "bot_message",
+      "bot_id": "B042Y0BE1D4",
+      "username": "Ask Apple - in-app-events",
+      "reply_count": 1,
+      "latest_reply": "1666287296.225889",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "C0IXS",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0464MKTT52"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Most in-app events featured on the Today tab are for big existing apps like Minecraft or HBO. What steps are you taking to ensure that indie developers have a better chance to appear in these slots?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "014c1ddf-6e7f-47eb-833e-9eb9227f44ee",
+          "type": "message",
+          "user": "U044V0GKBK3",
+          "text": "Hi \u003c@U0464MKTT52\u003e, our editors are always looking for the most innovative and compelling events within apps and games that they think our customers will love most. Be sure to check out the best practices we’ve discussed and documented on the \u003chttps://developer.apple.com/app-store/in-app-events/|in-app events page\u003e.\n\nYou can also learn more about \u003chttps://developer.apple.com/app-store/getting-featured/|getting featured on the App Store\u003e, and submit your events for consideration on \u003chttp://appstore.com/promote|appstore.com/promote\u003e!",
+          "ts": "1666287296.225889",
+          "thread_ts": "1666287243.315239",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "=6S",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U0464MKTT52"
+                    },
+                    {
+                      "type": "text",
+                      "text": ", our editors are always looking for the most innovative and compelling events within apps and games that they think our customers will love most."
+                    },
+                    {
+                      "type": "text",
+                      "text": " ",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "Be sure to check out the best practices we’ve discussed and documented on the "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/app-store/in-app-events/",
+                      "text": "in-app events page"
+                    },
+                    {
+                      "type": "text",
+                      "text": ".\n\nYou can also learn more about "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/app-store/getting-featured/",
+                      "text": "getting featured on the App Store"
+                    },
+                    {
+                      "type": "text",
+                      "text": ", and submit your events for consideration on "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://appstore.com/promote",
+                      "text": "appstore.com/promote"
+                    },
+                    {
+                      "type": "text",
+                      "text": "!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046B0VD012\u003e asked\n\u0026gt; Can you provide the creative display rules for the In-App Events? For example, would new users see the In-App Event as the \"gallery\" of the listing on the search results page (not product page) when the event is set to all users? What do users see when there is an ASA of your app, and when your app is ranked #1 organically vs not #1, do the users see the event banners or the app store gallery?",
+      "ts": "1666287757.660129",
+      "thread_ts": "1666287757.660129",
+      "subtype": "bot_message",
+      "bot_id": "B042Y0BE1D4",
+      "username": "Ask Apple - in-app-events",
+      "reply_count": 2,
+      "latest_reply": "1666287895.059489",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ylbFa",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046B0VD012"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Can you provide the creative display rules for the In-App Events? For example, would new users see the In-App Event as the \\\"gallery\\\" of the listing on the search results page (not product page) when the event is set to all users? What do users see when there is an ASA of your app, and when your app is ranked #1 organically vs not #1, do the users see the event banners or the app store gallery?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "efc26314-e983-4500-8206-cc273f914fff",
+          "type": "message",
+          "user": "U044JQG7CQ4",
+          "text": "Hi there Tina! When users search for an app, the event card appears along with your app for users who have downloaded your app. For those who haven’t downloaded your app, screenshots will display. Users can also search for in-app events directly. When users search for an event, the event card appears along with your app.\n\nApple Search Ads does not currently support in-app events.",
+          "ts": "1666287777.210439",
+          "thread_ts": "1666287757.660129",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Zi1fV",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi there Tina! When users search for an app, the event card appears along with your app for users who have downloaded your app. For those who haven’t downloaded your app, screenshots will display. Users can also search for in-app events directly. When users search for an event, the event card appears along with your app.\n\nApple Search Ads does not currently support in-app events."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "396fde77-49cb-4ee2-854e-43bf62b81cd4",
+          "type": "message",
+          "user": "U046B0VD012",
+          "text": "Thank you! In this case, how does the event show up to new users when we select the audience towards just new users?",
+          "ts": "1666287895.059489",
+          "thread_ts": "1666287757.660129",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "g97",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thank you! In this case, how does the event show up to new users when we select the audience towards just new users?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U045MM3PG15\u003e asked\n\u0026gt; For IAE analytics.. Does it show the downloads trigged by the \"get\" button only, or does it include any user that downloads the app after tapping on the IAE first (in a similar manner to ASA attribution)?",
+      "ts": "1666287891.784179",
+      "thread_ts": "1666287891.784179",
+      "subtype": "bot_message",
+      "bot_id": "B042Y0BE1D4",
+      "username": "Ask Apple - in-app-events",
+      "reply_count": 6,
+      "latest_reply": "1666288646.765079",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "FDK",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U045MM3PG15"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"For IAE analytics.. Does it show the downloads trigged by the \\\"get\\\" button only, or does it include any user that downloads the app after tapping on the IAE first (in a similar manner to ASA attribution)?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "204d508b-b018-4072-b13d-5f7d142ce3c6",
+          "type": "message",
+          "user": "U044HJPV147",
+          "text": "Hi A! The Total Downloads number in the In-App Events dashboard counts both first-time downloads and re-downloads driven by an event. If the user already has the app, and taps the Open button in the App Store instead, then we will count it as an App Open.",
+          "ts": "1666287905.879559",
+          "thread_ts": "1666287891.784179",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "tqMOa",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi A! The Total Downloads number in the In-App Events dashboard counts both first-time downloads and re-downloads driven by an event. If the user already has the app, and taps the Open button in the App Store instead, then we will count it as an App Open."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "7d13a9b0-e1fd-4b34-a7d0-def0b6cd6753",
+          "type": "message",
+          "user": "U045MM3PG15",
+          "text": "Thanks for this and sorry my questions wasn't very clear, I wanted to know what counts as a download (for new or returning users).. Will any of the \"get\" buttons count a download from the In-App Event?",
+          "ts": "1666288373.263119",
+          "thread_ts": "1666287891.784179",
+          "files": [
+            {
+              "id": "F0470DZ88LF",
+              "created": 1666288333,
+              "timestamp": 1666288333,
+              "name": "image.png",
+              "title": "image.png",
+              "mimetype": "image/png",
+              "image_exif_rotation": 0,
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "U045MM3PG15",
+              "mode": "hosted",
+              "editable": false,
+              "is_external": false,
+              "external_type": "",
+              "size": 187760,
+              "url": "",
+              "url_download": "",
+              "url_private": "C043CLWEXCH/F0470DZ88LF-image.png",
+              "url_private_download": "C043CLWEXCH/F0470DZ88LF-image.png",
+              "original_h": 618,
+              "original_w": 552,
+              "thumb_64": "https://files.slack.com/files-tmb/T01PTBJ95PS-F0470DZ88LF-29dd7b2ddb/image_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T01PTBJ95PS-F0470DZ88LF-29dd7b2ddb/image_80.png",
+              "thumb_160": "https://files.slack.com/files-tmb/T01PTBJ95PS-F0470DZ88LF-29dd7b2ddb/image_160.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T01PTBJ95PS-F0470DZ88LF-29dd7b2ddb/image_360.png",
+              "thumb_360_gif": "",
+              "thumb_360_w": 322,
+              "thumb_360_h": 360,
+              "thumb_480": "https://files.slack.com/files-tmb/T01PTBJ95PS-F0470DZ88LF-29dd7b2ddb/image_480.png",
+              "thumb_480_w": 429,
+              "thumb_480_h": 480,
+              "thumb_720": "",
+              "thumb_720_w": 0,
+              "thumb_720_h": 0,
+              "thumb_960": "",
+              "thumb_960_w": 0,
+              "thumb_960_h": 0,
+              "thumb_1024": "",
+              "thumb_1024_w": 0,
+              "thumb_1024_h": 0,
+              "permalink": "https://appleevents.enterprise.slack.com/files/U045MM3PG15/F0470DZ88LF/image.png",
+              "permalink_public": "https://slack-files.com/T01PTBJ95PS-F0470DZ88LF-49129ec526",
+              "edit_link": "",
+              "preview": "",
+              "preview_highlight": "",
+              "lines": 0,
+              "lines_more": 0,
+              "is_public": false,
+              "public_url_shared": false,
+              "channels": null,
+              "groups": null,
+              "ims": null,
+              "initial_comment": {},
+              "comments_count": 0,
+              "num_stars": 0,
+              "is_starred": false,
+              "shares": {
+                "public": null,
+                "private": null
+              }
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "+L9Id",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for this and sorry my questions wasn't very clear, I wanted to know what counts as a download (for new or returning users).. Will any of the \"get\" buttons count a download from the In-App Event?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "74835ce9-8ffc-44e4-ba28-6b2ff2a0e047",
+          "type": "message",
+          "user": "U045MM3PG15",
+          "text": "Also, after tapping on the IAE and going to the product page and download the app from there... will that count as a download from the IAE, or will it only count if one of the \"get\" button are tapped to download the app. Thank you very much in advance \u003c@U044HJPV147\u003e",
+          "ts": "1666288454.186199",
+          "thread_ts": "1666287891.784179",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "tRt",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Also, after tapping on the IAE and going to the product page and download the app from there... will that count as a download from the IAE, or will it only count if one of the \"get\" button are tapped to download the app. Thank you very much in advance "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U044HJPV147"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "4e46625f-01c9-446c-a993-5b27c5b03685",
+          "type": "message",
+          "user": "U044HJPV147",
+          "text": "Only the \"Get\" button within the In-App Event card will be attributed to the event -- not the one at the top.",
+          "ts": "1666288486.098169",
+          "thread_ts": "1666287891.784179",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "TXv",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Only the \"Get\" button within the In-App Event card will be attributed to the event -- not the one at the top."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "cab3ead6-4e30-4222-b9b7-b05f069f8718",
+          "type": "message",
+          "user": "U045MM3PG15",
+          "text": "Great, thanks Nick",
+          "ts": "1666288498.368069",
+          "thread_ts": "1666287891.784179",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "white_check_mark",
+              "count": 1,
+              "users": [
+                "U044HJPV147"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "XoHAu",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Great, thanks Nick"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "82e22c0a-f016-4307-88af-da7bd3529cfb",
+          "type": "message",
+          "user": "U045MM3PG15",
+          "text": "Your help today was extraordinary.. If we have similar questions in the future, what is the best way to get answers from Apple experts without waiting for the next relevant event?",
+          "ts": "1666288646.765079",
+          "thread_ts": "1666287891.784179",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "AxE",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Your help today was extraordinary.. If we have similar questions in the future, what is the best way to get answers from Apple experts without waiting for the next relevant event?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "c7ea2358-a1ba-4146-9369-67301433c442",
+      "type": "message",
+      "user": "U044DCHGZMK",
+      "text": "Here's another question that has surfaced a few times: Does the in-app review process involve testing my event deep-link?",
+      "ts": "1666287893.853079",
+      "thread_ts": "1666287893.853079",
+      "reply_count": 1,
+      "latest_reply": "1666287898.039459",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "dvsA",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Here's another question that has surfaced a few times: Does the in-app review process involve testing my event deep-link?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "49401639-3d26-4319-8824-49f73986c313",
+          "type": "message",
+          "user": "U044DCHGZMK",
+          "text": "Yes, App Review checks the deep link for each in-app event during the review process. Consider submitting the In-App Event with the app update in one submission.",
+          "ts": "1666287898.039459",
+          "thread_ts": "1666287893.853079",
+          "parent_user_id": "U044DCHGZMK",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "CcdQ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yes, App Review checks the deep link for each in-app event during the review process. Consider submitting the In-App Event with the app update in one submission."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046B0VD012\u003e asked\n\u0026gt; We often face rejections from Apple for the In-App Events due to \"not offering new content/feature\" for events that were specifically promoting a new feature within the app. We have tried communicating to Apple through the review process but was still not able to get it through review. What would be the recommended way to escalate this and ask for the details on the reasons why we are being rejected for certain events?",
+      "ts": "1666288478.664259",
+      "thread_ts": "1666288478.664259",
+      "subtype": "bot_message",
+      "bot_id": "B042Y0BE1D4",
+      "username": "Ask Apple - in-app-events",
+      "reply_count": 1,
+      "latest_reply": "1666288491.964039",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "VO+t",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046B0VD012"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"We often face rejections from Apple for the In-App Events due to \\\"not offering new content\\/feature\\\" for events that were specifically promoting a new feature within the app. We have tried communicating to Apple through the review process but was still not able to get it through review. What would be the recommended way to escalate this and ask for the details on the reasons why we are being rejected for certain events?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "15baeaa6-5790-4229-b581-dd7eb16772f9",
+          "type": "message",
+          "user": "U044JQG7CQ4",
+          "text": "Hi Tina, if you would like further explanation about the App Review decision, you can respond to the rejection in App Store Connect and ask for more information or request a call with App Review.\n\nIf you do not have clarifying questions and feel the App Review decision was invalid, you may file an \u003chttps://developer.apple.com/contact/app-store/?topic=appeal|appeal\u003e.",
+          "ts": "1666288491.964039",
+          "thread_ts": "1666288478.664259",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "5Dlf4",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi Tina, if you would like further explanation about the App Review decision, you can respond to the rejection in App Store Connect and ask for more information or request a call with App Review.\n\nIf you do not have clarifying questions and feel the App Review decision was invalid, you may file an "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/contact/app-store/?topic=appeal",
+                      "text": "appeal"
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U045MM3PG15\u003e asked\n\u0026gt; How to attribute installs to an In-App Event if the user clicks on the App’s download button (the one that appears above the In-App Event card) instead of the actual In-App Event download button? Will Apple ever update to 1 CTA button so the downloads can be attributed to the In-App Event?",
+      "ts": "1666288810.269719",
+      "thread_ts": "1666288810.269719",
+      "subtype": "bot_message",
+      "bot_id": "B042Y0BE1D4",
+      "username": "Ask Apple - in-app-events",
+      "reply_count": 1,
+      "latest_reply": "1666288840.163199",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "AMJx+",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U045MM3PG15"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"How to attribute installs to an In-App Event if the user clicks on the App\\u2019s download button (the one that appears above the In-App Event card) instead of the actual In-App Event download button? Will Apple ever update to 1 CTA button so the downloads can be attributed to the In-App Event?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "614e5b29-a0a1-487d-a66b-ebfced9b96a7",
+          "type": "message",
+          "user": "U044HJPV147",
+          "text": "Hi A! Downloads only get attributed to In-App Events when the user downloads from the In-App Event card or details page.",
+          "ts": "1666288840.163199",
+          "thread_ts": "1666288810.269719",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "s5hn",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi A! Downloads only get attributed to In-App Events when the user downloads from the In-App Event card or details page."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046B0VD012\u003e asked\n\u0026gt; When we are interpreting the data for in-app events, are the search impression and downloads incremental?",
+      "ts": "1666288893.627889",
+      "thread_ts": "1666288893.627889",
+      "subtype": "bot_message",
+      "bot_id": "B042Y0BE1D4",
+      "username": "Ask Apple - in-app-events",
+      "reply_count": 3,
+      "latest_reply": "1666289226.590349",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "RbV",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046B0VD012"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"When we are interpreting the data for in-app events, are the search impression and downloads incremental?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "c49211c3-cb80-4bf6-9722-acad068c2ca2",
+          "type": "message",
+          "user": "U044HJPV147",
+          "text": "Hi Tina! If an in-app event appears in search results, it will appear as both an in-app event impression and a regular impression from App Store search.",
+          "ts": "1666288902.228029",
+          "thread_ts": "1666288893.627889",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "kWBtU",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi Tina! If an in-app event appears in search results, it will appear as both an in-app event impression and a regular impression from App Store search."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "67b7dd1b-b775-4f76-91d3-615c440be0de",
+          "type": "message",
+          "user": "U046B0VD012",
+          "text": "\u003c@U044HJPV147\u003e Thanks! In the cases where the user sees both the store listing and the event card in the same page, would that count as 2 impressions?",
+          "ts": "1666289189.038359",
+          "thread_ts": "1666288893.627889",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "LraX",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U044HJPV147"
+                    },
+                    {
+                      "type": "text",
+                      "text": " Thanks! In the cases where the user sees both the store listing and the event card in the same page, would that count as 2 impressions?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "0ce2611d-e472-4525-b8ed-3c751a9c7712",
+          "type": "message",
+          "user": "U044HJPV147",
+          "text": "It would be one regular impression, and one in-app event impression.",
+          "ts": "1666289226.590349",
+          "thread_ts": "1666288893.627889",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "wM7Dg",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "It would be one regular impression, and one in-app event impression."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U045MM3PG15\u003e asked\n\u0026gt; Your help today with In-App Event was extraordinary.. If we have similar questions in the future, what is the best way to get answers from Apple experts without waiting for the next relevant event?",
+      "ts": "1666289058.078299",
+      "thread_ts": "1666289058.078299",
+      "subtype": "bot_message",
+      "bot_id": "B042Y0BE1D4",
+      "username": "Ask Apple - in-app-events",
+      "reply_count": 3,
+      "latest_reply": "1666289116.680669",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "oy5D",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U045MM3PG15"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Your help today with In-App Event was extraordinary.. If we have similar questions in the future, what is the best way to get answers from Apple experts without waiting for the next relevant event?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "2f9117f2-569f-4fb1-afa1-063a511e6d56",
+          "type": "message",
+          "user": "U044HJPV147",
+          "text": "Great to hear it, thanks for joining!",
+          "ts": "1666289068.455209",
+          "thread_ts": "1666289058.078299",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ywAHW",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Great to hear it, thanks for joining!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "0152b1c9-28f7-4003-b9e7-e88bf018b164",
+          "type": "message",
+          "user": "U044HJPV147",
+          "text": "You can \u003chttps://developer.apple.com/contact/|contact Apple Developer Support at any time\u003e.",
+          "ts": "1666289102.341449",
+          "thread_ts": "1666289058.078299",
+          "attachments": [
+            {
+              "fallback": "Sign In - Apple",
+              "id": 1,
+              "title": "Sign In - Apple",
+              "title_link": "https://developer.apple.com/contact/",
+              "text": "Sign in with your Apple ID",
+              "service_name": "idmsa.apple.com",
+              "service_icon": "https://appleid.cdn-apple.com/daw/IDMSWebAuth/static/10Oct2022/images/favicon.ico",
+              "from_url": "https://developer.apple.com/contact/",
+              "original_url": "https://developer.apple.com/contact/",
+              "blocks": null
+            }
+          ],
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Mujr",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "You can "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/contact/",
+                      "text": "contact Apple Developer Support at any time"
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "386642dc-c586-4866-b10e-13952ef2fcaf",
+          "type": "message",
+          "user": "U045MM3PG15",
+          "text": "Great, thank you again \u003c@U044HJPV147\u003e Cheers!",
+          "ts": "1666289116.680669",
+          "thread_ts": "1666289058.078299",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "raised_hands",
+              "count": 1,
+              "users": [
+                "U044HJPV147"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "tOI",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Great, thank you again "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U044HJPV147"
+                    },
+                    {
+                      "type": "text",
+                      "text": " Cheers!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "8681d651-2535-49c1-9f14-7af7899e15b8",
+      "type": "message",
+      "user": "U044DCHGZMK",
+      "text": "Thank you for joining us for this Q\u0026amp;A! I hope you had as much fun as we did :sunglasses:. With that our Q\u0026amp;A activities have concluded. We wish we could have answered all your questions! If we weren’t able to get to your question, here are some next steps:\n• File feedback! Let us know what’s not clear or what behavior seems a bit off by using the Feedback Assistant app or going to: \u003chttp://feedbackassistant.apple.com|feedbackassistant.apple.com\u003e\n• Submit a TSI! Developer Technical Support engineers are available to give you code-level support. You can submit a TSI here: \u003chttps://developer.apple.com/support/technical/\u003e\n• Ask a question on the Apple Developer Forums (or answer one if you spot something you’ve worked through before!): \u003chttps://developer.apple.com/forums/\u003e\nWe’ll be closing the workflow now. Thank you so much for making this such an engaging week!",
+      "ts": "1666289175.619279",
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "heart",
+          "count": 3,
+          "users": [
+            "U044JQG7CQ4",
+            "U0467Q079D3",
+            "U047FQD4HB3"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "G8jdW",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Thank you for joining us for this Q\u0026A! I hope you had as much fun as we did "
+                },
+                {
+                  "type": "emoji",
+                  "name": "sunglasses",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": ". With that our Q\u0026A activities have concluded. We wish we could have answered all your questions! If we weren’t able to get to your question, here are some next steps:\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_list",
+              "Raw": "{\"type\":\"rich_text_list\",\"elements\":[{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"File feedback! Let us know what\\u2019s not clear or what behavior seems a bit off by using the Feedback Assistant app or going to: \"},{\"type\":\"link\",\"url\":\"http:\\/\\/feedbackassistant.apple.com\",\"text\":\"feedbackassistant.apple.com\"}]},{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"Submit a TSI! Developer Technical Support engineers are available to give you code-level support. You can submit a TSI here: \"},{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/support\\/technical\\/\"}]},{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"Ask a question on the Apple Developer Forums (or answer one if you spot something you\\u2019ve worked through before!): \"},{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/forums\\/\"}]}],\"style\":\"bullet\",\"indent\":0,\"border\":0}"
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "We’ll be closing the workflow now. Thank you so much for making this such an engaging week!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "channel_id": "C043CLWEXCH"
+}

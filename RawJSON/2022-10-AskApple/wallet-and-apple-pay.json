@@ -1,0 +1,2335 @@
+{
+  "name": "wallet-and-apple-pay",
+  "messages": [
+    {
+      "type": "message",
+      "user": "U03V30M0C1K",
+      "text": "This content can't be displayed.",
+      "ts": "1665433142.745499",
+      "pinned_to": [
+        "C042TB1S43G"
+      ],
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "flag-ua",
+          "count": 1,
+          "users": [
+            "U046JMVM9J5"
+          ]
+        },
+        {
+          "name": "+1",
+          "count": 3,
+          "users": [
+            "U04670E4SLU",
+            "U046TDS4WF6",
+            "U046L812DAQ"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "header",
+          "text": {
+            "type": "plain_text",
+            "text": "Welcome to Ask Apple",
+            "emoji": true
+          },
+          "block_id": "j7gW"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "We're excited to be hosting you in the Wallet and ApplePay channel this week! You can find the full schedule of Q\u0026amp;As for Wallet and ApplePay by visiting the \u003chttps://apps.apple.com/us/app/apple-developer/id640199958 | Apple Developer app\u003e and \u003chttps://developer.apple.com/events/ask-apple/questions-and-answers/ | website\u003e."
+          },
+          "block_id": "4Q3e"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "If you haven’t already, please take a moment to familiarize yourself with \u003chttps://developer.apple.com/news/?id=vpbyzfg4 | how Q\u0026amp;As will work\u003e."
+          },
+          "block_id": "d3cQC"
+        },
+        {
+          "type": "header",
+          "text": {
+            "type": "plain_text",
+            "text": "Attendance Policy",
+            "emoji": true
+          },
+          "block_id": "uO=m"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "We want to make sure these spaces are helpful and welcoming for everyone — developers and Apple employees alike. Please review and follow the \u003chttps://developer.apple.com/events/policy/online-event-attendance-policy/ | attendance policy\u003e."
+          },
+          "block_id": "w5f7"
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03V30M0C1K\u003e added a workflow to this channel: *Ask Apple - wallet-and-apple-pay*.",
+      "ts": "1666018934.843509",
+      "subtype": "bot_message",
+      "bot_id": "B0434J27MCJ",
+      "username": "Ask Apple - wallet-and-apple-pay",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "hp=Ir",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03V30M0C1K"
+                },
+                {
+                  "type": "text",
+                  "text": " added a workflow to this channel: "
+                },
+                {
+                  "type": "text",
+                  "text": "Ask Apple - wallet-and-apple-pay",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "c4c83816-75a3-4952-a66f-c045cc7410d3",
+      "type": "message",
+      "user": "U0455S159G8",
+      "text": "Welcome to the Wallet and Apple Pay Q\u0026amp;A! The team is really looking forward to answering your questions. Select the:heavy_plus_sign:icon from the lower left, and choose the _Ask A Question_ workflow. Type in your question and it will be delivered directly to us. While we’ll answer as many questions as we can (this is a broad topic!), all your submissions and feedback are super valuable. Thank you for joining us! :shopping_trolley: :credit_card:",
+      "ts": "1666126829.443109",
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "shopping_bags",
+          "count": 3,
+          "users": [
+            "U03V30M0C1K",
+            "U0452JV30AK",
+            "U0471BFLNAY"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "6kK",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Welcome to the Wallet and Apple Pay Q\u0026A! The team is really looking forward to answering your questions. Select the"
+                },
+                {
+                  "type": "emoji",
+                  "name": "heavy_plus_sign",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": "icon from the lower left, and choose the "
+                },
+                {
+                  "type": "text",
+                  "text": "Ask A Question",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " workflow. Type in your question and it will be delivered directly to us. While we’ll answer as many questions as we can (this is a broad topic!), all your submissions and feedback are super valuable. Thank you for joining us! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "shopping_trolley",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "emoji",
+                  "name": "credit_card",
+                  "skin_tone": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046G17N76V\u003e asked\n\u0026gt; Published reports indicate that CarPlay 2.0 will allow a user to pay for gasoline and start an Automated Fuel Dispenser (AFD).  How will that be accomplished in the absence of a near-field communication device or terminal, which only operates within 10 cm?  Is the communication through ApplePay’s payment processing system? Is there another communication device involved, which identifies the vehicle that is being refueled to and with an AFD, so as to minimize fraud? Will CarPlay 2.0 have its own modules for ensuring PCI DSS compliance?",
+      "ts": "1666127100.937419",
+      "thread_ts": "1666127100.937419",
+      "subtype": "bot_message",
+      "bot_id": "B0434J27MCJ",
+      "username": "Ask Apple - wallet-and-apple-pay",
+      "reply_count": 1,
+      "latest_reply": "1666127115.455509",
+      "reactions": [
+        {
+          "name": "white_check_mark",
+          "count": 1,
+          "users": [
+            "U0455S159G8"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "H7Bwf",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046G17N76V"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Published reports indicate that CarPlay 2.0 will allow a user to pay for gasoline and start an Automated Fuel Dispenser (AFD).  How will that be accomplished in the absence of a near-field communication device or terminal, which only operates within 10 cm?  Is the communication through ApplePay\\u2019s payment processing system? Is there another communication device involved, which identifies the vehicle that is being refueled to and with an AFD, so as to minimize fraud? Will CarPlay 2.0 have its own modules for ensuring PCI DSS compliance?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "e955f53d-af2c-4e32-b94f-7af5be294c33",
+          "type": "message",
+          "user": "U0455S159G8",
+          "text": "Thanks for your question. The CarPlay Q\u0026amp;A is the best place to get details behind this capability.",
+          "ts": "1666127115.455509",
+          "thread_ts": "1666127100.937419",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Pw5",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for your question. The CarPlay Q\u0026A is the best place to get details behind this capability."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U04670E4SLU\u003e asked\n\u0026gt; Earlier I have came across a news where is Apple will releasing a capability to add IDCards like Driving License into wallet app in super secure manner like we do it with Credit Cards right now.\n\u0026gt; \n\u0026gt; I wanted to know by when this can be available for most of the US states?\n\u0026gt; \n\u0026gt; Also can you share some documentation which can help me understand third party integration.",
+      "ts": "1666127169.021619",
+      "thread_ts": "1666127169.021619",
+      "subtype": "bot_message",
+      "bot_id": "B0434J27MCJ",
+      "username": "Ask Apple - wallet-and-apple-pay",
+      "reply_count": 1,
+      "latest_reply": "1666127406.568229",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "+lBAe",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U04670E4SLU"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Earlier I have came across a news where is Apple will releasing a capability to add IDCards like Driving License into wallet app in super secure manner like we do it with Credit Cards right now.\\n\\nI wanted to know by when this can be available for most of the US states?\\n\\nAlso can you share some documentation which can help me understand third party integration.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "0bf15bfe-f24e-4831-b085-26f79f5cd6be",
+          "type": "message",
+          "user": "U0455S159G8",
+          "text": "Arizona and Maryland residents can add their driver’s license to Wallet today! Other states will add support in the future, including Colorado, Connecticut, Georgia, Hawaii, Iowa, Kentucky, Mississippi, Ohio, Oklahoma and Utah, as well as the territory of Puerto Rico.\n\nStarting in iOS 16, your app can request identity information from the user’s driver’s license. For more information check out this year’s Apple Pay \u0026amp; Wallet WWDC session: \u003chttps://developer.apple.com/videos/play/wwdc2022/10041/\u003e, You can also look at our developer documentation: \u003chttps://developer.apple.com/documentation/passkit/wallet/requesting_identity_data_from_a_wallet_pass\u003e",
+          "ts": "1666127406.568229",
+          "thread_ts": "1666127169.021619",
+          "attachments": [
+            {
+              "fallback": "Apple Developer: What’s new in Wallet and Apple Pay - WWDC22 - Videos - Apple Developer",
+              "id": 1,
+              "title": "What’s new in Wallet and Apple Pay - WWDC22 - Videos - Apple Developer",
+              "title_link": "https://developer.apple.com/videos/play/wwdc2022/10041/",
+              "text": "Discover the latest updates to Wallet \u0026amp; Apple Pay. We'll show you how to support Orders in Wallet for your apps and websites and securely...",
+              "image_url": "https://devimages-cdn.apple.com/wwdc-services/images/124/6534/6534_wide_250x141_2x.jpg",
+              "service_name": "Apple Developer",
+              "service_icon": "https://developer.apple.com/favicon.ico",
+              "from_url": "https://developer.apple.com/videos/play/wwdc2022/10041/",
+              "original_url": "https://developer.apple.com/videos/play/wwdc2022/10041/",
+              "blocks": null
+            }
+          ],
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "36UEY",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Arizona and Maryland residents can add their driver’s license to Wallet today! Other states will add support in the future, including Colorado, Connecticut, Georgia, Hawaii, Iowa, Kentucky, Mississippi, Ohio, Oklahoma and Utah, as well as the territory of Puerto Rico.\n\nStarting in iOS 16, your app can request identity information from the user’s driver’s license. For more information check out this year’s Apple Pay \u0026 Wallet WWDC session: "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/videos/play/wwdc2022/10041/",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": ", You can also look at our developer documentation: "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/passkit/wallet/requesting_identity_data_from_a_wallet_pass",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046ESMP5PT\u003e asked\n\u0026gt; How much time does it take to receive an NFC Certificate?",
+      "ts": "1666127504.354179",
+      "thread_ts": "1666127504.354179",
+      "subtype": "bot_message",
+      "bot_id": "B0434J27MCJ",
+      "username": "Ask Apple - wallet-and-apple-pay",
+      "reply_count": 1,
+      "latest_reply": "1666127659.005099",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "1Z8V1",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046ESMP5PT"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"How much time does it take to receive an NFC Certificate?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "e6d838d6-5298-4284-8fde-4be9b612cc03",
+          "type": "message",
+          "user": "U0455S159G8",
+          "text": "Not sure. May want to re-apply at \u003chttps://developer.apple.com/contact/passkit/\u003e and send a note to \u003cmailto:mgm@apple.com|mgm@apple.com\u003e",
+          "ts": "1666127659.005099",
+          "thread_ts": "1666127504.354179",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "uVG",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Not sure. May want to re-apply at "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/contact/passkit/",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": " and send a note to "
+                    },
+                    {
+                      "type": "link",
+                      "url": "mailto:mgm@apple.com",
+                      "text": "mgm@apple.com"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "1124d51c-a04a-4079-b3f7-74cbaac4b5f9",
+      "type": "message",
+      "user": "U0455S159G8",
+      "text": "\u003c@U045Z8YCR37\u003e The entitlement for in app identity presentment is not yet available. More information about this entitlement will be available soon.",
+      "ts": "1666127897.131619",
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "gratitude-thank-you",
+          "count": 1,
+          "users": [
+            "U045Z8YCR37"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "HgA",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U045Z8YCR37"
+                },
+                {
+                  "type": "text",
+                  "text": " The entitlement for in app identity presentment is not yet available. More information about this entitlement will be available soon."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0471BFLNAY\u003e asked\n\u0026gt; When Apple Wallet would support scanning and storing 3rd party loyalty cards(QR codes and barcodes)? It would be very nice to have this functionality built-in to the Wallet.",
+      "ts": "1666128023.580149",
+      "thread_ts": "1666128023.580149",
+      "subtype": "bot_message",
+      "bot_id": "B0434J27MCJ",
+      "username": "Ask Apple - wallet-and-apple-pay",
+      "reply_count": 1,
+      "latest_reply": "1666128044.049859",
+      "reactions": [
+        {
+          "name": "ballot_box_with_ballot",
+          "count": 2,
+          "users": [
+            "U045ZKHALFP",
+            "U0462QAUTNH"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ViYV",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0471BFLNAY"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"When Apple Wallet would support scanning and storing 3rd party loyalty cards(QR codes and barcodes)? It would be very nice to have this functionality built-in to the Wallet.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "9347b2b8-6f11-4e2a-9c0d-53e4f26ed163",
+          "type": "message",
+          "user": "U0455S159G8",
+          "text": "Great ask! Many features are driven by developer (your) input.  Please file a Feedback Request and include the link to your request in this thread!",
+          "ts": "1666128044.049859",
+          "thread_ts": "1666128023.580149",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "fH93t",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Great ask! Many features are driven by developer (your) input.  Please file a Feedback Request and include the link to your request in this thread!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046PVC75SR\u003e asked\n\u0026gt; What is the preferred way for developers to handle a .pkpasses bundle, both on web and within iOS? The pkpasses ingestion appears to be Safari specific, rather than Webkit/WKWebView, which means users on Chrome for iOS, Firefox, or custom in app browsers will not be able to download the archive to their wallet successfully.\n\u0026gt; \n\u0026gt; Should developers be checking for a specific Safari User Agent in this scenario before offering a .pkpasses bundle?",
+      "ts": "1666128729.531569",
+      "thread_ts": "1666128729.531569",
+      "subtype": "bot_message",
+      "bot_id": "B0434J27MCJ",
+      "username": "Ask Apple - wallet-and-apple-pay",
+      "reply_count": 1,
+      "latest_reply": "1666128764.664829",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "E/R",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046PVC75SR"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"What is the preferred way for developers to handle a .pkpasses bundle, both on web and within iOS? The pkpasses ingestion appears to be Safari specific, rather than Webkit\\/WKWebView, which means users on Chrome for iOS, Firefox, or custom in app browsers will not be able to download the archive to their wallet successfully.\\n\\nShould developers be checking for a specific Safari User Agent in this scenario before offering a .pkpasses bundle?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "71ae93fd-c35e-46df-8c86-926746239442",
+          "type": "message",
+          "user": "U0455S159G8",
+          "text": "Support for viewing and downloading pkpass files and bundles is implemented at the browser level, rather than within WebKit/WKWebView. Details can be found here: \u003chttps://developer.apple.com/documentation/walletpasses/distributing_and_updating_a_pass\u003e. However, non-Safari browsers should simply download the pass for the end user to open. Please file a feedback report for a broader implementation and paste the number here so we can track it. Thanks!",
+          "ts": "1666128764.664829",
+          "thread_ts": "1666128729.531569",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "dcs",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Support for viewing and downloading pkpass files and bundles is implemented at the browser level, rather than within WebKit/WKWebView. Details can be found here: "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/walletpasses/distributing_and_updating_a_pass",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": ". However, non-Safari browsers should simply download the pass for the end user to open. Please file a feedback report for a broader implementation and paste the number here so we can track it. Thanks!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0463060946\u003e asked\n\u0026gt; Is there any Beta / Program that other governments (México) can apply to start saving driver licenses in the Wallet app?",
+      "ts": "1666128806.410329",
+      "thread_ts": "1666128806.410329",
+      "subtype": "bot_message",
+      "bot_id": "B0434J27MCJ",
+      "username": "Ask Apple - wallet-and-apple-pay",
+      "reply_count": 2,
+      "latest_reply": "1666197741.817049",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "tEUB",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0463060946"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Is there any Beta \\/ Program that other governments (M\\u00e9xico) can apply to start saving driver licenses in the Wallet app?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "fc87299f-36cc-4889-a879-5cb60b995b6a",
+          "type": "message",
+          "user": "U0455S159G8",
+          "text": "Adding Mobile Driver’s license to your Wallet is only available to some states in the US like Arizona and Maryland. Other states will add support in the future, including Colorado, Connecticut, Georgia, Hawaii, Iowa, Kentucky, Mississippi, Ohio, Oklahoma and Utah, as well as the territory of Puerto Rico.  And of course…a Feedback report for the desired support is always welcome.",
+          "ts": "1666129101.014179",
+          "thread_ts": "1666128806.410329",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "FhRn",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Adding Mobile Driver’s license to your Wallet is only available to some states in the US like Arizona and Maryland. Other states will add support in the future, including Colorado, Connecticut, Georgia, Hawaii, Iowa, Kentucky, Mississippi, Ohio, Oklahoma and Utah, as well as the territory of Puerto Rico.  And of course…a Feedback report for the desired support is always welcome."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "d10044ca-e07a-4b01-84c7-7ad70114d617",
+          "type": "message",
+          "user": "U045H38HH1R",
+          "text": "If you end up filling a feedback report, please post the number here so we can take a look.",
+          "ts": "1666197741.817049",
+          "thread_ts": "1666128806.410329",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "BvCR",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "If you end up filling a feedback report, please post the number here so we can take a look."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U045ZGP2QCV\u003e asked\n\u0026gt; Will the new Savings Account be filterable as valid (i.e., like a debit card) for recurring Apple Pay payments?",
+      "ts": "1666129282.733539",
+      "thread_ts": "1666129282.733539",
+      "subtype": "bot_message",
+      "bot_id": "B0434J27MCJ",
+      "username": "Ask Apple - wallet-and-apple-pay",
+      "reply_count": 1,
+      "latest_reply": "1666129333.399999",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "XwUy",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U045ZGP2QCV"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Will the new Savings Account be filterable as valid (i.e., like a debit card) for recurring Apple Pay payments?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "43b0da60-9002-4089-b97c-1ce34ebd954e",
+          "type": "message",
+          "user": "U0455S159G8",
+          "text": "Great question! More details will come when this capability is launched.",
+          "ts": "1666129333.399999",
+          "thread_ts": "1666129282.733539",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "l6Bx",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Great question! More details will come when this capability is launched."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U045ZSJKA9K\u003e asked\n\u0026gt; Will there be an option to issue Hotel Room Keys for Wallet without the need for a native App",
+      "ts": "1666129622.890039",
+      "thread_ts": "1666129622.890039",
+      "subtype": "bot_message",
+      "bot_id": "B0434J27MCJ",
+      "username": "Ask Apple - wallet-and-apple-pay",
+      "reply_count": 2,
+      "latest_reply": "1666195354.950759",
+      "reactions": [
+        {
+          "name": "+1",
+          "count": 1,
+          "users": [
+            "U0464M23S4C"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "jqjoZ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U045ZSJKA9K"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Will there be an option to issue Hotel Room Keys for Wallet without the need for a native App\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "a1b7c97f-d6cb-4c92-86e7-d5087ef60643",
+          "type": "message",
+          "user": "U0455S159G8",
+          "text": "Hey Cyril, please file a Feedback and share the number in this thread so we can track it.",
+          "ts": "1666129636.443309",
+          "thread_ts": "1666129622.890039",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "raised_hands",
+              "count": 1,
+              "users": [
+                "U045ZSJKA9K"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "fiVjA",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hey Cyril, please file a Feedback and share the number in this thread so we can track it."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "A5A074BF-A7B4-46CD-8625-FA16BD5D3E5D",
+          "type": "message",
+          "user": "U045ZSJKA9K",
+          "text": "Here you go: FB10007061\nThanks for the consideration :+1:",
+          "ts": "1666195354.950759",
+          "thread_ts": "1666129622.890039",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "bUp8z",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Here you go: FB10007061\nThanks for "
+                    },
+                    {
+                      "type": "text",
+                      "text": "t"
+                    },
+                    {
+                      "type": "text",
+                      "text": "he consideration "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "+1",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0471BFLNAY\u003e asked\n\u0026gt; In CoreNFC theres new mysterious pace option. We would like to know what it is and how it works, as official documentation is lacking basic explanation. \u003chttps://developer.apple.com/documentation/corenfc/nfctagreadersession/pollingoption/3950980-pace|https://developer.apple.com/documentation/corenfc/nfctagreadersession/pollingoption/3950980-pace\u003e",
+      "ts": "1666130006.434039",
+      "thread_ts": "1666130006.434039",
+      "subtype": "bot_message",
+      "bot_id": "B0434J27MCJ",
+      "username": "Ask Apple - wallet-and-apple-pay",
+      "reply_count": 1,
+      "latest_reply": "1666130035.288419",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "qZ0o",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0471BFLNAY"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"In CoreNFC theres new mysterious pace option. We would like to know what it is and how it works, as official documentation is lacking basic explanation. \"},{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/documentation\\/corenfc\\/nfctagreadersession\\/pollingoption\\/3950980-pace\",\"text\":\"https:\\/\\/developer.apple.com\\/documentation\\/corenfc\\/nfctagreadersession\\/pollingoption\\/3950980-pace\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "729f883d-117e-472f-ad22-0b108c7644c9",
+          "type": "message",
+          "user": "U0455S159G8",
+          "text": "Be sure to check out the headers in addition to the documentation for the most comprehensive information.",
+          "ts": "1666130035.288419",
+          "thread_ts": "1666130006.434039",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "3NPC",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Be sure to check out the headers in addition to the documentation for the most comprehensive information."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0465HL94LS\u003e asked\n\u0026gt; What is the status of identification using cards in the wallet and  NFC for physical access control? I did some work for this for a company that made RFID access control readers. When I last worked on this the project seemed on hold/delayed on Apple’s side. I’ve had an inquiry from a potential client who wants to implant this.",
+      "ts": "1666130259.715409",
+      "thread_ts": "1666130259.715409",
+      "subtype": "bot_message",
+      "bot_id": "B0434J27MCJ",
+      "username": "Ask Apple - wallet-and-apple-pay",
+      "reply_count": 1,
+      "latest_reply": "1666130309.499949",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ACX",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0465HL94LS"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"What is the status of identification using cards in the wallet and  NFC for physical access control? I did some work for this for a company that made RFID access control readers. When I last worked on this the project seemed on hold\\/delayed on Apple\\u2019s side. I\\u2019ve had an inquiry from a potential client who wants to implant this.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "93fba6f1-9409-4560-bf41-11b76f8282d0",
+          "type": "message",
+          "user": "U0455S159G8",
+          "text": "Please file a Feedback report and add the number as a reply this thread. Bonus points for sending it along to \u003cmailto:mgm@apple.com|mgm@apple.com\u003e for tracking.",
+          "ts": "1666130309.499949",
+          "thread_ts": "1666130259.715409",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "BBsK",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Please file a Feedback report and add the number as a reply this thread. Bonus points for sending it along to "
+                    },
+                    {
+                      "type": "link",
+                      "url": "mailto:mgm@apple.com",
+                      "text": "mgm@apple.com"
+                    },
+                    {
+                      "type": "text",
+                      "text": " for tracking."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "5bb868a7-c17f-4d8b-9959-983f52029f07",
+      "type": "message",
+      "user": "U0455S159G8",
+      "text": "Thanks for your Wallet and Apple Pay questions! Keep posting your questions as they come to mind and we’ll pick them up live again tomorrow at 9 AM PDT! :gratitude-thank-you:",
+      "ts": "1666130675.090349",
+      "edited": {
+        "user": "U0455S159G8",
+        "ts": "1666130688.000000"
+      },
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "raised_hands",
+          "count": 2,
+          "users": [
+            "U045LLLQHLM",
+            "U0471BFLNAY"
+          ]
+        },
+        {
+          "name": "100",
+          "count": 2,
+          "users": [
+            "U045ZSJKA9K",
+            "U0471BFLNAY"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "9AU",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Thanks for your Wallet and Apple Pay questions! Keep posting your questions as they come to mind and we’ll pick them up live again tomorrow at 9 AM PDT! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "gratitude-thank-you",
+                  "skin_tone": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "7c309980-c065-41a2-9111-73a6d1f161aa",
+      "type": "message",
+      "user": "U0455S159G8",
+      "text": "Welcome back to the Wallet and Apple Pay Q\u0026amp;A! Once again, we’re looking forward to answering your questions. To ask a question, select the:heavy_plus_sign:icon in the lower left and choose the _Ask A Question_ workflow. Type in your question and it will be delivered directly to us. We’ll answer as many questions as we can (lots of moving parts in this one!) but even if we can’t get to them all, please know that your questions and feedback are super valuable. Thank you for joining us! :shopping_trolley: :credit_card:",
+      "ts": "1666195279.635879",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "nXIU6",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Welcome back to the Wallet and Apple Pay Q\u0026A! Once again, we’re looking forward to answering your questions. To ask a question, select the"
+                },
+                {
+                  "type": "emoji",
+                  "name": "heavy_plus_sign",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": "icon in the lower left and choose the "
+                },
+                {
+                  "type": "text",
+                  "text": "Ask A Question",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " workflow. Type in your question and it will be delivered directly to us. We’ll answer as many questions as we can (lots of moving parts in this one!) but even if we can’t get to them all, please know that your questions and feedback are super valuable. Thank you for joining us! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "shopping_trolley",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "emoji",
+                  "name": "credit_card",
+                  "skin_tone": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046PVC75SR\u003e asked\n\u0026gt; The 10 pass limit of a .pkpasses archive is not documented anywhere, and was only confirmed to me as part of FB11304325, but this limit should be documented. It would also be useful for my app's use case to have this limit raised. My use case is that we allow customer to add all rail tickets at once for a specific journey,  which can include over ten separate tickets. Currently, we have to support a flow of if the user attempts to download our .pkpasses bundle from the web, we have to direct them to our app, which nullifies having Wallet support available on desktop browsers",
+      "ts": "1666195328.104569",
+      "thread_ts": "1666195328.104569",
+      "subtype": "bot_message",
+      "bot_id": "B0434J27MCJ",
+      "username": "Ask Apple - wallet-and-apple-pay",
+      "reply_count": 1,
+      "latest_reply": "1666195342.587269",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "w/A",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046PVC75SR"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"The 10 pass limit of a .pkpasses archive is not documented anywhere, and was only confirmed to me as part of FB11304325, but this limit should be documented. It would also be useful for my app's use case to have this limit raised. My use case is that we allow customer to add all rail tickets at once for a specific journey,  which can include over ten separate tickets. Currently, we have to support a flow of if the user attempts to download our .pkpasses bundle from the web, we have to direct them to our app, which nullifies having Wallet support available on desktop browsers\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "0353d1cc-4f40-49a0-aed7-5d9ae92be56e",
+          "type": "message",
+          "user": "U045K1HSP6H",
+          "text": "Thank you for highlighting this and filing feedback, we'll review the documentation.",
+          "ts": "1666195342.587269",
+          "thread_ts": "1666195328.104569",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "UxE68",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thank you for highlighting this and filing feedback, we'll review the documentation."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046RFUBXJ5\u003e asked\n\u0026gt; I’d like to implement Apple Pay as a way for the customer to buy my Mac desktop application (outside of the Mac App Store), right within the app (without using the Safari browser). However my experience was disappointing. First, it’s turned out that Mac has its own wallet that is different from the iPhone wallet, i.e. you have to manually re-add cards you already have in your iPhone wallet to the Mac wallet. Second, the Mac wallet isn’t enabled by default, and in order to enable it, the user has to reboot in safe mode and turn on some obscure deeply buried setting. All in all it looks like too much trouble for 98% of the users. I have also tried to use WebKit component embedded into my app window in order to use Apple Pay via web, but the Apple Pay extension is blocked in component mode for security reasons. The end result is that Apple Pay only reasonably works in stand-alone web browser and only in Safari. Am I doing something wrong? Are there plans to improve support of Apple Pay on the Mac, addressing the above mentioned problems?",
+      "ts": "1666195353.462529",
+      "thread_ts": "1666195353.462529",
+      "subtype": "bot_message",
+      "bot_id": "B0434J27MCJ",
+      "username": "Ask Apple - wallet-and-apple-pay",
+      "reply_count": 4,
+      "latest_reply": "1666196026.970099",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "tlNbP",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046RFUBXJ5"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"I\\u2019d like to implement Apple Pay as a way for the customer to buy my Mac desktop application (outside of the Mac App Store), right within the app (without using the Safari browser). However my experience was disappointing. First, it\\u2019s turned out that Mac has its own wallet that is different from the iPhone wallet, i.e. you have to manually re-add cards you already have in your iPhone wallet to the Mac wallet. Second, the Mac wallet isn\\u2019t enabled by default, and in order to enable it, the user has to reboot in safe mode and turn on some obscure deeply buried setting. All in all it looks like too much trouble for 98% of the users. I have also tried to use WebKit component embedded into my app window in order to use Apple Pay via web, but the Apple Pay extension is blocked in component mode for security reasons. The end result is that Apple Pay only reasonably works in stand-alone web browser and only in Safari. Am I doing something wrong? Are there plans to improve support of Apple Pay on the Mac, addressing the above mentioned problems?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "7e2326af-5b21-4040-ae90-6259dd5a05c7",
+          "type": "message",
+          "user": "U045QDCF1K6",
+          "text": "Hi Oleg. Wallet \u0026amp; Apple Pay on macOS should be enabled by default for the vast majority of users, but can be disabled if certain security settings have been modified. And thank you for your feedback regarding the macOS Apple Pay experience.",
+          "ts": "1666195361.691589",
+          "thread_ts": "1666195353.462529",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "w+p3I",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi Oleg. Wallet \u0026 Apple Pay on macOS should be enabled by default for the vast majority of users, but can be disabled if certain security settings have been modified. And thank you for your feedback regarding the macOS Apple Pay experience."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "199A8705-7455-48F3-AD36-90FD4D69D167",
+          "type": "message",
+          "user": "U046RFUBXJ5",
+          "text": "Allright, suppose I accidentally changed my Mac’s security settings and my wallet became disabled and I forgot about it. But still, I think most people are used to use Apple Pay via their phones. It looks like an unreasonable expectation that the customer must first add his cards to the Mac wallet in order to be able to pay on the Mac. Ideally, it should work like in Safari - once the user initiates a payment in the app, his phone shows up the confirmation screen and he confirms on the phone. That’s the experience that most people would expect, I guess. Can this be implemented in macOS, are there any plans for this?",
+          "ts": "1666195683.136709",
+          "thread_ts": "1666195353.462529",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "WwQ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Allright, suppose I accidentally changed my Mac’s security settings and my wallet became disabled and I forgot about it"
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "text",
+                      "text": "B"
+                    },
+                    {
+                      "type": "text",
+                      "text": "ut still, I"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "text",
+                      "text": "think most people are used to use Apple Pay via their phones"
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    },
+                    {
+                      "type": "text",
+                      "text": " It looks like an unreasonable expectation that the customer must first add his cards to the Mac wallet in order to be able to pay on the Mac"
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    },
+                    {
+                      "type": "text",
+                      "text": " Ideally"
+                    },
+                    {
+                      "type": "text",
+                      "text": ","
+                    },
+                    {
+                      "type": "text",
+                      "text": " it should work like in Safari - once the user initiates a payment"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "text",
+                      "text": "in the app, his phone shows up the"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "text",
+                      "text": "confirmation screen and he confirms on the phone"
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "text",
+                      "text": "That’s"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "text",
+                      "text": "t"
+                    },
+                    {
+                      "type": "text",
+                      "text": "he experience that most people would expect, I guess"
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    },
+                    {
+                      "type": "text",
+                      "text": " Can this be implemented in macOS, are there any plans for this?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "702665E7-F24F-4617-B0DC-A1E78F42FF84",
+          "type": "message",
+          "user": "U046RFUBXJ5",
+          "text": "In fact, before I made my research I was completely unaware that Mac had its own wallet, and I used to pay with Apple Pay in Safari a lot of times on that Mac. And I’m a developer, i.e. an advanced user. An average user is even more unaware",
+          "ts": "1666195803.628849",
+          "thread_ts": "1666195353.462529",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "rMW",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "In fact, before I made my research I was completely unaware that Mac had its own wallet, and I used to pay with Apple Pay in Safari a lot of times"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "text",
+                      "text": "on that Mac"
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    },
+                    {
+                      "type": "text",
+                      "text": " And "
+                    },
+                    {
+                      "type": "text",
+                      "text": "I’m"
+                    },
+                    {
+                      "type": "text",
+                      "text": " a developer, i.e. an advanced user"
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    },
+                    {
+                      "type": "text",
+                      "text": " An average user is even more unaware"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "9ad8f0b2-a64f-4a3b-980c-df6bd034b336",
+          "type": "message",
+          "user": "U045QDCF1K6",
+          "text": "Thank you for your feedback",
+          "ts": "1666196026.970099",
+          "thread_ts": "1666195353.462529",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "erlVe",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thank you for your feedback"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0474C3GHD3\u003e asked\n\u0026gt; My company provides SaS to over 1000 merchants. We provide around 40 different payment methods currently.  We are currently adding Apple Pay to that list.  We have already been approved by Apple to use the Mass Enablement API to register individual merchants to use ApplePay benefits.  However, we are not the credit card processor, we need to be able register merchants each with their own Payment Processing certificate.  Currently we are only able to encrypt payment data from all merchants to one payment processing certificate.  This will not work for us.  How can register each merchant to their own payment processing certificate?",
+      "ts": "1666195437.087559",
+      "thread_ts": "1666195437.087559",
+      "subtype": "bot_message",
+      "bot_id": "B0434J27MCJ",
+      "username": "Ask Apple - wallet-and-apple-pay",
+      "reply_count": 6,
+      "latest_reply": "1666196861.646479",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Tss=",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0474C3GHD3"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"My company provides SaS to over 1000 merchants. We provide around 40 different payment methods currently.  We are currently adding Apple Pay to that list.  We have already been approved by Apple to use the Mass Enablement API to register individual merchants to use ApplePay benefits.  However, we are not the credit card processor, we need to be able register merchants each with their own Payment Processing certificate.  Currently we are only able to encrypt payment data from all merchants to one payment processing certificate.  This will not work for us.  How can register each merchant to their own payment processing certificate?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "6144d726-8cc3-4ddd-9506-175785115f01",
+          "type": "message",
+          "user": "U045H5S0ZMG",
+          "text": "Typically when you register a merchant through the \u003chttps://developer.apple.com/documentation/applepaywebmerchantregistrationapi/registermerchantrequest|mass enablement API\u003e you would provide your own merchant identifier in the *`encryptTo`* property, because you want to handle decryption on their behalf.\n\nHowever, you can provide another merchant identifier here instead. This would allow your merchants to register with their own merchant identifiers and certificates.\n\nThis does require your merchants to register their own merchant identifiers on \u003chttp://developer.apple.com|developer.apple.com\u003e, and provide those to you. Please do file a Feedback request if you think there are further improvements to the mass enablement API that would assist your use cases.",
+          "ts": "1666195447.762689",
+          "thread_ts": "1666195437.087559",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Qyc0",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Typically when you register a merchant through the "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/applepaywebmerchantregistrationapi/registermerchantrequest",
+                      "text": "mass enablement API"
+                    },
+                    {
+                      "type": "text",
+                      "text": " you would provide your own merchant identifier in the "
+                    },
+                    {
+                      "type": "text",
+                      "text": "encryptTo",
+                      "style": {
+                        "bold": true,
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " ",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "property, because you want to handle decryption on their behalf.\n\nHowever, you can provide another merchant identifier here instead. This would allow your merchants to register with their own merchant identifiers and certificates.\n\nThis does require your merchants to register their own merchant identifiers on "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://developer.apple.com",
+                      "text": "developer.apple.com"
+                    },
+                    {
+                      "type": "text",
+                      "text": ", and provide those to you. Please do file a Feedback request if you think there are further improvements to the mass enablement API that would assist your use cases."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "6a22d56b-1dc9-40a2-bfc7-31ea83893920",
+          "type": "message",
+          "user": "U0474C3GHD3",
+          "text": "That means each merchant would have to pay for an Apple Dev account, but they are not developers.  It feels like there should be a better way.  Hasn't this issue come up before?  It seems like this would happen frequently.",
+          "ts": "1666195853.765109",
+          "thread_ts": "1666195437.087559",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "w0K9/",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "That means each merchant would have to pay for an Apple Dev account, but they are not developers.  It feels like there should be a better way.  Hasn't this issue come up before?  It seems like this would happen frequently."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "4034de01-0c26-4eb4-add8-cb2df437799d",
+          "type": "message",
+          "user": "U045H5S0ZMG",
+          "text": "Yes, a developer account would be required.\n\nAnother option is decrypting the payment information and passing it to the merchant, who can send unencrypted to their payment processor. Most payment processors are happy to receive unencrypted Apple Pay payment data.",
+          "ts": "1666196651.935489",
+          "thread_ts": "1666195437.087559",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "VbYB",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yes, a developer account would be required.\n\nAnother option is decrypting the payment information and passing it to the merchant, who can send unencrypted to their payment processor. Most payment processors are happy to receive unencrypted Apple Pay payment data."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "7c3b53bc-f4e5-45c2-91da-fca8e1d164bf",
+          "type": "message",
+          "user": "U0474C3GHD3",
+          "text": "So we can send \"Device Account IDs\" to a payment processor and they should be able to handle that as well?  I mean as opposed to the actual credit card number.",
+          "ts": "1666196741.090999",
+          "thread_ts": "1666195437.087559",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "IwI=a",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "So we can send \"Device Account IDs\" to a payment processor and they should be able to handle that as well?  I mean as opposed to the actual credit card number."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "1a74a14a-5754-482b-a511-86aa7f83798b",
+          "type": "message",
+          "user": "U045H5S0ZMG",
+          "text": "Yes, that's correct.",
+          "ts": "1666196840.028979",
+          "thread_ts": "1666195437.087559",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "qn0ry",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yes, that's correct."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "ac1c6b09-0132-4e79-a4e7-eb57b0f0a4b8",
+          "type": "message",
+          "user": "U0474C3GHD3",
+          "text": "Great.  Thank you very much.  Loved the Q\u0026amp;A session.",
+          "ts": "1666196861.646479",
+          "thread_ts": "1666195437.087559",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U045H5S0ZMG"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "gSfAh",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Great.  Thank you very much.  Loved the Q\u0026A session."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046UNJJD8U\u003e asked\n\u0026gt; Is it possible to build a program in c# wpf and create passes with it?\n\u0026gt; and do you maybe have an example?",
+      "ts": "1666195495.784809",
+      "thread_ts": "1666195495.784809",
+      "subtype": "bot_message",
+      "bot_id": "B0434J27MCJ",
+      "username": "Ask Apple - wallet-and-apple-pay",
+      "reply_count": 1,
+      "latest_reply": "1666195512.541639",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "11+n",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046UNJJD8U"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Is it possible to build a program in c# wpf and create passes with it?\\nand do you maybe have an example?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "6bc0839c-f103-404b-9aaa-2ca5195e45d1",
+          "type": "message",
+          "user": "U045N06ANRG",
+          "text": "It should be possible to create a .pkpass file in any programming language. We do not provide sample code in C# however we do have documentation here: \u003chttps://developer.apple.com/documentation/walletpasses/building_a_pass/\u003e",
+          "ts": "1666195512.541639",
+          "thread_ts": "1666195495.784809",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "kDwaW",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "It should be possible to create a .pkpass file in any programming language. We do not provide sample code in C# however we do have documentation here: "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/walletpasses/building_a_pass/",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0465HL94LS\u003e asked\n\u0026gt; Made feedback request FB11703586",
+      "ts": "1666195620.987109",
+      "thread_ts": "1666195620.987109",
+      "subtype": "bot_message",
+      "bot_id": "B0434J27MCJ",
+      "username": "Ask Apple - wallet-and-apple-pay",
+      "reply_count": 1,
+      "latest_reply": "1666195634.735569",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "qTx",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0465HL94LS"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Made feedback request FB11703586\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "e56192e2-1feb-46c4-bbce-cec73cfd29e8",
+          "type": "message",
+          "user": "U0455S159G8",
+          "text": "Thanks for your Feedback!",
+          "ts": "1666195634.735569",
+          "thread_ts": "1666195620.987109",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "SWjP",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for your Feedback!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U045ZSJKA9K\u003e asked\n\u0026gt; With whom do we need to get into contact to get us onboarded to the Apple Access program so that we would be able to issue Hotel Room Keys through our hospitality platform. Initial discussions we had with members from  Pay team in EU/CH have no longer been responded",
+      "ts": "1666195759.743349",
+      "thread_ts": "1666195759.743349",
+      "subtype": "bot_message",
+      "bot_id": "B0434J27MCJ",
+      "username": "Ask Apple - wallet-and-apple-pay",
+      "reply_count": 1,
+      "latest_reply": "1666195777.277699",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Rlu",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U045ZSJKA9K"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"With whom do we need to get into contact to get us onboarded to the Apple Access program so that we would be able to issue Hotel Room Keys through our hospitality platform. Initial discussions we had with members from \\uf8ff Pay team in EU\\/CH have no longer been responded\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "4c38a927-39bd-46f8-82f4-a0d138f96669",
+          "type": "message",
+          "user": "U0455S159G8",
+          "text": "Be sure to file a Feedback for this and drop the number in this thread and send it in an email to \u003cmailto:mgm@apple.com|mgm@apple.com\u003e.",
+          "ts": "1666195777.277699",
+          "thread_ts": "1666195759.743349",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "2+N",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Be sure to file a Feedback for this and drop the number in this thread and send it in an email to "
+                    },
+                    {
+                      "type": "link",
+                      "url": "mailto:mgm@apple.com",
+                      "text": "mgm@apple.com"
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046ESMP5PT\u003e asked\n\u0026gt; Will Apple support Mifare classic Emulation? Other MiFare cards?",
+      "ts": "1666195832.566209",
+      "thread_ts": "1666195832.566209",
+      "subtype": "bot_message",
+      "bot_id": "B0434J27MCJ",
+      "username": "Ask Apple - wallet-and-apple-pay",
+      "reply_count": 1,
+      "latest_reply": "1666195844.702159",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Dv7P",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046ESMP5PT"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Will Apple support Mifare classic Emulation? Other MiFare cards?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "3f7661b3-0713-4246-86b3-3cee858e62ef",
+          "type": "message",
+          "user": "U0455S159G8",
+          "text": "We don’t support MiFare classic emulation but please file a Feedback and drop the number here so we can track it. Thanks!",
+          "ts": "1666195844.702159",
+          "thread_ts": "1666195832.566209",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "GEO9O",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "We don’t support MiFare classic emulation but please file a Feedback and drop the number here so we can track it. Thanks!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0462653YUW\u003e asked\n\u0026gt; Current Issue: App store page is showing apple wallet because code base has passkit (added for other clients to achieve apple pay). Planning to add macros to avoid having it build for the client which does not need the apple pay. so basically build it only needed. Doing that will help to remove the wallet icon from the app store page ? Not sure how to test this so asking here. Thanks",
+      "ts": "1666196657.498259",
+      "thread_ts": "1666196657.498259",
+      "subtype": "bot_message",
+      "bot_id": "B0434J27MCJ",
+      "username": "Ask Apple - wallet-and-apple-pay",
+      "reply_count": 2,
+      "latest_reply": "1666196872.930259",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Yb7M",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0462653YUW"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Current Issue: App store page is showing apple wallet because code base has passkit (added for other clients to achieve apple pay). Planning to add macros to avoid having it build for the client which does not need the apple pay. so basically build it only needed. Doing that will help to remove the wallet icon from the app store page ? Not sure how to test this so asking here. Thanks\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "3a23048e-8bb6-4e5e-925d-b5f62b13eba7",
+          "type": "message",
+          "user": "U0455S159G8",
+          "text": "Hi Rupal. Are you dynamically supporting Apple Pay based on a unique user sign-in into the app?",
+          "ts": "1666196670.715279",
+          "thread_ts": "1666196657.498259",
+          "edited": {
+            "user": "U0455S159G8",
+            "ts": "1666196950.000000"
+          },
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "3dQR",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi Rupal. Are you dynamically supporting Apple Pay based on a unique user sign-in into the app?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "d8d13314-c2f2-420a-8586-6de9d5a0a5d9",
+          "type": "message",
+          "user": "U0455S159G8",
+          "text": "If not, it’s possible to conditionally include the various Apple Pay entitlements and code during the build phase so only the correct apps will have Apple Pay.",
+          "ts": "1666196872.930259",
+          "thread_ts": "1666196657.498259",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "zlcIS",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "If not, it’s possible to conditionally include the various Apple Pay entitlements and code during the build phase so only the correct apps will have Apple Pay."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "ede78a07-0a5a-4b64-a6bc-246dce9d1024",
+      "type": "message",
+      "user": "U0455S159G8",
+      "text": "FYI: Be sure to check out the Wallet and Apple Pay session from WWDC: \u003chttps://developer.apple.com/videos/play/wwdc2022/10041/\u003e",
+      "ts": "1666197336.915669",
+      "attachments": [
+        {
+          "fallback": "Apple Developer: What’s new in Wallet and Apple Pay - WWDC22 - Videos - Apple Developer",
+          "id": 1,
+          "title": "What’s new in Wallet and Apple Pay - WWDC22 - Videos - Apple Developer",
+          "title_link": "https://developer.apple.com/videos/play/wwdc2022/10041/",
+          "text": "Discover the latest updates to Wallet \u0026amp; Apple Pay. We'll show you how to support Orders in Wallet for your apps and websites and securely...",
+          "image_url": "https://devimages-cdn.apple.com/wwdc-services/images/124/6534/6534_wide_250x141_2x.jpg",
+          "service_name": "Apple Developer",
+          "service_icon": "https://developer.apple.com/favicon.ico",
+          "from_url": "https://developer.apple.com/videos/play/wwdc2022/10041/",
+          "original_url": "https://developer.apple.com/videos/play/wwdc2022/10041/",
+          "blocks": null
+        }
+      ],
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "d3Ze",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "FYI: Be sure to check out the Wallet and Apple Pay session from WWDC: "
+                },
+                {
+                  "type": "link",
+                  "url": "https://developer.apple.com/videos/play/wwdc2022/10041/",
+                  "text": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0473799DHN\u003e asked\n\u0026gt; Do you have a date to release apple card in Mexico?",
+      "ts": "1666198868.029359",
+      "thread_ts": "1666198868.029359",
+      "subtype": "bot_message",
+      "bot_id": "B0434J27MCJ",
+      "username": "Ask Apple - wallet-and-apple-pay",
+      "reply_count": 1,
+      "latest_reply": "1666198886.437379",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "KeC3",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0473799DHN"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Do you have a date to release apple card in Mexico?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "69c92066-61b6-4139-9a93-db4c5c4676c7",
+          "type": "message",
+          "user": "U0455S159G8",
+          "text": "Hey Juan Carlos, thanks for your interest. I’m sure we’ll make some noise if it becomes available.",
+          "ts": "1666198886.437379",
+          "thread_ts": "1666198868.029359",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "2O=",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hey Juan Carlos, thanks for your interest. I’m sure we’ll make some noise if it becomes available."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "26913fac-11b0-4dac-a340-bae1188ffb19",
+      "type": "message",
+      "user": "U0455S159G8",
+      "text": "Thanks for all your questions and feedback. Apologies for not getting to all your questions but keep them coming via Feedback Assistant \u003chttps://feedbackassistant.apple.com/feedback\u003e and be sure to check out the other Ask Apple Q\u0026amp;A sessions happening this week!",
+      "ts": "1666220589.813409",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "VjyYL",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Thanks for all your questions and feedback. Apologies for not getting to all your questions but keep them coming via Feedback Assistant "
+                },
+                {
+                  "type": "link",
+                  "url": "https://feedbackassistant.apple.com/feedback",
+                  "text": ""
+                },
+                {
+                  "type": "text",
+                  "text": " and be sure to check out the other Ask Apple Q\u0026A sessions happening this week!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "channel_id": "C042TB1S43G"
+}

@@ -1,0 +1,1098 @@
+{
+  "name": "shared-with-you",
+  "messages": [
+    {
+      "type": "message",
+      "user": "U03V30M0C1K",
+      "text": "This content can't be displayed.",
+      "ts": "1665432961.083069",
+      "pinned_to": [
+        "C042KCLH6QP"
+      ],
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "raised_hands",
+          "count": 2,
+          "users": [
+            "U0466BDHRJP",
+            "U044XFK9H7E"
+          ]
+        },
+        {
+          "name": "heart",
+          "count": 1,
+          "users": [
+            "U044EFDKBJB"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "header",
+          "text": {
+            "type": "plain_text",
+            "text": "Welcome to Ask Apple",
+            "emoji": true
+          },
+          "block_id": "1aW"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "We're excited to be hosting you in the Shared with You channel this week! You can find the full schedule of Q\u0026amp;As for Shared with You by visiting the \u003chttps://apps.apple.com/us/app/apple-developer/id640199958 | Apple Developer app\u003e and \u003chttps://developer.apple.com/events/ask-apple/questions-and-answers/ | website\u003e."
+          },
+          "block_id": "dan/5"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "If you haven’t already, please take a moment to familiarize yourself with \u003chttps://developer.apple.com/news/?id=vpbyzfg4 | how Q\u0026amp;As will work\u003e."
+          },
+          "block_id": "=hR"
+        },
+        {
+          "type": "header",
+          "text": {
+            "type": "plain_text",
+            "text": "Attendance Policy",
+            "emoji": true
+          },
+          "block_id": "ckoF"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "We want to make sure these spaces are helpful and welcoming for everyone — developers and Apple employees alike. Please review and follow the \u003chttps://developer.apple.com/events/policy/online-event-attendance-policy/ | attendance policy\u003e."
+          },
+          "block_id": "ZaY"
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03V30M0C1K\u003e added a workflow to this channel: *Ask Apple - shared-with-you*.",
+      "ts": "1666018884.915809",
+      "subtype": "bot_message",
+      "bot_id": "B0434HGUN5Q",
+      "username": "Ask Apple - shared-with-you",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Muja",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03V30M0C1K"
+                },
+                {
+                  "type": "text",
+                  "text": " added a workflow to this channel: "
+                },
+                {
+                  "type": "text",
+                  "text": "Ask Apple - shared-with-you",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "bd5e7178-b077-447b-80d5-8543d74a3986",
+      "type": "message",
+      "user": "U045JP1S22U",
+      "text": "Howdy, and welcome to *Ask Apple* — a series of interactive Q\u0026amp;As and one-on-one consultations, providing you with insight, support, and feedback on your awesome apps directly from Apple experts!\n\nIn just a few minutes, we’re going to start our *Q\u0026amp;A: \"Add Shared with You to your app\"* activity! We’ll begin right at *12pm PDT*, so make sure you’ve already watched the \u003chttps://developer.apple.com/videos/play/wwdc2022/10094/|\"\u003e*\u003chttps://developer.apple.com/videos/play/wwdc2022/10094/|Add Shared with You to your app\u003e*\u003chttps://developer.apple.com/videos/play/wwdc2022/10094/|\" video\u003e from WWDC22. If you’re ahead of the game, check out the Shared with You documentation: \u003chttps://developer.apple.com/documentation/sharedwithyou/\u003e .\n\nUse the :heavy_plus_sign: icon in the text field below, and select “Ask a question” to submit a question during this activity. Apple experts will answer as many of your questions as they can!",
+      "ts": "1666202608.012309",
+      "attachments": [
+        {
+          "fallback": "Apple Developer: Add Shared with You to your app - WWDC22 - Videos - Apple Developer",
+          "id": 1,
+          "title": "Add Shared with You to your app - WWDC22 - Videos - Apple Developer",
+          "title_link": "https://developer.apple.com/videos/play/wwdc2022/10094/",
+          "text": "Shared with You helps people easily find content in your app that someone has shared with them in Messages. Learn how you can support...",
+          "image_url": "https://devimages-cdn.apple.com/wwdc-services/images/124/6588/6588_wide_250x141_2x.jpg",
+          "service_name": "Apple Developer",
+          "service_icon": "https://developer.apple.com/favicon.ico",
+          "from_url": "https://developer.apple.com/videos/play/wwdc2022/10094/",
+          "original_url": "https://developer.apple.com/videos/play/wwdc2022/10094/",
+          "blocks": null
+        }
+      ],
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "heart",
+          "count": 3,
+          "users": [
+            "U044EFDKBJB",
+            "U044XFK9H7E",
+            "U04678YRK98"
+          ]
+        },
+        {
+          "name": "tada",
+          "count": 2,
+          "users": [
+            "U044EFDKBJB",
+            "U044XFK9H7E"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Xdryl",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Howdy, and welcome to "
+                },
+                {
+                  "type": "text",
+                  "text": "Ask Apple",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " — a series of interactive Q\u0026As and one-on-one consultations, providing you with insight, support, and feedback on your awesome apps directly from Apple experts!\n\nIn just a few minutes, we’re going to start our "
+                },
+                {
+                  "type": "text",
+                  "text": "Q\u0026A: \"Add Shared with You to your app\"",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " activity! We’ll begin right at "
+                },
+                {
+                  "type": "text",
+                  "text": "12pm PDT",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ", so make sure you’ve already watched the "
+                },
+                {
+                  "type": "link",
+                  "url": "https://developer.apple.com/videos/play/wwdc2022/10094/",
+                  "text": "\""
+                },
+                {
+                  "type": "link",
+                  "url": "https://developer.apple.com/videos/play/wwdc2022/10094/",
+                  "text": "Add Shared with You to your app",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "link",
+                  "url": "https://developer.apple.com/videos/play/wwdc2022/10094/",
+                  "text": "\" video"
+                },
+                {
+                  "type": "text",
+                  "text": " from WWDC22. If you’re ahead of the game, check out the Shared with You documentation: "
+                },
+                {
+                  "type": "link",
+                  "url": "https://developer.apple.com/documentation/sharedwithyou/",
+                  "text": ""
+                },
+                {
+                  "type": "text",
+                  "text": " .\n\nUse the "
+                },
+                {
+                  "type": "emoji",
+                  "name": "heavy_plus_sign",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " icon in the text field below, and select “Ask a question” to submit a question during this activity. Apple experts will answer as many of your questions as they can!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "c129019d-47fc-4ee2-a281-654f18640459",
+      "type": "message",
+      "user": "U045JP1S22U",
+      "text": "\u003c!here\u003e Welcome everyone, and thank you for joining us for *Q\u0026amp;A: \"Add Shared with You to your app\"*! We can’t wait any longer to answer your Shared with You questions. Select the :heavy_plus_sign: icon from the lower left, and use the “Ask a question” workflow to submit your questions. We’ll answer as many questions as we can over the next 60 minutes!\n\nUnlock those questions, and ask away! :unlock:",
+      "ts": "1666206111.291139",
+      "edited": {
+        "user": "U045JP1S22U",
+        "ts": "1666206234.000000"
+      },
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "star-struck",
+          "count": 2,
+          "users": [
+            "U046DA9R188",
+            "U044EFDKBJB"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "9YSTr",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "broadcast",
+                  "range": "here"
+                },
+                {
+                  "type": "text",
+                  "text": " Welcome everyone, and thank you for joining us for "
+                },
+                {
+                  "type": "text",
+                  "text": "Q\u0026A: \"Add Shared with You to your app\"",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "! We can’t wait any longer to answer your Shared with You questions. Select the "
+                },
+                {
+                  "type": "emoji",
+                  "name": "heavy_plus_sign",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " icon from the lower left, and use the “Ask a question” workflow to submit your questions. We’ll answer as many questions as we can over the next 60 minutes!\n\nUnlock those questions, and ask away! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "unlock",
+                  "skin_tone": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U045ZRTH5A9\u003e asked\n\u0026gt; I currently have an app that uses the users private CloudKit database for storing data. What’s the best approach for having the users make something shareable from there with others?",
+      "ts": "1666206325.521969",
+      "thread_ts": "1666206325.521969",
+      "subtype": "bot_message",
+      "bot_id": "B0434HGUN5Q",
+      "username": "Ask Apple - shared-with-you",
+      "reply_count": 1,
+      "latest_reply": "1666206779.407969",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "VqH",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U045ZRTH5A9"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"I currently have an app that uses the users private CloudKit database for storing data. What\\u2019s the best approach for having the users make something shareable from there with others?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "939facdf-f5da-4592-920a-e937dc613365",
+          "type": "message",
+          "user": "U044EFDKBJB",
+          "text": "Hi Amy, thanks for the question! Are you looking to adopt Collaboration in Messages on your app's CloudKit data? Or is your question in regard to making your content generally shareable in order to surface it with Shared with You?",
+          "ts": "1666206779.407969",
+          "thread_ts": "1666206325.521969",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "0xcs",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi Amy, thanks for the question! Are you looking to adopt Collaboration in Messages on your app's CloudKit data? Or is your question in regard to making your content generally shareable in order to surface it with Shared with You?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U04695X1JM9\u003e asked\n\u0026gt; Can I use Shared with You to show links that don't necessarily have been generated by my app? The scenario is: my app manages Apple Music links, so I would like to have a Shared with You section that shows Apple Music links that have been shared with the user.",
+      "ts": "1666206344.248729",
+      "thread_ts": "1666206344.248729",
+      "subtype": "bot_message",
+      "bot_id": "B0434HGUN5Q",
+      "username": "Ask Apple - shared-with-you",
+      "reply_count": 3,
+      "latest_reply": "1666207447.142629",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "C5cNw",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U04695X1JM9"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Can I use Shared with You to show links that don't necessarily have been generated by my app? The scenario is: my app manages Apple Music links, so I would like to have a Shared with You section that shows Apple Music links that have been shared with the user.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "90e4858b-f2a7-4466-91b2-7ac3e985ba28",
+          "type": "message",
+          "user": "U044XFK9H7E",
+          "text": "Hey \u003c@U04695X1JM9\u003e thank you for the question. Shared with You is built upon Universal Links. So in this case only Music app will have access to Apple Music Links.",
+          "ts": "1666206590.227129",
+          "thread_ts": "1666206344.248729",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Et+st",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hey "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U04695X1JM9"
+                    },
+                    {
+                      "type": "text",
+                      "text": " thank you for the question. Shared with You is built upon Universal Links. So in this case only Music app will have access to Apple Music Links."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "6f432a6f-b103-4a41-847f-9966dfec6df6",
+          "type": "message",
+          "user": "U0468KDEQ4X",
+          "text": "\u003c@U04695X1JM9\u003e you could probably create your own custom URL scheme to be like `\u003chttp://yourdomain.com?apple-music-link=|yourdomain.com?apple-music-link=\u003e....` and have users share your \"redirect\" link in order to get them to show up in your app",
+          "ts": "1666207274.365279",
+          "thread_ts": "1666206344.248729",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "pl22",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U04695X1JM9"
+                    },
+                    {
+                      "type": "text",
+                      "text": " you could probably create your own custom URL scheme to be like "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://yourdomain.com?apple-music-link=",
+                      "text": "yourdomain.com?apple-music-link=",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "....",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " and have users share your \"redirect\" link in order to get them to show up in your app"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "6e5b6484-dc1e-42d3-8383-2a795e7211c3",
+          "type": "message",
+          "user": "U04625ZF30T",
+          "text": "The way \u003c@U0468KDEQ4X\u003e describes is how Apple can show links to Podcast apps that aren’t hosted on a domain they own.",
+          "ts": "1666207447.142629",
+          "thread_ts": "1666206344.248729",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "U2i",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "The way "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U0468KDEQ4X"
+                    },
+                    {
+                      "type": "text",
+                      "text": " describes is how Apple can show links to Podcast apps that aren’t hosted on a domain they own."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046TBEEX25\u003e asked\n\u0026gt; Our app with custom collaboration does not need any options to be displayed to the user, but Shared with You crashes if we set the defaultShareOptions of the SWCollaborationMetadata to nil. We have worked around this by setting the options to a SWCollaborationShareOptions with an empty array, but there is now a downside that the Shared with You widgets continue to show a \"Share Options\" section, which is empty. Is there a better way to handle this? Is it just an oversight/bug, or are we doing something wrong?",
+      "ts": "1666206793.943989",
+      "thread_ts": "1666206793.943989",
+      "subtype": "bot_message",
+      "bot_id": "B0434HGUN5Q",
+      "username": "Ask Apple - shared-with-you",
+      "reply_count": 2,
+      "latest_reply": "1666206995.418319",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "44Nt",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046TBEEX25"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Our app with custom collaboration does not need any options to be displayed to the user, but Shared with You crashes if we set the defaultShareOptions of the SWCollaborationMetadata to nil. We have worked around this by setting the options to a SWCollaborationShareOptions with an empty array, but there is now a downside that the Shared with You widgets continue to show a \\\"Share Options\\\" section, which is empty. Is there a better way to handle this? Is it just an oversight\\/bug, or are we doing something wrong?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "bcfff087-2901-431a-9083-8abeba3d5ea1",
+          "type": "message",
+          "user": "U044NDN7PRC",
+          "text": "Hey Drew, the behavior you are seeing is a known issue. Working around it with an empty array is a great approach. Thank you for your question!",
+          "ts": "1666206854.711809",
+          "thread_ts": "1666206793.943989",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "nTxI",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hey Drew, the behavior you are seeing is a known issue. Working around it with an empty array is a great approach. Thank you for your question!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "97AEA48E-CB5D-4721-916A-8FE27ECEF6C3",
+          "type": "message",
+          "user": "U046TBEEX25",
+          "text": "OK, thanks",
+          "ts": "1666206995.418319",
+          "thread_ts": "1666206793.943989",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "JK52=",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "OK, thanks"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046T40FY58\u003e asked\n\u0026gt; In iOS 16 we noticed that when you first install an app that uses Shared With You, the permission is not granted by default and the user needs to go to Messages Settings to enable it manually to give the app access to Shared With You. Is this as intended?",
+      "ts": "1666207059.169969",
+      "thread_ts": "1666207059.169969",
+      "subtype": "bot_message",
+      "bot_id": "B0434HGUN5Q",
+      "username": "Ask Apple - shared-with-you",
+      "reply_count": 3,
+      "latest_reply": "1666208896.885019",
+      "reactions": [
+        {
+          "name": "eyes",
+          "count": 1,
+          "users": [
+            "U044JTYKVRD"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Gk=",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046T40FY58"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"In iOS 16 we noticed that when you first install an app that uses Shared With You, the permission is not granted by default and the user needs to go to Messages Settings to enable it manually to give the app access to Shared With You. Is this as intended?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "b40df4d6-e079-4ec7-914b-77af368a9d20",
+          "type": "message",
+          "user": "U044XFK9H7E",
+          "text": "Thank you for your question \u003c@U046T40FY58\u003e!. Shared with You content for apps is not enabled by default. The user can pin your app's shared links in Messages. After several pins of that content, the user is asked if automatic pinning is desired.",
+          "ts": "1666207329.330369",
+          "thread_ts": "1666207059.169969",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "hU=3",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thank you for your question "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U046T40FY58"
+                    },
+                    {
+                      "type": "text",
+                      "text": "!. Shared with You content for apps is not enabled by default. The user can pin your app's shared links in Messages. After several pins of that content, the user is asked if automatic pinning is desired."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "04f2ccb9-6e1a-4ba4-95f0-a4be99b5e8cf",
+          "type": "message",
+          "user": "U046T40FY58",
+          "text": "So if I understand correctly, when the user is prompted in Messages, then this setting (see screenshot) is turned on for the app?\n\nI thought that the purpose of the prompt in Messages was to enable all links being shared with the app.",
+          "ts": "1666207564.077569",
+          "thread_ts": "1666207059.169969",
+          "files": [
+            {
+              "id": "F0478UFMJJX",
+              "created": 1666207507,
+              "timestamp": 1666207507,
+              "name": "image.png",
+              "title": "image.png",
+              "mimetype": "image/png",
+              "image_exif_rotation": 0,
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "U046T40FY58",
+              "mode": "hosted",
+              "editable": false,
+              "is_external": false,
+              "external_type": "",
+              "size": 513138,
+              "url": "",
+              "url_download": "",
+              "url_private": "C042KCLH6QP/F0478UFMJJX-image.png",
+              "url_private_download": "C042KCLH6QP/F0478UFMJJX-image.png",
+              "original_h": 2796,
+              "original_w": 1290,
+              "thumb_64": "https://files.slack.com/files-tmb/T01PTBJ95PS-F0478UFMJJX-a6e69ccf76/image_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T01PTBJ95PS-F0478UFMJJX-a6e69ccf76/image_80.png",
+              "thumb_160": "https://files.slack.com/files-tmb/T01PTBJ95PS-F0478UFMJJX-a6e69ccf76/image_160.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T01PTBJ95PS-F0478UFMJJX-a6e69ccf76/image_360.png",
+              "thumb_360_gif": "",
+              "thumb_360_w": 166,
+              "thumb_360_h": 360,
+              "thumb_480": "https://files.slack.com/files-tmb/T01PTBJ95PS-F0478UFMJJX-a6e69ccf76/image_480.png",
+              "thumb_480_w": 221,
+              "thumb_480_h": 480,
+              "thumb_720": "https://files.slack.com/files-tmb/T01PTBJ95PS-F0478UFMJJX-a6e69ccf76/image_720.png",
+              "thumb_720_w": 332,
+              "thumb_720_h": 720,
+              "thumb_960": "https://files.slack.com/files-tmb/T01PTBJ95PS-F0478UFMJJX-a6e69ccf76/image_960.png",
+              "thumb_960_w": 443,
+              "thumb_960_h": 960,
+              "thumb_1024": "https://files.slack.com/files-tmb/T01PTBJ95PS-F0478UFMJJX-a6e69ccf76/image_1024.png",
+              "thumb_1024_w": 472,
+              "thumb_1024_h": 1024,
+              "permalink": "https://appleevents.enterprise.slack.com/files/U046T40FY58/F0478UFMJJX/image.png",
+              "permalink_public": "https://slack-files.com/T01PTBJ95PS-F0478UFMJJX-bd068e9c9d",
+              "edit_link": "",
+              "preview": "",
+              "preview_highlight": "",
+              "lines": 0,
+              "lines_more": 0,
+              "is_public": false,
+              "public_url_shared": false,
+              "channels": null,
+              "groups": null,
+              "ims": null,
+              "initial_comment": {},
+              "comments_count": 0,
+              "num_stars": 0,
+              "is_starred": false,
+              "shares": {
+                "public": null,
+                "private": null
+              }
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "O4r",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "So if I understand correctly, when the user is prompted in Messages, then this setting (see screenshot) is turned on for the app?\n\nI thought that the purpose of the prompt in Messages was to enable all links being shared with the app."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "cf7a9294-0990-4f27-9550-c7d8671b1050",
+          "type": "message",
+          "user": "U044XFK9H7E",
+          "text": "Yes that is correct, the prompt that is presented after several pins enables the Switch for the app in Settings. From then onwards all links applicable for your app are surfaced automatically.",
+          "ts": "1666208896.885019",
+          "thread_ts": "1666207059.169969",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U046T40FY58"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "BOdq",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yes that is correct, the prompt that is presented after several pins enables the Switch for the app in Settings. From then onwards all links applicable for your app are surfaced automatically."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046TBEEX25\u003e asked\n\u0026gt; We support inviting others to our custom collaboration Mac app via Shared with You. We create a SWCollaborationMetadata, attach it to an NSItemProvider, and show a NSSharingServicePicker for that item provider. This works fine, but when the user chooses Messages from the picker, Messages open with the item, but it offers the user a choice between \"Collaboration\" and \"Send a Copy\". How do we either disable the \"Send a Copy\" option, or support it? Do we get a callback in the app that a copy is needed? Do we add the copy somehow to the picker as another NSItemProvider?",
+      "ts": "1666208428.293349",
+      "thread_ts": "1666208428.293349",
+      "subtype": "bot_message",
+      "bot_id": "B0434HGUN5Q",
+      "username": "Ask Apple - shared-with-you",
+      "reply_count": 2,
+      "latest_reply": "1666209248.742919",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "YhEo",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046TBEEX25"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"We support inviting others to our custom collaboration Mac app via Shared with You. We create a SWCollaborationMetadata, attach it to an NSItemProvider, and show a NSSharingServicePicker for that item provider. This works fine, but when the user chooses Messages from the picker, Messages open with the item, but it offers the user a choice between \\\"Collaboration\\\" and \\\"Send a Copy\\\". How do we either disable the \\\"Send a Copy\\\" option, or support it? Do we get a callback in the app that a copy is needed? Do we add the copy somehow to the picker as another NSItemProvider?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "fa6cd14a-0591-4470-ae36-b0e7556d6e24",
+          "type": "message",
+          "user": "U044EFDKTC7",
+          "text": "Hi Drew, thank you for your question. “Send as Copy” should work only if you have a file representation that you register on the NSItemProvider. If you don’t provide one and we still show the option for “Send as Copy”, this is an issue we are aware of.",
+          "ts": "1666208450.773419",
+          "thread_ts": "1666208428.293349",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "nFZ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi Drew, thank you for your question. “Send as Copy” should work only if you have a file representation that you register on the NSItemProvider. If you don’t provide one and we still show the option for “Send as Copy”, this is an issue we are aware of."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "36CA27E0-0219-4C54-8120-1771E0B88521",
+          "type": "message",
+          "user": "U046TBEEX25",
+          "text": "So should we add a file representation to the same item provider, or add a second item provider with the file?",
+          "ts": "1666209248.742919",
+          "thread_ts": "1666208428.293349",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "jQQWO",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "So should we add a file representation "
+                    },
+                    {
+                      "type": "text",
+                      "text": "t"
+                    },
+                    {
+                      "type": "text",
+                      "text": "o the same item provider, or add a second item provider with the file?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "2208bbd6-f711-4f81-aeba-56bc56c1812b",
+      "type": "message",
+      "user": "U045JP1S22U",
+      "text": ":hourglass_flowing_sand: Time’s almost up for our *Q\u0026amp;A: “Add Shared with You to your app”* activity. Don’t keep that last question locked up — ask it using the workflow below!",
+      "ts": "1666209347.237769",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "GAk",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "emoji",
+                  "name": "hourglass_flowing_sand",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " Time’s almost up for our "
+                },
+                {
+                  "type": "text",
+                  "text": "Q\u0026A: “Add Shared with You to your app”",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " activity. Don’t keep that last question locked up — ask it using the workflow below!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "7aad45b7-21a7-4941-bf4e-44d71b81fc8b",
+      "type": "message",
+      "user": "U045JP1S22U",
+      "text": "That’s the end of our *Q\u0026amp;A: “Add Shared with You to your app”* activity. Thank you all so much for your questions and excitement about Shared with You!\n\nDon’t skip the other activities happening this week during Ask Apple! Catch some more great Q\u0026amp;A sessions here on Slack throughout the week. Don’t forget to sign up for one-on-one office hours with the *Technology Evangelism*, *Design Evangelism*, and *Developer Technical Support* teams!\n\nWe hope you have a great week, and can’t wait to answer more of your questions soon. :wave:",
+      "ts": "1666209629.939239",
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "+1",
+          "count": 2,
+          "users": [
+            "U046797427P",
+            "U04678YRK98"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "WSkT",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "That’s the end of our "
+                },
+                {
+                  "type": "text",
+                  "text": "Q\u0026A: “Add Shared with You to your app”",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " activity. Thank you all so much for your questions and excitement about Shared with You!\n\nDon’t skip the other activities happening this week during Ask Apple! Catch some more great Q\u0026A sessions here on Slack throughout the week. Don’t forget to sign up for one-on-one office hours with the "
+                },
+                {
+                  "type": "text",
+                  "text": "Technology Evangelism",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ", "
+                },
+                {
+                  "type": "text",
+                  "text": "Design Evangelism",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ", and "
+                },
+                {
+                  "type": "text",
+                  "text": "Developer Technical Support",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " teams!\n\nWe hope you have a great week, and can’t wait to answer more of your questions soon. "
+                },
+                {
+                  "type": "emoji",
+                  "name": "wave",
+                  "skin_tone": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "channel_id": "C042KCLH6QP"
+}

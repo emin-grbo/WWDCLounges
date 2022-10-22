@@ -1,0 +1,1245 @@
+{
+  "name": "privacy-and-security",
+  "messages": [
+    {
+      "type": "message",
+      "user": "U03V30M0C1K",
+      "text": "This content can't be displayed.",
+      "ts": "1665433732.486699",
+      "pinned_to": [
+        "C04304WK6BU"
+      ],
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "header",
+          "text": {
+            "type": "plain_text",
+            "text": "Welcome to Ask Apple",
+            "emoji": true
+          },
+          "block_id": "86m"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "We're excited to be hosting you in the Privacy and Security channel this week! You can find the full schedule of Q\u0026amp;As for Privacy and Security by visiting the \u003chttps://apps.apple.com/us/app/apple-developer/id640199958 | Apple Developer app\u003e and \u003chttps://developer.apple.com/events/ask-apple/questions-and-answers/ | website\u003e."
+          },
+          "block_id": "/wgGW"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "If you haven’t already, please take a moment to familiarize yourself with \u003chttps://developer.apple.com/news/?id=vpbyzfg4 | how Q\u0026amp;As will work\u003e."
+          },
+          "block_id": "tMJ"
+        },
+        {
+          "type": "header",
+          "text": {
+            "type": "plain_text",
+            "text": "Attendance Policy",
+            "emoji": true
+          },
+          "block_id": "D1/nK"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "We want to make sure these spaces are helpful and welcoming for everyone — developers and Apple employees alike. Please review and follow the \u003chttps://developer.apple.com/events/policy/online-event-attendance-policy/ | attendance policy\u003e."
+          },
+          "block_id": "mjb"
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03V30M0C1K\u003e added a workflow to this channel: *Ask Apple - privacy-and-security*.",
+      "ts": "1666018999.310449",
+      "subtype": "bot_message",
+      "bot_id": "B04373APH8C",
+      "username": "Ask Apple - privacy-and-security",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Cat",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03V30M0C1K"
+                },
+                {
+                  "type": "text",
+                  "text": " added a workflow to this channel: "
+                },
+                {
+                  "type": "text",
+                  "text": "Ask Apple - privacy-and-security",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "7a6e86fc-9c7b-4301-a84a-9caddedb16cd",
+      "type": "message",
+      "user": "U04551P5M8T",
+      "text": "Howdy, and welcome to *Ask Apple* — a series of interactive Q\u0026amp;As and one-on-one consultations, providing you with insight, support, and feedback on your awesome apps directly from Apple experts!\n\nIn just a few minutes, we’re going to start our *Q\u0026amp;A: “Meet passkeys”* activity! We’ll begin right at *10am PDT*, so make sure you’ve already watched the \u003chttps://developer.apple.com/wwdc22/10092|\"Meet passkeys\" video\u003e from WWDC22. If you’re ahead of the game, check out the following resources for more:\n• Passkeys Overview: \u003chttps://developer.apple.com/passkeys/\u003e\n• Supporting passkeys: \u003chttps://developer.apple.com/documentation/authenticationservices/public-private_key_authentication/supporting_passkeys\u003e\u003chttps://developer.apple.com/documentation/authenticationservices/public-private_key_authentication/supporting_passkeys?language=objc|?\u003e\nUse the :heavy_plus_sign: icon in the text field below, and select “Ask a question” to submit a question during this activity. Apple experts will answer as many of your questions as they can!",
+      "ts": "1666025518.994829",
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "tada",
+          "count": 4,
+          "users": [
+            "U03V30M0C1K",
+            "U044YFJ2G3Y",
+            "U0455R18DT2",
+            "U03V8DT125A"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "DkE",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Howdy, and welcome to "
+                },
+                {
+                  "type": "text",
+                  "text": "Ask Apple",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " — a series of interactive Q\u0026As and one-on-one consultations, providing you with insight, support, and feedback on your awesome apps directly from Apple experts!\n\nIn just a few minutes, we’re going to start our "
+                },
+                {
+                  "type": "text",
+                  "text": "Q\u0026A: “Meet passkeys”",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " activity! We’ll begin right at "
+                },
+                {
+                  "type": "text",
+                  "text": "10am PDT",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ", so make sure you’ve already watched the "
+                },
+                {
+                  "type": "link",
+                  "url": "https://developer.apple.com/wwdc22/10092",
+                  "text": "\"Meet passkeys\" video"
+                },
+                {
+                  "type": "text",
+                  "text": " from WWDC22. If you’re ahead of the game, check out the following resources for more:\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_list",
+              "Raw": "{\"type\":\"rich_text_list\",\"elements\":[{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"Passkeys Overview: \"},{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/passkeys\\/\"}]},{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"Supporting passkeys: \"},{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/documentation\\/authenticationservices\\/public-private_key_authentication\\/supporting_passkeys\"},{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/documentation\\/authenticationservices\\/public-private_key_authentication\\/supporting_passkeys?language=objc\",\"text\":\"?\"}]}],\"style\":\"bullet\",\"indent\":0,\"border\":0}"
+            },
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "\nUse the "
+                },
+                {
+                  "type": "emoji",
+                  "name": "heavy_plus_sign",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " icon in the text field below, and select “Ask a question” to submit a question during this activity. Apple experts will answer as many of your questions as they can!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "aa2c9f60-dc0c-433a-b8b7-59d8319e1645",
+      "type": "message",
+      "user": "U04551P5M8T",
+      "text": "\u003c!here\u003e Welcome everyone, and thank you for joining us for *Q\u0026amp;A: “Meet passkeys”*! Select the :heavy_plus_sign: icon from the lower left, and use the “Ask a question” workflow to submit your questions. We’ll answer as many questions as we can over the next 60 minutes!\n\nUnlock those questions, and ask away! :unlock:",
+      "ts": "1666026001.557619",
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "star-struck",
+          "count": 3,
+          "users": [
+            "U0455R18DT2",
+            "U046UKZ6ZS4",
+            "U0462538BS7"
+          ]
+        },
+        {
+          "name": "lock",
+          "count": 1,
+          "users": [
+            "U046UKZ6ZS4"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "dIc",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "broadcast",
+                  "range": "here"
+                },
+                {
+                  "type": "text",
+                  "text": " Welcome everyone, and thank you for joining us for "
+                },
+                {
+                  "type": "text",
+                  "text": "Q\u0026A: “Meet passkeys”",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "! Select the "
+                },
+                {
+                  "type": "emoji",
+                  "name": "heavy_plus_sign",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " icon from the lower left, and use the “Ask a question” workflow to submit your questions. We’ll answer as many questions as we can over the next 60 minutes!\n\nUnlock those questions, and ask away! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "unlock",
+                  "skin_tone": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "8cf09f54-cda2-4437-83a0-25a2f8def727",
+      "type": "message",
+      "user": "U04551P5M8T",
+      "text": "Hi folks! We’re getting a few questions about the availability of passkeys on Apple devices. Answers in :thread:.",
+      "ts": "1666026732.227829",
+      "thread_ts": "1666026732.227829",
+      "reply_count": 2,
+      "latest_reply": "1666027297.731459",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "KFE7",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hi folks! We’re getting a few questions about the availability of passkeys on Apple devices. Answers in "
+                },
+                {
+                  "type": "emoji",
+                  "name": "thread",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "a87893de-8a19-49a6-b086-65b29e37e985",
+          "type": "message",
+          "user": "U04551P5M8T",
+          "text": "Passkeys will work across devices running iOS 16, iPadOS 16, macOS Ventura, and tvOS 16. They will also work in macOS Monterey and macOS Big Sur on macOS when Safari 16.1 ships.",
+          "ts": "1666026761.187609",
+          "thread_ts": "1666026732.227829",
+          "parent_user_id": "U04551P5M8T",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "gVmEj",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Passkeys will work across devices running iOS 16, iPadOS 16, macOS Ventura, and tvOS 16. They will also work in macOS Monterey and macOS Big Sur on macOS when Safari 16.1 ships."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "d5082eb9-02da-4af7-862f-9e7624023387",
+          "type": "message",
+          "user": "U0462HYQ346",
+          "text": "how can i see the questions so far?",
+          "ts": "1666027297.731459",
+          "thread_ts": "1666026732.227829",
+          "parent_user_id": "U04551P5M8T",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "tMF",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "how can i see the questions so far?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "f7c9b2b7-f123-434e-b2ad-c6f5663cd3ea",
+      "type": "message",
+      "user": "U04551P5M8T",
+      "text": "Another question we’ve got: *Do passkeys have to be enabled on device by customers to be able to create passkeys?*\n\nAnswer in :thread:.",
+      "ts": "1666027389.811089",
+      "thread_ts": "1666027389.811089",
+      "reply_count": 1,
+      "latest_reply": "1666027441.638099",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "i2m",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Another question we’ve got: "
+                },
+                {
+                  "type": "text",
+                  "text": "Do passkeys have to be enabled on device by customers to be able to create passkeys?",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\nAnswer in "
+                },
+                {
+                  "type": "emoji",
+                  "name": "thread",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "874fac36-ab69-4fac-9df6-7168d555f182",
+          "type": "message",
+          "user": "U04551P5M8T",
+          "text": "Answer: No, customers don’t have to enable passkeys. iCloud Keychain must be enabled for a user to save a passkey. If the passkey registration API is called either on the web or in an app while iCloud Keychain isn’t enabled, the user will be prompted to enable iCloud Keychain.",
+          "ts": "1666027441.638099",
+          "thread_ts": "1666027389.811089",
+          "parent_user_id": "U04551P5M8T",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "+p5H9",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Answer: No, customers don’t have to enable passkeys. iCloud Keychain must be enabled for a user to save a passkey. If the passkey registration API is called either on the web or in an app while iCloud Keychain isn’t enabled, the user will be prompted to enable iCloud Keychain."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U045ZRTH5A9\u003e asked\n\u0026gt; If I have a Fido implementation from a SaaS provider, do I need to wait for them to support / enable passkeys before I can start making use of them in an app?",
+      "ts": "1666027591.428339",
+      "thread_ts": "1666027591.428339",
+      "subtype": "bot_message",
+      "bot_id": "B04373APH8C",
+      "username": "Ask Apple - privacy-and-security",
+      "reply_count": 1,
+      "latest_reply": "1666027803.853539",
+      "reactions": [
+        {
+          "name": "white_check_mark",
+          "count": 1,
+          "users": [
+            "U0468FA8E3W"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "BC9x",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U045ZRTH5A9"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"If I have a Fido implementation from a SaaS provider, do I need to wait for them to support \\/ enable passkeys before I can start making use of them in an app?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "e64842ae-f14b-439c-afff-b0d7656f70c7",
+          "type": "message",
+          "user": "U044YFJ2G3Y",
+          "text": "Passkeys are standard FIDO credentials, so technically they should work fine with existing FIDO implementations. Just keep in mind that while traditional FIDO implementations have generally been for second factor authentication, passkeys are meant to be a sole factor that replaces traditional password+2FA",
+          "ts": "1666027803.853539",
+          "thread_ts": "1666027591.428339",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "v1S",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Passkeys are standard FIDO credentials, so technically they should work fine with existing FIDO implementations. Just keep in mind that while traditional FIDO implementations have generally been for second factor authentication, passkeys are meant to be a sole factor that replaces traditional password+2FA"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046G5MV4PK\u003e asked\n\u0026gt; Hi. I’m working on an own password manager and is wondering. Will Apple support Passkey provide by 3rd party password manager? (Like auto fill password by 3rd party password manager)",
+      "ts": "1666027614.175249",
+      "thread_ts": "1666027614.175249",
+      "subtype": "bot_message",
+      "bot_id": "B04373APH8C",
+      "username": "Ask Apple - privacy-and-security",
+      "reply_count": 2,
+      "latest_reply": "1666212563.759529",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "L2nLG",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046G5MV4PK"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Hi. I\\u2019m working on an own password manager and is wondering. Will Apple support Passkey provide by 3rd party password manager? (Like auto fill password by 3rd party password manager)\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "69de0cf2-67d5-4204-a08b-53d2cbf24fe0",
+          "type": "message",
+          "user": "U04551P5M8T",
+          "text": "Not at this time. If you haven’t already, please submit an enhancement request via Feedback Assistant!",
+          "ts": "1666027631.018239",
+          "thread_ts": "1666027614.175249",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "o4pj",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Not at this time. If you haven’t already, please submit an enhancement request via Feedback Assistant!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "fe736b02-ffc5-4882-8244-8d5095f9c4c3",
+          "type": "message",
+          "user": "U04747XHF2Q",
+          "text": "Please note, Google is committed to supporting 3rd party passkey implementations:\n\n\u0026gt; Today is another important milestone, but our work is not done. Google remains committed to a world where users can choose where their passwords, and now passkeys, are stored. Please stay tuned for more updates from us in the next year as we introduce changes to Android, enabling third party credential managers to support passkeys for their users.\n(from Google's passkey announcement: \u003chttps://android-developers.googleblog.com/2022/10/bringing-passkeys-to-android-and-chrome.html\u003e)\n\nIt would be nice to hear something affirmative from Apple too. I also have the same question as the author of a 3rd party password manager myself. And I read Apple's response here as: \"we're not interested in supporting 3rd party passkey implementations\".",
+          "ts": "1666212563.759529",
+          "thread_ts": "1666027614.175249",
+          "edited": {
+            "user": "U04747XHF2Q",
+            "ts": "1666212618.000000"
+          },
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "LlkzG",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Please note, Google is committed to supporting 3rd party passkey implementations:\n\n"
+                    }
+                  ]
+                },
+                {
+                  "Type": "rich_text_quote",
+                  "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Today is another important milestone, but our work is not done. Google remains committed to a world where users can choose where their passwords, and now passkeys, are stored. Please stay tuned for more updates from us in the next year as we introduce changes to Android, enabling third party credential managers to support passkeys for their users.\"}]}"
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "\n(from Google's passkey announcement: "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://android-developers.googleblog.com/2022/10/bringing-passkeys-to-android-and-chrome.html",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": ")\n\nIt would be nice to hear something affirmative from Apple too. I also have the same question as the author of a 3rd party password manager myself. And I read Apple's response here as: \"we're not interested in supporting 3rd party passkey implementations\"."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046JND8CKB\u003e asked\n\u0026gt; Hi, What are the best methods for dealing with the issue of only having an iPhone, setting up Passkeys, then losing iPhone?",
+      "ts": "1666027876.514649",
+      "thread_ts": "1666027876.514649",
+      "subtype": "bot_message",
+      "bot_id": "B04373APH8C",
+      "username": "Ask Apple - privacy-and-security",
+      "reply_count": 3,
+      "latest_reply": "1666040036.364179",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "q6W6",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046JND8CKB"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Hi, What are the best methods for dealing with the issue of only having an iPhone, setting up Passkeys, then losing iPhone?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "88fad270-ead6-49dc-b870-543cb25a87d0",
+          "type": "message",
+          "user": "U044YFJ2G3Y",
+          "text": "It’s still possible for a user to recover their iCloud Keychain (including passkeys) even after losing all of their Apple devices. There are a few different ways for one to do this, including iCloud Keychain escrow, using a recovery key, or setting up a recovery contact. There’s a more detailed explanation of the recovery options in \u003chttps://support.apple.com/en-us/HT213305|About the security of passkeys\u003e",
+          "ts": "1666028034.367769",
+          "thread_ts": "1666027876.514649",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "x63ZY",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "It’s still possible for a user to recover their iCloud Keychain (including passkeys) even after losing all of their Apple devices. There are a few different ways for one to do this, including iCloud Keychain escrow, using a recovery key, or setting up a recovery contact. There’s a more detailed explanation of the recovery options in "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://support.apple.com/en-us/HT213305",
+                      "text": "About the security of passkeys"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "2c9f3a3a-9b84-4adb-bcdb-3855562cf1c3",
+          "type": "message",
+          "user": "U046JND8CKB",
+          "text": "Thanks Garrett!",
+          "ts": "1666028219.772899",
+          "thread_ts": "1666027876.514649",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "gq4s",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks Garrett!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "6d7b76cd-0062-4fa0-92eb-c135d9bc6624",
+          "type": "message",
+          "user": "U0465AXV1J8",
+          "text": "Curious follow-up :nerd_face: So if an attacker would have access to an iCloud account and password, and can received SMS at the registered phone number, they could purposefully destroy the escrowed keychain without that much effort?",
+          "ts": "1666040036.364179",
+          "thread_ts": "1666027876.514649",
+          "edited": {
+            "user": "U0465AXV1J8",
+            "ts": "1666040058.000000"
+          },
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ti1ii",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Curious follow-up "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "nerd_face",
+                      "skin_tone": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": " So if an attacker would have access to an iCloud account and password, and can received SMS at the registered phone number, they could purposefully destroy the escrowed keychain without that much effort?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0462HYQ346\u003e asked\n\u0026gt; How about the backend service? How does that sign-in API looks like? POST \u0026lt;mailto:/login?user=leo@apple.com|/login?user=leo@apple.com\u0026gt;\u0026amp;password=abcdefg",
+      "ts": "1666028399.252419",
+      "thread_ts": "1666028399.252419",
+      "subtype": "bot_message",
+      "bot_id": "B04373APH8C",
+      "username": "Ask Apple - privacy-and-security",
+      "reply_count": 3,
+      "latest_reply": "1666029183.345469",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "YHM",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0462HYQ346"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"How about the backend service? How does that sign-in API looks like? POST \"},{\"type\":\"link\",\"url\":\"mailto:\\/login?user=leo@apple.com\",\"text\":\"\\/login?user=leo@apple.com\"},{\"type\":\"text\",\"text\":\"\u0026password=abcdefg\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "ae389a07-15c2-4122-bcf0-6e3d9bdb2338",
+          "type": "message",
+          "user": "U04551P5M8T",
+          "text": "Instead of sending a password (or a derivation of a password), you’ll send the authenticator response to your server for processing.",
+          "ts": "1666028436.006889",
+          "thread_ts": "1666028399.252419",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "rylaj",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Instead of sending a password (or a derivation of a password), you’ll send the authenticator response to your server for processing."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "a694d13a-db65-4d2d-9719-d3a5b3ec0145",
+          "type": "message",
+          "user": "U0462HYQ346",
+          "text": "Can you provide the contract that should be implemented by the server?",
+          "ts": "1666028760.982319",
+          "thread_ts": "1666028399.252419",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "2YYK",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Can you provide the contract that should be implemented by the server?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "ae9de866-40fb-4c77-a192-49a9ddf4c1da",
+          "type": "message",
+          "user": "U044YFJ2G3Y",
+          "text": "Passkeys are standard FIDO credentials, so there are plenty of reference implementations out there. For signing in, you basically just need the signature and the clientDataJSON payload. This is talked about a few times throughout the WWDC session, including at \u003chttps://developer.apple.com/videos/play/wwdc2022/10092/?time=809|this timestamp\u003e",
+          "ts": "1666029183.345469",
+          "thread_ts": "1666028399.252419",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "nRi",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Passkeys are standard FIDO credentials, so there are plenty of reference implementations out there. For signing in, you basically just need the signature and the clientDataJSON payload. This is talked about a few times throughout the WWDC session, including at "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/videos/play/wwdc2022/10092/?time=809",
+                      "text": "this timestamp"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0462HYQ346\u003e asked\n\u0026gt; Can you provide documentation on the ES256 standard for challenge-reponse?",
+      "ts": "1666029384.223459",
+      "thread_ts": "1666029384.223459",
+      "subtype": "bot_message",
+      "bot_id": "B04373APH8C",
+      "username": "Ask Apple - privacy-and-security",
+      "reply_count": 3,
+      "latest_reply": "1666196403.586279",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "fW1",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0462HYQ346"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Can you provide documentation on the ES256 standard for challenge-reponse?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "1b78d39d-0460-4f49-a687-ca989c5c1afb",
+          "type": "message",
+          "user": "U044YFJ2G3Y",
+          "text": "ES256 is an ECDSA with a SHA-256 hash. It’s a \u003chttps://www.iana.org/assignments/cose/cose.xhtml#algorithms|registered COSE algorithm\u003e with IANA, and the RFC is \u003chttps://www.rfc-editor.org/rfc/rfc9053.html|here\u003e.",
+          "ts": "1666029520.560859",
+          "thread_ts": "1666029384.223459",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U0462HYQ346"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "j0ex",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "ES256 is an ECDSA with a SHA-256 hash. It’s a "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://www.iana.org/assignments/cose/cose.xhtml#algorithms",
+                      "text": "registered COSE algorithm"
+                    },
+                    {
+                      "type": "text",
+                      "text": " with IANA, and the RFC is "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://www.rfc-editor.org/rfc/rfc9053.html",
+                      "text": "here"
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "b5444e16-27e2-4a16-ad97-1ae3291d988d",
+          "type": "message",
+          "user": "U0462HYQ346",
+          "text": "can you perhaps provide something more digestable? i still cant fathom what my backend API should look like",
+          "ts": "1666047873.384819",
+          "thread_ts": "1666029384.223459",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Fka",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "can you perhaps provide something more digestable? i still cant fathom what my backend API should look like"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "78293638-04a9-4600-94df-23ae603d35b4",
+          "type": "message",
+          "user": "U044YFJ2G3Y",
+          "text": "You should not be implementing any of the crypto yourself. Please use standard well-vetted crypto libraries to handle the actual cryptography :slightly_smiling_face:",
+          "ts": "1666196403.586279",
+          "thread_ts": "1666029384.223459",
+          "edited": {
+            "user": "U044YFJ2G3Y",
+            "ts": "1666196425.000000"
+          },
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "jTHC",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "You should not be implementing any of the crypto yourself. Please use standard well-vetted crypto libraries to handle the actual cryptography "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "fdac6663-15d5-4f03-a1d4-49e4b63e1312",
+      "type": "message",
+      "user": "U04551P5M8T",
+      "text": ":hourglass_flowing_sand: Time’s almost up for our *Q\u0026amp;A: “Meet passkeys”* activity. Don’t keep that last question locked up — ask it using the workflow below!",
+      "ts": "1666029577.901749",
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "eyes",
+          "count": 1,
+          "users": [
+            "U0455R18DT2"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "KD0",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "emoji",
+                  "name": "hourglass_flowing_sand",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " Time’s almost up for our "
+                },
+                {
+                  "type": "text",
+                  "text": "Q\u0026A: “Meet passkeys”",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " activity. Don’t keep that last question locked up — ask it using the workflow below!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "e7ccbf2b-9beb-480f-ad2d-59f4453b26ee",
+      "type": "message",
+      "user": "U04551P5M8T",
+      "text": "That’s the end of our *Q\u0026amp;A: “Meet passkeys”* activity.\n\nDon’t skip the other activities happening this week during Ask Apple! Catch some more great Q\u0026amp;A sessions here on Slack throughout the week. Don’t forget to sign up for one-on-one office hours with the *Technology Evangelism*, *Design Evangelism*, and *Developer Technical Support* teams!\n\nWe hope you have a great week, and can’t wait to answer more of your questions soon. :wave:",
+      "ts": "1666029925.253119",
+      "edited": {
+        "user": "U04551P5M8T",
+        "ts": "1666030000.000000"
+      },
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "gratitude-thank-you",
+          "count": 5,
+          "users": [
+            "U045Z8YCR37",
+            "U046UKZ6ZS4",
+            "U0465AXV1J8",
+            "U046GSZUQMP",
+            "U046T98P3B2"
+          ]
+        },
+        {
+          "name": "+1",
+          "count": 3,
+          "users": [
+            "U0464NQUV52",
+            "U046GSZUQMP",
+            "U046T98P3B2"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "oQth+",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "That’s the end of our "
+                },
+                {
+                  "type": "text",
+                  "text": "Q\u0026A: “Meet passkeys”",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " activity.\n\nDon’t skip the other activities happening this week during Ask Apple! Catch some more great Q\u0026A sessions here on Slack throughout the week. Don’t forget to sign up for one-on-one office hours with the "
+                },
+                {
+                  "type": "text",
+                  "text": "Technology Evangelism",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ", "
+                },
+                {
+                  "type": "text",
+                  "text": "Design Evangelism",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ", and "
+                },
+                {
+                  "type": "text",
+                  "text": "Developer Technical Support",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " teams!\n\nWe hope you have a great week, and can’t wait to answer more of your questions soon. "
+                },
+                {
+                  "type": "emoji",
+                  "name": "wave",
+                  "skin_tone": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "channel_id": "C04304WK6BU"
+}

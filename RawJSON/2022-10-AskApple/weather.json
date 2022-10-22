@@ -1,0 +1,3144 @@
+{
+  "name": "weather",
+  "messages": [
+    {
+      "type": "message",
+      "user": "U03V30M0C1K",
+      "text": "This content can't be displayed.",
+      "ts": "1665433013.992319",
+      "pinned_to": [
+        "C0432CSG760"
+      ],
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "flag-ua",
+          "count": 2,
+          "users": [
+            "U046JMVM9J5",
+            "U046MM68XB4"
+          ]
+        },
+        {
+          "name": "question",
+          "count": 1,
+          "users": [
+            "U0464URMX6F"
+          ]
+        },
+        {
+          "name": "sunny",
+          "count": 1,
+          "users": [
+            "U045WJJCJMC"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "header",
+          "text": {
+            "type": "plain_text",
+            "text": "Welcome to Ask Apple",
+            "emoji": true
+          },
+          "block_id": "1CQHM"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "We're excited to be hosting you in the Weather channel this week! You can find the full schedule of Q\u0026amp;As for Weather by visiting the \u003chttps://apps.apple.com/us/app/apple-developer/id640199958 | Apple Developer app\u003e and \u003chttps://developer.apple.com/events/ask-apple/questions-and-answers/ | website\u003e."
+          },
+          "block_id": "uuJ"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "If you haven’t already, please take a moment to familiarize yourself with \u003chttps://developer.apple.com/news/?id=vpbyzfg4 | how Q\u0026amp;As will work\u003e."
+          },
+          "block_id": "IIVhd"
+        },
+        {
+          "type": "header",
+          "text": {
+            "type": "plain_text",
+            "text": "Attendance Policy",
+            "emoji": true
+          },
+          "block_id": "OYVk"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "We want to make sure these spaces are helpful and welcoming for everyone — developers and Apple employees alike. Please review and follow the \u003chttps://developer.apple.com/events/policy/online-event-attendance-policy/ | attendance policy\u003e."
+          },
+          "block_id": "Qpw"
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03V30M0C1K\u003e added a workflow to this channel: *Ask Apple - weather*.",
+      "ts": "1666018913.261889",
+      "subtype": "bot_message",
+      "bot_id": "B043U8UG3A4",
+      "username": "Ask Apple - weather",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "M=Q",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03V30M0C1K"
+                },
+                {
+                  "type": "text",
+                  "text": " added a workflow to this channel: "
+                },
+                {
+                  "type": "text",
+                  "text": "Ask Apple - weather",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "a5aa2e31-0628-4d01-8343-08e49c043b50",
+      "type": "message",
+      "user": "U0455S159G8",
+      "text": "Welcome to the WeatherKit Q\u0026amp;A! We’re looking forward to answering your questions. Select the:heavy_plus_sign:icon from the lower left, and choose the _Ask A Question_ workflow. Type in your question and it will be delivered directly to our team. While we’ll answer as many questions as we can, all your submissions and feedback are super valuable. Thank you for joining us! :sunny:",
+      "ts": "1666108835.720809",
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "snowflake",
+          "count": 2,
+          "users": [
+            "U03V30M0C1K",
+            "U0466J5C36G"
+          ]
+        },
+        {
+          "name": "zap",
+          "count": 2,
+          "users": [
+            "U03V30M0C1K",
+            "U0466J5C36G"
+          ]
+        },
+        {
+          "name": "sunny",
+          "count": 3,
+          "users": [
+            "U03V30M0C1K",
+            "U0449GH87DL",
+            "U0466J5C36G"
+          ]
+        },
+        {
+          "name": "heart",
+          "count": 3,
+          "users": [
+            "U046FB2DGLR",
+            "U0449GH87DL",
+            "U0466J5C36G"
+          ]
+        },
+        {
+          "name": "cloud",
+          "count": 2,
+          "users": [
+            "U045NPAQ23A",
+            "U0466J5C36G"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "X2eOe",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Welcome to the WeatherKit Q\u0026A! We’re looking forward to answering your questions. Select the"
+                },
+                {
+                  "type": "emoji",
+                  "name": "heavy_plus_sign",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": "icon from the lower left, and choose the "
+                },
+                {
+                  "type": "text",
+                  "text": "Ask A Question",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " workflow. Type in your question and it will be delivered directly to our team. While we’ll answer as many questions as we can, all your submissions and feedback are super valuable. Thank you for joining us! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "sunny",
+                  "skin_tone": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046S5LNEFJ\u003e asked\n\u0026gt; Hello,\n\u0026gt; \n\u0026gt; When using WeatherKit, I see a fair number of what appear to be internal error messages as the system talks to the weather service. That said, I do get valid results.\n\u0026gt; \n\u0026gt; My question is - are those errors something that I need to be concerned with?",
+      "ts": "1666108867.869739",
+      "thread_ts": "1666108867.869739",
+      "subtype": "bot_message",
+      "bot_id": "B043U8UG3A4",
+      "username": "Ask Apple - weather",
+      "reply_count": 2,
+      "latest_reply": "1666108966.590459",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "+73L",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046S5LNEFJ"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Hello,\\n\\nWhen using WeatherKit, I see a fair number of what appear to be internal error messages as the system talks to the weather service. That said, I do get valid results.\\n\\nMy question is - are those errors something that I need to be concerned with?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "f5dc98b9-ebff-456e-a2ce-50e09f570c73",
+          "type": "message",
+          "user": "U045NPAQ23A",
+          "text": "If you are getting valid results, you can most likely ignore any errors you see, though if you want to paste the errors you are seeing here, we can take a look. (Always feel free to file feedback at \u003chttp://feedbackassistant.apple.com|feedbackassistant.apple.com\u003e as well!)",
+          "ts": "1666108896.045849",
+          "thread_ts": "1666108867.869739",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "XUA",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "If you are getting valid results, you can most likely ignore any errors you see, though if you want to paste the errors you are seeing here, we can take a look. (Always feel free to file feedback at "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://feedbackassistant.apple.com",
+                      "text": "feedbackassistant.apple.com"
+                    },
+                    {
+                      "type": "text",
+                      "text": " as well!)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "37aacc85-461b-46ab-b1b4-1b0ebbc36d19",
+          "type": "message",
+          "user": "U045NPAQ23A",
+          "text": "If you do file feedback, let us know the feedback number here so we can track it. :slightly_smiling_face:",
+          "ts": "1666108966.590459",
+          "thread_ts": "1666108867.869739",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "eVt",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "If you do file feedback, let us know the feedback number here so we can track it. "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0462A4DAR1\u003e asked\n\u0026gt; Hello, are calls for historical data free or is it the same pricing as forecast data? Thanks",
+      "ts": "1666109134.315299",
+      "thread_ts": "1666109134.315299",
+      "subtype": "bot_message",
+      "bot_id": "B043U8UG3A4",
+      "username": "Ask Apple - weather",
+      "reply_count": 5,
+      "latest_reply": "1666109829.528779",
+      "reactions": [
+        {
+          "name": "white_check_mark",
+          "count": 2,
+          "users": [
+            "U045BMBLS2D",
+            "U0464NE480L"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Tff",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0462A4DAR1"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Hello, are calls for historical data free or is it the same pricing as forecast data? Thanks\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "7130608c-f4d7-494b-9e02-5e05f99e0b35",
+          "type": "message",
+          "user": "U044Z2QCMTL",
+          "text": "Requests for historical data are not free. All requests to WeatherKit, whether for history or forecast, are priced the same.",
+          "ts": "1666109159.479659",
+          "thread_ts": "1666109134.315299",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ox+z",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Requests for historical data are not free. All requests to WeatherKit, whether for history or forecast, are priced the same."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "32cbf883-6236-42b6-9d27-985896c21386",
+          "type": "message",
+          "user": "U0462A4DAR1",
+          "text": "Thanks!",
+          "ts": "1666109188.886629",
+          "thread_ts": "1666109134.315299",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U044Z2QCMTL"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "UsYp",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "c9fc1b2f-5d18-4eac-9284-23e0f14c9f37",
+          "type": "message",
+          "user": "U045ZGP2QCV",
+          "text": "\u003c@U044Z2QCMTL\u003e When will the historical data be queryable? (I tried this summer, and it was not yet available.)",
+          "ts": "1666109747.740649",
+          "thread_ts": "1666109134.315299",
+          "edited": {
+            "user": "U045ZGP2QCV",
+            "ts": "1666109759.000000"
+          },
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "wh5eX",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U044Z2QCMTL"
+                    },
+                    {
+                      "type": "text",
+                      "text": " When will the historical data be queryable? (I tried this summer, and it was not yet available.)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "ccb1d1d5-c0ee-4074-8ad9-c84c69989fc3",
+          "type": "message",
+          "user": "U044Z2QCMTL",
+          "text": "Historical data is currently available for all locations worldwide from Aug 1, 2021.",
+          "ts": "1666109810.785859",
+          "thread_ts": "1666109134.315299",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "p5ucR",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Historical data is currently available for all locations worldwide from Aug 1, 2021."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "9bf7407c-3f1f-444d-b831-3f1bc862ccfc",
+          "type": "message",
+          "user": "U045ZGP2QCV",
+          "text": "Thanks!",
+          "ts": "1666109829.528779",
+          "thread_ts": "1666109134.315299",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U044Z2QCMTL"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Sie",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U04627DRAE6\u003e asked\n\u0026gt; Is a list of the symbol names that might be returned for a condition available? I’m using SF Symbols to illustrate weather condition, and this would be handy for checking that all the symbols that might display will be legible, look good on their background, etc.",
+      "ts": "1666109382.257379",
+      "thread_ts": "1666109382.257379",
+      "subtype": "bot_message",
+      "bot_id": "B043U8UG3A4",
+      "username": "Ask Apple - weather",
+      "reply_count": 5,
+      "latest_reply": "1666111037.603189",
+      "reactions": [
+        {
+          "name": "+1",
+          "count": 2,
+          "users": [
+            "U045MLXJX71",
+            "U04627DRAE6"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "qDNSz",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U04627DRAE6"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Is a list of the symbol names that might be returned for a condition available? I\\u2019m using SF Symbols to illustrate weather condition, and this would be handy for checking that all the symbols that might display will be legible, look good on their background, etc.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "dafb1fbd-da1a-416a-94bf-48b7b765bddb",
+          "type": "message",
+          "user": "U044SDU3FN2",
+          "text": "We do not expose the full set of symbol names via WeatherKit, but here is an exhaustive list:\n\n```\"cloud\"\n\"cloud.bolt\"\n\"cloud.bolt.rain\"\n\"cloud.drizzle\"\n\"cloud.fog\"\n\"cloud.hail\"\n\"cloud.heavyrain\"\n\"cloud.moon\"\n\"cloud.moon.bolt\"\n\"cloud.moon.rain\"\n\"cloud.rain\"\n\"cloud.sleet\"\n\"cloud.snow\"\n\"cloud.sun\"\n\"cloud.sun.rain\"\n\"hurricane\"\n\"moon.haze\"\n\"moon.stars\"\n\"snow\"\n\"sun.dust\"\n\"sun.haze\"\n\"sun.max\"\n\"thermometer.snowflake\"\n\"tropicalstorm\"\n\"wind\"\n\"wind.snow\"```\n",
+          "ts": "1666109450.387029",
+          "thread_ts": "1666109382.257379",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "white_check_mark",
+              "count": 2,
+              "users": [
+                "U045ZA653NZ",
+                "U04749W3P6F"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "L6cOT",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "We do not expose the full set of symbol names via WeatherKit, but here is an exhaustive list:\n\n"
+                    }
+                  ]
+                },
+                {
+                  "Type": "rich_text_preformatted",
+                  "Raw": "{\"type\":\"rich_text_preformatted\",\"elements\":[{\"type\":\"text\",\"text\":\"\\\"cloud\\\"\\n\\\"cloud.bolt\\\"\\n\\\"cloud.bolt.rain\\\"\\n\\\"cloud.drizzle\\\"\\n\\\"cloud.fog\\\"\\n\\\"cloud.hail\\\"\\n\\\"cloud.heavyrain\\\"\\n\\\"cloud.moon\\\"\\n\\\"cloud.moon.bolt\\\"\\n\\\"cloud.moon.rain\\\"\\n\\\"cloud.rain\\\"\\n\\\"cloud.sleet\\\"\\n\\\"cloud.snow\\\"\\n\\\"cloud.sun\\\"\\n\\\"cloud.sun.rain\\\"\\n\\\"hurricane\\\"\\n\\\"moon.haze\\\"\\n\\\"moon.stars\\\"\\n\\\"snow\\\"\\n\\\"sun.dust\\\"\\n\\\"sun.haze\\\"\\n\\\"sun.max\\\"\\n\\\"thermometer.snowflake\\\"\\n\\\"tropicalstorm\\\"\\n\\\"wind\\\"\\n\\\"wind.snow\\\"\"}],\"border\":0}"
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "CBC93D41-A465-4B42-8433-F19332E6B28D",
+          "type": "message",
+          "user": "U04627DRAE6",
+          "text": "Hey, this is awesome!! Thank you so much.",
+          "ts": "1666109683.005909",
+          "thread_ts": "1666109382.257379",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "j2BmK",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hey, this is awesome!! Thank you so much."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "c04815f9-4d74-45f4-b00c-9c7d9dbbbb12",
+          "type": "message",
+          "user": "U044SDU3FN2",
+          "text": "You're welcome.",
+          "ts": "1666109767.381319",
+          "thread_ts": "1666109382.257379",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "d3MOW",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "You're welcome."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "7E661BF1-A721-46D5-B45F-5F5D6224181F",
+          "type": "message",
+          "user": "U0478BJ4UPK",
+          "text": "Thanks for this list! Follow-up: When would we get the various “moon” icons in a daily forecast? Or do we only get them in hourly results?",
+          "ts": "1666110628.489939",
+          "thread_ts": "1666109382.257379",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ipc",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for this list! Follow-up: When would we get the various “moon” "
+                    },
+                    {
+                      "type": "text",
+                      "text": "i"
+                    },
+                    {
+                      "type": "text",
+                      "text": "cons"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "text",
+                      "text": "in a daily forecast? Or do we only get them in hourly results?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "9826c734-acb5-4f75-9dda-13228096be71",
+          "type": "message",
+          "user": "U044SDU3FN2",
+          "text": "Thanks for the follow-up. Yes, \"moon\" icons will only be provided in hourly forecast results, between sunset and sunrise.",
+          "ts": "1666111037.603189",
+          "thread_ts": "1666109382.257379",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "FWKzD",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for the follow-up. Yes, \"moon\" icons will only be provided in hourly forecast results, between sunset and sunrise."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U045ZRTH5A9\u003e asked\n\u0026gt; What’s the best way to ask for historical weather information and check it’s availability?",
+      "ts": "1666109653.663189",
+      "thread_ts": "1666109653.663189",
+      "subtype": "bot_message",
+      "bot_id": "B043U8UG3A4",
+      "username": "Ask Apple - weather",
+      "reply_count": 6,
+      "latest_reply": "1666111718.447889",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Uj3nn",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U045ZRTH5A9"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"What\\u2019s the best way to ask for historical weather information and check it\\u2019s availability?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "cd845f04-671e-4d65-88c3-44165fcd10c6",
+          "type": "message",
+          "user": "U044Z2QCMTL",
+          "text": "Historical hourly and daily weather data is available for any location from Aug 1, 2021, until the current time. There is no need to make a separate availability request for historical data since it is available for all locations worldwide within that time range.\n\nYou would request historical data using the same \u003chttps://developer.apple.com/documentation/weatherkit/weatherquery|WeatherQuery\u003e you use to request forecasts and specify `startDate`  and/or `endDate` in the past.",
+          "ts": "1666109670.507169",
+          "thread_ts": "1666109653.663189",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "RuTN5",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Historical hourly and daily weather data is available for any location from Aug 1, 2021, until the current time. There is no need to make a separate availability request for historical data since it is available for all locations worldwide within that time range.\n\nYou would request historical data using the same "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/weatherkit/weatherquery",
+                      "text": "WeatherQuery"
+                    },
+                    {
+                      "type": "text",
+                      "text": " you use to request forecasts and specify "
+                    },
+                    {
+                      "type": "text",
+                      "text": "startDate",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "  and/or "
+                    },
+                    {
+                      "type": "text",
+                      "text": "endDate",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " in the past."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "8065D71E-570A-478C-A594-756DF8EA8934",
+          "type": "message",
+          "user": "U0465SGRQTG",
+          "text": "Thanks for the details! I missed this feature when you announced the framework and it’s really useful. Unfortunately you don’t provide before Aug 1, 2021 :disappointed: DarkSky provided more historical data iirc.",
+          "ts": "1666109803.706409",
+          "thread_ts": "1666109653.663189",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "nlK",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for the details! I missed this feature when you announced the framework"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "text",
+                      "text": "and it’s really useful. Unfortunately you "
+                    },
+                    {
+                      "type": "text",
+                      "text": "don’t"
+                    },
+                    {
+                      "type": "text",
+                      "text": " provide before Aug 1, 2021 "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "disappointed",
+                      "skin_tone": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "text",
+                      "text": "DarkSky provided more historical data iirc."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "5dc39aaf-3bfe-43d8-ae8b-d736f4ba4023",
+          "type": "message",
+          "user": "U044Z2QCMTL",
+          "text": "Thanks for letting us know you are interested in more historical data. Please file feedback and paste the number here so we can track it.",
+          "ts": "1666110413.148189",
+          "thread_ts": "1666109653.663189",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "dwC4",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for letting us know you are interested in more historical data. Please file feedback and paste the number here so we can track it."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "3799aa54-6fda-4d19-b529-5e8fe94d792b",
+          "type": "message",
+          "user": "U0462A4DAR1",
+          "text": "I am a bit surprised that the pricing for historical data is the same as forecast? Is it the same policy for other weather data provider?",
+          "ts": "1666110729.607829",
+          "thread_ts": "1666109653.663189",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "GKuO0",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I am a bit surprised that the pricing for historical data is the same as forecast? Is it the same policy for other weather data provider?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "27F99C49-E447-4E2A-AF08-1D02111BDA23",
+          "type": "message",
+          "user": "U0465SGRQTG",
+          "text": "\u003c@U044Z2QCMTL\u003e here we go: FB11701581",
+          "ts": "1666111210.119509",
+          "thread_ts": "1666109653.663189",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "b2Ft",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U044Z2QCMTL"
+                    },
+                    {
+                      "type": "text",
+                      "text": " here we go: FB11701581"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "5d74518d-5cbb-40c7-9412-517f9c4da583",
+          "type": "message",
+          "user": "U044Z2QCMTL",
+          "text": "Thank you, \u003c@U0465SGRQTG\u003e!",
+          "ts": "1666111718.447889",
+          "thread_ts": "1666109653.663189",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "7/5nt",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thank you, "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U0465SGRQTG"
+                    },
+                    {
+                      "type": "text",
+                      "text": "!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U045VK8EENS\u003e asked\n\u0026gt; In my use case, I want to display a map of the world overlaid with information about local weather information in the form of color zones (e.g. blue overlay for areas where it currently rains). The user can pinch and pan around the map freely, zooming in and out as they wish.\n\u0026gt; \n\u0026gt; Is this integration between WeatherKit and MapKit/SwiftUIMap possible? How does it work in terms of units claimed from the WeatherKit membership?",
+      "ts": "1666109858.274499",
+      "thread_ts": "1666109858.274499",
+      "subtype": "bot_message",
+      "bot_id": "B043U8UG3A4",
+      "username": "Ask Apple - weather",
+      "reply_count": 2,
+      "latest_reply": "1666111608.316909",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "HNx",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U045VK8EENS"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"In my use case, I want to display a map of the world overlaid with information about local weather information in the form of color zones (e.g. blue overlay for areas where it currently rains). The user can pinch and pan around the map freely, zooming in and out as they wish.\\n\\nIs this integration between WeatherKit and MapKit\\/SwiftUIMap possible? How does it work in terms of units claimed from the WeatherKit membership?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "f15d06b9-5e4e-4ead-952c-7f2d6d2f5f2a",
+          "type": "message",
+          "user": "U044Z2QCMTL",
+          "text": "WeatherKit provides weather forecasts and historical weather data for one location at a time. While it would be possible to use that data with MapKit--perhaps by putting weather information on a pin positioned at the corresponding location on the map--WeatherKit does not provide the data you would need to overlay regions of precipitation.",
+          "ts": "1666109871.944609",
+          "thread_ts": "1666109858.274499",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "BpEeY",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "WeatherKit provides weather forecasts and historical weather data for one location at a time. While it would be possible to use that data with MapKit--perhaps by putting weather information on a pin positioned at the corresponding location on the map--WeatherKit does not provide the data you would need to overlay regions of precipitation."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "ebbc1e57-eedb-4d60-a705-fd0c3c41ff87",
+          "type": "message",
+          "user": "U045VK8EENS",
+          "text": "Not the answer I was looking for, but thank you anyway!",
+          "ts": "1666111608.316909",
+          "thread_ts": "1666109858.274499",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "2hnP",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Not the answer I was looking for, but thank you anyway!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0478BJ4UPK\u003e asked\n\u0026gt; Does WeatherKit cache results locally, or is every request we make go to the servers and count against our quota? If it’s not cached, how often do you recommend checking for new data?",
+      "ts": "1666110053.293169",
+      "thread_ts": "1666110053.293169",
+      "subtype": "bot_message",
+      "bot_id": "B043U8UG3A4",
+      "username": "Ask Apple - weather",
+      "reply_count": 5,
+      "latest_reply": "1666111073.697969",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "hMV",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0478BJ4UPK"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Does WeatherKit cache results locally, or is every request we make go to the servers and count against our quota? If it\\u2019s not cached, how often do you recommend checking for new data?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "7e58420f-82af-4557-8a42-231bdcfa1114",
+          "type": "message",
+          "user": "U045NPAQ23A",
+          "text": "WeatherKit’s `WeatherService` _does_ cache the results of any query for you until the data expires, and any request that hits the cache will not count against your quota. Since WeatherKit uses the server-supplied expiration date, which varies based on the weather conditions, you can rely on its cache to do the right thing and save you quota when possible.",
+          "ts": "1666110068.556809",
+          "thread_ts": "1666110053.293169",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "9B0",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "WeatherKit’s "
+                    },
+                    {
+                      "type": "text",
+                      "text": "WeatherService",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "text",
+                      "text": "does",
+                      "style": {
+                        "italic": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " cache the results of any query for you until the data expires, and any request that hits the cache will not count against your quota. Since WeatherKit uses the server-supplied expiration date, which varies based on the weather conditions, you can rely on its cache to do the right thing and save you quota when possible."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "A2C4E261-9CFC-49D1-BBEB-CA1FA861B9DF",
+          "type": "message",
+          "user": "U0465SGRQTG",
+          "text": "Nice! Thanks. Can you provide some insights on how long the cache is valid? What about historical data, that should not expire.",
+          "ts": "1666110262.518299",
+          "thread_ts": "1666110053.293169",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "UT4t",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Nice! Thanks. Can you provide some insights on how long the cache is valid? What about historical data, that should not expire."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "B36301E3-0912-4205-926D-68F5CB2247D2",
+          "type": "message",
+          "user": "U0478BJ4UPK",
+          "text": "Thanks, that’s great to hear! I did scour the document back in July and saw nothing about caching, but hopefully it’s mentioned somewhere now.",
+          "ts": "1666110312.897279",
+          "thread_ts": "1666110053.293169",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "WdVj",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks, "
+                    },
+                    {
+                      "type": "text",
+                      "text": "that’s"
+                    },
+                    {
+                      "type": "text",
+                      "text": " great to hear! I did scour the document back in July and saw nothing about caching, "
+                    },
+                    {
+                      "type": "text",
+                      "text": "b"
+                    },
+                    {
+                      "type": "text",
+                      "text": "ut hopefully "
+                    },
+                    {
+                      "type": "text",
+                      "text": "it’s"
+                    },
+                    {
+                      "type": "text",
+                      "text": " mentioned somewhere now."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "e9cd30cc-35e8-4a4d-9665-d1b4f5d62f05",
+          "type": "message",
+          "user": "U045NPAQ23A",
+          "text": "Each cache result is valid for a variable amount of time depending on the changeability of the weather conditions. Historical data is currently cached for 24 hours, as we do sometimes revise it.",
+          "ts": "1666110752.033959",
+          "thread_ts": "1666110053.293169",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U0464NE480L"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Mjg",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Each cache result is valid for a variable amount of time depending on the changeability of the weather conditions. Historical data is currently cached for 24 hours, as we do sometimes revise it."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "8e876aba-df95-4172-9afe-406b285f8f69",
+          "type": "message",
+          "user": "U045NPAQ23A",
+          "text": "\u003c@U0478BJ4UPK\u003e Can you file a feedback request about the docs?",
+          "ts": "1666111073.697969",
+          "thread_ts": "1666110053.293169",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "heavy_plus_sign",
+              "count": 1,
+              "users": [
+                "U045BMBLS2D"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ygZb",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U0478BJ4UPK"
+                    },
+                    {
+                      "type": "text",
+                      "text": " Can you file a feedback request about the docs?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U045ZGP2QCV\u003e asked\n\u0026gt; Do you plan to offer tide data?",
+      "ts": "1666110216.334969",
+      "thread_ts": "1666110216.334969",
+      "subtype": "bot_message",
+      "bot_id": "B043U8UG3A4",
+      "username": "Ask Apple - weather",
+      "reply_count": 5,
+      "latest_reply": "1666110443.540469",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "a2W",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U045ZGP2QCV"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Do you plan to offer tide data?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "6150e73f-dad3-4fdb-aec6-cbd0d9a984f5",
+          "type": "message",
+          "user": "U0455S159G8",
+          "text": "That’s a great feature request! Please file feedback and paste the number here so we can track it.",
+          "ts": "1666110235.110299",
+          "thread_ts": "1666110216.334969",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "5oD",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "That’s a great feature request! Please file feedback and paste the number here so we can track it."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "3de788c2-3ca2-4d14-b26d-6c2398891c61",
+          "type": "message",
+          "user": "U045ZGP2QCV",
+          "text": "FB10383248",
+          "ts": "1666110260.917569",
+          "thread_ts": "1666110216.334969",
+          "edited": {
+            "user": "U045ZGP2QCV",
+            "ts": "1666110299.000000"
+          },
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "qNWK9",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "FB10383248"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "FA017FFC-B0D8-453A-93F0-6F87782FF13B",
+          "type": "message",
+          "user": "U0465SGRQTG",
+          "text": "Here is mine too: FB11701530",
+          "ts": "1666110300.821899",
+          "thread_ts": "1666110216.334969",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "AaxF",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Here is mine too: FB11701530"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "001A5085-B7F5-41CA-93D8-D6C4F4F7BA7D",
+          "type": "message",
+          "user": "U0465SGRQTG",
+          "text": "Can you also add more nautical/marine weather forecast please? See FB11701540 for more info.",
+          "ts": "1666110337.440769",
+          "thread_ts": "1666110216.334969",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ePUb8",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Can you also add more nautical/marine weather forecast please? See FB11701540 for more info."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "83be1bed-af3b-426d-9603-1ddb85c4e455",
+          "type": "message",
+          "user": "U045ZGP2QCV",
+          "text": ":slightly_smiling_face: Yes, likewise sounding would be ++ for those interested in flight. A bit niche, I'd admit.",
+          "ts": "1666110443.540469",
+          "thread_ts": "1666110216.334969",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "/Ywe2",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "skin_tone": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": " Yes, likewise sounding would be ++ for those interested in flight. A bit niche, I'd admit."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U045WJJCJMC\u003e asked\n\u0026gt; After following the guidelines to get the REST API setup with JWT tokens, I cannot seem to get a valid 200 response. What am I doing wrong? Also, \u003chttp://jwt.io|jwt.io\u003e labels the JWT token as an invalid signature, is this expected?",
+      "ts": "1666110458.223919",
+      "thread_ts": "1666110458.223919",
+      "subtype": "bot_message",
+      "bot_id": "B043U8UG3A4",
+      "username": "Ask Apple - weather",
+      "reply_count": 6,
+      "latest_reply": "1666112228.959489",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ej0",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U045WJJCJMC"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"After following the guidelines to get the REST API setup with JWT tokens, I cannot seem to get a valid 200 response. What am I doing wrong? Also, jwt.io labels the JWT token as an invalid signature, is this expected?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "4e747b0d-e993-4efd-8fda-7c0fd989a79e",
+          "type": "message",
+          "user": "U044Z2QCMTL",
+          "text": "When you paste a JWT into \u003chttp://jwt.io|jwt.io\u003e it will show “Invalid Signature” unless you also paste in the keys to use for verification in the text boxes in the “Verify Signature” area on the right side of the screen. If you are including the keys and the tool still shows Invalid Signature something is wrong with the signature on the JWT. In that case you should check your signing code.\n\nDid you follow the instruction at \u003chttps://developer.apple.com/documentation/weatherkitrestapi/request_authentication_for_weatherkit_rest_api\u003e to create a Service ID for WeatherKit?",
+          "ts": "1666110474.758899",
+          "thread_ts": "1666110458.223919",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ybQCP",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "When you paste a JWT into "
+                    },
+                    {
+                      "type": "link",
+                      "url": "http://jwt.io",
+                      "text": "jwt.io"
+                    },
+                    {
+                      "type": "text",
+                      "text": " it will show “Invalid Signature” unless you also paste in the keys to use for verification in the text boxes in the “Verify Signature” area on the right side of the screen. If you are including the keys and the tool still shows Invalid Signature something is wrong with the signature on the JWT. In that case you should check your signing code.\n\nDid you follow the instruction at "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/weatherkitrestapi/request_authentication_for_weatherkit_rest_api",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": " to create a Service ID for WeatherKit?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "7fcff6a8-91e2-40a2-b3df-b0ec6cc341eb",
+          "type": "message",
+          "user": "U045WJJCJMC",
+          "text": "Hi Vince, thanks for the reply. Yes I followed the instructions at the link you posted. I was confused whether I should be using an App ID vs. Service ID Identifier as the latter does not have checkboxes for enabling WeatherKit like the former does. Perhaps that's expected?",
+          "ts": "1666111087.270089",
+          "thread_ts": "1666110458.223919",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "CxNx",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi Vince, thanks for the reply. Yes I followed the instructions at the link you posted. I was confused whether I should be using an App ID vs. Service ID Identifier as the latter does not have checkboxes for enabling WeatherKit like the former does. Perhaps that's expected?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "b8cdc4bc-5436-4691-80b0-abad8e54a643",
+          "type": "message",
+          "user": "U045WJJCJMC",
+          "text": "However I still get a 403 Forbidden response:\n```{\"timestamp\":\"2022-10-18T16:34:29Z\",\"status\":403,\"error\":\"Forbidden\",\"message\":\"Access Denied\",\"path\":\"/api/v1/availability/37.323/122.032\"}```",
+          "ts": "1666111124.818479",
+          "thread_ts": "1666110458.223919",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "1JV",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "However I still get a 403 Forbidden response:\n"
+                    }
+                  ]
+                },
+                {
+                  "Type": "rich_text_preformatted",
+                  "Raw": "{\"type\":\"rich_text_preformatted\",\"elements\":[{\"type\":\"text\",\"text\":\"{\\\"timestamp\\\":\\\"2022-10-18T16:34:29Z\\\",\\\"status\\\":403,\\\"error\\\":\\\"Forbidden\\\",\\\"message\\\":\\\"Access Denied\\\",\\\"path\\\":\\\"\\/api\\/v1\\/availability\\/37.323\\/122.032\\\"}\"}],\"border\":0}"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "545aae94-6fb7-4244-8900-15d7ad83643e",
+          "type": "message",
+          "user": "U045WJJCJMC",
+          "text": "Here's my JWT\n```eyJpZCI6IktQVVBIMlEyQUIuY29tLmZyb3N0ZWRhcHBzLndlYXRoZXJraXQiLCJraWQiOiI4UFRRVVJMWU5HIiwiYWxnIjoiRVMyNTYiLCJ0eXAiOiJKV1QifQ.eyJpYXQiOjE2NjYxMTA4NjksImV4cCI6MTY2NjExNDQ2OSwic3ViIjoiY29tLmZyb3N0ZWRhcHBzLndlYXRoZXJraXQiLCJpc3MiOiJLUFVQSDJRMkFCIn0.BhgYe0C7Mt0K23Uz207ARINpk5D8q-2hfSt6ePED59A5FGhwtgafLF-xSBCfQzNSohoupmkWo8f5qTC2fHDDaw```",
+          "ts": "1666111142.389959",
+          "thread_ts": "1666110458.223919",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "45z",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Here's my JWT\n"
+                    }
+                  ]
+                },
+                {
+                  "Type": "rich_text_preformatted",
+                  "Raw": "{\"type\":\"rich_text_preformatted\",\"elements\":[{\"type\":\"text\",\"text\":\"eyJpZCI6IktQVVBIMlEyQUIuY29tLmZyb3N0ZWRhcHBzLndlYXRoZXJraXQiLCJraWQiOiI4UFRRVVJMWU5HIiwiYWxnIjoiRVMyNTYiLCJ0eXAiOiJKV1QifQ.eyJpYXQiOjE2NjYxMTA4NjksImV4cCI6MTY2NjExNDQ2OSwic3ViIjoiY29tLmZyb3N0ZWRhcHBzLndlYXRoZXJraXQiLCJpc3MiOiJLUFVQSDJRMkFCIn0.BhgYe0C7Mt0K23Uz207ARINpk5D8q-2hfSt6ePED59A5FGhwtgafLF-xSBCfQzNSohoupmkWo8f5qTC2fHDDaw\"}],\"border\":0}"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "13483f9c-8f3c-4eb2-b8cd-63a0bb51c2a3",
+          "type": "message",
+          "user": "U045WJJCJMC",
+          "text": "Which appears encoded correctly:",
+          "ts": "1666111166.849899",
+          "thread_ts": "1666110458.223919",
+          "files": [
+            {
+              "id": "F046YJCMPGV",
+              "created": 1666111163,
+              "timestamp": 1666111163,
+              "name": "image.png",
+              "title": "image.png",
+              "mimetype": "image/png",
+              "image_exif_rotation": 0,
+              "filetype": "png",
+              "pretty_type": "PNG",
+              "user": "U045WJJCJMC",
+              "mode": "hosted",
+              "editable": false,
+              "is_external": false,
+              "external_type": "",
+              "size": 85822,
+              "url": "",
+              "url_download": "",
+              "url_private": "C0432CSG760/F046YJCMPGV-image.png",
+              "url_private_download": "C0432CSG760/F046YJCMPGV-image.png",
+              "original_h": 756,
+              "original_w": 926,
+              "thumb_64": "https://files.slack.com/files-tmb/T01PTBJ95PS-F046YJCMPGV-3b669f02cb/image_64.png",
+              "thumb_80": "https://files.slack.com/files-tmb/T01PTBJ95PS-F046YJCMPGV-3b669f02cb/image_80.png",
+              "thumb_160": "https://files.slack.com/files-tmb/T01PTBJ95PS-F046YJCMPGV-3b669f02cb/image_160.png",
+              "thumb_360": "https://files.slack.com/files-tmb/T01PTBJ95PS-F046YJCMPGV-3b669f02cb/image_360.png",
+              "thumb_360_gif": "",
+              "thumb_360_w": 360,
+              "thumb_360_h": 294,
+              "thumb_480": "https://files.slack.com/files-tmb/T01PTBJ95PS-F046YJCMPGV-3b669f02cb/image_480.png",
+              "thumb_480_w": 480,
+              "thumb_480_h": 392,
+              "thumb_720": "https://files.slack.com/files-tmb/T01PTBJ95PS-F046YJCMPGV-3b669f02cb/image_720.png",
+              "thumb_720_w": 720,
+              "thumb_720_h": 588,
+              "thumb_960": "",
+              "thumb_960_w": 0,
+              "thumb_960_h": 0,
+              "thumb_1024": "",
+              "thumb_1024_w": 0,
+              "thumb_1024_h": 0,
+              "permalink": "https://appleevents.enterprise.slack.com/files/U045WJJCJMC/F046YJCMPGV/image.png",
+              "permalink_public": "https://slack-files.com/T01PTBJ95PS-F046YJCMPGV-68fefd4d26",
+              "edit_link": "",
+              "preview": "",
+              "preview_highlight": "",
+              "lines": 0,
+              "lines_more": 0,
+              "is_public": false,
+              "public_url_shared": false,
+              "channels": null,
+              "groups": null,
+              "ims": null,
+              "initial_comment": {},
+              "comments_count": 0,
+              "num_stars": 0,
+              "is_starred": false,
+              "shares": {
+                "public": null,
+                "private": null
+              }
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Fxt",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Which appears encoded correctly:"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "4f2eb2e4-f46e-405e-bd35-2ae719c40f0d",
+          "type": "message",
+          "user": "U044Z2QCMTL",
+          "text": "I see the same error when trying that token, and it looks like WeatherKit is not enabled for your account. Did you follow these instructions to enable WeatherKit: \u003chttps://help.apple.com/developer-account/?lang=en#/devfe6684fd6\u003e",
+          "ts": "1666112228.959489",
+          "thread_ts": "1666110458.223919",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "33MW",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I see the same error when trying that token, and it looks like WeatherKit is not enabled for your account. Did you follow these instructions to enable WeatherKit: "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://help.apple.com/developer-account/?lang=en#/devfe6684fd6",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0478BJ4UPK\u003e asked\n\u0026gt; What’s the recommended way to get weather data in a widget? WidgetKit has a way to handle background URL requests but it be nicer to call WeatherKit directly.",
+      "ts": "1666110651.661779",
+      "thread_ts": "1666110651.661779",
+      "subtype": "bot_message",
+      "bot_id": "B043U8UG3A4",
+      "username": "Ask Apple - weather",
+      "reply_count": 1,
+      "latest_reply": "1666110971.938919",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "RaQjH",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0478BJ4UPK"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"What\\u2019s the recommended way to get weather data in a widget? WidgetKit has a way to handle background URL requests but it be nicer to call WeatherKit directly.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "32b7ec44-a159-45db-9466-aa1fe88b5a73",
+          "type": "message",
+          "user": "U045BMBLS2D",
+          "text": "The recommendation is to use WeatherKit directly when in the widget, that way you get the benefit of getting weather data directly from the native API and get caching for free.",
+          "ts": "1666110971.938919",
+          "thread_ts": "1666110651.661779",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U0464NE480L"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "JDubb",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "The recommendation is to use WeatherKit directly when in the widget, that way you get the benefit of getting weather data directly from the native API and get caching for free."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0465SGRQTG\u003e asked\n\u0026gt; Is there any caching implemented in WeatherService or do we have to add our own caching mechanism? For example, if I request the weather for the same location in the current hour, or if I request historical data for the same location and query dates? Thanks",
+      "ts": "1666111524.835979",
+      "thread_ts": "1666111524.835979",
+      "subtype": "bot_message",
+      "bot_id": "B043U8UG3A4",
+      "username": "Ask Apple - weather",
+      "reply_count": 1,
+      "latest_reply": "1666111545.591339",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Dqv",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0465SGRQTG"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Is there any caching implemented in WeatherService or do we have to add our own caching mechanism? For example, if I request the weather for the same location in the current hour, or if I request historical data for the same location and query dates? Thanks\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "ac59f0e9-5275-4441-a356-06f5f623e57d",
+          "type": "message",
+          "user": "U044SDU3FN2",
+          "text": "Hi Axel. Does the response in \u003chttps://appledeveloper.slack.com/archives/C0432CSG760/p1666110053293169\u003e sufficiently answer your question here about caching?",
+          "ts": "1666111545.591339",
+          "thread_ts": "1666111524.835979",
+          "attachments": [
+            {
+              "fallback": "[October 18th, 2022 9:20 AM] Ask Apple - weather: \u003c@U0478BJ4UPK\u003e asked\n\u0026gt; Does WeatherKit cache results locally, or is every request we make go to the servers and count against our quota? If it’s not cached, how often do you recommend checking for new data?",
+              "id": 1,
+              "author_subname": "Ask Apple - weather",
+              "author_link": "https://appledeveloper.slack.com/services/B043U8UG3A4",
+              "author_icon": "https://avatars.slack-edge.com/2022-09-20/4110252040724_a134207c1eb29b132b10_48.png",
+              "text": "\u003c@U0478BJ4UPK\u003e asked\n\u0026gt; Does WeatherKit cache results locally, or is every request we make go to the servers and count against our quota? If it’s not cached, how often do you recommend checking for new data?",
+              "from_url": "https://appledeveloper.slack.com/archives/C0432CSG760/p1666110053293169",
+              "original_url": "https://appledeveloper.slack.com/archives/C0432CSG760/p1666110053293169",
+              "mrkdwn_in": [
+                "text"
+              ],
+              "blocks": null,
+              "footer": "Thread in #weather",
+              "ts": 1666110053.293169
+            }
+          ],
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U0465SGRQTG"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "t/ppy",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi Axel. Does the response in "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://appledeveloper.slack.com/archives/C0432CSG760/p1666110053293169",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": " sufficiently answer your question here about caching?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U045Z9B0J69\u003e asked\n\u0026gt; If i want to inform a user of a weather when he leaves his house could it be possible with HomeKit API, CoreLocation or any other useful API (EventKit)?",
+      "ts": "1666111669.960419",
+      "thread_ts": "1666111669.960419",
+      "subtype": "bot_message",
+      "bot_id": "B043U8UG3A4",
+      "username": "Ask Apple - weather",
+      "reply_count": 2,
+      "latest_reply": "1666111708.741139",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Ztv",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U045Z9B0J69"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"If i want to inform a user of a weather when he leaves his house could it be possible with HomeKit API, CoreLocation or any other useful API (EventKit)?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "16261ad5-8e90-4fc6-97ad-22e100e4c306",
+          "type": "message",
+          "user": "U045NPAQ23A",
+          "text": "Yep! You can use CoreLocation’s geofencing APIs. See the docs here: \u003chttps://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions\u003e.",
+          "ts": "1666111682.231839",
+          "thread_ts": "1666111669.960419",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "vyyte",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yep! You can use CoreLocation’s geofencing APIs. See the docs here: "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "d51bfbc0-3559-4d7d-a39c-c03d7c498dc1",
+          "type": "message",
+          "user": "U045Z9B0J69",
+          "text": "Thank you!",
+          "ts": "1666111708.741139",
+          "thread_ts": "1666111669.960419",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "100",
+              "count": 1,
+              "users": [
+                "U045NPAQ23A"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "+yZ58",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thank you!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U045ZGP2QCV\u003e asked\n\u0026gt; Off topic: Your team managed pretty nice alignment between your REST and Swift APIs. At my startup, that can be a bit of a cultural struggle. Could you share any advice, in terms of team structure or processes, that perhaps other groups could benefit from?",
+      "ts": "1666111693.767029",
+      "thread_ts": "1666111693.767029",
+      "subtype": "bot_message",
+      "bot_id": "B043U8UG3A4",
+      "username": "Ask Apple - weather",
+      "reply_count": 3,
+      "latest_reply": "1666112784.630549",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "QRxn",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U045ZGP2QCV"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Off topic: Your team managed pretty nice alignment between your REST and Swift APIs. At my startup, that can be a bit of a cultural struggle. Could you share any advice, in terms of team structure or processes, that perhaps other groups could benefit from?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "48b4e755-5f25-491f-ab92-51f89a6a225f",
+          "type": "message",
+          "user": "U0455S159G8",
+          "text": "Thanks for the team compliment! Having everyone working on the design of both APIs is key.",
+          "ts": "1666111711.838859",
+          "thread_ts": "1666111693.767029",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "D/ju",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for the team compliment! Having everyone working on the design of both APIs is key."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "768b5128-2d5f-43a7-aa17-eb36bb7e553b",
+          "type": "message",
+          "user": "U045ZGP2QCV",
+          "text": "That is to say, all engineers on the team were polyglots picking up tickets on both ends... or everyone sat beside the same whiteboard at the start?",
+          "ts": "1666111781.445559",
+          "thread_ts": "1666111693.767029",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "1gDrF",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "That is to say, all engineers on the team were polyglots picking up tickets on both ends... or everyone sat beside the same whiteboard at the start?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "0c72abb7-c006-4a7f-acc7-d93949dc96a1",
+          "type": "message",
+          "user": "U0455S159G8",
+          "text": "Not sure if there’s any magic other than good communication and a common goal.",
+          "ts": "1666112784.630549",
+          "thread_ts": "1666111693.767029",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "heart",
+              "count": 1,
+              "users": [
+                "U04608QHDBP"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "xSl",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Not sure if there’s any magic other than good communication and a common goal."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "5da4f354-8b36-46bd-b8bd-3383b430e3cd",
+      "type": "message",
+      "user": "U0455S159G8",
+      "text": ":gratitude-merci: Thanks for your great questions and feedback! Keep ’em coming and we’ll be live again tomorrow at 3PM PDT.",
+      "ts": "1666112560.431769",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "HKA",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "emoji",
+                  "name": "gratitude-merci",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " Thanks for your great questions and feedback! Keep ’em coming and we’ll be live again tomorrow at 3PM PDT."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "3d1fa727-cfd3-4c44-bac5-774884a4f0e8",
+      "type": "message",
+      "user": "U0455S159G8",
+      "text": "Welcome back to the WeatherKit Q\u0026amp;A! We’re looking forward to answering more of your questions. Select the:heavy_plus_sign:icon from the lower left, and choose the _Ask A Question_ workflow. Type in your question and it will be delivered directly to our team. While we’ll answer as many questions as we can, all your submissions and feedback are super valuable. Thank you for joining us! :sunny:",
+      "ts": "1666216822.503479",
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "heart",
+          "count": 6,
+          "users": [
+            "U044Z01RYFM",
+            "U0449GH87DL",
+            "U045BMBLS2D",
+            "U044SDU3FN2",
+            "U04592TM4DV",
+            "U044Z2QCMTL"
+          ]
+        },
+        {
+          "name": "sunny",
+          "count": 1,
+          "users": [
+            "U044SDU3FN2"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "n0imQ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Welcome back to the WeatherKit Q\u0026A! We’re looking forward to answering more of your questions. Select the"
+                },
+                {
+                  "type": "emoji",
+                  "name": "heavy_plus_sign",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": "icon from the lower left, and choose the "
+                },
+                {
+                  "type": "text",
+                  "text": "Ask A Question",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " workflow. Type in your question and it will be delivered directly to our team. While we’ll answer as many questions as we can, all your submissions and feedback are super valuable. Thank you for joining us! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "sunny",
+                  "skin_tone": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "a4bfb3f1-5831-4c08-a41a-f9d32ece16ec",
+      "type": "message",
+      "user": "U0455S159G8",
+      "text": "*Let’s start with an FYI!*\n\nDid you know that historical weather data may change?",
+      "ts": "1666217102.844939",
+      "thread_ts": "1666217102.844939",
+      "reply_count": 1,
+      "latest_reply": "1666217142.446659",
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "eyes",
+          "count": 1,
+          "users": [
+            "U04749W3P6F"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "0IF",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Let’s start with an FYI!",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "\n\nDid you know that historical weather data may change?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "0d9be24a-93b9-4d6f-b912-e63166fc62e6",
+          "type": "message",
+          "user": "U044Z2QCMTL",
+          "text": "That’s true! The historical data from WeatherKit is not just weather station readings. We create a global model of weather conditions around the world, informed by station observations, global and local weather models, and our own proprietary forecasting algorithms. We continue to improve this model over time as we receive updated station observations even after the fact, add new regional weather models, and enhance WeatherKit’s forecasting capabilities. You can store historical weather data for your own use and analysis, but it is a good idea to periodically refresh that history to capture any improvements we may have made to that modeled history.",
+          "ts": "1666217142.446659",
+          "thread_ts": "1666217102.844939",
+          "parent_user_id": "U0455S159G8",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "MZc",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "That’s true! The historical data from WeatherKit is not just weather station readings. We create a global model of weather conditions around the world, informed by station observations, global and local weather models, and our own proprietary forecasting algorithms. We continue to improve this model over time as we receive updated station observations even after the fact, add new regional weather models, and enhance WeatherKit’s forecasting capabilities. You can store historical weather data for your own use and analysis, but it is a good idea to periodically refresh that history to capture any improvements we may have made to that modeled history."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U044Z01RYFM\u003e asked\n\u0026gt; More Trivia: Did you know that you could get Sun and Moon event information from WeatherKit?",
+      "ts": "1666217779.293519",
+      "thread_ts": "1666217779.293519",
+      "subtype": "bot_message",
+      "bot_id": "B043U8UG3A4",
+      "username": "Ask Apple - weather",
+      "reply_count": 1,
+      "latest_reply": "1666217806.290949",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "c1jF6",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U044Z01RYFM"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"More Trivia: Did you know that you could get Sun and Moon event information from WeatherKit?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "45d3e6f1-8cd4-436b-ab7b-5b7f5988c162",
+          "type": "message",
+          "user": "U044SDU3FN2",
+          "text": "That's right! Not only does WeatherKit provide information about upcoming sunrises and sunsets in the `DayWeather` data model, but information about when the moon will rise and set is also provided. And that's not all. WeatherKit users can even get information about moon phases.",
+          "ts": "1666217806.290949",
+          "thread_ts": "1666217779.293519",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "moon",
+              "count": 2,
+              "users": [
+                "U044Z01RYFM",
+                "U045ZA653NZ"
+              ]
+            },
+            {
+              "name": "upside_down_face",
+              "count": 1,
+              "users": [
+                "U0464NE480L"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "yBIQ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "That's right! Not only does WeatherKit provide information about upcoming sunrises and sunsets in the "
+                    },
+                    {
+                      "type": "text",
+                      "text": "DayWeather",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " data model, but information about when the moon will rise and set is also provided. And that's not all. WeatherKit users can even get information about moon phases."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0464LUTM2Q\u003e asked\n\u0026gt; what are the set of valid values for the conditionCode enum here: \u003chttps://developer.apple.com/documentation/weatherkitrestapi/currentweather/currentweatherdata.|https://developer.apple.com/documentation/weatherkitrestapi/currentweather/currentweatherdata.\u003e\n\u0026gt; Our current best guess is the enum here: \u003chttps://developer.apple.com/documentation/weatherkit/weathercondition.|https://developer.apple.com/documentation/weatherkit/weathercondition.\u003e",
+      "ts": "1666217947.634139",
+      "thread_ts": "1666217947.634139",
+      "subtype": "bot_message",
+      "bot_id": "B043U8UG3A4",
+      "username": "Ask Apple - weather",
+      "reply_count": 3,
+      "latest_reply": "1666218150.808419",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "LBxc",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0464LUTM2Q"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"what are the set of valid values for the conditionCode enum here: \"},{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/documentation\\/weatherkitrestapi\\/currentweather\\/currentweatherdata.\",\"text\":\"https:\\/\\/developer.apple.com\\/documentation\\/weatherkitrestapi\\/currentweather\\/currentweatherdata.\"},{\"type\":\"text\",\"text\":\"\\nOur current best guess is the enum here: \"},{\"type\":\"link\",\"url\":\"https:\\/\\/developer.apple.com\\/documentation\\/weatherkit\\/weathercondition.\",\"text\":\"https:\\/\\/developer.apple.com\\/documentation\\/weatherkit\\/weathercondition.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "5f862774-0069-4ce2-8104-5e16e344770a",
+          "type": "message",
+          "user": "U044Z2QCMTL",
+          "text": "That is the correct list of enum values.",
+          "ts": "1666217963.319769",
+          "thread_ts": "1666217947.634139",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "5rCsC",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "That is the correct list of enum values."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "06ec20a5-f474-4448-b383-ecfb21478305",
+          "type": "message",
+          "user": "U0464LUTM2Q",
+          "text": "Thank you!",
+          "ts": "1666218039.980229",
+          "thread_ts": "1666217947.634139",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "yKk",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thank you!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "ac54f34d-ca80-4781-afe4-6aa3dcb0f655",
+          "type": "message",
+          "user": "U045BMBLS2D",
+          "text": "Thank you Vince. Just to make sure, here are the correct links (without the trailing dot):\n\u003chttps://developer.apple.com/documentation/weatherkitrestapi/currentweather/currentweatherdata\u003e\n\u003chttps://developer.apple.com/documentation/weatherkit/weathercondition\u003e",
+          "ts": "1666218150.808419",
+          "thread_ts": "1666217947.634139",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "R3Cg",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thank you Vince. Just to make sure, here are the correct links (without the trailing dot):\n"
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/weatherkitrestapi/currentweather/currentweatherdata",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": "\n"
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/weatherkit/weathercondition",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "742b07f0-7498-4ba6-a433-1f4d73d6ad82",
+      "type": "message",
+      "user": "U0455S159G8",
+      "text": "Another FAQ:\n\nIs there global weather coverage with WeatherKit?",
+      "ts": "1666218397.029809",
+      "thread_ts": "1666218397.029809",
+      "reply_count": 1,
+      "latest_reply": "1666218406.788159",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "LQlI",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Another FAQ:\n\nIs there global weather coverage with WeatherKit?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "b01fbecf-3f72-45f4-afed-5067dc661c95",
+          "type": "message",
+          "user": "U044Z2QCMTL",
+          "text": "Much of the data from WeatherKit is available worldwide, but some is limited to specific regions.\n\nThe daily and hourly forecast is available for all locations worldwide.\n\nThe minute forecast for the next hour is available for the US, UK, and Ireland.\n\nSevere weather events are available for Canada, Israel, Mexico, the United States, and most countries and regions in Europe.",
+          "ts": "1666218406.788159",
+          "thread_ts": "1666218397.029809",
+          "parent_user_id": "U0455S159G8",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "li++4",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Much of the data from WeatherKit is available worldwide, but some is limited to specific regions.\n\nThe daily and hourly forecast is available for all locations worldwide.\n\nThe minute forecast for the next hour is available for the US, UK, and Ireland.\n\nSevere weather events are available for Canada, Israel, Mexico, the United States, and most countries and regions in Europe."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U045WJJCJMC\u003e asked\n\u0026gt; When creating apps that use the REST API, should we be using the Service ID Identifier or App ID Identifier? The former is mentioned in the \"Request authentication for WeatherKit REST API\" docs, however,  the Service ID does not allow you to enable WeatherKit app service like an App ID. Which one should be used?",
+      "ts": "1666218642.016059",
+      "thread_ts": "1666218642.016059",
+      "subtype": "bot_message",
+      "bot_id": "B043U8UG3A4",
+      "username": "Ask Apple - weather",
+      "reply_count": 1,
+      "latest_reply": "1666218660.303359",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "LLBk",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U045WJJCJMC"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"When creating apps that use the REST API, should we be using the Service ID Identifier or App ID Identifier? The former is mentioned in the \\\"Request authentication for WeatherKit REST API\\\" docs, however,  the Service ID does not allow you to enable WeatherKit app service like an App ID. Which one should be used?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "664250ea-0ae3-49cd-885d-96cc1a95aa55",
+          "type": "message",
+          "user": "U044Z2QCMTL",
+          "text": "Service IDs are preferred and are in fact a bit easier to set up. With a Service ID you do not need to separately enable WeatherKit by checking a checkbox the way you do with an App ID. That is why you do not see an option to enable WeatherKit when selecting a Service ID.",
+          "ts": "1666218660.303359",
+          "thread_ts": "1666218642.016059",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "JEP6",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Service IDs are preferred and are in fact a bit easier to set up. With a Service ID you do not need to separately enable WeatherKit by checking a checkbox the way you do with an App ID. That is why you do not see an option to enable WeatherKit when selecting a Service ID."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "83c74e08-60fd-48bf-b147-c20de8ab59d5",
+      "type": "message",
+      "user": "U0455S159G8",
+      "text": "Many are asking:\n\nIs weather data available via the WeatherKit native and REST APIs always kept in sync?",
+      "ts": "1666218749.636879",
+      "thread_ts": "1666218749.636879",
+      "edited": {
+        "user": "U0455S159G8",
+        "ts": "1666218769.000000"
+      },
+      "reply_count": 1,
+      "latest_reply": "1666218812.539149",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "YwqgR",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Many are asking:\n\nIs weather data available via the WeatherKit native and REST APIs always kept in sync?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "86f93768-6550-4f69-838c-93561b1c5559",
+          "type": "message",
+          "user": "U045BMBLS2D",
+          "text": "Both APIs are versioned and while minor fixes may occur in each, new weather data features will be the same.",
+          "ts": "1666218812.539149",
+          "thread_ts": "1666218749.636879",
+          "parent_user_id": "U0455S159G8",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "YFw",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Both APIs are versioned and while minor fixes may occur in each, new weather data features will be the same."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046X6E720Y\u003e asked\n\u0026gt; Hi - Just to verify my understanding of pricing, it is 1 million calls/month: for US$49.99 per year right?  not 49.99 per month.",
+      "ts": "1666219571.467669",
+      "thread_ts": "1666219571.467669",
+      "subtype": "bot_message",
+      "bot_id": "B043U8UG3A4",
+      "username": "Ask Apple - weather",
+      "reply_count": 2,
+      "latest_reply": "1666219932.351919",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "n==",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046X6E720Y"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Hi - Just to verify my understanding of pricing, it is 1 million calls\\/month: for US$49.99 per year right?  not 49.99 per month.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "1bce6d81-5e14-43df-b18b-e1368a5fefc4",
+          "type": "message",
+          "user": "U0455S159G8",
+          "text": "The prices are listed here are per month: \u003chttps://developer.apple.com/weatherkit/get-started/\u003e",
+          "ts": "1666219588.721259",
+          "thread_ts": "1666219571.467669",
+          "attachments": [
+            {
+              "fallback": "Apple Developer: Get started with WeatherKit - Apple Developer",
+              "id": 1,
+              "title": "Get started with WeatherKit - Apple Developer",
+              "title_link": "https://developer.apple.com/weatherkit/get-started/",
+              "text": "Learn about WeatherKit requirements, tools to get started, and how to transition from the Dark Sky weather service.",
+              "image_url": "https://developer.apple.com/news/images/og/weatherkit-og.jpg",
+              "service_name": "Apple Developer",
+              "service_icon": "https://developer.apple.com/favicon.ico",
+              "from_url": "https://developer.apple.com/weatherkit/get-started/",
+              "original_url": "https://developer.apple.com/weatherkit/get-started/",
+              "blocks": null
+            }
+          ],
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Xzn2",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "The prices are listed here are per month: "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/weatherkit/get-started/",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "dba3fdca-8cea-4ef6-9838-11ff091a4875",
+          "type": "message",
+          "user": "U046X6E720Y",
+          "text": "Ok.  Thanks.",
+          "ts": "1666219932.351919",
+          "thread_ts": "1666219571.467669",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "6tIJK",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Ok.  Thanks."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "2ebcd48a-9831-428b-828f-9a558cd43a83",
+      "type": "message",
+      "user": "U0455S159G8",
+      "text": "Another FAQ:\n\nAre the weather descriptions localized?",
+      "ts": "1666220086.041239",
+      "thread_ts": "1666220086.041239",
+      "reply_count": 1,
+      "latest_reply": "1666220092.280349",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "zst",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Another FAQ:\n\nAre the weather descriptions localized?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "99e897ed-aeb9-4bc8-a1ec-efadedae9f61",
+          "type": "message",
+          "user": "U044Z2QCMTL",
+          "text": "Yes, all strings are localized.",
+          "ts": "1666220092.280349",
+          "thread_ts": "1666220086.041239",
+          "edited": {
+            "user": "U044Z2QCMTL",
+            "ts": "1666220099.000000"
+          },
+          "parent_user_id": "U0455S159G8",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "/y+el",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yes, all strings are localized."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "e7e154fe-0e6d-4735-be15-232a2b5b46e5",
+      "type": "message",
+      "user": "U0455S159G8",
+      "text": "And…that’s a wrap! Thanks for all your questions and feedback. Apologies for not getting to all your questions but keep them coming via Feedback Assistant \u003chttps://feedbackassistant.apple.com/feedback/\u003e and be sure to check out the other Ask Apple Q\u0026amp;A sessions happening this week!",
+      "ts": "1666220538.423439",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "xJrE",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "And…that’s a wrap! Thanks for all your questions and feedback. Apologies for not getting to all your questions but keep them coming via Feedback Assistant "
+                },
+                {
+                  "type": "link",
+                  "url": "https://feedbackassistant.apple.com/feedback/",
+                  "text": ""
+                },
+                {
+                  "type": "text",
+                  "text": " and be sure to check out the other Ask Apple Q\u0026A sessions happening this week!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "channel_id": "C0432CSG760"
+}

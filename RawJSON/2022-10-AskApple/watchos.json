@@ -1,0 +1,5045 @@
+{
+  "name": "watchos",
+  "messages": [
+    {
+      "type": "message",
+      "user": "U03V30M0C1K",
+      "text": "This content can't be displayed.",
+      "ts": "1665433939.762249",
+      "pinned_to": [
+        "C0432JBQ78U"
+      ],
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "+1",
+          "count": 5,
+          "users": [
+            "U045WMCQVF0",
+            "U0462PKR334",
+            "U045SJ3J1D5",
+            "U04636Y7AEN",
+            "U046R2YCDSM"
+          ]
+        },
+        {
+          "name": "heart",
+          "count": 3,
+          "users": [
+            "U045NJ0Q371",
+            "U045WLS7EF8",
+            "U0479GPNJ2C"
+          ]
+        },
+        {
+          "name": "flag-hr",
+          "count": 1,
+          "users": [
+            "U04657SB526"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "header",
+          "text": {
+            "type": "plain_text",
+            "text": "Welcome to Ask Apple",
+            "emoji": true
+          },
+          "block_id": "=M6h"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "We're excited to be hosting you in the watchOS channel this week! You can find the full schedule of Q\u0026amp;As for watchOS by visiting the \u003chttps://apps.apple.com/us/app/apple-developer/id640199958 | Apple Developer app\u003e and \u003chttps://developer.apple.com/events/ask-apple/questions-and-answers/ | website\u003e."
+          },
+          "block_id": "KxAe"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "If you haven’t already, please take a moment to familiarize yourself with \u003chttps://developer.apple.com/news/?id=vpbyzfg4 | how Q\u0026amp;As will work\u003e."
+          },
+          "block_id": "5nQ"
+        },
+        {
+          "type": "header",
+          "text": {
+            "type": "plain_text",
+            "text": "Attendance Policy",
+            "emoji": true
+          },
+          "block_id": "RJvu"
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "We want to make sure these spaces are helpful and welcoming for everyone — developers and Apple employees alike. Please review and follow the \u003chttps://developer.apple.com/events/policy/online-event-attendance-policy/ | attendance policy\u003e."
+          },
+          "block_id": "72kw"
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U03V30M0C1K\u003e added a workflow to this channel: *Ask Apple - watchos*.",
+      "ts": "1666019051.988759",
+      "subtype": "bot_message",
+      "bot_id": "B042Q3W3KUP",
+      "username": "Ask Apple - watchos",
+      "reactions": [
+        {
+          "name": "watch",
+          "count": 1,
+          "users": [
+            "U0471G9UNPJ"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "DCt",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U03V30M0C1K"
+                },
+                {
+                  "type": "text",
+                  "text": " added a workflow to this channel: "
+                },
+                {
+                  "type": "text",
+                  "text": "Ask Apple - watchos",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "61e8ffb1-6a99-484d-8b3a-7fd14701ddb5",
+      "type": "message",
+      "user": "U0441J2N9FH",
+      "text": "Hello watchOS development friends across the globe! We’re excited to kick off a week of Q\u0026amp;A activities. Our first activity is *Program for the Action button on Apple Watch Ultra*, beginning at *2:00pm PT* *Today, Monday, October 17*. We hope you can join us! If you’re unable to tune in live, you can begin sending in your questions that are related to *making effective use of the Action button* now. Select the:heavy_plus_sign:icon from the lower left, and find the _Ask A Question_ workflow. Type in your question to deliver it directly to the team. We’ll answer as many questions as we can during the 60 minute event this afternoon, and answer threads will remain visible afterwards.",
+      "ts": "1666019334.478609",
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "tada",
+          "count": 12,
+          "users": [
+            "U03V30M0C1K",
+            "U046ES912UR",
+            "U0465R7QB3N",
+            "U0471G9UNPJ",
+            "U03V8DT125A",
+            "U045Z8Z036H",
+            "U045WLS7EF8",
+            "U045Q0J840P",
+            "U044G2FD24B",
+            "U046FS54ELA",
+            "U045ZRTH5A9",
+            "U0455RVLUQG"
+          ]
+        },
+        {
+          "name": "watch",
+          "count": 3,
+          "users": [
+            "U045Z8Z036H",
+            "U045ZR19WK1",
+            "U046AT75P51"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "9PR",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hello watchOS development friends across the globe! We’re excited to kick off a week of Q\u0026A activities. Our first activity is "
+                },
+                {
+                  "type": "text",
+                  "text": "Program for the Action button on Apple Watch Ultra",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ", beginning at "
+                },
+                {
+                  "type": "text",
+                  "text": "2:00pm PT",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "text",
+                  "text": "Today, Monday, October 17",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ". We hope you can join us! If you’re unable to tune in live, you can begin sending in your questions that are related to "
+                },
+                {
+                  "type": "text",
+                  "text": "making effective use of the Action button",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " now. Select the"
+                },
+                {
+                  "type": "emoji",
+                  "name": "heavy_plus_sign",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": "icon from the lower left, and find the "
+                },
+                {
+                  "type": "text",
+                  "text": "Ask A Question",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " workflow. Type in your question to deliver it directly to the team. We’ll answer as many questions as we can during the 60 minute event this afternoon, and answer threads will remain visible afterwards."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "cd80c40d-100c-4aeb-aca5-5f3c3ca4c50c",
+      "type": "message",
+      "user": "U0441J2N9FH",
+      "text": "*Q\u0026amp;A: Program for the Action button on Apple Watch Ultra* will begin soon! Get your questions submitted now so our engineers can have answers ready for you at *2pm PDT*!",
+      "ts": "1666039690.319349",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "yBkLB",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Q\u0026A: Program for the Action button on Apple Watch Ultra",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " will begin soon! Get your questions submitted now so our engineers can have answers ready for you at "
+                },
+                {
+                  "type": "text",
+                  "text": "2pm PDT",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "0c76b480-6a20-4f06-a293-aabeb114595a",
+      "type": "message",
+      "user": "U0441J2N9FH",
+      "text": "\u003c!here\u003e Welcome to *Q\u0026amp;A: Program for the Action button on Apple Watch Ultra*! We’re looking forward to answering your questions. Select the:heavy_plus_sign:icon from the lower left, and find the _Ask A Question_ workflow. Type in your question and it will be delivered directly to the team. We’ll answer as many questions as we can. While it’s unlikely we’ll be able to address every question, all your submissions—and especially your Feedback reports, so include FB numbers if you have them!—are valuable. Thank you for taking the time to tell us about your use cases! :feedback\n\nLet’s kick it off! :rocket:",
+      "ts": "1666040400.365189",
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "heart_eyes_cat",
+          "count": 1,
+          "users": [
+            "U03V30M0C1K"
+          ]
+        },
+        {
+          "name": "watch",
+          "count": 3,
+          "users": [
+            "U0462CUE70A",
+            "U046RCMV1V3",
+            "U0455RVLUQG"
+          ]
+        },
+        {
+          "name": "man-swimming::skin-tone-5",
+          "count": 1,
+          "users": [
+            "U046RCMV1V3"
+          ]
+        },
+        {
+          "name": "bicyclist::skin-tone-5",
+          "count": 1,
+          "users": [
+            "U046RCMV1V3"
+          ]
+        },
+        {
+          "name": "man-running::skin-tone-5",
+          "count": 1,
+          "users": [
+            "U046RCMV1V3"
+          ]
+        },
+        {
+          "name": "simple_smile",
+          "count": 2,
+          "users": [
+            "U046DA9R188",
+            "U046AG9QTLL"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "QRUl",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "broadcast",
+                  "range": "here"
+                },
+                {
+                  "type": "text",
+                  "text": " Welcome to "
+                },
+                {
+                  "type": "text",
+                  "text": "Q\u0026A: Program for the Action button on Apple Watch Ultra",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "! We’re looking forward to answering your questions. Select the"
+                },
+                {
+                  "type": "emoji",
+                  "name": "heavy_plus_sign",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": "icon from the lower left, and find the "
+                },
+                {
+                  "type": "text",
+                  "text": "Ask A Question",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " workflow. Type in your question and it will be delivered directly to the team. We’ll answer as many questions as we can. While it’s unlikely we’ll be able to address every question, all your submissions—and especially your Feedback reports, so include FB numbers if you have them!—are valuable. Thank you for taking the time to tell us about your use cases! :feedback\n\nLet’s kick it off! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "rocket",
+                  "skin_tone": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046KLSN137\u003e asked\n\u0026gt; I wish the two-button pause worked even if “Start Workout” action for our app wasn’t selected. Is there a way to make this happen?",
+      "ts": "1666040555.383709",
+      "thread_ts": "1666040555.383709",
+      "subtype": "bot_message",
+      "bot_id": "B042Q3W3KUP",
+      "username": "Ask Apple - watchos",
+      "reply_count": 1,
+      "latest_reply": "1666040580.583529",
+      "reactions": [
+        {
+          "name": "heavy_plus_sign",
+          "count": 2,
+          "users": [
+            "U046FS54ELA",
+            "U046G8P844B"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "9eaV",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046KLSN137"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"I wish the two-button pause worked even if \\u201cStart Workout\\u201d action for our app wasn\\u2019t selected. Is there a way to make this happen?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "3183d82d-fb43-416c-bce5-c98f4419ecfd",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "There is nothing that a developer can do to enable this, but we are working on changes to make the experience more seamless for users. Stay tuned!",
+          "ts": "1666040580.583529",
+          "thread_ts": "1666040555.383709",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "tada",
+              "count": 3,
+              "users": [
+                "U046FS54ELA",
+                "U0462SYEK5L",
+                "U046KLSN137"
+              ]
+            },
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U046KLSN137"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "WJ2",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "There is nothing that a developer can do to enable this, but we are working on changes to make the experience more seamless for users. Stay tuned!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046EG8PMJB\u003e asked\n\u0026gt; Is there any way to determine if/how the Action Button is configured to activate within our app?  I would like to indicate within my app what the user can expect with a press of the Action Button in my app.",
+      "ts": "1666040705.666249",
+      "thread_ts": "1666040705.666249",
+      "subtype": "bot_message",
+      "bot_id": "B042Q3W3KUP",
+      "username": "Ask Apple - watchos",
+      "reply_count": 4,
+      "latest_reply": "1666380970.628809",
+      "reactions": [
+        {
+          "name": "heavy_plus_sign",
+          "count": 1,
+          "users": [
+            "U046G8P844B"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "J9Ut4",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046EG8PMJB"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Is there any way to determine if\\/how the Action Button is configured to activate within our app?  I would like to indicate within my app what the user can expect with a press of the Action Button in my app.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "c6350f90-1320-417d-8c39-90014e97c731",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "Hi David! We need some clarification on this question. Are you asking if there is a way to determine if your app is the app configured to react to the Action Button, and if so, which action is configured? Or are you asking how you might guide a user within your app to use the button? (Or something else? :slightly_smiling_face: )",
+          "ts": "1666040793.900099",
+          "thread_ts": "1666040705.666249",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "48aHY",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi David! We need some clarification on this question. Are you asking if there is a way to determine if your app is the app configured to react to the Action Button, and if so, which action is configured? Or are you asking how you might guide a user within your app to use the button? (Or something else? "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "skin_tone": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": " )"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "6fe83e14-8514-43e0-90cc-da3a9c33bf1d",
+          "type": "message",
+          "user": "U046FS54ELA",
+          "text": "\u0026gt; Are you asking if there is a way to determine if your app is the app configured to react to the Action Button, and if so, which action is configured?\nIf I may piggyback... I'd like to know this one! :sweat_smile:",
+          "ts": "1666041639.662539",
+          "thread_ts": "1666040705.666249",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "SYyTU",
+              "elements": [
+                {
+                  "Type": "rich_text_quote",
+                  "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Are you asking if there is a way to determine if your app is the app configured to react to the Action Button, and if so, which action is configured?\"}]}"
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "If I may piggyback... I'd like to know this one! "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "sweat_smile",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "2c13008e-7ef8-491b-880a-b0c27910a479",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "There isn’t a mechanism to do this currently. It’s good feedback, tho!",
+          "ts": "1666041689.916709",
+          "thread_ts": "1666040705.666249",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U046FS54ELA"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "+Ox",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "There isn’t a mechanism to do this currently. It’s good feedback, tho!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "0cc58bfd-2107-41b5-87ef-666c372446f7",
+          "type": "message",
+          "user": "U044G54ACSE",
+          "text": "\u003c@U046EG8PMJB\u003e and \u003c@U046FS54ELA\u003e, if you haven't already, please file feedback with your request and use case for this. The threads are open in this channel right now. If you get feedback filed, please post the number here.",
+          "ts": "1666380970.628809",
+          "thread_ts": "1666040705.666249",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "heavy_plus_sign",
+              "count": 1,
+              "users": [
+                "U0441J2N9FH"
+              ]
+            },
+            {
+              "name": "gratitude-thank-you",
+              "count": 1,
+              "users": [
+                "U0441J2N9FH"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ufmk+",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "user",
+                      "user_id": "U046EG8PMJB"
+                    },
+                    {
+                      "type": "text",
+                      "text": " and "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U046FS54ELA"
+                    },
+                    {
+                      "type": "text",
+                      "text": ", if you haven't already, please file feedback with your request and use case for this. The threads are open in this channel right now. If you get feedback filed, please post the number here."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046KLSN137\u003e asked\n\u0026gt; Any advice on how to improve tracking of crashes/freezing members on watchOS? If the Organizer in the Xcode doesn't show crashes/freezes, but actual users reproduce crashes.",
+      "ts": "1666040830.793429",
+      "thread_ts": "1666040830.793429",
+      "subtype": "bot_message",
+      "bot_id": "B042Q3W3KUP",
+      "username": "Ask Apple - watchos",
+      "reply_count": 1,
+      "latest_reply": "1666040912.546279",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "X3Rr",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046KLSN137"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Any advice on how to improve tracking of crashes\\/freezing members on watchOS? If the Organizer in the Xcode doesn't show crashes\\/freezes, but actual users reproduce crashes.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "a8a9dbb9-ebb2-425e-bdca-70c0a250d0a7",
+          "type": "message",
+          "user": "U044G2FD24B",
+          "text": "Users need to opt in to share crash reports to developers, so it’s possible that your users that are reproducing the crashes aren’t opted in. Encouraging your users to do that will get the reports to show up in the Xcode Organizer.",
+          "ts": "1666040912.546279",
+          "thread_ts": "1666040830.793429",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "fjud",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Users need to opt in to share crash reports to developers, so it’s possible that your users that are reproducing the crashes aren’t opted in. Encouraging your users to do that will get the reports to show up in the Xcode Organizer."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046AT75P51\u003e asked\n\u0026gt; We have an Apple Watch app that is used in work safety. Our users wear gloves during operation. With its new buttons and larger digital crown, the Apple Watch Ultra offers a very good basis to better support operation with gloves. Our question: Can we enable touchless operation of our app with the buttons and the Digital Crown? For this, navigation and selection would have to be mapped to the hardware buttons of the Apple Watch Ultra. . Otherwise, what other ways would we have to accomplish this goal?",
+      "ts": "1666040842.671389",
+      "thread_ts": "1666040842.671389",
+      "subtype": "bot_message",
+      "bot_id": "B042Q3W3KUP",
+      "username": "Ask Apple - watchos",
+      "reply_count": 7,
+      "latest_reply": "1666041344.731289",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ovt",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046AT75P51"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"We have an Apple Watch app that is used in work safety. Our users wear gloves during operation. With its new buttons and larger digital crown, the Apple Watch Ultra offers a very good basis to better support operation with gloves. Our question: Can we enable touchless operation of our app with the buttons and the Digital Crown? For this, navigation and selection would have to be mapped to the hardware buttons of the Apple Watch Ultra. . Otherwise, what other ways would we have to accomplish this goal?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "a9c55006-fc6b-455c-b6ee-8c3e761e6d4a",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "Navigating the UI using only the hardware buttons is currently only possible in a Dive session. We’d love to hear more about your use case in a Feedback report, tho! \u003chttps://feedbackassistant.apple.com\u003e",
+          "ts": "1666040864.084889",
+          "thread_ts": "1666040842.671389",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1::skin-tone-2",
+              "count": 2,
+              "users": [
+                "U0455RVLUQG",
+                "U0464NE480L"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "pQJMm",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Navigating the UI using only the hardware buttons is currently only possible in a Dive session. We’d love to hear more about your use case in a Feedback report, tho! "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://feedbackassistant.apple.com",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "3287f144-3120-4fbd-a702-5417f0e40195",
+          "type": "message",
+          "user": "U046JND8CKB",
+          "text": "Have you looked at the AssistiveTouch option? Maybe not quite as quick as being able to control the app through the hardware, but still potentially useful",
+          "ts": "1666041058.608439",
+          "thread_ts": "1666040842.671389",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "TvMuR",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Have you looked at the AssistiveTouch option? Maybe not quite as quick as being able to control the app through the hardware, but still potentially useful"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "b70e45a7-6df7-496e-905d-e20fa3df45bc",
+          "type": "message",
+          "user": "U046FS54ELA",
+          "text": "As a swimming app with water lock pretty much always-on we are daydreaming (i.e. not building yet) about the Action Button bringing up a menu that you can scroll through and select again with the Action button. Ex:\n1. Action Button hit to bring up a custom menu\n2. Digital Crown scroll to highlight items\n3. Action Button hit to select the highlighted item\nMaybe this could work in your case, just brainstorming :slightly_smiling_face:",
+          "ts": "1666041123.652619",
+          "thread_ts": "1666040842.671389",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "heart",
+              "count": 3,
+              "users": [
+                "U0441J2N9FH",
+                "U046AT75P51",
+                "U046G8P844B"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Kpv2P",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "As a swimming app with water lock pretty much always-on we are daydreaming (i.e. not building yet) about the Action Button bringing up a menu that you can scroll through and select again with the Action button. Ex:\n"
+                    }
+                  ]
+                },
+                {
+                  "Type": "rich_text_list",
+                  "Raw": "{\"type\":\"rich_text_list\",\"elements\":[{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"Action Button hit to bring up a custom menu\"}]},{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"Digital Crown scroll to highlight items\"}]},{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"Action Button hit to select the highlighted item\"}]}],\"style\":\"ordered\",\"indent\":0,\"border\":0}"
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "\nMaybe this could work in your case, just brainstorming "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "9139fc71-4763-4ed6-a941-93342ef83bf9",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "hi Adam! :wave::skin-tone-2:",
+          "ts": "1666041154.737409",
+          "thread_ts": "1666040842.671389",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "wave",
+              "count": 1,
+              "users": [
+                "U046FS54ELA"
+              ]
+            },
+            {
+              "name": "smile",
+              "count": 1,
+              "users": [
+                "U046FS54ELA"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "wCO8j",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "hi Adam! "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "wave",
+                      "skin_tone": 2
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "6493a033-323d-45f4-8234-8e42c28c507b",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "Adam is correct, with the change to the way users exit water lock, it’s possible to scroll the UI while in water lock now. (For everyone who complained about this change over the summer, now you know why we did it!)",
+          "ts": "1666041225.853989",
+          "thread_ts": "1666040842.671389",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "heart",
+              "count": 1,
+              "users": [
+                "U0464NE480L"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "NIqs",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Adam is correct, with the change to the way users exit water lock, it’s possible to scroll the UI while in water lock now. (For everyone who complained about this change over the summer, now you know why we did it!)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "79e57029-eeb5-4391-9d3d-48cd00eae16d",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "I’m _guessing_ (but can’t say for sure until we hear more about his use case in Feedback), that Simon’s case doesn’t involve a workout or diving, which are required to make use of the Action button currently.",
+          "ts": "1666041321.411059",
+          "thread_ts": "1666040842.671389",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U046FS54ELA"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "s3K/",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I’m "
+                    },
+                    {
+                      "type": "text",
+                      "text": "guessing",
+                      "style": {
+                        "italic": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " (but can’t say for sure until we hear more about his use case in Feedback), that Simon’s case doesn’t involve a workout or diving, which are required to make use of the Action button currently."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "3737b9f1-24e2-498d-abfb-d149c8018d55",
+          "type": "message",
+          "user": "U046FS54ELA",
+          "text": "\u0026gt; it’s possible to scroll the UI while in water lock now.\nThis was our users favorite change, so thank you :heart: :swimmer:",
+          "ts": "1666041344.731289",
+          "thread_ts": "1666040842.671389",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "heart",
+              "count": 2,
+              "users": [
+                "U0441J2N9FH",
+                "U0464NE480L"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "DvL",
+              "elements": [
+                {
+                  "Type": "rich_text_quote",
+                  "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"it\\u2019s possible to scroll the UI while in water lock now.\"}]}"
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "This was our users favorite change, so thank you "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "heart",
+                      "skin_tone": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "swimmer",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U045Z8YCR37\u003e asked\n\u0026gt; How does the system decide whether `ResumeWorkoutIntent` or `PauseWorkoutIntent` should be invoked? Is that solely based on the active workout status on the HealthKit side?",
+      "ts": "1666040992.924569",
+      "thread_ts": "1666040992.924569",
+      "subtype": "bot_message",
+      "bot_id": "B042Q3W3KUP",
+      "username": "Ask Apple - watchos",
+      "reply_count": 1,
+      "latest_reply": "1666041010.971869",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "Lxw7b",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U045Z8YCR37"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"How does the system decide whether `ResumeWorkoutIntent` or `PauseWorkoutIntent` should be invoked? Is that solely based on the active workout status on the HealthKit side?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "7d323977-3fda-4037-9c3d-a0e9c6a3bb9a",
+          "type": "message",
+          "user": "U044G54ACSE",
+          "text": "Yes, whether Pause or Resume is invoked by a chord with the Action Button is based solely on the active workout status from HealthKit.",
+          "ts": "1666041010.971869",
+          "thread_ts": "1666040992.924569",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "gratitude-thank-you",
+              "count": 1,
+              "users": [
+                "U045Z8YCR37"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "lqwAU",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yes, whether Pause or Resume is invoked by a chord with the Action Button is based solely on the active workout status from HealthKit."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046WFN5UE4\u003e asked\n\u0026gt; Is it possible to use to Action button for task that or no workout or shortcut?\n\u0026gt; Something similar to the behaviour of the Timer app (Start timer with the button, lap with second click).\n\u0026gt; By now with watchOS 16.1 I can not find a way for this",
+      "ts": "1666041026.104889",
+      "thread_ts": "1666041026.104889",
+      "subtype": "bot_message",
+      "bot_id": "B042Q3W3KUP",
+      "username": "Ask Apple - watchos",
+      "reply_count": 4,
+      "latest_reply": "1666041579.101489",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "eKcL",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046WFN5UE4"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Is it possible to use to Action button for task that or no workout or shortcut?\\nSomething similar to the behaviour of the Timer app (Start timer with the button, lap with second click).\\nBy now with watchOS 16.1 I can not find a way for this\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "accd6686-a2b1-4553-8891-082266a28fee",
+          "type": "message",
+          "user": "U044G2FD24B",
+          "text": "Developers of Workout and Dive apps can support the Action button, and developers can also offer custom shortcuts for users to trigger with the Action button. These are the only entry points for developers in watchOS 9.",
+          "ts": "1666041063.992229",
+          "thread_ts": "1666041026.104889",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "BPz",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Developers of Workout and Dive apps can support the Action button, and developers can also offer custom shortcuts for users to trigger with the Action button. These are the only entry points for developers in watchOS 9."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "2968fdd4-3eb0-46d9-8399-4029ffb6c08e",
+          "type": "message",
+          "user": "U046WFN5UE4",
+          "text": "Thanks for the reply!\nIt seems for me that there are many more opportunities for this. I’ll file a Feedback and will reference it here if it helps :slightly_smiling_face:",
+          "ts": "1666041194.351539",
+          "thread_ts": "1666041026.104889",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "gratitude-thank-you",
+              "count": 2,
+              "users": [
+                "U0441J2N9FH",
+                "U0455RVLUQG"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "9rx",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for the reply!\nIt seems for me that there are many more opportunities for this. I’ll file a Feedback and will reference it here if it helps "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "f4377b08-1abf-44a2-9bc6-0b1c9ab201f1",
+          "type": "message",
+          "user": "U044G2FD24B",
+          "text": "Please do!",
+          "ts": "1666041204.642439",
+          "thread_ts": "1666041026.104889",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "AWs",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Please do!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "1b5c521e-9cef-4135-a127-7aebe7eae3a2",
+          "type": "message",
+          "user": "U046WFN5UE4",
+          "text": "Filed FB11699104 for this",
+          "ts": "1666041579.101489",
+          "thread_ts": "1666041026.104889",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "gratitude-thank-you",
+              "count": 3,
+              "users": [
+                "U044G2FD24B",
+                "U0441J2N9FH",
+                "U044G2H5KEX"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "JEG",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Filed FB11699104 for this"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046YA4LP1A\u003e asked\n\u0026gt; On the current watch screen, you can show the presented controller with a Cancel button at the top of the screen. Is there a way in swiftUI to tell the system to execute my code when I click on the Cancel button? Is it possible to hide the Cancel button?",
+      "ts": "1666041786.461709",
+      "thread_ts": "1666041786.461709",
+      "subtype": "bot_message",
+      "bot_id": "B042Q3W3KUP",
+      "username": "Ask Apple - watchos",
+      "reply_count": 3,
+      "latest_reply": "1666042149.331789",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "lkJ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046YA4LP1A"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"On the current watch screen, you can show the presented controller with a Cancel button at the top of the screen. Is there a way in swiftUI to tell the system to execute my code when I click on the Cancel button? Is it possible to hide the Cancel button?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "972564bf-029e-4441-bd60-76ac3235af69",
+          "type": "message",
+          "user": "U044G2H5KEX",
+          "text": "From inside a `NavigationStack`, you can use the `.toolbar` modifier to add a `.cancellationAction` toolbar item which will take the place of the built in cancel button. i.e.\n```NavigationStack {\n    MyContent()\n    .sheet(isPresented: $isPresented) {\n        MyModalContent()\n        .toolbar {\n            ToolbarItem(placement: .cancellationAction) {\n                Button(\"Cancel\") {\n                    // dismiss sheet here    \n                }\n            }\n        }\n    }\n}```",
+          "ts": "1666041849.219309",
+          "thread_ts": "1666041786.461709",
+          "edited": {
+            "user": "U044G2H5KEX",
+            "ts": "1666041973.000000"
+          },
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U046YA4LP1A"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "KI0e",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "From inside a "
+                    },
+                    {
+                      "type": "text",
+                      "text": "NavigationStack",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ", you can use the "
+                    },
+                    {
+                      "type": "text",
+                      "text": ".toolbar",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " modifier to add a "
+                    },
+                    {
+                      "type": "text",
+                      "text": ".cancellationAction",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " toolbar item which will take the place of the built in cancel button. i.e.\n"
+                    }
+                  ]
+                },
+                {
+                  "Type": "rich_text_preformatted",
+                  "Raw": "{\"type\":\"rich_text_preformatted\",\"elements\":[{\"type\":\"text\",\"text\":\"NavigationStack {\\n    MyContent()\\n    .sheet(isPresented: $isPresented) {\\n        MyModalContent()\\n        .toolbar {\\n            ToolbarItem(placement: .cancellationAction) {\\n                Button(\\\"Cancel\\\") {\\n                    \\/\\/ dismiss sheet here    \\n                }\\n            }\\n        }\\n    }\\n}\"}],\"border\":0}"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "80e9a5b7-b87d-4695-ae25-a613b53619be",
+          "type": "message",
+          "user": "U046YA4LP1A",
+          "text": "this is great! it's a pity there was no such possibility before watchos 9",
+          "ts": "1666042110.461309",
+          "thread_ts": "1666041786.461709",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "PI9q",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "this is great! it's a pity there was no such possibility before watchos 9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "c5cbc528-c8b1-4984-ac85-97cebc0f1eef",
+          "type": "message",
+          "user": "U044G2H5KEX",
+          "text": "This also works inside a NavigationView in releases prior to watchOS 9.0",
+          "ts": "1666042149.331789",
+          "thread_ts": "1666041786.461709",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U046YA4LP1A"
+              ]
+            },
+            {
+              "name": "+1::skin-tone-2",
+              "count": 1,
+              "users": [
+                "U0455RVLUQG"
+              ]
+            },
+            {
+              "name": "raised_hands",
+              "count": 2,
+              "users": [
+                "U046S46MMLG",
+                "U046KM6DELR"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "nZOS",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "This also works inside a NavigationView in releases prior to watchOS 9.0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "8332a769-a61c-4d9e-94cb-1a2fd127b1aa",
+      "type": "message",
+      "user": "U0441J2N9FH",
+      "text": "A couple folks have asked questions about how to get the different workouts an app offers to show up so people can start them with the Action button? aka “My app shows up but not my suggested workouts.” :thread:",
+      "ts": "1666042719.402009",
+      "thread_ts": "1666042719.402009",
+      "reply_count": 3,
+      "latest_reply": "1666043758.670609",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "SUo",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "A couple folks have asked questions about how to get the different workouts an app offers to show up so people can start them with the Action button? aka “My app shows up but not my suggested workouts.” "
+                },
+                {
+                  "type": "emoji",
+                  "name": "thread",
+                  "skin_tone": 0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "1f4f7194-62cd-4ead-8b00-040d6fffa270",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "To make this work, the `workoutStyle` in `StartWorkoutIntent` needs the `AppIntent.Parameter` property wrapper.",
+          "ts": "1666042760.739689",
+          "thread_ts": "1666042719.402009",
+          "parent_user_id": "U0441J2N9FH",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "99en",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "To make this work, the "
+                    },
+                    {
+                      "type": "text",
+                      "text": "workoutStyle",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " in "
+                    },
+                    {
+                      "type": "text",
+                      "text": "StartWorkoutIntent",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " needs the "
+                    },
+                    {
+                      "type": "text",
+                      "text": "AppIntent.Parameter",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " property wrapper."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "54a4a094-4d8b-4085-8376-ecbf1fcacca0",
+          "type": "message",
+          "user": "U045Z8YCR37",
+          "text": "Just want to share the feedback that it would be great if this kind of information is made available on the official documentation in addition to the Slack Q\u0026amp;A :pray: \u003chttps://developer.apple.com/documentation/appintents/startworkoutintent\u003e",
+          "ts": "1666043403.148949",
+          "thread_ts": "1666042719.402009",
+          "parent_user_id": "U0441J2N9FH",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "white_check_mark",
+              "count": 2,
+              "users": [
+                "U0441J2N9FH",
+                "U0464NE480L"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "mVkV",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Just want to share the feedback that it would be great if this kind of information is made available on the official documentation in addition to the Slack Q\u0026A "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "pray",
+                      "skin_tone": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/appintents/startworkoutintent",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "dffe7609-fa82-4959-830a-fc37c698b5ee",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "Thanks for that feedback! We’ll have more documentation about the Action button, including sample code, available soon. It’s going through review now. :slightly_smiling_face:",
+          "ts": "1666043758.670609",
+          "thread_ts": "1666042719.402009",
+          "parent_user_id": "U0441J2N9FH",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "raised_hands",
+              "count": 3,
+              "users": [
+                "U045Z8YCR37",
+                "U046T1NNU48",
+                "U046S5LM1H6"
+              ]
+            },
+            {
+              "name": "+1",
+              "count": 2,
+              "users": [
+                "U0464NE480L",
+                "U046S5LM1H6"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "q6O",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks for that feedback! We’ll have more documentation about the Action button, including sample code, available soon. It’s going through review now. "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046FS54ELA\u003e asked\n\u0026gt; Are there any best practices, language, or examples for user education around configuring the Action Button for your app? It's a little deep in the Settings menu which can make it harder to point to.",
+      "ts": "1666042854.738839",
+      "thread_ts": "1666042854.738839",
+      "subtype": "bot_message",
+      "bot_id": "B042Q3W3KUP",
+      "username": "Ask Apple - watchos",
+      "reply_count": 3,
+      "latest_reply": "1666043200.614769",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "LTeH7",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046FS54ELA"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Are there any best practices, language, or examples for user education around configuring the Action Button for your app? It's a little deep in the Settings menu which can make it harder to point to.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "2e3d5ab9-b5fb-4477-94b2-7699244d5c0c",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "This is a good one. :thinking_face:",
+          "ts": "1666042870.810399",
+          "thread_ts": "1666042854.738839",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Riw",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "This is a good one. "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "thinking_face",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "e703b50e-486f-4c0d-bf3a-2c2763294caf",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "There is public documentation, of course (I remember reviewing it in the User Guide :slightly_smiling_face:), but at the moment I don’t have a great suggestion other than saying something like, “Use the Action button to start MySwimPro workout by going to Settings \u0026gt; Action Button \u0026gt; Workout and choosing MySwimPro as the App.”",
+          "ts": "1666043191.668659",
+          "thread_ts": "1666042854.738839",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U046FS54ELA"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "B6T0+",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "There is public documentation, of course (I remember reviewing it in the User Guide "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "skin_tone": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "), but at the moment I don’t have a great suggestion other than saying something like, “Use the Action button to start MySwimPro workout by going to Settings \u003e Action Button \u003e Workout and choosing MySwimPro as the App.”"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "82211ba9-58d8-426c-89fb-1317875bbda9",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "Happy to have a Feedback about this!",
+          "ts": "1666043200.614769",
+          "thread_ts": "1666042854.738839",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "aGvIH",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Happy to have a Feedback about this!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "a8b1f5aa-996e-404d-b698-c61b525783eb",
+      "type": "message",
+      "user": "U0441J2N9FH",
+      "text": "We’re also getting a couple different questions about the text that’s presented when an action is triggered (and the hints about the next action). \u003c@U044G54ACSE\u003e has some thoughts on this.",
+      "ts": "1666043476.831059",
+      "thread_ts": "1666043476.831059",
+      "reply_count": 6,
+      "latest_reply": "1666044016.906919",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "/ho",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "We’re also getting a couple different questions about the text that’s presented when an action is triggered (and the hints about the next action). "
+                },
+                {
+                  "type": "user",
+                  "user_id": "U044G54ACSE"
+                },
+                {
+                  "type": "text",
+                  "text": " has some thoughts on this."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "ea57ef45-53d2-44d0-96ce-650d08f9e219",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "Any time a workout is running, you can donate a new AppIntent for the Action button.",
+          "ts": "1666043683.640739",
+          "thread_ts": "1666043476.831059",
+          "parent_user_id": "U0441J2N9FH",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ETmf",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Any time a workout is running, you can donate a new AppIntent for the Action button."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "5f22a037-35c2-474b-863c-03ca52d89ce2",
+          "type": "message",
+          "user": "U044G54ACSE",
+          "text": "You can donate an `AppIntent` for the Action button from your app while a Workout is active like this:\n```SomeAppIntent().donate(result: .result(actionButtonIntent: TheNextAppIntent()))```",
+          "ts": "1666043696.996309",
+          "thread_ts": "1666043476.831059",
+          "parent_user_id": "U0441J2N9FH",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "hEl",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "You can donate an "
+                    },
+                    {
+                      "type": "text",
+                      "text": "AppIntent",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " for the Action button from your app while a Workout is active like this:\n"
+                    }
+                  ]
+                },
+                {
+                  "Type": "rich_text_preformatted",
+                  "Raw": "{\"type\":\"rich_text_preformatted\",\"elements\":[{\"type\":\"text\",\"text\":\"SomeAppIntent().donate(result: .result(actionButtonIntent: TheNextAppIntent()))\"}],\"border\":0}"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "6a7e55ac-fde9-427e-bd3a-227a46b719cd",
+          "type": "message",
+          "user": "U044G54ACSE",
+          "text": "`TheNextAppIntent` will continue to handle Action button presses until you donate something else or until the workout ends.",
+          "ts": "1666043795.532629",
+          "thread_ts": "1666043476.831059",
+          "parent_user_id": "U0441J2N9FH",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "zmdpY",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "TheNextAppIntent",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " will continue to handle Action button presses until you donate something else or until the workout ends."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "907c0b0d-e147-48d4-9d03-b92759cea827",
+          "type": "message",
+          "user": "U044G54ACSE",
+          "text": "At any time, you can donate a different AppIntent.",
+          "ts": "1666043808.302479",
+          "thread_ts": "1666043476.831059",
+          "parent_user_id": "U0441J2N9FH",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ZCX3p",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "At any time, you can donate a different AppIntent."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "2bdd3661-4d0d-4254-a15f-5a82f14c669d",
+          "type": "message",
+          "user": "U044G54ACSE",
+          "text": "So, for instance, if you have an app where you want to change the Action button intent in response to an Action button press *or* a button press in the UI, you can do that by donating as shown above.",
+          "ts": "1666043886.405729",
+          "thread_ts": "1666043476.831059",
+          "parent_user_id": "U0441J2N9FH",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "bangbang",
+              "count": 3,
+              "users": [
+                "U0441J2N9FH",
+                "U044G2FD24B",
+                "U046FS54ELA"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Fmk7",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "So, for instance, if you have an app where you want to change the Action button intent in response to an Action button press "
+                    },
+                    {
+                      "type": "text",
+                      "text": "or",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " a button press in the UI, you can do that by donating as shown above."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "4afe26e7-e207-4d77-95ad-f995bb384739",
+          "type": "message",
+          "user": "U044G54ACSE",
+          "text": "The static `title` property of your donated `AppIntent` is the text that is presented when the action is triggered (and in the hints).",
+          "ts": "1666044016.906919",
+          "thread_ts": "1666043476.831059",
+          "parent_user_id": "U0441J2N9FH",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1::skin-tone-2",
+              "count": 2,
+              "users": [
+                "U0455RVLUQG",
+                "U046T1NNU48"
+              ]
+            },
+            {
+              "name": "cool",
+              "count": 1,
+              "users": [
+                "U0441J2N9FH"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "OVb",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "The static "
+                    },
+                    {
+                      "type": "text",
+                      "text": "title",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " property of your donated "
+                    },
+                    {
+                      "type": "text",
+                      "text": "AppIntent",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " is the text that is presented when the action is triggered (and in the hints)."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "96abb9d1-ae58-4f24-99ac-b1f064e89221",
+      "type": "message",
+      "user": "U0441J2N9FH",
+      "text": "Thank you for joining us for this Q\u0026amp;A! We love chatting with y’all. While we’re finished answering questions for now (someone’s gotta make new features and fix bugs! :ladybug:), the workflow will remain published. Our next event is at *4:00pm PDT on Thursday*. If you’re unable to join us live, you can send in your questions. The main topic will again be Program for the Action button on Apple Watch Ultra, but we’ll probably have time for some other watchOS topics too. In the meantime, check out *Q\u0026amp;A: “Complications and widgets: reloaded”* at 2pm on Tuesday in the \u003c#C043CJ54LDP|\u003e channel. We’ll be back with more Q\u0026amp;A soon!",
+      "ts": "1666044144.661919",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "=RI9",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Thank you for joining us for this Q\u0026A! We love chatting with y’all. While we’re finished answering questions for now (someone’s gotta make new features and fix bugs! "
+                },
+                {
+                  "type": "emoji",
+                  "name": "ladybug",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": "), the workflow will remain published. Our next event is at "
+                },
+                {
+                  "type": "text",
+                  "text": "4:00pm PDT on Thursday",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": ". If you’re unable to join us live, you can send in your questions. The main topic will again be Program for the Action button on Apple Watch Ultra, but we’ll probably have time for some other watchOS topics too. In the meantime, check out "
+                },
+                {
+                  "type": "text",
+                  "text": "Q\u0026A: “Complications and widgets: reloaded”",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " at 2pm on Tuesday in the "
+                },
+                {
+                  "type": "channel",
+                  "channel_id": "C043CJ54LDP"
+                },
+                {
+                  "type": "text",
+                  "text": " channel. We’ll be back with more Q\u0026A soon!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "8c5f5893-d66d-4fee-8d20-4e7ccf8d9b9b",
+      "type": "message",
+      "user": "U0441J2N9FH",
+      "text": "Welcome to our second *Q\u0026amp;A: Program for the Action button on Apple Watch Ultra*! We’re looking forward to answering your questions about the new Action button the Apple Watch Ultra, and we’ll also try to answer questions about watchOS APIs and development concerns, time \u0026amp; staff permitting. Select the:heavy_plus_sign:icon from the lower left, and find the _Ask A Question_ workflow. While it’s unlikely we’ll be able to address every question, all your submissions—and especially your Feedback reports, so include FB numbers if you have them!—are valuable. And remember: Telling us _what you’re trying to do_ or _why you need a feature or API_ is the best way to engage. We won’t be able to answer questions about future plans. Thank you for taking the time to tell us about your use cases!",
+      "ts": "1666306804.210639",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "NQXt",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Welcome to our second "
+                },
+                {
+                  "type": "text",
+                  "text": "Q\u0026A: Program for the Action button on Apple Watch Ultra",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "! We’re looking forward to answering your questions about the new Action button the Apple Watch Ultra, and we’ll also try to answer questions about watchOS APIs and development concerns, time \u0026 staff permitting. Select the"
+                },
+                {
+                  "type": "emoji",
+                  "name": "heavy_plus_sign",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": "icon from the lower left, and find the "
+                },
+                {
+                  "type": "text",
+                  "text": "Ask A Question",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " workflow. While it’s unlikely we’ll be able to address every question, all your submissions—and especially your Feedback reports, so include FB numbers if you have them!—are valuable. And remember: Telling us "
+                },
+                {
+                  "type": "text",
+                  "text": "what you’re trying to do",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " or "
+                },
+                {
+                  "type": "text",
+                  "text": "why you need a feature or API",
+                  "style": {
+                    "italic": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": " is the best way to engage. We won’t be able to answer questions about future plans. Thank you for taking the time to tell us about your use cases!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046YA4LP1A\u003e asked\n\u0026gt; Our application supports a minimum version of watchOS 6 and is available for Series 2 devices. Can you please tell me where can I get information on the number of users on each version of watchOS so that developers and product managers can make development decisions?",
+      "ts": "1666306883.372349",
+      "thread_ts": "1666306883.372349",
+      "subtype": "bot_message",
+      "bot_id": "B042Q3W3KUP",
+      "username": "Ask Apple - watchos",
+      "reply_count": 1,
+      "latest_reply": "1666306924.860439",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "th3/o",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046YA4LP1A"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Our application supports a minimum version of watchOS 6 and is available for Series 2 devices. Can you please tell me where can I get information on the number of users on each version of watchOS so that developers and product managers can make development decisions?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "bbbce0c1-5ca2-45a0-9e77-07de58e10b58",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "We don’t release numbers publicly, and in any case you’d be better positioned to know your market (and to be able to weigh the costs to your development and customer support teams of supporting older OSes and devices) than Apple would. :slightly_smiling_face: Some apps support back to watchOS 2, believe it or not, because they also support older iPhones and iOS versions, and they know the customers that they want to serve use these devices. Others decide that supporting up to two OS versions back sufficiently balances the needs of their customers with the development resources available. Your own metrics are likely to tell the story!",
+          "ts": "1666306924.860439",
+          "thread_ts": "1666306883.372349",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "aTq",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "We don’t release numbers publicly, and in any case you’d be better positioned to know your market (and to be able to weigh the costs to your development and customer support teams of supporting older OSes and devices) than Apple would. "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "skin_tone": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": " Some apps support back to watchOS 2, believe it or not, because they also support older iPhones and iOS versions, and they know the customers that they want to serve use these devices. Others decide that supporting up to two OS versions back sufficiently balances the needs of their customers with the development resources available. Your own metrics are likely to tell the story!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U047146P61E\u003e asked\n\u0026gt; How can we get the entitlement to access the pressure sensor of the Apple Watch Ultra ?",
+      "ts": "1666306979.452459",
+      "thread_ts": "1666306979.452459",
+      "subtype": "bot_message",
+      "bot_id": "B042Q3W3KUP",
+      "username": "Ask Apple - watchos",
+      "reply_count": 1,
+      "latest_reply": "1666306986.553069",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "3Pori",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U047146P61E"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"How can we get the entitlement to access the pressure sensor of the Apple Watch Ultra ?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "6a5a3c6e-e3d6-4511-abc0-504b0713e0c2",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "We expect that you’ll be able to apply for the entitlement later this year. Stay tuned!",
+          "ts": "1666306986.553069",
+          "thread_ts": "1666306979.452459",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "raised_hands",
+              "count": 1,
+              "users": [
+                "U046LQHLZCJ"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "JDEBf",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "We expect that you’ll be able to apply for the entitlement later this year. Stay tuned!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U047146P61E\u003e asked\n\u0026gt; How to setup the app as an underwater workout app / scuba diving app so that it appears as an option for the action button ?",
+      "ts": "1666307100.980609",
+      "thread_ts": "1666307100.980609",
+      "subtype": "bot_message",
+      "bot_id": "B042Q3W3KUP",
+      "username": "Ask Apple - watchos",
+      "reply_count": 1,
+      "latest_reply": "1666307111.587789",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "xukZh",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U047146P61E"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"How to setup the app as an underwater workout app \\/ scuba diving app so that it appears as an option for the action button ?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "73c6a129-425a-42d9-949a-2e1e731ce71a",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "You will need an entitlement to develop a Dive app. We’re expecting this entitlement to be available later this year.",
+          "ts": "1666307111.587789",
+          "thread_ts": "1666307100.980609",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "UIdn/",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "You will need an entitlement to develop a Dive app. We’re expecting this entitlement to be available later this year."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U047NMTQ5NC\u003e asked\n\u0026gt; Do we have any docs about Apple Watch + CallKit / VoIP?\n\u0026gt; I see that CallKit support is announced for Apple Watch but there is no any docs about this.",
+      "ts": "1666307248.535039",
+      "thread_ts": "1666307248.535039",
+      "subtype": "bot_message",
+      "bot_id": "B042Q3W3KUP",
+      "username": "Ask Apple - watchos",
+      "reply_count": 3,
+      "latest_reply": "1666308626.154999",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "PnNay",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U047NMTQ5NC"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Do we have any docs about Apple Watch + CallKit \\/ VoIP?\\nI see that CallKit support is announced for Apple Watch but there is no any docs about this.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "98c58cd4-e27c-4312-8a22-c41d52745b4e",
+          "type": "message",
+          "user": "U044G54ACSE",
+          "text": "The documentation for CallKit is available \u003chttps://developer.apple.com/documentation/callkit|here\u003e and includes the watchOS 9.0+ availability and information about making and receiving VoIP calls.",
+          "ts": "1666307339.453539",
+          "thread_ts": "1666307248.535039",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "0wI0B",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "The documentation for CallKit is available "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/callkit",
+                      "text": "here"
+                    },
+                    {
+                      "type": "text",
+                      "text": " and includes the watchOS 9.0+ availability and information about making and receiving VoIP calls."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "4af2dfe5-9e53-437c-902a-cd58078ec0a0",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "The sample project at \u003chttps://developer.apple.com/documentation/callkit/making_and_receiving_voip_calls_with_callkit/\u003e has also been updated with a Watch target!",
+          "ts": "1666308502.810219",
+          "thread_ts": "1666307248.535039",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "mG8",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "The sample project at "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/callkit/making_and_receiving_voip_calls_with_callkit/",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": " has also been updated with a Watch target!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "64334e77-ef19-4a29-8dfa-a67a7233c59b",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "Note that the updated project requires iOS 16 and watchOS 9.1.",
+          "ts": "1666308626.154999",
+          "thread_ts": "1666307248.535039",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ncYJ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Note that the updated project requires iOS 16 and watchOS 9.1."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046745N37G\u003e asked\n\u0026gt; What’s the recommended behavior when a user starts a workout with the Action Button, but she hasn’t yet given workout permission to the app or even denied them? \n\u0026gt; \n\u0026gt; Should the app just throw an exception so the intent fails? \n\u0026gt; \n\u0026gt; In my experience, if the user has denied workout access to the app and it starts the activity anyway (GPS background recording in our case), watchOS won’t recognize the two button pause intent and it will also treat each new Action Button press as a new start intent.\n\u0026gt; \n\u0026gt; Thanks!",
+      "ts": "1666307598.983539",
+      "thread_ts": "1666307598.983539",
+      "subtype": "bot_message",
+      "bot_id": "B042Q3W3KUP",
+      "username": "Ask Apple - watchos",
+      "reply_count": 6,
+      "latest_reply": "1666378549.672939",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "dJJby",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046745N37G"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"What\\u2019s the recommended behavior when a user starts a workout with the Action Button, but she hasn\\u2019t yet given workout permission to the app or even denied them? \\n\\nShould the app just throw an exception so the intent fails? \\n\\nIn my experience, if the user has denied workout access to the app and it starts the activity anyway (GPS background recording in our case), watchOS won\\u2019t recognize the two button pause intent and it will also treat each new Action Button press as a new start intent.\\n\\nThanks!\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "baa4fe68-0825-48d4-b84b-cdc28088fc5d",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "This is a good question, and we’re in the process of preparing guidance as part of our Action button documentation.",
+          "ts": "1666307642.067549",
+          "thread_ts": "1666307598.983539",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "yMoQ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "This is a good question, and we’re in the process of preparing guidance as part of our Action button documentation."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "745f32f3-b02b-4022-86d9-063b0896c09c",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "Ideally the user has already granted permissions before triggering a start workout with the Action button, but since this isn’t always the case, probably something like this:\n1. In the start intent’s `perform()` method, you have 30 seconds to create a workout session and return.\n2. Then (probably when the workout view appears) you should request authorization to the HealthKit data types needed for the selected workout.\n3. When the auth request completes, you can set up your workout builder’s data source and begin collecting data.\n",
+          "ts": "1666307830.597789",
+          "thread_ts": "1666307598.983539",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "1bQu",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Ideally the user has already granted permissions before triggering a start workout with the Action button, but since this isn’t always the case, probably something like this:\n"
+                    }
+                  ]
+                },
+                {
+                  "Type": "rich_text_list",
+                  "Raw": "{\"type\":\"rich_text_list\",\"elements\":[{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"In the start intent\\u2019s \"},{\"type\":\"text\",\"text\":\"perform()\",\"style\":{\"code\":true}},{\"type\":\"text\",\"text\":\" method, you have 30 seconds to create a workout session and return.\"}]},{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"Then (probably when the workout view appears) you should request authorization to the HealthKit data types needed for the selected workout.\"}]},{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"When the auth request completes, you can set up your workout builder\\u2019s data source and begin collecting data.\"}]}],\"style\":\"ordered\",\"indent\":0,\"border\":0}"
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "0f5d2df3-647d-4e0f-a8ad-379fc0084ad9",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "Your case of watchOS not recognizing the two-button pause is an interesting one. Can you please file Feedback about that? \u003chttps://feedbackassistant.apple.com\u003e Thanks!",
+          "ts": "1666307982.532429",
+          "thread_ts": "1666307598.983539",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U046745N37G"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "opE",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Your case of watchOS not recognizing the two-button pause is an interesting one. Can you please file Feedback about that? "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://feedbackassistant.apple.com",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": " Thanks!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "95B073C6-0481-4BFF-93A4-08E63CA9223E",
+          "type": "message",
+          "user": "U046745N37G",
+          "text": "Thanks! As I said in twitter I can’t reproduce the issue where after starting an GPS background session from the action button without a workout, because there are no permissions, subsequent presses did trigger another StartWorkoutIntent. However, the fact that the two-button pause doesn’t trigger a PauseWorkoutIntent holds true. I believe this is expected, as there’s no workout running?",
+          "ts": "1666378342.025979",
+          "thread_ts": "1666307598.983539",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "TYtJ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks! As I said in twitter"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "text",
+                      "text": "I "
+                    },
+                    {
+                      "type": "text",
+                      "text": "can’t"
+                    },
+                    {
+                      "type": "text",
+                      "text": " reproduce the issue "
+                    },
+                    {
+                      "type": "text",
+                      "text": "w"
+                    },
+                    {
+                      "type": "text",
+                      "text": "here after starting an "
+                    },
+                    {
+                      "type": "text",
+                      "text": "G"
+                    },
+                    {
+                      "type": "text",
+                      "text": "PS background session from the action button without a workout, because there are"
+                    },
+                    {
+                      "type": "text",
+                      "text": " "
+                    },
+                    {
+                      "type": "text",
+                      "text": "no permissions, subsequent presses did trigger another StartWorkoutIntent. However, the fact that the two-button pause "
+                    },
+                    {
+                      "type": "text",
+                      "text": "doesn’t"
+                    },
+                    {
+                      "type": "text",
+                      "text": " trigger a PauseWorkoutIntent holds true"
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    },
+                    {
+                      "type": "text",
+                      "text": " I believe this is expected, as "
+                    },
+                    {
+                      "type": "text",
+                      "text": "there’s"
+                    },
+                    {
+                      "type": "text",
+                      "text": " no workout running?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "6555b558-9b5b-4a99-92d0-08931ae25c6d",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "Yes, if the workout didn’t start, two-button pause wouldn’t do anything.",
+          "ts": "1666378387.960049",
+          "thread_ts": "1666307598.983539",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "+1",
+              "count": 1,
+              "users": [
+                "U046745N37G"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "KOWm",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Yes, if the workout didn’t start, two-button pause wouldn’t do anything."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "2ff72a6d-2b8b-4ccb-a16b-1761c23ecc5f",
+          "type": "message",
+          "user": "U046745N37G",
+          "text": "Regarding the flow to request authorization when pressing the action button, what I've done in `perform()` is to launch an async job to request permissions and start the workout and then immediately `return .result()`. Otherwise, the Action Button screen covers the app and it's not possible to accept the permissions until it times out.",
+          "ts": "1666378549.672939",
+          "thread_ts": "1666307598.983539",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "white_check_mark",
+              "count": 1,
+              "users": [
+                "U0441J2N9FH"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "wXfX",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Regarding the flow to request authorization when pressing the action button, what I've done in "
+                    },
+                    {
+                      "type": "text",
+                      "text": "perform()",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " is to launch an async job to request permissions and start the workout and then immediately "
+                    },
+                    {
+                      "type": "text",
+                      "text": "return .result()",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": ". Otherwise, the Action Button screen covers the app and it's not possible to accept the permissions until it times out."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046U2BCL9E\u003e asked\n\u0026gt; I'm creating an Apple Watch app using the interface controller and cannot seem to hide the status bar on my now playing screen. I want to replicate Apple's now playing from within my app, is it possible?",
+      "ts": "1666307665.789839",
+      "thread_ts": "1666307665.789839",
+      "subtype": "bot_message",
+      "bot_id": "B042Q3W3KUP",
+      "username": "Ask Apple - watchos",
+      "reply_count": 1,
+      "latest_reply": "1666307675.877589",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "lZwHa",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046U2BCL9E"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"I'm creating an Apple Watch app using the interface controller and cannot seem to hide the status bar on my now playing screen. I want to replicate Apple's now playing from within my app, is it possible?\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "36cc896b-49a3-4c5f-b9db-0a80d5baa4fd",
+          "type": "message",
+          "user": "U044G2H5KEX",
+          "text": "The Now Playing screen on Apple Watch does not hide the status bar, but it does hide the navigation bar background by using the `.toolbarBackground(Color.clear, for: .navigationBar)` modifier in SwiftUI. For additional details, see \u003chttps://developer.apple.com/documentation/swiftui/tabview/toolbarbackground(_:for:)\u003e",
+          "ts": "1666307675.877589",
+          "thread_ts": "1666307665.789839",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "GbU/6",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "The Now Playing screen on Apple Watch does not hide the status bar, but it does hide the navigation bar background by using the "
+                    },
+                    {
+                      "type": "text",
+                      "text": ".toolbarBackground(Color.clear, for: .navigationBar)",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " modifier in SwiftUI. For additional details, see "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/swiftui/tabview/toolbarbackground(_:for:)",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "0af14b92-5925-4525-a25a-a21963e3909f",
+      "type": "message",
+      "user": "U0441J2N9FH",
+      "text": "A few folks have asked about device capabilities, and whether it’s possible to restrict installation of an app only to Apple Watch Ultra. Let’s talk about it. :thread:",
+      "ts": "1666308041.678109",
+      "thread_ts": "1666308041.678109",
+      "reply_count": 3,
+      "latest_reply": "1666308297.204399",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "ch=q",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "A few folks have asked about device capabilities, and whether it’s possible to restrict installation of an app only to Apple Watch Ultra. Let’s talk about it. "
+                },
+                {
+                  "type": "emoji",
+                  "name": "thread",
+                  "skin_tone": 0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "a2456ed4-41a6-4e37-bd3b-0fe5e5b3f125",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "The answer is that this isn’t possible—all apps are available for download on all devices that support the minimum OS listed in your project. But it _is_ possible to know that the device you’re on has a higher water resistance rating, and thus might be capable of deeper submersion.",
+          "ts": "1666308142.929369",
+          "thread_ts": "1666308041.678109",
+          "parent_user_id": "U0441J2N9FH",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "9+J",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "The answer is that this isn’t possible—all apps are available for download on all devices that support the minimum OS listed in your project. But it "
+                    },
+                    {
+                      "type": "text",
+                      "text": "is",
+                      "style": {
+                        "italic": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " possible to know that the device you’re on has a higher water resistance rating, and thus might be capable of deeper submersion."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "05207964-c475-45fe-9881-0c70b9b1fc52",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "You can read the `WKWaterResistanceRating` (\u003chttps://developer.apple.com/documentation/watchkit/wkwaterresistancerating\u003e) and check for case `wr100`.",
+          "ts": "1666308214.622049",
+          "thread_ts": "1666308041.678109",
+          "parent_user_id": "U0441J2N9FH",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "263",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "You can read the "
+                    },
+                    {
+                      "type": "text",
+                      "text": "WKWaterResistanceRating",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " ("
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/documentation/watchkit/wkwaterresistancerating",
+                      "text": ""
+                    },
+                    {
+                      "type": "text",
+                      "text": ") and check for case "
+                    },
+                    {
+                      "type": "text",
+                      "text": "wr100",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": "."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "a5c23e5d-cf94-4a10-a335-d6b00f83837f",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "Our advice is to make your app as functional as possible for all users and devices on the watchOS versions you support, and then to offer progressive enhancement—more features for more capable devices and newer OS versions.",
+          "ts": "1666308297.204399",
+          "thread_ts": "1666308041.678109",
+          "parent_user_id": "U0441J2N9FH",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "LQmO",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Our advice is to make your app as functional as possible for all users and devices on the watchOS versions you support, and then to offer progressive enhancement—more features for more capable devices and newer OS versions."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0461SXS43H\u003e asked\n\u0026gt; From a design perspective... how should we approach implementing the Action Button to invoke a set of cascading features vs implementing those features using traditional techniques since 3D touch was removed? Much thanks.",
+      "ts": "1666308649.678679",
+      "thread_ts": "1666308649.678679",
+      "subtype": "bot_message",
+      "bot_id": "B042Q3W3KUP",
+      "username": "Ask Apple - watchos",
+      "reply_count": 20,
+      "latest_reply": "1666309469.437639",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "zE=kd",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0461SXS43H"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"From a design perspective... how should we approach implementing the Action Button to invoke a set of cascading features vs implementing those features using traditional techniques since 3D touch was removed? Much thanks.\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "5d54b67d-1a5c-492d-8f3e-295350f1991a",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "hi Zaid! Can you elaborate on what you mean by “cascading features”?",
+          "ts": "1666308667.451079",
+          "thread_ts": "1666308649.678679",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "MEk8x",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "hi Zaid! Can you elaborate on what you mean by “cascading features”?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "eb2e13bd-65e0-4acf-84f3-793eadaac486",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "The Action button isn’t like force touch at all. :slightly_smiling_face:",
+          "ts": "1666308687.567149",
+          "thread_ts": "1666308649.678679",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Pr08c",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "The Action button isn’t like force touch at all. "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "ab596668-3ee5-450e-ad99-b8440bccc8bd",
+          "type": "message",
+          "user": "U0461SXS43H",
+          "text": "Button -\u0026gt; Feature 1 (now in a sub-context)  then Button -\u0026gt; Feature 2",
+          "ts": "1666308742.002219",
+          "thread_ts": "1666308649.678679",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "=dJ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Button -\u003e Feature 1 (now in a sub-context)  then Button -\u003e Feature 2"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "157c0cfb-afa1-4698-ad92-4b29486b0ef5",
+          "type": "message",
+          "user": "U0461SXS43H",
+          "text": "bearing some similarities to accessibility touch navigation through the UI",
+          "ts": "1666308817.966499",
+          "thread_ts": "1666308649.678679",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "RfXLz",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "bearing some similarities to accessibility touch navigation through the UI"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "a0f8b79f-1239-493f-b012-b4b86ab67b83",
+          "type": "message",
+          "user": "U0461SXS43H",
+          "text": "or the newer hand gestures",
+          "ts": "1666308840.838929",
+          "thread_ts": "1666308649.678679",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "9Qe",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "or the newer hand gestures"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "0c232451-c3c1-4c38-947c-c2087125b6ee",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "That’s exactly how the Action button is designed to work. The first press of the Action button would start a workout, and then your app would donate an intent for the action to perform on the next press (for example, Mark Segment or Record Goal).",
+          "ts": "1666308847.610959",
+          "thread_ts": "1666308649.678679",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "iV=7",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "That’s exactly how the Action button is designed to work. The first press of the Action button would start a workout, and then your app would donate an intent for the action to perform on the next press (for example, Mark Segment or Record Goal)."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "c3c918fa-f2b3-4386-bd91-9c93519fdf66",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "sorry, now my response is out of order",
+          "ts": "1666308862.878239",
+          "thread_ts": "1666308649.678679",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "qGUU",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "sorry, now my response is out of order"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "1e8b44a8-a0be-4117-9945-d49dce607874",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "I was responding to your 1 -\u0026gt; 2 comment",
+          "ts": "1666308876.113659",
+          "thread_ts": "1666308649.678679",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "me3",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I was responding to your 1 -\u003e 2 comment"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "706e5a40-6b60-4958-a01d-822e2c70abaf",
+          "type": "message",
+          "user": "U0461SXS43H",
+          "text": "or with a non-workout?",
+          "ts": "1666308881.519729",
+          "thread_ts": "1666308649.678679",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "47F8X",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "or with a non-workout?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "a2bdee4f-36a4-487e-8971-96c5f556b800",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "no",
+          "ts": "1666308886.877319",
+          "thread_ts": "1666308649.678679",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "M0sjv",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "no"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "7a92d771-4140-4eb3-8d44-cf068fd903c8",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "Not with a non-workout",
+          "ts": "1666308891.088299",
+          "thread_ts": "1666308649.678679",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "T18l",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Not with a non-workout"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "df684fb3-9596-4669-aafe-d300f8d0c6a8",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "The Action button can only be used by Workout and Dive apps. (And of course, the user can run a Shortcut that launches any third-party app, too.)",
+          "ts": "1666308930.626259",
+          "thread_ts": "1666308649.678679",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "Y/ut",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "The Action button can only be used by Workout and Dive apps. (And of course, the user can run a Shortcut that launches any third-party app, too.)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "4fe6c9ea-323e-4b6e-a9fb-e908fa9ca0fc",
+          "type": "message",
+          "user": "U0461SXS43H",
+          "text": "Can a subsequent Shortcut be invoked (much as a deep link into the app)?",
+          "ts": "1666309033.895759",
+          "thread_ts": "1666308649.678679",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "F2meJ",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Can a subsequent Shortcut be invoked (much as a deep link into the app)?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "1b09ed79-4a1d-46a1-b4fb-35b242fe35b3",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "The Action button can run a single Shortcut.",
+          "ts": "1666309103.479309",
+          "thread_ts": "1666308649.678679",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "YkBP1",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "The Action button can run a single Shortcut."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "a470d059-3ef2-490a-ae94-1da0c8a5de97",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "Some creative developers (see: MySwimPro, Volo) donate intents to let the user navigate the UI when in water lock during swimming and kitesurfing workouts.",
+          "ts": "1666309122.275729",
+          "thread_ts": "1666308649.678679",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "NaNGu",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Some creative developers (see: MySwimPro, Volo) donate intents to let the user navigate the UI when in water lock during swimming and kitesurfing workouts."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "851cba4c-81ec-4d56-a810-dc656c93cc52",
+          "type": "message",
+          "user": "U0461SXS43H",
+          "text": "but those donations are not guaranteed to contextually be available since it's based on the Siri donation system?",
+          "ts": "1666309191.939499",
+          "thread_ts": "1666308649.678679",
+          "edited": {
+            "user": "U0461SXS43H",
+            "ts": "1666309211.000000"
+          },
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "lF//",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "but those donations are not guaranteed to contextually be available since it's based on the Siri donation system?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "3c474277-eb81-42a3-ace7-7cc5ed1637f9",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "I’m not sure what you mean?",
+          "ts": "1666309214.644819",
+          "thread_ts": "1666308649.678679",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "/nt",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I’m not sure what you mean?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "1a0de53b-b225-4dab-98f7-b959d1cef723",
+          "type": "message",
+          "user": "U0461SXS43H",
+          "text": "Unlike the deterministic navigation of the UI, I under that Siri donations are not guaranteed to be made available in a timely fashion",
+          "ts": "1666309389.220189",
+          "thread_ts": "1666308649.678679",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "EoG",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Unlike the deterministic navigation of the UI, I under that Siri donations are not guaranteed to be made available in a timely fashion"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "eb9fa05b-3c2c-497c-b5df-6c01d8ab8398",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "I think you’re probably thinking of a use case that’s not appropriate for the Action button. :slightly_smiling_face:",
+          "ts": "1666309423.570069",
+          "thread_ts": "1666308649.678679",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "NLsE",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I think you’re probably thinking of a use case that’s not appropriate for the Action button. "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "skin_tone": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "ac66be88-2cda-4530-92a1-61a88ca29670",
+          "type": "message",
+          "user": "U0461SXS43H",
+          "text": "thank you",
+          "ts": "1666309469.437639",
+          "thread_ts": "1666308649.678679",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "white_check_mark",
+              "count": 1,
+              "users": [
+                "U0441J2N9FH"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "qfMDo",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "thank you"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0483DPL3FA\u003e asked\n\u0026gt; I'm able to get the Action Button working. But for some reason, inside Settings \u0026gt; Action Button, all suggested workouts appear named as \"Title\", their real name never appear. And when the app runs, Xcode prints the following error: \"[Execution] Unable to fetch display representation for intent `StartWorkoutIntent`\". The Display Representation is there. Also, when the Action Button is triggered, everything works, but Xcode logs the following error: \"Failed to build EntityIdentifier. WorkoutAppEntity is not a registered AppEntity identifier\".",
+      "ts": "1666309288.737019",
+      "thread_ts": "1666309288.737019",
+      "subtype": "bot_message",
+      "bot_id": "B042Q3W3KUP",
+      "username": "Ask Apple - watchos",
+      "reply_count": 18,
+      "latest_reply": "1666310797.956919",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "HFL3W",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0483DPL3FA"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"I'm able to get the Action Button working. But for some reason, inside Settings \u003e Action Button, all suggested workouts appear named as \\\"Title\\\", their real name never appear. And when the app runs, Xcode prints the following error: \\\"[Execution] Unable to fetch display representation for intent `StartWorkoutIntent`\\\". The Display Representation is there. Also, when the Action Button is triggered, everything works, but Xcode logs the following error: \\\"Failed to build EntityIdentifier. WorkoutAppEntity is not a registered AppEntity identifier\\\".\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "158ec290-c06a-4433-aeaa-7dc87583b97e",
+          "type": "message",
+          "user": "U044G2FH611",
+          "text": "Hi! Are you able to to show your code, or an example app?",
+          "ts": "1666309327.232999",
+          "thread_ts": "1666309288.737019",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "pHhu+",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi! Are you able to to show your code, or an example app?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "fe3759bd-3534-4fcf-a55f-c7993cb44e56",
+          "type": "message",
+          "user": "U0483DPL3FA",
+          "text": "sure. can I paste here?",
+          "ts": "1666309441.933959",
+          "thread_ts": "1666309288.737019",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "white_check_mark",
+              "count": 1,
+              "users": [
+                "U0441J2N9FH"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "7dzsE",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "sure. can I paste here?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "57d948bd-58c7-41a3-9f34-cdaafc9e808d",
+          "type": "message",
+          "user": "U0483DPL3FA",
+          "text": "//\n// NNStartWorkoutIntent.swift\n// WatchApp Extension\n//\n\nimport Foundation\nimport AppIntents\nimport HealthKit\n\n@available(iOS 16.0, watchOSApplicationExtension 9.0, *)\nstruct NNWorkoutAppEntity: AppEntity, Identifiable, PersistentlyIdentifiable {\n  var id: Int\n  var title: String\n\n  static var persistentIdentifier: String {\n    \"IDHERE\"\n  }\n\n  var displayRepresentation: AppIntents.DisplayRepresentation {\n    DisplayRepresentation(title: \"This is a test\", subtitle: \"This is the sub\")\n  }\n\n  static var typeDisplayRepresentation: TypeDisplayRepresentation = \"Workout Type\"\n\n  //static var typeDisplayName: LocalizedStringResource = \"Workout\"\n\n  static var defaultQuery = NNWorkoutAppEntityQuery()\n}\n\n@available(iOS 16.0, watchOSApplicationExtension 9.0, *)\nstruct NNWorkoutAppEntityQuery: EntityQuery {\n  func entities(for identifiers: [Int]) async throws -\u0026gt; [NNWorkoutAppEntity] {\n    let workouts = try await suggestedEntities()\n    return workouts\n  }\n\n  func suggestedEntities() async throws -\u0026gt; [NNWorkoutAppEntity] {\n    // Return your list of workout types here\n    [NNWorkoutAppEntity(id: 4, title: \"Workout 1\"),\n     NNWorkoutAppEntity(id: 5, title: \"Workout 2\")]\n  }\n}\n\n@available(iOS 16.0, watchOSApplicationExtension 9.0, *)\nstruct NNStartWorkoutIntent: StartWorkoutIntent {\n  // This is the name in the .intentsdefinition file\n  //static var intentClassName: String = \"IntentHandler\"\n\n  typealias WorkoutStyle = NNWorkoutAppEntity\n\n  @Parameter(title: \"Workout\")\n  var workoutStyle: WorkoutStyle\n\n  init() {\n    workoutStyle = .init(id: 1, title: \"Defaut Workout\")\n  }\n\n  static var openAppWhenRun: Bool { true }\n\n  static var suggestedWorkouts: [NNStartWorkoutIntent] {\n    // Return configured workout intents here\n    [NNStartWorkoutIntent(style: WorkoutStyle(id: 2, title: \"Routine A\")),\n     NNStartWorkoutIntent(style: WorkoutStyle(id: 3, title: \"Routine B\"))]\n  }\n\n  var displayRepresentation: AppIntents.DisplayRepresentation {\n    DisplayRepresentation(title: \"This is a test\", subtitle: \"This is the sub\")\n  }\n\n  static var title: LocalizedStringResource = \"Start Workout\"\n\n  static var parameterSummary: some ParameterSummary {\n    Summary(\"Start \\(\\.$workoutStyle)\")\n  }\n\n  @MainActor\n  func perform() async throws -\u0026gt; some IntentResult {\n\n    // Start your workout here\n    NSLog(\"INTENT: %d - %@\", self.workoutStyle.id, self.workoutStyle.title)\n\n    WorkoutManager().startWorkout(workoutType: .running)\n\n    return .result(value: true, actionButtonIntent: NNSmartActionIntent())\n  }\n}\n\n@available(iOS 16.0, watchOSApplicationExtension 9.0, *)\nstruct NNPauseWorkoutIntent: PauseWorkoutIntent {\n  static var title: LocalizedStringResource = \"Pause Workout\"\n\n  func perform() async throws -\u0026gt; some IntentResult {\n    // Pause the workout\n    return .result()\n  }\n}\n\n@available(iOS 16.0, watchOSApplicationExtension 9.0, *)\nstruct NNResumeWorkoutIntent: ResumeWorkoutIntent {\n  static var title: LocalizedStringResource = \"Resume Workout\"\n\n  func perform() async throws -\u0026gt; some IntentResult {\n    // Resume the workout\n    return .result()\n  }\n}\n\n@available(iOS 16.0, watchOSApplicationExtension 9.0, *)\nstruct NNSmartActionIntent: AppIntent {\n  static var title: LocalizedStringResource = \"Smart Action\"\n\n  static var openAppWhenRun: Bool { true }\n\n  @MainActor\n  func perform() async throws -\u0026gt; some IntentResult {\n    NSLog(\"Yay\")\n    return .result(value: true)\n  }\n}\n\n@available(iOS 16.0, watchOSApplicationExtension 9.0, *)\nstruct TestAppShortcuts: AppShortcutsProvider {\n  static var shortcutTileColor: ShortcutTileColor = .lime\n\n  static var appShortcuts: [AppShortcut] {\n    return [\n    AppShortcut(\n      intent: NNStartWorkoutIntent(),\n      phrases: [\"Start Workout with \\(.applicationName)\", \"Start \\(\\.$workoutStyle) with \\(.applicationName)\"],\n      shortTitle: LocalizedStringResource(stringLiteral: \"Start Test App\")\n    ),\n    AppShortcut(\n      intent: NNPauseWorkoutIntent(),\n      phrases: [\"Pause \\(.applicationName) workout\"]\n    ),\n    AppShortcut(\n      intent: NNResumeWorkoutIntent(),\n      phrases: [\"Resume \\(.applicationName) workout\"]\n    )]\n  }\n}",
+          "ts": "1666309530.619219",
+          "thread_ts": "1666309288.737019",
+          "edited": {
+            "user": "U0483DPL3FA",
+            "ts": "1666309576.000000"
+          },
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "PZcKb",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "//\n// NNStartWorkoutIntent.swift\n// WatchApp Extension\n//\n\nimport Foundation\nimport AppIntents\nimport HealthKit\n\n@available(iOS 16.0, watchOSApplicationExtension 9.0, *)\nstruct NNWorkoutAppEntity: AppEntity, Identifiable, PersistentlyIdentifiable {\n  var id: Int\n  var title: String\n\n  static var persistentIdentifier: String {\n    \"IDHERE\"\n  }\n\n  var displayRepresentation: AppIntents.DisplayRepresentation {\n    DisplayRepresentation(title: \"This is a test\", subtitle: \"This is the sub\")\n  }\n\n  static var typeDisplayRepresentation: TypeDisplayRepresentation = \"Workout Type\"\n\n  //static var typeDisplayName: LocalizedStringResource = \"Workout\"\n\n  static var defaultQuery = NNWorkoutAppEntityQuery()\n}\n\n@available(iOS 16.0, watchOSApplicationExtension 9.0, *)\nstruct NNWorkoutAppEntityQuery: EntityQuery {\n  func entities(for identifiers: [Int]) async throws -\u003e [NNWorkoutAppEntity] {\n    let workouts = try await suggestedEntities()\n    return workouts\n  }\n\n  func suggestedEntities() async throws -\u003e [NNWorkoutAppEntity] {\n    // Return your list of workout types here\n    [NNWorkoutAppEntity(id: 4, title: \"Workout 1\"),\n     NNWorkoutAppEntity(id: 5, title: \"Workout 2\")]\n  }\n}\n\n@available(iOS 16.0, watchOSApplicationExtension 9.0, *)\nstruct NNStartWorkoutIntent: StartWorkoutIntent {\n  // This is the name in the .intentsdefinition file\n  //static var intentClassName: String = \"IntentHandler\"\n\n  typealias WorkoutStyle = NNWorkoutAppEntity\n\n  @Parameter(title: \"Workout\")\n  var workoutStyle: WorkoutStyle\n\n  init() {\n    workoutStyle = .init(id: 1, title: \"Defaut Workout\")\n  }\n\n  static var openAppWhenRun: Bool { true }\n\n  static var suggestedWorkouts: [NNStartWorkoutIntent] {\n    // Return configured workout intents here\n    [NNStartWorkoutIntent(style: WorkoutStyle(id: 2, title: \"Routine A\")),\n     NNStartWorkoutIntent(style: WorkoutStyle(id: 3, title: \"Routine B\"))]\n  }\n\n  var displayRepresentation: AppIntents.DisplayRepresentation {\n    DisplayRepresentation(title: \"This is a test\", subtitle: \"This is the sub\")\n  }\n\n  static var title: LocalizedStringResource = \"Start Workout\"\n\n  static var parameterSummary: some ParameterSummary {\n    Summary(\"Start \\(\\.$workoutStyle)\")\n  }\n\n  @MainActor\n  func perform() async throws -\u003e some IntentResult {\n\n    // Start your workout here\n    NSLog(\"INTENT: %d - %@\", self.workoutStyle.id, self.workoutStyle.title)\n\n    WorkoutManager().startWorkout(workoutType: .running)\n\n    return .result(value: true, actionButtonIntent: NNSmartActionIntent())\n  }\n}\n\n@available(iOS 16.0, watchOSApplicationExtension 9.0, *)\nstruct NNPauseWorkoutIntent: PauseWorkoutIntent {\n  static var title: LocalizedStringResource = \"Pause Workout\"\n\n  func perform() async throws -\u003e some IntentResult {\n    // Pause the workout\n    return .result()\n  }\n}\n\n@available(iOS 16.0, watchOSApplicationExtension 9.0, *)\nstruct NNResumeWorkoutIntent: ResumeWorkoutIntent {\n  static var title: LocalizedStringResource = \"Resume Workout\"\n\n  func perform() async throws -\u003e some IntentResult {\n    // Resume the workout\n    return .result()\n  }\n}\n\n@available(iOS 16.0, watchOSApplicationExtension 9.0, *)\nstruct NNSmartActionIntent: AppIntent {\n  static var title: LocalizedStringResource = \"Smart Action\"\n\n  static var openAppWhenRun: Bool { true }\n\n  @MainActor\n  func perform() async throws -\u003e some IntentResult {\n    NSLog(\"Yay\")\n    return .result(value: true)\n  }\n}\n\n@available(iOS 16.0, watchOSApplicationExtension 9.0, *)\nstruct TestAppShortcuts: AppShortcutsProvider {\n  static var shortcutTileColor: ShortcutTileColor = .lime\n\n  static var appShortcuts: [AppShortcut] {\n    return [\n    AppShortcut(\n      intent: NNStartWorkoutIntent(),\n      phrases: [\"Start Workout with \\(.applicationName)\", \"Start \\(\\.$workoutStyle) with \\(.applicationName)\"],\n      shortTitle: LocalizedStringResource(stringLiteral: \"Start Test App\")\n    ),\n    AppShortcut(\n      intent: NNPauseWorkoutIntent(),\n      phrases: [\"Pause \\(.applicationName) workout\"]\n    ),\n    AppShortcut(\n      intent: NNResumeWorkoutIntent(),\n      phrases: [\"Resume \\(.applicationName) workout\"]\n    )]\n  }\n}"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "bd908ad9-e216-43da-860b-76203585c47a",
+          "type": "message",
+          "user": "U044G2FH611",
+          "text": "Thanks! And the issue you’re seeing is that in Settings the workout title is “Title” instead of “This is a test” as you would expect?",
+          "ts": "1666309739.475589",
+          "thread_ts": "1666309288.737019",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "5UV/",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks! And the issue you’re seeing is that in Settings the workout title is “Title” instead of “This is a test” as you would expect?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "e064c536-d710-4229-879c-15d6400aba4c",
+          "type": "message",
+          "user": "U0483DPL3FA",
+          "text": "Exactly.",
+          "ts": "1666309760.634649",
+          "thread_ts": "1666309288.737019",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "NjRB",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Exactly."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "5a8728a8-89fa-4dd1-a0ae-634d952e1d52",
+          "type": "message",
+          "user": "U0483DPL3FA",
+          "text": "Or as the provided title in the suggestedEntities/suggestedWorkouts.",
+          "ts": "1666309809.894799",
+          "thread_ts": "1666309288.737019",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "fnt",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Or as the provided title in the suggestedEntities/suggestedWorkouts."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "b5d39bc4-3c4f-4343-94b1-f793a60d6591",
+          "type": "message",
+          "user": "U044G2FH611",
+          "text": "One thing I’m seeing is …",
+          "ts": "1666309887.091049",
+          "thread_ts": "1666309288.737019",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "QyhNt",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "One thing I’m seeing is …"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "fd630e81-4744-42e0-8970-898c04cf7305",
+          "type": "message",
+          "user": "U044G2FH611",
+          "text": "Your implementation of `func entities(for identifiers: [Int]) async throws -\u0026gt; [NNWorkoutAppEntity] {` looks strange.",
+          "ts": "1666309917.917959",
+          "thread_ts": "1666309288.737019",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ZLqR",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Your implementation of "
+                    },
+                    {
+                      "type": "text",
+                      "text": "func entities(for identifiers: [Int]) async throws -\u003e [NNWorkoutAppEntity] {",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " looks strange."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "d26da301-d44b-43ed-946d-d73393134ca0",
+          "type": "message",
+          "user": "U044G2FH611",
+          "text": "It is supposed to return entities from a database (or fixed list) for those identifiers. But instead you’re returning the entire fixed list.",
+          "ts": "1666309934.567349",
+          "thread_ts": "1666309288.737019",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "t4AK",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "It is supposed to return entities from a database (or fixed list) for those identifiers. But instead you’re returning the entire fixed list."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "71681a98-0fc0-40fc-8a2a-e923b3f00d5b",
+          "type": "message",
+          "user": "U044G2FH611",
+          "text": "And moreover the list doesn’t include the entities you use in your suggested workouts.",
+          "ts": "1666309943.254799",
+          "thread_ts": "1666309288.737019",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "PY2",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "And moreover the list doesn’t include the entities you use in your suggested workouts."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "472cffe6-02bc-4150-b2c9-e8e769d5d993",
+          "type": "message",
+          "user": "U0483DPL3FA",
+          "text": "I've been changing this code to try to find out what is going on.",
+          "ts": "1666309966.001839",
+          "thread_ts": "1666309288.737019",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "e59ZU",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I've been changing this code to try to find out what is going on."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "02bc42e1-ea16-438a-a88c-9893a5b47df7",
+          "type": "message",
+          "user": "U044G2FH611",
+          "text": "Basically your entities(for identifiers) call should be _looking up_ entities from some set, which is the same one that your suggestedEntities and your suggestedWorkouts should refer to.",
+          "ts": "1666310010.664409",
+          "thread_ts": "1666309288.737019",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ondUe",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Basically your entities(for identifiers) call should be "
+                    },
+                    {
+                      "type": "text",
+                      "text": "looking up",
+                      "style": {
+                        "italic": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " entities from some set, which is the same one that your suggestedEntities and your suggestedWorkouts should refer to."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "ab0ad567-8d76-4a5f-9a76-f34b7835d0d6",
+          "type": "message",
+          "user": "U044G2FH611",
+          "text": "I would also get rid of your `persistentIdentifier` implementation. It shouldn’t be needed here and it might cause confusion.",
+          "ts": "1666310067.313889",
+          "thread_ts": "1666309288.737019",
+          "edited": {
+            "user": "U044G2FH611",
+            "ts": "1666310079.000000"
+          },
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "1=jWR",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "I would also get rid of your "
+                    },
+                    {
+                      "type": "text",
+                      "text": "persistentIdentifier",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " implementation. It shouldn’t be needed here and it might cause confusion."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "56bd390c-9c11-443a-905b-1118906fad8b",
+          "type": "message",
+          "user": "U0483DPL3FA",
+          "text": "This was previously like this (But didn't work):\nfunc entities(for identifiers: [Int]) async throws -\u0026gt; [NNWorkoutAppEntity] {\n    let workouts = try await suggestedEntities()\n    return workouts.filter { identifiers.contains($0.id) }\n  }",
+          "ts": "1666310095.914059",
+          "thread_ts": "1666309288.737019",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "nf6J",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "This was previously like this (But didn't work):\nfunc entities(for identifiers: [Int]) async throws -\u003e [NNWorkoutAppEntity] {\n    let workouts = try await suggestedEntities()\n    return workouts.filter { identifiers.contains($0.id) }\n  }"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "521052de-2715-4563-98a9-ba803b0cb0ef",
+          "type": "message",
+          "user": "U044G2FH611",
+          "text": "That sounds better. But you also need to make sure that your suggestedWorkouts references entities that are also found in your suggestedEntities and that can be resolved by id using your entities(for identifiers) call",
+          "ts": "1666310138.816089",
+          "thread_ts": "1666309288.737019",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "aJp",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "That sounds better. But you also need to make sure that your suggestedWorkouts references entities that are also found in your suggestedEntities and that can be resolved by id using your entities(for identifiers) call"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "4460ebd9-3890-4d87-98fd-54284c4ac553",
+          "type": "message",
+          "user": "U0483DPL3FA",
+          "text": "Oh, so that's what was causing the bug. suggestedEntities and suggestedWorkouts need to return the exact same thing.",
+          "ts": "1666310333.388519",
+          "thread_ts": "1666309288.737019",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "4ZX",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Oh, so that's what was causing the bug. suggestedEntities and suggestedWorkouts need to return the exact same thing."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "dd98271b-0bc0-4e1b-bcd7-173421c3e47e",
+          "type": "message",
+          "user": "U0483DPL3FA",
+          "text": "Since I was running with some dummy data to test this, they were different, so I could debug which one was which.",
+          "ts": "1666310356.391819",
+          "thread_ts": "1666309288.737019",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ooh",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Since I was running with some dummy data to test this, they were different, so I could debug which one was which."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "8f3254f4-16a6-4e5d-9a83-a434b89a51b0",
+          "type": "message",
+          "user": "U044G2FH611",
+          "text": "suggestedWorkouts could also include other parameters, or a subset of what is in suggestedEntities",
+          "ts": "1666310797.956919",
+          "thread_ts": "1666309288.737019",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "svNfk",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "suggestedWorkouts could also include other parameters, or a subset of what is in suggestedEntities"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U046745N37G\u003e asked\n\u0026gt; We have our watch app localizations in a separate Swift Package. We’ve been able to use them as LocalizedStringResources for our AppEntity’s and they appear correctly localized in the Settings app. However, the same technique doesn’t work for StartWorkoutIntent.title’s LocalizedStringResource, the flashing screen just shows our localization key. \n\u0026gt; \n\u0026gt; We find the bundle description with `LocalizedStringResource.BundleDescription.atURL(Bundle.module.bundleURL)` and create the LocalizedStringResource with `LocalizedStringResource(String.LocalizationValue(key), bundle: bundleDescription)`.\n\u0026gt; \n\u0026gt; Do you have any suggestion as to what may be the problem? \n\u0026gt; \n\u0026gt; Thanks again :)",
+      "ts": "1666309517.318359",
+      "thread_ts": "1666309517.318359",
+      "subtype": "bot_message",
+      "bot_id": "B042Q3W3KUP",
+      "username": "Ask Apple - watchos",
+      "reply_count": 3,
+      "latest_reply": "1666378766.808389",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "OpU",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U046745N37G"
+                },
+                {
+                  "type": "text",
+                  "text": " asked\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"We have our watch app localizations in a separate Swift Package. We\\u2019ve been able to use them as LocalizedStringResources for our AppEntity\\u2019s and they appear correctly localized in the Settings app. However, the same technique doesn\\u2019t work for StartWorkoutIntent.title\\u2019s LocalizedStringResource, the flashing screen just shows our localization key. \\n\\nWe find the bundle description with `LocalizedStringResource.BundleDescription.atURL(Bundle.module.bundleURL)` and create the LocalizedStringResource with `LocalizedStringResource(String.LocalizationValue(key), bundle: bundleDescription)`.\\n\\nDo you have any suggestion as to what may be the problem? \\n\\nThanks again :)\"}]}"
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "f08ce00f-a391-4f5c-b959-95f49e2940f3",
+          "type": "message",
+          "user": "U044G2FH611",
+          "text": "Hi! Thanks for writing this up. The title does need to be statically extracted, and this process does not currently support a separate bundle specified using the bundle argument. You’ll need to keep these particular strings in your “leaf node” app / bundle, rather that in a framework or other bundle.",
+          "ts": "1666309572.277309",
+          "thread_ts": "1666309517.318359",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "0Wna",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hi! Thanks for writing this up. The title does need to be statically extracted, and this process does not currently support a separate bundle specified using the bundle argument. You’ll need to keep these particular strings in your “leaf node” app / bundle, rather that in a framework or other bundle."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "97d43a97-517a-4323-9c32-3b6753bc4fd3",
+          "type": "message",
+          "user": "U044G2FH611",
+          "text": "Hopefully that unblocks you. If this limitation is a significant issue for you, it would be helpful if you could file a Feedback with a bit of background as to why, as those help us prioritize!",
+          "ts": "1666309612.629759",
+          "thread_ts": "1666309517.318359",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "heavy_plus_sign",
+              "count": 3,
+              "users": [
+                "U0441J2N9FH",
+                "U044G2H5KEX",
+                "U046745N37G"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "8+D/",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Hopefully that unblocks you. If this limitation is a significant issue for you, it would be helpful if you could file a Feedback with a bit of background as to why, as those help us prioritize!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "cdeee108-1765-4d0b-b306-3d820c8b55c6",
+          "type": "message",
+          "user": "U046745N37G",
+          "text": "Thanks! Yes, I've managed to localize the titles for the workouts intents after your explanation. I've also submitted feedback FB11709355 explaining why we'd like to be able to have this localizations in another bundle.",
+          "ts": "1666378766.808389",
+          "thread_ts": "1666309517.318359",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "gratitude-thank-you",
+              "count": 1,
+              "users": [
+                "U044G54ACSE"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "lkvz+",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Thanks! Yes, I've managed to localize the titles for the workouts intents after your explanation. I've also submitted feedback FB11709355 explaining why we'd like to be able to have this localizations in another bundle."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "60d3f404-f735-4098-8d13-d14bae6700fa",
+      "type": "message",
+      "user": "U0441J2N9FH",
+      "text": "Posting a question that came up in one of the other Q\u0026amp;As but that the engineers there didn’t have time to answer (\u0026amp; hoping my answer’s helpful :slightly_smiling_face:)\n\u0026gt; _Is it possible to send data from the Watch, (specifically in the WidgetKit timeline context) to the phone to capture analytics about which complications are actively being used by users? It seems like user defaults values aren’t persisted when stored in that context. The ultimate goal is to know which complications are being used without needing a user to tap one / open the watch app itself._\n",
+      "ts": "1666310225.064169",
+      "thread_ts": "1666310225.064169",
+      "reply_count": 2,
+      "latest_reply": "1666310411.902479",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "eS1qA",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Posting a question that came up in one of the other Q\u0026As but that the engineers there didn’t have time to answer (\u0026 hoping my answer’s helpful "
+                },
+                {
+                  "type": "emoji",
+                  "name": "slightly_smiling_face",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": ")\n"
+                }
+              ]
+            },
+            {
+              "Type": "rich_text_quote",
+              "Raw": "{\"type\":\"rich_text_quote\",\"elements\":[{\"type\":\"text\",\"text\":\"Is it possible to send data from the Watch, (specifically in the WidgetKit timeline context) to the phone to capture analytics about which complications are actively being used by users? It seems like user defaults values aren\\u2019t persisted when stored in that context. The ultimate goal is to know which complications are being used without needing a user to tap one \\/ open the watch app itself.\",\"style\":{\"italic\":true}}]}"
+            },
+            {
+              "type": "rich_text_section",
+              "elements": []
+            }
+          ]
+        }
+      ],
+      "slackdump_thread_replies": [
+        {
+          "client_msg_id": "afffb73f-323d-4f3b-905e-1d598a6f5a25",
+          "type": "message",
+          "user": "U0441J2N9FH",
+          "text": "One way might be the :sleuth_or_spy::skin-tone-2: way (I think of it like a dead drop :slightly_smiling_face:) : write the data to a shared container that your app can also access.",
+          "ts": "1666310314.405629",
+          "thread_ts": "1666310225.064169",
+          "parent_user_id": "U0441J2N9FH",
+          "team": "T03U5MWB2FN",
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "rVv",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "One way might be the "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "sleuth_or_spy",
+                      "skin_tone": 2
+                    },
+                    {
+                      "type": "text",
+                      "text": " way (I think of it like a dead drop "
+                    },
+                    {
+                      "type": "emoji",
+                      "name": "slightly_smiling_face",
+                      "skin_tone": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": ") : write the data to a shared container that your app can also access."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "client_msg_id": "5903482c-d14f-4941-a0a9-656c5e40d97b",
+          "type": "message",
+          "user": "U044G54ACSE",
+          "text": "Once your Watch app has the data, you can transfer it to your phone using WatchConnectivity. You can check out this WWDC session for more information on that and other data transfer technologies: \u003chttps://developer.apple.com/videos/play/wwdc2021/10003/\u003e",
+          "ts": "1666310411.902479",
+          "thread_ts": "1666310225.064169",
+          "attachments": [
+            {
+              "fallback": "Apple Developer: There and back again: Data transfer on Apple Watch - WWDC21 - Videos - Apple Developer",
+              "id": 1,
+              "title": "There and back again: Data transfer on Apple Watch - WWDC21 - Videos - Apple Developer",
+              "title_link": "https://developer.apple.com/videos/play/wwdc2021/10003/",
+              "text": "Advances in Apple Watch give you more ways to communicate to and from your app, and new audiences to consider. Learn what strategies are...",
+              "image_url": "https://devimages-cdn.apple.com/wwdc-services/images/119/4844/4844_wide_250x141_2x.jpg",
+              "service_name": "Apple Developer",
+              "service_icon": "https://developer.apple.com/favicon.ico",
+              "from_url": "https://developer.apple.com/videos/play/wwdc2021/10003/",
+              "original_url": "https://developer.apple.com/videos/play/wwdc2021/10003/",
+              "blocks": null
+            }
+          ],
+          "parent_user_id": "U0441J2N9FH",
+          "team": "T03U5MWB2FN",
+          "reactions": [
+            {
+              "name": "gratitude-thank-you",
+              "count": 1,
+              "users": [
+                "U0441J2N9FH"
+              ]
+            }
+          ],
+          "replace_original": false,
+          "delete_original": false,
+          "blocks": [
+            {
+              "type": "rich_text",
+              "block_id": "ykCoC",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Once your Watch app has the data, you can transfer it to your phone using WatchConnectivity. You can check out this WWDC session for more information on that and other data transfer technologies: "
+                    },
+                    {
+                      "type": "link",
+                      "url": "https://developer.apple.com/videos/play/wwdc2021/10003/",
+                      "text": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "text": "\u003c@U0441J2N9FH\u003e removed a workflow from this channel: *Ask Apple - watchos*.",
+      "ts": "1666310392.155149",
+      "subtype": "bot_message",
+      "bot_id": "B042Q3W3KUP",
+      "username": "Ask Apple - watchos",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "fa8HZ",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0441J2N9FH"
+                },
+                {
+                  "type": "text",
+                  "text": " removed a workflow from this channel: "
+                },
+                {
+                  "type": "text",
+                  "text": "Ask Apple - watchos",
+                  "style": {
+                    "bold": true
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "b6a83e36-b8d2-4651-8571-6d5ac4bbda66",
+      "type": "message",
+      "user": "U0441J2N9FH",
+      "text": "Thanks for joining us, everyone! We’ll leave the threads open for a few more minutes to give the engineers a chance to finish their thoughts (and for you to post Feedback numbers!).",
+      "ts": "1666310446.647289",
+      "team": "T03U5MWB2FN",
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "x5xD=",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Thanks for joining us, everyone! We’ll leave the threads open for a few more minutes to give the engineers a chance to finish their thoughts (and for you to post Feedback numbers!)."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "client_msg_id": "5806c1cc-69c4-4cca-8090-992d2e19bf5f",
+      "type": "message",
+      "user": "U0441J2N9FH",
+      "text": "Hello again! We’ve opened up threads for a few hours to give everyone an opportunity to provide some feedback (and Feedback numbers, if you filed any after the event and didn’t get a chance to post them in your question thread). Were the topics in the channels clear? Did we cover the topics you were interested in? Did you ask questions (:question:) or just lurk (:eyes:)? Have you made the jump to SwiftUI (:swift-blue: ) in your app, or are you still using WatchKit for UI (:watchkit:)?",
+      "ts": "1666376259.737929",
+      "team": "T03U5MWB2FN",
+      "reactions": [
+        {
+          "name": "partying_face",
+          "count": 1,
+          "users": [
+            "U03V30M0C1K"
+          ]
+        },
+        {
+          "name": "question",
+          "count": 1,
+          "users": [
+            "U0441J2N9FH"
+          ]
+        },
+        {
+          "name": "swift-blue",
+          "count": 3,
+          "users": [
+            "U0441J2N9FH",
+            "U04625ZF30T",
+            "U045MLXJX71"
+          ]
+        },
+        {
+          "name": "eyes",
+          "count": 1,
+          "users": [
+            "U045MLXJX71"
+          ]
+        },
+        {
+          "name": "heart",
+          "count": 1,
+          "users": [
+            "U0470KL5WMP"
+          ]
+        }
+      ],
+      "replace_original": false,
+      "delete_original": false,
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "vhj",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "Hello again! We’ve opened up threads for a few hours to give everyone an opportunity to provide some feedback (and Feedback numbers, if you filed any after the event and didn’t get a chance to post them in your question thread). Were the topics in the channels clear? Did we cover the topics you were interested in? Did you ask questions ("
+                },
+                {
+                  "type": "emoji",
+                  "name": "question",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": ") or just lurk ("
+                },
+                {
+                  "type": "emoji",
+                  "name": "eyes",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": ")? Have you made the jump to SwiftUI ("
+                },
+                {
+                  "type": "emoji",
+                  "name": "swift-blue",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": " ) in your app, or are you still using WatchKit for UI ("
+                },
+                {
+                  "type": "emoji",
+                  "name": "watchkit",
+                  "skin_tone": 0
+                },
+                {
+                  "type": "text",
+                  "text": ")?"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "channel_id": "C0432JBQ78U"
+}
